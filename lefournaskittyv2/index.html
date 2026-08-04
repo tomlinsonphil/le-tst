@@ -231,6 +231,22 @@
   }
   .participants input{width:auto;}
 
+  .who-was-there{display:flex; flex-direction:column; gap:10px; margin-top:4px;}
+  .who-group-label{
+    display:block;
+    font-size:11px; font-weight:600; color:var(--ink-soft);
+    text-transform:uppercase; letter-spacing:0.04em; margin-bottom:4px;
+  }
+  .who-group .people{display:flex; gap:12px; flex-wrap:wrap;}
+  .who-group .people label{
+    display:flex; align-items:center; gap:5px;
+    text-transform:none; font-weight:500; font-size:13.5px; color:var(--ink);
+    margin:0;
+  }
+  .who-group .people input{width:auto;}
+  .entry .desc a{color:var(--ink); text-decoration:underline; text-decoration-color:var(--stone-line);}
+  .entry .desc a:hover{color:var(--lavender-deep); text-decoration-color:var(--lavender);}
+
   .toggle-row{display:flex; gap:10px; margin-bottom:16px;}
   .toggle-row .btn.tab{
     background:transparent; color:var(--ink-soft); border:1px solid var(--stone-line);
@@ -352,6 +368,10 @@
           <label>Description</label>
           <input type="text" id="d-desc">
         </div>
+        <div class="full">
+          <label>Receipt link (optional)</label>
+          <input type="text" id="d-link" placeholder="Paste the Google Drive link to the scan">
+        </div>
         <div>
           <label>Who paid</label>
           <select id="d-payer">
@@ -360,13 +380,9 @@
             <option value="GE">Guy &amp; Elisabeth</option>
           </select>
         </div>
-        <div>
+        <div class="full">
           <label>Who was there</label>
-          <div class="participants">
-            <label><input type="checkbox" class="d-part" value="TD" checked> P&amp;D</label>
-            <label><input type="checkbox" class="d-part" value="JOFF" checked> Julia&amp;Oli</label>
-            <label><input type="checkbox" class="d-part" value="GE" checked> Guy&amp;E.</label>
-          </div>
+          <div class="who-was-there" id="d-participants"></div>
         </div>
         <div class="full form-actions">
           <button class="btn" id="add-scanned-btn">Add to ledger</button>
@@ -388,6 +404,7 @@
         <div><label>Date</label><input type="date" id="r-date"></div>
         <div><label>Amount (€)</label><input type="number" step="0.01" id="r-amount"></div>
         <div class="full"><label>Description</label><input type="text" id="r-desc" placeholder="e.g. Lidl groceries"></div>
+        <div class="full"><label>Receipt link (optional)</label><input type="text" id="r-link" placeholder="Paste the Google Drive link to the scan"></div>
         <div>
           <label>Who paid</label>
           <select id="r-payer">
@@ -396,13 +413,9 @@
             <option value="GE">Guy &amp; Elisabeth</option>
           </select>
         </div>
-        <div>
+        <div class="full">
           <label>Who was there</label>
-          <div class="participants">
-            <label><input type="checkbox" class="r-part" value="TD" checked> P&amp;D</label>
-            <label><input type="checkbox" class="r-part" value="JOFF" checked> Julia&amp;Oli</label>
-            <label><input type="checkbox" class="r-part" value="GE" checked> Guy&amp;E.</label>
-          </div>
+          <div class="who-was-there" id="r-participants"></div>
         </div>
       </div>
       <div class="form-actions"><button class="btn" id="add-receipt-btn">Add receipt</button></div>
@@ -453,16 +466,31 @@ const GROUPS = {
   GE:   { name:"Guy & Elisabeth",   parts:2 }
 };
 
+const PEOPLE = {
+  TD:   ["Philip","Danielle","Millie","Lottie"],
+  JOFF: ["Julia","Oli","Florence","Felicity"],
+  GE:   ["Guy","Elisabeth"]
+};
+
+const GROUP_LABELS = {
+  TD: "Philip & Danielle household",
+  JOFF: "Julia & Oli household",
+  GE: "Guy & Elisabeth"
+};
+
 const SEED = {
   receipts: [
     {
       id:"r-seed-1", date:"2026-08-03", payer:"GE", amount:201.98,
-      desc:"Lidl groceries", participants:["TD","JOFF","GE"]
+      desc:"Lidl groceries",
+      link:"https://drive.google.com/file/d/1GeC7USU56yf_D2gYRNDx-wqH4f3MmNmv/view",
+      participants:["Philip","Danielle","Millie","Lottie","Julia","Oli","Florence","Felicity","Guy","Elisabeth"]
     },
     {
       id:"r-seed-2", date:"2026-08-04", payer:"JOFF", amount:26.80,
       desc:"Café — 4 café crème, 2 apple juice, 1 orange juice, 1 Orangina",
-      participants:["TD","JOFF"]
+      link:"",
+      participants:["Philip","Danielle","Millie","Lottie","Julia","Oli","Florence","Felicity"]
     }
   ],
   settlements: [
@@ -472,6 +500,33 @@ const SEED = {
     }
   ]
 };
+
+function buildParticipantCheckboxes(containerId, cssClass){
+  const container = document.getElementById(containerId);
+  container.innerHTML = Object.keys(PEOPLE).map(g => `
+    <div class="who-group" data-group="${g}">
+      <span class="who-group-label">${GROUP_LABELS[g]}</span>
+      <div class="people">
+        ${PEOPLE[g].map(person => `
+          <label><input type="checkbox" class="${cssClass}" data-group="${g}" value="${person}" checked> ${person}</label>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+function groupsPresent(participants){
+  return Object.keys(PEOPLE).filter(g => PEOPLE[g].some(person => participants.includes(person)));
+}
+
+// migrate any legacy entries whose participants were stored as group keys (TD/JOFF/GE)
+// rather than individual people, so old saved ledgers keep working.
+function migrateData(){
+  data.receipts.forEach(r => {
+    r.participants = r.participants.flatMap(p => PEOPLE[p] ? PEOPLE[p] : [p]);
+    if(r.link === undefined) r.link = "";
+  });
+}
 
 let data = { receipts: [], settlements: [] };
 
@@ -490,6 +545,9 @@ async function loadData(){
     data = JSON.parse(JSON.stringify(SEED));
     try{ await persist(); } catch(e2){ console.error("save failed", e2); }
   }
+  migrateData();
+  buildParticipantCheckboxes('d-participants', 'd-part');
+  buildParticipantCheckboxes('r-participants', 'r-part');
   renderAll();
 }
 
@@ -517,13 +575,13 @@ function computeBalances(){
   }
 
   data.receipts.forEach(r => {
-    const parts = r.participants.filter(p => GROUPS[p]);
-    const totalParts = parts.reduce((s,p) => s + GROUPS[p].parts, 0);
+    const presentGroups = groupsPresent(r.participants);
+    const totalParts = presentGroups.reduce((s,g) => s + GROUPS[g].parts, 0);
     if(totalParts <= 0) return;
-    parts.forEach(p => {
-      if(p === r.payer) return;
-      const share = r.amount * (GROUPS[p].parts / totalParts);
-      addDebt(p, r.payer, share);
+    presentGroups.forEach(g => {
+      if(g === r.payer) return;
+      const share = r.amount * (GROUPS[g].parts / totalParts);
+      addDebt(g, r.payer, share);
     });
   });
 
@@ -592,7 +650,13 @@ function renderTimeline(){
   const items = [
     ...data.receipts.map(r => ({...r, _type:'receipt'})),
     ...data.settlements.map(s => ({...s, _type:'settlement'}))
-  ].sort((a,b) => b.date.localeCompare(a.date));
+  ].sort((a,b) => {
+    const dateCmp = b.date.localeCompare(a.date);
+    if(dateCmp !== 0) return dateCmp;
+    // same date: receipts before settlements
+    if(a._type === b._type) return 0;
+    return a._type === 'receipt' ? -1 : 1;
+  });
 
   const el = document.getElementById('timeline');
   if(items.length === 0){
@@ -602,15 +666,18 @@ function renderTimeline(){
 
   el.innerHTML = items.map(item => {
     if(item._type === 'receipt'){
-      const parts = item.participants.map(p => GROUPS[p] ? GROUPS[p].name.split(' ')[0] + (p==='JOFF'?'':'') : p).join(', ');
+      const names = item.participants.join(', ');
+      const descHtml = item.link
+        ? `<a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.desc || 'Receipt')}</a>`
+        : escapeHtml(item.desc || 'Receipt');
       return `<div class="entry">
         <div class="date">${item.date}</div>
         <div class="body">
           <div class="title-row">
             <span class="badge receipt">Receipt</span>
-            <span class="desc">${escapeHtml(item.desc || 'Receipt')}</span>
+            <span class="desc">${descHtml}</span>
           </div>
-          <div class="meta">Paid by ${GROUPS[item.payer]?.name || item.payer} · shared with ${parts}</div>
+          <div class="meta">Paid by ${GROUPS[item.payer]?.name || item.payer} · with ${names}</div>
         </div>
         <div class="amt">${fmt(item.amount)}</div>
         <button class="del" title="Delete" data-id="${item.id}" data-type="receipt">✕</button>
@@ -653,19 +720,21 @@ document.getElementById('add-receipt-btn').addEventListener('click', async () =>
   const date = document.getElementById('r-date').value;
   const amount = parseFloat(document.getElementById('r-amount').value);
   const desc = document.getElementById('r-desc').value.trim();
+  const link = document.getElementById('r-link').value.trim();
   const payer = document.getElementById('r-payer').value;
   const participants = [...document.querySelectorAll('.r-part:checked')].map(c => c.value);
 
   if(!date || isNaN(amount) || amount <= 0 || participants.length === 0){
-    alert('Please fill in a date, a positive amount, and at least one household.');
+    alert('Please fill in a date, a positive amount, and at least one person.');
     return;
   }
-  data.receipts.push({ id: uid('r'), date, payer, amount, desc, participants });
+  data.receipts.push({ id: uid('r'), date, payer, amount, desc, link, participants });
   await persist();
   renderAll();
   document.getElementById('r-date').value = '';
   document.getElementById('r-amount').value = '';
   document.getElementById('r-desc').value = '';
+  document.getElementById('r-link').value = '';
 });
 
 // ---- Manual add: settlement ----
@@ -782,14 +851,15 @@ document.getElementById('add-scanned-btn').addEventListener('click', async () =>
   const date = document.getElementById('d-date').value;
   const amount = parseFloat(document.getElementById('d-amount').value);
   const desc = document.getElementById('d-desc').value.trim();
+  const link = document.getElementById('d-link').value.trim();
   const payer = document.getElementById('d-payer').value;
   const participants = [...document.querySelectorAll('.d-part:checked')].map(c => c.value);
 
   if(!date || isNaN(amount) || amount <= 0 || participants.length === 0){
-    alert('Please fill in a date, a positive amount, and at least one household.');
+    alert('Please fill in a date, a positive amount, and at least one person.');
     return;
   }
-  data.receipts.push({ id: uid('r'), date, payer, amount, desc, participants });
+  data.receipts.push({ id: uid('r'), date, payer, amount, desc, link, participants });
   await persist();
   renderAll();
   resetScanUI();
@@ -803,6 +873,7 @@ function resetScanUI(){
   document.getElementById('file-input').value = '';
   document.getElementById('thumb').style.display = 'none';
   document.getElementById('extract-btn').disabled = true;
+  document.getElementById('d-link').value = '';
   selectedFile = null; selectedBase64 = null; selectedMime = null;
 }
 
