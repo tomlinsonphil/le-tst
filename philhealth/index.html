@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Philip Tomlinson — Health Dashboard</title>
+<style>
+  :root {
+    --cream: #F7F3EE;
+    --ink: #1A1A1A;
+    --mid: #555;
+    --light: #999;
+    --border: #DDD8D0;
+    --card: #FFFFFF;
+    --red: #B03A2E;
+    --amber: #A04000;
+    --green: #1E8449;
+    --blue: #154360;
+    --blue-light: #EAF2F8;
+    --red-light: #FDEDEC;
+    --amber-light: #FEF5E7;
+    --green-light: #EAFAF1;
+    --nav-h: 52px;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+    background: var(--cream);
+    color: var(--ink);
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* NAV */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background: var(--ink);
+    display: flex;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  nav::-webkit-scrollbar { display: none; }
+
+  nav a {
+    color: #AAA;
+    text-decoration: none;
+    padding: 0 16px;
+    height: var(--nav-h);
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+    border-bottom: 3px solid transparent;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  nav a:hover, nav a.active {
+    color: white;
+    border-bottom-color: #E67E22;
+  }
+
+  /* HEADER */
+  .site-header {
+    background: var(--ink);
+    color: white;
+    padding: 20px 20px 16px;
+    border-bottom: 3px solid #E67E22;
+  }
+
+  .site-header h1 { font-size: 22px; font-weight: 300; letter-spacing: -0.3px; }
+  .site-header h1 strong { font-weight: 700; }
+  .site-header p { color: #888; font-size: 12px; margin-top: 3px; }
+
+  /* MAIN LAYOUT */
+  main { padding: 20px 16px 60px; max-width: 900px; margin: 0 auto; }
+
+  /* SECTION */
+  section { margin-bottom: 40px; }
+  section:target { scroll-margin-top: calc(var(--nav-h) + 12px); }
+
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+  }
+
+  .section-head h2 { font-size: 17px; font-weight: 700; }
+  .section-head span { font-size: 11px; color: var(--light); text-transform: uppercase; letter-spacing: 1px; }
+
+  /* STATUS PILLS */
+  .pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    padding: 3px 9px;
+    border-radius: 20px;
+  }
+
+  .pill::before { content: '●'; font-size: 8px; }
+  .pill-red { background: var(--red-light); color: var(--red); }
+  .pill-amber { background: var(--amber-light); color: var(--amber); }
+  .pill-green { background: var(--green-light); color: var(--green); }
+  .pill-blue { background: var(--blue-light); color: var(--blue); }
+
+  /* ISSUE CARDS */
+  .issues { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  @media (max-width: 560px) { .issues { grid-template-columns: 1fr; } }
+
+  .issue-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    border-top: 4px solid var(--border);
+  }
+
+  .issue-card.red { border-top-color: var(--red); }
+  .issue-card.amber { border-top-color: #E67E22; }
+  .issue-card.green { border-top-color: var(--green); }
+  .issue-card.blue { border-top-color: var(--blue); }
+
+  .issue-title {
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+  }
+
+  .issue-body { font-size: 13px; color: var(--mid); line-height: 1.55; }
+
+  /* EXPLAIN */
+  details { margin-top: 8px; }
+  summary {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+    color: var(--blue);
+    font-size: 12px;
+    font-weight: 600;
+    list-style: none;
+    user-select: none;
+  }
+  summary::-webkit-details-marker { display: none; }
+  summary::before { content: '▶'; font-size: 7px; transition: transform 0.15s; }
+  details[open] summary::before { transform: rotate(90deg); }
+
+  .explain-body {
+    background: var(--blue-light);
+    border-left: 3px solid var(--blue);
+    padding: 10px 14px;
+    margin-top: 8px;
+    border-radius: 0 4px 4px 0;
+    font-size: 13px;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+
+  /* ALERTS */
+  .alert {
+    border-radius: 6px;
+    padding: 12px 16px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    line-height: 1.6;
+    border-left: 4px solid;
+  }
+
+  .alert-red { background: var(--red-light); border-color: var(--red); }
+  .alert-amber { background: var(--amber-light); border-color: #E67E22; }
+  .alert-green { background: var(--green-light); border-color: var(--green); }
+  .alert-blue { background: var(--blue-light); border-color: var(--blue); }
+
+  .alert strong {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+  }
+
+  /* APPOINTMENTS / EVENT CARDS */
+  .appt {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    display: flex;
+    gap: 14px;
+    align-items: flex-start;
+  }
+
+  .appt-cal {
+    min-width: 48px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 6px 6px;
+    background: var(--ink);
+    color: white;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+
+  .appt-cal.urgent { background: var(--red); }
+  .appt-day { font-size: 20px; line-height: 1; }
+  .appt-mon { font-size: 9px; text-transform: uppercase; letter-spacing: 1px; margin-top: 2px; }
+  .appt-info { flex: 1; }
+  .appt-title { font-weight: 700; font-size: 14px; }
+  .appt-where { color: var(--mid); font-size: 12px; margin-top: 2px; }
+  .appt-flag { color: #A04000; font-size: 11px; font-weight: 700; margin-top: 4px; }
+
+  /* TABLES */
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--card);
+  }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 560px; }
+
+  th {
+    background: var(--ink);
+    color: white;
+    text-align: left;
+    padding: 9px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    white-space: nowrap;
+  }
+
+  td { padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+  tr:last-child td { border-bottom: none; }
+  tr:nth-child(even) td { background: #FAFAF8; }
+  td.bold { font-weight: 600; }
+  td.muted { color: var(--mid); font-style: italic; }
+  table a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+
+  .result-high { color: var(--red); font-weight: 700; }
+  .result-low { color: var(--blue); font-weight: 700; }
+  .result-normal { color: var(--green); }
+
+  /* TIMELINE */
+  .timeline { position: relative; padding-left: 22px; }
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 7px; top: 8px; bottom: 8px;
+    width: 1.5px;
+    background: var(--border);
+  }
+
+  .t-event { position: relative; margin-bottom: 18px; }
+  .t-event::before {
+    content: '';
+    position: absolute;
+    left: -18px; top: 6px;
+    width: 10px; height: 10px;
+    border-radius: 50%;
+    border: 2px solid var(--border);
+    background: var(--card);
+  }
+
+  .t-event.bad::before { background: var(--red); border-color: var(--red); }
+  .t-event.caution::before { background: #E67E22; border-color: #E67E22; }
+  .t-event.good::before { background: var(--green); border-color: var(--green); }
+  .t-event.info::before { background: var(--blue); border-color: var(--blue); }
+
+  .t-date { font-size: 11px; font-weight: 700; color: var(--light); text-transform: uppercase; letter-spacing: 1px; }
+  .t-title { font-size: 14px; font-weight: 700; margin-bottom: 2px; }
+  .t-body { font-size: 13px; color: var(--mid); }
+
+  /* DOCUMENTS */
+  .doc-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+  @media (max-width: 480px) { .doc-grid { grid-template-columns: 1fr; } }
+
+  .doc-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 12px 14px;
+    text-decoration: none;
+    color: var(--ink);
+    transition: border-color 0.15s, box-shadow 0.15s;
+  }
+
+  .doc-link:hover {
+    border-color: var(--blue);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  }
+
+  .doc-icon { font-size: 22px; flex-shrink: 0; }
+  .doc-name { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .doc-sub { font-size: 11px; color: var(--light); margin-top: 2px; }
+
+  footer {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 16px;
+    border-top: 1px solid var(--border);
+    font-size: 11px;
+    color: var(--light);
+  }
+  footer a { color: var(--mid); }
+</style>
+</head>
+<body>
+
+<div class="site-header">
+  <h1><strong>Philip Tomlinson</strong> — Health Dashboard</h1>
+  <p>Self-maintained · MRCGP/CCFP · Last updated 4 August 2026</p>
+</div>
+
+<nav>
+  <a href="#status">Status</a>
+  <a href="#cardiovascular">Cardiovascular</a>
+  <a href="#msk">Musculoskeletal</a>
+  <a href="#gi">GI</a>
+  <a href="#immunisation">Immunisation &amp; ID</a>
+  <a href="#surgical">Surgical Hx</a>
+  <a href="#dental">Dental</a>
+  <a href="#vision">Vision</a>
+  <a href="#admin">Administrative</a>
+  <a href="#alldocs">All Documents</a>
+  <a href="#timeline">Timeline</a>
+</nav>
+
+<main>
+
+  <!-- STATUS -->
+  <section id="status">
+    <div class="section-head"><h2>Status</h2><span>4 Aug 2026</span></div>
+
+    <div class="alert alert-amber">
+      <strong>Biggest open gap</strong>
+      Uncontrolled hypertension was the stated reason for a carotid Doppler referral in Apr–May 2025 (ordered by Ajay). No home BP log since 2021, and no lipid panel on file since 2004. Worth pulling forward given Guy's recent three-vessel CAD — family history is now more relevant to your own risk picture than it was.
+    </div>
+
+    <div class="issues">
+      <div class="issue-card amber">
+        <div class="issue-title">Hypertension <span class="pill pill-amber">Active / unquantified</span></div>
+        <div class="issue-body">Flagged Apr 2025 on carotid Doppler referral. No current BP readings or repeat bloods to size the problem.</div>
+      </div>
+      <div class="issue-card blue">
+        <div class="issue-title">Left knee — old MCL injury <span class="pill pill-blue">Chronic / stable</span></div>
+        <div class="issue-body">2016 MRI: thickened proximal MCL, no meniscal tear. Consistent with the left-side compensation pattern in training.</div>
+      </div>
+      <div class="issue-card blue">
+        <div class="issue-title">Vitamin D / Folate <span class="pill pill-blue">Tested, result unknown</span></div>
+        <div class="issue-body">Privately tested Apr 2025 (LifeLabs). Only the receipt is on file — result itself isn't in this folder.</div>
+      </div>
+      <div class="issue-card green">
+        <div class="issue-title">Dental <span class="pill pill-green">Maintained</span></div>
+        <div class="issue-body">Invisalign completed 2023, wisdom tooth extracted May 2025, gum graft consult opened Apr 2025, hygienist visits current.</div>
+      </div>
+      <div class="issue-card green">
+        <div class="issue-title">Vision <span class="pill pill-green">Stable myopia + astigmatism</span></div>
+        <div class="issue-body">Correction has been broadly stable since ~2019 (approx. -4.25/-3.00). Contact lens + spectacle wearer, last exam Feb 2024.</div>
+      </div>
+      <div class="issue-card blue">
+        <div class="issue-title">Immune status <span class="pill pill-green">Confirmed immune</span></div>
+        <div class="issue-body">Hep B surface antibody 409 IU/L (2012). MMR catch-up completed 2022 after a non-immune measles titre.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CARDIOVASCULAR -->
+  <section id="cardiovascular">
+    <div class="section-head"><h2>Cardiovascular</h2><span>2004 – 2025</span></div>
+
+    <div class="appt">
+      <div class="appt-cal urgent"><div class="appt-day">14</div><div class="appt-mon">May 25</div></div>
+      <div class="appt-info">
+        <div class="appt-title"><a href="https://drive.google.com/file/d/127RWoIOUd0KDADh4P_JpwIX0t9tP-CnJ/view?usp=drivesdk" target="_blank">Carotid Dopplers — referral</a></div>
+        <div class="appt-where">WELL Health Diagnostic Centres · referred by Dr Ajay Chanana</div>
+        <div class="appt-flag">Reason for referral: uncontrolled hypertension</div>
+      </div>
+    </div>
+
+    <div class="appt">
+      <div class="appt-cal"><div class="appt-day">28</div><div class="appt-mon">Feb 21</div></div>
+      <div class="appt-info">
+        <div class="appt-title"><a href="https://docs.google.com/spreadsheets/d/1gYPVeGPDapDGYbSNH_kz0oXgIUrqyin03dXRS-vXeIo/edit?usp=drivesdk" target="_blank">Home BP log</a></div>
+        <div class="appt-where">Only two entries ever recorded: 01/02/2021 120/82 &amp; 127/83; 28/02/2021 132/82. Not maintained since.</div>
+      </div>
+    </div>
+
+    <div class="appt">
+      <div class="appt-cal"><div class="appt-day">25</div><div class="appt-mon">Jan 12</div></div>
+      <div class="appt-info">
+        <div class="appt-title"><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfU2RRM0Q0OWVMRkU/view?usp=drivesdk&resourcekey=0-_4WbPR9OUlMw-OimJY484w" target="_blank">ECG</a></div>
+        <div class="appt-where">Scanned trace on file, no typed interpretation captured.</div>
+      </div>
+    </div>
+
+    <div class="appt">
+      <div class="appt-cal"><div class="appt-day">22</div><div class="appt-mon">Apr 04</div></div>
+      <div class="appt-info">
+        <div class="appt-title"><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfcUdMX3lGckUySEE/view?usp=drivesdk&resourcekey=0-2a746BnZjoWgfM9sSoBGuw" target="_blank">Lipid panel</a> (within combined vaccinations document)</div>
+        <div class="appt-where">Total cholesterol 4.8 mmol/L · Triglycerides 0.9 · Chol/HDL ratio 3.9 · LDL 3.15 — all normal, fasting sample. <strong>21 years old — nothing more recent on file.</strong></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MUSCULOSKELETAL -->
+  <section id="msk">
+    <div class="section-head"><h2>Musculoskeletal — bilateral knee</h2><span>2015 – 2017</span></div>
+
+    <div class="alert alert-green">
+      <strong>MRI result, 9 May 2016</strong>
+      Left: slight thickening of the proximal MCL, no oedema — consistent with an old injury; menisci, cruciates, LCL normal, no effusion. Right: normal. Conclusion: possible previous left MCL injury, no significant meniscal pathology.
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Date</th><th>Document</th><th>Note</th></tr>
+        <tr><td class="bold">08 Dec 2015</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfaUM3Qld1bHJISTg/view?usp=drivesdk&resourcekey=0-lAMtSvnDsnDYXtRnnWPjAw" target="_blank">GP referral — Knee Service</a></td><td class="muted">Bilateral medial knee pain, RBH Orthopaedics (Mr A Harvey)</td></tr>
+        <tr><td class="bold">24 Dec 2015</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfNXhqZ2REa1g1SDg/view?usp=drivesdk&resourcekey=0-e13AQuCN-QHssE_xA5z3WQ" target="_blank">Outpatient appointment</a></td><td class="muted">18 Jan 2016</td></tr>
+        <tr><td class="bold">14 Mar 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfLXFzN21DWkhiOTg/view?usp=drivesdk&resourcekey=0-uH4aYwzM2s8AaL8b4qjo3g" target="_blank">MRI prep information</a></td><td class="muted">Pre-scan questionnaire and logistics</td></tr>
+        <tr><td class="bold">09 May 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfOHdfN3pGSFNwZnc/view?usp=drivesdk&resourcekey=0-Iko5z21AJGuOrOGhogXRAA" target="_blank">Orthopaedic clinic appointment</a></td><td class="muted">—</td></tr>
+        <tr><td class="bold">09 May 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfQ0FUdUt3OVh3Y00/view?usp=drivesdk&resourcekey=0-AGTtMH_aPgNQivEG9PbzxA" target="_blank">MRI both knees — result</a></td><td class="muted">See alert above</td></tr>
+        <tr><td class="bold">18 May 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfbGVXQTBjU3VkMnM/view?usp=drivesdk&resourcekey=0-f9BSyAZJNLmds6PSHrk6YA" target="_blank">Appointment rescheduled</a></td><td class="muted">to 9 Jun 2016</td></tr>
+        <tr><td class="bold">06 Jun 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZWptQ3lTNHZjUmc/view?usp=drivesdk&resourcekey=0-r8qFgs721sMJequkeRXrJQ" target="_blank">Orthopaedics follow-up</a></td><td class="muted">—</td></tr>
+        <tr><td class="bold">21 Sep 2016</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfTWVfakpqSXhJcVE/view?usp=drivesdk&resourcekey=0-kDfpwazmI82_DroqIt6T_g" target="_blank">Physiotherapy — missed</a></td><td class="muted">—</td></tr>
+        <tr><td class="bold">09 May 2017</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfMTNsSjVacFFFbVE/view?usp=drivesdk&resourcekey=0-LcNcLARIbYDphgMivUcwcQ" target="_blank">Ortho follow-up missed</a></td><td class="muted">Discharged back to GP, care episode closed</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- GI -->
+  <section id="gi">
+    <div class="section-head"><h2>Gastrointestinal</h2><span>2020</span></div>
+    <div class="doc-grid">
+      <a class="doc-link" href="https://drive.google.com/file/d/1-hf5QSJN7W0RogJgbeQlkaHQVlDeLkXm/view?usp=drivesdk" target="_blank">
+        <div class="doc-icon">📄</div>
+        <div><div class="doc-name">OGD referral / booking</div><div class="doc-sub">24 Nov 2020 · upper endoscopy</div></div>
+      </a>
+      <a class="doc-link" href="https://drive.google.com/file/d/1f9UYMnBMFHaNp-LIH-gWhFKX9p_X0qL_/view?usp=drivesdk" target="_blank">
+        <div class="doc-icon">🧪</div>
+        <div><div class="doc-name">Pre-OGD COVID swab</div><div class="doc-sub">08 Dec 2020 · RBH drive-through</div></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- IMMUNISATION -->
+  <section id="immunisation">
+    <div class="section-head"><h2>Immunisation &amp; Infectious Disease</h2><span>childhood – 2022</span></div>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Date</th><th>Item</th><th>Result / note</th></tr>
+        <tr><td class="bold">undated</td><td><a href="https://drive.google.com/file/d/12JN7BU04bDz5TifqKvuSN0gl8nbD4JfP/view?usp=drivesdk" target="_blank">Ontario childhood immunisations</a></td><td class="muted">DPT, polio, measles, rubella, mumps — original Ministry of Health card</td></tr>
+        <tr><td class="bold">28 Jul 01</td><td>Hep B surface antibody</td><td class="result-normal">100 IU/L — immune (recorded within 2004 doc below)</td></tr>
+        <tr><td class="bold">22 Apr 04</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfcUdMX3lGckUySEE/view?usp=drivesdk&resourcekey=0-2a746BnZjoWgfM9sSoBGuw" target="_blank">Adult immunisation history</a></td><td class="muted">Flu, typhoid, full Hep A/B course, meningitis, rubella booster</td></tr>
+        <tr><td class="bold">26 Sep 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfcmdpcHo2T2NRNEU/view?usp=drivesdk&resourcekey=0-ScYuXwiF2r1W-Dk9chgmww" target="_blank">Hep B antibody titre</a></td><td class="result-normal">409 IU/L — well above protective threshold</td></tr>
+        <tr><td class="bold">17 Jun 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfQTZMc1RtamZVYUU/view?usp=drivesdk&resourcekey=0-tLzSQc9sGR0NedYaJlnmkg" target="_blank">Discharge summary — febrile viral illness</a></td><td class="muted">RBH AMU, 2 days, CRP 89, WCC normal, CXR clear, doxycycline 7d, discharged well</td></tr>
+        <tr><td class="bold">07 Sep 22</td><td><a href="https://drive.google.com/file/d/1qRrJ2N4B3SvtdFuXDciMU9I_NkEUdddw/view?usp=drivesdk" target="_blank">MMR catch-up</a></td><td class="result-high">Measles IgG negative → 1st MMR 03/08/22, 2nd MMR 07/09/22. Varicella: positive history. Hep B: full course, immune.</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- SURGICAL HX -->
+  <section id="surgical">
+    <div class="section-head"><h2>Surgical History</h2><span>1985</span></div>
+    <div class="doc-grid">
+      <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfVG9yTVljM2hGT0k/view?usp=drivesdk&resourcekey=0-gK4Brd7frj-EsHkBibBNoQ" target="_blank">
+        <div class="doc-icon">🏥</div>
+        <div><div class="doc-name">Adenotonsillectomy</div><div class="doc-sub">30 Dec 1985 · Peel Memorial Hospital, Brampton · Dr T. Dickson</div></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- DENTAL -->
+  <section id="dental">
+    <div class="section-head"><h2>Dental</h2><span>2012 – 2025</span></div>
+
+    <div class="alert alert-blue">
+      <strong>Current provider</strong>
+      Uptowne Dental Centre (Toronto), plus Dr Thomas Voutsas (oral surgery) and Rosedale Periodontics for a gum graft work-up opened Apr 2025.
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Date</th><th>Item</th><th>Note</th></tr>
+        <tr><td class="bold">21 Jul 25</td><td><a href="https://drive.google.com/file/d/1eMCj-fADvW3kvLuBVURSg4q4fm8Q3zN5/view?usp=drivesdk" target="_blank">Hygienist + exam</a></td><td class="muted">Uptowne, $273</td></tr>
+        <tr><td class="bold">13 May 25</td><td><a href="https://drive.google.com/file/d/1DgptRkOruIeze7OCgwoYf1S8FlfUCLVa/view?usp=drivesdk" target="_blank">Wisdom tooth extraction — oral surgery</a></td><td class="muted">Dr Voutsas, $2,186, deep sedation, 3 teeth incl. bone removal</td></tr>
+        <tr><td class="bold">07 May 25</td><td><a href="https://drive.google.com/file/d/1qCfibcSLTwwkyZlojR3D_I1IGA0yUBGj/view?usp=drivesdk" target="_blank">Statement — family visit</a></td><td class="muted">Uptowne, $246 (Danielle's restoration billed to account)</td></tr>
+        <tr><td class="bold">28 Apr 25</td><td><a href="https://drive.google.com/file/d/1BRt3wf5zXbSwJddP7lFDF8VJtYVlmcBb/view?usp=drivesdk" target="_blank">Oral surgery consult</a></td><td class="muted">Dr Voutsas, $191 — led to the May extraction</td></tr>
+        <tr><td class="bold">22 Apr 25</td><td><a href="https://drive.google.com/file/d/1f9sdReVi0RxN6uPhJLBaYej6AWRNf1-x/view?usp=drivesdk" target="_blank">Scaling</a></td><td class="muted">Uptowne, $200</td></tr>
+        <tr><td class="bold">16 Apr 25</td><td><a href="https://drive.google.com/file/d/1AEfMDR4-vhj5p8Z-Om0JQHFUZa11aATr/view?usp=drivesdk" target="_blank">Periodontics — 1st review re: gum graft</a></td><td class="muted">Rosedale Periodontics, $50</td></tr>
+        <tr><td class="bold">31 Dec 24</td><td><a href="https://drive.google.com/file/d/1km2L301aw9GSbIWhgVgFw7y8iLGyKYyL/view?usp=drivesdk" target="_blank">Hygienist</a></td><td class="muted">Uptowne, $202</td></tr>
+        <tr><td class="bold">08 Aug 23</td><td><a href="https://drive.google.com/file/d/1Fo6iI6xr1V4jQbtpHXxcQzVpJlrbF4Ee/view?usp=drivesdk" target="_blank">Invisalign treatment history export</a></td><td class="muted">Dental on the Banks (UK) — full course completed, debonded 28 Jun 23, bonded + removable retainers fitted</td></tr>
+        <tr><td class="bold">08 Aug 23</td><td><a href="https://drive.google.com/file/d/1wvt1FZSz55kyXhCguvcTptiXs-8Yw5U6/view?usp=drivesdk" target="_blank">OPG X-ray</a></td><td class="muted">taken at start of treatment, May 2022</td></tr>
+        <tr><td class="bold">01 Sep 23</td><td><a href="https://drive.google.com/file/d/18oboDjQZ42tn3jKZzXKEJbly0I7riwq8/view?usp=drivesdk" target="_blank">Vivera retainer instructions</a></td><td class="muted">post-Invisalign retainer care</td></tr>
+        <tr><td class="bold">14 Jan 19</td><td><a href="https://drive.google.com/file/d/1tx9SesEOaliTgkk6bxUpwRmXNTJX2MhY/view?usp=drivesdk" target="_blank">Outstanding balance letter</a></td><td class="muted">Pine Road, Winton — £21.60</td></tr>
+        <tr><td class="bold">01 Aug 18</td><td><a href="https://drive.google.com/file/d/1p84GzTizVPIzfUEzr4B_VlILIxWnz2UY/view?usp=drivesdk" target="_blank">First filling</a></td><td class="muted">NHS treatment plan</td></tr>
+        <tr><td class="bold">29 Sep 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfbm1HTGRSQUdnX1U/view?usp=drivesdk&resourcekey=0-WeGRnRaGS0aaL3ZNW74nbQ" target="_blank">Hygienist</a></td><td class="muted">NHS treatment plan</td></tr>
+        <tr><td class="bold">26 May 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfRlNsQWhWdE91bXc/view?usp=drivesdk&resourcekey=0-O7EodN3O-OcC4gbNt7lieQ" target="_blank">Hygienist appointment</a></td><td class="muted">£40</td></tr>
+        <tr><td class="bold">07 Mar 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfMEQ3QnFZanZxdDQ/view?usp=drivesdk&resourcekey=0-lm9n0neBtCC9w8iuCz5cOw" target="_blank">Receipt</a></td><td class="muted">Alderney Dental, £20</td></tr>
+        <tr><td class="bold">28 Jun 14</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfeWxfYU9SNXBZVUk/view?usp=drivesdk&resourcekey=0-xsYodkODFtLrsKlaEmGQ0w" target="_blank">Treatment plan</a></td><td class="muted">NHS</td></tr>
+        <tr><td class="bold">01 Nov 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfSy10V2RCSjFUNFE/view?usp=drivesdk&resourcekey=0-j_7qilkSU5FjhkWyDaC82w" target="_blank">Receipt</a></td><td class="muted">Talbot Woods Dental, £20</td></tr>
+        <tr><td class="bold">26 Jul 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfczQ2S1RKZW9jaWc/view?usp=drivesdk&resourcekey=0-sArBPpXWEhWKkrasD13AbQ" target="_blank">Hygienist</a></td><td class="muted">£60</td></tr>
+        <tr><td class="bold">16 Jul 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZG83UF9FTWV3dk0/view?usp=drivesdk&resourcekey=0--j85d3GjtVbKVUO516rBoQ" target="_blank">Bitewings + exam</a></td><td class="muted">Alderney Dental, £51</td></tr>
+        <tr><td class="bold">30 Jan 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfazZkX3pwTVhiX1E/view?usp=drivesdk&resourcekey=0-yRXIGMHhFAVcYEC8tc0BnQ" target="_blank">Missed appointment notice</a></td><td class="muted">Lansdowne Dental</td></tr>
+        <tr><td class="bold">10 Jan 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfaXVSN2RiUXV4OUk/view?usp=drivesdk&resourcekey=0-KsZQn0VtTFbNQFQkKNNMaA" target="_blank">Checkup due letter</a></td><td class="muted">Lansdowne Dental</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- VISION -->
+  <section id="vision">
+    <div class="section-head"><h2>Vision</h2><span>2011 – 2024</span></div>
+
+    <div class="alert alert-blue">
+      <strong>Prescription trend</strong>
+      Myopia with mild astigmatism, roughly stable since 2019 in the −4.25/−3.00 range. Wears both contacts (daily disposables) and spectacles.
+    </div>
+
+    <div class="table-wrap">
+      <table>
+        <tr><th>Date</th><th>Sph R / L</th><th>Provider</th><th>Link</th></tr>
+        <tr><td class="bold">16 Feb 24</td><td>not on file (OCT add-on visit)</td><td class="muted">Bayview Vision, Toronto</td><td><a href="https://drive.google.com/file/d/1vpB0JZ-G4C4pZhxM1lfdIRr_aNnTRBAs/view?usp=drivesdk" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">09 Sep 22</td><td>−4.25 / −3.00</td><td class="muted">Kelly Eyecare, Winton</td><td><a href="https://drive.google.com/file/d/1jbshE4nS0mgq-qbW13cuq8CgNmay-6Ht/view?usp=drivesdk" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">08 Jun 19</td><td>−4.50 / −2.75</td><td class="muted">Kelly Eyecare, Winton</td><td><a href="https://drive.google.com/file/d/1ia45JWWdTTFy4lyqLSPOBqcEVI5s6xYg/view?usp=drivesdk" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">19 Feb 18</td><td>−4.50 / −3.25 (approx., OCR-degraded)</td><td class="muted">Specsavers, Bournemouth</td><td><a href="https://drive.google.com/file/d/1iVdUpBoCNpISw6PykzoAvcIw_EcKVjcy/view?usp=drivesdk" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">15 Jul 15</td><td>−4.60 / −3.50</td><td class="muted">Specsavers, Bournemouth</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfRXoxOVEtM3c5MjQ/view?usp=drivesdk&resourcekey=0-C6M47EdnY4-Rr4UtNdGwxw" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">24 Mar 15</td><td>−4.60 / −3.60</td><td class="muted">Specsavers, Bournemouth</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZUtfemhIY0dMU2c/view?usp=drivesdk&resourcekey=0-hifjH4A6azq1fNdCNXd9gw" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">31 Jan 14</td><td>−4.75 / −3.50</td><td class="muted">Specsavers, Boscombe</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfVGJhWFNmRFBESGs/view?usp=drivesdk&resourcekey=0-kG2KVKxy2A0ehhYLaku9fQ" target="_blank">Open</a></td></tr>
+        <tr><td class="bold">02 Sep 11</td><td>−0.25 / −0.25</td><td class="muted">Vision Express, Bournemouth</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfVUxvZkJCRlRmZDA/view?usp=drivesdk&resourcekey=0-OjcvMlLynifYvoYRWfAmeQ" target="_blank">Open</a></td></tr>
+      </table>
+    </div>
+    <details style="margin-top:10px;">
+      <summary>Reminder / admin letters (7)</summary>
+      <div class="explain-body">
+        Routine recall and reminder letters, no clinical content beyond scheduling:
+        <a href="https://drive.google.com/file/d/1jcfhfHYXnoyeNoZHyJogypL0nn8GBHHb/view?usp=drivesdk" target="_blank">Leightons voucher letter (Dec 2021)</a>,
+        <a href="https://drive.google.com/file/d/1dTjF81jXughU603mmzgnx-jDIiNnwedF/view?usp=drivesdk" target="_blank">Lenstore contact lens order (Jan 2019)</a>,
+        <a href="https://drive.google.com/file/d/1H-K_9fBOGCHmR-2tD9OEgoE-a0xxE4qP/view?usp=drivesdk" target="_blank">Tesco Opticians booking (Apr 2018)</a>,
+        <a href="https://drive.google.com/file/d/0BxLzdKFJNNKfR1dZalAtbUxsU0k/view?usp=drivesdk&resourcekey=0-b-4YKd9UyRh0Vxjw0pJ_7g" target="_blank">Specsavers CL check due (Feb 2016)</a>,
+        <a href="https://drive.google.com/file/d/0BxLzdKFJNNKfblkzTHhjU2E3NlU/view?usp=drivesdk&resourcekey=0-o3n4FfdHYxlpWzk1FYWVVg" target="_blank">Specsavers eye test reminder (Feb 2015)</a>,
+        <a href="https://drive.google.com/file/d/0BxLzdKFJNNKfUjlUUTFGZEJONTQ/view?usp=drivesdk&resourcekey=0-GxxXrV_-83rvL-Kxng2CIQ" target="_blank">Specsavers eye test due (Sep 2013)</a>,
+        <a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZUVxTm9xLXJZLTQ/view?usp=drivesdk&resourcekey=0-YGM2D1pF4q1G-wGUSMaZsw" target="_blank">Vision Express eye test due (Aug 2013)</a>,
+        <a href="https://drive.google.com/file/d/0BxLzdKFJNNKfWEZkaUoyQ0RfNTA/view?usp=drivesdk&resourcekey=0-6SolQTBOStZvHcDHjcDk1A" target="_blank">Specsavers contact check due (Dec 2012)</a>.
+      </div>
+    </details>
+  </section>
+
+  <!-- ADMINISTRATIVE -->
+  <section id="admin">
+    <div class="section-head"><h2>Administrative &amp; Provider Record</h2><span>2023</span></div>
+
+    <div class="alert alert-blue">
+      <strong>Record numbers</strong>
+      NHS, OHIP, and hospital reference numbers are on file in the source folder but intentionally left off this public page.
+    </div>
+
+    <div class="doc-grid">
+      <a class="doc-link" href="https://drive.google.com/file/d/1TLpa61eRShK6erZ-8ZeyfOaU1ubKh6Xp/view?usp=drivesdk" target="_blank">
+        <div class="doc-icon">📋</div>
+        <div><div class="doc-name">OHIP registration — completed</div><div class="doc-sub">17 Jan 2023</div></div>
+      </a>
+      <a class="doc-link" href="https://drive.google.com/file/d/1TOHI87XxJ9MBadJJfeErCD2yLLByL4iy/view?usp=drivesdk" target="_blank">
+        <div class="doc-icon">📋</div>
+        <div><div class="doc-name">OHIP registration — blank template</div><div class="doc-sub">17 Jan 2023</div></div>
+      </a>
+      <a class="doc-link" href="https://drive.google.com/file/d/1kQvc-eLLtDvHCv-sNpDWLGPi_neZpJr8/view?usp=drivesdk" target="_blank">
+        <div class="doc-icon">🏥</div>
+        <div><div class="doc-name">GP transfer</div><div class="doc-sub">25 Jul 2023 · Winton Health Centre → Village Surgery, Talbot Village</div></div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ALL DOCUMENTS -->
+  <section id="alldocs">
+    <div class="section-head"><h2>All Documents</h2><span>50 files · 1985–2025</span></div>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Date</th><th>Document</th><th>Category</th></tr>
+        <tr><td class="bold">21 Jul 25</td><td><a href="https://drive.google.com/file/d/1eMCj-fADvW3kvLuBVURSg4q4fm8Q3zN5/view?usp=drivesdk" target="_blank">Hygienist + exam, $273</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">14 May 25</td><td><a href="https://drive.google.com/file/d/127RWoIOUd0KDADh4P_JpwIX0t9tP-CnJ/view?usp=drivesdk" target="_blank">Carotid Dopplers — referral</a></td><td class="muted">Cardiovascular</td></tr>
+        <tr><td class="bold">13 May 25</td><td><a href="https://drive.google.com/file/d/1DgptRkOruIeze7OCgwoYf1S8FlfUCLVa/view?usp=drivesdk" target="_blank">Wisdom tooth extraction</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">07 May 25</td><td><a href="https://drive.google.com/file/d/1qCfibcSLTwwkyZlojR3D_I1IGA0yUBGj/view?usp=drivesdk" target="_blank">Dentist statement, $246</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">29 Apr 25</td><td><a href="https://drive.google.com/file/d/1tAUo5-KKjRrh21XtsKNEyraDjFdsVeSi/view?usp=drivesdk" target="_blank">Draft Will v1</a></td><td class="muted">Administrative (non-health)</td></tr>
+        <tr><td class="bold">29 Apr 25</td><td>Vitamin D / Folate test — receipt only</td><td class="muted">Screening &amp; labs</td></tr>
+        <tr><td class="bold">28 Apr 25</td><td><a href="https://drive.google.com/file/d/1BRt3wf5zXbSwJddP7lFDF8VJtYVlmcBb/view?usp=drivesdk" target="_blank">Oral surgery consult, $191</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">22 Apr 25</td><td><a href="https://drive.google.com/file/d/1f9sdReVi0RxN6uPhJLBaYej6AWRNf1-x/view?usp=drivesdk" target="_blank">Scaling, $200</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">16 Apr 25</td><td><a href="https://drive.google.com/file/d/1AEfMDR4-vhj5p8Z-Om0JQHFUZa11aATr/view?usp=drivesdk" target="_blank">Periodontics gum graft review, $50</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">16 Feb 24</td><td><a href="https://drive.google.com/file/d/1vpB0JZ-G4C4pZhxM1lfdIRr_aNnTRBAs/view?usp=drivesdk" target="_blank">Eye exam + OCT, Bayview Vision</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">31 Dec 24</td><td><a href="https://drive.google.com/file/d/1km2L301aw9GSbIWhgVgFw7y8iLGyKYyL/view?usp=drivesdk" target="_blank">Hygienist, $202</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">03 Jan 25</td><td>Draft Will context doc</td><td class="muted">Administrative (non-health)</td></tr>
+        <tr><td class="bold">25 Jul 23</td><td><a href="https://drive.google.com/file/d/1kQvc-eLLtDvHCv-sNpDWLGPi_neZpJr8/view?usp=drivesdk" target="_blank">GP transfer to Village Surgery</a></td><td class="muted">Administrative</td></tr>
+        <tr><td class="bold">08 Aug 23</td><td><a href="https://drive.google.com/file/d/1Fo6iI6xr1V4jQbtpHXxcQzVpJlrbF4Ee/view?usp=drivesdk" target="_blank">Invisalign treatment export</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">08 Aug 23</td><td><a href="https://drive.google.com/file/d/1wvt1FZSz55kyXhCguvcTptiXs-8Yw5U6/view?usp=drivesdk" target="_blank">OPG X-ray</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">01 Sep 23</td><td><a href="https://drive.google.com/file/d/18oboDjQZ42tn3jKZzXKEJbly0I7riwq8/view?usp=drivesdk" target="_blank">Vivera retainer instructions</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">17 Jan 23</td><td><a href="https://drive.google.com/file/d/1TLpa61eRShK6erZ-8ZeyfOaU1ubKh6Xp/view?usp=drivesdk" target="_blank">OHIP registration</a></td><td class="muted">Administrative</td></tr>
+        <tr><td class="bold">07 Sep 22</td><td><a href="https://drive.google.com/file/d/1qRrJ2N4B3SvtdFuXDciMU9I_NkEUdddw/view?usp=drivesdk" target="_blank">MMR catch-up</a></td><td class="muted">Immunisation</td></tr>
+        <tr><td class="bold">09 Sep 22</td><td><a href="https://drive.google.com/file/d/1jbshE4nS0mgq-qbW13cuq8CgNmay-6Ht/view?usp=drivesdk" target="_blank">Eye exam</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">01 Dec 21</td><td><a href="https://drive.google.com/file/d/1jcfhfHYXnoyeNoZHyJogypL0nn8GBHHb/view?usp=drivesdk" target="_blank">Leightons voucher letter</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">28 Feb 21</td><td><a href="https://docs.google.com/spreadsheets/d/1gYPVeGPDapDGYbSNH_kz0oXgIUrqyin03dXRS-vXeIo/edit?usp=drivesdk" target="_blank">Home BP log</a></td><td class="muted">Cardiovascular</td></tr>
+        <tr><td class="bold">24 Nov 20</td><td><a href="https://drive.google.com/file/d/1-hf5QSJN7W0RogJgbeQlkaHQVlDeLkXm/view?usp=drivesdk" target="_blank">OGD referral</a></td><td class="muted">GI</td></tr>
+        <tr><td class="bold">08 Dec 20</td><td><a href="https://drive.google.com/file/d/1f9UYMnBMFHaNp-LIH-gWhFKX9p_X0qL_/view?usp=drivesdk" target="_blank">Pre-OGD COVID swab</a></td><td class="muted">GI</td></tr>
+        <tr><td class="bold">14 Jan 19</td><td><a href="https://drive.google.com/file/d/1tx9SesEOaliTgkk6bxUpwRmXNTJX2MhY/view?usp=drivesdk" target="_blank">Outstanding balance letter</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">24 Jan 19</td><td><a href="https://drive.google.com/file/d/1dTjF81jXughU603mmzgnx-jDIiNnwedF/view?usp=drivesdk" target="_blank">Contact lens order</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">19 Feb 18</td><td><a href="https://drive.google.com/file/d/1iVdUpBoCNpISw6PykzoAvcIw_EcKVjcy/view?usp=drivesdk" target="_blank">Eye prescription</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">02 Apr 18</td><td><a href="https://drive.google.com/file/d/1H-K_9fBOGCHmR-2tD9OEgoE-a0xxE4qP/view?usp=drivesdk" target="_blank">Optician booking</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">01 Aug 18</td><td><a href="https://drive.google.com/file/d/1p84GzTizVPIzfUEzr4B_VlILIxWnz2UY/view?usp=drivesdk" target="_blank">First filling</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">17 Jun 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfQTZMc1RtamZVYUU/view?usp=drivesdk&resourcekey=0-tLzSQc9sGR0NedYaJlnmkg" target="_blank">Discharge summary — febrile illness</a></td><td class="muted">Immunisation/ID</td></tr>
+        <tr><td class="bold">29 Feb 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfR1dZalAtbUxsU0k/view?usp=drivesdk&resourcekey=0-b-4YKd9UyRh0Vxjw0pJ_7g" target="_blank">Contact lens check due</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">08 Dec 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfaUM3Qld1bHJISTg/view?usp=drivesdk&resourcekey=0-lAMtSvnDsnDYXtRnnWPjAw" target="_blank">Knee Service referral</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">24 Dec 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfNXhqZ2REa1g1SDg/view?usp=drivesdk&resourcekey=0-e13AQuCN-QHssE_xA5z3WQ" target="_blank">Ortho appointment letter</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">14 Mar 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfLXFzN21DWkhiOTg/view?usp=drivesdk&resourcekey=0-uH4aYwzM2s8AaL8b4qjo3g" target="_blank">MRI prep info</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">09 May 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfOHdfN3pGSFNwZnc/view?usp=drivesdk&resourcekey=0-Iko5z21AJGuOrOGhogXRAA" target="_blank">Ortho clinic appointment</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">09 May 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfQ0FUdUt3OVh3Y00/view?usp=drivesdk&resourcekey=0-AGTtMH_aPgNQivEG9PbzxA" target="_blank">MRI both knees result</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">18 May 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfbGVXQTBjU3VkMnM/view?usp=drivesdk&resourcekey=0-f9BSyAZJNLmds6PSHrk6YA" target="_blank">Appointment reschedule</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">06 Jun 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZWptQ3lTNHZjUmc/view?usp=drivesdk&resourcekey=0-r8qFgs721sMJequkeRXrJQ" target="_blank">Ortho follow-up</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">21 Sep 16</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfTWVfakpqSXhJcVE/view?usp=drivesdk&resourcekey=0-kDfpwazmI82_DroqIt6T_g" target="_blank">Physio missed</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">09 May 17</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfMTNsSjVacFFFbVE/view?usp=drivesdk&resourcekey=0-LcNcLARIbYDphgMivUcwcQ" target="_blank">Discharged back to GP</a></td><td class="muted">MSK</td></tr>
+        <tr><td class="bold">08 Jun 15</td><td><a href="https://drive.google.com/file/d/1ia45JWWdTTFy4lyqLSPOBqcEVI5s6xYg/view?usp=drivesdk" target="_blank">Eye test</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">29 Sep 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfbm1HTGRSQUdnX1U/view?usp=drivesdk&resourcekey=0-WeGRnRaGS0aaL3ZNW74nbQ" target="_blank">Hygienist</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">26 May 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfRlNsQWhWdE91bXc/view?usp=drivesdk&resourcekey=0-O7EodN3O-OcC4gbNt7lieQ" target="_blank">Hygienist £40</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">24 Mar 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZUtfemhIY0dMU2c/view?usp=drivesdk&resourcekey=0-hifjH4A6azq1fNdCNXd9gw" target="_blank">Eye test</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">07 Mar 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfMEQ3QnFZanZxdDQ/view?usp=drivesdk&resourcekey=0-lm9n0neBtCC9w8iuCz5cOw" target="_blank">Dental receipt</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">03 Feb 15</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfblkzTHhjU2E3NlU/view?usp=drivesdk&resourcekey=0-o3n4FfdHYxlpWzk1FYWVVg" target="_blank">Eye test reminder</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">28 Jun 14</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfeWxfYU9SNXBZVUk/view?usp=drivesdk&resourcekey=0-xsYodkODFtLrsKlaEmGQ0w" target="_blank">Dental treatment plan</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">31 Jan 14</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfVGJhWFNmRFBESGs/view?usp=drivesdk&resourcekey=0-kG2KVKxy2A0ehhYLaku9fQ" target="_blank">Eye test</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">01 Nov 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfSy10V2RCSjFUNFE/view?usp=drivesdk&resourcekey=0-j_7qilkSU5FjhkWyDaC82w" target="_blank">Dental receipt £20</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">26 Jul 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfczQ2S1RKZW9jaWc/view?usp=drivesdk&resourcekey=0-sArBPpXWEhWKkrasD13AbQ" target="_blank">Hygienist £60</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">16 Jul 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZG83UF9FTWV3dk0/view?usp=drivesdk&resourcekey=0--j85d3GjtVbKVUO516rBoQ" target="_blank">Bitewings + exam</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">02 Sep 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfUjlUUTFGZEJONTQ/view?usp=drivesdk&resourcekey=0-GxxXrV_-83rvL-Kxng2CIQ" target="_blank">Eye test due</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">25 Aug 13</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfZUVxTm9xLXJZLTQ/view?usp=drivesdk&resourcekey=0-YGM2D1pF4q1G-wGUSMaZsw" target="_blank">Eye test due</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">25 Jan 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfU2RRM0Q0OWVMRkU/view?usp=drivesdk&resourcekey=0-_4WbPR9OUlMw-OimJY484w" target="_blank">ECG</a></td><td class="muted">Cardiovascular</td></tr>
+        <tr><td class="bold">30 Jan 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfazZkX3pwTVhiX1E/view?usp=drivesdk&resourcekey=0-yRXIGMHhFAVcYEC8tc0BnQ" target="_blank">Missed dental appt</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">10 Jan 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfaXVSN2RiUXV4OUk/view?usp=drivesdk&resourcekey=0-KsZQn0VtTFbNQFQkKNNMaA" target="_blank">Dental checkup due</a></td><td class="muted">Dental</td></tr>
+        <tr><td class="bold">03 Dec 12</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfWEZkaUoyQ0RfNTA/view?usp=drivesdk&resourcekey=0-6SolQTBOStZvHcDHjcDk1A" target="_blank">Contact lens check due</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">02 Sep 11</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfVUxvZkJCRlRmZDA/view?usp=drivesdk&resourcekey=0-OjcvMlLynifYvoYRWfAmeQ" target="_blank">Eye prescription</a></td><td class="muted">Vision</td></tr>
+        <tr><td class="bold">22 Apr 04</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfcUdMX3lGckUySEE/view?usp=drivesdk&resourcekey=0-2a746BnZjoWgfM9sSoBGuw" target="_blank">Vaccinations + lipid panel</a></td><td class="muted">Cardiovascular / Immunisation</td></tr>
+        <tr><td class="bold">30 Dec 85</td><td><a href="https://drive.google.com/file/d/0BxLzdKFJNNKfVG9yTVljM2hGT0k/view?usp=drivesdk&resourcekey=0-gK4Brd7frj-EsHkBibBNoQ" target="_blank">Adenotonsillectomy</a></td><td class="muted">Surgical Hx</td></tr>
+      </table>
+    </div>
+  </section>
+
+  <!-- TIMELINE -->
+  <section id="timeline">
+    <div class="section-head"><h2>Timeline</h2><span>major events</span></div>
+    <div class="timeline">
+      <div class="t-event bad">
+        <div class="t-date">30 Dec 1985</div>
+        <div class="t-title">Adenotonsillectomy</div>
+        <div class="t-body">Peel Memorial Hospital, Brampton — age 4</div>
+      </div>
+      <div class="t-event info">
+        <div class="t-date">2004</div>
+        <div class="t-title">First lipid panel on record</div>
+        <div class="t-body">Normal — total cholesterol 4.8, LDL 3.15. Nothing repeated since.</div>
+      </div>
+      <div class="t-event caution">
+        <div class="t-date">2015 – 2017</div>
+        <div class="t-title">Bilateral knee investigation</div>
+        <div class="t-body">MRI shows an old left MCL injury; care episode closed after a missed follow-up.</div>
+      </div>
+      <div class="t-event good">
+        <div class="t-date">2016</div>
+        <div class="t-title">Febrile viral illness, resolved</div>
+        <div class="t-body">2-day admission, treated with doxycycline, discharged well.</div>
+      </div>
+      <div class="t-event good">
+        <div class="t-date">2022 – 2023</div>
+        <div class="t-title">Invisalign completed</div>
+        <div class="t-body">Debonded with bonded + removable retainers, just before the move to Canada.</div>
+      </div>
+      <div class="t-event caution">
+        <div class="t-date">Sep 2022</div>
+        <div class="t-title">MMR catch-up</div>
+        <div class="t-body">Non-immune measles titre → two-dose MMR course completed.</div>
+      </div>
+      <div class="t-event caution">
+        <div class="t-date">Apr – May 2025</div>
+        <div class="t-title">Hypertension flagged, dental work cluster</div>
+        <div class="t-body">Carotid Doppler referral for uncontrolled BP; wisdom tooth extraction and gum graft work-up in the same window.</div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  Compiled by Claude from Google Drive — <a href="https://drive.google.com/drive/folders/1PLEqqm-8rFxyXQ3oX5TIsJPr7DAGQVjS" target="_blank">@Philip</a> (Health, Dentist, Opticians subfolders) · every entry links to the original file · record ID numbers intentionally omitted from this public page · last built 4 Aug 2026
+</footer>
+
+</body>
+</html>
