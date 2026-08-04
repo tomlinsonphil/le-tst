@@ -331,9 +331,9 @@
   function computeNetwork(){
     const nodes = plan.nodes;
     const roots = getRootIds();
-    const pressures = {}, flows_ = {};
+    const pressures = {}, edgeFlows = {};
     const rootInfo = {};
-    if(roots.length===0) return { pressures, flows:{}, rootInfo };
+    if(roots.length===0) return { pressures, flows:{}, edgeFlows, rootInfo };
 
     const alpha = 0.35;
 
@@ -398,11 +398,15 @@
           q = Math.min(q, t.nominalQ*1.3);
           state.flow[n.id] = (state.flow[n.id]||0) + alpha*(q - (state.flow[n.id]||0));
         });
+
+        // capture the converged per-edge flow (every node in this subtree,
+        // not just leaves) — this is what drives the moving arrows
+        if(iter === 39) Object.assign(edgeFlows, subtreeQ);
       }
       rootInfo[rootId] = { serviceP, totalQ: lastTotalQ };
     });
 
-    return { pressures, flows: Object.assign({}, state.flow), rootInfo };
+    return { pressures, flows: Object.assign({}, state.flow), edgeFlows, rootInfo };
   }
 
   /* ============ SVG BUILD ============ */
@@ -877,22 +881,24 @@
   function tick(now){
     const dt = Math.min(0.05, (now-lastT)/1000); lastT = now;
     for(const id in arrowGroups){
-      const g = arrowGroups[id]; const info = edgeVisuals[id];
-      if(!info) continue;
-      const flow = g.speedRef.flow;
-      const active = flow > 0.15 && info.length > 0;
-      const speed = active ? (40 + 260*Math.min(1, flow/g.speedRef.maxFlow)) : 0;
-      const opacity = active ? Math.max(0.35, Math.min(1, flow/g.speedRef.maxFlow*1.3)) : 0;
-      g.markers.forEach(m=>{
-        if(active){
-          m.t += (speed*dt)/info.length; if(m.t>1) m.t-=1;
-          const pt = info.path.getPointAtLength(m.t*info.length);
-          const pt2 = info.path.getPointAtLength(Math.min(info.length, m.t*info.length+1));
-          const ang = Math.atan2(pt2.y-pt.y, pt2.x-pt.x)*180/Math.PI;
-          m.el.setAttribute('transform', `translate(${pt.x},${pt.y}) rotate(${ang})`);
-          m.el.setAttribute('opacity', opacity);
-        } else { m.el.setAttribute('opacity', 0); }
-      });
+      try{
+        const g = arrowGroups[id]; const info = edgeVisuals[id];
+        if(!info) continue;
+        const flow = g.speedRef.flow;
+        const active = flow > 0.15 && info.length > 0;
+        const speed = active ? (40 + 260*Math.min(1, flow/g.speedRef.maxFlow)) : 0;
+        const opacity = active ? Math.max(0.35, Math.min(1, flow/g.speedRef.maxFlow*1.3)) : 0;
+        g.markers.forEach(m=>{
+          if(active){
+            m.t += (speed*dt)/info.length; if(m.t>1) m.t-=1;
+            const pt = info.path.getPointAtLength(m.t*info.length);
+            const pt2 = info.path.getPointAtLength(Math.min(info.length, m.t*info.length+1));
+            const ang = Math.atan2(pt2.y-pt.y, pt2.x-pt.x)*180/Math.PI;
+            m.el.setAttribute('transform', `translate(${pt.x},${pt.y}) rotate(${ang})`);
+            m.el.setAttribute('opacity', opacity);
+          } else { m.el.setAttribute('opacity', 0); }
+        });
+      }catch(err){ /* never let one bad pipe stall the animation of the rest */ }
     }
     requestAnimationFrame(tick);
   }
@@ -921,49 +927,56 @@
     const res = computeNetwork();
     const pressures = res.pressures || {};
     const flows = res.flows || {};
+    const edgeFlows = res.edgeFlows || {};
 
     // orphan styling + node colors
     Object.values(plan.nodes).forEach(n=>{
-      const nv = nodeVisuals[n.id]; if(!nv) return;
-      const isConnected = NODE_TYPES[n.type].isRoot ? true : !!(n.parentId && plan.nodes[n.parentId]);
-      nv.g.classList.toggle('orphan', !isConnected);
-      if(NODE_TYPES[n.type].flowNode){
-        const p = pressures[n.id];
-        const q = flows[n.id] || 0;
-        const open = n.open;
-        nv.halo.setAttribute('stroke', !isConnected ? 'var(--bp-line-dim)' : (open ? (p<0.5?'var(--danger)':'var(--ok)') : 'var(--bp-line-dim)'));
-        nv.subEl.textContent = !isConnected ? 'non relié' : (open ? q.toFixed(1)+' L/min · '+(p||0).toFixed(1)+' bar' : 'fermé');
-        nv.subEl.setAttribute('fill', open && isConnected ? 'var(--water-bright)' : 'var(--bp-line-dim)');
-      } else if(NODE_TYPES[n.type].isRoot){
-        const ri = res.rootInfo[n.id];
-        nv.subEl.textContent = ri ? ri.serviceP.toFixed(2)+' bar' : '—';
-      } else {
-        nv.subEl.textContent = isConnected ? (pressures[n.id]||0).toFixed(1)+' bar' : 'non relié';
-      }
+      try{
+        const nv = nodeVisuals[n.id]; if(!nv) return;
+        const isConnected = NODE_TYPES[n.type].isRoot ? true : !!(n.parentId && plan.nodes[n.parentId]);
+        nv.g.classList.toggle('orphan', !isConnected);
+        if(NODE_TYPES[n.type].flowNode){
+          const p = pressures[n.id];
+          const q = flows[n.id] || 0;
+          const open = n.open;
+          nv.halo.setAttribute('stroke', !isConnected ? 'var(--bp-line-dim)' : (open ? (p<0.5?'var(--danger)':'var(--ok)') : 'var(--bp-line-dim)'));
+          nv.subEl.textContent = !isConnected ? 'non relié' : (open ? q.toFixed(1)+' L/min · '+(p||0).toFixed(1)+' bar' : 'fermé');
+          nv.subEl.setAttribute('fill', open && isConnected ? 'var(--water-bright)' : 'var(--bp-line-dim)');
+        } else if(NODE_TYPES[n.type].isRoot){
+          const ri = res.rootInfo[n.id];
+          nv.subEl.textContent = ri ? ri.serviceP.toFixed(2)+' bar' : '—';
+        } else {
+          nv.subEl.textContent = isConnected ? (pressures[n.id]||0).toFixed(1)+' bar' : 'non relié';
+        }
+      }catch(err){ console.error('render node', n.id, err); }
     });
 
     // edges
     Object.keys(edgeVisuals).forEach(childId=>{
-      const child = plan.nodes[childId];
-      if(!child || !child.parentId){ return; }
-      const p = pressures[childId];
-      const hasP = p !== undefined;
-      const q = arrowGroups[childId] ? (NODE_TYPES[child.type].flowNode ? (flows[childId]||0) : subtreeFlowLookup(childId, res)) : 0;
-      const ev = edgeVisuals[childId];
-      const color = hasP ? pipeColorFor(p) : 'var(--bp-line-dim)';
-      const refP = NODE_TYPES[child.type].flowNode ? NODE_TYPES[child.type].nominalP : REF_MAIN_PRESSURE;
-      ev.path.setAttribute('stroke', hasP && q>0.05 ? color : 'var(--bp-line-dim)');
-      ev.path.setAttribute('stroke-width', pipeWidthFor(ev.baseWidth, hasP ? Math.max(p, refP*WIDTH_MIN_RATIO*1.05) : refP*WIDTH_MIN_RATIO, refP));
-      if(arrowGroups[childId]) arrowGroups[childId].speedRef.flow = hasP ? q : 0;
+      try{
+        const child = plan.nodes[childId];
+        if(!child || !child.parentId){ return; }
+        const p = pressures[childId];
+        const hasP = p !== undefined;
+        const q = edgeFlows[childId] || 0;
+        const ev = edgeVisuals[childId];
+        const color = hasP ? pipeColorFor(p) : 'var(--bp-line-dim)';
+        const refP = NODE_TYPES[child.type].flowNode ? NODE_TYPES[child.type].nominalP : REF_MAIN_PRESSURE;
+        ev.path.setAttribute('stroke', hasP && q>0.05 ? color : 'var(--bp-line-dim)');
+        ev.path.setAttribute('stroke-width', pipeWidthFor(ev.baseWidth, hasP ? Math.max(p, refP*WIDTH_MIN_RATIO*1.05) : refP*WIDTH_MIN_RATIO, refP));
+        if(arrowGroups[childId]) arrowGroups[childId].speedRef.flow = hasP ? q : 0;
+      }catch(err){ console.error('render edge', childId, err); }
     });
 
     // gauges
     plan.gauges.forEach(gg=>{
-      const gv = gaugeVisuals[gg.id]; if(!gv) return;
-      const bound = gg.boundNodeId;
-      const p = bound!==null && bound!==undefined ? pressures[bound] : undefined;
-      if(p===undefined){ gv.txt.textContent='non relié'; gv.halo.setAttribute('stroke','var(--bp-line-dim)'); }
-      else { gv.txt.textContent = p.toFixed(2)+' bar'; gv.halo.setAttribute('stroke', pipeColorFor(p)==='var(--water)' ? 'var(--brass)' : pipeColorFor(p)); }
+      try{
+        const gv = gaugeVisuals[gg.id]; if(!gv) return;
+        const bound = gg.boundNodeId;
+        const p = bound!==null && bound!==undefined ? pressures[bound] : undefined;
+        if(p===undefined){ gv.txt.textContent='non relié'; gv.halo.setAttribute('stroke','var(--bp-line-dim)'); }
+        else { gv.txt.textContent = p.toFixed(2)+' bar'; gv.halo.setAttribute('stroke', pipeColorFor(p)==='var(--water)' ? 'var(--brass)' : pipeColorFor(p)); }
+      }catch(err){ console.error('render gauge', gg.id, err); }
     });
 
     // two dials: Forage and Eau de la ville, each independent
@@ -993,18 +1006,6 @@
       if(s.p < 1 && s.q>0.1){ warn.classList.add('show','danger'); warn.textContent = "⚠ Pression insuffisante sur " + s.label + " (" + s.p.toFixed(1) + " bar) — trop d'appareils ouverts en même temps."; break; }
       if(s.p > 5 || s.p < 2.5){ warn.classList.add('show','amber'); warn.textContent = "Pression en zone limite sur " + s.label + " (" + s.p.toFixed(1) + " bar)."; }
     }
-  }
-
-  function subtreeFlowLookup(childId, res){
-    // approximate: sum flows of flow-node descendants using res.flows
-    let total = 0;
-    (function walk(id){
-      const n = plan.nodes[id];
-      if(!n) return;
-      if(NODE_TYPES[n.type].flowNode){ total += (res.flows[id]||0); return; }
-      Object.values(plan.nodes).forEach(c=>{ if(c.parentId===id) walk(c.id); });
-    })(childId);
-    return total;
   }
 
   /* ============ CONTROLS ============ */
