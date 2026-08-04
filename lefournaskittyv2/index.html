@@ -19,6 +19,8 @@
     --ochre-deep:#8F5A22;
     --olive:#6E7B45;
     --olive-deep:#525C33;
+    --skyline:#4C6B8A;
+    --skyline-deep:#365170;
     --danger:#A8433A;
     --good:#4F7A52;
   }
@@ -63,6 +65,7 @@
   .pill.active{ background:var(--lavender); color:#fff; border-color:var(--lavender); }
   .pill.active.g-JOFF{ background:var(--ochre); border-color:var(--ochre); }
   .pill.active.g-GE{ background:var(--olive); border-color:var(--olive); }
+  .pill.active.g-SOPH{ background:var(--skyline); border-color:var(--skyline); }
 
   .household-block{margin-bottom:2px;}
   .household-label{
@@ -238,6 +241,7 @@
             <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
             <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
             <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+            <button type="button" class="pill g-SOPH" data-group="SOPH">Sophie's</button>
           </div>
         </div>
         <div class="field-block full">
@@ -260,6 +264,7 @@
             <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
             <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
             <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+            <button type="button" class="pill g-SOPH" data-group="SOPH">Sophie's</button>
           </div>
         </div>
         <div class="field-block full">
@@ -268,6 +273,7 @@
             <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
             <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
             <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+            <button type="button" class="pill g-SOPH" data-group="SOPH">Sophie's</button>
           </div>
         </div>
         <div class="field-block full"><label>Note</label><input type="text" id="s-note" placeholder="e.g. cash"></div>
@@ -298,26 +304,29 @@
 </div>
 
 <footer>
-  This runs entirely in your browser and saves to this artifact's storage — nothing is sent anywhere except a receipt photo, which goes to Claude for reading only when you tap "Extract details." I can't reach into your Google Drive folder directly from here (no Google sign-in inside an artifact), and uploading a photo here doesn't put it into Drive either — the photo only ever goes to Claude for OCR, then is discarded. If you want it archived alongside the others, upload it to the shared Drive folder separately and paste the resulting link into "Receipt reference" so it's clickable here too.
+  Entries save in this browser's local storage on this device — so if you add something on your phone, it won't show up when you open the site on a laptop or someone else's phone (they're separate copies, not a shared cloud database). Clearing your browser's site data, or using private/incognito mode, will wipe the ledger. If you want everyone's entries to sync automatically across devices, that needs a small backend added — say the word and I'll set one up. Photo scanning: uploading a receipt photo here doesn't put it into Drive — it only goes to Claude for reading, then is discarded. If you want it archived alongside the others, upload it to the shared Drive folder separately and paste the resulting link into "Receipt reference" so it's clickable here too.
 </footer>
 
 <script>
 const GROUPS = {
   TD:   { name:"Philip & Danielle", parts:4 },
   JOFF: { name:"Julia & Oli",       parts:4 },
-  GE:   { name:"Guy & Elisabeth",   parts:2 }
+  GE:   { name:"Guy & Elisabeth",   parts:2 },
+  SOPH: { name:"Sophie & Mark",     parts:4 }
 };
 
 const PEOPLE = {
   TD:   ["Philip","Danielle","Millie","Lottie"],
   JOFF: ["Julia","Oli","Florence","Felicity"],
-  GE:   ["Guy","Elisabeth"]
+  GE:   ["Guy","Elisabeth"],
+  SOPH: ["Sophie","Mark","James","Bobby"]
 };
 
 const GROUP_LABELS = {
   TD: "Philip & Danielle's",
   JOFF: "Julia's",
-  GE: "Guy & Elisabeth"
+  GE: "Guy & Elisabeth",
+  SOPH: "Sophie's"
 };
 
 const SEED = {
@@ -357,18 +366,19 @@ function groupsPresent(participants){
 // ---------------------------------------------------------------------
 async function loadData(){
   try{
-    const res = await window.storage.get('le-fournas-ledger', false);
-    data = (res && res.value) ? JSON.parse(res.value) : JSON.parse(JSON.stringify(SEED));
-    if(!res || !res.value) await persist();
+    const raw = localStorage.getItem('le-fournas-ledger');
+    data = raw ? JSON.parse(raw) : JSON.parse(JSON.stringify(SEED));
+    if(!raw) await persist();
   } catch(e){
+    console.error("Load error", e);
     data = JSON.parse(JSON.stringify(SEED));
     try{ await persist(); } catch(e2){ console.error("save failed", e2); }
   }
   migrateData();
 
   try{
-    const res2 = await window.storage.get('le-fournas-house-defaults', false);
-    houseDefaults = (res2 && res2.value) ? JSON.parse(res2.value) : allPeople();
+    const raw2 = localStorage.getItem('le-fournas-house-defaults');
+    houseDefaults = raw2 ? JSON.parse(raw2) : allPeople();
   } catch(e){
     houseDefaults = allPeople();
   }
@@ -382,12 +392,12 @@ async function loadData(){
 }
 
 async function persist(){
-  try{ await window.storage.set('le-fournas-ledger', JSON.stringify(data), false); }
-  catch(e){ console.error("Storage error", e); }
+  try{ localStorage.setItem('le-fournas-ledger', JSON.stringify(data)); }
+  catch(e){ console.error("Storage error", e); alert("Couldn't save — your browser storage may be full or blocked."); }
 }
 
 async function persistDefaults(){
-  try{ await window.storage.set('le-fournas-house-defaults', JSON.stringify(houseDefaults), false); }
+  try{ localStorage.setItem('le-fournas-house-defaults', JSON.stringify(houseDefaults)); }
   catch(e){ console.error("Storage error", e); }
 }
 
@@ -405,6 +415,10 @@ function migrateData(){
 // ---------------------------------------------------------------------
 // Pill builders
 // ---------------------------------------------------------------------
+function groupPillClass(g){
+  return { TD:'', JOFF:'g-JOFF', GE:'g-GE', SOPH:'g-SOPH' }[g] || '';
+}
+
 function buildHouseDefaultsUI(){
   const container = document.getElementById('house-defaults');
   container.innerHTML = Object.keys(PEOPLE).map(g => `
@@ -412,7 +426,7 @@ function buildHouseDefaultsUI(){
       <span class="household-label">${GROUP_LABELS[g]}</span>
       <div class="pill-row">
         ${PEOPLE[g].map(person => `
-          <button type="button" class="pill house-pill ${g==='JOFF'?'g-JOFF':g==='GE'?'g-GE':''} ${houseDefaults.includes(person)?'active':''}" data-person="${person}">${person}</button>
+          <button type="button" class="pill house-pill ${groupPillClass(g)} ${houseDefaults.includes(person)?'active':''}" data-person="${person}">${person}</button>
         `).join('')}
       </div>
     </div>
@@ -450,7 +464,7 @@ function buildParticipantPills(containerId, presentList){
       <span class="household-label">${GROUP_LABELS[g]}</span>
       <div class="pill-row">
         ${PEOPLE[g].map(person => `
-          <button type="button" class="pill participant-pill ${g==='JOFF'?'g-JOFF':g==='GE'?'g-GE':''} ${presentList.includes(person)?'active':''}" data-person="${person}">${person}</button>
+          <button type="button" class="pill participant-pill ${groupPillClass(g)} ${presentList.includes(person)?'active':''}" data-person="${person}">${person}</button>
         `).join('')}
       </div>
     </div>
