@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>La Cagnotte du Fournas</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Caveat:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root{
     --stone:#F1EAD9;
@@ -19,9 +19,6 @@
     --ochre-deep:#8F5A22;
     --olive:#6E7B45;
     --olive-deep:#525C33;
-    --slate:#2B2E33;
-    --slate-line:#454A50;
-    --chalk:#ECE7DC;
     --danger:#A8433A;
     --good:#4F7A52;
   }
@@ -36,151 +33,76 @@
   }
   .wrap{max-width:880px; margin:0 auto; padding:0 20px;}
 
-  /* ---- Header ---- */
-  header{
-    padding:44px 20px 28px;
-    border-bottom:1px solid var(--stone-line);
-    margin-bottom:32px;
-  }
+  header{ padding:44px 20px 28px; border-bottom:1px solid var(--stone-line); margin-bottom:32px; }
   header .inner{max-width:880px; margin:0 auto;}
   .eyebrow{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    letter-spacing:0.14em;
-    text-transform:uppercase;
-    color:var(--olive-deep);
-    margin:0 0 10px;
+    font-family:'IBM Plex Mono', monospace; font-size:12px; letter-spacing:0.14em;
+    text-transform:uppercase; color:var(--olive-deep); margin:0 0 10px;
   }
   h1{
-    font-family:'Fraunces', serif;
-    font-weight:600;
-    font-size:clamp(32px,5vw,46px);
-    margin:0 0 8px;
-    color:var(--lavender-deep);
-    letter-spacing:-0.01em;
+    font-family:'Fraunces', serif; font-weight:600; font-size:clamp(32px,5vw,46px);
+    margin:0 0 8px; color:var(--lavender-deep); letter-spacing:-0.01em;
   }
-  header p.sub{
-    margin:0;
-    color:var(--ink-soft);
-    font-size:15px;
-    max-width:60ch;
-  }
+  header p.sub{ margin:0; color:var(--ink-soft); font-size:15px; max-width:60ch; }
 
-  section{margin-bottom:40px;}
-  h2{
-    font-family:'Fraunces', serif;
-    font-weight:600;
-    font-size:22px;
-    margin:0 0 4px;
-    color:var(--ink);
-  }
-  .section-note{color:var(--ink-soft); font-size:13.5px; margin:0 0 18px;}
+  section{margin-bottom:36px;}
+  h2{ font-family:'Fraunces', serif; font-weight:600; font-size:21px; margin:0 0 4px; color:var(--ink); }
+  .section-note{color:var(--ink-soft); font-size:13.5px; margin:0 0 16px;}
 
-  /* ---- Ardoise (chalkboard balance) ---- */
-  .ardoise{
-    background:var(--slate);
-    border-radius:14px;
-    padding:30px 32px;
-    box-shadow:0 1px 0 rgba(255,255,255,0.04) inset, 0 12px 30px rgba(30,25,15,0.18);
-  }
-  .ardoise h2{ color:var(--chalk); }
-  .ardoise .section-note{ color:#9CA3AA; }
-  .settle-lines{ display:flex; flex-direction:column; gap:10px; margin-top:10px;}
-  .settle-line{
-    font-family:'Caveat', cursive;
-    font-size:30px;
-    color:var(--chalk);
-    display:flex;
-    align-items:baseline;
-    gap:10px;
-    border-bottom:1px dashed var(--slate-line);
-    padding-bottom:8px;
-  }
-  .settle-line .amt{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:17px;
-    color:#E8C580;
-    margin-left:auto;
-    font-weight:600;
-  }
-  .settle-line.zero{ color:#8B9096; }
-  .settle-line.zero .amt{ color:#8B9096; }
-  .all-square{
-    font-family:'Caveat', cursive;
-    font-size:28px;
-    color:var(--chalk);
-  }
-  .net-row{
-    display:flex;
-    gap:14px;
-    margin-top:22px;
-    flex-wrap:wrap;
-  }
-  .net-chip{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12.5px;
-    color:var(--chalk);
-    background:rgba(255,255,255,0.06);
-    border:1px solid var(--slate-line);
-    border-radius:8px;
-    padding:8px 12px;
-    flex:1;
-    min-width:150px;
-  }
-  .net-chip .label{ display:block; color:#9CA3AA; margin-bottom:3px; }
-  .net-chip .value.pos{ color:#8FCB92; }
-  .net-chip .value.neg{ color:#E5877E; }
+  .card{ background:#fff; border:1px solid var(--stone-line); border-radius:12px; padding:22px; }
 
-  /* ---- Groups key ---- */
-  .groups-key{
-    display:flex;
-    gap:12px;
-    flex-wrap:wrap;
-    margin-top:18px;
+  /* ---- Pills ---- */
+  .pill-row{display:flex; flex-wrap:wrap; gap:8px;}
+  .pill{
+    font-family:'IBM Plex Sans', sans-serif; font-size:13.5px; font-weight:600;
+    padding:7px 15px; border-radius:999px; border:1px solid var(--stone-line);
+    background:#fff; color:var(--ink-soft); cursor:pointer;
+    transition:background .12s ease, color .12s ease, border-color .12s ease;
   }
-  .group-pill{
-    display:flex; align-items:center; gap:8px;
-    background:var(--stone-dark);
-    border:1px solid var(--stone-line);
-    border-radius:999px;
-    padding:6px 14px 6px 8px;
-    font-size:13px;
-  }
-  .dot{width:10px; height:10px; border-radius:50%; flex:none;}
-  .dot.TD{background:var(--lavender);}
-  .dot.JOFF{background:var(--ochre);}
-  .dot.GE{background:var(--olive);}
-  .group-pill b{font-weight:600;}
-  .group-pill .parts{color:var(--ink-soft); font-family:'IBM Plex Mono',monospace; font-size:12px;}
+  .pill:hover{border-color:var(--lavender);}
+  .pill.active{ background:var(--lavender); color:#fff; border-color:var(--lavender); }
+  .pill.active.g-JOFF{ background:var(--ochre); border-color:var(--ochre); }
+  .pill.active.g-GE{ background:var(--olive); border-color:var(--olive); }
 
-  /* ---- Cards / forms ---- */
-  .card{
-    background:#fff;
-    border:1px solid var(--stone-line);
-    border-radius:12px;
-    padding:22px;
+  .household-block{margin-bottom:2px;}
+  .household-label{
+    font-family:'IBM Plex Mono', monospace; font-size:11px; text-transform:uppercase;
+    letter-spacing:0.05em; color:var(--ink-soft); margin-bottom:7px; display:block;
   }
-  .scan-card{
-    background:var(--stone-dark);
-    border:1px dashed var(--ochre-deep);
+  .household-groups{display:flex; flex-wrap:wrap; gap:22px; margin-top:6px;}
+
+  .defaults-footline{
+    margin-top:16px; padding-top:14px; border-top:1px dashed var(--stone-line);
+    font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--ink-soft);
   }
-  .scan-row{display:flex; gap:12px; align-items:center; flex-wrap:wrap;}
-  input[type=file]{font-size:13px;}
-  .thumb{
-    width:56px; height:56px; object-fit:cover; border-radius:6px;
-    border:1px solid var(--stone-line); display:none;
+  .defaults-footline b{color:var(--ink); font-weight:600;}
+
+  /* ---- Form ---- */
+  label{
+    display:block; font-size:12px; font-weight:600; color:var(--ink-soft);
+    margin-bottom:6px; text-transform:uppercase; letter-spacing:0.04em;
   }
+  input[type=text], input[type=number], input[type=date], select{
+    width:100%; font-family:'IBM Plex Sans', sans-serif; font-size:14px;
+    padding:9px 10px; border:1px solid var(--stone-line); border-radius:7px;
+    background:#fff; color:var(--ink);
+  }
+  .field-grid{ display:grid; grid-template-columns:1fr 1fr; gap:14px 16px; }
+  .field-grid .full{grid-column:1/-1;}
+  .field-block{margin-bottom:16px;}
+
+  .toggle-row{display:flex; gap:8px; margin-bottom:20px;}
+  .toggle-row .pill{padding:8px 16px;}
+  .toggle-row .pill.active{background:var(--ink); border-color:var(--ink); color:#fff;}
+
+  .form-block{display:none;}
+  .form-block.visible{display:block;}
+  .form-actions{margin-top:18px; display:flex; gap:10px; align-items:center;}
+
   .btn{
-    font-family:'IBM Plex Sans', sans-serif;
-    font-weight:600;
-    font-size:13.5px;
-    border:none;
-    border-radius:8px;
-    padding:10px 16px;
-    cursor:pointer;
-    background:var(--lavender);
-    color:#fff;
-    transition:background .15s ease, transform .1s ease;
+    font-family:'IBM Plex Sans', sans-serif; font-weight:600; font-size:13.5px;
+    border:none; border-radius:8px; padding:10px 18px; cursor:pointer;
+    background:var(--lavender); color:#fff; transition:background .15s ease, transform .1s ease;
   }
   .btn:hover{background:var(--lavender-deep);}
   .btn:active{transform:scale(0.98);}
@@ -188,130 +110,72 @@
   .btn.secondary:hover{background:var(--lavender); color:#fff;}
   .btn.ochre{background:var(--ochre);}
   .btn.ochre:hover{background:var(--ochre-deep);}
-  .btn:disabled{opacity:0.5; cursor:not-allowed;}
-  .btn.small{padding:5px 10px; font-size:12px;}
   .btn.danger-outline{background:transparent; color:var(--danger); border:1px solid var(--danger);}
   .btn.danger-outline:hover{background:var(--danger); color:#fff;}
+  .btn:disabled{opacity:0.5; cursor:not-allowed;}
 
-  .scan-status{font-size:13px; color:var(--ink-soft); margin-top:10px;}
+  /* ---- Scan-to-prefill mini widget ---- */
+  .scan-strip{
+    display:flex; align-items:center; gap:12px; flex-wrap:wrap;
+    background:var(--stone-dark); border:1px dashed var(--ochre-deep);
+    border-radius:10px; padding:14px 16px; margin-bottom:20px;
+  }
+  .scan-strip .scan-label{font-size:13px; color:var(--ink-soft); flex:1; min-width:180px;}
+  input[type=file]{font-size:13px;}
+  .thumb{ width:44px; height:44px; object-fit:cover; border-radius:6px; border:1px solid var(--stone-line); display:none; }
+  .scan-status{font-size:12.5px; color:var(--ink-soft); width:100%;}
   .scan-status.err{color:var(--danger);}
 
-  .draft-grid{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:12px;
-    margin-top:16px;
-  }
-  .draft-grid .full{grid-column:1/-1;}
-  label{
-    display:block;
-    font-size:12px;
-    font-weight:600;
-    color:var(--ink-soft);
-    margin-bottom:5px;
-    text-transform:uppercase;
-    letter-spacing:0.04em;
-  }
-  input[type=text], input[type=number], input[type=date], select, textarea{
-    width:100%;
-    font-family:'IBM Plex Sans', sans-serif;
-    font-size:14px;
-    padding:9px 10px;
-    border:1px solid var(--stone-line);
-    border-radius:7px;
-    background:#fff;
-    color:var(--ink);
-  }
-  textarea{resize:vertical; min-height:44px;}
-  .participants{display:flex; gap:14px; flex-wrap:wrap; margin-top:4px;}
-  .participants label{
-    display:flex; align-items:center; gap:6px;
-    text-transform:none; font-weight:500; font-size:13.5px; color:var(--ink);
-    margin:0;
-  }
-  .participants input{width:auto;}
-
-  .who-was-there{display:flex; flex-direction:column; gap:10px; margin-top:4px;}
-  .who-group-label{
-    display:block;
-    font-size:11px; font-weight:600; color:var(--ink-soft);
-    text-transform:uppercase; letter-spacing:0.04em; margin-bottom:4px;
-  }
-  .who-group .people{display:flex; gap:12px; flex-wrap:wrap;}
-  .who-group .people label{
-    display:flex; align-items:center; gap:5px;
-    text-transform:none; font-weight:500; font-size:13.5px; color:var(--ink);
-    margin:0;
-  }
-  .who-group .people input{width:auto;}
-  .entry .desc a{color:var(--ink); text-decoration:underline; text-decoration-color:var(--stone-line);}
-  .entry .desc a:hover{color:var(--lavender-deep); text-decoration-color:var(--lavender);}
-
-  .toggle-row{display:flex; gap:10px; margin-bottom:16px;}
-  .toggle-row .btn.tab{
-    background:transparent; color:var(--ink-soft); border:1px solid var(--stone-line);
-  }
-  .toggle-row .btn.tab.active{background:var(--ink); color:#fff; border-color:var(--ink);}
-
-  .form-block{display:none;}
-  .form-block.visible{display:block;}
-  .form-actions{margin-top:16px; display:flex; gap:10px;}
-
-  /* ---- Timeline ---- */
-  .timeline-list{display:flex; flex-direction:column; gap:10px;}
+  /* ---- Ledger ---- */
+  .ledger-head{display:flex; align-items:baseline; justify-content:space-between;}
+  .ledger-count{font-family:'IBM Plex Mono', monospace; font-size:12.5px; color:var(--ink-soft);}
+  .timeline-list{display:flex; flex-direction:column; gap:10px; margin-top:16px;}
   .entry{
-    display:flex;
-    align-items:flex-start;
-    gap:14px;
-    background:#fff;
-    border:1px solid var(--stone-line);
-    border-radius:10px;
-    padding:14px 16px;
+    display:flex; align-items:flex-start; gap:14px; background:#fff;
+    border:1px solid var(--stone-line); border-radius:10px; padding:14px 16px;
   }
-  .entry .date{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:12px;
-    color:var(--ink-soft);
-    width:78px;
-    flex:none;
-    padding-top:2px;
-  }
+  .entry .date{ font-family:'IBM Plex Mono', monospace; font-size:12px; color:var(--ink-soft); width:78px; flex:none; padding-top:2px; }
   .entry .body{flex:1; min-width:0;}
   .entry .title-row{display:flex; align-items:center; gap:8px; flex-wrap:wrap;}
   .entry .desc{font-weight:600; font-size:14.5px;}
+  .entry .desc a{color:var(--ink); text-decoration:underline; text-decoration-color:var(--stone-line);}
+  .entry .desc a:hover{color:var(--lavender-deep); text-decoration-color:var(--lavender);}
   .entry .meta{font-size:12.5px; color:var(--ink-soft); margin-top:3px;}
-  .entry .amt{
-    font-family:'IBM Plex Mono', monospace;
-    font-weight:600;
-    font-size:15px;
-    white-space:nowrap;
-  }
+  .entry .amt{ font-family:'IBM Plex Mono', monospace; font-weight:600; font-size:15px; white-space:nowrap; }
   .badge{
-    font-family:'IBM Plex Mono', monospace;
-    font-size:10.5px;
-    text-transform:uppercase;
-    letter-spacing:0.05em;
-    padding:2px 7px;
-    border-radius:5px;
-    color:#fff;
+    font-family:'IBM Plex Mono', monospace; font-size:10.5px; text-transform:uppercase;
+    letter-spacing:0.05em; padding:2px 7px; border-radius:5px; color:#fff;
   }
   .badge.receipt{background:var(--olive);}
   .badge.settlement{background:var(--lavender);}
-  .entry .del{
-    background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:16px;
-    padding:2px 4px; flex:none;
-  }
+  .badge.cat{background:var(--stone-dark); color:var(--ink-soft); border:1px solid var(--stone-line);}
+  .entry .del{ background:none; border:none; color:var(--ink-soft); cursor:pointer; font-size:16px; padding:2px 4px; flex:none; }
   .entry .del:hover{color:var(--danger);}
-  .empty-state{
-    text-align:center; color:var(--ink-soft); padding:30px; font-size:14px;
-    background:var(--stone-dark); border-radius:10px; border:1px dashed var(--stone-line);
+  .empty-state{ text-align:center; color:var(--ink-soft); padding:30px; font-size:14px; background:var(--stone-dark); border-radius:10px; border:1px dashed var(--stone-line); margin-top:16px; }
+
+  /* ---- Balances (bottom) ---- */
+  .settle-list{display:flex; flex-direction:column; gap:8px; margin-bottom:22px;}
+  .settle-item{
+    display:flex; justify-content:space-between; align-items:center; gap:10px;
+    background:var(--stone-dark); border:1px solid var(--stone-line); border-radius:9px; padding:11px 15px; font-size:14px;
   }
+  .settle-item .amt{font-family:'IBM Plex Mono', monospace; font-weight:600; color:var(--ink);}
+  .all-square{ text-align:center; color:var(--ink-soft); font-size:14.5px; padding:14px; font-style:italic; }
+
+  .balance-grid{ display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:12px; }
+  .balance-card{ background:#fff; border:1px solid var(--stone-line); border-radius:12px; padding:16px 18px; }
+  .balance-card .name{font-family:'Fraunces', serif; font-weight:600; font-size:15px;}
+  .balance-card .paidfair{font-family:'IBM Plex Mono', monospace; font-size:11.5px; color:var(--ink-soft); margin-top:4px;}
+  .balance-card .big{font-family:'IBM Plex Mono', monospace; font-size:25px; font-weight:600; margin-top:8px;}
+  .balance-card .big.pos{color:var(--good);}
+  .balance-card .big.neg{color:var(--danger);}
+  .balance-card .status{font-size:12px; color:var(--ink-soft); margin-top:1px;}
+
+  .danger-zone{margin-top:16px; text-align:right;}
 
   footer{
-    max-width:880px; margin:40px auto 0; padding:0 20px;
-    font-size:12.5px; color:var(--ink-soft);
-    border-top:1px solid var(--stone-line);
-    padding-top:18px;
+    max-width:880px; margin:40px auto 0; padding:0 20px; font-size:12.5px; color:var(--ink-soft);
+    border-top:1px solid var(--stone-line); padding-top:18px;
   }
 </style>
 </head>
@@ -321,142 +185,120 @@
   <div class="inner">
     <p class="eyebrow">Le Fournas · Été 2026</p>
     <h1>La Cagnotte du Fournas</h1>
-    <p class="sub">Every receipt from Monday 3 August onward, split by household share, with a running tally of who owes whom.</p>
+    <p class="sub">The shared purse for Le Fournas. Log what's spent, mark who was in the house at the time, and it works out what each family owes — from Monday 3 August onward.</p>
   </div>
 </header>
 
 <div class="wrap">
 
-  <section class="ardoise" id="ardoise-section">
-    <h2>The tally</h2>
-    <p class="section-note">Net position after every receipt and settlement below.</p>
-    <div class="settle-lines" id="settle-lines"></div>
-    <div class="net-row" id="net-row"></div>
-  </section>
-
   <section>
-    <h2>Households</h2>
-    <p class="section-note">Shares are fixed per household. Toggle who was actually there on each receipt below.</p>
-    <div class="groups-key">
-      <span class="group-pill"><span class="dot TD"></span><b>Philip &amp; Danielle</b> + Millie &amp; Lottie <span class="parts">4 parts</span></span>
-      <span class="group-pill"><span class="dot JOFF"></span><b>Julia &amp; Oli</b> + Florence &amp; Felicity <span class="parts">4 parts</span></span>
-      <span class="group-pill"><span class="dot GE"></span><b>Guy &amp; Elisabeth</b> <span class="parts">2 parts</span></span>
+    <h2>Who's in the house right now</h2>
+    <p class="section-note">This sets the default "present" list for new entries below — you can still adjust it per receipt.</p>
+    <div class="card">
+      <div class="household-groups" id="house-defaults"></div>
+      <div class="defaults-footline" id="house-defaults-summary"></div>
     </div>
   </section>
 
   <section>
-    <h2>Scan a receipt</h2>
-    <p class="section-note">Photograph or upload a scan. Claude reads the date, total and merchant so you only need to confirm who paid and who was there.</p>
-    <div class="card scan-card">
-      <div class="scan-row">
-        <input type="file" id="file-input" accept="image/*">
-        <img id="thumb" class="thumb">
-        <button class="btn ochre" id="extract-btn" disabled>Extract details</button>
-      </div>
-      <div class="scan-status" id="scan-status"></div>
+    <h2>Add an entry</h2>
+    <p class="section-note">One entry per receipt or settle-up payment. Amounts in euros.</p>
 
-      <div class="draft-grid" id="draft-form" style="display:none;">
-        <div>
-          <label>Date</label>
-          <input type="date" id="d-date">
-        </div>
-        <div>
-          <label>Amount (€)</label>
-          <input type="number" step="0.01" id="d-amount">
-        </div>
-        <div class="full">
-          <label>Description</label>
-          <input type="text" id="d-desc">
-        </div>
-        <div class="full">
-          <label>Receipt link (optional)</label>
-          <input type="text" id="d-link" placeholder="Paste the Google Drive link to the scan">
-        </div>
-        <div>
-          <label>Who paid</label>
-          <select id="d-payer">
-            <option value="TD">Philip &amp; Danielle</option>
-            <option value="JOFF">Julia &amp; Oli</option>
-            <option value="GE">Guy &amp; Elisabeth</option>
-          </select>
-        </div>
-        <div class="full">
-          <label>Who was there</label>
-          <div class="who-was-there" id="d-participants"></div>
-        </div>
-        <div class="full form-actions">
-          <button class="btn" id="add-scanned-btn">Add to ledger</button>
-          <button class="btn secondary" id="cancel-scanned-btn">Discard</button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section>
-    <h2>Add manually</h2>
     <div class="toggle-row">
-      <button class="btn tab active" data-tab="receipt">+ Receipt</button>
-      <button class="btn tab" data-tab="settlement">+ Settlement</button>
+      <button class="pill active" data-tab="receipt">Shared expense</button>
+      <button class="pill" data-tab="settlement">Settle-up payment</button>
     </div>
 
     <div class="card form-block visible" id="form-receipt">
-      <div class="draft-grid">
-        <div><label>Date</label><input type="date" id="r-date"></div>
-        <div><label>Amount (€)</label><input type="number" step="0.01" id="r-amount"></div>
-        <div class="full"><label>Description</label><input type="text" id="r-desc" placeholder="e.g. Lidl groceries"></div>
-        <div class="full"><label>Receipt link (optional)</label><input type="text" id="r-link" placeholder="Paste the Google Drive link to the scan"></div>
-        <div>
-          <label>Who paid</label>
-          <select id="r-payer">
-            <option value="TD">Philip &amp; Danielle</option>
-            <option value="JOFF">Julia &amp; Oli</option>
-            <option value="GE">Guy &amp; Elisabeth</option>
+
+      <div class="scan-strip">
+        <input type="file" id="file-input" accept="image/*">
+        <img id="thumb" class="thumb">
+        <span class="scan-label">Photograph a scan and Claude will fill in the fields below.</span>
+        <button class="btn ochre" id="extract-btn" disabled>Extract details</button>
+        <div class="scan-status" id="scan-status"></div>
+      </div>
+
+      <div class="field-grid">
+        <div class="field-block"><label>Date</label><input type="date" id="r-date"></div>
+        <div class="field-block"><label>Amount (€)</label><input type="number" step="0.01" id="r-amount"></div>
+        <div class="field-block full"><label>What was it</label><input type="text" id="r-desc" placeholder="e.g. Lidl groceries, Ventoux fuel, lunch in Sablet"></div>
+        <div class="field-block"><label>Category</label>
+          <select id="r-category">
+            <option value="Groceries">Groceries</option>
+            <option value="Café & Restaurant">Café &amp; Restaurant</option>
+            <option value="Fuel">Fuel</option>
+            <option value="Household">Household</option>
+            <option value="Other">Other</option>
           </select>
         </div>
-        <div class="full">
-          <label>Who was there</label>
-          <div class="who-was-there" id="r-participants"></div>
+        <div class="field-block full">
+          <label>Who paid</label>
+          <div class="pill-row" id="r-payer-pills">
+            <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
+            <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
+            <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+          </div>
         </div>
+        <div class="field-block full">
+          <label>Who was present for this one</label>
+          <div class="household-groups" id="r-participants"></div>
+        </div>
+        <div class="field-block"><label>Receipt reference (optional)</label><input type="text" id="r-link" placeholder="Drive filename or link"></div>
+        <div class="field-block"><label>Logged by (optional)</label><input type="text" id="r-loggedby" placeholder="Your name"></div>
       </div>
-      <div class="form-actions"><button class="btn" id="add-receipt-btn">Add receipt</button></div>
+      <div class="form-actions"><button class="btn" id="add-receipt-btn">Add to the ledger</button></div>
     </div>
 
     <div class="card form-block" id="form-settlement">
-      <div class="draft-grid">
-        <div><label>Date</label><input type="date" id="s-date"></div>
-        <div><label>Amount (€)</label><input type="number" step="0.01" id="s-amount"></div>
-        <div>
+      <div class="field-grid">
+        <div class="field-block"><label>Date</label><input type="date" id="s-date"></div>
+        <div class="field-block"><label>Amount (€)</label><input type="number" step="0.01" id="s-amount"></div>
+        <div class="field-block full">
           <label>From (paid)</label>
-          <select id="s-from">
-            <option value="TD">Philip &amp; Danielle</option>
-            <option value="JOFF">Julia &amp; Oli</option>
-            <option value="GE">Guy &amp; Elisabeth</option>
-          </select>
+          <div class="pill-row" id="s-from-pills">
+            <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
+            <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
+            <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+          </div>
         </div>
-        <div>
+        <div class="field-block full">
           <label>To (received)</label>
-          <select id="s-to">
-            <option value="JOFF">Julia &amp; Oli</option>
-            <option value="TD">Philip &amp; Danielle</option>
-            <option value="GE">Guy &amp; Elisabeth</option>
-          </select>
+          <div class="pill-row" id="s-to-pills">
+            <button type="button" class="pill" data-group="TD">Philip &amp; Danielle's</button>
+            <button type="button" class="pill g-JOFF" data-group="JOFF">Julia's</button>
+            <button type="button" class="pill g-GE" data-group="GE">Guy &amp; Elisabeth</button>
+          </div>
         </div>
-        <div class="full"><label>Note</label><input type="text" id="s-note" placeholder="e.g. cash"></div>
+        <div class="field-block full"><label>Note</label><input type="text" id="s-note" placeholder="e.g. cash"></div>
       </div>
-      <div class="form-actions"><button class="btn" id="add-settlement-btn">Add settlement</button></div>
+      <div class="form-actions"><button class="btn" id="add-settlement-btn">Add to the ledger</button></div>
     </div>
   </section>
 
   <section>
-    <h2>Timeline</h2>
+    <div class="ledger-head">
+      <h2>The ledger</h2>
+      <span class="ledger-count" id="ledger-count"></span>
+    </div>
     <p class="section-note">Everything logged so far, most recent first.</p>
     <div class="timeline-list" id="timeline"></div>
+  </section>
+
+  <section>
+    <h2>Balances</h2>
+    <p class="section-note">Each family's fair share is worked out from how many of them were present on each receipt, then compared with what they've actually paid.</p>
+    <div class="card">
+      <div class="settle-list" id="settle-lines"></div>
+      <div class="balance-grid" id="balance-grid"></div>
+    </div>
+    <div class="danger-zone"><button class="btn danger-outline" id="clear-all-btn">Clear all entries</button></div>
   </section>
 
 </div>
 
 <footer>
-  This runs entirely in your browser and saves to this artifact's storage — nothing is sent anywhere except the receipt photo, which goes to Claude for reading only when you tap "Extract details." I can't reach into your Google Drive folder directly from here (no Google sign-in inside an artifact), so for now: scan new receipts here as they come in, or paste me the details in chat and I'll add them for you next time we speak.
+  This runs entirely in your browser and saves to this artifact's storage — nothing is sent anywhere except a receipt photo, which goes to Claude for reading only when you tap "Extract details." I can't reach into your Google Drive folder directly from here (no Google sign-in inside an artifact), and uploading a photo here doesn't put it into Drive either — the photo only ever goes to Claude for OCR, then is discarded. If you want it archived alongside the others, upload it to the shared Drive folder separately and paste the resulting link into "Receipt reference" so it's clickable here too.
 </footer>
 
 <script>
@@ -473,8 +315,8 @@ const PEOPLE = {
 };
 
 const GROUP_LABELS = {
-  TD: "Philip & Danielle household",
-  JOFF: "Julia & Oli household",
+  TD: "Philip & Danielle's",
+  JOFF: "Julia's",
   GE: "Guy & Elisabeth"
 };
 
@@ -482,111 +324,185 @@ const SEED = {
   receipts: [
     {
       id:"r-seed-1", date:"2026-08-03", payer:"GE", amount:201.98,
-      desc:"Lidl groceries",
+      desc:"Lidl groceries", category:"Groceries",
       link:"https://drive.google.com/file/d/1GeC7USU56yf_D2gYRNDx-wqH4f3MmNmv/view",
+      loggedBy:"",
       participants:["Philip","Danielle","Millie","Lottie","Julia","Oli","Florence","Felicity","Guy","Elisabeth"]
     },
     {
       id:"r-seed-2", date:"2026-08-04", payer:"JOFF", amount:26.80,
       desc:"Café — 4 café crème, 2 apple juice, 1 orange juice, 1 Orangina",
-      link:"",
+      category:"Café & Restaurant", link:"", loggedBy:"",
       participants:["Philip","Danielle","Millie","Lottie","Julia","Oli","Florence","Felicity"]
     }
   ],
   settlements: [
-    {
-      id:"s-seed-1", date:"2026-08-04", from:"TD", to:"JOFF", amount:13.40,
-      note:"Cash — 50% of café"
-    }
+    { id:"s-seed-1", date:"2026-08-04", from:"TD", to:"JOFF", amount:13.40, note:"Cash — 50% of café" }
   ]
 };
 
-function buildParticipantCheckboxes(containerId, cssClass){
-  const container = document.getElementById(containerId);
-  container.innerHTML = Object.keys(PEOPLE).map(g => `
-    <div class="who-group" data-group="${g}">
-      <span class="who-group-label">${GROUP_LABELS[g]}</span>
-      <div class="people">
-        ${PEOPLE[g].map(person => `
-          <label><input type="checkbox" class="${cssClass}" data-group="${g}" value="${person}" checked> ${person}</label>
-        `).join('')}
-      </div>
-    </div>
-  `).join('');
-}
-
-function groupsPresent(participants){
-  return Object.keys(PEOPLE).filter(g => PEOPLE[g].some(person => participants.includes(person)));
-}
-
-// migrate any legacy entries whose participants were stored as group keys (TD/JOFF/GE)
-// rather than individual people, so old saved ledgers keep working.
-function migrateData(){
-  data.receipts.forEach(r => {
-    r.participants = r.participants.flatMap(p => PEOPLE[p] ? PEOPLE[p] : [p]);
-    if(r.link === undefined) r.link = "";
-  });
-}
-
 let data = { receipts: [], settlements: [] };
+let houseDefaults = null; // array of person names present by default
 
 function uid(prefix){ return prefix + "-" + Date.now() + "-" + Math.random().toString(36).slice(2,7); }
+function fmt(n){ return "€" + n.toLocaleString('en-IE', {minimumFractionDigits:2, maximumFractionDigits:2}); }
+function escapeHtml(str){ const d = document.createElement('div'); d.textContent = str; return d.innerHTML; }
+function allPeople(){ return Object.values(PEOPLE).flat(); }
+function groupsPresent(participants){
+  return Object.keys(PEOPLE).filter(g => PEOPLE[g].some(p => participants.includes(p)));
+}
 
+// ---------------------------------------------------------------------
+// Persistence
+// ---------------------------------------------------------------------
 async function loadData(){
   try{
     const res = await window.storage.get('le-fournas-ledger', false);
-    if(res && res.value){
-      data = JSON.parse(res.value);
-    } else {
-      data = JSON.parse(JSON.stringify(SEED));
-      await persist();
-    }
+    data = (res && res.value) ? JSON.parse(res.value) : JSON.parse(JSON.stringify(SEED));
+    if(!res || !res.value) await persist();
   } catch(e){
     data = JSON.parse(JSON.stringify(SEED));
     try{ await persist(); } catch(e2){ console.error("save failed", e2); }
   }
   migrateData();
-  buildParticipantCheckboxes('d-participants', 'd-part');
-  buildParticipantCheckboxes('r-participants', 'r-part');
+
+  try{
+    const res2 = await window.storage.get('le-fournas-house-defaults', false);
+    houseDefaults = (res2 && res2.value) ? JSON.parse(res2.value) : allPeople();
+  } catch(e){
+    houseDefaults = allPeople();
+  }
+
+  buildHouseDefaultsUI();
+  buildParticipantPills('r-participants', houseDefaults);
+  wireSingleSelectPills('r-payer-pills');
+  wireSingleSelectPills('s-from-pills');
+  wireSingleSelectPills('s-to-pills');
   renderAll();
 }
 
 async function persist(){
-  try{
-    await window.storage.set('le-fournas-ledger', JSON.stringify(data), false);
-  } catch(e){
-    console.error("Storage error", e);
-  }
+  try{ await window.storage.set('le-fournas-ledger', JSON.stringify(data), false); }
+  catch(e){ console.error("Storage error", e); }
 }
 
-function fmt(n){
-  return "€" + n.toLocaleString('en-IE', {minimumFractionDigits:2, maximumFractionDigits:2});
+async function persistDefaults(){
+  try{ await window.storage.set('le-fournas-house-defaults', JSON.stringify(houseDefaults), false); }
+  catch(e){ console.error("Storage error", e); }
 }
 
-// balances[A][B] = amount A owes B (net). balances[A][B] === -balances[B][A]
+// migrate legacy entries whose participants were stored as group keys, or which
+// predate the category/link/loggedBy fields.
+function migrateData(){
+  data.receipts.forEach(r => {
+    r.participants = r.participants.flatMap(p => PEOPLE[p] ? PEOPLE[p] : [p]);
+    if(r.link === undefined) r.link = "";
+    if(r.category === undefined) r.category = "Other";
+    if(r.loggedBy === undefined) r.loggedBy = "";
+  });
+}
+
+// ---------------------------------------------------------------------
+// Pill builders
+// ---------------------------------------------------------------------
+function buildHouseDefaultsUI(){
+  const container = document.getElementById('house-defaults');
+  container.innerHTML = Object.keys(PEOPLE).map(g => `
+    <div class="household-block" data-group="${g}">
+      <span class="household-label">${GROUP_LABELS[g]}</span>
+      <div class="pill-row">
+        ${PEOPLE[g].map(person => `
+          <button type="button" class="pill house-pill ${g==='JOFF'?'g-JOFF':g==='GE'?'g-GE':''} ${houseDefaults.includes(person)?'active':''}" data-person="${person}">${person}</button>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+
+  container.querySelectorAll('.house-pill').forEach(btn => {
+    btn.addEventListener('click', async () => {
+      const person = btn.dataset.person;
+      btn.classList.toggle('active');
+      if(btn.classList.contains('active')){
+        if(!houseDefaults.includes(person)) houseDefaults.push(person);
+      } else {
+        houseDefaults = houseDefaults.filter(p => p !== person);
+      }
+      await persistDefaults();
+      renderHouseSummary();
+    });
+  });
+  renderHouseSummary();
+}
+
+function renderHouseSummary(){
+  const n = houseDefaults.length;
+  const perGroup = Object.keys(PEOPLE).map(g => {
+    const count = PEOPLE[g].filter(p => houseDefaults.includes(p)).length;
+    return `${GROUP_LABELS[g]}: ${count}`;
+  }).join(' · ');
+  document.getElementById('house-defaults-summary').innerHTML = `<b>${n} in the house</b> &nbsp;·&nbsp; ${perGroup}`;
+}
+
+function buildParticipantPills(containerId, presentList){
+  const container = document.getElementById(containerId);
+  container.innerHTML = Object.keys(PEOPLE).map(g => `
+    <div class="household-block" data-group="${g}">
+      <span class="household-label">${GROUP_LABELS[g]}</span>
+      <div class="pill-row">
+        ${PEOPLE[g].map(person => `
+          <button type="button" class="pill participant-pill ${g==='JOFF'?'g-JOFF':g==='GE'?'g-GE':''} ${presentList.includes(person)?'active':''}" data-person="${person}">${person}</button>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+  container.querySelectorAll('.participant-pill').forEach(btn => {
+    btn.addEventListener('click', () => btn.classList.toggle('active'));
+  });
+}
+
+function getActivePeople(containerId){
+  return [...document.querySelectorAll(`#${containerId} .participant-pill.active`)].map(b => b.dataset.person);
+}
+
+function wireSingleSelectPills(containerId){
+  const container = document.getElementById(containerId);
+  container.querySelectorAll('.pill').forEach(btn => {
+    btn.addEventListener('click', () => {
+      container.querySelectorAll('.pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+}
+
+function getSingleSelected(containerId){
+  const el = document.querySelector(`#${containerId} .pill.active`);
+  return el ? el.dataset.group : null;
+}
+
+function clearSingleSelect(containerId){
+  document.querySelectorAll(`#${containerId} .pill`).forEach(b => b.classList.remove('active'));
+}
+
+// ---------------------------------------------------------------------
+// Balance calculation
+// ---------------------------------------------------------------------
 function computeBalances(){
   const keys = Object.keys(GROUPS);
   const bal = {};
   keys.forEach(a => { bal[a] = {}; keys.forEach(b => bal[a][b] = 0); });
-
-  function addDebt(ower, owedTo, amt){
-    bal[ower][owedTo] += amt;
-    bal[owedTo][ower] -= amt;
-  }
+  function addDebt(ower, owedTo, amt){ bal[ower][owedTo] += amt; bal[owedTo][ower] -= amt; }
 
   data.receipts.forEach(r => {
-    const presentGroups = groupsPresent(r.participants);
-    const totalParts = presentGroups.reduce((s,g) => s + GROUPS[g].parts, 0);
+    const present = groupsPresent(r.participants);
+    const totalParts = present.reduce((s,g) => s + GROUPS[g].parts, 0);
     if(totalParts <= 0) return;
-    presentGroups.forEach(g => {
+    present.forEach(g => {
       if(g === r.payer) return;
-      const share = r.amount * (GROUPS[g].parts / totalParts);
-      addDebt(g, r.payer, share);
+      addDebt(g, r.payer, r.amount * (GROUPS[g].parts / totalParts));
     });
   });
 
   data.settlements.forEach(s => {
-    // s.from paid s.to amount -> reduces from's debt to to
     bal[s.from][s.to] -= s.amount;
     bal[s.to][s.from] += s.amount;
   });
@@ -594,55 +510,70 @@ function computeBalances(){
   return bal;
 }
 
+function paidAndFairShare(){
+  const keys = Object.keys(GROUPS);
+  const paid = {}, fair = {};
+  keys.forEach(k => { paid[k] = 0; fair[k] = 0; });
+
+  data.receipts.forEach(r => {
+    paid[r.payer] = (paid[r.payer] || 0) + r.amount;
+    const present = groupsPresent(r.participants);
+    const totalParts = present.reduce((s,g) => s + GROUPS[g].parts, 0);
+    if(totalParts <= 0) return;
+    present.forEach(g => { fair[g] += r.amount * (GROUPS[g].parts / totalParts); });
+  });
+
+  return { paid, fair };
+}
+
+// ---------------------------------------------------------------------
+// Rendering
+// ---------------------------------------------------------------------
 function renderAll(){
-  renderArdoise();
+  renderBalances();
   renderTimeline();
 }
 
-function renderArdoise(){
+function renderBalances(){
   const bal = computeBalances();
   const keys = Object.keys(GROUPS);
   const lines = [];
   const seen = new Set();
 
-  keys.forEach(a => {
-    keys.forEach(b => {
-      if(a === b) return;
-      const pairKey = [a,b].sort().join('-');
-      if(seen.has(pairKey)) return;
-      seen.add(pairKey);
-      const amt = bal[a][b]; // a owes b if positive
-      if(Math.abs(amt) < 0.005) return;
-      const ower = amt > 0 ? a : b;
-      const owedTo = amt > 0 ? b : a;
-      lines.push({ower, owedTo, amt: Math.abs(amt)});
-    });
-  });
+  keys.forEach(a => keys.forEach(b => {
+    if(a === b) return;
+    const pairKey = [a,b].sort().join('-');
+    if(seen.has(pairKey)) return;
+    seen.add(pairKey);
+    const amt = bal[a][b];
+    if(Math.abs(amt) < 0.005) return;
+    const ower = amt > 0 ? a : b;
+    const owedTo = amt > 0 ? b : a;
+    lines.push({ower, owedTo, amt: Math.abs(amt)});
+  }));
 
-  const settleLinesEl = document.getElementById('settle-lines');
-  if(lines.length === 0){
-    settleLinesEl.innerHTML = '<div class="all-square">Everyone\'s square. 🌿</div>';
-  } else {
-    settleLinesEl.innerHTML = lines.map(l => `
-      <div class="settle-line">
-        <span>${GROUPS[l.ower].name} owes ${GROUPS[l.owedTo].name}</span>
-        <span class="amt">${fmt(l.amt)}</span>
-      </div>
-    `).join('');
-  }
+  const settleEl = document.getElementById('settle-lines');
+  settleEl.innerHTML = lines.length === 0
+    ? '<div class="all-square">Everyone is square — nothing to settle.</div>'
+    : lines.map(l => `
+        <div class="settle-item">
+          <span>${GROUPS[l.ower].name} owes ${GROUPS[l.owedTo].name}</span>
+          <span class="amt">${fmt(l.amt)}</span>
+        </div>
+      `).join('');
 
-  const net = {};
-  keys.forEach(a => {
-    net[a] = keys.reduce((s,b) => s + (a===b?0:-bal[a][b]), 0); // positive = net owed TO them
-  });
-  document.getElementById('net-row').innerHTML = keys.map(k => {
-    const v = net[k];
-    const cls = v > 0.005 ? 'pos' : (v < -0.005 ? 'neg' : '');
-    const label = v > 0.005 ? 'is owed overall' : (v < -0.005 ? 'owes overall' : 'all square');
-    return `<div class="net-chip">
-      <span class="label">${GROUPS[k].name}</span>
-      <span class="value ${cls}">${fmt(Math.abs(v))} <span style="color:#9CA3AA;font-weight:400;">${label}</span></span>
-    </div>`;
+  const { paid, fair } = paidAndFairShare();
+  document.getElementById('balance-grid').innerHTML = keys.map(k => {
+    const net = paid[k] - fair[k]; // positive = overpaid / is owed
+    const cls = net > 0.005 ? 'pos' : (net < -0.005 ? 'neg' : '');
+    const status = net > 0.005 ? 'is owed overall' : (net < -0.005 ? 'owes overall' : 'all square');
+    return `
+      <div class="balance-card">
+        <div class="name">${GROUPS[k].name}</div>
+        <div class="paidfair">paid ${fmt(paid[k])} · fair share ${fmt(fair[k])}</div>
+        <div class="big ${cls}">${fmt(Math.abs(net))}</div>
+        <div class="status">${status}</div>
+      </div>`;
   }).join('');
 }
 
@@ -653,14 +584,15 @@ function renderTimeline(){
   ].sort((a,b) => {
     const dateCmp = b.date.localeCompare(a.date);
     if(dateCmp !== 0) return dateCmp;
-    // same date: receipts before settlements
     if(a._type === b._type) return 0;
-    return a._type === 'receipt' ? -1 : 1;
+    return a._type === 'settlement' ? -1 : 1; // same day: settlement shown above the receipt it settles
   });
+
+  document.getElementById('ledger-count').textContent = items.length + (items.length === 1 ? ' entry' : ' entries');
 
   const el = document.getElementById('timeline');
   if(items.length === 0){
-    el.innerHTML = '<div class="empty-state">Nothing logged yet — scan a receipt or add one below.</div>';
+    el.innerHTML = '<div class="empty-state">Nothing logged yet — add the first one above.</div>';
     return;
   }
 
@@ -670,14 +602,16 @@ function renderTimeline(){
       const descHtml = item.link
         ? `<a href="${escapeHtml(item.link)}" target="_blank" rel="noopener">${escapeHtml(item.desc || 'Receipt')}</a>`
         : escapeHtml(item.desc || 'Receipt');
+      const loggedBit = item.loggedBy ? ` · logged by ${escapeHtml(item.loggedBy)}` : '';
       return `<div class="entry">
         <div class="date">${item.date}</div>
         <div class="body">
           <div class="title-row">
             <span class="badge receipt">Receipt</span>
+            ${item.category ? `<span class="badge cat">${escapeHtml(item.category)}</span>` : ''}
             <span class="desc">${descHtml}</span>
           </div>
-          <div class="meta">Paid by ${GROUPS[item.payer]?.name || item.payer} · with ${names}</div>
+          <div class="meta">Paid by ${GROUPS[item.payer]?.name || item.payer} · with ${names}${loggedBit}</div>
         </div>
         <div class="amt">${fmt(item.amount)}</div>
         <button class="del" title="Delete" data-id="${item.id}" data-type="receipt">✕</button>
@@ -709,58 +643,12 @@ function renderTimeline(){
   });
 }
 
-function escapeHtml(str){
-  const d = document.createElement('div');
-  d.textContent = str;
-  return d.innerHTML;
-}
-
-// ---- Manual add: receipt ----
-document.getElementById('add-receipt-btn').addEventListener('click', async () => {
-  const date = document.getElementById('r-date').value;
-  const amount = parseFloat(document.getElementById('r-amount').value);
-  const desc = document.getElementById('r-desc').value.trim();
-  const link = document.getElementById('r-link').value.trim();
-  const payer = document.getElementById('r-payer').value;
-  const participants = [...document.querySelectorAll('.r-part:checked')].map(c => c.value);
-
-  if(!date || isNaN(amount) || amount <= 0 || participants.length === 0){
-    alert('Please fill in a date, a positive amount, and at least one person.');
-    return;
-  }
-  data.receipts.push({ id: uid('r'), date, payer, amount, desc, link, participants });
-  await persist();
-  renderAll();
-  document.getElementById('r-date').value = '';
-  document.getElementById('r-amount').value = '';
-  document.getElementById('r-desc').value = '';
-  document.getElementById('r-link').value = '';
-});
-
-// ---- Manual add: settlement ----
-document.getElementById('add-settlement-btn').addEventListener('click', async () => {
-  const date = document.getElementById('s-date').value;
-  const amount = parseFloat(document.getElementById('s-amount').value);
-  const from = document.getElementById('s-from').value;
-  const to = document.getElementById('s-to').value;
-  const note = document.getElementById('s-note').value.trim();
-
-  if(!date || isNaN(amount) || amount <= 0 || from === to){
-    alert('Please fill in a date, a positive amount, and two different households.');
-    return;
-  }
-  data.settlements.push({ id: uid('s'), date, from, to, amount, note });
-  await persist();
-  renderAll();
-  document.getElementById('s-date').value = '';
-  document.getElementById('s-amount').value = '';
-  document.getElementById('s-note').value = '';
-});
-
-// ---- Tabs ----
-document.querySelectorAll('.toggle-row .tab').forEach(btn => {
+// ---------------------------------------------------------------------
+// Tabs
+// ---------------------------------------------------------------------
+document.querySelectorAll('.toggle-row .pill').forEach(btn => {
   btn.addEventListener('click', () => {
-    document.querySelectorAll('.toggle-row .tab').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.toggle-row .pill').forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     const target = btn.dataset.tab;
     document.getElementById('form-receipt').classList.toggle('visible', target === 'receipt');
@@ -768,32 +656,83 @@ document.querySelectorAll('.toggle-row .tab').forEach(btn => {
   });
 });
 
-// ---- Scan a receipt ----
-let selectedFile = null;
-let selectedBase64 = null;
-let selectedMime = null;
+// ---------------------------------------------------------------------
+// Add receipt
+// ---------------------------------------------------------------------
+document.getElementById('add-receipt-btn').addEventListener('click', async () => {
+  const date = document.getElementById('r-date').value;
+  const amount = parseFloat(document.getElementById('r-amount').value);
+  const desc = document.getElementById('r-desc').value.trim();
+  const category = document.getElementById('r-category').value;
+  const link = document.getElementById('r-link').value.trim();
+  const loggedBy = document.getElementById('r-loggedby').value.trim();
+  const payer = getSingleSelected('r-payer-pills');
+  const participants = getActivePeople('r-participants');
+
+  if(!date || isNaN(amount) || amount <= 0){
+    alert('Please fill in a date and a positive amount.');
+    return;
+  }
+  if(!payer){ alert('Please select who paid.'); return; }
+  if(participants.length === 0){ alert('Please select at least one person who was there.'); return; }
+
+  data.receipts.push({ id: uid('r'), date, payer, amount, desc, category, link, loggedBy, participants });
+  await persist();
+  renderAll();
+
+  document.getElementById('r-date').value = '';
+  document.getElementById('r-amount').value = '';
+  document.getElementById('r-desc').value = '';
+  document.getElementById('r-link').value = '';
+  document.getElementById('r-loggedby').value = '';
+  clearSingleSelect('r-payer-pills');
+  buildParticipantPills('r-participants', houseDefaults);
+});
+
+// ---------------------------------------------------------------------
+// Add settlement
+// ---------------------------------------------------------------------
+document.getElementById('add-settlement-btn').addEventListener('click', async () => {
+  const date = document.getElementById('s-date').value;
+  const amount = parseFloat(document.getElementById('s-amount').value);
+  const note = document.getElementById('s-note').value.trim();
+  const from = getSingleSelected('s-from-pills');
+  const to = getSingleSelected('s-to-pills');
+
+  if(!date || isNaN(amount) || amount <= 0){ alert('Please fill in a date and a positive amount.'); return; }
+  if(!from || !to){ alert('Please select both households.'); return; }
+  if(from === to){ alert('From and To need to be two different households.'); return; }
+
+  data.settlements.push({ id: uid('s'), date, from, to, amount, note });
+  await persist();
+  renderAll();
+
+  document.getElementById('s-date').value = '';
+  document.getElementById('s-amount').value = '';
+  document.getElementById('s-note').value = '';
+  clearSingleSelect('s-from-pills');
+  clearSingleSelect('s-to-pills');
+});
+
+// ---------------------------------------------------------------------
+// Scan a receipt (fills the same fields as the manual form)
+// ---------------------------------------------------------------------
+let selectedBase64 = null, selectedMime = null;
 
 document.getElementById('file-input').addEventListener('change', (e) => {
   const file = e.target.files[0];
   const statusEl = document.getElementById('scan-status');
-  statusEl.textContent = '';
-  statusEl.classList.remove('err');
-  if(!file){ return; }
-  selectedFile = file;
+  statusEl.textContent = ''; statusEl.classList.remove('err');
+  if(!file) return;
   selectedMime = file.type || 'image/jpeg';
-
   const reader = new FileReader();
   reader.onload = () => {
     selectedBase64 = reader.result.split(',')[1];
     const thumb = document.getElementById('thumb');
-    thumb.src = reader.result;
-    thumb.style.display = 'inline-block';
+    thumb.src = reader.result; thumb.style.display = 'inline-block';
     document.getElementById('extract-btn').disabled = false;
   };
-  reader.onerror = () => {
-    statusEl.textContent = 'Could not read that file — try a different photo.';
-    statusEl.classList.add('err');
-  };
+  reader.onerror = () => { statusEl.textContent = 'Could not read that file — try a different photo.'; statusEl.classList.add('err'); };
   reader.readAsDataURL(file);
 });
 
@@ -816,66 +755,40 @@ document.getElementById('extract-btn').addEventListener('click', async () => {
           role: "user",
           content: [
             { type: "image", source: { type: "base64", media_type: selectedMime, data: selectedBase64 } },
-            { type: "text", text: "This is a photo of a shop or restaurant receipt, possibly in French. Read it and respond with ONLY a JSON object, no markdown fences, no extra text, in this exact shape: {\"date\":\"YYYY-MM-DD\",\"amount\":12.34,\"merchant\":\"shop name\",\"description\":\"very short description of what was bought, e.g. 'Groceries' or '2x coffee, 1x pastry'\"}. Use the total amount charged. If the year is ambiguous assume 2026. If you cannot read a field confidently, use your best estimate rather than omitting it." }
+            { type: "text", text: "This is a photo of a shop or restaurant receipt, possibly in French. Read it and respond with ONLY a JSON object, no markdown fences, no extra text, in this exact shape: {\"date\":\"YYYY-MM-DD\",\"amount\":12.34,\"merchant\":\"shop name\",\"description\":\"very short description of what was bought\"}. Use the total amount charged. If the year is ambiguous assume 2026. If you cannot read a field confidently, use your best estimate rather than omitting it." }
           ]
         }]
       })
     });
-
-    if(!response.ok){
-      throw new Error("API returned status " + response.status);
-    }
-
+    if(!response.ok) throw new Error("API returned status " + response.status);
     const result = await response.json();
     const textBlock = (result.content || []).find(b => b.type === 'text');
-    if(!textBlock){ throw new Error("No text in response"); }
-
-    let clean = textBlock.text.trim().replace(/^```json/i, '').replace(/^```/,'').replace(/```$/,'').trim();
+    if(!textBlock) throw new Error("No text in response");
+    let clean = textBlock.text.trim().replace(/^```json/i,'').replace(/^```/,'').replace(/```$/,'').trim();
     const parsed = JSON.parse(clean);
 
-    document.getElementById('d-date').value = parsed.date || '';
-    document.getElementById('d-amount').value = parsed.amount != null ? parsed.amount : '';
-    document.getElementById('d-desc').value = parsed.merchant ? `${parsed.merchant} — ${parsed.description || ''}`.replace(/ — $/,'') : (parsed.description || '');
-    document.getElementById('draft-form').style.display = 'grid';
-    statusEl.textContent = 'Check the details below, then add it to the ledger.';
+    document.getElementById('r-date').value = parsed.date || '';
+    document.getElementById('r-amount').value = parsed.amount != null ? parsed.amount : '';
+    document.getElementById('r-desc').value = parsed.merchant ? `${parsed.merchant} — ${parsed.description || ''}`.replace(/ — $/,'') : (parsed.description || '');
+    statusEl.textContent = 'Filled in below — check it, then pick who paid and who was there.';
   } catch(err){
     console.error(err);
-    statusEl.textContent = "Couldn't read that receipt automatically — enter the details manually below, or try a clearer photo.";
+    statusEl.textContent = "Couldn't read that receipt automatically — enter the details manually below.";
     statusEl.classList.add('err');
   } finally {
     btn.disabled = false;
   }
 });
 
-document.getElementById('add-scanned-btn').addEventListener('click', async () => {
-  const date = document.getElementById('d-date').value;
-  const amount = parseFloat(document.getElementById('d-amount').value);
-  const desc = document.getElementById('d-desc').value.trim();
-  const link = document.getElementById('d-link').value.trim();
-  const payer = document.getElementById('d-payer').value;
-  const participants = [...document.querySelectorAll('.d-part:checked')].map(c => c.value);
-
-  if(!date || isNaN(amount) || amount <= 0 || participants.length === 0){
-    alert('Please fill in a date, a positive amount, and at least one person.');
-    return;
-  }
-  data.receipts.push({ id: uid('r'), date, payer, amount, desc, link, participants });
+// ---------------------------------------------------------------------
+// Clear all
+// ---------------------------------------------------------------------
+document.getElementById('clear-all-btn').addEventListener('click', async () => {
+  if(!confirm('This clears every receipt and settlement from the ledger. This cannot be undone. Continue?')) return;
+  data = { receipts: [], settlements: [] };
   await persist();
   renderAll();
-  resetScanUI();
 });
-
-document.getElementById('cancel-scanned-btn').addEventListener('click', resetScanUI);
-
-function resetScanUI(){
-  document.getElementById('draft-form').style.display = 'none';
-  document.getElementById('scan-status').textContent = '';
-  document.getElementById('file-input').value = '';
-  document.getElementById('thumb').style.display = 'none';
-  document.getElementById('extract-btn').disabled = true;
-  document.getElementById('d-link').value = '';
-  selectedFile = null; selectedBase64 = null; selectedMime = null;
-}
 
 loadData();
 </script>
