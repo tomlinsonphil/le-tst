@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomlinson, Philip — Personal Health Chart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,500;0,600;1,500&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#eef1ee;
+    --paper-card:#f8f9f7;
+    --ink:#182a2e;
+    --ink-soft:#4d5f61;
+    --rule:#c7cfc9;
+    --tab-cardio:#b3423c;
+    --tab-msk:#2f6f8f;
+    --tab-gi:#5a7d4a;
+    --tab-id:#a67c2e;
+    --tab-surg:#6b5b95;
+    --tab-admin:#7d7d7d;
+    --flag-bg:#fff3ec;
+    --flag-border:#c9603a;
+    --trace:#2f6f8f;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:'IBM Plex Sans',sans-serif;
+    font-size:15px;
+    line-height:1.5;
+  }
+  .sheet{
+    max-width:980px;
+    margin:0 auto;
+    padding:0 24px 80px;
+  }
+  /* ---------- Face sheet header ---------- */
+  header.facesheet{
+    background:var(--ink);
+    color:var(--paper-card);
+    margin:0 -24px 0;
+    padding:28px 24px 0;
+    position:relative;
+    overflow:hidden;
+  }
+  .facesheet-inner{
+    max-width:932px;
+    margin:0 auto;
+    position:relative;
+    z-index:2;
+  }
+  .facesheet-top{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:16px;
+    padding-bottom:22px;
+  }
+  .chart-label{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:.14em;
+    text-transform:uppercase;
+    color:#9db3ab;
+    margin-bottom:6px;
+  }
+  h1{
+    font-family:'IBM Plex Serif',serif;
+    font-weight:600;
+    font-size:34px;
+    margin:0;
+    letter-spacing:-.01em;
+  }
+  .demo-grid{
+    display:grid;
+    grid-template-columns:repeat(4,auto);
+    gap:4px 28px;
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12.5px;
+    color:#c7d6d0;
+    text-align:right;
+  }
+  .demo-grid div span{display:block;color:#7f938c;font-size:10px;letter-spacing:.08em;text-transform:uppercase;margin-bottom:2px;}
+  .ekg{
+    height:56px;
+    width:100%;
+    display:block;
+  }
+  .ekg path{
+    fill:none;
+    stroke:#5fa896;
+    stroke-width:1.6;
+    stroke-linecap:round;
+    stroke-linejoin:round;
+  }
+  .source-line{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    color:#8fa39c;
+    padding:10px 0 20px;
+    border-top:1px solid #33474a;
+  }
+  .source-line a{color:#bcd6cb;}
+
+  /* ---------- Active problem flags ---------- */
+  .flags{
+    background:var(--flag-bg);
+    border:1px solid var(--flag-border);
+    border-radius:2px;
+    margin:24px 0 30px;
+    padding:16px 20px;
+  }
+  .flags h2{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    letter-spacing:.12em;
+    text-transform:uppercase;
+    color:var(--flag-border);
+    margin:0 0 10px;
+  }
+  .flags ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px;}
+  .flags li{display:flex;gap:10px;align-items:baseline;}
+  .flags li .dot{width:7px;height:7px;border-radius:50%;background:var(--flag-border);flex:none;margin-top:5px;}
+  .flags li b{font-weight:600;}
+  .flags li .note{color:var(--ink-soft);font-size:13.5px;}
+
+  /* ---------- Nav tabs ---------- */
+  nav.tabs{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-bottom:8px;
+    position:sticky;
+    top:0;
+    background:var(--paper);
+    padding:14px 0;
+    z-index:10;
+  }
+  nav.tabs a{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    letter-spacing:.03em;
+    text-decoration:none;
+    color:var(--ink);
+    background:var(--paper-card);
+    border:1px solid var(--rule);
+    border-bottom-width:3px;
+    padding:7px 12px;
+    border-radius:2px 2px 0 0;
+    white-space:nowrap;
+  }
+  nav.tabs a.cardio{border-bottom-color:var(--tab-cardio);}
+  nav.tabs a.msk{border-bottom-color:var(--tab-msk);}
+  nav.tabs a.gi{border-bottom-color:var(--tab-gi);}
+  nav.tabs a.id{border-bottom-color:var(--tab-id);}
+  nav.tabs a.surg{border-bottom-color:var(--tab-surg);}
+  nav.tabs a.admin{border-bottom-color:var(--tab-admin);}
+
+  /* ---------- Section blocks ---------- */
+  section.category{
+    background:var(--paper-card);
+    border:1px solid var(--rule);
+    border-radius:3px;
+    margin-bottom:22px;
+    overflow:hidden;
+    scroll-margin-top:70px;
+  }
+  section.category .tabhead{
+    padding:14px 20px;
+    display:flex;
+    align-items:center;
+    gap:12px;
+    border-bottom:1px solid var(--rule);
+  }
+  section.category .tabhead .swatch{width:10px;height:24px;border-radius:2px;flex:none;}
+  .cardio .swatch{background:var(--tab-cardio);} .cardio .tabhead{background:#fbf0ef;}
+  .msk .swatch{background:var(--tab-msk);} .msk .tabhead{background:#eef4f7;}
+  .gi .swatch{background:var(--tab-gi);} .gi .tabhead{background:#f1f5ee;}
+  .idsec .swatch{background:var(--tab-id);} .idsec .tabhead{background:#fbf4e8;}
+  .surg .swatch{background:var(--tab-surg);} .surg .tabhead{background:#f2f0f7;}
+  .admin .swatch{background:var(--tab-admin);} .admin .tabhead{background:#f2f2f2;}
+
+  section.category h2{
+    font-family:'IBM Plex Serif',serif;
+    font-weight:600;
+    font-size:19px;
+    margin:0;
+  }
+  section.category .count{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-left:auto;
+  }
+  ul.doclist{list-style:none;margin:0;padding:0;}
+  ul.doclist li{
+    display:grid;
+    grid-template-columns:96px 1fr auto;
+    gap:14px;
+    align-items:start;
+    padding:13px 20px;
+    border-bottom:1px solid #eceee9;
+  }
+  ul.doclist li:last-child{border-bottom:none;}
+  .doc-date{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:12px;
+    color:var(--ink-soft);
+    padding-top:2px;
+  }
+  .doc-main .title{font-weight:600;font-size:14.5px;}
+  .doc-main .note{color:var(--ink-soft);font-size:13px;margin-top:3px;}
+  .doc-link{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    text-decoration:none;
+    color:var(--ink);
+    border:1px solid var(--rule);
+    padding:6px 10px;
+    border-radius:2px;
+    white-space:nowrap;
+    align-self:center;
+    transition:background .15s;
+  }
+  .doc-link:hover{background:#e7ebe6;}
+
+  footer{
+    font-family:'IBM Plex Mono',monospace;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    text-align:center;
+    padding:26px 0 4px;
+  }
+  footer a{color:var(--ink-soft);}
+
+  @media (max-width:640px){
+    .facesheet-top{flex-direction:column;}
+    .demo-grid{grid-template-columns:repeat(2,auto);text-align:left;}
+    ul.doclist li{grid-template-columns:1fr;gap:6px;}
+    .doc-date{padding-top:0;}
+    .doc-link{justify-self:start;}
+    nav.tabs{overflow-x:auto;flex-wrap:nowrap;}
+  }
+</style>
+</head>
+<body>
+
+<header class="facesheet">
+  <div class="facesheet-inner">
+    <div class="facesheet-top">
+      <div>
+        <div class="chart-label">Personal health chart — self-compiled</div>
+        <h1>Tomlinson, Philip Guillaume</h1>
+      </div>
+      <div class="demo-grid">
+        <div><span>DOB</span>14 Jan 1981</div>
+        <div><span>Sex</span>M</div>
+        <div><span>NHS no.</span>436 985 2560</div>
+        <div><span>Hospital no. (RBH)</span>6196558</div>
+        <div><span>Ontario / OHIP</span>on file, 2023</div>
+        <div><span>Care record spans</span>1985 – 2025</div>
+        <div><span>Jurisdictions</span>UK · Ontario · Ontario→FR pending</div>
+        <div><span>GP (current)</span>Village Surgery, Talbot Village</div>
+      </div>
+    </div>
+    <svg class="ekg" viewBox="0 0 900 56" preserveAspectRatio="none">
+      <path d="M0,28 L60,28 L72,28 L80,10 L90,46 L100,18 L110,28 L200,28 L260,28 L272,28 L280,10 L290,46 L300,18 L310,28 L400,28 L460,28 L472,28 L480,10 L490,46 L500,18 L510,28 L600,28 L660,28 L672,28 L680,10 L690,46 L700,18 L710,28 L800,28 L860,28 L872,28 L880,10 L890,46 L900,28"/>
+    </svg>
+    <div class="source-line">Compiled from Google Drive — <a href="https://drive.google.com/drive/folders/1LomdtbH10E8LlDFmQ8dNqQS5rmdoI8SY" target="_blank">@Philip / Health</a> · 25 source documents, 1985–2025 · every card below links to the original file</div>
+  </div>
+</header>
+
+<div class="sheet">
+
+  <div class="flags">
+    <h2>Active / to watch</h2>
+    <ul>
+      <li><span class="dot"></span><div><b>Uncontrolled hypertension</b> — <span class="note">flagged on the referral for carotid Dopplers (Apr–May 2025, ordered by Dr Ajay Chanana). No home BP log since 2021 and no repeat carotid/lipid result on file here — worth pulling forward given Guy's recent CAD admission and a family cardiovascular history worth weighing in your own risk picture.</span></div></li>
+      <li><span class="dot"></span><div><b>Left knee — old MCL injury</b> — <span class="note">2016 MRI: possible previous left medial collateral ligament injury, no meniscal pathology. Consistent with the left-side compensation pattern you've been correcting in training.</span></div></li>
+      <li><span class="dot"></span><div><b>Vitamin D / folate</b> — <span class="note">tested privately Apr 2025 (LifeLabs, $81 uninsured) — result itself isn't in this folder, only the receipt.</span></div></li>
+      <li><span class="dot"></span><div><b>Cross-border record fragmentation</b> — <span class="note">UK (NHS), Ontario (OHIP) and soon France — no single GP currently holds the full picture. A one-page summary to hand a new French or UK GP would close this gap.</span></div></li>
+    </ul>
+  </div>
+
+  <nav class="tabs">
+    <a class="cardio" href="#cardio">Cardiovascular</a>
+    <a class="msk" href="#msk">Musculoskeletal</a>
+    <a class="gi" href="#gi">GI</a>
+    <a class="id" href="#idsec">Immunisation &amp; ID</a>
+    <a class="surg" href="#surg">Surgical history</a>
+    <a class="admin" href="#admin">Administrative</a>
+  </nav>
+
+  <!-- CARDIOVASCULAR -->
+  <section class="category cardio" id="cardio">
+    <div class="tabhead"><div class="swatch"></div><h2>Cardiovascular</h2><div class="count">4 documents · 2004–2025</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">2025-05-14</div>
+        <div class="doc-main"><div class="title">Carotid Dopplers — referral</div><div class="note">WELL Health Diagnostic Centres. Reason for referral: uncontrolled hypertension. Referring physician Dr Ajay Chanana.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/127RWoIOUd0KDADh4P_JpwIX0t9tP-CnJ/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2021-02 / 03</div>
+        <div class="doc-main"><div class="title">Home BP readings (spreadsheet)</div><div class="note">Only two entries logged: 01/02/2021 120/82 &amp; 127/83; 28/02/2021 132/82. Log not maintained since.</div></div>
+        <a class="doc-link" href="https://docs.google.com/spreadsheets/d/1gYPVeGPDapDGYbSNH_kz0oXgIUrqyin03dXRS-vXeIo/edit?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2012-01-25</div>
+        <div class="doc-main"><div class="title">ECG</div><div class="note">Scanned trace on file; no typed interpretation captured in this copy.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfU2RRM0Q0OWVMRkU/view?usp=drivesdk&resourcekey=0-_4WbPR9OUlMw-OimJY484w" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2004-04-22</div>
+        <div class="doc-main"><div class="title">Lipid panel (within combined vaccinations file)</div><div class="note">Total cholesterol 4.8 mmol/L (normal), triglycerides 0.9 (normal), cholesterol/HDL ratio 3.9 (normal), LDL 3.15 — fasting sample.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfcUdMX3lGckUySEE/view?usp=drivesdk&resourcekey=0-2a746BnZjoWgfM9sSoBGuw" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- MSK -->
+  <section class="category msk" id="msk">
+    <div class="tabhead"><div class="swatch"></div><h2>Musculoskeletal — bilateral knee, 2015–17</h2><div class="count">8 documents</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">2015-12-08</div>
+        <div class="doc-main"><div class="title">GP referral — Knee Service (General), RBH Orthopaedics</div><div class="note">Bilateral medial knee pain, booked via Choose &amp; Book to Mr A Harvey's clinic.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfaUM3Qld1bHJISTg/view?usp=drivesdk&resourcekey=0-lAMtSvnDsnDYXtRnnWPjAw" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2015-12-24</div>
+        <div class="doc-main"><div class="title">Orthopaedic outpatient appointment — 18 Jan 2016</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfNXhqZ2REa1g1SDg/view?usp=drivesdk&resourcekey=0-e13AQuCN-QHssE_xA5z3WQ" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-03-14</div>
+        <div class="doc-main"><div class="title">MRI prep information</div><div class="note">Pre-scan safety questionnaire and logistics for the knee MRI.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfLXFzN21DWkhiOTg/view?usp=drivesdk&resourcekey=0-uH4aYwzM2s8AaL8b4qjo3g" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-05-09</div>
+        <div class="doc-main"><div class="title">Orthopaedic clinic appointment</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfOHdfN3pGSFNwZnc/view?usp=drivesdk&resourcekey=0-Iko5z21AJGuOrOGhogXRAA" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-05-09</div>
+        <div class="doc-main"><div class="title">MRI both knees — result</div><div class="note"><b>Left:</b> slight thickening of proximal MCL, no oedema — likely old injury; menisci, cruciates, LCL normal, no effusion. <b>Right:</b> normal. Conclusion: possible previous left MCL injury, no significant meniscal pathology.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfQ0FUdUt3OVh3Y00/view?usp=drivesdk&resourcekey=0-AGTtMH_aPgNQivEG9PbzxA" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-05-18</div>
+        <div class="doc-main"><div class="title">Appointment rescheduled to 9 Jun 2016</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfbGVXQTBjU3VkMnM/view?usp=drivesdk&resourcekey=0-f9BSyAZJNLmds6PSHrk6YA" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-06-06</div>
+        <div class="doc-main"><div class="title">Orthopaedics follow-up appointment</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfZWptQ3lTNHZjUmc/view?usp=drivesdk&resourcekey=0-r8qFgs721sMJequkeRXrJQ" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-09-21</div>
+        <div class="doc-main"><div class="title">Physiotherapy appointment — missed</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfTWVfakpqSXhJcVE/view?usp=drivesdk&resourcekey=0-kDfpwazmI82_DroqIt6T_g" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2017-05-09</div>
+        <div class="doc-main"><div class="title">Ortho follow-up missed — discharged back to GP</div><div class="note">Consultant (Prof Harvey) returned care to GP after a non-attended follow-up; episode closed without further specialist review.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfMTNsSjVacFFFbVE/view?usp=drivesdk&resourcekey=0-LcNcLARIbYDphgMivUcwcQ" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- GI -->
+  <section class="category gi" id="gi">
+    <div class="tabhead"><div class="swatch"></div><h2>Gastrointestinal</h2><div class="count">2 documents · 2020</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">2020-11-24</div>
+        <div class="doc-main"><div class="title">OGD referral / booking notice</div><div class="note">e-Referral Service booking prompt for upper GI endoscopy.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1-hf5QSJN7W0RogJgbeQlkaHQVlDeLkXm/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2020-12-08</div>
+        <div class="doc-main"><div class="title">Pre-OGD COVID-19 swab appointment</div><div class="note">Royal Bournemouth drive-through swabbing, 3 days ahead of the procedure.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1f9UYMnBMFHaNp-LIH-gWhFKX9p_X0qL_/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- IMMUNISATION / ID -->
+  <section class="category idsec" id="idsec">
+    <div class="tabhead"><div class="swatch"></div><h2>Immunisation &amp; infectious disease</h2><div class="count">5 documents · 1985(?)–2022</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">undated</div>
+        <div class="doc-main"><div class="title">Ontario childhood immunisation record</div><div class="note">DPT (diphtheria/pertussis/tetanus), polio, measles, rubella and mumps vaccinations recorded on the original Ministry of Health card.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/12JN7BU04bDz5TifqKvuSN0gl8nbD4JfP/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2004-04-22</div>
+        <div class="doc-main"><div class="title">Adult immunisation history + Hep B surface antibody</div><div class="note">Flu, typhoid, full Hep A/B course, meningitis, rubella booster on record. Hep B surface antibody detected 100 IU/L (28/07/2001).</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfcUdMX3lGckUySEE/view?usp=drivesdk&resourcekey=0-2a746BnZjoWgfM9sSoBGuw" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2012-09-26</div>
+        <div class="doc-main"><div class="title">Hepatitis B antibody titre</div><div class="note">409 IU/L — well above the protective threshold.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfcmdpcHo2T2NRNEU/view?usp=drivesdk&resourcekey=0-ScYuXwiF2r1W-Dk9chgmww" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2016-06-17</div>
+        <div class="doc-main"><div class="title">Discharge summary — febrile viral illness / LRTI</div><div class="note">RBH Acute Medical Unit, admitted 2 days with fevers and myalgia. CRP 89, WCC normal, CXR clear. Treated with a 7-day course of doxycycline, discharged well.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfQTZMc1RtamZVYUU/view?usp=drivesdk&resourcekey=0-tLzSQc9sGR0NedYaJlnmkg" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2022-09-07</div>
+        <div class="doc-main"><div class="title">MMR catch-up assessment &amp; vaccination</div><div class="note">Measles IgG negative (not immune) → 1st MMR given 03/08/2022, 2nd given 07/09/2022. Varicella: positive history. Hep B: full course, immune.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1qRrJ2N4B3SvtdFuXDciMU9I_NkEUdddw/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- SURGICAL HISTORY -->
+  <section class="category surg" id="surg">
+    <div class="tabhead"><div class="swatch"></div><h2>Surgical history</h2><div class="count">1 document · 1985</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">1985-12-30</div>
+        <div class="doc-main"><div class="title">Adenotonsillectomy — Peel Memorial Hospital, Brampton</div><div class="note">Childhood ENT surgery under Dr T. Dickson.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/0BxLzdKFJNNKfVG9yTVljM2hGT0k/view?usp=drivesdk&resourcekey=0-gK4Brd7frj-EsHkBibBNoQ" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ADMINISTRATIVE -->
+  <section class="category admin" id="admin">
+    <div class="tabhead"><div class="swatch"></div><h2>Administrative &amp; provider record</h2><div class="count">3 documents · 2023</div></div>
+    <ul class="doclist">
+      <li>
+        <div class="doc-date">2023-01-17</div>
+        <div class="doc-main"><div class="title">OHIP registration — completed form</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1TLpa61eRShK6erZ-8ZeyfOaU1ubKh6Xp/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2023-01-17</div>
+        <div class="doc-main"><div class="title">OHIP registration — blank template</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1TOHI87XxJ9MBadJJfeErCD2yLLByL4iy/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+      <li>
+        <div class="doc-date">2023-07-25</div>
+        <div class="doc-main"><div class="title">GP transfer — Winton Health Centre → Village Surgery</div><div class="note">Automatic transfer on Winton's closure; Village Surgery, Talbot Village, is the current UK GP of record.</div></div>
+        <a class="doc-link" href="https://drive.google.com/file/d/1kQvc-eLLtDvHCv-sNpDWLGPi_neZpJr8/view?usp=drivesdk" target="_blank">Open ↗</a>
+      </li>
+    </ul>
+  </section>
+
+  <footer>
+    Compiled by Claude from <a href="https://drive.google.com/drive/folders/1LomdtbH10E8LlDFmQ8dNqQS5rmdoI8SY" target="_blank">Google Drive → @Philip → Health</a> · not a substitute for your actual medical record · last built 24 Jul 2026
+  </footer>
+
+</div>
+</body>
+</html>
