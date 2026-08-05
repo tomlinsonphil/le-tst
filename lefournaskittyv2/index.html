@@ -305,7 +305,7 @@
 </div>
 
 <footer>
-  Entries save in this browser's local storage on this device — so if you add something on your phone, it won't show up when you open the site on a laptop or someone else's phone (they're separate copies, not a shared cloud database). Clearing your browser's site data, or using private/incognito mode, will wipe the ledger. If you want everyone's entries to sync automatically across devices, that needs a small backend added — say the word and I'll set one up. Photo scanning: uploading a receipt photo here doesn't put it into Drive — it only goes to Claude for reading, then is discarded. If you want it archived alongside the others, upload it to the shared Drive folder separately and paste the resulting link into "Receipt reference" so it's clickable here too.
+  Entries now sync to a small shared file in the Le Fournas Drive folder, so everyone opening this page — on any device — sees the same ledger. Your browser also keeps a local copy as a fallback, so it still works if the connection drops; it'll just say "offline" next to the ledger count until it can sync again. Note there's no conflict-merging — if two people save at almost exactly the same moment, whichever save lands last is what sticks, so it's worth a quick glance at the ledger after adding something if you know someone else is using it at the same time. Photo scanning: uploading a receipt photo here doesn't put it into Drive — it only goes to Claude for reading, then is discarded. If you want it archived alongside the others, upload it to the shared Drive folder separately and paste the resulting link into "Receipt reference" so it's clickable here too.
 </footer>
 
 <script>
@@ -353,6 +353,10 @@ const SEED = {
 
 let data = { receipts: [], settlements: [] };
 let houseDefaults = null; // array of person names present by default
+let lastSyncStatus = 'checking'; // 'synced' | 'offline' | 'checking'
+
+const SYNC_URL = 'https://script.google.com/macros/s/AKfycbwx6g4fSAbQmRWlIQ_QK8OEsfU7sUrltk36XbU8Rn69L1SxMpdmzd7epx8WJJUiKL9f/exec';
+const SYNC_SECRET = 'lefournas2026';
 
 function uid(prefix){ return prefix + "-" + Date.now() + "-" + Math.random().toString(36).slice(2,7); }
 function fmt(n){ return "€" + n.toLocaleString('en-IE', {minimumFractionDigits:2, maximumFractionDigits:2}); }
@@ -363,26 +367,79 @@ function groupsPresent(participants){
 }
 
 // ---------------------------------------------------------------------
-// Persistence
+// Persistence — synced via a small Google Apps Script backend, with
+// localStorage as an offline fallback if the network / script is unreachable.
 // ---------------------------------------------------------------------
-async function loadData(){
+async function fetchRemote(){
   try{
-    const raw = localStorage.getItem('le-fournas-ledger');
-    data = raw ? JSON.parse(raw) : JSON.parse(JSON.stringify(SEED));
-    if(!raw) await persist();
+    const res = await fetch(SYNC_URL, { method:'GET', cache:'no-store' });
+    if(!res.ok) throw new Error('status ' + res.status);
+    return await res.json(); // {ledger, defaults} — either may be null
   } catch(e){
-    console.error("Load error", e);
-    data = JSON.parse(JSON.stringify(SEED));
-    try{ await persist(); } catch(e2){ console.error("save failed", e2); }
+    console.warn('Remote fetch failed, falling back to local copy', e);
+    return null;
+  }
+}
+
+async function pushRemote(){
+  try{
+    const res = await fetch(SYNC_URL, {
+      method:'POST',
+      headers: { 'Content-Type':'text/plain;charset=utf-8' }, // avoids CORS preflight, which Apps Script can't handle
+      body: JSON.stringify({ secret: SYNC_SECRET, ledger: data, defaults: houseDefaults })
+    });
+    if(!res.ok) throw new Error('status ' + res.status);
+    const json = await res.json();
+    if(json.error) throw new Error(json.error);
+    return true;
+  } catch(e){
+    console.warn('Remote push failed, saved locally only', e);
+    return false;
+  }
+}
+
+function setSyncStatus(status){
+  lastSyncStatus = status;
+  updateLedgerCountText();
+}
+
+function updateLedgerCountText(){
+  const el = document.getElementById('ledger-count');
+  if(!el) return;
+  const n = data.receipts.length + data.settlements.length;
+  const label = n + (n === 1 ? ' entry' : ' entries');
+  const statusLabel = lastSyncStatus === 'synced' ? 'synced'
+    : lastSyncStatus === 'offline' ? 'offline — saved on this device only'
+    : 'checking…';
+  el.textContent = `${label} · ${statusLabel}`;
+}
+
+async function loadData(){
+  const remote = await fetchRemote();
+
+  if(remote && remote.ledger){
+    data = remote.ledger;
+    houseDefaults = (remote.defaults && remote.defaults.length) ? remote.defaults : allPeople();
+  } else {
+    try{
+      const raw = localStorage.getItem('le-fournas-ledger');
+      data = raw ? JSON.parse(raw) : JSON.parse(JSON.stringify(SEED));
+    } catch(e){ data = JSON.parse(JSON.stringify(SEED)); }
+    try{
+      const raw2 = localStorage.getItem('le-fournas-house-defaults');
+      houseDefaults = raw2 ? JSON.parse(raw2) : allPeople();
+    } catch(e){ houseDefaults = allPeople(); }
   }
   migrateData();
 
-  try{
-    const raw2 = localStorage.getItem('le-fournas-house-defaults');
-    houseDefaults = raw2 ? JSON.parse(raw2) : allPeople();
-  } catch(e){
-    houseDefaults = allPeople();
+  try{ localStorage.setItem('le-fournas-ledger', JSON.stringify(data)); } catch(e){}
+  try{ localStorage.setItem('le-fournas-house-defaults', JSON.stringify(houseDefaults)); } catch(e){}
+
+  if(remote && !remote.ledger){
+    // shared file exists but is empty (first run) — seed it so other devices see the same starting point
+    await pushRemote();
   }
+  setSyncStatus(remote ? 'synced' : 'offline');
 
   buildHouseDefaultsUI();
   buildParticipantPills('r-participants', houseDefaults);
@@ -394,12 +451,16 @@ async function loadData(){
 
 async function persist(){
   try{ localStorage.setItem('le-fournas-ledger', JSON.stringify(data)); }
-  catch(e){ console.error("Storage error", e); alert("Couldn't save — your browser storage may be full or blocked."); }
+  catch(e){ console.error("Storage error", e); }
+  const ok = await pushRemote();
+  setSyncStatus(ok ? 'synced' : 'offline');
 }
 
 async function persistDefaults(){
   try{ localStorage.setItem('le-fournas-house-defaults', JSON.stringify(houseDefaults)); }
   catch(e){ console.error("Storage error", e); }
+  const ok = await pushRemote();
+  setSyncStatus(ok ? 'synced' : 'offline');
 }
 
 // migrate legacy entries whose participants were stored as group keys, or which
@@ -603,7 +664,7 @@ function renderTimeline(){
     return a._type === 'settlement' ? -1 : 1; // same day: settlement shown above the receipt it settles
   });
 
-  document.getElementById('ledger-count').textContent = items.length + (items.length === 1 ? ' entry' : ' entries');
+  updateLedgerCountText();
 
   const el = document.getElementById('timeline');
   if(items.length === 0){
