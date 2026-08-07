@@ -879,6 +879,7 @@
       <thead>
         <tr>
           <th>Drug</th>
+          <th>Indication</th>
           <th>What it does</th>
           <th>When</th>
           <th>Until</th>
@@ -887,96 +888,112 @@
       <tbody>
         <tr>
           <td class="bold">Apixaban (Eliquis) 5mg ×2</td>
+          <td class="muted">DVT treatment</td>
           <td class="muted">Blood thinner — treats the calf DVT</td>
           <td>8am · 8pm</td>
           <td>~10 Oct 2026</td>
         </tr>
         <tr>
           <td class="bold">Acétylsalicylique acide (Kardegic/Aspirin) 100mg</td>
+          <td class="muted">Post-PCI antiplatelet, short course</td>
           <td class="muted">Antiplatelet — added after stenting, short course</td>
           <td>8am</td>
           <td><b>STOP 14 Aug 2026</b></td>
         </tr>
         <tr>
           <td class="bold">Clopidogrel 75mg</td>
+          <td class="muted">Post-PCI antiplatelet, stent protection</td>
           <td class="muted">Antiplatelet — stent protection</td>
           <td>8am</td>
           <td>Longer term maintenance</td>
         </tr>
         <tr>
           <td class="bold">Allopurinol 100mg ×2</td>
+          <td class="muted">Gout prophylaxis</td>
           <td class="muted">Gout prevention (long-standing)</td>
           <td>6pm</td>
           <td>Long term</td>
         </tr>
         <tr>
           <td class="bold">Atorvastatin 40mg <span style="color:#2D7A4F;">— increased</span></td>
+          <td class="muted">Hyperlipidaemia — secondary prevention post-PCI</td>
           <td class="muted">Statin — lowers cholesterol, stabilises artery narrowings</td>
           <td>6pm</td>
           <td>Long term — recheck lipids 4-6 wks</td>
         </tr>
         <tr>
           <td class="bold">Ezetimibe 10mg</td>
+          <td class="muted">Hyperlipidaemia — secondary prevention post-PCI</td>
           <td class="muted">Cholesterol absorption blocker — added to statin for extra LDL lowering</td>
           <td>Evening</td>
           <td>Long term — recheck lipids 4-6 wks</td>
         </tr>
         <tr>
           <td class="bold">Bisoprolol 2.5mg</td>
+          <td class="muted">Cardioprotection / rate control</td>
           <td class="muted">Beta-blocker — reduces heart rate and workload</td>
           <td>8am</td>
           <td>Long term</td>
         </tr>
         <tr>
           <td class="bold">Clindamycin (Dalacine) 300mg ×3</td>
+          <td class="muted">Septic arthritis, left knee (S. aureus)</td>
           <td class="muted">Antibiotic — clears the knee infection</td>
           <td>8am · noon · 6pm<br>With food. Stay seated 30 min after.</td>
           <td>14 Aug 2026</td>
         </tr>
         <tr>
           <td class="bold">Colécalciférol (Vitamin D) 2,500 IU <span style="color:#2D7A4F;">— dose updated</span></td>
+          <td class="muted">Vitamin D deficiency</td>
           <td class="muted">Vitamin D — levels were low on admission</td>
           <td>Daily</td>
           <td>Ongoing</td>
         </tr>
         <tr>
           <td class="bold">Desloratadine (Aerius) 5mg</td>
+          <td class="muted">Pruritus (dermatologist-prescribed)</td>
           <td class="muted">Antihistamine — as prescribed by the dermatologist (CHIAP Aix, 27 Jul), daily and non-negotiable per rehab goals (see above)</td>
           <td>Evening, daily</td>
           <td>Ongoing</td>
         </tr>
         <tr>
           <td class="bold">Lercanidipine 10mg</td>
+          <td class="muted">Hypertension</td>
           <td class="muted">Blood pressure (long-standing)</td>
           <td>8am</td>
           <td>Long term</td>
         </tr>
         <tr>
           <td class="bold">Pantoprazole 40mg</td>
+          <td class="muted">Gastroprotection</td>
           <td class="muted">Stomach protector — prevents ulcers</td>
           <td>6pm</td>
           <td>30 days</td>
         </tr>
         <tr>
           <td class="bold">Paracetamol (Doliprane) 500mg ×2</td>
+          <td class="muted">Analgesia / antipyretic, PRN</td>
           <td class="muted">Pain relief / fever — as needed</td>
           <td>Every 8 hours if needed</td>
           <td>As needed</td>
         </tr>
         <tr>
           <td class="bold">Quviviq (daridorexant) 50mg</td>
+          <td class="muted">Insomnia (self-initiated)</td>
           <td class="muted">Sleep aid — self-initiated by Philip for insomnia (stress/anxiety related) and to help with withdrawal from the oxazepam started in hospital. Dose confirmed as 50mg. <b>Still no prescription document on file</b> — purchased from the pharmacy rather than formally prescribed for Guy specifically (matches the standard dose on Elisabeth's script, found in her folder, not his). Worth getting a proper script if he's continuing it, given daridorexant isn't something to source informally long-term.</td>
           <td>30 min before bed</td>
           <td>Started ~16-17 Jul 2026 (1-2 days post first discharge) — ongoing, review</td>
         </tr>
         <tr>
           <td class="bold" style="text-decoration:line-through;color:#999;">Colchicine 0.5mg ×2 — STOPPED</td>
+          <td class="muted">Was: gout/joint anti-inflammatory</td>
           <td class="muted">Was: anti-inflammatory joint protection</td>
           <td>—</td>
           <td>Stopped 7 Aug 2026, confirmed on 7 Aug letter</td>
         </tr>
         <tr>
           <td class="bold" style="color:#666;">Emollient (unspecified)</td>
+          <td class="muted">Skin barrier / general skin care</td>
           <td class="muted">Skin barrier support — general skin care</td>
           <td>3× daily + after every shower</td>
           <td>Ongoing, non-negotiable</td>
@@ -1007,31 +1024,31 @@ function exportMedList(lang) {
     gp: isFr ? "Médecin traitant : Dr Coralie PAUR — Cabinet Médical de Sablet" : "GP: Dr Coralie PAUR — Cabinet Médical de Sablet",
     cardiologists: isFr ? "Cardiologues : Dr Clément UNAL (Vaison-la-Romaine) · Dr Marine QUILLOT (CHD Avignon, interventionnelle)" : "Cardiologists: Dr Clément UNAL (Vaison-la-Romaine) · Dr Marine QUILLOT (CHD Avignon, interventional)"
   };
-  // [drug, dose, timing, duration_en, duration_fr, what_it_does_en, what_it_does_fr]
+  // [drug, dose, timing, duration_en, duration_fr, indication_en, indication_fr]
   const meds = [
-    ["Apixaban (Eliquis)", "5mg x2", isFr ? "8h et 20h" : "8am and 8pm", "until ~10 Oct 2026", "jusqu'au ~10/10/2026", "Anticoagulant — DVT", "Anticoagulant — phlébite"],
-    ["Acétylsalicylique acide (Kardegic / Aspirin)", "100mg", isFr ? "8h" : "8am", "STOP 14/08/2026", "ARRÊT 14/08/2026", "Antiplatelet — post-stent", "Antiagrégant — post-stent"],
-    ["Clopidogrel", "75mg", isFr ? "8h" : "8am", "long-term maintenance", "au long cours", "Antiplatelet — stent", "Antiagrégant — stent"],
-    ["Allopurinol", "100mg x2", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prevention", "Prévention de la goutte"],
-    ["Atorvastatine", "40mg", isFr ? "18h" : "6pm", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Statin — cholesterol", "Statine — cholestérol"],
-    ["Ézétimibe", "10mg", isFr ? "soir" : "evening", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Cholesterol absorption blocker", "Inhibiteur de l'absorption du cholestérol"],
-    ["Bisoprolol", "2,5mg", isFr ? "8h" : "8am", "long term", "au long cours", "Beta-blocker", "Bêta-bloquant"],
-    ["Clindamycine (Dalacine)", "300mg x3", isFr ? "8h, midi, 18h — avec repas" : "8am, noon, 6pm — with food", "until 14 Aug 2026", "jusqu'au 14/08/2026", "Antibiotic — knee infection", "Antibiotique — infection du genou"],
-    ["Colécalciférol (Vitamine D)", "2 500 UI", isFr ? "quotidien" : "daily", "ongoing", "en continu", "Vitamin D", "Vitamine D"],
-    ["Desloratadine (Aerius)", "5mg", isFr ? "soir, quotidien" : "evening, daily", "ongoing", "en continu", "Antihistamine (dermatologue)", "Antihistaminique (dermatologue)"],
-    ["Lercanidipine", "10mg", isFr ? "8h" : "8am", "long term", "au long cours", "Blood pressure", "Tension artérielle"],
-    ["Pantoprazole", "40mg", isFr ? "18h" : "6pm", "30 days", "30 jours", "Gastric protection", "Protection gastrique"],
-    ["Paracétamol (Doliprane)", "500mg x2", isFr ? "si besoin, toutes les 8h" : "every 8h if needed", "as needed", "si besoin", "Pain/fever relief", "Douleur/fièvre"],
-    ["Quviviq (daridorexant)", "50mg", isFr ? "30 min avant coucher" : "30 min before bed", "started ~16-17 Jul 2026, self-initiated, no script on file — review", "débuté ~16-17/07/2026, auto-initié, sans ordonnance — à revoir", "Sleep aid (insomnia)", "Aide au sommeil (insomnie)"],
-    ["Émollient (non spécifié)", "-", isFr ? "3x/jour + après douche" : "3x daily + after shower", "ongoing", "en continu", "Skin barrier care", "Soin barrière cutanée"]
+    ["Apixaban (Eliquis)", "5mg x2", isFr ? "8h et 20h" : "8am and 8pm", "until ~10 Oct 2026", "jusqu'au ~10/10/2026", "DVT treatment", "Traitement de la phlébite"],
+    ["Acétylsalicylique acide (Kardegic / Aspirin)", "100mg", isFr ? "8h" : "8am", "STOP 14/08/2026", "ARRÊT 14/08/2026", "Post-PCI antiplatelet, short course", "Antiagrégation post-angioplastie, courte durée"],
+    ["Clopidogrel", "75mg", isFr ? "8h" : "8am", "long-term maintenance", "au long cours", "Post-PCI antiplatelet, stent protection", "Antiagrégation post-angioplastie, protection du stent"],
+    ["Allopurinol", "100mg x2", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prophylaxis", "Prophylaxie de la goutte"],
+    ["Atorvastatine", "40mg", isFr ? "18h" : "6pm", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Hyperlipidaemia — secondary prevention post-PCI", "Hyperlipidémie — prévention secondaire post-angioplastie"],
+    ["Ézétimibe", "10mg", isFr ? "soir" : "evening", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Hyperlipidaemia — secondary prevention post-PCI", "Hyperlipidémie — prévention secondaire post-angioplastie"],
+    ["Bisoprolol", "2,5mg", isFr ? "8h" : "8am", "long term", "au long cours", "Cardioprotection / rate control", "Cardioprotection / contrôle de la fréquence"],
+    ["Clindamycine (Dalacine)", "300mg x3", isFr ? "8h, midi, 18h — avec repas" : "8am, noon, 6pm — with food", "until 14 Aug 2026", "jusqu'au 14/08/2026", "Septic arthritis, left knee (S. aureus)", "Arthrite septique, genou gauche (S. aureus)"],
+    ["Colécalciférol (Vitamine D)", "2 500 UI", isFr ? "quotidien" : "daily", "ongoing", "en continu", "Vitamin D deficiency", "Carence en vitamine D"],
+    ["Desloratadine (Aerius)", "5mg", isFr ? "soir, quotidien" : "evening, daily", "ongoing", "en continu", "Pruritus (dermatologist-prescribed)", "Prurit (prescrit par le dermatologue)"],
+    ["Lercanidipine", "10mg", isFr ? "8h" : "8am", "long term", "au long cours", "Hypertension", "Hypertension"],
+    ["Pantoprazole", "40mg", isFr ? "18h" : "6pm", "30 days", "30 jours", "Gastroprotection", "Protection gastrique"],
+    ["Paracétamol (Doliprane)", "500mg x2", isFr ? "si besoin, toutes les 8h" : "every 8h if needed", "as needed", "si besoin", "Analgesia / antipyretic, PRN", "Antalgique / antipyrétique, si besoin"],
+    ["Quviviq (daridorexant)", "50mg", isFr ? "30 min avant coucher" : "30 min before bed", "started ~16-17 Jul 2026, self-initiated, no script on file — review", "débuté ~16-17/07/2026, auto-initié, sans ordonnance — à revoir", "Insomnia (self-initiated)", "Insomnie (auto-initié)"],
+    ["Émollient (non spécifié)", "-", isFr ? "3x/jour + après douche" : "3x daily + after shower", "ongoing", "en continu", "Skin barrier / general skin care", "Barrière cutanée / soin général"]
   ];
   const today = new Date().toLocaleDateString(isFr ? 'fr-FR' : 'en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
-  let rows = meds.map(m => `<tr><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[0]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[1]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[2]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${isFr ? m[4] : m[3]}</td></tr>`).join('');
+  let rows = meds.map(m => `<tr><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[0]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[1]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${isFr ? m[6] : m[5]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${m[2]}</td><td style="padding:6px 10px;border-bottom:1px solid #ddd;">${isFr ? m[4] : m[3]}</td></tr>`).join('');
   const title = isFr ? "Liste des médicaments actuels" : "Current Medication List";
   const genLabel = isFr ? "Liste générée le" : "List generated";
   const noteText = isFr ? "Compilé par le Dr Philip Tomlinson (MRCGP/CCFP) à partir du tableau de bord familial le-tst.com/guyhealth. Merci de vérifier auprès de la pharmacie avant toute décision clinique." : "Compiled by Dr Philip Tomlinson (MRCGP/CCFP) from the family health dashboard at le-tst.com/guyhealth. Please verify against pharmacy records before use in clinical decision-making.";
   const printLabel = isFr ? "Imprimer cette page" : "Print this page";
-  const colHeaders = isFr ? ["Médicament","Dose","Horaire","Durée / Notes"] : ["Medication","Dose","Timing","Duration/Notes"];
+  const colHeaders = isFr ? ["Médicament","Dose","Indication","Horaire","Durée / Notes"] : ["Medication","Dose","Indication","Timing","Duration/Notes"];
   const html = `<!DOCTYPE html><html><head><meta charset="utf-8"><title>${title} — Guy Tomlinson</title>
     <style>
       body { font-family: -apple-system, Arial, sans-serif; padding: 30px; color: #222; }
@@ -1051,7 +1068,7 @@ function exportMedList(lang) {
       ${genLabel}: ${today}
     </div>
     <table>
-      <thead><tr><th>${colHeaders[0]}</th><th>${colHeaders[1]}</th><th>${colHeaders[2]}</th><th>${colHeaders[3]}</th></tr></thead>
+      <thead><tr><th>${colHeaders[0]}</th><th>${colHeaders[1]}</th><th>${colHeaders[2]}</th><th>${colHeaders[3]}</th><th>${colHeaders[4]}</th></tr></thead>
       <tbody>${rows}</tbody>
     </table>
     <div class="footer">${noteText}</div>
