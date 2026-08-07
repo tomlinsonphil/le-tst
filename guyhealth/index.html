@@ -882,10 +882,22 @@
       </thead>
       <tbody>
         <tr>
+          <td class="bold">Apixaban (Eliquis) 5mg ×2</td>
+          <td class="muted">Blood thinner — treats the calf DVT</td>
+          <td>8am · 8pm</td>
+          <td>~10 Oct 2026</td>
+        </tr>
+        <tr>
           <td class="bold">Acétylsalicylique acide (Kardegic/Aspirin) 100mg</td>
           <td class="muted">Antiplatelet — added after stenting, short course</td>
           <td>8am</td>
           <td><b>STOP 14 Aug 2026</b></td>
+        </tr>
+        <tr>
+          <td class="bold">Clopidogrel 75mg</td>
+          <td class="muted">Antiplatelet — stent protection</td>
+          <td>8am</td>
+          <td>Longer term maintenance</td>
         </tr>
         <tr>
           <td class="bold">Allopurinol 100mg ×2</td>
@@ -894,15 +906,15 @@
           <td>Long term</td>
         </tr>
         <tr>
-          <td class="bold">Apixaban (Eliquis) 5mg ×2</td>
-          <td class="muted">Blood thinner — treats the calf DVT</td>
-          <td>8am · 8pm</td>
-          <td>~10 Oct 2026</td>
-        </tr>
-        <tr>
           <td class="bold">Atorvastatin 40mg <span style="color:#2D7A4F;">— increased</span></td>
           <td class="muted">Statin — lowers cholesterol, stabilises artery narrowings</td>
           <td>6pm</td>
+          <td>Long term — recheck lipids 4-6 wks</td>
+        </tr>
+        <tr>
+          <td class="bold">Ezetimibe 10mg</td>
+          <td class="muted">Cholesterol absorption blocker — added to statin for extra LDL lowering</td>
+          <td>Evening</td>
           <td>Long term — recheck lipids 4-6 wks</td>
         </tr>
         <tr>
@@ -912,14 +924,8 @@
           <td>Long term</td>
         </tr>
         <tr>
-          <td class="bold">Clopidogrel 75mg</td>
-          <td class="muted">Antiplatelet — stent protection</td>
-          <td>8am</td>
-          <td>Longer term maintenance</td>
-        </tr>
-        <tr>
           <td class="bold">Clindamycin (Dalacine) 300mg ×3</td>
-          <td class="muted">Antibiotic — clears the knee infection <span style="color:#888;font-size:11px;">(grouped here with the antiplatelets/anticoagulants above rather than alphabetically, for at-a-glance clarity)</span></td>
+          <td class="muted">Antibiotic — clears the knee infection</td>
           <td>8am · noon · 6pm<br>With food. Stay seated 30 min after.</td>
           <td>14 Aug 2026</td>
         </tr>
@@ -934,12 +940,6 @@
           <td class="muted">Antihistamine — as prescribed by the dermatologist (CHIAP Aix, 27 Jul), daily and non-negotiable per rehab goals (see above)</td>
           <td>Evening, daily</td>
           <td>Ongoing</td>
-        </tr>
-        <tr>
-          <td class="bold">Ezetimibe 10mg</td>
-          <td class="muted">Cholesterol absorption blocker — added to statin for extra LDL lowering</td>
-          <td>Evening</td>
-          <td>Long term — recheck lipids 4-6 wks</td>
         </tr>
         <tr>
           <td class="bold">Lercanidipine 10mg</td>
@@ -994,16 +994,16 @@ function exportMedList(lang) {
   };
   // [drug, dose, timing, duration_en, duration_fr, what_it_does_en, what_it_does_fr]
   const meds = [
-    ["Acétylsalicylique acide (Kardegic / Aspirin)", "100mg", isFr ? "8h" : "8am", "STOP 14/08/2026", "ARRÊT 14/08/2026", "Antiplatelet — post-stent", "Antiagrégant — post-stent"],
-    ["Allopurinol", "100mg x2", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prevention", "Prévention de la goutte"],
     ["Apixaban (Eliquis)", "5mg x2", isFr ? "8h et 20h" : "8am and 8pm", "until ~10 Oct 2026", "jusqu'au ~10/10/2026", "Anticoagulant — DVT", "Anticoagulant — phlébite"],
-    ["Atorvastatine", "40mg", isFr ? "18h" : "6pm", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Statin — cholesterol", "Statine — cholestérol"],
-    ["Bisoprolol", "2,5mg", isFr ? "8h" : "8am", "long term", "au long cours", "Beta-blocker", "Bêta-bloquant"],
+    ["Acétylsalicylique acide (Kardegic / Aspirin)", "100mg", isFr ? "8h" : "8am", "STOP 14/08/2026", "ARRÊT 14/08/2026", "Antiplatelet — post-stent", "Antiagrégant — post-stent"],
     ["Clopidogrel", "75mg", isFr ? "8h" : "8am", "long-term maintenance", "au long cours", "Antiplatelet — stent", "Antiagrégant — stent"],
+    ["Allopurinol", "100mg x2", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prevention", "Prévention de la goutte"],
+    ["Atorvastatine", "40mg", isFr ? "18h" : "6pm", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Statin — cholesterol", "Statine — cholestérol"],
+    ["Ézétimibe", "10mg", isFr ? "soir" : "evening", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Cholesterol absorption blocker", "Inhibiteur de l'absorption du cholestérol"],
+    ["Bisoprolol", "2,5mg", isFr ? "8h" : "8am", "long term", "au long cours", "Beta-blocker", "Bêta-bloquant"],
     ["Clindamycine (Dalacine)", "300mg x3", isFr ? "8h, midi, 18h — avec repas" : "8am, noon, 6pm — with food", "until 14 Aug 2026", "jusqu'au 14/08/2026", "Antibiotic — knee infection", "Antibiotique — infection du genou"],
     ["Colécalciférol (Vitamine D)", "2 500 UI", isFr ? "quotidien" : "daily", "ongoing", "en continu", "Vitamin D", "Vitamine D"],
     ["Desloratadine (Aerius)", "5mg", isFr ? "soir, quotidien" : "evening, daily", "ongoing", "en continu", "Antihistamine (dermatologue)", "Antihistaminique (dermatologue)"],
-    ["Ézétimibe", "10mg", isFr ? "soir" : "evening", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Cholesterol absorption blocker", "Inhibiteur de l'absorption du cholestérol"],
     ["Lercanidipine", "10mg", isFr ? "8h" : "8am", "long term", "au long cours", "Blood pressure", "Tension artérielle"],
     ["Pantoprazole", "40mg", isFr ? "18h" : "6pm", "30 days", "30 jours", "Gastric protection", "Protection gastrique"],
     ["Paracétamol (Doliprane)", "500mg x2", isFr ? "si besoin, toutes les 8h" : "every 8h if needed", "as needed", "si besoin", "Pain/fever relief", "Douleur/fièvre"],
