@@ -345,16 +345,71 @@
     font-size: 11px;
     color: var(--light);
   }
+
+  /* TILE GRID — "At a Glance" overview */
+  .tile-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 12px;
+    margin-bottom: 8px;
+  }
+  .tile {
+    background: #fff;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.12);
+    border: 1px solid rgba(0,0,0,0.06);
+    display: flex;
+    flex-direction: column;
+  }
+  .tile-header {
+    padding: 7px 12px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+  }
+  .tile-header:hover { filter: brightness(1.08); }
+  .tile-body {
+    padding: 10px 12px;
+    font-size: 12.5px;
+    line-height: 1.55;
+    color: #333;
+    flex: 1;
+  }
+  .tile-body ul { margin: 0; padding-left: 16px; }
+  .tile-body li { margin-bottom: 4px; }
+  .tile-body .tile-more {
+    display: block;
+    margin-top: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .tile-med { background: #22304a; }
+  .tile-social { background: #4C8C4C; }
+  .tile-pmh { background: #4A7FB5; }
+  .tile-concern { background: #B23A6B; }
+  .tile-reminder { background: #D98A2B; }
+  .tile-family { background: #22304a; }
+  .tile-risk { background: #6B7A8F; }
+  .tile-tickler { background: #7A3B3B; }
+  .tile-allergy { background: #A0522D; }
+  .tickler-item { color: #B03A2E; font-weight: 600; }
 </style>
 </head>
 <body>
 
 <div class="site-header">
   <h1><strong>Guy Tomlinson</strong> — Health Dashboard</h1>
-  <p>Maintained by Dr Philip Tomlinson (MRCGP/CCFP) · Last updated 7 August 2026</p>
+  <p>Maintained by Dr Philip Tomlinson (MRCGP/CCFP) · Last updated 15 August 2026</p>
 </div>
 
 <nav>
+  <a href="#glance">At a Glance</a>
   <a href="#issues">Outstanding Issues</a>
   <a href="#rehabgoals">Rehab Goals</a>
   <a href="#longevity">Longevity Targets</a>
@@ -377,6 +432,121 @@
 </nav>
 
 <main>
+
+<!-- ═══════════════════════════════════════════ AT A GLANCE — TILE OVERVIEW -->
+<div class="tile-grid" id="glance">
+
+  <div class="tile">
+    <a class="tile-header tile-med" href="#medications">MEDICATIONS</a>
+    <div class="tile-body">
+      <ul>
+        <li>Apixaban 5mg ×2 — DVT</li>
+        <li>Aspirin — STOP 14 Aug</li>
+        <li>Clopidogrel 75mg — stent</li>
+        <li>Atorvastatin 40mg + Ezetimibe 10mg</li>
+        <li>Clindamycin 900mg×3 — until imaging (19 Aug) resolves it</li>
+        <li>Quviviq 50mg — <span style="color:#B03A2E;">no script on file</span></li>
+      </ul>
+      <a class="tile-more" href="#medications" style="color:#22304a;">Full list + export →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-concern" href="#issues">ONGOING CONCERNS</a>
+    <div class="tile-body">
+      <ul>
+        <li>Knee — effusion + pain persist, CT+X-ray 19 Aug</li>
+        <li>Anaemia worsening — Hb 89, lowest yet</li>
+        <li>ECG "old infarct(s)" flag — unread, need source</li>
+        <li>Aspirin stop date — confirm after imaging</li>
+      </ul>
+      <a class="tile-more" href="#issues" style="color:#B23A6B;">Full list →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-pmh" href="#pmh">MEDICAL HISTORY</a>
+    <div class="tile-body">
+      <ul>
+        <li>3-vessel CAD — revascularised (2× PCI)</li>
+        <li>Hypertension, gout, hiatal hernia</li>
+        <li>R hip replacement 2018</li>
+        <li>Septic arthritis L knee (2026)</li>
+        <li>DVT L calf (2026)</li>
+        <li>Scalp psoriasis</li>
+      </ul>
+      <a class="tile-more" href="#pmh" style="color:#4A7FB5;">Full list →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-social" href="#social">SOCIAL HISTORY</a>
+    <div class="tile-body">
+      Le Fournas, Sablet · married, 2 children · retired (telecoms) · squash, cycling, gardening · no tobacco · alcohol dropped sharply since hospitalisation (baseline ~2 beer + 2 wine/day)
+      <a class="tile-more" href="#social" style="color:#4C8C4C;">Details →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-family" href="#pmh">FAMILY HISTORY</a>
+    <div class="tile-body">
+      <ul>
+        <li>Father + brother — cardiac disease</li>
+        <li>Mother — leukaemia</li>
+        <li>Sister — colon cancer, current</li>
+      </ul>
+      <a class="tile-more" href="#cancerscreen" style="color:#22304a;">→ Cancer screening impact</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-risk" href="#cardiovascular">RISK FACTORS</a>
+    <div class="tile-body">
+      <ul>
+        <li>Hypertension, age 75, male</li>
+        <li>Family cardiac history</li>
+        <li>No diabetes, no smoking</li>
+        <li>LVEF 80% — preserved</li>
+      </ul>
+      <a class="tile-more" href="#cardiovascular" style="color:#6B7A8F;">Full panel →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-allergy" href="#allergies">ALLERGIES</a>
+    <div class="tile-body">
+      No known drug allergy (confirmed twice in records).<br>ADR: piperacillin/tazobactam — hepatotoxic reaction, avoid in future.
+      <a class="tile-more" href="#allergies" style="color:#A0522D;">Details →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-reminder" href="#longevity">REMINDERS</a>
+    <div class="tile-body">
+      <ul>
+        <li>Lipid recheck 4-6wks post-PCI</li>
+        <li>DTP, pneumococcal, 2nd shingles dose</li>
+        <li>Get Quviviq properly prescribed</li>
+        <li>Colonoscopy re-referral (family hx)</li>
+      </ul>
+      <a class="tile-more" href="#longevity" style="color:#D98A2B;">Longevity targets →</a>
+    </div>
+  </div>
+
+  <div class="tile">
+    <a class="tile-header tile-tickler" href="#appointments">TICKLER — NEXT UP</a>
+    <div class="tile-body">
+      <ul>
+        <li class="tickler-item">19 Aug — Knee CT + X-ray, Orange</li>
+        <li class="tickler-item">14 Aug — Antibiotic stop date (provisional)</li>
+        <li>~Oct — DVT follow-up doppler</li>
+      </ul>
+      <a class="tile-more" href="#appointments" style="color:#7A3B3B;">All appointments →</a>
+    </div>
+  </div>
+
+</div>
+
 
 <!-- ═══════════════════════════════════════════ OUTSTANDING HEALTH ISSUES -->
 <section id="issues">
