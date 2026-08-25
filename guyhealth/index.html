@@ -440,7 +440,7 @@
     <a class="tile-header tile-med" href="#medications">MEDICATIONS</a>
     <div class="tile-body">
       <ul>
-        <li>Apixaban 5mg ×2 — DVT</li>
+        <li><b>Apixaban — ONE 5mg tablet per dose, not two</b> — DVT</li>
         <li>Aspirin — STOP 14 Aug</li>
         <li>Clopidogrel 75mg — stent</li>
         <li>Atorvastatin 40mg + Ezetimibe 10mg</li>
@@ -587,6 +587,10 @@
         <tr>
           <td class="bold">Anaemia — mixed picture: inflammation + genuine iron deficiency</td>
           <td class="muted">20 Aug workup: low TIBC/transferrin (inflammation-suppressed) plus raised soluble transferrin receptor (specific for true iron deficiency, unaffected by inflammation) — so this is anaemia of chronic disease from the osteitis, with a real iron-deficiency component on top. Won't fully respond to iron alone until the infection is controlled. CT reassuring for GI/GU, PSA normal — a small bleeding colonic polyp remains a reasonable contributor to the deficiency component; colonoscopy re-referral below still genuinely relevant, not just a background "someday" item. B12/folate both normal.</td>
+        </tr>
+        <tr>
+          <td class="bold">🚨 Apixaban dosing error, 22 Aug — watch for bleeding signs</td>
+          <td class="muted">Meds box prepared with 10mg (2×5mg tablets) per dose instead of 5mg, due to ambiguous "×2" notation on this dashboard — genuinely our formatting fault, now fixed everywhere. Caught same-day, PM dose skipped to compensate. Watch closely for 24-48h: bruising, blood in urine/stool, gum/nosebleeds, headache, dizziness, or swelling at the recent knee aspiration site. Given he's also on clopidogrel with active anaemia, worth flagging to his care team even without symptoms.</td>
         </tr>
         <tr>
           <td class="bold">Serum clindamycin level — sample sent 20 Aug, result pending</td>
@@ -1093,7 +1097,12 @@
 <section id="medications">
   <div class="section-head">
     <h2>Current Medications</h2>
-    <span>As of 7 August 2026 (post Stage 2, confirmed against 7 Aug Quillot letter)</span>
+    <span>As of 22 August 2026</span>
+  </div>
+
+  <div class="alert alert-red" style="margin-bottom:12px;">
+    <strong>🚨 22 Aug — Apixaban dosing error caught, notation now fixed everywhere</strong>
+    The old format ("5mg ×2") was genuinely ambiguous and led to Guy's meds box being prepared with two 5mg tablets per dose instead of one — effectively double-dosed this morning. Caught same-day, PM dose skipped to compensate. Every drug on this page that used the same "×2" shorthand (apixaban, allopurinol, paracetamol, colchicine) has been rewritten to spell out tablet count and total dose explicitly, with the wording "ONE tablet" or "TWO tablets together" instead of ambiguous multiplication notation. This was a genuine formatting flaw, not a misreading on anyone's part.
   </div>
 
   <div style="margin-bottom:14px;">
@@ -1154,13 +1163,13 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td class="bold">Apixaban (Eliquis) 5mg ×2</td>
+        <tr style="background:#FFF3CD;">
+          <td class="bold">Apixaban (Eliquis) — <span style="color:#B03A2E;">ONE 5mg tablet per dose</span></td>
           <td class="muted">DVT treatment</td>
-          <td class="muted">Blood thinner — treats the calf DVT</td>
-          <td>8am · 8pm</td>
+          <td class="muted"><b>⚠ Take ONE tablet (5mg) each time — NOT two tablets. Total 5mg + 5mg = 10mg per day, split across two doses, 12 hours apart.</b> Blood thinner — treats the calf DVT.</td>
+          <td><b>8am: 1 tablet (5mg)<br>8pm: 1 tablet (5mg)</b></td>
           <td>~10 Oct 2026</td>
-          <td class="muted">49 (~25 days, runs out ~9 Sep)</td>
+          <td class="muted">49 tablets (~25 days at 1/dose, runs out ~9 Sep)</td>
         </tr>
         <tr>
           <td class="bold">Acétylsalicylique acide (Kardegic/Aspirin) 100mg</td>
@@ -1179,10 +1188,10 @@
           <td class="muted">22 (~22 days, runs out ~6 Sep)</td>
         </tr>
         <tr>
-          <td class="bold">Allopurinol 100mg ×2</td>
+          <td class="bold">Allopurinol — TWO 100mg tablets together, once daily</td>
           <td class="muted">Gout prophylaxis</td>
           <td class="muted">Gout prevention (long-standing)</td>
-          <td>6pm</td>
+          <td>6pm — 2 tablets together (200mg)</td>
           <td>Long term</td>
           <td class="muted" style="color:#A04000;font-weight:600;">16 (~8 days, runs out ~23 Aug)</td>
         </tr>
@@ -1251,10 +1260,10 @@
           <td class="muted" style="color:#A04000;font-weight:600;">14 (~14 days, runs out ~29 Aug)</td>
         </tr>
         <tr>
-          <td class="bold">Paracetamol (Doliprane) 500mg ×2</td>
+          <td class="bold">Paracetamol (Doliprane) — TWO 500mg tablets together</td>
           <td class="muted">Analgesia / antipyretic, PRN</td>
           <td class="muted">Pain relief / fever — as needed</td>
-          <td>Every 8 hours if needed</td>
+          <td>Every 8 hours if needed — 2 tablets together (1g)</td>
           <td>As needed</td>
           <td class="muted">Not tracked (PRN)</td>
         </tr>
@@ -1283,7 +1292,7 @@
           <td class="muted">Ample supply</td>
         </tr>
         <tr>
-          <td class="bold" style="text-decoration:line-through;color:#999;">Colchicine 0.5mg ×2 — STOPPED</td>
+          <td class="bold" style="text-decoration:line-through;color:#999;">Colchicine — TWO 0.5mg tablets/day (1 each, 8am+8pm) — STOPPED</td>
           <td class="muted">Was: gout/joint anti-inflammatory</td>
           <td class="muted">Was: anti-inflammatory joint protection</td>
           <td>—</td>
@@ -1326,10 +1335,10 @@ function exportMedList(lang) {
   };
   // [drug, dose, timing, duration_en, duration_fr, indication_en, indication_fr]
   const meds = [
-    ["Apixaban (Eliquis)", "5mg x2", isFr ? "8h et 20h" : "8am and 8pm", "until ~10 Oct 2026", "jusqu'au ~10/10/2026", "DVT treatment", "Traitement de la phlébite"],
+    ["Apixaban (Eliquis) — 1 comprimé de 5mg à chaque prise, PAS deux", "5mg (1 comprimé)", isFr ? "8h et 20h — 1 comprimé à chaque prise" : "8am and 8pm — ONE tablet each time", "until ~10 Oct 2026", "jusqu'au ~10/10/2026", "DVT treatment", "Traitement de la phlébite"],
     ["Acétylsalicylique acide (Kardegic / Aspirin)", "100mg", isFr ? "8h" : "8am", "STOP 14/08/2026", "ARRÊT 14/08/2026", "Post-PCI antiplatelet, short course", "Antiagrégation post-angioplastie, courte durée"],
     ["Clopidogrel", "75mg", isFr ? "8h" : "8am", "long-term maintenance", "au long cours", "Post-PCI antiplatelet, stent protection", "Antiagrégation post-angioplastie, protection du stent"],
-    ["Allopurinol", "100mg x2", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prophylaxis", "Prophylaxie de la goutte"],
+    ["Allopurinol", "100mg — 2 comprimés ensemble (200mg)", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prophylaxis", "Prophylaxie de la goutte"],
     ["Atorvastatine", "20mg (bd, = 40mg/j)", isFr ? "8h et 18h" : "8am and 6pm", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Hyperlipidaemia — secondary prevention post-PCI", "Hyperlipidémie — prévention secondaire post-angioplastie"],
     ["Ézétimibe", "10mg", isFr ? "soir" : "evening", "long term, recheck lipids 4-6wks", "au long cours, bilan lipidique à 4-6 sem", "Hyperlipidaemia — secondary prevention post-PCI", "Hyperlipidémie — prévention secondaire post-angioplastie"],
     ["Bisoprolol", "2,5mg", isFr ? "8h" : "8am", "long term", "au long cours", "Cardioprotection / rate control", "Cardioprotection / contrôle de la fréquence"],
@@ -1338,7 +1347,7 @@ function exportMedList(lang) {
     ["Desloratadine (Aerius)", "5mg", isFr ? "soir, quotidien" : "evening, daily", "ongoing", "en continu", "Pruritus (dermatologist-prescribed)", "Prurit (prescrit par le dermatologue)"],
     ["Lercanidipine", "10mg", isFr ? "8h" : "8am", "long term", "au long cours", "Hypertension", "Hypertension"],
     ["Pantoprazole", "40mg", isFr ? "18h" : "6pm", "30 days", "30 jours", "Gastroprotection", "Protection gastrique"],
-    ["Paracétamol (Doliprane)", "500mg x2", isFr ? "si besoin, toutes les 8h" : "every 8h if needed", "as needed", "si besoin", "Analgesia / antipyretic, PRN", "Antalgique / antipyrétique, si besoin"],
+    ["Paracétamol (Doliprane)", "500mg — 2 comprimés ensemble (1g)", isFr ? "si besoin, toutes les 8h" : "every 8h if needed", "as needed", "si besoin", "Analgesia / antipyretic, PRN", "Antalgique / antipyrétique, si besoin"],
     ["Quviviq (daridorexant)", "50mg", isFr ? "30 min avant coucher" : "30 min before bed", "started ~16-17 Jul 2026, self-initiated, no script on file — review", "débuté ~16-17/07/2026, auto-initié, sans ordonnance — à revoir", "Insomnia (self-initiated)", "Insomnie (auto-initié)"],
     ["Émollient (non spécifié)", "-", isFr ? "3x/jour + après douche" : "3x daily + after shower", "ongoing", "en continu", "Skin barrier / general skin care", "Barrière cutanée / soin général"]
   ];
