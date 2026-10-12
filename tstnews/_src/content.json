@@ -232,10 +232,39 @@
        "url": "https://en.wikipedia.org/wiki/Bournemouth"
       }
      ]
+    },
+    {
+     "t": "Finchampstead",
+     "tag": "Not verified today",
+     "gap": true,
+     "w": [
+      "I found no current Finchampstead news in my searches today. The most recent local stories I could read were from Wokingham Today and were dated between 2021 and 2025, so they are not shown as current.",
+      "One of them covers the Western Gateway road scheme at the Finchampstead Road and Molly Millars Lane junction in Wokingham, where a mini roundabout was being replaced with a full-size one. It was due to run until March 2026, so check the council for the current state of the junction."
+     ],
+     "links": [
+      {
+       "text": "Wokingham Today: details confirmed for roundabout roadworks (March 2025)",
+       "url": "https://wokingham.today/details-confirmed-for-roundabout-roadworks"
+      },
+      {
+       "text": "Wokingham Today: Finchampstead residents push back against 270 homes (Dec 2021)",
+       "url": "https://wokingham.today/finchampstead-residents-push-back-against-270-homes-for-rooks-nest-farm"
+      },
+      {
+       "text": "Wikipedia: Finchampstead",
+       "url": "https://en.wikipedia.org/wiki/Finchampstead"
+      }
+     ],
+     "n": [
+      "Finchampstead is a village and civil parish in the Borough of Wokingham, Berkshire, about two miles south of Wokingham town, five miles west of Bracknell and roughly 34 miles west of central London. It borders Hampshire to the south and is known as a wealthy, wooded commuter area.",
+      "Its hilltop church, St James, is largely Norman and sits within an older earthwork. A Roman road known as the Devil's Highway crosses the parish. The Ridges, a heathland and woodland area, and Wellingtonia Avenue, a line of giant redwoods planted in the 1860s, are local landmarks.",
+      "Local decisions are shared between Finchampstead Parish Council, which handles small local matters such as the neighbourhood plan, and Wokingham Borough Council, which handles planning applications, roads and schools. Housing proposals and traffic are the most common local stories, which is why many Wokingham Today articles about the village concern new homes and roadworks."
+     ],
+     "s": "Background only · local stories found were dated 2021 to 2025"
     }
    ],
    "short": "UK",
-   "title": "London, Windsor and Bournemouth",
+   "title": "London, Windsor, Bournemouth and Finchampstead",
    "intro": "The UK places you follow.",
    "community": [
     {
