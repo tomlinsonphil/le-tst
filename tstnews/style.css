@@ -81,3 +81,5 @@ footer a{color:var(--a3)}
 .pic figcaption{font-family:var(--f-mono);font-size:.68rem;color:var(--muted);padding:4px 0 0}
 .pic.ill{height:96px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--tagbg),var(--guide));border:1px solid var(--line)}
 .pic.ill span{font-size:3rem;line-height:1}
+nav.pages+nav.pages{margin-block:8px 0}
+.hl-link{font-family:var(--f-mono);font-size:.78rem;white-space:nowrap;color:var(--a3)}

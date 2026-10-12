@@ -58,3 +58,8 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 - Every card shows a picture. If an item has `img` (`{url, alt, credit}`) that photo is shown with its credit line; otherwise build.py draws a simple illustration chosen from words in the title (see `ICONS` in build.py).
 - Only use a photo when you have confirmed a real, freely licensed file (for example a Wikimedia Commons file page that appeared in search results or that you opened). Use its direct `upload.wikimedia.org` URL and put author and licence in `credit`. Never use news-agency or newspaper photos, and never guess a URL. Keep a photo from day to day for items that continue.
 - UK towns followed: London, Windsor, Bournemouth and Finchampstead. Keep all of them (Finchampstead is marked gap when there is no current local news).
+
+## Navigation and highlights
+
+- Top row: Today, World, France, Toronto, UK, Tech, Following, Economics, Archive. Second row: Sport, then one button per sport. Order is set in `masthead()` in build.py. The Economics section has no intro line.
+- Football result panels with `"highlights": true` get a "Highlights" link on every result written like `Team A 2–1 Team B`. It opens a YouTube search limited by the words "fubotvofficial" (the FuboTV channel that uploads highlights). Keep results in that format so links appear; set `highlights` on any new football results panel.

@@ -828,7 +828,7 @@
    ],
    "short": "Economics",
    "title": "Economics for an ETF investor",
-   "intro": "General information for a 45-year-old investing in ETFs in Canada. Not financial advice.",
+   "intro": "",
    "community": [
     {
      "text": "r/PersonalFinanceCanada",
@@ -1216,7 +1216,8 @@
         "Manchester United 1–1 Tottenham Hotspur",
         "Sunderland 0–2 Brighton & Hove Albion",
         "Sunday 11 Oct (played, scores not captured): Crystal Palace v Nottingham Forest, Hull City v Everton, Liverpool v Manchester City"
-       ]
+       ],
+       "highlights": true
       },
       {
        "id": "pl-fixtures",
@@ -1389,7 +1390,8 @@
        "gap": true,
        "tag": "Not verified today",
        "asof": "11 Oct 2026",
-       "note": "No confirmed results or fixtures captured today."
+       "note": "No confirmed results or fixtures captured today.",
+       "highlights": true
       }
      ]
     },
@@ -1610,7 +1612,8 @@
        "gap": true,
        "tag": "Not verified today",
        "asof": "11 Oct 2026",
-       "note": "The latest round of results and the next fixtures were not captured today."
+       "note": "The latest round of results and the next fixtures were not captured today.",
+       "highlights": true
       }
      ]
     },
@@ -1626,7 +1629,8 @@
        "gap": true,
        "tag": "Not verified today",
        "asof": "11 Oct 2026",
-       "note": "Matchday 2 is due on 13 and 14 October. I could not confirm the league-phase table or the fixtures for English and French clubs."
+       "note": "Matchday 2 is due on 13 and 14 October. I could not confirm the league-phase table or the fixtures for English and French clubs.",
+       "highlights": true
       },
       {
        "id": "cups",
@@ -1634,7 +1638,8 @@
        "gap": true,
        "tag": "Not verified today",
        "asof": "11 Oct 2026",
-       "note": "No confirmed draws or fixtures captured today."
+       "note": "No confirmed draws or fixtures captured today.",
+       "highlights": true
       }
      ]
     }

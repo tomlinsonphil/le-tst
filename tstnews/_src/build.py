@@ -6,6 +6,7 @@ Writes: tstnews/index.html, one page per sport (tstnews/<sport id>/index.html),
         tstnews/archive/index.html, tstnews/archive/<date>/... (a dated copy of the same pages),
         tstnews/_src/history/<date>.json (a dated copy of the data, used for "Move" columns).
 """
+import re, urllib.parse
 import json, os, glob, html, datetime
 
 SRC = os.path.dirname(os.path.abspath(__file__))
@@ -121,6 +122,17 @@ def move_cell(team, pos, prev_panel):
     return '<td class="flat">–</td>'
 
 
+SCORE = re.compile(r'^(?:[^:]*: )?(.+?) (\d+)[–-](\d+) (.+)$')
+
+
+def hl_link(text):
+    m = SCORE.match(text)
+    if not m:
+        return ''
+    q = urllib.parse.quote_plus(f'fubotvofficial {m.group(1)} {m.group(4)} highlights')
+    return f' <a class="hl-link" href="https://www.youtube.com/results?search_query={q}">▶ Highlights</a>'
+
+
 def panel_html(p, prev_data):
     h = [f'<section class="panel" id="{esc(p.get("id", ""))}"><h3>{esc(p["title"])}</h3>']
     if p.get('gap'):
@@ -141,7 +153,7 @@ def panel_html(p, prev_data):
             h.append('</tr>')
         h.append('</tbody></table></div>')
     if p.get('items'):
-        h.append('<ul class="plist">' + ''.join(f'<li>{esc(i)}</li>' for i in p['items']) + '</ul>')
+        h.append('<ul class="plist">' + ''.join(f'<li>{esc(i)}{hl_link(i) if p.get("highlights") else ""}</li>' for i in p['items']) + '</ul>')
     if p.get('note'):
         h.append(f'<p class="pnote">{esc(p["note"])}</p>')
     h.append(links_html(p.get('links'), 'Source and related (free to read)'))
@@ -150,14 +162,16 @@ def panel_html(p, prev_data):
 
 
 def masthead(data, prefix, current, archive_date, dates):
-    pages = [('Today', f'{prefix}/', 'home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])] + [('Archive', f'{BASE}/archive/', 'archive')]
-    if archive_date:
-        pages[0] = ('Latest', f'{BASE}/', 'home')
+    secs = [('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
+    pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Archive', f'{BASE}/archive/', 'archive')]
+    sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
     h = ['<header class="mast"><div>']
     h.append(f'<p class="dl">{esc(data["label"])}{" · archive" if archive_date else ""}</p>')
     h.append(f'<h1><a href="{BASE}/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header>')
-    h.append('<nav class="pages" aria-label="Pages">' + ''.join(
-        f'<a href="{href}"' + (' aria-current="page"' if key == current else '') + f'>{esc(name)}</a>' for name, href, key in pages) + '</nav>')
+    def navrow(items, label):
+        return f'<nav class="pages" aria-label="{label}">' + ''.join(
+            f'<a href="{href}"' + (' aria-current="page"' if key == current else '') + f'>{esc(name)}</a>' for name, href, key in items) + '</nav>'
+    h.append(navrow(pages, 'Sections') + navrow(sportpages, 'Sport'))
     # day links
     if archive_date:
         older = [d for d in dates if d < archive_date]
@@ -189,7 +203,7 @@ def home_page(data, prefix, archive_date, dates, prev_data):
     h.append('<nav class="rail" aria-label="Sections"><ul>' + ''.join(
         f'<li><a href="#{esc(s["id"])}">{esc(s.get("short", s["title"]))}</a></li>' for s in data['sections']) + '</ul></nav>')
     for sec in data['sections']:
-        h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2><p class="intro">{esc(sec["intro"])}</p>')
+        h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2>' + (f'<p class="intro">{esc(sec["intro"])}</p>' if sec.get("intro") else ''))
         h.append(community_html(sec.get('community')))
         if sec.get('kind') == 'sportlinks':
             h.append('<ul class="tiles">' + ''.join(
