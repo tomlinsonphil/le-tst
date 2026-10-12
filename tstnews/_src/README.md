@@ -80,3 +80,16 @@ Blocked or unreadable (do not try to get around it): BBC, Guardian, Le Monde, Fi
 
 - Cards show a picture only when the item has an `img`. With no photo there is no image and no illustration.
 - Quiz page `/tstnews/quiz/`: `content.json` key `quiz` = `{title, intro, questions[]}`, each `{q, options[4], answer (index), explain}`. Every day write about 10 new multiple-choice questions on that day's most relevant stories, using only facts that are in today's content (so each answer is verified). The page shuffles questions and options, shows the score at the end, and "Start again for the next player" restarts it for another family member. The quiz also gets an archive copy for each date.
+
+## Writing voice (all cards)
+
+Write each card's `w` paragraphs like a correspondent filing a piece: open with the hook or the news, a lively verb, a concrete detail, then the "so what". Keep it concise (2 to 3 short paragraphs, no waffle), warm but never gushing, no jokes at anyone's expense, and no first-person filler such as "my searches". Every fact must still come from the day's research; tone never justifies adding a claim. For gap cards, say plainly that nothing current was found, in one lively line. The tone is still being tuned by the reader, so follow any newer instruction recorded here.
+
+## Football highlights and results
+
+- Premier League results should list every match since the last round with its date, taken from footballwebpages.co.uk (`/premier-league/YYYYMMDD`, which lists that day's results and the live table).
+- The "Highlights" link on each result opens a search inside the fuboTV Soccer channel (`youtube.com/@fubotvofficial/search?query=...`), because the channel's own video list (page and RSS feed) cannot be read by the research tools. If a real fubo watch URL appears in search results for a match, add it to the item as a `{text,url}` link instead.
+
+## Following list
+
+Following now includes Elon Musk, Marques Brownlee, Joe Rogan, Jimmy Carr, Ross Edgley, Brian Cox, SpaceX, NASA and "Rotten Tomatoes: what's worth watching" (top-rated new films and TV only, not everything released). Sources that were readable: spaceflightnow.com/2026/10/ (SpaceX launches), science.nasa.gov/2026/10/ and nasa.gov news (NASA), editorial.rottentomatoes.com/guide/fresh-movies-2026-ranked/ (RT guide, undated), Brian Cox's Emergence tour pages.

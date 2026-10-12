@@ -127,8 +127,8 @@ def hl_link(text):
     m = SCORE.match(text)
     if not m:
         return ''
-    q = urllib.parse.quote_plus(f'fubotvofficial {m.group(1)} {m.group(4)} highlights')
-    return f' <a class="hl-link" href="https://www.youtube.com/results?search_query={q}">▶ Highlights</a>'
+    q = urllib.parse.quote_plus(f'{m.group(1)} {m.group(4)}')
+    return f' <a class="hl-link" href="https://www.youtube.com/@fubotvofficial/search?query={q}">▶ Highlights</a>'
 
 
 def panel_html(p, prev_data):
