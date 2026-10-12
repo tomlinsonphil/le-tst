@@ -111,3 +111,8 @@ nav.pages+nav.pages{margin-block:8px 0}
 .feed ul{margin:0;padding-left:18px;display:flex;flex-direction:column;gap:8px}
 .feed li a{color:var(--a3)}
 .feed li span{font-family:var(--f-mono);font-size:.72rem;color:var(--muted);white-space:nowrap}
+nav.pages.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);margin:0 -16px;padding:10px 16px;border-bottom:1px solid var(--line)}
+nav.pages.top+nav.pages{margin-block:10px 0}
+nav.rail{position:static}
+@media (max-width:900px){nav.pages.top{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:thin}nav.pages.top a{white-space:nowrap}}
+section.sec{scroll-margin-top:84px}

@@ -160,17 +160,17 @@ def panel_html(p, prev_data):
 
 
 def masthead(data, prefix, current, archive_date, dates):
-    secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
+    secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money'), ('Sport', 'sport')]
     
     pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Quiz', f'{prefix}/quiz/', 'quiz'), ('Archive', f'{BASE}/archive/', 'archive')]
     sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
     h = ['<header class="mast"><div>']
     h.append(f'<p class="dl">{esc(data["label"])}{" · archive" if archive_date else ""}</p>')
     h.append(f'<h1><a href="{BASE}/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header>')
-    def navrow(items, label):
-        return f'<nav class="pages" aria-label="{label}">' + ''.join(
+    def navrow(items, label, cls='pages'):
+        return f'<nav class="{cls}" aria-label="{label}">' + ''.join(
             f'<a href="{href}"' + (' aria-current="page"' if key == current else '') + f'>{esc(name)}</a>' for name, href, key in items) + '</nav>'
-    h.append(navrow(pages, 'Sections') + navrow(sportpages, 'Sport'))
+    h.append(navrow(pages, 'Sections', 'pages top') + navrow(sportpages, 'Sport'))
     # day links
     if archive_date:
         older = [d for d in dates if d < archive_date]
@@ -199,8 +199,6 @@ def current_path(current):
 def home_page(data, prefix, archive_date, dates, prev_data):
     h = [HEAD.format(title='TST News', base=BASE), masthead(data, prefix, 'home', archive_date, dates)]
     h.append(f'<p class="note">{esc(data.get("note", ""))}</p>')
-    h.append('<nav class="rail" aria-label="Sections"><ul>' + ''.join(
-        f'<li><a href="#{esc(s["id"])}">{esc(s.get("short", s["title"]))}</a></li>' for s in data['sections']) + '</ul></nav>')
     for sec in data['sections']:
         h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2>' + (f'<p class="intro">{esc(sec["intro"])}</p>' if sec.get("intro") else ''))
         h.append(community_html(sec.get('community')))

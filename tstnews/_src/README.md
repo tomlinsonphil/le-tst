@@ -93,3 +93,7 @@ Write each card's `w` paragraphs like a correspondent filing a piece: open with 
 ## Following list
 
 Following now includes Elon Musk, Marques Brownlee, Joe Rogan, Jimmy Carr, Ross Edgley, Brian Cox, SpaceX, NASA and "Rotten Tomatoes: what's worth watching" (top-rated new films and TV only, not everything released). Sources that were readable: spaceflightnow.com/2026/10/ (SpaceX launches), science.nasa.gov/2026/10/ and nasa.gov news (NASA), editorial.rottentomatoes.com/guide/fresh-movies-2026-ranked/ (RT guide, undated), Brian Cox's Emergence tour pages.
+
+## Menu
+
+Top row (sticky): Today, Headlines, World, France, Toronto, UK, Tech, Following, Economics, Sport, Quiz, Archive. A second row (Sport plus one button per sport) scrolls away. The round section chips on Today were removed. Menu code is `masthead()` in build.py.
