@@ -91,3 +91,16 @@ nav.pages+nav.pages{margin-block:8px 0}
 .paper span{color:var(--muted)}
 .paper .nohl{font-size:.88rem}
 .paper em{font-family:var(--f-mono);font-size:.68rem;font-style:normal;color:var(--warn)}
+.quiz{max-width:720px;display:flex;flex-direction:column;gap:14px;background:var(--surface);border:1px solid var(--line);border-top:4px solid var(--a2);border-radius:4px;padding:20px}
+.qmeta{font-family:var(--f-mono);font-size:.78rem;color:var(--muted);margin:0}
+.qq{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:1.5rem;line-height:1.25;margin:0;text-wrap:balance}
+.qopts{display:flex;flex-direction:column;gap:8px}
+.qopt,.qbtn{font:inherit;text-align:left;padding:12px 14px;border:2px solid var(--line);border-radius:4px;background:var(--bg);color:var(--ink);cursor:pointer}
+.qopt:hover{border-color:var(--a1)}
+.qopt.good{border-color:var(--up);background:var(--hl)}
+.qopt.bad{border-color:var(--down)}
+.qbtn{align-self:flex-start;background:var(--ink);color:var(--bg);border-color:var(--ink);font-weight:700}
+.qfb{margin:0;color:var(--muted)}
+.qscore{font-family:var(--f-display);font-weight:800;font-size:3.5rem;margin:0}
+.qres{display:flex;flex-direction:column;gap:10px}
+.qres p{margin:0}

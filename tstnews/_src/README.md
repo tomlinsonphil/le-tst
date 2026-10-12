@@ -67,3 +67,8 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 ## Headlines section
 
 - `sections[0]` is `headlines` (`kind: "papers"`, list `papers[]` with `group`, `name`, `url`, `paywall`). Each paper links to its front page. The research tools cannot read some of these sites (Guardian, Le Monde and others return SITE_BLOCKED), so a `headline` (and optional `desc`, `link` to the exact story) is added only when a search result or opened page confirms it that day. Otherwise the card says the headline was not captured. Never write a headline from memory. Drop stale `headline` values each day.
+
+## Images and quiz (updates)
+
+- Cards show a picture only when the item has an `img`. With no photo there is no image and no illustration.
+- Quiz page `/tstnews/quiz/`: `content.json` key `quiz` = `{title, intro, questions[]}`, each `{q, options[4], answer (index), explain}`. Every day write about 10 new multiple-choice questions on that day's most relevant stories, using only facts that are in today's content (so each answer is verified). The page shuffles questions and options, shows the score at the end, and "Start again for the next player" restarts it for another family member. The quiz also gets an archive copy for each date.

@@ -85,9 +85,7 @@ def img_html(it, section_id=''):
     if im and im.get('url'):
         cr = f'<figcaption>{esc(im.get("credit", ""))}</figcaption>' if im.get('credit') else ''
         return f'<figure class="pic"><img src="{esc(im["url"])}" alt="{esc(im.get("alt", it["t"]))}" loading="lazy">{cr}</figure>'
-    t = it['t'].lower()
-    glyph = next((g for k, g in ICONS if k in t), '📰')
-    return f'<div class="pic ill" role="img" aria-label="Illustration: {esc(it["t"])}"><span>{glyph}</span></div>'
+    return ''
 
 
 def card_html(it, prefix):
@@ -163,7 +161,8 @@ def panel_html(p, prev_data):
 
 def masthead(data, prefix, current, archive_date, dates):
     secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
-    pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Archive', f'{BASE}/archive/', 'archive')]
+    
+    pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Quiz', f'{prefix}/quiz/', 'quiz'), ('Archive', f'{BASE}/archive/', 'archive')]
     sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
     h = ['<header class="mast"><div>']
     h.append(f'<p class="dl">{esc(data["label"])}{" · archive" if archive_date else ""}</p>')
@@ -252,6 +251,38 @@ def sport_page(data, sport, prefix, archive_date, dates, prev_data):
     return ''.join(h)
 
 
+def quiz_page(data, prefix, archive_date, dates):
+    qz = data['quiz']
+    h = [HEAD.format(title='Quiz · TST News', base=BASE), masthead(data, prefix, 'quiz', archive_date, dates)]
+    h.append(f'<section class="sec"><h2>{esc(qz["title"])}: {esc(data["label"])}</h2><p class="intro">{esc(qz["intro"])}</p>')
+    h.append('<div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section>')
+    h.append('<script type="application/json" id="qdata">' + json.dumps(qz['questions'], ensure_ascii=False).replace('</', '<\\/') + '</script>')
+    h.append(QUIZJS)
+    h.append(TAIL)
+    return ''.join(h)
+
+
+QUIZJS = '''<script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script>'''
+
+
 def archive_index(dates, latest):
     data = {'label': 'Every day, kept', 'date': latest}
     h = [HEAD.format(title='Archive · TST News', base=BASE), masthead(data, BASE, 'archive', None, dates)]
@@ -285,6 +316,7 @@ def main():
     dates = sorted(set([os.path.basename(d) for d in glob.glob(os.path.join(arch, '20??-??-??'))] + [today]))
     for target_prefix, archive_date, out in ((BASE, None, ROOT), (f'{BASE}/archive/{today}', today, os.path.join(arch, today))):
         write(os.path.join(out, 'index.html'), home_page(data, target_prefix, archive_date, dates, prev_data))
+        write(os.path.join(out, 'quiz', 'index.html'), quiz_page(data, target_prefix, archive_date, dates))
         for sp in data['sports']:
             write(os.path.join(out, sp['id'], 'index.html'), sport_page(data, sp, target_prefix, archive_date, dates, prev_data))
     write(os.path.join(arch, 'index.html'), archive_index(dates, today))
