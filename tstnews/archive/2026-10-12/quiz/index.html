@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/tstnews/style.css?v=0ba862da">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Monday 12 October 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-10-12/">Latest</a><a href="/tstnews/archive/2026-10-12/#headlines">Headlines</a><a href="/tstnews/archive/2026-10-12/#world">World</a><a href="/tstnews/archive/2026-10-12/#france">France</a><a href="/tstnews/archive/2026-10-12/#toronto">Toronto</a><a href="/tstnews/archive/2026-10-12/#uk">UK</a><a href="/tstnews/archive/2026-10-12/#tech">Tech</a><a href="/tstnews/archive/2026-10-12/#following">Following</a><a href="/tstnews/archive/2026-10-12/#money">Economics</a><a href="/tstnews/archive/2026-10-12/#sport">Sport</a><a href="/tstnews/archive/2026-10-12/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-10-12/#sport">Sport</a><a href="/tstnews/archive/2026-10-12/football/">Football</a><a href="/tstnews/archive/2026-10-12/rugby/">Rugby</a><a href="/tstnews/archive/2026-10-12/cricket/">Cricket</a><a href="/tstnews/archive/2026-10-12/tennis/">Tennis</a><a href="/tstnews/archive/2026-10-12/squash/">Squash</a><a href="/tstnews/archive/2026-10-12/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-10-12/baseball/">Baseball</a><a href="/tstnews/archive/2026-10-12/basketball/">Basketball</a><a href="/tstnews/archive/2026-10-12/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-10-12/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>Daily quiz: Monday 12 October 2026</h2><p class="intro">Ten questions on today&#x27;s stories. Pick an answer, see the score at the end, then start again for the next player.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "Who won the Singapore Grand Prix on 11 October?", "options": ["Kimi Antonelli", "Charles Leclerc", "Max Verstappen", "Lando Norris"], "answer": 2, "explain": "Verstappen won by 7.335 seconds from Leclerc, his first Singapore win in nine tries."}, {"q": "How many points does Kimi Antonelli have in the drivers' championship after Singapore?", "options": ["302", "340", "366", "221"], "answer": 1, "explain": "Antonelli leads on 340 points, 102 clear of team-mate George Russell (238), per Sports Illustrated."}, {"q": "How many jobs did Canada lose in September, according to Statistics Canada?", "options": ["6,830", "41,700", "68,300", "138,000"], "answer": 2, "explain": "The economy shed 68,300 jobs and the unemployment rate rose to 6.5%."}, {"q": "Which Toronto mayoral candidate suspended his campaign on 6 October but stays on the ballot?", "options": ["Brad Bradford", "Chris Alexander", "Olivia Chow", "John Tory"], "answer": 1, "explain": "Chris Alexander, a former Conservative cabinet minister, suspended his campaign; the withdrawal deadline had passed in August."}, {"q": "What did President Trump declare on Sunday 11 October?", "options": ["A ceasefire in Gaza", "An energy ceasefire between Russia and Ukraine", "A new Hormuz shipping corridor", "An end to Russian sanctions"], "answer": 1, "explain": "He announced an \"energy ceasefire\"; Zelenskyy said he was ready but Russia kept striking and the Kremlin did not respond publicly."}, {"q": "Which airport was hit by a missile on 10 October, killing 12 people?", "options": ["Dubai International", "Riyadh King Khalid International", "Doha Hamad International", "Tehran Imam Khomeini"], "answer": 1, "explain": "Saudi authorities reported 12 killed and 309 wounded; the Houthis claimed the attack."}, {"q": "When does the full National Assembly debate on France's 2027 budget begin?", "options": ["1 October", "9 October", "13 October", "17 December"], "answer": 2, "explain": "The floor debate starts on Tuesday 13 October, after the finance committee rejected the revenue half of the bill 31 votes to 3."}, {"q": "Which team leads the Premier League on 18 points after a 3–0 win at Liverpool?", "options": ["Arsenal", "Brighton", "Manchester City", "Chelsea"], "answer": 2, "explain": "Manchester City have won all six games; Arsenal are on 15."}, {"q": "Which team leads the NLCS 1–0 over the Dodgers?", "options": ["Atlanta", "San Diego", "Milwaukee", "Tampa Bay"], "answer": 2, "explain": "Milwaukee won Game 1 by 2–1 on 11 October; Game 2 is on 12 October."}, {"q": "Roughly how much is SpaceX paying for the low-band wireless spectrum it agreed to buy on 8 October?", "options": ["$80 million", "$800 million", "$8 billion", "$80 billion"], "answer": 2, "explain": "About $8 billion in cash, according to a Wall Street Journal report, and it still needs US regulatory approval."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>
