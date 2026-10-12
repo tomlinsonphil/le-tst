@@ -66,7 +66,7 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 
 ## Headlines
 
-`sections[0]` is `headlines` (`kind: "feeds"`, `feeds[]` of `{name, url, items[{t,url,when}]}`). Refresh it every day with the latest 4 to 5 stories per outlet, titles and URLs exactly as the feed gives them, never invented. Feeds that worked on 11 Oct 2026 via WebFetch (WebFetch needs the host to have appeared in search results or on a page, so run a quick WebSearch first if a fetch is refused):
+`sections[0]` is `headlines` (`kind: "feeds"`, `feeds[]` of `{name, url, items[{t,url,when}]}`). Keep the outlet order: Euronews, CP24, Al Jazeera, Global News, L'Écho du Mardi. Refresh it every day with the latest 4 to 5 stories per outlet, titles and URLs exactly as the feed gives them, never invented. Feeds that worked on 11 Oct 2026 via WebFetch (WebFetch needs the host to have appeared in search results or on a page, so run a quick WebSearch first if a fetch is refused):
 
 - Al Jazeera: `https://www.aljazeera.com/news-sitemap.xml` (UTC times).
 - Euronews: `https://www.euronews.com/rss?format=mrss`.

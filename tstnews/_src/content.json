@@ -13,37 +13,6 @@
    "items": [],
    "feeds": [
     {
-     "name": "Al Jazeera · World",
-     "url": "https://www.aljazeera.com/news/",
-     "items": [
-      {
-       "t": "WHO says no plague case registered after Russian lab worker's death",
-       "url": "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death",
-       "when": "10 Oct"
-      },
-      {
-       "t": "Yemeni government's military says its forces advancing against Houthis",
-       "url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis",
-       "when": "10 Oct"
-      },
-      {
-       "t": "Hurricane Simon strengthens to Category 4 off Mexico's Pacific coast",
-       "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-simon-strengthens-to-category-4-off-mexicos-pacific-coast",
-       "when": "10 Oct"
-      },
-      {
-       "t": "Damage seen inside Saudi airport after third attack this week",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week",
-       "when": "10 Oct"
-      },
-      {
-       "t": "Hundreds of doctors demand World Medical Association suspend Israel",
-       "url": "https://www.aljazeera.com/news/2026/10/10/hundreds-of-doctors-demand-world-medical-association-suspend-israel",
-       "when": "10 Oct"
-      }
-     ]
-    },
-    {
      "name": "Euronews · Europe and France",
      "url": "https://www.euronews.com/",
      "items": [
@@ -92,6 +61,37 @@
        "t": "Prince Harry, Meghan to carry out first joint engagement since U.K. return: reports",
        "url": "https://www.cp24.com/news/world/2026/10/11/prince-harry-meghan-to-carry-out-first-joint-engagement-since-uk-return-reports/",
        "when": "11 Oct"
+      }
+     ]
+    },
+    {
+     "name": "Al Jazeera · World",
+     "url": "https://www.aljazeera.com/news/",
+     "items": [
+      {
+       "t": "WHO says no plague case registered after Russian lab worker's death",
+       "url": "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Yemeni government's military says its forces advancing against Houthis",
+       "url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Hurricane Simon strengthens to Category 4 off Mexico's Pacific coast",
+       "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-simon-strengthens-to-category-4-off-mexicos-pacific-coast",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Damage seen inside Saudi airport after third attack this week",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Hundreds of doctors demand World Medical Association suspend Israel",
+       "url": "https://www.aljazeera.com/news/2026/10/10/hundreds-of-doctors-demand-world-medical-association-suspend-israel",
+       "when": "10 Oct"
       }
      ]
     },
