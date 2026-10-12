@@ -14,6 +14,8 @@ ROOT = os.path.dirname(SRC)          # .../tstnews
 BASE = '/tstnews'
 esc = lambda s: html.escape(str(s), quote=True)
 
+import hashlib
+CSSVER = hashlib.md5(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'style.css'), 'rb').read()).hexdigest()[:8]
 HEAD = '''<!doctype html>
 <html lang="en">
 <head>
@@ -23,7 +25,7 @@ HEAD = '''<!doctype html>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="{base}/style.css">
+<link rel="stylesheet" href="{base}/style.css?v={ver}">
 </head>
 <body>
 <div class="wrap">
@@ -197,7 +199,7 @@ def current_path(current):
 
 
 def home_page(data, prefix, archive_date, dates, prev_data):
-    h = [HEAD.format(title='TST News', base=BASE), masthead(data, prefix, 'home', archive_date, dates)]
+    h = [HEAD.format(ver=CSSVER, title='TST News', base=BASE), masthead(data, prefix, 'home', archive_date, dates)]
     h.append(f'<p class="note">{esc(data.get("note", ""))}</p>')
     for sec in data['sections']:
         h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2>' + (f'<p class="intro">{esc(sec["intro"])}</p>' if sec.get("intro") else ''))
@@ -238,7 +240,7 @@ def home_page(data, prefix, archive_date, dates, prev_data):
 
 
 def sport_page(data, sport, prefix, archive_date, dates, prev_data):
-    h = [HEAD.format(title=f'{sport["title"]} · TST News', base=BASE), masthead(data, prefix, sport['id'], archive_date, dates)]
+    h = [HEAD.format(ver=CSSVER, title=f'{sport["title"]} · TST News', base=BASE), masthead(data, prefix, sport['id'], archive_date, dates)]
     h.append(f'<p class="note">{esc(data.get("sport_note", ""))}</p>')
     chips = ([('news', 'News')] if sport.get('cards') else []) + [(g['id'], g.get('short', g['title'])) for g in sport.get('groups', [])]
     if len(chips) > 1:
@@ -258,7 +260,7 @@ def sport_page(data, sport, prefix, archive_date, dates, prev_data):
 
 def quiz_page(data, prefix, archive_date, dates):
     qz = data['quiz']
-    h = [HEAD.format(title='Quiz · TST News', base=BASE), masthead(data, prefix, 'quiz', archive_date, dates)]
+    h = [HEAD.format(ver=CSSVER, title='Quiz · TST News', base=BASE), masthead(data, prefix, 'quiz', archive_date, dates)]
     h.append(f'<section class="sec"><h2>{esc(qz["title"])}: {esc(data["label"])}</h2><p class="intro">{esc(qz["intro"])}</p>')
     h.append('<div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section>')
     h.append('<script type="application/json" id="qdata">' + json.dumps(qz['questions'], ensure_ascii=False).replace('</', '<\\/') + '</script>')
@@ -290,7 +292,7 @@ start()})();
 
 def archive_index(dates, latest):
     data = {'label': 'Every day, kept', 'date': latest}
-    h = [HEAD.format(title='Archive · TST News', base=BASE), masthead(data, BASE, 'archive', None, dates)]
+    h = [HEAD.format(ver=CSSVER, title='Archive · TST News', base=BASE), masthead(data, BASE, 'archive', None, dates)]
     h.append('<section class="sec"><h2>Archive</h2><p class="intro">A copy of each day\'s pages, kept as it was published.</p><ul class="archlist">')
     for d in sorted(dates, reverse=True):
         label = datetime.date.fromisoformat(d).strftime('%A %-d %B %Y')
