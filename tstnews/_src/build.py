@@ -68,8 +68,29 @@ def community_html(links):
         f'<a href="{esc(l["url"])}" target="_blank" rel="noopener">{esc(l["text"])}</a>' for l in links) + '</p>')
 
 
+ICONS = [
+    ('iran', '🌍'), ('ukraine', '🌍'), ('mayoral', '🗳️'), ('leafs', '🏒'), ('jays', '⚾'), ('raptors', '🏀'),
+    ('premier', '⚽'), ('ligue', '⚽'), ('champions', '🏆'), ('lower leagues', '⚽'), ('rugby', '🏉'), ('cricket', '🏏'),
+    ('tennis', '🎾'), ('squash', '🎾'), ('hockey', '🏑'), ('formula', '🏎️'), ('tesla', '🚗'), ('tech', '💻'),
+    ('musk', '🚀'), ('brownlee', '🎬'), ('rogan', '🎙️'), ('carr', '🎤'), ('edgley', '🏊'),
+    ('london', '🏛️'), ('windsor', '🏰'), ('bournemouth', '🏖️'), ('finchampstead', '🌳'), ('paris', '🗼'),
+    ('sablet', '🍇'), ('vaison', '🏺'), ('orange', '🏟️'), ('avignon', '🌉'), ('tfsa', '🏦'), ('etf', '📈'),
+    ('canada', '🍁'), ('united states', '🗽'), ('united kingdom', '💷'), ('china', '🐉'), ('rates', '💹'),
+]
+
+
+def img_html(it, section_id=''):
+    im = it.get('img')
+    if im and im.get('url'):
+        cr = f'<figcaption>{esc(im.get("credit", ""))}</figcaption>' if im.get('credit') else ''
+        return f'<figure class="pic"><img src="{esc(im["url"])}" alt="{esc(im.get("alt", it["t"]))}" loading="lazy">{cr}</figure>'
+    t = it['t'].lower()
+    glyph = next((g for k, g in ICONS if k in t), '📰')
+    return f'<div class="pic ill" role="img" aria-label="Illustration: {esc(it["t"])}"><span>{glyph}</span></div>'
+
+
 def card_html(it, prefix):
-    h = [f'<article class="card"><h3>{esc(it["t"])}</h3><span class="tag{" gap" if it.get("gap") else ""}">{esc(it["tag"])}</span>']
+    h = [f'<article class="card"><h3>{esc(it["t"])}</h3>{img_html(it)}<span class="tag{" gap" if it.get("gap") else ""}">{esc(it["tag"])}</span>']
     h.append(''.join(f'<p>{esc(p)}</p>' for p in it['w']))
     if it.get('f'):
         h.append('<ul class="facts">' + ''.join(f'<li>{esc(x)}</li>' for x in it['f']) + '</ul>')

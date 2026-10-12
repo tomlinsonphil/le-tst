@@ -76,3 +76,8 @@ footer a{color:var(--a3)}
 .tiles a:hover{border-color:var(--a1)}
 .tiles b{font-family:var(--f-display);font-stretch:85%;font-weight:700;font-size:1.15rem}
 .tiles span{font-size:.92rem;color:var(--muted)}
+.pic{margin:0;border-radius:4px;overflow:hidden}
+.pic img{display:block;width:100%;height:auto;max-height:260px;object-fit:cover}
+.pic figcaption{font-family:var(--f-mono);font-size:.68rem;color:var(--muted);padding:4px 0 0}
+.pic.ill{height:96px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--tagbg),var(--guide));border:1px solid var(--line)}
+.pic.ill span{font-size:3rem;line-height:1}

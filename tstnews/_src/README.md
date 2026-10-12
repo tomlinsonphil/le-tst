@@ -18,7 +18,7 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 ## content.json shape
 
 - `sections[]` (main page, in order): world, toronto, uk, france, sport, tech, following, money. Each has `id`, `title`, `short`, `intro`, optional `community` (links), and `items[]`. The `sport` section has `kind: "sportlinks"` and no items; it shows one tile per entry of `sports[]`.
-- Item (a news card): `t` title, `tag` short status, `gap` true when nothing current could be verified, `w` report paragraphs (several, not one line), `f` optional key facts, `n` the "If you're new to this" primer (3 to 5 paragraphs, written for someone who knows nothing about the subject), `s` as-of date and source, `links` (list of `{text, url}`).
+- Item (a news card): `t` title, `tag` short status, `gap` true when nothing current could be verified, `w` report paragraphs (several, not one line), `f` optional key facts, `n` the "If you're new to this" primer (3 to 5 paragraphs, written for someone who knows nothing about the subject), `s` as-of date and source, `links` (list of `{text, url}`), optional `img` `{url, alt, credit}`.
 - `econ[]`: rows of `[country, policy rate, inflation, notes]`.
 - `sports[]`: one per sport page. `id` (the URL folder), `title`, `summary` (one line shown on the Today page tile), `intro`, `cards[]` (items as above), `groups[]` (`id`, `title`, `intro`, `panels[]`), `community` (links).
 - Panel: `id`, `title`, `asof`, `source`, then either `cols` plus `rows` (a table) or `items` (a list); optional `note`, `links`, `highlight` (substrings to highlight, e.g. `["Bournemouth"]`), `movement` true (adds a Move column; `key` is the index of the team/player column, default 1), and `gap` true with `tag` for panels with nothing verified.
@@ -52,3 +52,9 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 - F1 standings: `directv.com/insider/f1-standings/` (check which race it is after) and racingnews365.com.
 - Maple Leafs record and schedule: `surprisesports.com/scores/nhl/team/maple-leafs-21/`.
 - Central banks: bankofcanada.ca, bankofengland.co.uk, federalreserve.gov. Provence events: provenceguide.com. Toronto election: CP24 (`cp24.com`).
+
+## Images and towns
+
+- Every card shows a picture. If an item has `img` (`{url, alt, credit}`) that photo is shown with its credit line; otherwise build.py draws a simple illustration chosen from words in the title (see `ICONS` in build.py).
+- Only use a photo when you have confirmed a real, freely licensed file (for example a Wikimedia Commons file page that appeared in search results or that you opened). Use its direct `upload.wikimedia.org` URL and put author and licence in `credit`. Never use news-agency or newspaper photos, and never guess a URL. Keep a photo from day to day for items that continue.
+- UK towns followed: London, Windsor, Bournemouth and Finchampstead. Keep all of them (Finchampstead is marked gap when there is no current local news).
