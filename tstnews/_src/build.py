@@ -160,7 +160,7 @@ def panel_html(p, prev_data):
 
 
 def masthead(data, prefix, current, archive_date, dates):
-    secs = [('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
+    secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
     
     pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Quiz', f'{prefix}/quiz/', 'quiz'), ('Archive', f'{BASE}/archive/', 'archive')]
     sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
@@ -219,6 +219,13 @@ def home_page(data, prefix, archive_date, dates, prev_data):
                     h.append(f'<a class="paper" href="{esc(pp.get("link") or pp["url"])}"><i>{esc(pp["name"])}</i>{body}{pw}</a>')
                 h.append('</div>')
             h.append('</section>')
+            continue
+        if sec.get('kind') == 'feeds':
+            h.append('<div class="feeds">')
+            for g in sec['feeds']:
+                h.append(f'<section class="feed"><h3><a href="{esc(g["url"])}">{esc(g["name"])}</a></h3><ul>' + ''.join(
+                    f'<li><a href="{esc(i["url"])}">{esc(i["t"])}</a> <span>{esc(i.get("when", ""))}</span></li>' for i in g['items']) + '</ul></section>')
+            h.append('</div></section>')
             continue
         if sec.get('kind') == 'sportlinks':
             h.append('<ul class="tiles">' + ''.join(

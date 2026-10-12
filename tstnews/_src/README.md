@@ -66,7 +66,15 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 
 ## Headlines
 
-There is no Headlines section. It was removed because the research tools cannot read newspaper front pages. Do not add it back.
+`sections[0]` is `headlines` (`kind: "feeds"`, `feeds[]` of `{name, url, items[{t,url,when}]}`). Refresh it every day with the latest 4 to 5 stories per outlet, titles and URLs exactly as the feed gives them, never invented. Feeds that worked on 11 Oct 2026 via WebFetch (WebFetch needs the host to have appeared in search results or on a page, so run a quick WebSearch first if a fetch is refused):
+
+- Al Jazeera: `https://www.aljazeera.com/news-sitemap.xml` (UTC times).
+- Euronews: `https://www.euronews.com/rss?format=mrss`.
+- CP24: `https://www.cp24.com/arc/outboundfeeds/sitemap-news/YYYY-MM-DD/`.
+- Global News Toronto: `https://globalnews.ca/toronto/feed/`.
+- L'Écho du Mardi (Vaucluse, Avignon): `https://www.echodumardi.com/feed/`.
+
+Blocked or unreadable (do not try to get around it): BBC, Guardian, Le Monde, Figaro, CBC feed, RFI, France 24, CityNews, Bournemouth Echo, Evening Standard, Wokingham Today feed. CTV Windsor is Windsor, Ontario, not Windsor, UK, so do not use it for the UK town. If a feed fails, keep the outlet with the last list and honest dates in `when`, or drop it.
 
 ## Images and quiz (updates)
 

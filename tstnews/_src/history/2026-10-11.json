@@ -5,6 +5,151 @@
  "sport_note": "Tables show the last figures I could confirm, with their date and source. Panels marked \"Not verified today\" have no confirmed current data.",
  "sections": [
   {
+   "id": "headlines",
+   "title": "Headlines",
+   "short": "Headlines",
+   "kind": "feeds",
+   "intro": "Latest stories from free-to-read news sites, taken from their own feeds. Open a story for the detail.",
+   "items": [],
+   "feeds": [
+    {
+     "name": "Al Jazeera · World",
+     "url": "https://www.aljazeera.com/news/",
+     "items": [
+      {
+       "t": "WHO says no plague case registered after Russian lab worker's death",
+       "url": "https://www.aljazeera.com/news/2026/10/10/who-says-no-plague-case-registered-after-russian-lab-workers-death",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Yemeni government's military says its forces advancing against Houthis",
+       "url": "https://www.aljazeera.com/news/2026/10/10/yemeni-governments-military-says-its-forces-advancing-against-houthis",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Hurricane Simon strengthens to Category 4 off Mexico's Pacific coast",
+       "url": "https://www.aljazeera.com/news/2026/10/10/hurricane-simon-strengthens-to-category-4-off-mexicos-pacific-coast",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Damage seen inside Saudi airport after third attack this week",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/10/damage-seen-inside-saudi-airport-after-third-attack-this-week",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Hundreds of doctors demand World Medical Association suspend Israel",
+       "url": "https://www.aljazeera.com/news/2026/10/10/hundreds-of-doctors-demand-world-medical-association-suspend-israel",
+       "when": "10 Oct"
+      }
+     ]
+    },
+    {
+     "name": "Euronews · Europe and France",
+     "url": "https://www.euronews.com/",
+     "items": [
+      {
+       "t": "Teen revolt or revolution? The student protests threatening France's presidential race",
+       "url": "https://www.euronews.com/2026/10/11/teen-revolt-or-revolution-the-student-protests-threatening-frances-presidential-race",
+       "when": "11 Oct"
+      },
+      {
+       "t": "Trump says Ukraine needs new president after Zelenskyy condemns Russia fuel deal",
+       "url": "https://www.euronews.com/2026/10/10/trump-says-ukraine-needs-new-president-after-zelenskyy-condemns-russia-fuel-deal",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Protesters take to the streets in Portugal over rising living costs and housing prices",
+       "url": "https://www.euronews.com/2026/10/11/protesters-take-to-the-streets-in-portugal-over-rising-living-costs-and-housing-prices",
+       "when": "11 Oct"
+      },
+      {
+       "t": "ESA director general reveals €10bn plan to get to space without NASA",
+       "url": "https://www.euronews.com/2026/10/11/esa-director-general-reveals-10bn-plan-to-get-to-space-without-nasa",
+       "when": "11 Oct"
+      }
+     ]
+    },
+    {
+     "name": "CP24 · Toronto and Canada",
+     "url": "https://www.cp24.com/",
+     "items": [
+      {
+       "t": "Woman arrested for impaired driving after multi-vehicle crash in Toronto",
+       "url": "https://www.cp24.com/local/toronto/2026/10/11/woman-arrested-for-impaired-driving-after-multi-vehicle-crash-in-toronto/",
+       "when": "11 Oct"
+      },
+      {
+       "t": "Pope Leo XIV says he will undergo surgery in the coming days to remove a nodule on his lung",
+       "url": "https://www.cp24.com/news/world/2026/10/11/pope-leo-xiv-will-undergo-surgery-to-remove-a-nodule-on-his-lung/",
+       "when": "11 Oct"
+      },
+      {
+       "t": "What Albertans need to know before advance referendum voting locations open this week",
+       "url": "https://www.cp24.com/news/canada/2026/10/11/what-albertans-need-to-know-before-advance-referendum-voting-locations-open-this-week/",
+       "when": "11 Oct"
+      },
+      {
+       "t": "Prince Harry, Meghan to carry out first joint engagement since U.K. return: reports",
+       "url": "https://www.cp24.com/news/world/2026/10/11/prince-harry-meghan-to-carry-out-first-joint-engagement-since-uk-return-reports/",
+       "when": "11 Oct"
+      }
+     ]
+    },
+    {
+     "name": "Global News · Toronto",
+     "url": "https://globalnews.ca/toronto/",
+     "items": [
+      {
+       "t": "Dick faces Raptors for first time since trade",
+       "url": "https://globalnews.ca/news/12098752/dick-faces-raptors-for-first-time-since-trade/",
+       "when": "10 Oct"
+      },
+      {
+       "t": "2 dead after plane crash, fire near Fergus, Ont.",
+       "url": "https://globalnews.ca/news/12098605/2-dead-plane-crash-fergus-ontario/",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Suspect sought in early morning break-in, sexual assault: Toronto police",
+       "url": "https://globalnews.ca/news/12098434/toronto-suspect-sought-sexual-assault/",
+       "when": "10 Oct"
+      },
+      {
+       "t": "Another Marineland whale dies at Shedd Aquarium in Chicago",
+       "url": "https://globalnews.ca/news/12098018/marineland-whale-dies-in-chicago/",
+       "when": "9 Oct"
+      }
+     ]
+    },
+    {
+     "name": "L'Écho du Mardi · Vaucluse and Avignon",
+     "url": "https://www.echodumardi.com/",
+     "items": [
+      {
+       "t": "Avignon : grand marché du vinyle à la Scierie",
+       "url": "https://www.echodumardi.com/culture-loisirs/avignon-grand-marche-du-vinyle-a-la-scierie/",
+       "when": "9 Oct"
+      },
+      {
+       "t": "Pour la sécurité des Vauclusiens, le Département réaffirme son soutien « indéfectible » aux pompiers",
+       "url": "https://www.echodumardi.com/politiqueetterritoire/pour-la-securite-des-vauclusiens-le-departement-reaffirme-son-soutien-indefectible-aux-pompiers/",
+       "when": "8 Oct"
+      },
+      {
+       "t": "En Paca, la voiture reste un symbole de réussite",
+       "url": "https://www.echodumardi.com/actualite/en-paca-la-voiture-reste-un-symbole-de-reussite/",
+       "when": "9 Oct"
+      },
+      {
+       "t": "La Safer Paca repart au contact",
+       "url": "https://www.echodumardi.com/politiqueetterritoire/la-safer-paca-repart-au-contact/",
+       "when": "9 Oct"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "world",
    "items": [
     {
