@@ -1,7 +1,7 @@
 {
  "date": "2026-10-11",
  "label": "Sunday 11 October 2026",
- "note": "Facts are dated to about 11 Oct 2026. Items tagged \"Not verified today\" had no reliable current news, so they carry background only. Economics content is general information, not financial advice.",
+ "note": "Facts are dated to about 11 Oct 2026. Items tagged \"Not verified today\" had no reliable current news, so they carry background only. Links are to free-to-read pages where I could find them, though I cannot guarantee a page will stay free. Economics content is general information, not financial advice.",
  "sport_note": "Tables show the last figures I could confirm, with their date and source. Panels marked \"Not verified today\" have no confirmed current data.",
  "sections": [
   {
@@ -9,11 +9,12 @@
    "items": [
     {
      "t": "Iran war and the Strait of Hormuz",
-     "tag": "Not verified today",
-     "gap": 1,
+     "tag": "Ongoing conflict",
+     "gap": false,
      "w": [
-      "The Iran conflict and the risk to shipping around the Strait of Hormuz were still running as live stories this week, but I could not confirm today's front-line position or the latest diplomatic moves.",
-      "For a reader outside the region the practical question is how it feeds into oil prices, and from there into inflation, interest rates and the stock and bond markets you may hold through ETFs."
+      "Reports in early October said Iran's Revolutionary Guard (IRGC) had targeted seven oil tankers in the Strait of Hormuz within five days. A separate report said weekly attacks on tankers there were the highest since the war began.",
+      "Al Jazeera's live coverage has also described Iranian claims of attacks on US warships linked to a naval blockade. I could not confirm today's front-line position, so check the live pages below.",
+      "For a reader outside the region the practical question is how this feeds into oil prices, and from there into inflation, interest rates and the stock and bond markets you may hold through ETFs."
      ],
      "n": [
       "The Strait of Hormuz is a narrow stretch of sea between Iran to the north and Oman to the south, linking the Persian Gulf to the open ocean. Roughly a fifth of the world's oil, and a large share of its liquefied natural gas, passes through it. There is no easy alternative route for most of that cargo.",
@@ -21,7 +22,21 @@
       "Inflation matters because central banks such as the Bank of Canada, the Bank of England and the US Federal Reserve respond to it by moving interest rates. Higher rates make borrowing dearer and usually weigh on bond prices and on shares, especially in growth sectors.",
       "So a conflict thousands of kilometres away reaches a Toronto investor through fuel costs, mortgage rates and the value of an ETF portfolio."
      ],
-     "s": "As of 10 Oct 2026 · check Reuters, CBC or the BBC for live status"
+     "s": "As of early Oct 2026 · reports not independently confirmed",
+     "links": [
+      {
+       "text": "Al Jazeera: Iran war live coverage",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/9/6/iran-war-live-irgc-claims-new-attacks-on-us-warships-over-naval-blockade"
+      },
+      {
+       "text": "Siasat: IRGC targets 7 oil tankers in Hormuz in 5 days",
+       "url": "https://www.siasat.com/irans-irgc-targets-7-oil-tankers-in-strait-of-hormuz-in-5-days-3552095/"
+      },
+      {
+       "text": "Wikipedia: Strait of Hormuz",
+       "url": "https://en.wikipedia.org/wiki/Strait_of_Hormuz"
+      }
+     ]
     },
     {
      "t": "Ukraine war",
@@ -37,12 +52,28 @@
       "The war also changed government spending. NATO members have pledged to spend more on defence, which squeezes budgets already stretched by ageing populations and high debt.",
       "When you read about a ceasefire or talks, the markets usually watch three things: energy prices, defence-company shares, and the borrowing costs of European governments."
      ],
-     "s": "As of 10 Oct 2026 · check a live news source"
+     "s": "As of 10 Oct 2026 · check a live news source",
+     "links": [
+      {
+       "text": "Al Jazeera: Russia-Ukraine war coverage",
+       "url": "https://www.aljazeera.com/tag/russia-ukraine-war/"
+      },
+      {
+       "text": "Wikipedia: Russian invasion of Ukraine",
+       "url": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine"
+      }
+     ]
     }
    ],
    "short": "World",
    "title": "World",
-   "intro": "The big stories shaping politics, energy prices and markets."
+   "intro": "The big stories shaping politics, energy prices and markets.",
+   "community": [
+    {
+     "text": "r/worldnews",
+     "url": "https://www.reddit.com/r/worldnews/"
+    }
+   ]
   },
   {
    "id": "toronto",
@@ -51,13 +82,13 @@
      "t": "Mayoral election on 26 October",
      "tag": "Election · 26 Oct",
      "w": [
-      "Toronto votes for its mayor and city councillors on 26 October. The contest is reported as a two-way race between the incumbent, Olivia Chow, and Brad Bradford, the Beaches-East York councillor.",
-      "The campaign is likely to turn on housing and affordability, transit, public safety and how the city pays for its services."
+      "Toronto votes for its mayor and city councillors on 26 October. An exclusive CP24 poll published on 6 October had the incumbent, Olivia Chow, leading Brad Bradford by nearly 10 points, with Chris Alexander a distant third.",
+      "The campaign is likely to turn on housing and affordability, transit, public safety and how the city pays for its services. Bradford has also questioned Chow's claim of $788 million in savings."
      ],
      "f": [
       "Election day: 26 October 2026",
-      "Candidates reported: Olivia Chow (incumbent) and Brad Bradford",
-      "Also on the ballot: councillors for the city's wards, and school board trustees"
+      "Candidates reported: Olivia Chow (incumbent), Brad Bradford and Chris Alexander",
+      "Poll (CP24, 6 Oct): Chow ahead of Bradford by nearly 10 points; Alexander a distant third"
      ],
      "n": [
       "Toronto's mayor leads a council of 25 ward councillors plus the mayor. The mayor chairs council meetings, proposes the annual budget and represents the city to other governments. Since 2022 Ontario has also given the mayors of Toronto and Ottawa \"strong mayor\" powers, which let them propose budgets and hire senior staff with fewer council votes.",
@@ -65,25 +96,48 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. To vote, you need to be on the voters list, which you can check through the city's election website, and you will get a voter notification card. Advance voting is usually offered before election day.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "CP24: Exclusive poll, Chow leads Bradford by nearly 10 points",
+       "url": "https://www.cp24.com/local/toronto/2026/10/06/exclusive-poll-olivia-chow-leads-brad-bradford-by-nearly-10-points-chris-alexander-a-distant-third/"
+      },
+      {
+       "text": "CP24: Everything you need to know four weeks out",
+       "url": "https://www.cp24.com/gta-elections-2026/2026/09/28/torontos-mayoral-election-is-four-weeks-away-heres-everything-you-need-to-know-if-you-havent-been-paying-attention/"
+      },
+      {
+       "text": "CP24: Bradford questions Chow's $788M savings claim",
+       "url": "https://www.cp24.com/local/toronto/2026/09/26/brad-bradford-questions-olivia-chows-788m-savings-claim/"
+      }
+     ]
     },
     {
      "t": "Leafs, Jays and Raptors",
-     "tag": "See Other sport",
+     "tag": "See the sport pages",
      "w": [
-      "The Maple Leafs are 3-2-1 after a 6–3 win at Colorado on Saturday 10 October. The Blue Jays are out of the playoffs, and the Raptors open their season later this month. Full details are on the Other sport page."
+      "The Maple Leafs are 3-2-1 after a 6–3 win at Colorado on Saturday 10 October. The Blue Jays are out of the playoffs, and the Raptors open their season later this month. Each team has its own page above."
      ],
      "n": [
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 10 Oct 2026",
-     "link": "sport/#icehockey"
+     "s": "As of 10 Oct 2026"
     }
    ],
    "short": "Toronto",
    "title": "Toronto",
-   "intro": "City hall and the home teams."
+   "intro": "City hall and the home teams.",
+   "community": [
+    {
+     "text": "r/toronto",
+     "url": "https://www.reddit.com/r/toronto/"
+    },
+    {
+     "text": "r/askTO",
+     "url": "https://www.reddit.com/r/askTO/"
+    }
+   ]
   },
   {
    "id": "uk",
@@ -92,10 +146,11 @@
      "t": "London: Burnham government and the Bank of England",
      "tag": "Westminster",
      "w": [
-      "Andy Burnham has been Prime Minister since 20 July, with John Healey as Chancellor of the Exchequer. The pair now face the usual autumn squeeze between promises on spending and a tight fiscal position.",
+      "Andy Burnham has been Prime Minister since 20 July, with John Healey as Chancellor of the Exchequer. The Autumn Budget is expected on 28 October, and both have hinted at tough choices.",
       "On the money side, the Bank of England held its Bank Rate at 3.75% on 17 September. UK consumer price inflation is running at 3.1%, above the bank's 2% target, which is why rate cuts have not come faster. The next rate decision is on 5 November."
      ],
      "f": [
+      "Autumn Budget: expected 28 October",
       "Bank Rate: 3.75% (held 17 Sep; next decision 5 Nov)",
       "CPI inflation: 3.1% against a 2% target",
       "Prime Minister: Andy Burnham (since 20 July)",
@@ -107,20 +162,48 @@
       "Bank Rate matters to ordinary people because mortgages, savings accounts and business loans follow it. It also influences gilt yields. Gilts are UK government bonds. When investors expect higher rates or worry about government borrowing, gilt yields rise and prices fall.",
       "For a Canadian-based ETF investor the UK matters mainly through the pound against the Canadian dollar and through any UK shares inside a global fund."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "LBC: When is the Autumn Budget 2026?",
+       "url": "https://www.lbc.co.uk/politics/uk-politics/when-autumn-budget-date-2026/"
+      },
+      {
+       "text": "The Star: PM and Healey hint at tough choices as Budget looms",
+       "url": "https://www.thestar.co.uk/news/politics/prime-minister-and-rotherham-mp-hint-at-tough-choices-as-budget-looms-9193908"
+      },
+      {
+       "text": "Bank of England: Bank Rate and decisions",
+       "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+      }
+     ]
     },
     {
      "t": "Windsor",
      "tag": "Not verified today",
      "gap": 1,
      "w": [
-      "No reliable current Windsor news turned up in my searches today, so this is a background note."
+      "No reliable current Windsor news turned up in my searches today, so this is a background note. The town's what's-on guide lists seasonal events, including Windsor Fireworks Night at Royal Windsor Racecourse (check the page for the date)."
      ],
      "n": [
       "Windsor is a town in Berkshire on the River Thames, about 25 miles west of central London. It is best known for Windsor Castle, which has been a royal residence for almost 1,000 years and is described as the oldest and largest occupied castle in the world.",
       "The castle sits above the town, and the Thames runs past Eton College on the opposite bank. Nearby are the Great Park and Savill Garden. The Royal Windsor Horse Show and Ascot Racecourse draw crowds in the summer."
      ],
-     "s": "Background only"
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Windsor: what's on (town guide)",
+       "url": "https://www.windsor.gov.uk/whats-on/searchresults?p=3"
+      },
+      {
+       "text": "Windsor Fireworks Night, Royal Windsor Racecourse",
+       "url": "https://www.windsor.gov.uk/whats-on/windsor-fireworks-night-royal-windsor-racecourse-p2945141"
+      },
+      {
+       "text": "Wikipedia: Windsor Castle",
+       "url": "https://en.wikipedia.org/wiki/Windsor_Castle"
+      }
+     ]
     },
     {
      "t": "Bournemouth",
@@ -134,12 +217,40 @@
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league."
      ],
      "s": "As of 10 Oct 2026",
-     "link": "football/#premier-league"
+     "link": "football/#premier-league",
+     "links": [
+      {
+       "text": "Premier League table (footballwebpages)",
+       "url": "https://www.footballwebpages.co.uk/premier-league/20261010"
+      },
+      {
+       "text": "Wikipedia: AFC Bournemouth",
+       "url": "https://en.wikipedia.org/wiki/AFC_Bournemouth"
+      },
+      {
+       "text": "Wikipedia: Bournemouth",
+       "url": "https://en.wikipedia.org/wiki/Bournemouth"
+      }
+     ]
     }
    ],
    "short": "UK",
    "title": "London, Windsor and Bournemouth",
-   "intro": "The UK places you follow."
+   "intro": "The UK places you follow.",
+   "community": [
+    {
+     "text": "r/london",
+     "url": "https://www.reddit.com/r/london/"
+    },
+    {
+     "text": "r/bournemouth",
+     "url": "https://www.reddit.com/r/bournemouth/"
+    },
+    {
+     "text": "r/ukpolitics",
+     "url": "https://www.reddit.com/r/ukpolitics/"
+    }
+   ]
   },
   {
    "id": "france",
@@ -148,11 +259,12 @@
      "t": "Paris: the 2027 budget",
      "tag": "Politics and money",
      "w": [
-      "Prime Minister Sébastien Lecornu presented the 2027 budget on 1 October. It aims to cut the state deficit from 5.4% of GDP this year to 5% next year. Public debt is about 121.7% of GDP, and France's 10-year government bond yield is near 4.94%.",
+      "Prime Minister Sébastien Lecornu presented the 2027 budget on 1 October. It asks for an effort of about 54 billion euros and aims to cut the state deficit from 5.4% of GDP this year to 5% next year. Public debt is about 121.7% of GDP, and France's 10-year government bond yield is near 4.94%.",
       "Budgets are hard to pass in France because no party holds a clear majority in the National Assembly. Expect weeks of negotiation and the risk of a confidence vote."
      ],
      "f": [
       "2027 budget presented: 1 October",
+      "Savings effort: about 54 billion euros",
       "Deficit target: 5.4% of GDP down to 5%",
       "Public debt: about 121.7% of GDP",
       "10-year OAT yield: about 4.94%"
@@ -163,7 +275,21 @@
       "The OAT (Obligation assimilable du Trésor) is the French government bond. When investors worry about France's finances they demand a higher yield. Many people compare the OAT yield with Germany's Bund. A widening gap is a quick gauge of political stress.",
       "For an investor, French politics matters because a budget crisis can hit French banks and shares, and the euro."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Euronews (French): le gouvernement présente son budget sur fond de dette record",
+       "url": "https://fr.euronews.com/2026/10/01/le-gouvernement-francais-presente-son-budget-sur-fond-de-dette-record"
+      },
+      {
+       "text": "Public Sénat (French): un effort de 54 milliards d'euros",
+       "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-sebastien-lecornu-propose-un-effort-de-54-milliards-deuros"
+      },
+      {
+       "text": "Hellenic Shipping News (English): budget amid record debt",
+       "url": "https://www.hellenicshippingnews.com/french-government-to-lay-out-budget-amid-record-breaking-public-debt/"
+      }
+     ]
     },
     {
      "t": "Sablet",
@@ -177,40 +303,71 @@
       "An appellation is a legally protected wine region. Rules fix which grapes may be grown and how, which is what makes a village name a guarantee of style. Reds here are mostly blends of Grenache, Syrah and Mourvèdre.",
       "The village is known for its stone lanes, its winegrowers' cellars and a market. Vaison-la-Romaine is a short drive to the north."
      ],
-     "s": "Background only"
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Provence Guide: events in the Vaucluse",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/chateauneuf-du-pape/fete-de-la-veraison-37eme-edition/provence-683987-1.html"
+      }
+     ]
     },
     {
      "t": "Vaison-la-Romaine",
      "tag": "Events 10–11 Oct",
      "w": [
-      "The Provence Guide lists local events in Vaison-la-Romaine for this weekend, 10 and 11 October. Check the guide for times and venues before travelling."
+      "The Provence Guide lists local events in Vaison-la-Romaine around this weekend, including a running event, the Trail des Fous Romains, and an arts weekend. Check the guide for dates, times and venues before travelling."
      ],
      "n": [
       "Vaison-la-Romaine is a small town on the river Ouvèze with two historic halves. The lower town holds some of the largest Roman excavations in France, at the Puymin and La Villasse quarters, with houses, mosaics, a theatre and a museum. Across the river, the medieval upper town (Haute-Ville) climbs to a ruined castle.",
       "The two sides are joined by a single-arched Roman bridge. In September 1992 a catastrophic flood killed dozens of people and wrecked much of the lower town, but the Roman bridge held.",
       "The town hosts a summer festival, Choralies, every third year, and weekly markets. It is a good base for walking in the Dentelles."
      ],
-     "s": "Source: Provence Guide, 10 Oct 2026"
+     "s": "Source: Provence Guide, 10 Oct 2026",
+     "links": [
+      {
+       "text": "Provence Guide: Trail des Fous Romains (running event)",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/vaison-la-romaine/trail-des-fous-romains-course-a-pied/provence-6003267-1.html"
+      },
+      {
+       "text": "Provence Guide: Les Journées d'Art",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/vaison-la-romaine/les-journees-d-art/provence-6014749-1.html"
+      },
+      {
+       "text": "Wikipedia: Vaison-la-Romaine",
+       "url": "https://en.wikipedia.org/wiki/Vaison-la-Romaine"
+      }
+     ]
     },
     {
      "t": "Orange",
      "tag": "Not verified today",
      "gap": 1,
      "w": [
-      "No reliable current news for Orange today, so this is a background note."
+      "No reliable Orange news today. The Provence Guide lists La Semaine Bleue, an annual week of events for older residents, in Orange. Otherwise this is a background note."
      ],
      "n": [
       "Orange is a town in the Vaucluse with two of the best-preserved Roman monuments in Europe, both on the UNESCO World Heritage list. The Roman theatre has an intact stage wall about 37 metres high, which is rare because most ancient theatres lost theirs. It still hosts opera and concerts, notably the Chorégies d'Orange festival each summer.",
       "The Arc de Triomphe of Orange stands on the old road to Lyon. It is a triple-arched monument from the early Roman Empire, carved with scenes of battles and spoils.",
       "The town's name is older than the fruit. It comes from the Roman Arausio. The Principality of Orange later passed to the House of Nassau, which is how the Dutch royal family got the name \"Orange\"."
      ],
-     "s": "Background only"
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Provence Guide: La Semaine Bleue, Orange",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/orange/la-semaine-bleue/provence-7063674-1.html"
+      },
+      {
+       "text": "Wikipedia: Orange, Vaucluse",
+       "url": "https://en.wikipedia.org/wiki/Orange,_Vaucluse"
+      }
+     ]
     },
     {
      "t": "Avignon",
      "tag": "Opera",
      "w": [
-      "Provence Guide listings point to Verdi's opera Aïda rehearsing in Avignon, and to the Fête de la Véraison at nearby Châteauneuf-de-Gadagne. I could not verify performance dates, so check before you go."
+      "Provence Guide listings show a mix of events in and around Avignon, including a free open stage at the city's conservatoire. The Fête de la Véraison, a wine-village festival, is listed for Châteauneuf-du-Pape.",
+      "My earlier research also pointed to Verdi's opera Aïda rehearsing in Avignon, but I could not re-confirm performance dates, so check before you go."
      ],
      "n": [
       "Avignon sits on the Rhône and was the seat of the Catholic popes from 1309 to 1377, when the papacy moved from Rome. The huge Gothic Palais des Papes is the legacy, and the old city's ramparts are largely intact. Both are UNESCO listed.",
@@ -218,247 +375,44 @@
       "Each July the city hosts the Festival d'Avignon, one of the biggest theatre festivals in the world, with a huge fringe called the Off.",
       "Aïda is Verdi's opera set in ancient Egypt, premiered in Cairo in 1871. It tells of an enslaved Ethiopian princess who falls in love with an Egyptian commander. It is famous for the Triumphal March."
      ],
-     "s": "Source: Provence Guide, 10 Oct 2026"
+     "s": "Source: Provence Guide, 10 Oct 2026",
+     "links": [
+      {
+       "text": "Provence Guide: L'Autre (Avignon)",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/avignon/l-autre/provence-8000062-1.html"
+      },
+      {
+       "text": "Provence Guide: Scène ouverte, Conservatoire du Grand Avignon",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/avignon/scene-ouverte-au-conservatoire-du-grand-avignon/provence-8017782-1.html"
+      },
+      {
+       "text": "Provence Guide: Fête de la Véraison, Châteauneuf-du-Pape (37th edition)",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/chateauneuf-du-pape/fete-de-la-veraison-37eme-edition/provence-683987-1.html"
+      },
+      {
+       "text": "Wikipedia: Avignon",
+       "url": "https://en.wikipedia.org/wiki/Avignon"
+      }
+     ]
     }
    ],
    "short": "France",
    "title": "Paris and the Vaucluse",
-   "intro": "Paris, Sablet, Vaison-la-Romaine, Orange and Avignon."
-  },
-  {
-   "id": "football",
-   "items": [
+   "intro": "Paris, Sablet, Vaison-la-Romaine, Orange and Avignon.",
+   "community": [
     {
-     "t": "Premier League",
-     "tag": "After 5–6 games",
-     "w": [
-      "Manchester City (five games played) and Arsenal (six) lead with 15 points each, and Brighton are third on 13 after a 2–0 win at Sunderland on Saturday. Arsenal beat Leeds 2–1 on Saturday.",
-      "AFC Bournemouth are 17th with 3 points after a 5–1 defeat at Chelsea on Saturday. The three Sunday matches (Crystal Palace v Nottingham Forest, Hull City v Everton, Liverpool v Manchester City) are not in the table yet."
-     ],
-     "f": [
-      "Leaders: Manchester City 15 (5 played), Arsenal 15 (6 played), Brighton 13",
-      "AFC Bournemouth: 17th, 3 points",
-      "Table as of Saturday 10 October, 19:27 UK"
-     ],
-     "n": [
-      "The Premier League is England's top division, with 20 clubs. Each plays every other club twice, home and away, for 38 matches. A win earns 3 points, a draw 1 and a defeat 0. Ties in points are split by goal difference, then goals scored.",
-      "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
-      "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "football/#premier-league"
-    },
-    {
-     "t": "Ligue 1",
-     "tag": "After 6 games",
-     "w": [
-      "Monaco lead the French league with 14 points after six games, one ahead of Lille and Rennes on 13. Paris Saint-Germain are sixth on 11 points.",
-      "Le Havre are bottom with 2 points. I did not capture the latest round of results."
-     ],
-     "f": [
-      "Leaders: Monaco 14, Lille 13, Rennes 13",
-      "PSG: 6th, 11 points"
-     ],
-     "n": [
-      "Ligue 1 is France's top division, with 18 clubs playing 34 matches each. Scoring works like England: 3 points for a win, 1 for a draw.",
-      "The champion and runners-up reach the Champions League. Clubs in the bottom places face relegation or a play-off against clubs from Ligue 2.",
-      "Money is the main story. PSG's budget has dwarfed the others since Qatar's investment in 2011, which is why other clubs such as Monaco, Lille, Marseille and Lyon are watched as challengers."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "football/#ligue-1"
-    },
-    {
-     "t": "Champions League: matchday 2",
-     "tag": "13–14 Oct",
-     "w": [
-      "The second round of league-phase fixtures is played on 13 and 14 October. I did not verify the individual match-ups, so check the official draw for English and French clubs."
-     ],
-     "n": [
-      "The Champions League is Europe's top club competition. Since the 2024-25 season it has used a \"league phase\": 36 clubs sit in one big table, but each plays only eight different opponents, four at home and four away.",
-      "The top 8 in the table go straight to the round of 16. Teams in places 9 to 24 play a two-legged play-off for the remaining places. The bottom 12 are knocked out.",
-      "Below it are the Europa League and the Conference League, which use the same format, and clubs dropping out of the Champions League can fall into them. Finals are played in late May."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "football/#europe"
-    },
-    {
-     "t": "Lower leagues and the cups",
-     "tag": "Championship only",
-     "gap": 1,
-     "w": [
-      "The Championship table is shown on the Football page: Swansea City lead on 20 points after nine games. I could not confirm League One, League Two or cup draws."
-     ],
-     "n": [
-      "English football has a deep pyramid. The EFL runs the Championship, League One and League Two, with 24 clubs each, and below that sits the National League.",
-      "The FA Cup is open to the whole pyramid, from the Premier League to semi-professional clubs, which produces upsets. The EFL's own knockout is the Carabao Cup, which starts in August.",
-      "In France, the Coupe de France is also open to amateur clubs, and small teams routinely meet professional ones in early rounds."
-     ],
-     "s": "Background only",
-     "link": "football/#championship"
+     "text": "r/france",
+     "url": "https://www.reddit.com/r/france/"
     }
-   ],
-   "short": "Football",
-   "title": "Football",
-   "intro": "Premier League, Ligue 1, Europe and the cups.",
-   "link": {
-    "href": "football/",
-    "text": "Full tables, results and fixtures"
-   }
+   ]
   },
   {
    "id": "sport",
-   "items": [
-    {
-     "t": "Rugby union",
-     "tag": "Not verified today",
-     "gap": 1,
-     "w": [
-      "I found no reliable current rugby results. The big autumn internationals usually start in November, so check the fixture lists."
-     ],
-     "n": [
-      "Two teams of 15 play two 40-minute halves. You can run with the ball or kick it, but you can only pass it sideways or backwards. A try, where a player grounds the ball over the opponents' line, scores 5 points. A conversion kick adds 2, and a penalty kick or drop goal scores 3.",
-      "The game is built on set pieces. A scrum restarts play after minor infringements, with the forwards pushing against each other. A lineout restarts play after the ball goes out of play, with a jumper lifted to catch the throw.",
-      "The main competitions are the Six Nations (February and March), the Rugby Championship in the southern hemisphere, the autumn internationals in November, the Premiership in England, the Top 14 in France and the European Champions Cup."
-     ],
-     "s": "Background only",
-     "link": "sport/#others"
-    },
-    {
-     "t": "Cricket",
-     "tag": "England",
-     "w": [
-      "England won their Test series 3–0 against Pakistan. A white-ball tour of Australia follows in November and December."
-     ],
-     "n": [
-      "Cricket is a bat-and-ball game between two teams of 11. One side bats and tries to score runs, the other bowls and fields and tries to get ten batters out. A batter scores by running between the two sets of stumps or by hitting the ball over the boundary for 4 (along the ground) or 6 (in the air).",
-      "Formats vary in length. A Test match lasts up to five days with two innings per side and is regarded as the highest form. A one-day international is 50 overs a side (an over is six balls). Twenty20 is 20 overs a side and over in about three hours.",
-      "White-ball means the limited-overs formats, which use a white ball and coloured kit. The Ashes between England and Australia is the best-known Test rivalry."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "sport/#others"
-    },
-    {
-     "t": "Tennis: the Shanghai Masters",
-     "tag": "7–18 Oct",
-     "w": [
-      "The Shanghai Masters runs from 7 to 18 October. World number one Jannik Sinner withdrew injured, which opens up the draw. I could not confirm the latest results.",
-      "ATP rankings (5 October): Sinner 1st, Zverev 2nd, Alcaraz 3rd. The full top 10 for men and women is on the Other sport page."
-     ],
-     "n": [
-      "The men's tour has four levels. The four Grand Slams (Australian Open, French Open, Wimbledon, US Open) are on top, followed by nine Masters 1000 events including Shanghai, then smaller tournaments.",
-      "A match is played in sets, and a set in games. Within a game, points go 15, 30, 40, then game, and at 40-40 (deuce) a player must win two points in a row. Most tour matches are the best of three sets, and Slams are the best of five for men.",
-      "Rankings are based on points won over the previous 52 weeks, so injuries hurt twice: a missed event means missed points and a falling ranking."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "sport/#tennis"
-    },
-    {
-     "t": "Formula 1",
-     "tag": "Singapore GP 11 Oct",
-     "link": "sport/#f1",
-     "w": [
-      "Kimi Antonelli (Mercedes) leads the drivers' championship on 330 points after the Azerbaijan Grand Prix, ahead of team-mate George Russell on 236 and Lewis Hamilton (Ferrari) on 214. Mercedes lead the constructors' table on 556, ahead of Ferrari (405) and McLaren (315).",
-      "The Singapore Grand Prix was held on Sunday 11 October and headlines point to a Max Verstappen win. I could not confirm the full result or the updated points, so the figures above are as of 26 September."
-     ],
-     "f": [
-      "Drivers: Antonelli 330, Russell 236, Hamilton 214",
-      "Constructors: Mercedes 556, Ferrari 405, McLaren 315",
-      "Standings as of 26 Sep (after Azerbaijan)"
-     ],
-     "n": [
-      "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
-      "Drivers score points in each race: 25 for a win, then 18, 15, 12, 10, 8, 6, 4, 2 and 1 for places two to ten. Some weekends also include a shorter sprint race with a smaller points scale. Points add up across the season, and the driver with the most is world champion.",
-      "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
-      "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
-     ],
-     "s": "As of 26 Sep 2026 (standings) · race headline 11 Oct"
-    },
-    {
-     "t": "Squash",
-     "tag": "Not verified today",
-     "gap": 1,
-     "w": [
-      "The 2026-27 PSA Tour season is getting under way, and a Canadian women's Open is listed for Toronto this year. I found no confirmed dates or results."
-     ],
-     "n": [
-      "Squash is played by two players in a four-walled court, taking turns to hit a small rubber ball against the front wall above a line. The ball may hit other walls first but must not bounce twice before being returned.",
-      "Games go to 11 points with a point scored on every rally (point-a-rally), and a match is usually the best of five. A player must win by two clear points.",
-      "The professional circuit is run by the Professional Squash Association (PSA). Squash joined the Olympic programme for Los Angeles 2028."
-     ],
-     "s": "Background only",
-     "link": "sport/#others"
-    },
-    {
-     "t": "Field hockey",
-     "tag": "Not verified today",
-     "gap": 1,
-     "w": [
-      "The FIH Pro League closed its 2025-26 season in London, with India edging England 3–2 in a shootout. I found nothing newer."
-     ],
-     "n": [
-      "Field hockey is played on a pitch by two teams of 11. Players use a curved stick with a flat face on one side and can only hit the ball with that flat side. Goals count only if the ball is struck from inside the shooting circle.",
-      "A match has four 15-minute quarters. Tied knockout games go to a shootout in which a player runs in from the 23-metre line and has eight seconds to score.",
-      "Great Britain and England play at the Olympics and the World Cup, and the Pro League is the main yearly international league."
-     ],
-     "s": "Background only",
-     "link": "sport/#others"
-    },
-    {
-     "t": "Blue Jays",
-     "tag": "Season over",
-     "w": [
-      "Toronto were eliminated on 24 September, so the playoffs go ahead without them. I did not confirm the current bracket."
-     ],
-     "n": [
-      "Baseball is played between two teams of nine across nine innings. In each innings one team bats and the other fields, and a half-innings ends after three outs. The pitcher throws to the batter, who tries to hit the ball and run round four bases to score.",
-      "Major League Baseball has 30 teams in two leagues. Twelve teams make the postseason. After the wild-card round come the division series, the league championship series and the World Series.",
-      "The regular season is 162 games, so single results matter less than in football and the best teams still lose about 60 games."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "sport/#baseball"
-    },
-    {
-     "t": "Raptors",
-     "tag": "Opener late October",
-     "w": [
-      "The Raptors are reported to open their season at home against the Bulls on 21 October. Some listings put the date a day earlier, so check the schedule."
-     ],
-     "n": [
-      "The NBA has 30 teams and an 82-game regular season. Each team has five players on court. A shot scores 2 points, or 3 from beyond the arc, and a free throw scores 1.",
-      "The top six teams in each conference make the playoffs outright, and seeds 7 to 10 play a \"play-in\" tournament for the last two places. The playoffs are four rounds, each a best-of-seven.",
-      "There is a salary cap and a draft, which keeps spending closer than in most sports."
-     ],
-     "s": "As of 10 Oct 2026",
-     "link": "sport/#basketball"
-    },
-    {
-     "t": "Maple Leafs",
-     "tag": "3-2-1",
-     "w": [
-      "Toronto are 3-2-1 (7 points) after a 6–3 win at the Colorado Avalanche on Saturday 10 October. Earlier results: a 3–4 loss at Vegas on 8 October, a 5–4 win over Nashville on 6 October, a 2–3 loss to Ottawa on 3 October and a 2–1 win over the Islanders on 30 September.",
-      "The team is under new GM Chayka and coach Hiller, with first overall pick McKenna and veteran goaltender Bobrovsky. The next game is at Utah on 13 October."
-     ],
-     "f": [
-      "Record: 3 wins, 2 losses, 1 overtime loss (7 points)",
-      "Last result: 6–3 win at Colorado, 10 Oct",
-      "Next: at Utah, 13 Oct · v Buffalo, 15 Oct · v NY Islanders, 17 Oct"
-     ],
-     "n": [
-      "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
-      "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
-      "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
-     ],
-     "s": "As of 11 Oct 2026",
-     "link": "sport/#icehockey"
-    }
-   ],
-   "short": "Other sport",
-   "title": "Other sport",
-   "intro": "Rugby, cricket, tennis, F1, squash, hockey, baseball, basketball and ice hockey.",
-   "link": {
-    "href": "sport/",
-    "text": "Rankings, tables, results and fixtures"
-   }
+   "title": "Sport",
+   "short": "Sport",
+   "intro": "One page per sport, with news, tables, results and fixtures.",
+   "kind": "sportlinks",
+   "items": []
   },
   {
    "id": "tech",
@@ -475,13 +429,24 @@
       "An AI assistant (a large language model) is software trained on huge amounts of text to predict and generate language. It does not look things up unless connected to search, and it can make mistakes, so important facts need checking.",
       "Both trends depend on better chips. Chip makers and the data centres that run AI are among the biggest drivers of stock markets, which is why technology weights matter in your ETFs."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Wikipedia: Foldable smartphone",
+       "url": "https://en.wikipedia.org/wiki/Foldable_smartphone"
+      },
+      {
+       "text": "Wikipedia: Large language model",
+       "url": "https://en.wikipedia.org/wiki/Large_language_model"
+      }
+     ]
     },
     {
      "t": "Tesla",
      "tag": "Q3 call 21 Oct",
      "w": [
-      "Tesla reports its third-quarter results on 21 October, with the call at 5:30 pm Eastern. The company showed its new Roadster on 1 October and is building up production of the Semi truck."
+      "Tesla reports its third-quarter results on 21 October, with the call at 5:30 pm Eastern. It has already announced Q3 deliveries, which reports say beat analyst estimates.",
+      "The company showed its new Roadster on 1 October and is building up production of the Semi truck."
      ],
      "f": [
       "Earnings call: 21 October, 5:30 pm ET",
@@ -493,32 +458,87 @@
       "For Tesla, the key figures are vehicle deliveries, the gross margin on each car, energy-storage sales and spending on new projects. The company also talks up its autonomous driving and robotaxi plans, which is much of the reason for its valuation.",
       "The Roadster is a long-promised sports car. The Semi is an electric lorry meant to move freight cheaply."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Tesla Oracle: Q3 2026 earnings call date and time",
+       "url": "https://www.teslaoracle.com/?p=66789"
+      },
+      {
+       "text": "Not a Tesla App: Q3 2026 vehicle deliveries",
+       "url": "https://www.notateslaapp.com/news/4759/tesla-announces-q3-2026-vehicle-deliveries-beating-analyst-estimates"
+      },
+      {
+       "text": "Blockonomi: three pivotal October milestones",
+       "url": "https://blockonomi.com/tesla-tsla-stock-climbs-1-ahead-of-three-pivotal-october-milestones/"
+      }
+     ]
+    }
+   ],
+   "short": "Tech",
+   "title": "Tech and people",
+   "intro": "Technology and Tesla.",
+   "community": [
+    {
+     "text": "r/technology",
+     "url": "https://www.reddit.com/r/technology/"
     },
+    {
+     "text": "r/teslamotors",
+     "url": "https://www.reddit.com/r/teslamotors/"
+    }
+   ]
+  },
+  {
+   "id": "following",
+   "title": "Following",
+   "short": "Following",
+   "intro": "People worth keeping an eye on: what they are up to and who they are.",
+   "items": [
     {
      "t": "Elon Musk",
      "tag": "SpaceXAI",
      "w": [
-      "SpaceX has bought xAI, the AI company behind the Grok chatbot, and the combined business is now called SpaceXAI. Grok 4.5 is its latest model."
+      "SpaceX has combined with xAI, the AI company behind the Grok chatbot, and the merged business trades as SpaceXAI. Its latest model, Grok 4.5, launched in July and is aimed at coding and agent-style tasks."
      ],
      "n": [
       "Elon Musk runs or owns several companies: Tesla (cars and energy), SpaceX (rockets and the Starlink satellite internet service), X (the social network, previously Twitter) and xAI.",
       "SpaceX builds the Falcon rockets that fly cargo and astronauts to orbit, and is developing Starship, a much larger reusable rocket. Starlink sells internet from thousands of satellites.",
       "xAI was founded to build AI systems and released the Grok chatbot. Merging it into SpaceX ties AI development to the cash and computing resources of a large, privately held company."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of Jul 2026 launch reports",
+     "links": [
+      {
+       "text": "Engadget: SpaceXAI launches Grok 4.5, built with Cursor's help",
+       "url": "https://engadget.com/2211260/spacex-ai-grok-4-5-cursor"
+      },
+      {
+       "text": "The Star: SpaceXAI launches Grok 4.5 for coding and agentic tasks",
+       "url": "https://www.thestar.com.my/tech/tech-news/2026/07/09/spacexai-launches-grok-45-model-for-coding-agentic-tasks"
+      }
+     ]
     },
     {
      "t": "Marques Brownlee (MKBHD)",
      "tag": "About 21M subscribers",
      "w": [
-      "Marques Brownlee has published a review of the Fold 8, which is a good place to see how it holds up in daily use."
+      "Marques Brownlee published his Galaxy Z Fold 8 review around 1 August, a good place to see how it holds up in daily use."
      ],
      "n": [
       "Marques Brownlee goes by MKBHD and runs one of the biggest technology review channels on YouTube, with around 21 million subscribers. He is known for clean, calm video and straight verdicts on phones, laptops, cars and gadgets.",
       "If you are new to his reviews, watch for the ones that cover the \"daily driver\" experience, where he lives with a product for weeks. He also hosts podcasts and interviews executives."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 1 Aug 2026 review",
+     "links": [
+      {
+       "text": "SamMobile fans: MKBHD Galaxy Z Fold 8 review",
+       "url": "https://www.sammyfans.com/2026/08/01/mkbhd-galaxy-z-fold-8-review/"
+      },
+      {
+       "text": "MKBHD on YouTube",
+       "url": "https://www.youtube.com/@mkbhd"
+      }
+     ]
     },
     {
      "t": "Joe Rogan",
@@ -531,36 +551,73 @@
       "The Joe Rogan Experience is a long-form interview podcast, often running two to three hours, covering comedy, science, health, politics and fighting. Rogan is also a stand-up comedian and a UFC commentator.",
       "It is one of the most-listened-to podcasts in the world, so the guests he books and the claims they make often get picked up by news outlets."
      ],
-     "s": "Background only"
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Joe Rogan Experience on YouTube",
+       "url": "https://www.youtube.com/@joerogan"
+      }
+     ]
     },
     {
      "t": "Jimmy Carr",
      "tag": "Canada tour",
      "w": [
-      "Jimmy Carr's \"Laughs Funny\" tour is touring Canada from 16 September to 22 November. Dates in Toronto should be on the venue or promoter page."
+      "Jimmy Carr's \"Laughs Funny\" tour is in Canada from 16 September to 22 November. Listings show a Toronto date on 16 October."
      ],
      "n": [
       "Jimmy Carr is a British stand-up comedian known for rapid-fire one-liners and a deadpan delivery, often with very dark humour. His shows are for adults.",
       "He is also a familiar face on British TV, hosting 8 Out of 10 Cats Does Countdown and appearing on panel shows. His stand-up specials are on streaming services."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Todo Canada: Jimmy Carr, Laughs Funny, Toronto",
+       "url": "https://www.todocanada.ca/city/toronto/event/jimmy-carr-laughs-funny-5/"
+      },
+      {
+       "text": "Event listing: Toronto, 16 Oct 2026",
+       "url": "https://www.eventworld.com/jimmy-carr-laughs-funny-toronto-tickets-10-16-2026/event/462773"
+      }
+     ]
     },
     {
      "t": "Ross Edgley",
-     "tag": "Endurance",
+     "tag": "Iceland swim",
      "w": [
-      "Ross Edgley is working on an Iceland swim and a project he calls Project Tenacity. I could not confirm details or dates."
+      "Ross Edgley has completed a roughly 1,000-mile swim around Iceland, reported as the first person to swim the whole coastline. I could not confirm the date of the finish, and the documentary is titled The Great Icelandic Swim."
      ],
      "n": [
       "Ross Edgley is a British endurance athlete. In 2018 he became the first person to swim around Great Britain, which took 157 days and about 1,800 miles. He is also known for dragging a heavy log or tyre across long distances as training, and for his strength work.",
       "His channel and books describe how he builds a body that can handle extreme volume. Swimming in cold water for hours is hard because the body loses heat and the salt damages skin."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Advnture: Edgley completes his \"toughest and most ambitious challenge\"",
+       "url": "https://www.advnture.com/water-sports/record-breaker-ross-edgley-completes-his-toughest-and-most-ambitious-challenge-by-swimming-1-000-miles-around-iceland"
+      },
+      {
+       "text": "Shropshire Star: Ultra-swimmer to take on Iceland swim",
+       "url": "https://www.shropshirestar.com/uk-news/ultra-swimmer-inspired-by-thor-actor-chris-hemsworth-to-take-on-iceland-swim-5699241"
+      }
+     ]
     }
    ],
-   "short": "Tech",
-   "title": "Tech and people",
-   "intro": "Tesla, Elon Musk, creators and entertainers."
+   "community": [
+    {
+     "text": "r/mkbhd",
+     "url": "https://www.reddit.com/r/mkbhd/"
+    },
+    {
+     "text": "r/JoeRogan",
+     "url": "https://www.reddit.com/r/JoeRogan/"
+    },
+    {
+     "text": "r/elonmusk",
+     "url": "https://www.reddit.com/r/elonmusk/"
+    }
+   ]
   },
   {
    "id": "money",
@@ -569,7 +626,7 @@
      "t": "Canada: where things stand",
      "tag": "Bank of Canada 28 Oct",
      "w": [
-      "The Bank of Canada's policy rate is 2.25% and its next decision is on 28 October. Inflation was 3.0% in August; September's CPI is due on 19 October. The TSX hit a record near 36,660 in August.",
+      "The Bank of Canada's policy rate is 2.25%, where it has been held for several decisions in a row, and its next decision is on 28 October. Inflation was 3.0% in August; September's CPI is due on 19 October. The TSX hit a record near 36,660 in August.",
       "Rate decisions and the CPI release are the two dates that most often move Canadian bond and share prices over the next few weeks."
      ],
      "f": [
@@ -583,7 +640,17 @@
       "The S&P/TSX Composite is the main Canadian share index. It is heavy in banks, energy and mining, so it rises and falls with commodity prices and financial-sector earnings, and is less weighted to technology than US indexes.",
       "The Canadian dollar also matters. When oil rises it often strengthens, which changes the value of any US or international assets you hold."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "CTV: Bank of Canada holds key rate at 2.25% once again",
+       "url": "https://www.ctvnews.ca/business/article/bank-of-canada-holds-key-rate-at-225-once-again/"
+      },
+      {
+       "text": "Bank of Canada: interest rate announcements",
+       "url": "https://www.bankofcanada.ca/core-functions/monetary-policy/key-interest-rate/"
+      }
+     ]
     },
     {
      "t": "United States: rates rising again",
@@ -601,7 +668,17 @@
       "When the Fed raises rates, newly issued bonds pay more, so existing bonds with lower rates fall in price. High rates also make future profits worth less today, which hurts fast-growing technology shares most.",
       "Because the S&P 500 and Nasdaq are such large parts of global equity funds, a change in US policy can move your ETF even if you hold no US-specific fund."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Cox Media: Fed Chair Kevin Warsh announces interest rate hike",
+       "url": "https://www.wftv.com/news/trending/federal-reserve-chair-kevin-warsh-announces-interest-rate-hike/6U7KOCE5XVB3HPV55BYQRNGYGE/"
+      },
+      {
+       "text": "Federal Reserve: monetary policy",
+       "url": "https://www.federalreserve.gov/monetarypolicy.htm"
+      }
+     ]
     },
     {
      "t": "United Kingdom and France",
@@ -615,13 +692,23 @@
       "France does not set its own rates. As a euro member it follows the European Central Bank, so it cannot cut rates to help itself and must instead cut spending or raise taxes.",
       "The UK has its own currency, so the pound can fall when investors worry. That raises import prices and inflation, another reason the Bank of England is cautious."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Bank of England: Bank Rate",
+       "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+      },
+      {
+       "text": "Euronews (French): French budget amid record debt",
+       "url": "https://fr.euronews.com/2026/10/01/le-gouvernement-francais-presente-son-budget-sur-fond-de-dette-record"
+      }
+     ]
     },
     {
      "t": "China: slower growth",
      "tag": "Q2 GDP 4.3%",
      "w": [
-      "China's economy grew 4.3% in the second quarter, and the People's Bank of China has kept policy accommodative to support growth.",
+      "China's economy grew 4.3% in the second quarter, the weakest pace in about three and a half years according to reports, and the People's Bank of China has kept policy accommodative to support growth.",
       "That growth is lower than the roughly 8% to 10% rates of earlier decades, and a long property downturn has weighed on households."
      ],
      "n": [
@@ -629,7 +716,17 @@
       "China is the world's largest manufacturer and a major buyer of oil, iron ore and copper. When its growth slows, commodity prices and Canadian resource shares often weaken.",
       "Chinese shares are in most global and emerging-market ETFs but at a modest weight. They are subject to political risk, since regulators can change rules suddenly."
      ],
-     "s": "As of 10 Oct 2026"
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Trading Economics: China Q2 GDP growth weakest in 3½ years",
+       "url": "https://tradingeconomics.com/china/gdp-growth-annual/news/566978"
+      },
+      {
+       "text": "AgBrief: China's 2Q26 GDP growth slows to 4.3%",
+       "url": "https://agbrief.com/news/china/15/07/2026/chinas-2q26-gdp-growth-slows-to-4-3-as-investment-contracts/"
+      }
+     ]
     },
     {
      "t": "Registered accounts: TFSA, RRSP and FHSA",
@@ -643,7 +740,21 @@
       "The First Home Savings Account (FHSA) combines both: a deduction going in and tax-free withdrawals if used for a first home. It only suits people who qualify as first-time buyers.",
       "Contribution limits change each year and unused room carries forward, so check the Canada Revenue Agency for yours. A non-registered account has no limit but is taxed on dividends, interest and gains. This is general information, so confirm your position with a tax professional."
      ],
-     "s": "General information"
+     "s": "General information",
+     "links": [
+      {
+       "text": "Canada Revenue Agency: TFSA",
+       "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/tax-free-savings-account.html"
+      },
+      {
+       "text": "Canada Revenue Agency: RRSP",
+       "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/rrsps-related-plans.html"
+      },
+      {
+       "text": "Canada Revenue Agency: FHSA",
+       "url": "https://www.canada.ca/en/revenue-agency/services/tax/individuals/topics/first-home-savings-account.html"
+      }
+     ]
     },
     {
      "t": "All-in-one ETFs, fees and asset mix",
@@ -657,7 +768,13 @@
       "Asset allocation is the split between stocks (higher growth, bigger swings) and bonds (steadier, lower return). All-in-one funds come in conservative, balanced, growth and all-equity versions. A person at 45 typically has about 20 years before drawing on retirement money, but how much risk suits you depends on your goals and temperament.",
       "Rebalancing means selling a bit of what has grown and buying what lagged, to return to the target split. An all-in-one does this inside the fund."
      ],
-     "s": "General information"
+     "s": "General information",
+     "links": [
+      {
+       "text": "Wikipedia: Exchange-traded fund",
+       "url": "https://en.wikipedia.org/wiki/Exchange-traded_fund"
+      }
+     ]
     },
     {
      "t": "Rates, bonds, currency and withholding tax",
@@ -671,12 +788,32 @@
       "Foreign governments often withhold tax on dividends paid to non-residents, typically 15% for US dividends under the tax treaty. How much you pay depends on the account (an RRSP is treated more favourably for US-listed funds than a TFSA) and whether the fund is listed in Canada or the US, so it is worth reading the fund's documents.",
       "None of this is a recommendation, and the right answer depends on your situation. A fee-only financial planner can check your specifics."
      ],
-     "s": "General information"
+     "s": "General information",
+     "links": [
+      {
+       "text": "Wikipedia: Bond (finance)",
+       "url": "https://en.wikipedia.org/wiki/Bond_(finance)"
+      }
+     ]
     }
    ],
    "short": "Economics",
    "title": "Economics for an ETF investor",
-   "intro": "General information for a 45-year-old investing in ETFs in Canada. Not financial advice."
+   "intro": "General information for a 45-year-old investing in ETFs in Canada. Not financial advice.",
+   "community": [
+    {
+     "text": "r/PersonalFinanceCanada",
+     "url": "https://www.reddit.com/r/PersonalFinanceCanada/"
+    },
+    {
+     "text": "r/JustBuyXEQT",
+     "url": "https://www.reddit.com/r/JustBuyXEQT/"
+    },
+    {
+     "text": "r/CanadianInvestor",
+     "url": "https://www.reddit.com/r/CanadianInvestor/"
+    }
+   ]
   }
  ],
  "econ": [
@@ -711,1144 +848,1657 @@
    "Q2 GDP growth 4.3%; policy stance accommodative."
   ]
  ],
- "football": {
-  "title": "Football",
-  "intro": "Tables, results and fixtures.",
-  "groups": [
-   {
-    "id": "premier-league",
-    "title": "Premier League",
-    "intro": "20 clubs, 38 matches each. 3 points for a win, 1 for a draw. The bottom three are relegated.",
-    "panels": [
-     {
-      "id": "pl-table",
-      "title": "Premier League table",
-      "asof": "Sat 10 Oct 2026, 19:27 UK",
-      "source": "footballwebpages.co.uk",
-      "cols": [
-       "Pos",
-       "Team",
-       "P",
-       "W",
-       "D",
-       "L",
-       "GD",
-       "Pts"
-      ],
-      "rows": [
-       [
-        1,
-        "Manchester City",
-        5,
-        5,
-        0,
-        0,
-        "+8",
-        15
+ "sports": [
+  {
+   "id": "football",
+   "title": "Football",
+   "summary": "Man City and Arsenal level on 15; Monaco lead Ligue 1.",
+   "intro": "Premier League, Championship, Ligue 1, Europe and the cups.",
+   "cards": [
+    {
+     "t": "Premier League",
+     "tag": "After 5–6 games",
+     "w": [
+      "Manchester City (five games played) and Arsenal (six) lead with 15 points each, and Brighton are third on 13 after a 2–0 win at Sunderland on Saturday. Arsenal beat Leeds 2–1 on Saturday.",
+      "AFC Bournemouth are 17th with 3 points after a 5–1 defeat at Chelsea on Saturday. The three Sunday matches (Crystal Palace v Nottingham Forest, Hull City v Everton, Liverpool v Manchester City) are not in the table yet."
+     ],
+     "f": [
+      "Leaders: Manchester City 15 (5 played), Arsenal 15 (6 played), Brighton 13",
+      "AFC Bournemouth: 17th, 3 points",
+      "Table as of Saturday 10 October, 19:27 UK"
+     ],
+     "n": [
+      "The Premier League is England's top division, with 20 clubs. Each plays every other club twice, home and away, for 38 matches. A win earns 3 points, a draw 1 and a defeat 0. Ties in points are split by goal difference, then goals scored.",
+      "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
+      "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
+     ],
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Premier League table (footballwebpages)",
+       "url": "https://www.footballwebpages.co.uk/premier-league/20261010"
+      }
+     ]
+    },
+    {
+     "t": "Ligue 1",
+     "tag": "After 6 games",
+     "w": [
+      "Monaco lead the French league with 14 points after six games, one ahead of Lille and Rennes on 13. Paris Saint-Germain are sixth on 11 points.",
+      "Le Havre are bottom with 2 points. I did not capture the latest round of results."
+     ],
+     "f": [
+      "Leaders: Monaco 14, Lille 13, Rennes 13",
+      "PSG: 6th, 11 points"
+     ],
+     "n": [
+      "Ligue 1 is France's top division, with 18 clubs playing 34 matches each. Scoring works like England: 3 points for a win, 1 for a draw.",
+      "The champion and runners-up reach the Champions League. Clubs in the bottom places face relegation or a play-off against clubs from Ligue 2.",
+      "Money is the main story. PSG's budget has dwarfed the others since Qatar's investment in 2011, which is why other clubs such as Monaco, Lille, Marseille and Lyon are watched as challengers."
+     ],
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Ligue 1 standings (Eurosport France)",
+       "url": "https://www.eurosport.fr/football/ligue-1/standing.shtml"
+      }
+     ]
+    },
+    {
+     "t": "Champions League: matchday 2",
+     "tag": "13–14 Oct",
+     "w": [
+      "The second round of league-phase fixtures is played on 13 and 14 October. I did not verify the individual match-ups, so check the official draw for English and French clubs."
+     ],
+     "n": [
+      "The Champions League is Europe's top club competition. Since the 2024-25 season it has used a \"league phase\": 36 clubs sit in one big table, but each plays only eight different opponents, four at home and four away.",
+      "The top 8 in the table go straight to the round of 16. Teams in places 9 to 24 play a two-legged play-off for the remaining places. The bottom 12 are knocked out.",
+      "Below it are the Europa League and the Conference League, which use the same format, and clubs dropping out of the Champions League can fall into them. Finals are played in late May."
+     ],
+     "s": "As of 10 Oct 2026"
+    },
+    {
+     "t": "Lower leagues and the cups",
+     "tag": "Championship only",
+     "gap": 1,
+     "w": [
+      "The Championship table is shown on the Football page: Swansea City lead on 20 points after nine games. I could not confirm League One, League Two or cup draws."
+     ],
+     "n": [
+      "English football has a deep pyramid. The EFL runs the Championship, League One and League Two, with 24 clubs each, and below that sits the National League.",
+      "The FA Cup is open to the whole pyramid, from the Premier League to semi-professional clubs, which produces upsets. The EFL's own knockout is the Carabao Cup, which starts in August.",
+      "In France, the Coupe de France is also open to amateur clubs, and small teams routinely meet professional ones in early rounds."
+     ],
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Championship table (footballwebpages)",
+       "url": "https://www.footballwebpages.co.uk/championship/league-table"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "premier-league",
+     "title": "Premier League",
+     "intro": "20 clubs, 38 matches each. 3 points for a win, 1 for a draw. The bottom three are relegated.",
+     "panels": [
+      {
+       "id": "pl-table",
+       "title": "Premier League table",
+       "asof": "Sat 10 Oct 2026, 19:27 UK",
+       "source": "footballwebpages.co.uk",
+       "cols": [
+        "Pos",
+        "Team",
+        "P",
+        "W",
+        "D",
+        "L",
+        "GD",
+        "Pts"
        ],
-       [
-        2,
-        "Arsenal",
-        6,
-        5,
-        0,
-        1,
-        "+5",
-        15
+       "rows": [
+        [
+         1,
+         "Manchester City",
+         5,
+         5,
+         0,
+         0,
+         "+8",
+         15
+        ],
+        [
+         2,
+         "Arsenal",
+         6,
+         5,
+         0,
+         1,
+         "+5",
+         15
+        ],
+        [
+         3,
+         "Brighton & Hove Albion",
+         6,
+         4,
+         1,
+         1,
+         "+13",
+         13
+        ],
+        [
+         4,
+         "Brentford",
+         6,
+         2,
+         4,
+         0,
+         "+6",
+         10
+        ],
+        [
+         5,
+         "Chelsea",
+         6,
+         3,
+         1,
+         2,
+         "+2",
+         10
+        ],
+        [
+         6,
+         "Leeds United",
+         6,
+         2,
+         3,
+         1,
+         "+3",
+         9
+        ],
+        [
+         7,
+         "Liverpool",
+         5,
+         2,
+         3,
+         0,
+         "+3",
+         9
+        ],
+        [
+         8,
+         "Everton",
+         5,
+         2,
+         3,
+         0,
+         "+3",
+         9
+        ],
+        [
+         9,
+         "Ipswich Town",
+         6,
+         3,
+         0,
+         3,
+         "-3",
+         9
+        ],
+        [
+         10,
+         "Hull City",
+         5,
+         2,
+         2,
+         1,
+         "+2",
+         8
+        ],
+        [
+         11,
+         "Newcastle United",
+         5,
+         2,
+         2,
+         1,
+         "0",
+         8
+        ],
+        [
+         12,
+         "Manchester United",
+         6,
+         1,
+         3,
+         2,
+         "0",
+         6
+        ],
+        [
+         13,
+         "Nottingham Forest",
+         5,
+         1,
+         2,
+         2,
+         "-1",
+         5
+        ],
+        [
+         14,
+         "Aston Villa",
+         6,
+         1,
+         2,
+         3,
+         "-5",
+         5
+        ],
+        [
+         15,
+         "Crystal Palace",
+         5,
+         1,
+         1,
+         3,
+         "-5",
+         4
+        ],
+        [
+         16,
+         "Sunderland",
+         6,
+         1,
+         1,
+         4,
+         "-6",
+         4
+        ],
+        [
+         17,
+         "AFC Bournemouth",
+         6,
+         0,
+         3,
+         3,
+         "-6",
+         3
+        ],
+        [
+         18,
+         "Tottenham Hotspur",
+         6,
+         0,
+         3,
+         3,
+         "-6",
+         3
+        ],
+        [
+         19,
+         "Coventry City",
+         5,
+         1,
+         0,
+         4,
+         "-9",
+         3
+        ],
+        [
+         20,
+         "Fulham",
+         6,
+         0,
+         2,
+         4,
+         "-4",
+         2
+        ]
        ],
-       [
-        3,
-        "Brighton & Hove Albion",
-        6,
-        4,
-        1,
-        1,
-        "+13",
-        13
+       "movement": true,
+       "key": 1,
+       "highlight": [
+        "Bournemouth"
        ],
-       [
-        4,
-        "Brentford",
-        6,
-        2,
-        4,
-        0,
-        "+6",
-        10
-       ],
-       [
-        5,
-        "Chelsea",
-        6,
-        3,
-        1,
-        2,
-        "+2",
-        10
-       ],
-       [
-        6,
-        "Leeds United",
-        6,
-        2,
-        3,
-        1,
-        "+3",
-        9
-       ],
-       [
-        7,
-        "Liverpool",
-        5,
-        2,
-        3,
-        0,
-        "+3",
-        9
-       ],
-       [
-        8,
-        "Everton",
-        5,
-        2,
-        3,
-        0,
-        "+3",
-        9
-       ],
-       [
-        9,
-        "Ipswich Town",
-        6,
-        3,
-        0,
-        3,
-        "-3",
-        9
-       ],
-       [
-        10,
-        "Hull City",
-        5,
-        2,
-        2,
-        1,
-        "+2",
-        8
-       ],
-       [
-        11,
-        "Newcastle United",
-        5,
-        2,
-        2,
-        1,
-        "0",
-        8
-       ],
-       [
-        12,
-        "Manchester United",
-        6,
-        1,
-        3,
-        2,
-        "0",
-        6
-       ],
-       [
-        13,
-        "Nottingham Forest",
-        5,
-        1,
-        2,
-        2,
-        "-1",
-        5
-       ],
-       [
-        14,
-        "Aston Villa",
-        6,
-        1,
-        2,
-        3,
-        "-5",
-        5
-       ],
-       [
-        15,
-        "Crystal Palace",
-        5,
-        1,
-        1,
-        3,
-        "-5",
-        4
-       ],
-       [
-        16,
-        "Sunderland",
-        6,
-        1,
-        1,
-        4,
-        "-6",
-        4
-       ],
-       [
-        17,
-        "AFC Bournemouth",
-        6,
-        0,
-        3,
-        3,
-        "-6",
-        3
-       ],
-       [
-        18,
-        "Tottenham Hotspur",
-        6,
-        0,
-        3,
-        3,
-        "-6",
-        3
-       ],
-       [
-        19,
-        "Coventry City",
-        5,
-        1,
-        0,
-        4,
-        "-9",
-        3
-       ],
-       [
-        20,
-        "Fulham",
-        6,
-        0,
-        2,
-        4,
-        "-4",
-        2
+       "note": "Teams have played five or six games. The three Sunday 11 Oct matches are not in this table.",
+       "links": [
+        {
+         "text": "footballwebpages.co.uk: Premier League table",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261010"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1,
-      "highlight": [
-       "Bournemouth"
-      ],
-      "note": "Teams have played five or six games. The three Sunday 11 Oct matches are not in this table."
-     },
-     {
-      "id": "pl-results",
-      "title": "Latest results",
-      "asof": "Sat 10 Oct 2026",
-      "source": "footballwebpages.co.uk",
-      "items": [
-       "Arsenal 2–1 Leeds United",
-       "Aston Villa 2–2 Brentford",
-       "Chelsea 5–1 AFC Bournemouth",
-       "Ipswich Town 2–1 Fulham",
-       "Manchester United 1–1 Tottenham Hotspur",
-       "Sunderland 0–2 Brighton & Hove Albion",
-       "Sunday 11 Oct (played, scores not captured): Crystal Palace v Nottingham Forest, Hull City v Everton, Liverpool v Manchester City"
-      ]
-     },
-     {
-      "id": "pl-fixtures",
-      "title": "Upcoming fixtures",
-      "asof": "Sat 10 Oct 2026",
-      "source": "footballwebpages.co.uk",
-      "items": [
-       "Sat 17 Oct, 12:30: Everton v Chelsea",
-       "Sat 17 Oct, 15:00: Brentford v Liverpool",
-       "Sat 17 Oct, 15:00: Fulham v Hull City",
-       "Sat 17 Oct, 15:00: Manchester City v Ipswich Town",
-       "Sat 17 Oct, 17:30: Newcastle United v Aston Villa"
-      ],
-      "note": "Five fixtures were listed for 17 October (UK times). The list may be incomplete, so check the Premier League site for the full weekend."
-     }
-    ]
-   },
-   {
-    "id": "championship",
-    "short": "Championship",
-    "title": "Championship",
-    "intro": "24 clubs. The top two are promoted, and places three to six play off for a third spot.",
-    "panels": [
-     {
-      "id": "ch-table",
-      "title": "Championship table",
-      "asof": "Sat 10 Oct 2026, 16:56 UK",
-      "source": "footballwebpages.co.uk",
-      "cols": [
-       "Pos",
-       "Team",
-       "P",
-       "W",
-       "D",
-       "L",
-       "GD",
-       "Pts"
-      ],
-      "rows": [
-       [
-        1,
-        "Swansea City",
-        9,
-        6,
-        2,
-        1,
-        "+8",
-        20
-       ],
-       [
-        2,
-        "Middlesbrough",
-        9,
-        5,
-        3,
-        1,
-        "+5",
-        18
-       ],
-       [
-        3,
-        "West Ham United",
-        9,
-        4,
-        4,
-        1,
-        "+11",
-        16
-       ],
-       [
-        4,
-        "Stoke City",
-        9,
-        5,
-        1,
-        3,
-        "+2",
-        16
-       ],
-       [
-        5,
-        "Wolverhampton Wanderers",
-        8,
-        4,
-        2,
-        2,
-        "+4",
-        14
-       ],
-       [
-        6,
-        "Queens Park Rangers",
-        9,
-        3,
-        5,
-        1,
-        "+3",
-        14
-       ],
-       [
-        7,
-        "Birmingham City",
-        9,
-        3,
-        5,
-        1,
-        "+2",
-        14
-       ],
-       [
-        8,
-        "Millwall",
-        9,
-        4,
-        2,
-        3,
-        "+1",
-        14
-       ],
-       [
-        22,
-        "Burnley",
-        9,
-        1,
-        4,
-        4,
-        "-4",
-        7
-       ],
-       [
-        23,
-        "Derby County",
-        9,
-        1,
-        3,
-        5,
-        "-7",
-        6
-       ],
-       [
-        24,
-        "Preston North End",
-        9,
-        1,
-        1,
-        7,
-        "-8",
-        4
+      },
+      {
+       "id": "pl-results",
+       "title": "Latest results",
+       "asof": "Sat 10 Oct 2026",
+       "source": "footballwebpages.co.uk",
+       "items": [
+        "Arsenal 2–1 Leeds United",
+        "Aston Villa 2–2 Brentford",
+        "Chelsea 5–1 AFC Bournemouth",
+        "Ipswich Town 2–1 Fulham",
+        "Manchester United 1–1 Tottenham Hotspur",
+        "Sunderland 0–2 Brighton & Hove Albion",
+        "Sunday 11 Oct (played, scores not captured): Crystal Palace v Nottingham Forest, Hull City v Everton, Liverpool v Manchester City"
        ]
-      ],
-      "movement": true,
-      "key": 1,
-      "note": "Showing the top eight and bottom three only. Not every club has played the same number of games."
-     },
-     {
-      "id": "ch-res",
-      "title": "Championship results and fixtures",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "No confirmed results or fixtures captured today."
-     }
-    ]
-   },
-   {
-    "id": "ligue-1",
-    "title": "Ligue 1",
-    "intro": "18 clubs, 34 matches each. The top clubs qualify for the Champions League.",
-    "panels": [
-     {
-      "id": "l1-table",
-      "title": "Ligue 1 table",
-      "asof": "after 6 matchdays, 11 Oct 2026",
-      "source": "eurosport.fr",
-      "cols": [
-       "Pos",
-       "Team",
-       "P",
-       "W",
-       "D",
-       "L",
-       "GD",
-       "Pts"
-      ],
-      "rows": [
-       [
-        1,
-        "Monaco",
-        6,
-        4,
-        2,
-        0,
-        "+5",
-        14
+      },
+      {
+       "id": "pl-fixtures",
+       "title": "Upcoming fixtures",
+       "asof": "Sat 10 Oct 2026",
+       "source": "footballwebpages.co.uk",
+       "items": [
+        "Sat 17 Oct, 12:30: Everton v Chelsea",
+        "Sat 17 Oct, 15:00: Brentford v Liverpool",
+        "Sat 17 Oct, 15:00: Fulham v Hull City",
+        "Sat 17 Oct, 15:00: Manchester City v Ipswich Town",
+        "Sat 17 Oct, 17:30: Newcastle United v Aston Villa"
        ],
-       [
-        2,
-        "Lille",
-        6,
-        4,
-        1,
-        1,
-        "+5",
-        13
-       ],
-       [
-        3,
-        "Rennes",
-        6,
-        4,
-        1,
-        1,
-        "+2",
-        13
-       ],
-       [
-        4,
-        "Lyon",
-        6,
-        3,
-        2,
-        1,
-        "+7",
-        11
-       ],
-       [
-        5,
-        "Paris FC",
-        6,
-        3,
-        2,
-        1,
-        "+4",
-        11
-       ],
-       [
-        6,
-        "PSG",
-        6,
-        3,
-        2,
-        1,
-        "+3",
-        11
-       ],
-       [
-        7,
-        "Brest",
-        6,
-        2,
-        2,
-        2,
-        "+3",
-        8
-       ],
-       [
-        8,
-        "Lorient",
-        6,
-        2,
-        2,
-        2,
-        "0",
-        8
-       ],
-       [
-        9,
-        "Nice",
-        6,
-        2,
-        2,
-        2,
-        "-2",
-        8
-       ],
-       [
-        10,
-        "Lens",
-        6,
-        2,
-        1,
-        3,
-        "+1",
-        7
-       ],
-       [
-        11,
-        "Strasbourg",
-        6,
-        2,
-        1,
-        3,
-        "-1",
-        7
-       ],
-       [
-        12,
-        "Angers",
-        6,
-        2,
-        1,
-        3,
-        "-3",
-        7
-       ],
-       [
-        13,
-        "Marseille",
-        6,
-        2,
-        0,
-        4,
-        "+1",
-        6
-       ],
-       [
-        14,
-        "Le Mans",
-        6,
-        1,
-        3,
-        2,
-        "-2",
-        6
-       ],
-       [
-        15,
-        "Toulouse",
-        6,
-        1,
-        3,
-        2,
-        "-2",
-        6
-       ],
-       [
-        16,
-        "Auxerre",
-        6,
-        2,
-        0,
-        4,
-        "-8",
-        6
-       ],
-       [
-        17,
-        "Troyes",
-        6,
-        1,
-        1,
-        4,
-        "-9",
-        4
-       ],
-       [
-        18,
-        "Le Havre",
-        6,
-        0,
-        2,
-        4,
-        "-4",
-        2
+       "note": "Five fixtures were listed for 17 October (UK times). The list may be incomplete, so check the Premier League site for the full weekend.",
+       "links": [
+        {
+         "text": "footballwebpages.co.uk: fixtures 17 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261017"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1
-     },
-     {
-      "id": "l1-res",
-      "title": "Ligue 1 results and fixtures",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "The latest round of results and the next fixtures were not captured today."
-     }
-    ]
-   },
-   {
-    "id": "europe",
-    "short": "Europe and cups",
-    "title": "Europe and the cups",
-    "intro": "Champions League, Europa League and the domestic cups.",
-    "panels": [
-     {
-      "id": "ucl",
-      "title": "Champions League league phase",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "Matchday 2 is due on 13 and 14 October. I could not confirm the league-phase table or the fixtures for English and French clubs."
-     },
-     {
-      "id": "cups",
-      "title": "Cups: Carabao Cup, FA Cup and Coupe de France",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "No confirmed draws or fixtures captured today."
-     }
-    ]
-   }
-  ]
- },
- "sport": {
-  "title": "Other sport",
-  "intro": "Rankings, tables, results and fixtures.",
-  "groups": [
-   {
-    "id": "tennis",
-    "title": "Tennis",
-    "intro": "World rankings and the current tournament.",
-    "panels": [
-     {
-      "id": "atp",
-      "title": "ATP top 10",
-      "asof": "ranking dated 5 Oct 2026",
-      "source": "atptour.com",
-      "cols": [
-       "Rank",
-       "Player",
-       "Points"
-      ],
-      "rows": [
-       [
-        1,
-        "Jannik Sinner",
-        "11,000"
+      }
+     ]
+    },
+    {
+     "id": "championship",
+     "short": "Championship",
+     "title": "Championship",
+     "intro": "24 clubs. The top two are promoted, and places three to six play off for a third spot.",
+     "panels": [
+      {
+       "id": "ch-table",
+       "title": "Championship table",
+       "asof": "Sat 10 Oct 2026, 16:56 UK",
+       "source": "footballwebpages.co.uk",
+       "cols": [
+        "Pos",
+        "Team",
+        "P",
+        "W",
+        "D",
+        "L",
+        "GD",
+        "Pts"
        ],
-       [
-        2,
-        "Alexander Zverev",
-        "9,720"
+       "rows": [
+        [
+         1,
+         "Swansea City",
+         9,
+         6,
+         2,
+         1,
+         "+8",
+         20
+        ],
+        [
+         2,
+         "Middlesbrough",
+         9,
+         5,
+         3,
+         1,
+         "+5",
+         18
+        ],
+        [
+         3,
+         "West Ham United",
+         9,
+         4,
+         4,
+         1,
+         "+11",
+         16
+        ],
+        [
+         4,
+         "Stoke City",
+         9,
+         5,
+         1,
+         3,
+         "+2",
+         16
+        ],
+        [
+         5,
+         "Wolverhampton Wanderers",
+         8,
+         4,
+         2,
+         2,
+         "+4",
+         14
+        ],
+        [
+         6,
+         "Queens Park Rangers",
+         9,
+         3,
+         5,
+         1,
+         "+3",
+         14
+        ],
+        [
+         7,
+         "Birmingham City",
+         9,
+         3,
+         5,
+         1,
+         "+2",
+         14
+        ],
+        [
+         8,
+         "Millwall",
+         9,
+         4,
+         2,
+         3,
+         "+1",
+         14
+        ],
+        [
+         22,
+         "Burnley",
+         9,
+         1,
+         4,
+         4,
+         "-4",
+         7
+        ],
+        [
+         23,
+         "Derby County",
+         9,
+         1,
+         3,
+         5,
+         "-7",
+         6
+        ],
+        [
+         24,
+         "Preston North End",
+         9,
+         1,
+         1,
+         7,
+         "-8",
+         4
+        ]
        ],
-       [
-        3,
-        "Carlos Alcaraz",
-        "5,560"
-       ],
-       [
-        4,
-        "Ben Shelton",
-        "4,680"
-       ],
-       [
-        5,
-        "Felix Auger-Aliassime",
-        "3,890"
-       ],
-       [
-        6,
-        "Daniil Medvedev",
-        "3,860"
-       ],
-       [
-        7,
-        "Flavio Cobolli",
-        "3,680"
-       ],
-       [
-        8,
-        "Novak Djokovic",
-        "3,480"
-       ],
-       [
-        9,
-        "Alex de Minaur",
-        "3,430"
-       ],
-       [
-        10,
-        "Frances Tiafoe",
-        "3,380"
+       "movement": true,
+       "key": 1,
+       "note": "Showing the top eight and bottom three only. Not every club has played the same number of games.",
+       "links": [
+        {
+         "text": "footballwebpages.co.uk: Championship table",
+         "url": "https://www.footballwebpages.co.uk/championship/league-table"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1
-     },
-     {
-      "id": "wta",
-      "title": "WTA top 10",
-      "asof": "October 2026 (the source page does not show an exact date)",
-      "source": "wtatennis.com",
-      "cols": [
-       "Rank",
-       "Player",
-       "Points"
-      ],
-      "rows": [
-       [
-        1,
-        "Elena Rybakina",
-        "9,696"
+      },
+      {
+       "id": "ch-res",
+       "title": "Championship results and fixtures",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "No confirmed results or fixtures captured today."
+      }
+     ]
+    },
+    {
+     "id": "ligue-1",
+     "title": "Ligue 1",
+     "intro": "18 clubs, 34 matches each. The top clubs qualify for the Champions League.",
+     "panels": [
+      {
+       "id": "l1-table",
+       "title": "Ligue 1 table",
+       "asof": "after 6 matchdays, 11 Oct 2026",
+       "source": "eurosport.fr",
+       "cols": [
+        "Pos",
+        "Team",
+        "P",
+        "W",
+        "D",
+        "L",
+        "GD",
+        "Pts"
        ],
-       [
-        2,
-        "Aryna Sabalenka",
-        "7,550"
+       "rows": [
+        [
+         1,
+         "Monaco",
+         6,
+         4,
+         2,
+         0,
+         "+5",
+         14
+        ],
+        [
+         2,
+         "Lille",
+         6,
+         4,
+         1,
+         1,
+         "+5",
+         13
+        ],
+        [
+         3,
+         "Rennes",
+         6,
+         4,
+         1,
+         1,
+         "+2",
+         13
+        ],
+        [
+         4,
+         "Lyon",
+         6,
+         3,
+         2,
+         1,
+         "+7",
+         11
+        ],
+        [
+         5,
+         "Paris FC",
+         6,
+         3,
+         2,
+         1,
+         "+4",
+         11
+        ],
+        [
+         6,
+         "PSG",
+         6,
+         3,
+         2,
+         1,
+         "+3",
+         11
+        ],
+        [
+         7,
+         "Brest",
+         6,
+         2,
+         2,
+         2,
+         "+3",
+         8
+        ],
+        [
+         8,
+         "Lorient",
+         6,
+         2,
+         2,
+         2,
+         "0",
+         8
+        ],
+        [
+         9,
+         "Nice",
+         6,
+         2,
+         2,
+         2,
+         "-2",
+         8
+        ],
+        [
+         10,
+         "Lens",
+         6,
+         2,
+         1,
+         3,
+         "+1",
+         7
+        ],
+        [
+         11,
+         "Strasbourg",
+         6,
+         2,
+         1,
+         3,
+         "-1",
+         7
+        ],
+        [
+         12,
+         "Angers",
+         6,
+         2,
+         1,
+         3,
+         "-3",
+         7
+        ],
+        [
+         13,
+         "Marseille",
+         6,
+         2,
+         0,
+         4,
+         "+1",
+         6
+        ],
+        [
+         14,
+         "Le Mans",
+         6,
+         1,
+         3,
+         2,
+         "-2",
+         6
+        ],
+        [
+         15,
+         "Toulouse",
+         6,
+         1,
+         3,
+         2,
+         "-2",
+         6
+        ],
+        [
+         16,
+         "Auxerre",
+         6,
+         2,
+         0,
+         4,
+         "-8",
+         6
+        ],
+        [
+         17,
+         "Troyes",
+         6,
+         1,
+         1,
+         4,
+         "-9",
+         4
+        ],
+        [
+         18,
+         "Le Havre",
+         6,
+         0,
+         2,
+         4,
+         "-4",
+         2
+        ]
        ],
-       [
-        3,
-        "Mirra Andreeva",
-        "6,371"
-       ],
-       [
-        4,
-        "Jessica Pegula",
-        "6,225"
-       ],
-       [
-        5,
-        "Coco Gauff",
-        "5,974"
-       ],
-       [
-        6,
-        "Elina Svitolina",
-        "5,024"
-       ],
-       [
-        7,
-        "Karolina Muchova",
-        "4,773"
-       ],
-       [
-        8,
-        "Linda Noskova",
-        "4,679"
-       ],
-       [
-        9,
-        "Iga Swiatek",
-        "3,999"
-       ],
-       [
-        10,
-        "Marta Kostyuk",
-        "3,910"
+       "movement": true,
+       "key": 1,
+       "links": [
+        {
+         "text": "Eurosport France: Ligue 1 standings",
+         "url": "https://www.eurosport.fr/football/ligue-1/standing.shtml"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1,
-      "note": "Earlier reports had Sabalenka at No 1, so confirm this list on the WTA site before relying on it."
-     },
-     {
-      "id": "shanghai",
-      "title": "Shanghai Masters (7–18 Oct)",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "Results and the draw were not confirmed. Jannik Sinner was reported to have withdrawn injured."
-     }
-    ]
-   },
-   {
-    "id": "f1",
-    "short": "Formula 1",
-    "title": "Formula 1",
-    "intro": "Drivers and constructors, as of the Azerbaijan Grand Prix.",
-    "panels": [
-     {
-      "id": "f1-drivers",
-      "title": "Drivers' championship top 10",
-      "asof": "after the Azerbaijan Grand Prix, 26 Sep 2026",
-      "source": "directv.com",
-      "cols": [
-       "Pos",
-       "Driver",
-       "Team",
-       "Pts"
-      ],
-      "rows": [
-       [
-        1,
-        "Kimi Antonelli",
-        "Mercedes",
-        330
+      },
+      {
+       "id": "l1-res",
+       "title": "Ligue 1 results and fixtures",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "The latest round of results and the next fixtures were not captured today."
+      }
+     ]
+    },
+    {
+     "id": "europe",
+     "short": "Europe and cups",
+     "title": "Europe and the cups",
+     "intro": "Champions League, Europa League and the domestic cups.",
+     "panels": [
+      {
+       "id": "ucl",
+       "title": "Champions League league phase",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "Matchday 2 is due on 13 and 14 October. I could not confirm the league-phase table or the fixtures for English and French clubs."
+      },
+      {
+       "id": "cups",
+       "title": "Cups: Carabao Cup, FA Cup and Coupe de France",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "No confirmed draws or fixtures captured today."
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/PremierLeague",
+     "url": "https://www.reddit.com/r/PremierLeague/"
+    },
+    {
+     "text": "r/soccer",
+     "url": "https://www.reddit.com/r/soccer/"
+    },
+    {
+     "text": "r/Ligue1",
+     "url": "https://www.reddit.com/r/Ligue1/"
+    }
+   ]
+  },
+  {
+   "id": "rugby",
+   "title": "Rugby",
+   "summary": "No confirmed results today; fixture links.",
+   "intro": "Rugby union.",
+   "cards": [
+    {
+     "t": "Rugby union",
+     "tag": "Not verified today",
+     "gap": 1,
+     "w": [
+      "I found no reliable current rugby results. The big autumn internationals usually start in November, so check the fixture lists."
+     ],
+     "n": [
+      "Two teams of 15 play two 40-minute halves. You can run with the ball or kick it, but you can only pass it sideways or backwards. A try, where a player grounds the ball over the opponents' line, scores 5 points. A conversion kick adds 2, and a penalty kick or drop goal scores 3.",
+      "The game is built on set pieces. A scrum restarts play after minor infringements, with the forwards pushing against each other. A lineout restarts play after the ball goes out of play, with a jumper lifted to catch the throw.",
+      "The main competitions are the Six Nations (February and March), the Rugby Championship in the southern hemisphere, the autumn internationals in November, the Premiership in England, the Top 14 in France and the European Champions Cup."
+     ],
+     "s": "Background only",
+     "links": [
+      {
+       "text": "Sky Sports: Premiership fixtures",
+       "url": "https://www.skysports.com/rugbyunion/competitions/gallagher-prem/fixtures"
+      },
+      {
+       "text": "Sky Sports: Top 14 results",
+       "url": "https://www.skysports.com/rugbyunion/competitions/top-14/results"
+      },
+      {
+       "text": "TNT Sports: Top 14 table",
+       "url": "https://www.tntsports.co.uk/rugby/top-14/2026-2027/lyon-la-rochelle_mtc21902936/live-table.shtml"
+      }
+     ]
+    }
+   ],
+   "groups": [],
+   "community": [
+    {
+     "text": "r/rugbyunion",
+     "url": "https://www.reddit.com/r/rugbyunion/"
+    }
+   ]
+  },
+  {
+   "id": "cricket",
+   "title": "Cricket",
+   "summary": "England swept Pakistan 3–0; Australia tour next.",
+   "intro": "England and the international game.",
+   "cards": [
+    {
+     "t": "Cricket",
+     "tag": "England",
+     "w": [
+      "England completed a 3–0 Test series win over Pakistan at Edgbaston on 12 September, surviving a late scare in the third Test. A white-ball tour of Australia follows in November and December."
+     ],
+     "n": [
+      "Cricket is a bat-and-ball game between two teams of 11. One side bats and tries to score runs, the other bowls and fields and tries to get ten batters out. A batter scores by running between the two sets of stumps or by hitting the ball over the boundary for 4 (along the ground) or 6 (in the air).",
+      "Formats vary in length. A Test match lasts up to five days with two innings per side and is regarded as the highest form. A one-day international is 50 overs a side (an over is six balls). Twenty20 is 20 overs a side and over in about three hours.",
+      "White-ball means the limited-overs formats, which use a white ball and coloured kit. The Ashes between England and Australia is the best-known Test rivalry."
+     ],
+     "s": "As of 12 Sep 2026",
+     "links": [
+      {
+       "text": "Al Jazeera: England survive Pakistan scare to seal 3-0 sweep",
+       "url": "https://www.aljazeera.com/sports/2026/9/12/england-pakistan-third-test-edgbaston-joe-root-razaullah-cricket"
+      },
+      {
+       "text": "Gulf News: England seal 3-0 series win at Edgbaston",
+       "url": "https://gulfnews.com/sport/cricket/england-seal-3-0-series-win-over-pakistan-at-edgbaston-1.500672257"
+      }
+     ]
+    }
+   ],
+   "groups": [],
+   "community": [
+    {
+     "text": "r/Cricket",
+     "url": "https://www.reddit.com/r/Cricket/"
+    }
+   ]
+  },
+  {
+   "id": "tennis",
+   "title": "Tennis",
+   "summary": "Sinner out of Shanghai; ATP and WTA top 10.",
+   "intro": "Rankings and the current tournament.",
+   "cards": [
+    {
+     "t": "Tennis: the Shanghai Masters",
+     "tag": "7–18 Oct",
+     "w": [
+      "The Shanghai Masters runs from 7 to 18 October. World number one Jannik Sinner withdrew as a knee injury lingers, which opens up the draw and has put Alexander Zverev in the frame to challenge for the top ranking.",
+      "ATP rankings dated 5 October show Sinner first, Zverev second and Alcaraz third. The full men's and women's top 10 tables are below. I could not confirm the latest Shanghai results."
+     ],
+     "n": [
+      "The men's tour has four levels. The four Grand Slams (Australian Open, French Open, Wimbledon, US Open) are on top, followed by nine Masters 1000 events including Shanghai, then smaller tournaments.",
+      "A match is played in sets, and a set in games. Within a game, points go 15, 30, 40, then game, and at 40-40 (deuce) a player must win two points in a row. Most tour matches are the best of three sets, and Slams are the best of five for men.",
+      "Rankings are based on points won over the previous 52 weeks, so injuries hurt twice: a missed event means missed points and a falling ranking."
+     ],
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "Al Jazeera: Sinner withdraws from Shanghai as knee injury lingers",
+       "url": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers"
+      },
+      {
+       "text": "ATP Tour: Sinner Shanghai 2026 withdrawal",
+       "url": "https://www.atptour.com/en/news/sinner-shanghai-2026-withdrawal"
+      },
+      {
+       "text": "ATP rankings",
+       "url": "https://www.atptour.com/en/rankings/singles"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "tennis",
+     "title": "Tennis",
+     "intro": "World rankings and the current tournament.",
+     "panels": [
+      {
+       "id": "atp",
+       "title": "ATP top 10",
+       "asof": "ranking dated 5 Oct 2026",
+       "source": "atptour.com",
+       "cols": [
+        "Rank",
+        "Player",
+        "Points"
        ],
-       [
-        2,
-        "George Russell",
-        "Mercedes",
-        236
+       "rows": [
+        [
+         1,
+         "Jannik Sinner",
+         "11,000"
+        ],
+        [
+         2,
+         "Alexander Zverev",
+         "9,720"
+        ],
+        [
+         3,
+         "Carlos Alcaraz",
+         "5,560"
+        ],
+        [
+         4,
+         "Ben Shelton",
+         "4,680"
+        ],
+        [
+         5,
+         "Felix Auger-Aliassime",
+         "3,890"
+        ],
+        [
+         6,
+         "Daniil Medvedev",
+         "3,860"
+        ],
+        [
+         7,
+         "Flavio Cobolli",
+         "3,680"
+        ],
+        [
+         8,
+         "Novak Djokovic",
+         "3,480"
+        ],
+        [
+         9,
+         "Alex de Minaur",
+         "3,430"
+        ],
+        [
+         10,
+         "Frances Tiafoe",
+         "3,380"
+        ]
        ],
-       [
-        3,
-        "Lewis Hamilton",
-        "Ferrari",
-        214
-       ],
-       [
-        4,
-        "Charles Leclerc",
-        "Ferrari",
-        191
-       ],
-       [
-        5,
-        "Lando Norris",
-        "McLaren",
-        188
-       ],
-       [
-        6,
-        "Max Verstappen",
-        "Red Bull Racing",
-        188
-       ],
-       [
-        7,
-        "Oscar Piastri",
-        "McLaren",
-        128
-       ],
-       [
-        8,
-        "Isack Hadjar",
-        "Red Bull Racing",
-        96
-       ],
-       [
-        9,
-        "Liam Lawson",
-        "Racing Bulls",
-        65
-       ],
-       [
-        10,
-        "Pierre Gasly",
-        "Alpine",
-        41
+       "movement": true,
+       "key": 1,
+       "links": [
+        {
+         "text": "ATP Tour: singles rankings",
+         "url": "https://www.atptour.com/en/rankings/singles"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1
-     },
-     {
-      "id": "f1-cons",
-      "title": "Constructors' championship",
-      "asof": "after the Azerbaijan Grand Prix, 26 Sep 2026",
-      "source": "directv.com",
-      "cols": [
-       "Pos",
-       "Team",
-       "Pts"
-      ],
-      "rows": [
-       [
-        1,
-        "Mercedes",
-        556
+      },
+      {
+       "id": "wta",
+       "title": "WTA top 10",
+       "asof": "October 2026 (the source page does not show an exact date)",
+       "source": "wtatennis.com",
+       "cols": [
+        "Rank",
+        "Player",
+        "Points"
        ],
-       [
-        2,
-        "Ferrari",
-        405
+       "rows": [
+        [
+         1,
+         "Elena Rybakina",
+         "9,696"
+        ],
+        [
+         2,
+         "Aryna Sabalenka",
+         "7,550"
+        ],
+        [
+         3,
+         "Mirra Andreeva",
+         "6,371"
+        ],
+        [
+         4,
+         "Jessica Pegula",
+         "6,225"
+        ],
+        [
+         5,
+         "Coco Gauff",
+         "5,974"
+        ],
+        [
+         6,
+         "Elina Svitolina",
+         "5,024"
+        ],
+        [
+         7,
+         "Karolina Muchova",
+         "4,773"
+        ],
+        [
+         8,
+         "Linda Noskova",
+         "4,679"
+        ],
+        [
+         9,
+         "Iga Swiatek",
+         "3,999"
+        ],
+        [
+         10,
+         "Marta Kostyuk",
+         "3,910"
+        ]
        ],
-       [
-        3,
-        "McLaren",
-        315
-       ],
-       [
-        4,
-        "Red Bull Racing",
-        298
-       ],
-       [
-        5,
-        "Racing Bulls",
-        90
-       ],
-       [
-        6,
-        "Alpine",
-        68
-       ],
-       [
-        7,
-        "Haas F1 Team",
-        27
-       ],
-       [
-        8,
-        "Audi",
-        17
-       ],
-       [
-        9,
-        "Williams",
-        12
-       ],
-       [
-        10,
-        "Aston Martin",
-        7
-       ],
-       [
-        11,
-        "Cadillac",
-        0
+       "movement": true,
+       "key": 1,
+       "note": "Earlier reports had Sabalenka at No 1, so confirm this list on the WTA site before relying on it.",
+       "links": [
+        {
+         "text": "WTA: singles rankings",
+         "url": "https://www.wtatennis.com/rankings/singles"
+        }
        ]
-      ],
-      "movement": true,
-      "key": 1
-     },
-     {
-      "id": "f1-sing",
-      "title": "Singapore Grand Prix, 11 Oct",
-      "gap": true,
-      "tag": "Result not confirmed",
-      "asof": "11 Oct 2026",
-      "note": "The race was held on Sunday 11 October and headlines point to a Max Verstappen win. The full result and the updated points were not confirmed, so the tables above do not include it."
-     }
-    ]
-   },
-   {
-    "id": "icehockey",
-    "short": "Ice hockey",
-    "title": "Ice hockey: Maple Leafs",
-    "intro": "NHL season, 82 games per team.",
-    "panels": [
-     {
-      "id": "tml-record",
-      "title": "Maple Leafs record",
-      "asof": "11 Oct 2026",
-      "source": "surprisesports.com",
-      "items": [
-       "3 wins, 2 losses, 1 overtime loss: 7 points"
-      ],
-      "note": "An overtime loss earns 1 point."
-     },
-     {
-      "id": "tml-res",
-      "title": "Last five games",
-      "asof": "11 Oct 2026",
-      "source": "surprisesports.com",
-      "cols": [
-       "Date",
-       "Opponent",
-       "Score",
-       "Result"
-      ],
-      "rows": [
-       [
-        "10 Oct",
-        "@ Colorado Avalanche",
-        "6–3",
-        "W"
-       ],
-       [
-        "8 Oct",
-        "@ Vegas Golden Knights",
-        "3–4",
-        "L"
-       ],
-       [
-        "6 Oct",
-        "v Nashville Predators",
-        "5–4",
-        "W"
-       ],
-       [
-        "3 Oct",
-        "v Ottawa Senators",
-        "2–3",
-        "L"
-       ],
-       [
-        "30 Sep",
-        "v New York Islanders",
-        "2–1",
-        "W"
+      },
+      {
+       "id": "shanghai",
+       "title": "Shanghai Masters (7–18 Oct)",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "Results and the draw were not confirmed. Jannik Sinner withdrew with a knee injury.",
+       "links": [
+        {
+         "text": "Al Jazeera: Sinner withdraws from Shanghai",
+         "url": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers"
+        }
        ]
-      ]
-     },
-     {
-      "id": "tml-fix",
-      "title": "Upcoming games",
-      "asof": "11 Oct 2026",
-      "source": "surprisesports.com",
-      "cols": [
-       "Date and time",
-       "Opponent"
-      ],
-      "rows": [
-       [
-        "13 Oct, 9:00 pm",
-        "@ Utah Mammoth"
-       ],
-       [
-        "15 Oct, 7:00 pm",
-        "v Buffalo Sabres"
-       ],
-       [
-        "17 Oct, 7:00 pm",
-        "v New York Islanders"
-       ],
-       [
-        "19 Oct, 7:30 pm",
-        "v San Jose Sharks"
-       ],
-       [
-        "20 Oct, 7:00 pm",
-        "@ Columbus Blue Jackets"
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/tennis",
+     "url": "https://www.reddit.com/r/tennis/"
+    }
+   ]
+  },
+  {
+   "id": "squash",
+   "title": "Squash",
+   "summary": "PSA season under way; results not confirmed.",
+   "intro": "The PSA Tour.",
+   "cards": [
+    {
+     "t": "Squash",
+     "tag": "Not verified today",
+     "gap": 1,
+     "w": [
+      "The 2026-27 PSA Tour season is getting under way, and a Canadian women's Open is listed for Toronto this year. I found no confirmed dates or results."
+     ],
+     "n": [
+      "Squash is played by two players in a four-walled court, taking turns to hit a small rubber ball against the front wall above a line. The ball may hit other walls first but must not bounce twice before being returned.",
+      "Games go to 11 points with a point scored on every rally (point-a-rally), and a match is usually the best of five. A player must win by two clear points.",
+      "The professional circuit is run by the Professional Squash Association (PSA). Squash joined the Olympic programme for Los Angeles 2028."
+     ],
+     "s": "Background only",
+     "links": [
+      {
+       "text": "SquashInfo: latest squash news and results",
+       "url": "https://www.squashinfo.com/results"
+      },
+      {
+       "text": "Wikipedia: 2026 Men's World Squash Championship",
+       "url": "https://en.wikipedia.org/wiki/2026_Men%27s_World_Squash_Championship"
+      }
+     ]
+    }
+   ],
+   "groups": [],
+   "community": [
+    {
+     "text": "r/squash",
+     "url": "https://www.reddit.com/r/squash/"
+    }
+   ]
+  },
+  {
+   "id": "field-hockey",
+   "title": "Field hockey",
+   "summary": "Pro League season closed; nothing newer confirmed.",
+   "intro": "International field hockey.",
+   "cards": [
+    {
+     "t": "Field hockey",
+     "tag": "Not verified today",
+     "gap": 1,
+     "w": [
+      "The FIH Pro League closed its 2025-26 season in London, with India edging England 3–2 in a shootout. I found nothing newer."
+     ],
+     "n": [
+      "Field hockey is played on a pitch by two teams of 11. Players use a curved stick with a flat face on one side and can only hit the ball with that flat side. Goals count only if the ball is struck from inside the shooting circle.",
+      "A match has four 15-minute quarters. Tied knockout games go to a shootout in which a player runs in from the 23-metre line and has eight seconds to score.",
+      "Great Britain and England play at the Olympics and the World Cup, and the Pro League is the main yearly international league."
+     ],
+     "s": "Background only",
+     "links": [
+      {
+       "text": "England Hockey: news",
+       "url": "https://www.englandhockey.co.uk/media/news/30-days-to-go-until-the-fih-hockey-pro-league-comes-to-london"
+      },
+      {
+       "text": "Outlook India: India v England FIH Pro League shootout",
+       "url": "https://www.outlookindia.com/sports/hockey/india-vs-england-live-score-fih-pro-league-2025-26-updates-ind-v-eng-highlights-london"
+      }
+     ]
+    }
+   ],
+   "groups": [],
+   "community": [
+    {
+     "text": "r/fieldhockey",
+     "url": "https://www.reddit.com/r/fieldhockey/"
+    }
+   ]
+  },
+  {
+   "id": "baseball",
+   "title": "Baseball",
+   "summary": "Blue Jays out of the playoffs.",
+   "intro": "Blue Jays and the MLB postseason.",
+   "cards": [
+    {
+     "t": "Blue Jays",
+     "tag": "Season over",
+     "w": [
+      "Toronto were eliminated from playoff contention with a 4–2 loss to the Orioles on 23 September, as reported by CP24 and MLB.com, so the playoffs go ahead without them. The Jays were the reigning American League champions. I did not confirm the current bracket."
+     ],
+     "n": [
+      "Baseball is played between two teams of nine across nine innings. In each innings one team bats and the other fields, and a half-innings ends after three outs. The pitcher throws to the batter, who tries to hit the ball and run round four bases to score.",
+      "Major League Baseball has 30 teams in two leagues. Twelve teams make the postseason. After the wild-card round come the division series, the league championship series and the World Series.",
+      "The regular season is 162 games, so single results matter less than in football and the best teams still lose about 60 games."
+     ],
+     "s": "As of 23 Sep 2026",
+     "links": [
+      {
+       "text": "CP24: Blue Jays eliminated with loss to Orioles",
+       "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/"
+      },
+      {
+       "text": "MLB.com: Key takeaways, Orioles 4, Blue Jays 2",
+       "url": "https://www.mlb.com/news/max-scherzer-seven-strikeouts-blue-jays-lose-to-orioles"
+      },
+      {
+       "text": "Wikipedia: 2026 Toronto Blue Jays season",
+       "url": "https://en.wikipedia.org/wiki/2026_Toronto_Blue_Jays_season"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "baseball",
+     "title": "Baseball: Blue Jays",
+     "intro": "The Jays were eliminated on 24 September.",
+     "panels": [
+      {
+       "id": "mlb",
+       "title": "MLB postseason bracket",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "The current bracket and results were not captured today."
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/Torontobluejays",
+     "url": "https://www.reddit.com/r/Torontobluejays/"
+    },
+    {
+     "text": "r/baseball",
+     "url": "https://www.reddit.com/r/baseball/"
+    }
+   ]
+  },
+  {
+   "id": "basketball",
+   "title": "Basketball",
+   "summary": "Raptors open in late October.",
+   "intro": "Raptors and the NBA.",
+   "cards": [
+    {
+     "t": "Raptors",
+     "tag": "Opener late October",
+     "w": [
+      "The Raptors open their season at home against the Bulls, then host the Knicks the next night, according to TSN. The opener is reported for 21 October. Some listings say 20 October, so confirm on the team site."
+     ],
+     "n": [
+      "The NBA has 30 teams and an 82-game regular season. Each team has five players on court. A shot scores 2 points, or 3 from beyond the arc, and a free throw scores 1.",
+      "The top six teams in each conference make the playoffs outright, and seeds 7 to 10 play a \"play-in\" tournament for the last two places. The playoffs are four rounds, each a best-of-seven.",
+      "There is a salary cap and a draft, which keeps spending closer than in most sports."
+     ],
+     "s": "As of 10 Oct 2026",
+     "links": [
+      {
+       "text": "TSN: Raptors to open season against Bulls, host Knicks on back-to-back nights",
+       "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/"
+      },
+      {
+       "text": "Raptors Republic: 2026-27 schedule",
+       "url": "https://raptorsrepublic.com/2026/08/13/raptors-release-schedule-for-2026-27-season/"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "basketball",
+     "title": "Basketball: Raptors",
+     "intro": "NBA season, 82 games per team.",
+     "panels": [
+      {
+       "id": "rap",
+       "title": "Raptors season opener",
+       "gap": true,
+       "tag": "Check the schedule",
+       "asof": "11 Oct 2026",
+       "note": "The opener at home to the Bulls is reported for 21 October. Some listings say 20 October, so confirm on the team site.",
+       "links": [
+        {
+         "text": "TSN: Raptors open against the Bulls",
+         "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/"
+        }
        ]
-      ],
-      "note": "Times as listed by the source, most likely Eastern."
-     },
-     {
-      "id": "nhl-table",
-      "title": "NHL Atlantic Division table",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "The division table was not captured today."
-     }
-    ]
-   },
-   {
-    "id": "baseball",
-    "title": "Baseball: Blue Jays",
-    "intro": "The Jays were eliminated on 24 September.",
-    "panels": [
-     {
-      "id": "mlb",
-      "title": "MLB postseason bracket",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "The current bracket and results were not captured today."
-     }
-    ]
-   },
-   {
-    "id": "basketball",
-    "title": "Basketball: Raptors",
-    "intro": "NBA season, 82 games per team.",
-    "panels": [
-     {
-      "id": "rap",
-      "title": "Raptors season opener",
-      "gap": true,
-      "tag": "Check the schedule",
-      "asof": "11 Oct 2026",
-      "note": "The opener at home to the Bulls is reported for 21 October. Some listings say 20 October, so confirm on the team site."
-     }
-    ]
-   },
-   {
-    "id": "others",
-    "title": "Rugby, cricket, squash and field hockey",
-    "intro": "Where I have something confirmed it is shown, and the rest is marked.",
-    "panels": [
-     {
-      "id": "rugby",
-      "title": "Rugby union",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "No confirmed tables, results or fixtures captured today."
-     },
-     {
-      "id": "cricket",
-      "title": "Cricket: England",
-      "asof": "11 Oct 2026",
-      "items": [
-       "England won the Test series against Pakistan 3–0",
-       "A white-ball tour of Australia follows in November and December"
-      ],
-      "note": "Fixtures and scorecards were not captured today."
-     },
-     {
-      "id": "squash",
-      "title": "Squash",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "The PSA season is under way. No rankings or results were captured today."
-     },
-     {
-      "id": "fh",
-      "title": "Field hockey",
-      "gap": true,
-      "tag": "Not verified today",
-      "asof": "11 Oct 2026",
-      "note": "The FIH Pro League closed its 2025-26 season in London with India beating England 3–2 in a shootout. Nothing newer was captured."
-     }
-    ]
-   }
-  ]
- }
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/torontoraptors",
+     "url": "https://www.reddit.com/r/torontoraptors/"
+    },
+    {
+     "text": "r/nba",
+     "url": "https://www.reddit.com/r/nba/"
+    }
+   ]
+  },
+  {
+   "id": "ice-hockey",
+   "title": "Ice hockey",
+   "summary": "Leafs 3-2-1 after a 6–3 win at Colorado.",
+   "intro": "Maple Leafs and the NHL.",
+   "cards": [
+    {
+     "t": "Maple Leafs",
+     "tag": "3-2-1",
+     "w": [
+      "Toronto are 3-2-1 (7 points) after a 6–3 win at the Colorado Avalanche on Saturday 10 October. Earlier results: a 3–4 loss at Vegas on 8 October, a 5–4 win over Nashville on 6 October, a 2–3 loss to Ottawa on 3 October and a 2–1 win over the Islanders on 30 September.",
+      "The team is under new GM Chayka and coach Hiller, with first overall pick McKenna and veteran goaltender Bobrovsky. The next game is at Utah on 13 October."
+     ],
+     "f": [
+      "Record: 3 wins, 2 losses, 1 overtime loss (7 points)",
+      "Last result: 6–3 win at Colorado, 10 Oct",
+      "Next: at Utah, 13 Oct · v Buffalo, 15 Oct · v NY Islanders, 17 Oct"
+     ],
+     "n": [
+      "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
+      "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
+      "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
+     ],
+     "s": "As of 11 Oct 2026",
+     "links": [
+      {
+       "text": "Fox Sports: Maple Leafs v Avalanche, 10 Oct 2026 box score",
+       "url": "https://www.foxsports.com/nhl/toronto-maple-leafs-vs-colorado-avalanche-oct-10-2026-game-boxscore-44636"
+      },
+      {
+       "text": "Maple Leafs on NHL.com",
+       "url": "https://www.nhl.com/mapleleafs"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "icehockey",
+     "short": "Ice hockey",
+     "title": "Ice hockey: Maple Leafs",
+     "intro": "NHL season, 82 games per team.",
+     "panels": [
+      {
+       "id": "tml-record",
+       "title": "Maple Leafs record",
+       "asof": "11 Oct 2026",
+       "source": "surprisesports.com",
+       "items": [
+        "3 wins, 2 losses, 1 overtime loss: 7 points"
+       ],
+       "note": "An overtime loss earns 1 point."
+      },
+      {
+       "id": "tml-res",
+       "title": "Last five games",
+       "asof": "11 Oct 2026",
+       "source": "surprisesports.com",
+       "cols": [
+        "Date",
+        "Opponent",
+        "Score",
+        "Result"
+       ],
+       "rows": [
+        [
+         "10 Oct",
+         "@ Colorado Avalanche",
+         "6–3",
+         "W"
+        ],
+        [
+         "8 Oct",
+         "@ Vegas Golden Knights",
+         "3–4",
+         "L"
+        ],
+        [
+         "6 Oct",
+         "v Nashville Predators",
+         "5–4",
+         "W"
+        ],
+        [
+         "3 Oct",
+         "v Ottawa Senators",
+         "2–3",
+         "L"
+        ],
+        [
+         "30 Sep",
+         "v New York Islanders",
+         "2–1",
+         "W"
+        ]
+       ],
+       "links": [
+        {
+         "text": "Fox Sports: Maple Leafs v Avalanche box score",
+         "url": "https://www.foxsports.com/nhl/toronto-maple-leafs-vs-colorado-avalanche-oct-10-2026-game-boxscore-44636"
+        }
+       ]
+      },
+      {
+       "id": "tml-fix",
+       "title": "Upcoming games",
+       "asof": "11 Oct 2026",
+       "source": "surprisesports.com",
+       "cols": [
+        "Date and time",
+        "Opponent"
+       ],
+       "rows": [
+        [
+         "13 Oct, 9:00 pm",
+         "@ Utah Mammoth"
+        ],
+        [
+         "15 Oct, 7:00 pm",
+         "v Buffalo Sabres"
+        ],
+        [
+         "17 Oct, 7:00 pm",
+         "v New York Islanders"
+        ],
+        [
+         "19 Oct, 7:30 pm",
+         "v San Jose Sharks"
+        ],
+        [
+         "20 Oct, 7:00 pm",
+         "@ Columbus Blue Jackets"
+        ]
+       ],
+       "note": "Times as listed by the source, most likely Eastern."
+      },
+      {
+       "id": "nhl-table",
+       "title": "NHL Atlantic Division table",
+       "gap": true,
+       "tag": "Not verified today",
+       "asof": "11 Oct 2026",
+       "note": "The division table was not captured today."
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/leafs",
+     "url": "https://www.reddit.com/r/leafs/"
+    },
+    {
+     "text": "r/hockey",
+     "url": "https://www.reddit.com/r/hockey/"
+    }
+   ]
+  },
+  {
+   "id": "f1",
+   "title": "F1",
+   "summary": "Antonelli leads on 330; Singapore GP weekend.",
+   "intro": "Formula 1 championship.",
+   "cards": [
+    {
+     "t": "Formula 1",
+     "tag": "Singapore GP weekend",
+     "w": [
+      "Kimi Antonelli (Mercedes) leads the drivers' championship on 330 points after the Azerbaijan Grand Prix, ahead of team-mate George Russell on 236 and Lewis Hamilton (Ferrari) on 214. Mercedes lead the constructors' table on 556, ahead of Ferrari (405) and McLaren (315).",
+      "The Singapore Grand Prix weekend is a sprint weekend. Max Verstappen took sprint qualifying pole on Friday 9 October, ahead of George Russell. I could not confirm the sprint or race results, or the updated points, so the tables are as of 26 September."
+     ],
+     "f": [
+      "Drivers: Antonelli 330, Russell 236, Hamilton 214",
+      "Constructors: Mercedes 556, Ferrari 405, McLaren 315",
+      "Standings as of 26 Sep (after Azerbaijan)"
+     ],
+     "n": [
+      "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
+      "Drivers score points in each race: 25 for a win, then 18, 15, 12, 10, 8, 6, 4, 2 and 1 for places two to ten. Some weekends also include a shorter sprint race with a smaller points scale. Points add up across the season, and the driver with the most is world champion.",
+      "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
+      "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
+     ],
+     "s": "As of 26 Sep 2026 (standings) · sprint pole 9 Oct",
+     "links": [
+      {
+       "text": "Formula1.com: Verstappen clinches pole in Singapore sprint qualifying",
+       "url": "https://www.formula1.com/en/latest/article/verstappen-clinches-pole-position-in-singapore-sprint-qualifying-ahead-of-russell.4dvkvpkCXftdhX7sLI2dcQ"
+      },
+      {
+       "text": "The Star: Verstappen pips Russell to sprint pole",
+       "url": "https://www.thestar.com.my/sport/motorsport/2026/10/09/motor-racing-verstappen-pips-russell-to-sprint-pole-at-singapore-grand-prix"
+      },
+      {
+       "text": "Formula1.com",
+       "url": "https://www.formula1.com/"
+      }
+     ]
+    }
+   ],
+   "groups": [
+    {
+     "id": "f1",
+     "short": "Formula 1",
+     "title": "Formula 1",
+     "intro": "Drivers and constructors, as of the Azerbaijan Grand Prix.",
+     "panels": [
+      {
+       "id": "f1-drivers",
+       "title": "Drivers' championship top 10",
+       "asof": "after the Azerbaijan Grand Prix, 26 Sep 2026",
+       "source": "directv.com",
+       "cols": [
+        "Pos",
+        "Driver",
+        "Team",
+        "Pts"
+       ],
+       "rows": [
+        [
+         1,
+         "Kimi Antonelli",
+         "Mercedes",
+         330
+        ],
+        [
+         2,
+         "George Russell",
+         "Mercedes",
+         236
+        ],
+        [
+         3,
+         "Lewis Hamilton",
+         "Ferrari",
+         214
+        ],
+        [
+         4,
+         "Charles Leclerc",
+         "Ferrari",
+         191
+        ],
+        [
+         5,
+         "Lando Norris",
+         "McLaren",
+         188
+        ],
+        [
+         6,
+         "Max Verstappen",
+         "Red Bull Racing",
+         188
+        ],
+        [
+         7,
+         "Oscar Piastri",
+         "McLaren",
+         128
+        ],
+        [
+         8,
+         "Isack Hadjar",
+         "Red Bull Racing",
+         96
+        ],
+        [
+         9,
+         "Liam Lawson",
+         "Racing Bulls",
+         65
+        ],
+        [
+         10,
+         "Pierre Gasly",
+         "Alpine",
+         41
+        ]
+       ],
+       "movement": true,
+       "key": 1,
+       "links": [
+        {
+         "text": "DirecTV Insider: F1 standings",
+         "url": "https://www.directv.com/insider/f1-standings/"
+        }
+       ]
+      },
+      {
+       "id": "f1-cons",
+       "title": "Constructors' championship",
+       "asof": "after the Azerbaijan Grand Prix, 26 Sep 2026",
+       "source": "directv.com",
+       "cols": [
+        "Pos",
+        "Team",
+        "Pts"
+       ],
+       "rows": [
+        [
+         1,
+         "Mercedes",
+         556
+        ],
+        [
+         2,
+         "Ferrari",
+         405
+        ],
+        [
+         3,
+         "McLaren",
+         315
+        ],
+        [
+         4,
+         "Red Bull Racing",
+         298
+        ],
+        [
+         5,
+         "Racing Bulls",
+         90
+        ],
+        [
+         6,
+         "Alpine",
+         68
+        ],
+        [
+         7,
+         "Haas F1 Team",
+         27
+        ],
+        [
+         8,
+         "Audi",
+         17
+        ],
+        [
+         9,
+         "Williams",
+         12
+        ],
+        [
+         10,
+         "Aston Martin",
+         7
+        ],
+        [
+         11,
+         "Cadillac",
+         0
+        ]
+       ],
+       "movement": true,
+       "key": 1
+      },
+      {
+       "id": "f1-sing",
+       "title": "Singapore Grand Prix weekend",
+       "gap": true,
+       "tag": "Result not confirmed",
+       "asof": "11 Oct 2026",
+       "note": "Verstappen took sprint qualifying pole on 9 October. The sprint, the race and the updated points were not confirmed, so the tables above do not include them.",
+       "links": [
+        {
+         "text": "Formula1.com: sprint qualifying report",
+         "url": "https://www.formula1.com/en/latest/article/verstappen-clinches-pole-position-in-singapore-sprint-qualifying-ahead-of-russell.4dvkvpkCXftdhX7sLI2dcQ"
+        }
+       ]
+      }
+     ]
+    }
+   ],
+   "community": [
+    {
+     "text": "r/formula1",
+     "url": "https://www.reddit.com/r/formula1/"
+    }
+   ]
+  }
+ ]
 }

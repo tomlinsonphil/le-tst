@@ -2,41 +2,53 @@
 
 The site at `le-tst.com/tstnews/` is generated from one data file.
 
-- `content.json` is the only file to edit for a content update. It holds today's date, the main-page sections, the economics table, and the Football and Other sport pages (groups of "panels").
-- `build.py` turns `content.json` into static pages: `/tstnews/` (Today), `/tstnews/football/`, `/tstnews/sport/`, `/tstnews/archive/` and a dated copy under `/tstnews/archive/YYYY-MM-DD/`. It also saves a copy of the data in `history/YYYY-MM-DD.json`, which it uses to work out the "Move" column (change in table position since the previous day).
+- `content.json` is the only file to edit for a content update.
+- `build.py` turns it into static pages: `/tstnews/` (Today), one page per sport (`/tstnews/football/`, `rugby`, `cricket`, `tennis`, `squash`, `field-hockey`, `baseball`, `basketball`, `ice-hockey`, `f1`), `/tstnews/archive/` and a dated copy of every page under `/tstnews/archive/YYYY-MM-DD/`. It also saves the data in `history/YYYY-MM-DD.json`, which it uses for the "Move" column (change in table position since the previous day).
 - `../style.css` holds the look. Edit it for design changes.
 
 ## Daily update steps
 
 1. `git pull` so you have the latest files.
-2. Research the day (see "Rules" below) and edit `content.json`: set `date` (ISO, e.g. `2026-10-12`) and `label` (e.g. `Monday 12 October 2026`), then update every section item, table, result and fixture.
+2. Research the day (see Rules) and edit `content.json`: set `date` (ISO, e.g. `2026-10-12`) and `label` (e.g. `Monday 12 October 2026`), then update every section, item, table, result and fixture.
 3. Run `python3 tstnews/_src/build.py` from the repo root.
 4. Commit everything under `tstnews/` and push to `main`. GitHub Pages publishes it in a minute or two.
 
-Do not edit the generated HTML by hand. It is rewritten on every build. Older dated folders under `archive/` are left as they were.
+Do not edit generated HTML by hand. Older dated folders under `archive/` are left as they were.
 
 ## content.json shape
 
-- `sections[]`: `id`, `title`, `short`, `intro`, optional `link` `{href, text}`, and `items[]`.
-- Item: `t` (title), `tag` (short status), `gap` (true when nothing current could be verified), `w` (report paragraphs), `f` (optional key facts), `n` (the "If you're new to this" primer, 3 to 5 paragraphs), `s` (as-of date and source), optional `link` (for example `football/#premier-league`).
+- `sections[]` (main page, in order): world, toronto, uk, france, sport, tech, following, money. Each has `id`, `title`, `short`, `intro`, optional `community` (links), and `items[]`. The `sport` section has `kind: "sportlinks"` and no items; it shows one tile per entry of `sports[]`.
+- Item (a news card): `t` title, `tag` short status, `gap` true when nothing current could be verified, `w` report paragraphs (several, not one line), `f` optional key facts, `n` the "If you're new to this" primer (3 to 5 paragraphs, written for someone who knows nothing about the subject), `s` as-of date and source, `links` (list of `{text, url}`).
 - `econ[]`: rows of `[country, policy rate, inflation, notes]`.
-- `football` and `sport`: `groups[]` with `id`, `title`, `intro`, `panels[]`.
-- Panel: `id`, `title`, `asof`, `source`, then either `cols` plus `rows` (a table) or `items` (a list), optional `note`, `highlight` (substrings to highlight, such as `["Bournemouth"]`), `movement` true (adds a Move column; `key` is the index of the team column, default 1), and `gap` true with `tag` for panels with nothing verified.
+- `sports[]`: one per sport page. `id` (the URL folder), `title`, `summary` (one line shown on the Today page tile), `intro`, `cards[]` (items as above), `groups[]` (`id`, `title`, `intro`, `panels[]`), `community` (links).
+- Panel: `id`, `title`, `asof`, `source`, then either `cols` plus `rows` (a table) or `items` (a list); optional `note`, `links`, `highlight` (substrings to highlight, e.g. `["Bournemouth"]`), `movement` true (adds a Move column; `key` is the index of the team/player column, default 1), and `gap` true with `tag` for panels with nothing verified.
 
 ## Rules
 
-- Never invent a figure. Every number needs a source from the day's research, shown in `asof` and `source`.
+- Never invent a figure or a URL. Every number needs a source from the day's research, shown in `asof` and `source`.
 - If something cannot be verified, keep the panel and mark it `gap: true` with a clear note. Do not carry yesterday's table forward as if it were today's. If yesterday's figures are reused, say so in `asof`.
-- Dates and records change daily, so re-check every "as of" line, including text such as "after 4 games", "3-2-1" or "next decision".
+- Re-check every date and record in the text ("after 4 games", "3-2-1", "next decision"). Earlier text can be stale.
 - Economics content is general information, not financial advice.
-- Keep the primers (`n`) fresh in substance but they can stay the same from day to day unless the story changes.
 
-## Useful sources (public pages the research tools could read on 11 Oct 2026)
+## Links (every item that is news should have them)
+
+- Add 1 to 3 `links` per item to stories that are free to read without a subscription. Prefer: BBC, Guardian, CBC, CP24, Global News, CityNews, Al Jazeera, AP, France 24, RFI, Euronews, Public Sénat, official sites (leagues, clubs, central banks, governments, Provence Guide), Wikipedia, and local free-to-read outlets.
+- Avoid sites that usually paywall: FT, WSJ, Bloomberg, Telegraph, Times, Toronto Star, Globe and Mail, Le Monde, Le Figaro, La Provence and similar. If a search result or page shows a subscription or registration wall, drop that link.
+- Use only URLs that appeared in search results or that you opened and confirmed. If no free story can be found, leave `links` out. Do not guess a URL.
+- Local news: look for local outlets (for example for Toronto, Bournemouth, Windsor and the Vaucluse) and the town and tourism sites. Provence Guide lists real local events.
+- Community links (`community`): subreddit home pages (for example r/toronto, r/bournemouth, r/leafs). These are fixed links shown under a heading. Reddit posts themselves can be linked only if the URL appeared in search results.
+- X, Instagram and Facebook are usually behind login walls and the research tools cannot read them. Do not quote or link individual posts from them unless a search result shows the post text.
+
+## Research tool limits
+
+- WebSearch returns titles and URLs only. WebFetch can read a page only if its URL appeared in search results or was given by the user. Otherwise it asks for permission, and unattended runs get no answer, so the fetch fails.
+- Some sites block automated readers (for example some score sites). If a page cannot be read, mark the panel as not verified.
+
+## Useful sources (readable on 11 Oct 2026)
 
 - Premier League and Championship tables, results, fixtures: `footballwebpages.co.uk` (for example `/premier-league/YYYYMMDD`, `/championship/league-table`).
 - Ligue 1 table: `eurosport.fr/football/ligue-1/standing.shtml`.
-- ATP rankings: `atptour.com/en/rankings/singles`. WTA: `wtatennis.com/rankings/singles` (the page does not show a date, so cross-check).
+- ATP rankings: `atptour.com/en/rankings/singles`. WTA: `wtatennis.com/rankings/singles` (no date shown, so cross-check).
 - F1 standings: `directv.com/insider/f1-standings/` (check which race it is after) and racingnews365.com.
 - Maple Leafs record and schedule: `surprisesports.com/scores/nhl/team/maple-leafs-21/`.
-- Central banks: bankofcanada.ca, bankofengland.co.uk, federalreserve.gov. Provence events: provenceguide.com.
-- Some sites block automated readers. If a page cannot be read, mark the panel as not verified.
+- Central banks: bankofcanada.ca, bankofengland.co.uk, federalreserve.gov. Provence events: provenceguide.com. Toronto election: CP24 (`cp24.com`).
