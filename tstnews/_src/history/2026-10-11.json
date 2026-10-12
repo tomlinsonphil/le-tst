@@ -5,6 +5,124 @@
  "sport_note": "Tables show the last figures I could confirm, with their date and source. Panels marked \"Not verified today\" have no confirmed current data.",
  "sections": [
   {
+   "id": "headlines",
+   "title": "Headlines",
+   "short": "Headlines",
+   "kind": "papers",
+   "intro": "The front pages of the main newspapers, with one line on what leads. Sites marked \"may need a subscription\" often paywall their stories.",
+   "items": [],
+   "papers": [
+    {
+     "group": "France",
+     "name": "Le Monde",
+     "url": "https://www.lemonde.fr/",
+     "paywall": true
+    },
+    {
+     "group": "France",
+     "name": "Le Figaro",
+     "url": "https://www.lefigaro.fr/",
+     "paywall": true
+    },
+    {
+     "group": "Canada",
+     "name": "CP24 (Toronto)",
+     "url": "https://www.cp24.com/",
+     "paywall": false
+    },
+    {
+     "group": "Canada",
+     "name": "Toronto Star",
+     "url": "https://www.thestar.com/",
+     "paywall": true
+    },
+    {
+     "group": "USA",
+     "name": "New York Times",
+     "url": "https://www.nytimes.com/",
+     "paywall": true
+    },
+    {
+     "group": "USA",
+     "name": "Wall Street Journal",
+     "url": "https://www.wsj.com/",
+     "paywall": true
+    },
+    {
+     "group": "UK",
+     "name": "The Times",
+     "url": "https://www.thetimes.com/",
+     "paywall": true
+    },
+    {
+     "group": "UK",
+     "name": "The Guardian",
+     "url": "https://www.theguardian.com/uk",
+     "paywall": false
+    },
+    {
+     "group": "UK",
+     "name": "The Telegraph",
+     "url": "https://www.telegraph.co.uk/",
+     "paywall": true
+    },
+    {
+     "group": "UK",
+     "name": "Daily Mail",
+     "url": "https://www.dailymail.co.uk/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Toronto",
+     "name": "CityNews Toronto",
+     "url": "https://toronto.citynews.ca/",
+     "paywall": false
+    },
+    {
+     "group": "Local: London",
+     "name": "Evening Standard",
+     "url": "https://www.standard.co.uk/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Bournemouth",
+     "name": "Bournemouth Echo",
+     "url": "https://www.bournemouthecho.co.uk/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Wokingham",
+     "name": "Wokingham Today",
+     "url": "https://wokingham.today/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Windsor",
+     "name": "Windsor Observer",
+     "url": "https://www.windsorobserver.co.uk/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Sablet",
+     "name": "Provence Guide: Sablet events",
+     "url": "https://www.provenceguide.com/fetes-et-manifestations/mont-ventoux/vignobles-en-scene-balade-immersive-a-sablet/provence-7997124-1.html",
+     "paywall": false
+    },
+    {
+     "group": "Local: Vaison-la-Romaine",
+     "name": "L'Écho du Mardi (Vaucluse)",
+     "url": "https://www.echodumardi.com/",
+     "paywall": false
+    },
+    {
+     "group": "Local: Avignon",
+     "name": "L'Écho du Mardi (Vaucluse)",
+     "url": "https://www.echodumardi.com/",
+     "paywall": false
+    }
+   ]
+  },
+  {
    "id": "world",
    "items": [
     {

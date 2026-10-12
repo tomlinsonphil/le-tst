@@ -63,3 +63,7 @@ Do not edit generated HTML by hand. Older dated folders under `archive/` are lef
 
 - Top row: Today, World, France, Toronto, UK, Tech, Following, Economics, Archive. Second row: Sport, then one button per sport. Order is set in `masthead()` in build.py. The Economics section has no intro line.
 - Football result panels with `"highlights": true` get a "Highlights" link on every result written like `Team A 2–1 Team B`. It opens a YouTube search limited by the words "fubotvofficial" (the FuboTV channel that uploads highlights). Keep results in that format so links appear; set `highlights` on any new football results panel.
+
+## Headlines section
+
+- `sections[0]` is `headlines` (`kind: "papers"`, list `papers[]` with `group`, `name`, `url`, `paywall`). Each paper links to its front page. The research tools cannot read some of these sites (Guardian, Le Monde and others return SITE_BLOCKED), so a `headline` (and optional `desc`, `link` to the exact story) is added only when a search result or opened page confirms it that day. Otherwise the card says the headline was not captured. Never write a headline from memory. Drop stale `headline` values each day.

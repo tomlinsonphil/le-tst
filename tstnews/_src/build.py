@@ -162,7 +162,7 @@ def panel_html(p, prev_data):
 
 
 def masthead(data, prefix, current, archive_date, dates):
-    secs = [('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
+    secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money')]
     pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Archive', f'{BASE}/archive/', 'archive')]
     sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
     h = ['<header class="mast"><div>']
@@ -205,6 +205,22 @@ def home_page(data, prefix, archive_date, dates, prev_data):
     for sec in data['sections']:
         h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2>' + (f'<p class="intro">{esc(sec["intro"])}</p>' if sec.get("intro") else ''))
         h.append(community_html(sec.get('community')))
+        if sec.get('kind') == 'papers':
+            groups = []
+            for pp in sec['papers']:
+                if not groups or groups[-1][0] != pp['group']:
+                    groups.append((pp['group'], []))
+                groups[-1][1].append(pp)
+            for gname, lst in groups:
+                h.append(f'<h3 class="pgroup">{esc(gname)}</h3><div class="papers">')
+                for pp in lst:
+                    hd = pp.get('headline')
+                    body = (f'<b>{esc(hd)}</b>' + (f'<span>{esc(pp["desc"])}</span>' if pp.get('desc') else '')) if hd else '<span class="nohl">Headline not captured today. Open the front page.</span>'
+                    pw = '<em>may need a subscription</em>' if pp.get('paywall') else ''
+                    h.append(f'<a class="paper" href="{esc(pp.get("link") or pp["url"])}"><i>{esc(pp["name"])}</i>{body}{pw}</a>')
+                h.append('</div>')
+            h.append('</section>')
+            continue
         if sec.get('kind') == 'sportlinks':
             h.append('<ul class="tiles">' + ''.join(
                 f'<li><a href="{prefix}/{sp["id"]}/"><b>{esc(sp["title"])}</b><span>{esc(sp.get("summary", ""))}</span></a></li>' for sp in data['sports']) + '</ul></section>')
