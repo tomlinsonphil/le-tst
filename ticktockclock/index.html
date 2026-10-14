@@ -1,1 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tick Tock Clock</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@600;800&display=swap" rel="stylesheet">
+<style>
+html { color-scheme: light; }
+body { margin: 0; }
+/* Layout: big clock on the left, readout card on the right; stacks to one column on phones.
+   One committed bright look: hour = blue, minute = coral, used in the hands, digits and legend alike. */
+:root {
+  --sky: #E6F2FF;
+  --face: #FFFFFF;
+  --rim: #FFC63D;
+  --hour: #2D63F0;
+  --minute: #D62F45;
+  --ink: #1C2A4E;
+  --muted: #4F5F85;
+  --line: #B9CCE8;
+  --font-display: 'Baloo 2', ui-rounded, 'Arial Rounded MT Bold', system-ui, sans-serif;
+  --font-body: 'Nunito', ui-rounded, system-ui, sans-serif;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--sky);
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-weight: 600;
+  padding-block: 20px 32px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.wrap { max-width: 1000px; margin: 0 auto; display: grid; gap: 20px; }
+h1 { font-family: var(--font-display); font-weight: 800; font-size: clamp(28px, 5vw, 40px); line-height: 1.1; margin: 0; text-wrap: balance; }
+.hint { margin: 6px 0 0; font-size: 18px; color: var(--muted); max-width: 60ch; }
+.stage { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 24px; align-items: center; }
+@media (max-width: 760px) { .stage { grid-template-columns: minmax(0, 1fr); } }
 
+#clock { display: block; width: 100%; height: auto; max-width: 560px; aspect-ratio: 1; margin-inline: auto; touch-action: none; user-select: none; -webkit-user-select: none; }
+.hand { cursor: grab; outline: none; }
+.hand.dragging { cursor: grabbing; }
+.hand .knob { transition: r .12s; }
+.hand:hover .knob, .hand.dragging .knob { stroke: var(--ink); stroke-width: 4; }
+.hand:focus-visible .knob { stroke: var(--ink); stroke-width: 6; }
+
+.card { background: var(--face); border-radius: 28px; padding: 22px 24px; display: grid; gap: 14px; box-shadow: 0 6px 0 var(--line); min-width: 0; }
+.digital { display: flex; align-items: baseline; gap: 12px; font-family: var(--font-display); font-weight: 800; font-size: clamp(64px, 11vw, 112px); line-height: 1; font-variant-numeric: tabular-nums; flex-wrap: wrap; }
+.digital .h { color: var(--hour); }
+.digital .m { color: var(--minute); }
+.digital .colon { color: var(--ink); }
+.digital .ap { font-size: .32em; color: var(--ink); }
+.words { font-family: var(--font-display); font-weight: 600; font-size: clamp(24px, 3.4vw, 32px); line-height: 1.15; margin: 0; text-wrap: balance; }
+.legend { display: flex; flex-wrap: wrap; gap: 10px 18px; margin: 0; padding: 0; list-style: none; font-size: 17px; }
+.legend li { display: flex; align-items: center; gap: 8px; }
+.legend .bar { display: inline-block; border-radius: 99px; background: currentColor; }
+.legend .hr { color: var(--hour); }
+.legend .mn { color: var(--minute); }
+.legend span.t { color: var(--ink); }
+
+.row { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { font: 800 18px var(--font-body); color: var(--ink); background: var(--face); border: 3px solid var(--ink); border-radius: 999px; min-height: 52px; padding: 8px 20px; cursor: pointer; display: inline-flex; align-items: center; gap: 8px; }
+.btn:hover { background: var(--rim); }
+.btn:active { transform: translateY(2px); }
+.btn:focus-visible, input:focus-visible { outline: 4px solid var(--hour); outline-offset: 3px; }
+.btn svg { width: 24px; height: 24px; }
+.toggles { display: flex; flex-wrap: wrap; gap: 10px 24px; font-size: 18px; }
+.toggles label { display: inline-flex; align-items: center; gap: 10px; cursor: pointer; min-height: 40px; }
+.toggles input { width: 24px; height: 24px; accent-color: var(--hour); }
+</style>
+</head>
+<body>
+
+<main class="wrap">
+  <header>
+    <h1>Tick Tock Clock</h1>
+    <p class="hint">Drag the long red hand to change the minutes. Drag the short blue hand to change the hour.</p>
+  </header>
+
+  <section class="stage">
+    <svg id="clock" viewBox="-32 -32 464 464" role="group" aria-label="Clock face with draggable hour and minute hands">
+      <circle cx="200" cy="200" r="190" fill="var(--rim)"/>
+      <circle cx="200" cy="200" r="178" fill="var(--face)"/>
+      <g id="ticks"></g>
+      <g id="hourNums"></g>
+      <g id="minNums"></g>
+
+      <g id="minuteHand" class="hand" tabindex="0" role="slider" aria-label="Minute hand" aria-valuemin="0" aria-valuemax="59">
+        <line x1="200" y1="222" x2="200" y2="52" stroke="var(--minute)" stroke-width="9" stroke-linecap="round"/>
+        <circle class="knob" cx="200" cy="50" r="15" fill="var(--minute)" stroke="var(--face)" stroke-width="3"/>
+        <line x1="200" y1="210" x2="200" y2="30" stroke="rgba(0,0,0,0)" stroke-width="50" pointer-events="stroke"/>
+      </g>
+      <g id="hourHand" class="hand" tabindex="0" role="slider" aria-label="Hour hand" aria-valuemin="1" aria-valuemax="12">
+        <line x1="200" y1="216" x2="200" y2="116" stroke="var(--hour)" stroke-width="16" stroke-linecap="round"/>
+        <circle class="knob" cx="200" cy="112" r="18" fill="var(--hour)" stroke="var(--face)" stroke-width="3"/>
+        <line x1="200" y1="210" x2="200" y2="100" stroke="rgba(0,0,0,0)" stroke-width="54" pointer-events="stroke"/>
+      </g>
+      <circle cx="200" cy="200" r="11" fill="var(--ink)" pointer-events="none"/>
+    </svg>
+
+    <div class="card">
+      <div class="digital" aria-live="off">
+        <span><span class="h" id="dH">3</span><span class="colon">:</span><span class="m" id="dM">00</span></span>
+        <span class="ap" id="dAP">PM</span>
+      </div>
+      <p class="words" id="words">3 o'clock</p>
+      <ul class="legend">
+        <li class="hr"><span class="bar" style="width:14px;height:34px"></span><span class="t">Hour hand · short</span></li>
+        <li class="mn"><span class="bar" style="width:8px;height:34px"></span><span class="t">Minute hand · long</span></li>
+      </ul>
+      <div class="row">
+        <button class="btn" id="ampm" type="button" aria-label="Switch between AM and PM">
+          <svg id="icoSun" viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="4.5" fill="var(--rim)"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1"/></svg>
+          <svg id="icoMoon" viewBox="0 0 24 24" aria-hidden="true" fill="var(--rim)" stroke="currentColor" stroke-width="2.4" stroke-linejoin="round" hidden><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5z"/></svg>
+          <span id="ampmText">PM</span>
+        </button>
+        <button class="btn" id="nowBtn" type="button">Show the time now</button>
+        <button class="btn" id="sayBtn" type="button" hidden>Say it</button>
+      </div>
+      <div class="toggles">
+        <label for="snap5"><input type="checkbox" id="snap5" checked> Big steps (5 minutes)</label>
+        <label for="minLabels"><input type="checkbox" id="minLabels" checked> Minute numbers</label>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script>
+(function () {
+  var NS = 'http://www.w3.org/2000/svg', CX = 200, CY = 200;
+  function $(id) { return document.getElementById(id); }
+  function el(name, attrs, parent) {
+    var e = document.createElementNS(NS, name);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function pt(r, deg) {
+    var a = deg * Math.PI / 180;
+    return [CX + r * Math.sin(a), CY - r * Math.cos(a)];
+  }
+  function pad(n) { return (n < 10 ? '0' : '') + n; }
+
+  var svg = $('clock'), minuteHand = $('minuteHand'), hourHand = $('hourHand');
+  var snap5 = $('snap5'), minLabels = $('minLabels');
+  var state = { h: 3, m: 0, pm: true };
+
+  // Static face: tick marks, hour numbers, minute numbers around the rim
+  var ticks = $('ticks'), hourNums = $('hourNums'), minNums = $('minNums');
+  for (var i = 0; i < 60; i++) {
+    var major = i % 5 === 0, p1 = pt(172, i * 6), p2 = pt(major ? 160 : 166, i * 6);
+    el('line', { x1: p1[0], y1: p1[1], x2: p2[0], y2: p2[1], stroke: 'var(--ink)', 'stroke-width': major ? 4 : 2, 'stroke-linecap': 'round' }, ticks);
+  }
+  for (var n = 1; n <= 12; n++) {
+    var p = pt(124, n * 30);
+    var t = el('text', { x: p[0], y: p[1], dy: '.35em', 'text-anchor': 'middle', 'font-family': 'Baloo 2, ui-rounded, system-ui, sans-serif', 'font-weight': 800, 'font-size': 42, fill: 'var(--hour)' }, hourNums);
+    t.textContent = n;
+  }
+  for (var j = 1; j <= 12; j++) {
+    var q = pt(212, j * 30);
+    var tm = el('text', { x: q[0], y: q[1], dy: '.35em', 'text-anchor': 'middle', 'font-family': 'Nunito, ui-rounded, system-ui, sans-serif', 'font-weight': 800, 'font-size': 18, fill: 'var(--minute)' }, minNums);
+    tm.textContent = j * 5;
+  }
+
+  // State changes with carry between minutes, hours and AM/PM
+  function bumpHour(d) {
+    if ((d > 0 && state.h === 11) || (d < 0 && state.h === 0)) state.pm = !state.pm;
+    state.h = (state.h + d + 12) % 12;
+  }
+  function setMinute(n) {
+    n = ((n % 60) + 60) % 60;
+    var prev = state.m;
+    if (prev >= 45 && n <= 15) bumpHour(1);
+    else if (prev <= 15 && n >= 45) bumpHour(-1);
+    state.m = n;
+  }
+  function setHour(n) {
+    n = ((n % 12) + 12) % 12;
+    var prev = state.h;
+    if ((prev === 11 && n === 0) || (prev === 0 && n === 11)) state.pm = !state.pm;
+    state.h = n;
+  }
+
+  function hr12(h) { return h === 0 ? 12 : h; }
+  function wordsText() {
+    var h = hr12(state.h), nx = h % 12 + 1, m = state.m;
+    if (m === 0) return h + " o'clock";
+    if (m === 15) return 'quarter past ' + h;
+    if (m === 30) return 'half past ' + h;
+    if (m === 45) return 'quarter to ' + nx;
+    if (m < 30) return m + (m === 1 ? ' minute past ' : ' minutes past ') + h;
+    var r = 60 - m;
+    return r + (r === 1 ? ' minute to ' : ' minutes to ') + nx;
+  }
+
+  function render() {
+    minuteHand.setAttribute('transform', 'rotate(' + (state.m * 6) + ' ' + CX + ' ' + CY + ')');
+    hourHand.setAttribute('transform', 'rotate(' + (state.h * 30 + state.m * 0.5) + ' ' + CX + ' ' + CY + ')');
+    var h = hr12(state.h), ap = state.pm ? 'PM' : 'AM', w = wordsText();
+    $('dH').textContent = h;
+    $('dM').textContent = pad(state.m);
+    $('dAP').textContent = ap;
+    $('words').textContent = w;
+    $('ampmText').textContent = ap;
+    $('icoSun').hidden = state.pm;
+    $('icoMoon').hidden = !state.pm;
+    minuteHand.setAttribute('aria-valuenow', state.m);
+    minuteHand.setAttribute('aria-valuetext', state.m + ' minutes');
+    hourHand.setAttribute('aria-valuenow', h);
+    hourHand.setAttribute('aria-valuetext', h + ' o\'clock hour, ' + ap);
+  }
+
+  // Dragging
+  function angleFrom(e) {
+    var r = svg.getBoundingClientRect();
+    var dx = e.clientX - (r.left + r.width / 2), dy = e.clientY - (r.top + r.height / 2);
+    return (Math.atan2(dx, -dy) * 180 / Math.PI + 360) % 360;
+  }
+  function drag(handEl, kind) {
+    var active = false;
+    handEl.addEventListener('pointerdown', function (e) {
+      active = true;
+      handEl.classList.add('dragging');
+      try { handEl.setPointerCapture(e.pointerId); } catch (err) {}
+      handEl.focus({ preventScroll: true });
+      e.preventDefault();
+    });
+    handEl.addEventListener('pointermove', function (e) {
+      if (!active) return;
+      var a = angleFrom(e);
+      if (kind === 'minute') {
+        setMinute(snap5.checked ? (Math.round(a / 30) * 5) % 60 : Math.round(a / 6) % 60);
+      } else {
+        setHour(Math.round((a - 0.5 * state.m) / 30));
+      }
+      render();
+    });
+    function end() { active = false; handEl.classList.remove('dragging'); }
+    handEl.addEventListener('pointerup', end);
+    handEl.addEventListener('pointercancel', end);
+    handEl.addEventListener('lostpointercapture', end);
+    // Keyboard: arrow keys nudge the hand
+    handEl.addEventListener('keydown', function (e) {
+      var d = (e.key === 'ArrowRight' || e.key === 'ArrowUp') ? 1 : (e.key === 'ArrowLeft' || e.key === 'ArrowDown') ? -1 : 0;
+      if (!d) return;
+      e.preventDefault();
+      if (kind === 'minute') setMinute(state.m + d * (snap5.checked ? 5 : 1));
+      else setHour(state.h + d);
+      render();
+    });
+  }
+  drag(minuteHand, 'minute');
+  drag(hourHand, 'hour');
+
+  // Buttons and options
+  $('ampm').addEventListener('click', function () { state.pm = !state.pm; render(); });
+  function setNow() {
+    var d = new Date(), mm = d.getMinutes();
+    state.h = d.getHours() % 12;
+    state.pm = d.getHours() >= 12;
+    if (snap5.checked) mm = Math.round(mm / 5) * 5;
+    state.m = mm % 60;
+    if (mm === 60) bumpHour(1);
+    render();
+  }
+  $('nowBtn').addEventListener('click', setNow);
+  minLabels.addEventListener('change', function () { minNums.toggleAttribute('hidden', !minLabels.checked); });
+  snap5.addEventListener('change', function () {
+    if (snap5.checked) {
+      var mm = Math.round(state.m / 5) * 5;
+      state.m = mm % 60;
+      if (mm === 60) bumpHour(1);
+      render();
+    }
+  });
+  if ('speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined') {
+    $('sayBtn').hidden = false;
+    $('sayBtn').addEventListener('click', function () {
+      try {
+        window.speechSynthesis.cancel();
+        var u = new SpeechSynthesisUtterance("It's " + wordsText());
+        u.rate = 0.85;
+        window.speechSynthesis.speak(u);
+      } catch (err) {}
+    });
+  }
+
+  setNow();
+})();
+</script>
+</body>
+</html>
