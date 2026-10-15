@@ -123,3 +123,11 @@ nav.pages a[aria-current="page"]:hover{background:var(--ink);border-color:var(--
 nav.pages.top{padding-block:7px}
 nav.pages.top+nav.pages{gap:5px}
 section.sec{scroll-margin-top:60px}
+
+details.syn{display:inline-block;margin-left:6px;vertical-align:baseline}
+details.syn>summary{cursor:pointer;list-style:none;display:inline-flex;align-items:center;gap:3px;font-family:var(--f-mono);font-size:.68rem;color:var(--muted);border:1px solid var(--line);border-radius:3px;padding:0 6px}
+details.syn>summary::-webkit-details-marker{display:none}
+details.syn>summary::after{content:"\25BE";font-size:.8rem}
+details.syn[open]>summary::after{content:"\25B4"}
+details.syn>p{display:block;margin:6px 0 4px;padding:8px 10px;background:var(--surface);border-left:3px solid var(--a3);border-radius:3px;color:var(--ink);font-size:.9rem;line-height:1.45}
+details.syn[open]{display:block;margin-left:0}

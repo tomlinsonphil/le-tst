@@ -97,3 +97,7 @@ Following now includes Elon Musk, Marques Brownlee, Joe Rogan, Jimmy Carr, Ross 
 ## Menu
 
 Top row (sticky): Today, Headlines, World, France, Toronto, UK, Tech, Following, Economics, Sport, Quiz, Archive. A second row (Sport plus one button per sport) scrolls away. The round section chips on Today were removed. Menu code is `masthead()` in build.py.
+
+## Link synopses (toggle)
+
+Any link in a card's `links` or any Headlines feed item may carry an optional `syn` (1 to 2 sentences, max about 45 words, neutral, written only from the page actually read). build.py shows a small "Synopsis ▾" toggle after the link that reveals it. No `syn` means no toggle. Never write a synopsis for a page you could not read; skipping is fine. Synopses are written fresh for each day's new links; older links keep theirs.

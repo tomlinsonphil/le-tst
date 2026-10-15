@@ -57,11 +57,18 @@ def find_panel(data, title):
     return None
 
 
+def syn_html(o):
+    t = o.get('syn')
+    if not t:
+        return ''
+    return f'<details class="syn"><summary aria-label="Show or hide a short synopsis"><span>Synopsis</span></summary><p>{esc(t)}</p></details>'
+
+
 def links_html(links, label='Read more (free to read)'):
     if not links:
         return ''
     return (f'<div class="links"><h4>{esc(label)}</h4><ul>' + ''.join(
-        f'<li><a href="{esc(l["url"])}" target="_blank" rel="noopener">{esc(l["text"])}</a></li>' for l in links) + '</ul></div>')
+        f'<li><a href="{esc(l["url"])}" target="_blank" rel="noopener">{esc(l["text"])}</a>{syn_html(l)}</li>' for l in links) + '</ul></div>')
 
 
 def community_html(links):
@@ -224,7 +231,7 @@ def home_page(data, prefix, archive_date, dates, prev_data):
             h.append('<div class="feeds">')
             for g in sec['feeds']:
                 h.append(f'<section class="feed"><h3><a href="{esc(g["url"])}">{esc(g["name"])}</a></h3><ul>' + ''.join(
-                    f'<li><a href="{esc(i["url"])}">{esc(i["t"])}</a> <span>{esc(i.get("when", ""))}</span></li>' for i in g['items']) + '</ul></section>')
+                    f'<li><a href="{esc(i["url"])}">{esc(i["t"])}</a> <span>{esc(i.get("when", ""))}</span>{syn_html(i)}</li>' for i in g['items']) + '</ul></section>')
             h.append('</div></section>')
             continue
         if sec.get('kind') == 'sportlinks':

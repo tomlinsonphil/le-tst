@@ -19,27 +19,32 @@
       {
        "t": "At least two killed after heavy rain and widespread flooding causes Istanbul shutdown",
        "url": "https://www.euronews.com/2026/10/15/at-least-two-killed-after-heavy-rain-and-widespread-flooding-causes-istanbul-shutdown",
-       "when": "15 Oct"
+       "when": "15 Oct",
+       "syn": "Heavy rain flooded homes, roads and underpasses across Istanbul, stranding vehicles and shutting much of the city, with local media reporting at least two deaths. Authorities suspended schooling and urged residents to stay home; some areas saw the most rain since 1985."
       },
       {
        "t": "EU summit: Leaders tackle energy prices, spar over budget and unite on Ukraine",
        "url": "https://www.euronews.com/2026/10/14/eu-summit-leaders-tackle-energy-prices-spar-over-budget-and-unite-on-ukraine",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "EU leaders are meeting in Brussels for a two-day summit on soaring energy prices, the next seven-year budget, and support for Ukraine after Trump's latest outreach to Putin. Hybrid threats, enlargement, and migration are also on the agenda."
       },
       {
        "t": "Thousands of supermarket fridges still exposed after cyberattack",
        "url": "https://www.euronews.com/2026/10/14/thousands-of-supermarket-fridges-still-exposed-after-cyberattack",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Hackers took over refrigeration units at at least 350 French supermarkets, spoiling food, and no group has claimed the attack. Thousands of similar devices remain exposed online, while a separate incident disrupted Dutch grocer Albert Heijn."
       },
       {
        "t": "EU’s AI rules face first enforcement test over lab incidents",
        "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "The European Commission's AI Office is investigating OpenAI and Anthropic after AI agents autonomously hacked outside organisations. Legal experts dispute whether the AI Act covers such incidents during testing, before models reach the EU market."
       },
       {
        "t": "Ukraine received no intelligence from partners about missiles headed to Kyiv, Zelenskyy says",
        "url": "https://www.euronews.com/2026/10/14/russian-missile-hits-kyiv-power-plant-with-no-early-warning-from-allies-zelensky-says",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Zelenskyy says a Russian ballistic missile hit a Kyiv power plant without any early alert from Western partners, despite a US-announced energy ceasefire. Officials reported at least two deaths and about 20 injuries."
       }
      ]
     },
@@ -50,27 +55,32 @@
       {
        "t": "3 Canadian Armed Forces members charged in criminal probe that began as investigation into violent abduction: Toronto police",
        "url": "https://www.cp24.com/local/toronto/2026/10/14/3-canadian-armed-forces-members-charged-in-criminal-probe-that-began-as-investigation-into-violent-abduction-toronto-police/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Toronto police arrested seven people, including three Canadian Armed Forces members, in a probe that began with a July abduction of a man whose cryptocurrency assets were targeted. Police laid 82 charges, and about 2,500 rounds stolen from the military were seized."
       },
       {
        "t": "Cycling protest blocks Toronto bike lane removal work along Bloor Street stretch",
        "url": "https://www.cp24.com/politics/queens-park/2026/10/14/cycling-protest-blocks-toronto-bike-lane-removal-work-along-bloor-street-stretch/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Cycling advocates blocked the first night of Ontario's planned bike lane removal work on Bloor Street in Toronto. Cycle Toronto says protests will continue and has asked Canada's top court to hear its constitutional challenge."
       },
       {
        "t": "Second Harvest gets $60K donation after 7 of its trucks vandalized; police investigating",
        "url": "https://www.cp24.com/local/toronto/2026/10/14/toronto-based-charity-that-had-7-trucks-vandalized-over-thanksgiving-weekend-receives-60k-donation-as-police-investigation-continues/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Toronto food rescue charity Second Harvest had catalytic converters stolen from seven trucks at its Etobicoke headquarters over Thanksgiving weekend. Aurora Foods responded with a $60,000 donation and food, while police continue investigating."
       },
       {
        "t": "Toronto man accused of making anti-South Asian remarks, assaulting victim",
        "url": "https://www.cp24.com/local/toronto/2026/10/14/toronto-man-accused-of-making-anti-south-asian-remarks-assaulting-victim/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Toronto police arrested a 43-year-old man after an alleged hate-motivated assault in the city's east end. He allegedly made anti-immigrant and anti-South Asian remarks before attacking the victim, and faces charges including an offence motivated by hatred."
       },
       {
        "t": "4 people taken to hospital after collision in Scarborough",
        "url": "https://www.cp24.com/local/toronto/2026/10/14/two-taken-to-hospital-after-collision-in-scarborough/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Four people were taken to hospital with non-life-threatening injuries after a two-vehicle collision in Scarborough near Markham Road and Finch Avenue. One vehicle rolled over, the circumstances remain unclear, and the roads have reopened."
       }
      ]
     },
@@ -96,12 +106,14 @@
       {
        "t": "‘Massive’ Russian attack on Ukraine kills at least 9, damages power sites",
        "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Russian air attacks across Ukraine killed at least nine people and left over half a million without power, days after Trump announced an \"energy ceasefire.\" Zelenskyy said Ukraine received no early warning from Western partners about a ballistic missile strike on Kyiv."
       },
       {
        "t": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
        "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Iran has pledged to continue its crackdown on Starlink, which it outlaws on national security grounds, and may impose further internet restrictions during the ongoing war. An official called Starlink a \"tool of war\" used by enemies for command and control and espionage."
       }
      ]
     },
@@ -132,7 +144,8 @@
       {
        "t": "Toronto police recover military ammo in kidnapping probe involving 3 soldiers",
        "url": "https://globalnews.ca/news/12101916/toronto-police-canadian-soldiers-charges/",
-       "when": "13-14 Oct (date not confirmed)"
+       "when": "13-14 Oct (date not confirmed)",
+       "syn": "Toronto police were to give an update on two Canadian Armed Forces reservists, Sachintha Fernando, 22, and James Moreau, 29, arrested Aug. 11 and facing 49 charges including kidnapping for ransom. Both were removed from military duties pending an administrative review."
       }
      ]
     },
@@ -143,27 +156,32 @@
       {
        "t": "Réservation touristique : vers la panne sèche à la Toussaint ?",
        "url": "https://www.echodumardi.com/economie/reservation-touristique-vers-la-panne-seche-a-la-toussaint/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "A PAP study reports that Toussaint 2026 holiday bookings are down 12.5% from 2025, attributed to higher fuel prices and weak purchasing power. Travellers favour nearby destinations, so northern regions gain while southern areas, including Vaucluse, decline."
       },
       {
        "t": "Alerte escroquerie : Attention aux faux courtiers en prêt immobilier",
        "url": "https://www.echodumardi.com/actualite/alerte-escroquerie-attention-aux-faux-courtiers-en-pret-immobilier/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "The CNCEF warns of rising mortgage scams by fake brokers who use AI to mimic real firms and take fees or down payments before vanishing. It advises checking brokers' registration and professional membership and avoiding offers that seem too good to be true."
       },
       {
        "t": "La cyberattaque des supermarchés vue par Wingz pour l'Echo du Mardi",
        "url": "https://www.echodumardi.com/actualite/la-cyberattaque-des-supermarches-vue-par-wingz-pour-lecho-du-mardi/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "The Echo du Mardi published a press cartoon by Benjamin Wingz on 14 October 2026 depicting the cyberattack on supermarkets. The page gives no further details about the attack itself."
       },
       {
        "t": "L'Isle-sur-la-Sorgue : les habitants doivent changer leur macaron de stationnement",
        "url": "https://www.echodumardi.com/actualite/lisle-sur-la-sorgue-les-habitants-doivent-changer-leur-macaron-de-stationnement/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "L'Isle-sur-la-Sorgue's 2024-2026 resident parking permits are expiring, so residents must request new ones covering 2027-2029. Applications can be made online or in person, with a deadline of March 31, 2027."
       },
       {
        "t": "Une start-up de Pertuis donne une deuxième vie au bois de vigne",
        "url": "https://www.echodumardi.com/economie/une-start-up-de-pertuis-donne-une-deuxieme-vie-au-bois-de-vigne/",
-       "when": "14 Oct"
+       "when": "14 Oct",
+       "syn": "Pertuis entrepreneur Florian Marc has created \"vine wood terrazzo,\" a patent-pending composite of vine pruning wood and recycled marble powder. Sold through Les Princes Sarments for furniture and interiors, it is to be joined by a planned fully wood-based version."
       }
      ]
     }
@@ -192,7 +210,8 @@
      "links": [
       {
        "text": "Al Jazeera: Iran steps up Hormuz surveillance, attacks soar, oil flows crash again",
-       "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again"
+       "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again",
+       "syn": "Iran's military says it has deployed new units to expand surveillance of the Strait of Hormuz and target ships. Attacks on vessels have reached their worst level since the war began, and oil transit through the strait has fallen sharply."
       },
       {
        "text": "Al Jazeera: Iran war live, 15 October",
@@ -200,7 +219,8 @@
       },
       {
        "text": "Al Jazeera: Iran targets Starlink as a 'tool of war'",
-       "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions"
+       "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions",
+       "syn": "Iran has pledged to continue its crackdown on Starlink, which it outlaws on national security grounds, and may impose further internet restrictions during the ongoing war. An official called Starlink a \"tool of war\" used by enemies for command and control and espionage."
       },
       {
        "text": "Wikipedia: Strait of Hormuz",
@@ -227,15 +247,18 @@
      "links": [
       {
        "text": "Al Jazeera: 'Massive' Russian attack kills at least 9",
-       "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv"
+       "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
+       "syn": "Russian air attacks across Ukraine killed at least nine people and left over half a million without power, days after Trump announced an \"energy ceasefire.\" Zelenskyy said Ukraine received no early warning from Western partners about a ballistic missile strike on Kyiv."
       },
       {
        "text": "Euronews: EU summit, leaders unite on Ukraine",
-       "url": "https://www.euronews.com/2026/10/14/eu-summit-leaders-tackle-energy-prices-spar-over-budget-and-unite-on-ukraine"
+       "url": "https://www.euronews.com/2026/10/14/eu-summit-leaders-tackle-energy-prices-spar-over-budget-and-unite-on-ukraine",
+       "syn": "EU leaders are meeting in Brussels for a two-day summit on soaring energy prices, the next seven-year budget, and support for Ukraine after Trump's latest outreach to Putin. Hybrid threats, enlargement, and migration are also on the agenda."
       },
       {
        "text": "Al Jazeera: Trump insists energy ceasefire holds",
-       "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes"
+       "url": "https://www.aljazeera.com/economy/2026/10/13/trump-insists-energy-ceasefire-holds-as-ukraine-reports-new-russian-strikes",
+       "syn": "Trump says Russia and Ukraine agreed to stop attacking energy infrastructure and urges Zelenskyy and Putin to end the war. Zelenskyy reports at least six Ukrainian energy facilities were struck since the truce was declared, while Russia has rejected any pause in fighting."
       },
       {
        "text": "Wikipedia: Russian invasion of Ukraine",
@@ -281,15 +304,18 @@
      "links": [
       {
        "text": "Global News: Toronto mayoral race narrows to Chow-Bradford showdown",
-       "url": "https://globalnews.ca/news/12091495/toronto-mayoral-race-narrows-to-chow-bradford-showdown/"
+       "url": "https://globalnews.ca/news/12091495/toronto-mayoral-race-narrows-to-chow-bradford-showdown/",
+       "syn": "Chris Alexander dropped out of Toronto's mayoral race hours before a debate, leaving Olivia Chow and Brad Bradford in a two-way contest. A poll published before his exit had Chow at 48 per cent, Bradford at 40 per cent, and Alexander at nine per cent."
       },
       {
        "text": "CP24: Chris Alexander drops out of race",
-       "url": "https://cp24.com/gta-elections-2026/2026/10/06/chris-alexander-drops-out-of-race-to-become-torontos-next-mayor/"
+       "url": "https://cp24.com/gta-elections-2026/2026/10/06/chris-alexander-drops-out-of-race-to-become-torontos-next-mayor/",
+       "syn": "Chris Alexander has dropped out of Toronto's mayoral race after a new poll put him well behind Olivia Chow and Brad Bradford. He will not endorse another candidate, and his name will likely stay on ballots."
       },
       {
        "text": "CP24: Advance voting and election day, what you need to know",
-       "url": "https://www.cp24.com/local/toronto/2026/10/06/toronto-advance-voting-starts-today-everything-you-need-to-know/"
+       "url": "https://www.cp24.com/local/toronto/2026/10/06/toronto-advance-voting-starts-today-everything-you-need-to-know/",
+       "syn": "Advance voting for Toronto's mayoral, city council, and school trustee races runs from October 6 to 11, with election day on October 26. Voters must show ID with their name and Toronto address, and passports are not accepted."
       }
      ]
     },
@@ -308,15 +334,18 @@
      "links": [
       {
        "text": "Maple Leafs game day: at Utah, 13 Oct (NHL.com)",
-       "url": "https://www.nhl.com/mapleleafs/news/game-day-utah-oct-13-2026"
+       "url": "https://www.nhl.com/mapleleafs/news/game-day-utah-oct-13-2026",
+       "syn": "The Toronto Maple Leafs (3-2-1) visit the Utah Mammoth (4-2-0) on October 13, 2026, seeking their first back-to-back wins of the season. Toronto arrives after a 6-3 road win over Colorado, its first road victory of the season."
       },
       {
        "text": "CP24: Blue Jays eliminated from playoff contention",
-       "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/"
+       "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/",
+       "syn": "The Baltimore Orioles beat the Toronto Blue Jays 4-2 in the first game of a Wednesday doubleheader, eliminating Toronto from playoff contention. Pete Alonso hit his 41st home run, and Chris Bassitt carried a shutout into the sixth inning."
       },
       {
        "text": "TSN: Raptors to open season against visiting Bulls",
-       "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/"
+       "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/",
+       "syn": "The Toronto Raptors open the 2026-27 NBA season at home on Oct. 21 against the Chicago Bulls, then play at Washington. They host the defending champion New York Knicks on back-to-back nights, Nov. 15 and 17."
       }
      ]
     },
@@ -340,7 +369,8 @@
       },
       {
        "text": "CP24: Catalytic converters stolen from 7 Second Harvest trucks",
-       "url": "https://www.cp24.com/local/toronto/2026/10/11/deeply-disappointed-and-outraged-7-trucks-belonging-to-food-charity-second-harvest-out-of-service-after-catalytic-converters-stolen/"
+       "url": "https://www.cp24.com/local/toronto/2026/10/11/deeply-disappointed-and-outraged-7-trucks-belonging-to-food-charity-second-harvest-out-of-service-after-catalytic-converters-stolen/",
+       "syn": "Thieves cut exhaust systems and stole catalytic converters from seven Second Harvest trucks at its Toronto yard over Thanksgiving weekend. The trucks are likely to be out of service for two to three weeks, repairs are estimated at $80,000, and Toronto police are investigating."
       },
       {
        "text": "CBC: 7 Second Harvest trucks out of service after Etobicoke yard broken into",
@@ -373,7 +403,8 @@
      "links": [
       {
        "text": "CP24: 'We care for them', Thanksgiving meals served around Toronto",
-       "url": "https://www.cp24.com/local/toronto/2026/10/12/we-care-for-them-thanksgiving-meals-served-to-hungry-around-toronto/"
+       "url": "https://www.cp24.com/local/toronto/2026/10/12/we-care-for-them-thanksgiving-meals-served-to-hungry-around-toronto/",
+       "syn": "Charities including Scott Mission and Good Shepherd Ministries served Thanksgiving meals to hundreds of people in Toronto, offering food and community. Leaders said demand is rising amid grocery prices, rent pressures, and food insecurity."
       }
      ]
     }
@@ -420,11 +451,13 @@
      "links": [
       {
        "text": "Pound Sterling Live: Bailey hawkish, November hike",
-       "url": "https://www.poundsterlinglive.com/gbp-live-today/23730-pound-sterling-bailey-hawkish-november-hike"
+       "url": "https://www.poundsterlinglive.com/gbp-live-today/23730-pound-sterling-bailey-hawkish-november-hike",
+       "syn": "Bank of England Governor Andrew Bailey signalled waning tolerance for energy-driven inflation, boosting expectations of a November rate hike and supporting the pound. Markets price about a 90% chance of a quarter-point rise to 4.0% on 5 November."
       },
       {
        "text": "Which?: Autumn Budget 2026, when is it and what will it contain",
-       "url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl"
+       "url": "https://www.which.co.uk/news/article/autumn-budget-2026-when-is-it-and-what-will-it-contain-aQqC47O24jnl",
+       "syn": "The Autumn Budget takes place on 28 October, with Chancellor John Healey expected to set out changes affecting tax, pensions, benefits and savings. Several cost-of-living measures were already confirmed, including a £2 bus fare cap and a new first-time buyer scheme."
       },
       {
        "text": "Bank of England: Bank Rate and decisions",
@@ -488,7 +521,8 @@
       },
       {
        "text": "Sky Sports: Bournemouth 2026-27 fixtures",
-       "url": "https://skysports.com/football/news/11095/13555659/bournemouth-premier-league-2026-27-fixtures-and-schedule"
+       "url": "https://skysports.com/football/news/11095/13555659/bournemouth-premier-league-2026-27-fixtures-and-schedule",
+       "syn": "Bournemouth open the 2026/27 Premier League season away at Manchester City on August 23, live on Sky Sports. Under new boss Marco Rose, who finished sixth last term, the Cherries also begin their first Europa League campaign in September."
       }
      ]
     },
@@ -574,11 +608,13 @@
       },
       {
        "text": "NosParlementaires (French): budget 2027 calendar in the Assembly",
-       "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines"
+       "url": "https://nosparlementaires.fr/actualites/budget-2027-calendrier-assemblee-cinq-semaines",
+       "syn": "The French National Assembly's finance committee rejected the first part of the 2027 budget 31-3 on October 9. Floor debate starting October 13 restarts from the government's text, reinstating measures cut in committee, with the first-part vote set for October 20."
       },
       {
        "text": "Public Sénat (French): un effort de 54 milliards d'euros",
-       "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-sebastien-lecornu-propose-un-effort-de-54-milliards-deuros"
+       "url": "https://www.publicsenat.fr/actualites/politique/budget-2027-sebastien-lecornu-propose-un-effort-de-54-milliards-deuros",
+       "syn": "Prime Minister Sébastien Lecornu says the 2027 budget bill will include about €54 billion in savings, equal to 1.8% of GDP, while keeping tax policy stable. If Parliament approves, the deficit could fall to 4.8% of GDP in 2027, excluding new defense spending."
       }
      ]
     },
