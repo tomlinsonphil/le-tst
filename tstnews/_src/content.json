@@ -766,7 +766,8 @@
      "links": [
       {
        "text": "The Hans India: upcoming AI updates in October 2026",
-       "url": "https://www.thehansindia.com/tech/upcoming-ai-updates-in-october-2026-major-developments-to-watch-1127036"
+       "url": "https://www.thehansindia.com/tech/upcoming-ai-updates-in-october-2026-major-developments-to-watch-1127036",
+       "syn": "Hans India previews possible October 2026 AI developments, including Apple's Siri expansion, Google's Gemini 4, Meta's agent plans and OpenAI's reportedly halted GPT-6.1 Astra. Many items remain unconfirmed."
       },
       {
        "text": "Wikipedia: Foldable smartphone",
@@ -801,7 +802,8 @@
      "links": [
       {
        "text": "Electrek: Tesla Q3 2026 deliveries 486,532",
-       "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/"
+       "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/",
+       "syn": "Electrek reports Tesla delivered 486,532 vehicles in Q3 2026, down about 2% year over year but roughly 25,000 above analyst consensus. Energy storage deployments of 13.7 GWh fell short of expectations."
       },
       {
        "text": "Hudson Labs: Tesla Q3 2026 earnings preview",
@@ -850,15 +852,18 @@
      "links": [
       {
        "text": "Lets Data Science: Musk says SpaceXAI will be renamed SpaceXSI",
-       "url": "https://letsdatascience.com/news/elon-musk-says-spacexai-will-become-spacexsi-640c22da"
+       "url": "https://letsdatascience.com/news/elon-musk-says-spacexai-will-become-spacexsi-640c22da",
+       "syn": "Elon Musk said in an X reply that SpaceXAI will be renamed SpaceXSI. No timeline or implementation details were given, so it is a stated plan rather than a completed change."
       },
       {
        "text": "24/7 Wall St: Did SpaceX AI revenue pass everything else?",
-       "url": "https://247wallst.com/investing/2026/10/03/elon-musk-said-spacex-ai-revenue-would-pass-everything-else-by-september-did-it/"
+       "url": "https://247wallst.com/investing/2026/10/03/elon-musk-said-spacex-ai-revenue-would-pass-everything-else-by-september-did-it/",
+       "syn": "Musk told SpaceX staff in August that AI revenue would overtake the rest of the business by September. Q2 AI revenue was $2.56B versus $5.25B from other segments; Q3 filings should settle the question."
       },
       {
        "text": "Engadget: SpaceXAI launches Grok 4.5",
-       "url": "https://engadget.com/2211260/spacex-ai-grok-4-5-cursor"
+       "url": "https://engadget.com/2211260/spacex-ai-grok-4-5-cursor",
+       "syn": "SpaceXAI released Grok 4.5, its first model trained with Cursor and first since rebranding from xAI. It powers the Grok Build coding agent and costs $2 per million input tokens."
       }
      ]
     },
@@ -876,7 +881,8 @@
      "links": [
       {
        "text": "SamMobile fans: MKBHD Galaxy Z Fold 8 review",
-       "url": "https://www.sammyfans.com/2026/08/01/mkbhd-galaxy-z-fold-8-review/"
+       "url": "https://www.sammyfans.com/2026/08/01/mkbhd-galaxy-z-fold-8-review/",
+       "syn": "Marques Brownlee's Galaxy Z Fold 8 review praises the compact outer screen, hinge and battery life, but flags app scaling issues, unbalanced speakers and the lack of a telephoto lens."
       },
       {
        "text": "MKBHD on YouTube",
@@ -942,11 +948,13 @@
      "links": [
       {
        "text": "220 Triathlon: Ross Edgley completes Iceland swim",
-       "url": "https://www.220triathlon.com/news/ross-edgley-completes-icelandic-swim"
+       "url": "https://www.220triathlon.com/news/ross-edgley-completes-icelandic-swim",
+       "syn": "Ross Edgley completed a record-breaking 1,610km swim around Iceland, supported by a yacht, while collecting samples for climate research. A Channel 4 documentary, The Great Icelandic Swim, premieres 7 February."
       },
       {
        "text": "Advnture: Edgley completes his \"toughest and most ambitious challenge\"",
-       "url": "https://www.advnture.com/water-sports/record-breaker-ross-edgley-completes-his-toughest-and-most-ambitious-challenge-by-swimming-1-000-miles-around-iceland"
+       "url": "https://www.advnture.com/water-sports/record-breaker-ross-edgley-completes-his-toughest-and-most-ambitious-challenge-by-swimming-1-000-miles-around-iceland",
+       "syn": "British swimmer Ross Edgley became the first person to swim around Iceland's entire coastline, covering over 1,000 miles since May through storms, currents and cold. He finished at Reykjavik's Nautholsvik Beach on 8 September."
       }
      ]
     },
@@ -973,7 +981,8 @@
       },
       {
        "text": "Brian Cox announces Emergence world tour (Newsletter)",
-       "url": "https://www.newsletter.co.uk/arts-and-culture/professor-brian-cox-announces-emergence-world-tour-2026-5337939"
+       "url": "https://www.newsletter.co.uk/arts-and-culture/professor-brian-cox-announces-emergence-world-tour-2026-5337939",
+       "syn": "Professor Brian Cox announced his Emergence tour, following Horizons, including Belfast's SSE Arena on 13 November 2026. The show mixes science, music and history on large LED screens."
       }
      ]
     },
@@ -993,15 +1002,18 @@
      "links": [
       {
        "text": "Spaceflight Now: SpaceX launches NASA science and cargo to the station",
-       "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/"
+       "url": "https://spaceflightnow.com/2026/10/13/spacex-launches-nasa-science-and-cargo-to-the-international-space-station/",
+       "syn": "SpaceX's Falcon 9 launched NASA's CRS-35 cargo mission from Cape Canaveral on October 13. It carries over 6,300 pounds of science and supplies, plus the final pair of Redwire-built solar arrays for the station."
       },
       {
        "text": "Spaceflight Now: 27 Starlink satellites from California",
-       "url": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/"
+       "url": "https://spaceflightnow.com/2026/10/12/spacex-falcon-9-rocket-to-launch-27-starlink-satellites-into-orbit-from-california/",
+       "syn": "SpaceX launched 27 Starlink V2 Mini satellites on a Falcon 9 from Vandenberg Space Force Base, California. The first-stage booster, on its 20th flight, landed on a drone ship."
       },
       {
        "text": "Spaceflight Now: Starship returns to Earth",
-       "url": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/"
+       "url": "https://spaceflightnow.com/2026/09/28/starship-returns-to-earth-rocket-splashes-down-north-of-hawaii-after-three-hour-flight/",
+       "syn": "SpaceX's Starship Flight 14 reached orbit despite one engine shutting down early. It deployed 26 Starlink satellites, then splashed down in the Pacific north of Hawaii after about three hours."
       }
      ]
     },
@@ -1021,15 +1033,18 @@
      "links": [
       {
        "text": "NASA: CRS-35 mission to launch health research",
-       "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/"
+       "url": "https://science.nasa.gov/missions/station/nasas-spacex-crs-35-mission-to-launch-health-research/",
+       "syn": "NASA experiments on human and plant health and drug-resistant organisms will reach the International Space Station on SpaceX's 35th resupply mission, covering brain tissue models, disease-resistant crops, rapid health testing and antibiotic-resistant bacteria."
       },
       {
        "text": "NASA: Perseverance sets off-world distance record",
-       "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/"
+       "url": "https://science.nasa.gov/blogs/perseverance-mars-rover/2026/10/12/nasas-perseverance-sets-off-world-record-for-total-distance-driven/",
+       "syn": "NASA's Perseverance rover surpassed Opportunity's record for distance driven on another world, reaching 28.10 miles (45.22 km) on Oct. 11. Its AutoNav system helps it travel toward Lac de Charmes."
       },
       {
        "text": "NASA: Artemis II lunar science data and images",
-       "url": "https://www.nasa.gov/blogs/missions/2026/10/07/nasa-releases-artemis-ii-lunar-science-data-images/"
+       "url": "https://www.nasa.gov/blogs/missions/2026/10/07/nasa-releases-artemis-ii-lunar-science-data-images/",
+       "syn": "NASA is releasing over 800 GB of Artemis II lunar science data, including more than 11,000 images and videos and 8.5 hours of crew audio, added to its public Planetary Data System archive."
       }
      ]
     },
@@ -1096,7 +1111,8 @@
      "links": [
       {
        "text": "Canadian Mortgage Professional: rate-hike calls gather pace ahead of October BoC decision",
-       "url": "https://www.mpamag.com/ca/mortgage-industry/industry-trends/rate-hike-calls-gather-pace-ahead-of-october-boc-decision/592150"
+       "url": "https://www.mpamag.com/ca/mortgage-industry/industry-trends/rate-hike-calls-gather-pace-ahead-of-october-boc-decision/592150",
+       "syn": "Several forecasters, including UBS, Manulife and Oxford Economics, now expect Bank of Canada rate hikes in October as inflation sits above target. RBC still expects holds before a 2027 hiking cycle."
       },
       {
        "text": "BNN Bloomberg: S&P/TSX composite, 2 Oct",
@@ -1129,7 +1145,8 @@
      "links": [
       {
        "text": "Kiplinger: September CPI report",
-       "url": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect"
+       "url": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect",
+       "syn": "Kiplinger reports September CPI rose 0.6% monthly and 3.7% annually, above expectations, driven mostly by gasoline. Core CPI rose 2.6% annually. Economists debate whether the Fed will hike at its October 28 meeting."
       },
       {
        "text": "Federal Reserve: monetary policy",
@@ -1154,15 +1171,18 @@
      "links": [
       {
        "text": "Kitco: Goldman Sachs sees BoE rate hike in November",
-       "url": "https://www.kitco.com/news/off-the-wire/2026-09-14/goldman-sachs-sees-boe-rate-hike-november-amid-inflation-concerns"
+       "url": "https://www.kitco.com/news/off-the-wire/2026-09-14/goldman-sachs-sees-boe-rate-hike-november-amid-inflation-concerns",
+       "syn": "Goldman Sachs expects a 25-basis-point Bank of England rate hike in November 2026, citing persistent inflation and solid growth, while still expecting a hold at 3.75% at the September 17 meeting."
       },
       {
        "text": "Nation Thailand: ECB raises deposit rate to 2.50%",
-       "url": "https://www.nationthailand.com/news/world/40070896"
+       "url": "https://www.nationthailand.com/news/world/40070896",
+       "syn": "The European Central Bank raised its deposit rate by 0.25 points to 2.50%, citing energy-driven inflation tied to Middle East disruptions. Markets anticipate further hikes by April 2027."
       },
       {
        "text": "Trading Economics: French bond yields ease",
-       "url": "https://tradingeconomics.com/france/government-bond-yield/news/591446"
+       "url": "https://tradingeconomics.com/france/government-bond-yield/news/591446",
+       "syn": "France's 10-year OAT yield fell to 4.85%, tracking lower US Treasury yields. Oil ended a three-session rally, though French borrowing costs remain near two-decade highs amid record debt and fiscal concerns."
       },
       {
        "text": "Bank of England: Bank Rate",
@@ -1192,11 +1212,13 @@
      "links": [
       {
        "text": "Trading Economics: China keeps LPR at record lows for 16th month",
-       "url": "https://tradingeconomics.com/china/interest-rate/news/585137"
+       "url": "https://tradingeconomics.com/china/interest-rate/news/585137",
+       "syn": "The People's Bank of China held its 1-year (3.0%) and 5-year (3.5%) loan prime rates for a 16th month, citing caution over Middle East conflict. Credit demand stayed weak and retail sales missed forecasts."
       },
       {
        "text": "Trading Economics: China Q2 GDP growth weakest in 3½ years",
-       "url": "https://tradingeconomics.com/china/gdp-growth-annual/news/566978"
+       "url": "https://tradingeconomics.com/china/gdp-growth-annual/news/566978",
+       "syn": "China's economy grew 4.3% year-on-year in Q2 2026, slower than Q1 and below forecasts. Soft domestic demand and a property slump outweighed AI-related export strength."
       }
      ],
      "f": [
@@ -1354,7 +1376,8 @@
      "links": [
       {
        "text": "Newcastle United: match report, Coventry City 4–1",
-       "url": "https://www.newcastleunited.com/en/news/coventry-city-a-26-27-report"
+       "url": "https://www.newcastleunited.com/en/news/coventry-city-a-26-27-report",
+       "syn": "Newcastle United lost 4-1 away to newly promoted Coventry City in the Premier League. Coventry led through Jack Rudoni's penalty and Sidiki Cherif; Sven Botman pulled one back before late goals from Ellis Simms and Stephen Mfuni."
       },
       {
        "text": "footballwebpages.co.uk: Premier League table, 12 Oct",
@@ -1388,7 +1411,8 @@
       },
       {
        "text": "PSG: matchday 6 result, PSG 3–1 Le Mans",
-       "url": "https://www.psg.fr/content/resultats-de-la-6e-journee-de-ligue-1-paris-saint-germain-le-mans-fc-20262027/"
+       "url": "https://www.psg.fr/content/resultats-de-la-6e-journee-de-ligue-1-paris-saint-germain-le-mans-fc-20262027/",
+       "syn": "Paris Saint-Germain beat Le Mans FC 3-1 at the Parc des Princes on Saturday 10 October 2026 in Ligue 1 matchday 6."
       },
       {
        "text": "Ligue 1 standings (Eurosport France)",
@@ -1422,7 +1446,8 @@
       },
       {
        "text": "Citizen Digital: Arsenal cruise past Lille",
-       "url": "https://citizen.digital/article/arsenal-cruise-past-lille-into-share-of-champions-league-lead-n392007"
+       "url": "https://citizen.digital/article/arsenal-cruise-past-lille-into-share-of-champions-league-lead-n392007",
+       "syn": "Arsenal beat Lille 3-0 at the Emirates in the Champions League league phase on 13 October 2026. Jurrien Timber, Eberechi Eze and Bukayo Saka scored within seven second-half minutes after a goalless first half."
       }
      ]
     },
@@ -1445,7 +1470,8 @@
       },
       {
        "text": "Sports Mole: Bournemouth v Sturm Graz preview",
-       "url": "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-sturm-graz-prediction-team-news-lineups_606756.html"
+       "url": "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-sturm-graz-prediction-team-news-lineups_606756.html",
+       "syn": "Bournemouth host Sturm Graz in the Europa League on 15 October 2026, seeking back-to-back wins after beating Real Sociedad 2-1. Alex Scott is expected to miss several weeks with a thigh injury, and both sides have injury absences."
       }
      ]
     },
@@ -2442,7 +2468,8 @@
       },
       {
        "text": "The Scotsman: how the Nations Championship works",
-       "url": "https://www.scotsman.com/sport/rugby-union/how-the-nations-championship-works-format-dates-finals-weekend-explained-2026-8776805"
+       "url": "https://www.scotsman.com/sport/rugby-union/how-the-nations-championship-works-format-dates-finals-weekend-explained-2026-8776805",
+       "syn": "The 2026 Nations Championship features 12 teams in Northern and Southern Hemisphere pools, each playing six matches. The top side in each pool meets in a one-off finals weekend at Twickenham in late November, with no relegation in the first two editions."
       },
       {
        "text": "Rugby World: URC fixtures",
@@ -2472,11 +2499,13 @@
      "links": [
       {
        "text": "AP via ABC News: New Zealand beats Australia 50-19 to retain the Bledisloe Cup",
-       "url": "https://abcnews.com/Sports/wireStory/new-zealand-beats-australia-50-19-retain-bledisloe-137154647"
+       "url": "https://abcnews.com/Sports/wireStory/new-zealand-beats-australia-50-19-retain-bledisloe-137154647",
+       "syn": "New Zealand beat Australia 50-19 at Eden Park on 10 October 2026 in the first Bledisloe Cup Test, retaining the trophy. The hosts led by three at halftime before scoring several second-half tries."
       },
       {
        "text": "1News: All Blacks defend Eden Park with ruthless performance",
-       "url": "https://www.1news.co.nz/2026/10/10/all-blacks-defend-eden-park-with-ruthless-performance-against-the-wallabies/"
+       "url": "https://www.1news.co.nz/2026/10/10/all-blacks-defend-eden-park-with-ruthless-performance-against-the-wallabies/",
+       "syn": "The All Blacks beat the Wallabies 50-19 in the first Bledisloe Cup Test at Eden Park on 10 October 2026, extending their unbeaten run there to 54 Tests. They led 17-14 at halftime before a dominant second half."
       },
       {
        "text": "Wikipedia: 2026 Bledisloe Cup",
@@ -2992,11 +3021,13 @@
      "links": [
       {
        "text": "Sky Sports: Hazlewood 6-49 as Australia take 1-0 lead",
-       "url": "https://www.skysports.com/cricket/news/13598797/south-africa-vs-australia-josh-hazlewood-claims-career-best-test-figures-of-6-49-as-australia-take-1-0-series-lead"
+       "url": "https://www.skysports.com/cricket/news/13598797/south-africa-vs-australia-josh-hazlewood-claims-career-best-test-figures-of-6-49-as-australia-take-1-0-series-lead",
+       "syn": "Australia beat South Africa by 214 runs in the first Test in Durban, finishing on 13 October 2026, to lead the three-match series 1-0. Australia made 390 and 314-6 declared; South Africa replied with 284 and 206."
       },
       {
        "text": "ABC News: Hazlewood cleans up South Africa, Australia win by 214 runs",
-       "url": "https://abcnews.com/amp/Sports/wireStory/australia-strikes-south-africa-clings-tense-day-chase-137218550"
+       "url": "https://abcnews.com/amp/Sports/wireStory/australia-strikes-south-africa-clings-tense-day-chase-137218550",
+       "syn": "Australia beat South Africa by 214 runs in the first Test at Kingsmead, Durban. Josh Hazlewood took 6-49, Matt Renshaw scored 190 and took two wickets, and Aiden Markram made 75 for South Africa."
       },
       {
        "text": "Cricinfo: India v West Indies 4th T20I report",
@@ -3027,11 +3058,13 @@
      "links": [
       {
        "text": "Reuters via The Star: Bethell returns as England name white-ball squads",
-       "url": "https://www.thestar.com.my/sport/cricket/2026/10/13/cricket-bethell-returns-as-england-name-white-ball-squads-for-australia-series"
+       "url": "https://www.thestar.com.my/sport/cricket/2026/10/13/cricket-bethell-returns-as-england-name-white-ball-squads-for-australia-series",
+       "syn": "England named ODI and T20 squads for the November tour of Australia, with Jacob Bethell back from a knee injury and Jofra Archer in the ODIs. Eddie Jack and 18-year-old Thomas Rew get T20 call-ups, while Jos Buttler is absent recovering from hamstring surgery."
       },
       {
        "text": "Al Jazeera: England survive Pakistan scare to seal 3-0 sweep",
-       "url": "https://www.aljazeera.com/sports/2026/9/12/england-pakistan-third-test-edgbaston-joe-root-razaullah-cricket"
+       "url": "https://www.aljazeera.com/sports/2026/9/12/england-pakistan-third-test-edgbaston-joe-root-razaullah-cricket",
+       "syn": "England beat Pakistan by eight wickets in the third Test at Edgbaston on 12 September 2026 to complete a 3-0 series sweep. Joe Root made 62 not out and Jordan Cox 59 not out; Razaullah scored 81 for Pakistan."
       }
      ],
      "f": [
@@ -3140,7 +3173,8 @@
       },
       {
        "text": "Al Jazeera: Sinner withdraws from Shanghai as knee injury lingers",
-       "url": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers"
+       "url": "https://www.aljazeera.com/sports/2026/10/3/world-no-1-sinner-withdraws-from-shanghai-masters-as-knee-injury-lingers",
+       "syn": "World No. 1 Jannik Sinner has withdrawn from the Shanghai Masters because of a knee injury that has sidelined him since his Wimbledon title in July. He also missed the North American hardcourt swing, including the US Open."
       }
      ]
     },
@@ -3160,7 +3194,8 @@
      "links": [
       {
        "text": "Philstar: Top seed Sabalenka eliminated at first hurdle in Wuhan",
-       "url": "https://www.philstar.com/sports/2026/10/15/2563386/top-seed-sabalenka-eliminated-anew-first-hurdle-wuhan-open"
+       "url": "https://www.philstar.com/sports/2026/10/15/2563386/top-seed-sabalenka-eliminated-anew-first-hurdle-wuhan-open",
+       "syn": "Top seed Aryna Sabalenka lost 3-6, 6-4, 7-6(5) to American Ann Li in the second round of the Wuhan Open after leading 6-3, 4-2. It was her second straight early exit, following a third-round loss at the China Open."
       },
       {
        "text": "Wikipedia: 2026 Wuhan Open",
@@ -3404,11 +3439,13 @@
       },
       {
        "text": "Malay Mail: Sivasangari into the quarter-finals",
-       "url": "https://malaymail.com/news/sports/2026/10/12/egyptian-open-2026-sivasangari-races-into-quarter-finals-in-33-minutes/238858"
+       "url": "https://malaymail.com/news/sports/2026/10/12/egyptian-open-2026-sivasangari-races-into-quarter-finals-in-33-minutes/238858",
+       "syn": "Fourth seed S. Sivasangari of Malaysia beat Belgium's Nele Gilis 11-5, 11-6, 11-8 in 33 minutes to reach the Egyptian Squash Open quarter-finals in Giza. She next faces Egypt's Fayrouz Aboelkheir."
       },
       {
        "text": "Squash Ontario: 2026 Canadian Women's Open",
-       "url": "https://www.squashontario.com/news-editor/2026/10/5/celebrate-women-amp-girls-in-squash-at-the-2026-canadian-womens-open"
+       "url": "https://www.squashontario.com/news-editor/2026/10/5/celebrate-women-amp-girls-in-squash-at-the-2026-canadian-womens-open",
+       "syn": "Squash Ontario is hosting Women & Girls Night on 26 October during the 2026 Canadian Women's Open at Toronto's Allen Lambert Galleria, with part of ticket proceeds funding its programs. The tournament runs 25 to 30 October."
       }
      ],
      "f": [
@@ -3659,11 +3696,13 @@
       },
       {
        "text": "UNI: Asian Champions Trophy in Punjab",
-       "url": "https://www.uniindia.com/sports/sports-hockey-asian-champions-trophy-punjab/206942"
+       "url": "https://www.uniindia.com/sports/sports-hockey-asian-champions-trophy-punjab/206942",
+       "syn": "After a second straight Asian Games gold at Aichi-Nagoya 2026, India's men's hockey team turns to the Asian Champions Trophy Punjab 2026, hosted in Jalandhar and Mohali from 27 October to 5 November."
       },
       {
        "text": "Hockey Australia: 2026–27 Pro League dates and venues",
-       "url": "https://hockey.org.au/news/kookaburras-and-hockeyroos-discover-2026-27-fih-pro-league-locations-and-dates"
+       "url": "https://hockey.org.au/news/kookaburras-and-hockeyroos-discover-2026-27-fih-pro-league-locations-and-dates",
+       "syn": "The 2026-27 FIH Hockey Pro League begins 8 December 2026 in Argentina, with 144 matches. The Hockeyroos and Kookaburras play their first matches at the Gold Coast stage from 13 to 21 February 2027."
       }
      ],
      "f": [
@@ -3788,11 +3827,13 @@
      "links": [
       {
        "text": "CP24: Blue Jays eliminated with loss to Orioles",
-       "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/"
+       "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/",
+       "syn": "The Orioles beat the Blue Jays 4-2 in the first game of a Wednesday doubleheader, eliminating Toronto from playoff contention. Pete Alonso hit his 41st homer for Baltimore."
       },
       {
        "text": "MLB.com: Key takeaways, Orioles 4, Blue Jays 2",
-       "url": "https://www.mlb.com/news/max-scherzer-seven-strikeouts-blue-jays-lose-to-orioles"
+       "url": "https://www.mlb.com/news/max-scherzer-seven-strikeouts-blue-jays-lose-to-orioles",
+       "syn": "The Blue Jays lost both ends of a doubleheader to the Orioles 4-2, ending their playoff hopes. Max Scherzer struck out seven in the first game, reaching 3,550 career strikeouts, four behind Justin Verlander."
       },
       {
        "text": "Wikipedia: 2026 Toronto Blue Jays season",
@@ -3881,7 +3922,8 @@
      "links": [
       {
        "text": "TSN: Raptors to open season against Bulls, host Knicks on back-to-back nights",
-       "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/"
+       "url": "https://www.tsn.ca/nba/article/raptors-to-open-season-against-visiting-bulls-host-knicks-on-back-to-back-nights/",
+       "syn": "The Raptors' 2026-27 schedule opens 21 October at home against the Bulls, followed by a trip to Washington. Toronto hosts the Knicks on back-to-back nights in mid-November and is again left off the Christmas Day slate."
       },
       {
        "text": "Raptors Republic: 2026-27 schedule",
@@ -3889,7 +3931,8 @@
       },
       {
        "text": "NBA.com: 2026 NBA Canada Games, everything to know",
-       "url": "https://www.nba.com/news/2026-nba-canada-games-everything-to-know"
+       "url": "https://www.nba.com/news/2026-nba-canada-games-everything-to-know",
+       "syn": "The 2026 NBA Canada Games feature the Raptors against the Heat in Quebec City on 3 October and against the Clippers in Vancouver on 10 October. Highlights include Kawhi Leonard's return to Toronto and Giannis Antetokounmpo's preseason debut with Miami."
       }
      ],
      "f": [
@@ -3986,11 +4029,13 @@
      "links": [
       {
        "text": "Fox Sports: Maple Leafs v Mammoth, 13 Oct 2026 box score",
-       "url": "https://www.foxsports.com/nhl/toronto-maple-leafs-vs-utah-mammoth-oct-13-2026-game-boxscore-44658"
+       "url": "https://www.foxsports.com/nhl/toronto-maple-leafs-vs-utah-mammoth-oct-13-2026-game-boxscore-44658",
+       "syn": "The Utah Mammoth beat the Toronto Maple Leafs 5-4 in Salt Lake City on 13 October 2026. Toronto's goals came from Matthews, Roslovic, Tavares and McKenna."
       },
       {
        "text": "Maple Leafs: game day v Utah, 13 Oct",
-       "url": "https://www.nhl.com/mapleleafs/news/game-day-utah-oct-13-2026"
+       "url": "https://www.nhl.com/mapleleafs/news/game-day-utah-oct-13-2026",
+       "syn": "Previewing the 13 October 2026 game, the Maple Leafs (3-2-1) visit the Utah Mammoth (4-2-0). Toronto seeks its first back-to-back wins of the season after a 6-3 win over Colorado, in which William Nylander had five points."
       },
       {
        "text": "Maple Leafs on NHL.com",
@@ -4155,11 +4200,13 @@
       },
       {
        "text": "The Race: Singapore GP result",
-       "url": "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-race-result/"
+       "url": "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-race-result/",
+       "syn": "Max Verstappen won the Singapore Grand Prix for Red Bull, 7.3 seconds ahead of Ferrari's Charles Leclerc, with Mercedes' Kimi Antonelli third. Lance Stroll, Franco Colapinto and Gabriel Bortoleto retired."
       },
       {
        "text": "Crash.net: how Antonelli can win the title at the US GP",
-       "url": "https://www.crash.net/f1/news/1107507/1/how-kimi-antonelli-can-become-f1-world-champion-united-states-gp"
+       "url": "https://www.crash.net/f1/news/1107507/1/how-kimi-antonelli-can-become-f1-world-champion-united-states-gp",
+       "syn": "Kimi Antonelli leads Mercedes teammate George Russell by 102 points with six races left and could clinch the title at the US Grand Prix in Austin. He would need to win, with Russell ninth or lower and Lewis Hamilton fifth or lower."
       },
       {
        "text": "Formula1.com: 2026 calendar",
