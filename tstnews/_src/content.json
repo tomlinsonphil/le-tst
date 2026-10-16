@@ -1,7 +1,7 @@
 {
- "date": "2026-10-15",
- "label": "Thursday 15 October 2026",
- "note": "Facts are dated to 15 Oct 2026 unless a card or table says otherwise. Items tagged \"Not verified today\" had no reliable current news, so they carry background only. Links are to free-to-read pages where I could find them, though I cannot guarantee a page will stay free. The listed news feeds could not be opened directly on this run, so Headlines were taken from the outlets' own pages found by search. Economics content is general information, not financial advice.",
+ "date": "2026-10-16",
+ "label": "Friday 16 October 2026",
+ "note": "Facts are dated to 16 Oct 2026 where a card or table says so; otherwise they are the last confirmed figures, with their own date. On this run the listed news feeds (Euronews, Al Jazeera, Global News, CP24, L'Écho du Mardi) could not be opened, so Headlines still show the 15 Oct lists and are not refreshed. Sections marked 'as of 15 Oct' were not re-verified today. Links are to free-to-read pages where found. Economics content is general information, not financial advice.",
  "sport_note": "Tables show the last figures I could confirm, with their date and source. Panels marked \"Not verified today\" have no confirmed current data.",
  "sections": [
   {
@@ -9,7 +9,7 @@
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites, taken from their own feeds. Open a story for the detail.",
+   "intro": "Latest stories from free-to-read news sites. Not refreshed on 16 Oct: the feeds could not be opened on this run, so these are the 15 Oct lists.",
    "items": [],
    "feeds": [
     {
@@ -206,7 +206,7 @@
       "Inflation matters because central banks such as the Bank of Canada, the Bank of England and the US Federal Reserve respond to it by moving interest rates. Higher rates make borrowing dearer and usually weigh on bond prices and on shares, especially in growth sectors.",
       "So a conflict thousands of kilometres away reaches a Toronto investor through fuel costs, mortgage rates and the value of an ETF portfolio."
      ],
-     "s": "As of 14-15 Oct 2026 · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified",
+     "s": "As of 14-15 Oct 2026 · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Al Jazeera: Iran steps up Hormuz surveillance, attacks soar, oil flows crash again",
@@ -243,7 +243,7 @@
       "The war also changed government spending. NATO members have pledged to spend more on defence, which squeezes budgets already stretched by ageing populations and high debt.",
       "When you read about a ceasefire or talks, the markets usually watch three things: energy prices, defence-company shares, and the borrowing costs of European governments."
      ],
-     "s": "As of 14 Oct 2026 · Al Jazeera, Euronews · Russian and Ukrainian claims not independently verified",
+     "s": "As of 14 Oct 2026 · Al Jazeera, Euronews · Russian and Ukrainian claims not independently verified · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Al Jazeera: 'Massive' Russian attack kills at least 9",
@@ -286,13 +286,14 @@
      "w": [
       "It is now a two-horse race. Chris Alexander quit Toronto's mayoral contest on 6 October, hours before a debate, saying his path to victory was \"not obvious and perhaps not there at all\". That leaves Olivia Chow, the incumbent, against Brad Bradford, and their debates have turned sharp, with clashes over transit fares, bike lanes and the city's finances.",
       "A Liaison Strategies poll published on 6 October, just before Alexander left, had Chow on 48%, Bradford 40% and Alexander 9%. Analysts say Alexander's change-minded supporters are up for grabs, though his name stays on the ballot and many voters may not know he has gone. A Forum Research poll reported by Now Toronto after his exit is headlined as showing Chow ahead by four points.",
-      "Advance voting ran from 6 to 11 October, so the remaining chance to vote is election day itself, Monday 26 October, 10 a.m. to 8 p.m. Eleven days to go."
+      "A CP24 and CTV News Toronto poll reported on 13 October found Bradford had narrowed Chow's lead to about 3.5 points, and Nanos Research has also called it a two-horse race. Advance voting is over (6 to 11 October), so the remaining chance to vote is election day, Monday 26 October, 10 a.m. to 8 p.m. Ten days to go."
      ],
      "f": [
       "Election day: Monday 26 October 2026, 10 a.m. to 8 p.m.",
       "Advance voting: 6 to 11 October (now closed)",
       "Chris Alexander withdrew on 6 October; his name stays on the ballot",
-      "Poll (Liaison, published 6 Oct, before withdrawal): Chow 48%, Bradford 40%, Alexander 9%"
+      "Poll (Liaison, published 6 Oct, before withdrawal): Chow 48%, Bradford 40%, Alexander 9%",
+      "CP24/CTV poll (reported 13 Oct): Chow's lead over Bradford down to about 3.5 points; 53 candidates on the ballot"
      ],
      "n": [
       "Toronto's mayor leads a council of 25 ward councillors plus the mayor. The mayor chairs council meetings, proposes the annual budget and represents the city to other governments. Since 2022 Ontario has also given the mayors of Toronto and Ottawa \"strong mayor\" powers, which let them propose budgets and hire senior staff with fewer council votes.",
@@ -300,8 +301,13 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. Your voter notification card or myvote.toronto.ca shows where to vote on election day, and you need ID showing your name and Toronto address (a passport alone is not accepted because it has no address). Advance voting for this election has already closed.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 15 Oct 2026 · sources: Global News (7 Oct, updated 9 Oct), CP24 (6 Oct), Now Toronto",
+     "s": "As of 16 Oct 2026 · sources: CP24 (13 Oct), Global News (7 Oct), Now Toronto",
      "links": [
+      {
+       "text": "CP24: What Olivia Chow and Brad Bradford are promising voters (13 Oct)",
+       "url": "https://www.cp24.com/local/toronto/2026/10/13/from-fighting-gridlock-to-grocery-prices-this-is-what-olivia-chow-and-brad-bradford-are-promising-voters/",
+       "syn": "CP24's election piece, published 13 October, sets out the pledges of the two leading candidates, Olivia Chow and Brad Bradford, among 53 mayoral candidates, and reports a new poll showing Bradford within about 3.5 points."
+      },
       {
        "text": "Global News: Toronto mayoral race narrows to Chow-Bradford showdown",
        "url": "https://globalnews.ca/news/12091495/toronto-mayoral-race-narrows-to-chow-bradford-showdown/",
@@ -323,14 +329,14 @@
      "t": "Leafs, Jays and Raptors",
      "tag": "Leafs · Jays · Raptors",
      "w": [
-      "The Maple Leafs were 3-2-1 after a 6–3 win at Colorado, their first road win of the season, and were due at the Utah Mammoth on Tuesday 13 October. I could not confirm that result, so check the hockey page for the latest record.",
+      "The Maple Leafs lost in overtime again. Buffalo won 5–4 on Owen Power's extra-time goal on Thursday 15 October, despite a hat trick from Kirill Marchenko and a goal from Auston Matthews, leaving Toronto 3-3-2 with 8 points. They host the New York Islanders on Saturday.",
       "The Blue Jays have been out of the playoff race since 23 September, when a loss to Baltimore ended their hopes. The Raptors are next up: they open the 2026-27 NBA season at home to the Chicago Bulls on 21 October, per TSN."
      ],
      "n": [
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 15 Oct 2026 · Leafs result at Utah (13 Oct) not verified",
+     "s": "As of 16 Oct 2026 · Leafs result from surprisesports.com; Jays and Raptors as of 15 Oct",
      "links": [
       {
        "text": "Maple Leafs game day: at Utah, 13 Oct (NHL.com)",
@@ -447,7 +453,7 @@
       "Bank Rate matters to ordinary people because mortgages, savings accounts and business loans follow it. It also influences gilt yields. Gilts are UK government bonds. When investors expect higher rates or worry about government borrowing, gilt yields rise and prices fall.",
       "For a Canadian-based ETF investor the UK matters mainly through the pound against the Canadian dollar and through any UK shares inside a global fund."
      ],
-     "s": "As of 15 Oct 2026 · sources: Pound Sterling Live (9 Oct), ONS release calendar",
+     "s": "As of 15 Oct 2026 · sources: Pound Sterling Live (9 Oct), ONS release calendar · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Pound Sterling Live: Bailey hawkish, November hike",
@@ -477,7 +483,7 @@
       "Windsor is a town in Berkshire on the River Thames, about 25 miles west of central London. It is best known for Windsor Castle, which has been a royal residence for almost 1,000 years and is described as the oldest and largest occupied castle in the world.",
       "The castle sits above the town, and the Thames runs past Eton College on the opposite bank. Nearby are the Great Park and Savill Garden. The Royal Windsor Horse Show and Ascot Racecourse draw crowds in the summer."
      ],
-     "s": "Background only · no Windsor (UK) news found dated October 2026",
+     "s": "Background only · no Windsor (UK) news found dated October 2026 · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Windsor: what's on (town guide)",
@@ -504,7 +510,7 @@
       "Bournemouth is a seaside town on England's south coast in Dorset, famous for about seven miles of sandy beach, a Victorian pier and cliffs cut by wooded gorges called chines. It grew as a Victorian resort and now supports tourism, finance and a large student population.",
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league."
      ],
-     "s": "As of 15 Oct 2026 · table position as of 10 Oct",
+     "s": "As of 15 Oct 2026 · table position as of 10 Oct · not re-verified on 16 Oct",
      "link": "football/#premier-league",
      "links": [
       {
@@ -553,7 +559,7 @@
       "Its hilltop church, St James, is largely Norman and sits within an older earthwork. A Roman road known as the Devil's Highway crosses the parish. The Ridges, a heathland and woodland area, and Wellingtonia Avenue, a line of giant redwoods planted in the 1860s, are local landmarks.",
       "Local decisions are shared between Finchampstead Parish Council, which handles small local matters such as the neighbourhood plan, and Wokingham Borough Council, which handles planning applications, roads and schools. Housing proposals and traffic are the most common local stories, which is why many Wokingham Today articles about the village concern new homes and roadworks."
      ],
-     "s": "Background only · local stories found were dated 2021 to 2025"
+     "s": "Background only · local stories found were dated 2021 to 2025 · not re-verified on 16 Oct"
     }
    ],
    "short": "UK",
@@ -600,7 +606,7 @@
       "The OAT (Obligation assimilable du Trésor) is the French government bond. When investors worry about France's finances they demand a higher yield. Many people compare the OAT yield with Germany's Bund. A widening gap is a quick gauge of political stress.",
       "For an investor, French politics matters because a budget crisis can hit French banks and shares, and the euro."
      ],
-     "s": "As of 15 Oct 2026. Sources: Le Club des juristes (1 Oct), NosParlementaires (11 Oct), KuCoin News (12 Oct), DH/Belga (17 Sep). Debt and yield figures date from 10 Oct.",
+     "s": "As of 15 Oct 2026. Sources: Le Club des juristes (1 Oct), NosParlementaires (11 Oct), KuCoin News (12 Oct), DH/Belga (17 Sep). Debt and yield figures date from 10 Oct. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "France 24 (English): PM presents belt-tightening 2027 budget",
@@ -630,7 +636,7 @@
       "An appellation is a legally protected wine region. Rules fix which grapes may be grown and how, which is what makes a village name a guarantee of style. Reds here are mostly blends of Grenache, Syrah and Mourvèdre.",
       "The village is known for its stone lanes, its winegrowers' cellars and a market. Vaison-la-Romaine is a short drive to the north."
      ],
-     "s": "Source: Provence Guide event listing (17 Oct 2026 event), read 15 Oct 2026",
+     "s": "Source: Provence Guide event listing (17 Oct 2026 event), read 15 Oct 2026 · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Provence Guide: Vignobles en Scène, balade immersive à Sablet",
@@ -650,7 +656,7 @@
       "The two sides are joined by a single-arched Roman bridge. In September 1992 a catastrophic flood killed dozens of people and wrecked much of the lower town, but the Roman bridge held.",
       "The town hosts a summer festival, Choralies, every third year, and weekly markets. It is a good base for walking in the Dentelles."
      ],
-     "s": "Source: Provence Guide, read 15 Oct 2026",
+     "s": "Source: Provence Guide, read 15 Oct 2026 · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Provence Guide: Vaison-la-Romaine events",
@@ -682,7 +688,7 @@
       "The Arc de Triomphe of Orange stands on the old road to Lyon. It is a triple-arched monument from the early Roman Empire, carved with scenes of battles and spoils.",
       "The town's name is older than the fruit. It comes from the Roman Arausio. The Principality of Orange later passed to the House of Nassau, which is how the Dutch royal family got the name \"Orange\"."
      ],
-     "s": "Source: Provence Guide, read 15 Oct 2026",
+     "s": "Source: Provence Guide, read 15 Oct 2026 · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Provence Guide: tombola d'Octobre Rose, Orange les Vignes",
@@ -711,7 +717,7 @@
       "Each July the city hosts the Festival d'Avignon, one of the biggest theatre festivals in the world, with a huge fringe called the Off.",
       "Aïda is Verdi's opera set in ancient Egypt, premiered in Cairo in 1871. It tells of an enslaved Ethiopian princess who falls in love with an Egyptian commander. It is famous for the Triumphal March."
      ],
-     "s": "Source: Provence Guide, read 15 Oct 2026",
+     "s": "Source: Provence Guide, read 15 Oct 2026 · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Provence Guide: Aïda, Opéra Grand Avignon",
@@ -762,7 +768,7 @@
       "An AI assistant (a large language model) is software trained on huge amounts of text to predict and generate language. It does not look things up unless connected to search, and it can make mistakes, so important facts need checking.",
       "Both trends depend on better chips. Chip makers and the data centres that run AI are among the biggest drivers of stock markets, which is why technology weights matter in your ETFs."
      ],
-     "s": "As of 15 Oct 2026. Source: The Hans India, 29 Sep 2026 preview (several items are reports, not confirmed by the companies).",
+     "s": "As of 15 Oct 2026. Source: The Hans India, 29 Sep 2026 preview (several items are reports, not confirmed by the companies). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "The Hans India: upcoming AI updates in October 2026",
@@ -798,7 +804,7 @@
       "For Tesla, the key figures are vehicle deliveries, the gross margin on each car, energy-storage sales and spending on new projects. The company also talks up its autonomous driving and robotaxi plans, which is much of the reason for its valuation.",
       "The Roadster is a long-promised sports car. The Semi is an electric lorry meant to move freight cheaply."
      ],
-     "s": "As of 15 Oct 2026. Sources: Electrek (2 Oct), Hudson Labs preview (5 Oct), Tesla Oracle.",
+     "s": "As of 15 Oct 2026. Sources: Electrek (2 Oct), Hudson Labs preview (5 Oct), Tesla Oracle. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Electrek: Tesla Q3 2026 deliveries 486,532",
@@ -848,7 +854,7 @@
       "SpaceX builds the Falcon rockets that fly cargo and astronauts to orbit, and is developing Starship, a much larger reusable rocket. Starlink sells internet from thousands of satellites.",
       "xAI was founded to build AI systems and released the Grok chatbot. It is now part of SpaceX, which has publicly traded shares, so the company reports quarterly results like any listed firm. Its latest model, Grok 4.5, launched in July."
      ],
-     "s": "As of 4 Oct 2026 (rename post) and 3 Oct 2026 (24/7 Wall St).",
+     "s": "As of 4 Oct 2026 (rename post) and 3 Oct 2026 (24/7 Wall St). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Lets Data Science: Musk says SpaceXAI will be renamed SpaceXSI",
@@ -877,7 +883,7 @@
       "Marques Brownlee goes by MKBHD and runs one of the biggest technology review channels on YouTube, with around 21 million subscribers. He is known for clean, calm video and straight verdicts on phones, laptops, cars and gadgets.",
       "If you are new to his reviews, watch for the ones that cover the \"daily driver\" experience, where he lives with a product for weeks. He also hosts podcasts and interviews executives."
      ],
-     "s": "Latest found: 1 Aug 2026 review. Nothing newer verified on 15 Oct.",
+     "s": "Latest found: 1 Aug 2026 review. Nothing newer verified on 15 Oct. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "SamMobile fans: MKBHD Galaxy Z Fold 8 review",
@@ -902,7 +908,7 @@
       "The Joe Rogan Experience is a long-form interview podcast, often running two to three hours, covering comedy, science, health, politics and fighting. Rogan is also a stand-up comedian and a UFC commentator.",
       "It is one of the most-listened-to podcasts in the world, so the guests he books and the claims they make often get picked up by news outlets."
      ],
-     "s": "Background only. Checked 15 Oct 2026.",
+     "s": "Background only. Checked 15 Oct 2026. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Joe Rogan Experience on YouTube",
@@ -921,7 +927,7 @@
       "Jimmy Carr is a British stand-up comedian known for rapid-fire one-liners and a deadpan delivery, often with very dark humour. His shows are for adults.",
       "He is also a familiar face on British TV, hosting 8 Out of 10 Cats Does Countdown and appearing on panel shows. His stand-up specials are on streaming services."
      ],
-     "s": "As of 15 Oct 2026. Source: Todo Canada listing.",
+     "s": "As of 15 Oct 2026. Source: Todo Canada listing. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Todo Canada: Jimmy Carr, Laughs Funny, Toronto",
@@ -946,7 +952,7 @@
       "Clarkson's Farm follows him trying to run Diddly Squat Farm, in Oxfordshire, and mostly failing in entertaining ways. It has turned a car presenter into an unlikely voice on British farming, with its weather, regulations and thin margins.",
       "The Grand Tour is the motoring show he made after leaving Top Gear. Its original trio of presenters has now been replaced, which is why the new line-up is in the news."
      ],
-     "s": "As of 15 Oct 2026. Not verified today. Sources: UPI (April 2026), Autocar (undated).",
+     "s": "As of 15 Oct 2026. Not verified today. Sources: UPI (April 2026), Autocar (undated). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "UPI: Season 5 of Clarkson's Farm to premiere on Prime Video June 3",
@@ -969,7 +975,7 @@
       "Ross Edgley is a British endurance athlete. In 2018 he became the first person to swim around Great Britain, which took 157 days and about 1,800 miles. He is also known for dragging a heavy log or tyre across long distances as training, and for his strength work.",
       "His channel and books describe how he builds a body that can handle extreme volume. Swimming in cold water for hours is hard because the body loses heat and the salt damages skin."
      ],
-     "s": "As of 15 Oct 2026. Source: 220 Triathlon. Swim dates are from 2025; no new event found.",
+     "s": "As of 15 Oct 2026. Source: 220 Triathlon. Swim dates are from 2025; no new event found. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "220 Triathlon: Ross Edgley completes Iceland swim",
@@ -994,7 +1000,7 @@
       "Brian Cox is a British particle physicist and a professor at the University of Manchester, and he is best known as the presenter of popular science programmes. He explains very large ideas, such as how the universe began and how stars work, in plain language.",
       "Emergence is a live show rather than a TV series: he walks an audience through how complex things, from galaxies to living cells and minds, can arise from simple rules. No physics is needed to enjoy it."
      ],
-     "s": "As of 15 Oct 2026. Source: Ents24 listings; Newsletter.co.uk announcement (Sept 2025).",
+     "s": "As of 15 Oct 2026. Source: Ents24 listings; Newsletter.co.uk announcement (Sept 2025). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Ents24: Emergence, Sheffield, 15 Oct",
@@ -1023,7 +1029,7 @@
       "Starship is its giant next-generation rocket, designed to be fully reusable and to carry people and cargo to the Moon and Mars. Each test flight teaches the engineers what to fix next, which is why SpaceX launches early and often.",
       "Starlink is the satellite internet network, with thousands of satellites in low orbit. 'V3' is the next, larger generation of those satellites."
      ],
-     "s": "As of 15 Oct 2026. Source: Spaceflight Now.",
+     "s": "As of 15 Oct 2026. Source: Spaceflight Now. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Spaceflight Now: SpaceX launches NASA science and cargo to the station",
@@ -1054,7 +1060,7 @@
       "Artemis is its programme to return people to the Moon. Artemis II was the first crewed flight around the Moon in that programme, so the data it brought back is the first fresh look from people near the Moon in decades.",
       "A fast radio burst is a flash of radio waves from deep space lasting a fraction of a second. Brown dwarfs are objects too big to be planets and too small to be true stars."
      ],
-     "s": "As of 15 Oct 2026. Source: NASA and Spaceflight Now.",
+     "s": "As of 15 Oct 2026. Source: NASA and Spaceflight Now. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "NASA: CRS-35 mission to launch health research",
@@ -1085,7 +1091,7 @@
       "Rotten Tomatoes collects reviews from professional critics and turns them into a percentage called the Tomatometer. A film marked 'Certified Fresh' is both well reviewed and reviewed by plenty of critics.",
       "A high score does not mean 'popular'. Small films often score 100% from a handful of reviews, so check how many critics there are before you trust a number."
      ],
-     "s": "As of 15 Oct 2026. Not verified today.",
+     "s": "As of 15 Oct 2026. Not verified today. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Rotten Tomatoes: best-reviewed 2026 films, ranked",
@@ -1132,7 +1138,7 @@
       "The S&P/TSX Composite is the main Canadian share index. It is heavy in banks, energy and mining, so it rises and falls with commodity prices and financial-sector earnings, and is less weighted to technology than US indexes.",
       "The Canadian dollar also matters. When oil rises it often strengthens, which changes the value of any US or international assets you hold."
      ],
-     "s": "As of 15 Oct 2026. Sources: Canadian Mortgage Professional (2 Oct), Wealth North, BNN Bloomberg (2 Oct), CTV (13 Oct). General information, not advice.",
+     "s": "As of 15 Oct 2026. Sources: Canadian Mortgage Professional (2 Oct), Wealth North, BNN Bloomberg (2 Oct), CTV (13 Oct). General information, not advice. · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Canadian Mortgage Professional: rate-hike calls gather pace ahead of October BoC decision",
@@ -1166,7 +1172,7 @@
       "When the Fed raises rates, newly issued bonds pay more, so existing bonds with lower rates fall in price. High rates also make future profits worth less today, which hurts fast-growing technology shares most.",
       "Because the S&P 500 and Nasdaq are such large parts of global equity funds, a change in US policy can move your ETF even if you hold no US-specific fund."
      ],
-     "s": "As of 15 Oct 2026. Sources: Kiplinger (CPI, 14 Oct), political.org preview (12 Oct).",
+     "s": "As of 15 Oct 2026. Sources: Kiplinger (CPI, 14 Oct), political.org preview (12 Oct). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Kiplinger: September CPI report",
@@ -1192,7 +1198,7 @@
       "France does not set its own rates. As a euro member it follows the European Central Bank, so it cannot cut rates to help itself and must instead cut spending or raise taxes.",
       "The UK has its own currency, so the pound can fall when investors worry. That raises import prices and inflation, another reason the Bank of England is cautious."
      ],
-     "s": "As of 15 Oct 2026. Sources: MTS Insights (BoE), Nation Thailand (ECB, 11 Sep), Asianet/Eurostat (2 Oct), Trading Economics (13 Oct).",
+     "s": "As of 15 Oct 2026. Sources: MTS Insights (BoE), Nation Thailand (ECB, 11 Sep), Asianet/Eurostat (2 Oct), Trading Economics (13 Oct). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Kitco: Goldman Sachs sees BoE rate hike in November",
@@ -1233,7 +1239,7 @@
       "China is the world's largest manufacturer and a major buyer of oil, iron ore and copper. When its growth slows, commodity prices and Canadian resource shares often weaken.",
       "Chinese shares are in most global and emerging-market ETFs but at a modest weight. They are subject to political risk, since regulators can change rules suddenly."
      ],
-     "s": "As of 15 Oct 2026. Sources: Trading Economics (20 Sep), Finance Calendar (release date).",
+     "s": "As of 15 Oct 2026. Sources: Trading Economics (20 Sep), Finance Calendar (release date). · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Trading Economics: China keeps LPR at record lows for 16th month",
@@ -1263,7 +1269,7 @@
       "The First Home Savings Account (FHSA) combines both: a deduction going in and tax-free withdrawals if used for a first home. It only suits people who qualify as first-time buyers.",
       "Contribution limits change each year and unused room carries forward, so check the Canada Revenue Agency for yours. A non-registered account has no limit but is taxed on dividends, interest and gains. This is general information, so confirm your position with a tax professional."
      ],
-     "s": "General information",
+     "s": "General information · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Canada Revenue Agency: TFSA",
@@ -1291,7 +1297,7 @@
       "Asset allocation is the split between stocks (higher growth, bigger swings) and bonds (steadier, lower return). All-in-one funds come in conservative, balanced, growth and all-equity versions. A person at 45 typically has about 20 years before drawing on retirement money, but how much risk suits you depends on your goals and temperament.",
       "Rebalancing means selling a bit of what has grown and buying what lagged, to return to the target split. An all-in-one does this inside the fund."
      ],
-     "s": "General information",
+     "s": "General information · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Wikipedia: Exchange-traded fund",
@@ -1311,7 +1317,7 @@
       "Foreign governments often withhold tax on dividends paid to non-residents, typically 15% for US dividends under the tax treaty. How much you pay depends on the account (an RRSP is treated more favourably for US-listed funds than a TFSA) and whether the fund is listed in Canada or the US, so it is worth reading the fund's documents.",
       "None of this is a recommendation, and the right answer depends on your situation. A fee-only financial planner can check your specifics."
      ],
-     "s": "General information",
+     "s": "General information · not re-verified on 16 Oct",
      "links": [
       {
        "text": "Wikipedia: Bond (finance)",
@@ -1384,7 +1390,7 @@
      "w": [
       "Coventry City ended a 25-year wait on Monday night. A 4–1 win over Newcastle United, the first home Premier League victory for Coventry in 25 years, lifted them out of the bottom three to 14th, with Jack Rudoni's early penalty, Sidiki Cherif, and substitutes Ellis Simms and Stephen Mfuni on the scoresheet. Sven Botman's 70th-minute strike was Newcastle's only reply.",
       "That Monday game was the last of the round, so every club has now played six. Manchester City are top with a perfect 18 points, Arsenal are second on 15 and Brighton third on 13. Newcastle drop to 11th on 8.",
-      "At the bottom, Fulham are last on 2, with Tottenham and AFC Bournemouth both on 3 (Bournemouth 18th, Spurs 19th on goal difference and goals). The next round is on the weekend of 17 October, with Everton v Chelsea at 12:30 the first game listed."
+      "At the bottom, Fulham are last on 2, with Tottenham and AFC Bournemouth both on 3. The table was unchanged on 16 October, with no games since Monday 12 October. The next round starts Saturday 17 October with Everton v Chelsea at 12:30, and Bournemouth host Sunderland on Sunday at 2 pm."
      ],
      "f": [
       "Leaders: Manchester City 18, Arsenal 15, Brighton & Hove Albion 13",
@@ -1397,7 +1403,7 @@
       "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
       "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
      ],
-     "s": "As of Mon 12 Oct 2026 (table), report dated 13 Oct. Sources: footballwebpages.co.uk, newcastleunited.com, Fanatik",
+     "s": "Table as of Mon 12 Oct 2026 (unchanged on 16 Oct; no games since). Fixtures read 16 Oct. Sources: footballwebpages.co.uk, newcastleunited.com",
      "links": [
       {
        "text": "Newcastle United: match report, Coventry City 4–1",
@@ -1791,20 +1797,28 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Listed on 10 Oct 2026; no later list found",
+       "asof": "Fri 16 Oct 2026 (footballwebpages.co.uk; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
-        "Sat 17 Oct, 12:30: Everton v Chelsea",
+        "Sat 17 Oct, 12:30: Everton v Chelsea (TNT Sports)",
         "Sat 17 Oct, 15:00: Brentford v Liverpool",
         "Sat 17 Oct, 15:00: Fulham v Hull City",
         "Sat 17 Oct, 15:00: Manchester City v Ipswich Town",
-        "Sat 17 Oct, 17:30: Newcastle United v Aston Villa"
+        "Sat 17 Oct, 17:30: Newcastle United v Aston Villa (Sky Sports)",
+        "Sun 18 Oct, 14:00: AFC Bournemouth v Sunderland",
+        "Sun 18 Oct, 14:00: Brighton & Hove Albion v Crystal Palace",
+        "Sun 18 Oct, 14:00: Leeds United v Manchester United",
+        "Sun 18 Oct, 16:30: Nottingham Forest v Arsenal"
        ],
-       "note": "Five fixtures were listed for 17 October (UK times) on 10 Oct and no newer fixture list could be read. The list may be incomplete, so check the Premier League site for the full weekend.",
+       "note": "Saturday and Sunday fixtures as listed on 16 Oct. Tottenham and Coventry are not on the lists read, so the weekend may include more games; check the Premier League site.",
        "links": [
         {
          "text": "footballwebpages.co.uk: fixtures 17 Oct",
          "url": "https://www.footballwebpages.co.uk/premier-league/20261017"
+        },
+        {
+         "text": "footballwebpages.co.uk: fixtures 18 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261018"
         }
        ]
       }
@@ -3190,7 +3204,7 @@
       "A match is played in sets, and a set in games. Within a game, points go 15, 30, 40, then game, and at 40-40 (deuce) a player must win two points in a row. Most tour matches are the best of three sets, and Slams are the best of five for men.",
       "Rankings are based on points won over the previous 52 weeks, so injuries hurt twice: a missed event means missed points and a falling ranking."
      ],
-     "s": "As of 15 Oct 2026. Sources: ATP Tour results page, The Sports Encounter, Emol and El Grafico (rankings reports, Spanish language)",
+     "s": "As of 15 Oct 2026. Sources: ATP Tour results page, The Sports Encounter, Emol and El Grafico (rankings reports, Spanish language) · Friday 16 Oct quarter-finals not verified on 16 Oct; ATP results page showed the last 16 of 14 Oct",
      "links": [
       {
        "text": "ATP Tour: Shanghai 2026 results",
@@ -4029,28 +4043,28 @@
   {
    "id": "ice-hockey",
    "title": "Ice hockey",
-   "summary": "Leafs 3-3-1 after a 5–4 loss at Utah; Buffalo tonight.",
+   "summary": "Leafs 3-3-2 after a 5–4 overtime loss at Buffalo; Islanders on Saturday.",
    "intro": "Maple Leafs and the NHL.",
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "3-3-1",
+     "tag": "3-3-2",
      "w": [
-      "The Leafs came up one goal short in Salt Lake City. Toronto lost 5–4 at the Utah Mammoth on Tuesday 13 October, with Auston Matthews, Jack Roslovic, John Tavares and Gavin McKenna scoring, which leaves them 3-3-1 with 7 points after seven games.",
-      "They had won 6–3 at Colorado on 10 October, when Nick Blankenburg scored on his first shift with the team, William Nylander had five points to reach 700 in the NHL and Sergei Bobrovsky earned his first win in a Leafs sweater.",
-      "Next up is Buffalo, also 3-3-1, tonight (Thursday 15 October, 7 pm ET), then the Islanders on Saturday."
+      "Heartbreak in Buffalo. The Leafs fought back from behind, with Kirill Marchenko scoring a hat trick and Auston Matthews adding one, but the Sabres won 5–4 in overtime on Thursday 15 October when Owen Power found the winner. Jack Quinn scored twice for Buffalo, with Dennis Gilbert and Mattias Samuelsson also on the sheet.",
+      "That leaves Toronto 3-3-2 with 8 points after eight games, two of the defeats coming in overtime. On Tuesday 13 October they had lost 5–4 at Utah, and on 10 October they won 6–3 at Colorado.",
+      "Next up is the New York Islanders at home on Saturday 17 October (7 pm), then San Jose on Monday 19 October."
      ],
      "f": [
-      "Record: 3 wins, 3 losses, 1 overtime loss (7 points, 7 games)",
-      "Last result: 4–5 loss at Utah, 13 Oct",
-      "Next: v Buffalo, 15 Oct · v NY Islanders, 17 Oct · v San Jose, 19 Oct"
+      "Record: 3 wins, 3 losses, 2 overtime losses (8 points, 8 games)",
+      "Last result: 4–5 overtime loss at Buffalo, 15 Oct",
+      "Next: v NY Islanders, 17 Oct · v San Jose, 19 Oct"
      ],
      "n": [
       "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 14 Oct 2026 (source: surprisesports.com, Fox Sports)",
+     "s": "As of 16 Oct 2026 (source: surprisesports.com; earlier results Fox Sports)",
      "links": [
       {
        "text": "Fox Sports: Maple Leafs v Mammoth, 13 Oct 2026 box score",
@@ -4079,17 +4093,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "14 Oct 2026",
+       "asof": "16 Oct 2026",
        "source": "surprisesports.com",
        "items": [
-        "3 wins, 3 losses, 1 overtime loss: 7 points after 7 games"
+        "3 wins, 3 losses, 2 overtime losses: 8 points after 8 games"
        ],
-       "note": "An overtime loss earns 1 point. Whether the Utah loss went to overtime was not stated by the sources; the 7-point total implies a regulation loss."
+       "note": "An overtime loss earns 1 point."
       },
       {
        "id": "tml-res",
        "title": "Last five games",
-       "asof": "14 Oct 2026",
+       "asof": "16 Oct 2026",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -4098,6 +4112,12 @@
         "Result"
        ],
        "rows": [
+        [
+         "15 Oct",
+         "@ Buffalo Sabres",
+         "4–5",
+         "L (OT)"
+        ],
         [
          "13 Oct",
          "@ Utah Mammoth",
@@ -4121,12 +4141,6 @@
          "v Nashville Predators",
          "5–4",
          "W (OT)"
-        ],
-        [
-         "3 Oct",
-         "v Ottawa Senators",
-         "2–3",
-         "L"
         ]
        ],
        "links": [
@@ -4143,17 +4157,13 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "11 Oct 2026 (Buffalo date and time re-confirmed 14 Oct)",
+       "asof": "16 Oct 2026 (Buffalo game now played; remaining dates as listed 11 Oct, not re-checked)",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
         "Opponent"
        ],
        "rows": [
-        [
-         "15 Oct, 7:00 pm",
-         "v Buffalo Sabres"
-        ],
         [
          "17 Oct, 7:00 pm",
          "v New York Islanders"
@@ -4541,118 +4551,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Thursday 15 October 2026",
-  "intro": "Ten questions on today's stories. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Friday 16 October 2026",
+  "intro": "Ten questions on the day's stories. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "What was Brent crude's price early on Wednesday 14 October, according to Al Jazeera?",
+    "q": "What was the score when the Maple Leafs played Buffalo on Thursday 15 October?",
     "options": [
-     "$86.58",
-     "$96.58",
-     "$106.58",
-     "$116.58"
-    ],
-    "answer": 2,
-    "explain": "Brent reached $106.58 a barrel on the morning of 14 Oct (Al Jazeera)."
-   },
-   {
-    "q": "How many Strait of Hormuz attacks did UKMTO record between 6 and 14 October?",
-    "options": [
-     "5",
-     "15",
-     "25",
-     "40"
-    ],
-    "answer": 1,
-    "explain": "UKMTO logged 15 attacks from 6 to 14 Oct, 11 of them in the last four days."
-   },
-   {
-    "q": "Which two candidates are left in the Toronto mayoral race after Chris Alexander quit on 6 October?",
-    "options": [
-     "Chow and Bradford",
-     "Chow and Tory",
-     "Bradford and Alexander",
-     "Tory and Bradford"
+     "Sabres 5, Leafs 4 (overtime)",
+     "Leafs 5, Sabres 4",
+     "Sabres 3, Leafs 2",
+     "Leafs 6, Sabres 3"
     ],
     "answer": 0,
-    "explain": "Olivia Chow and Brad Bradford; election day is 26 Oct (Global News)."
+    "explain": "Buffalo won 5–4 in overtime (surprisesports.com)."
    },
    {
-    "q": "Which team opens the Raptors' season on 21 October?",
+    "q": "Who scored the Sabres' overtime winner against Toronto?",
     "options": [
-     "Knicks",
-     "Celtics",
-     "Bulls",
-     "Pacers"
-    ],
-    "answer": 2,
-    "explain": "The Raptors host the Bulls on 21 Oct (TSN)."
-   },
-   {
-    "q": "Who won the Singapore Grand Prix on 11 October?",
-    "options": [
-     "Kimi Antonelli",
-     "Max Verstappen",
-     "George Russell",
-     "Lewis Hamilton"
+     "Jack Quinn",
+     "Owen Power",
+     "Dennis Gilbert",
+     "Mattias Samuelsson"
     ],
     "answer": 1,
-    "explain": "Verstappen won, Leclerc second, Antonelli third (RacingNews365)."
+    "explain": "Owen Power scored in overtime; Quinn scored twice in regulation."
    },
    {
-    "q": "Who leads the F1 drivers' standings after Singapore?",
+    "q": "Who scored a hat trick for the Leafs in Buffalo?",
     "options": [
-     "Kimi Antonelli",
-     "Max Verstappen",
-     "George Russell",
-     "Charles Leclerc"
+     "Auston Matthews",
+     "William Nylander",
+     "Kirill Marchenko",
+     "John Tavares"
+    ],
+    "answer": 2,
+    "explain": "Kirill Marchenko scored three; Matthews scored the other."
+   },
+   {
+    "q": "What is the Maple Leafs' record after the Buffalo game?",
+    "options": [
+     "3-3-2",
+     "4-3-1",
+     "3-2-3",
+     "2-4-2"
     ],
     "answer": 0,
-    "explain": "Antonelli leads on 340 points, ahead of Russell on 238."
+    "explain": "3 wins, 3 losses and 2 overtime losses for 8 points."
    },
    {
-    "q": "What was the score when New Zealand beat Australia in the Bledisloe Test on 10 October?",
+    "q": "When is Toronto's mayoral election day?",
     "options": [
-     "50–19",
-     "38–21",
-     "27–24",
-     "44–10"
-    ],
-    "answer": 0,
-    "explain": "New Zealand won 50–19 at Eden Park and retained the Cup (AP)."
-   },
-   {
-    "q": "What did the Leafs' result at Utah on 13 October look like?",
-    "options": [
-     "Won 5–4",
-     "Lost 4–5",
-     "Won 3–2",
-     "Lost 1–2"
+     "19 October",
+     "26 October",
+     "2 November",
+     "11 October"
     ],
     "answer": 1,
-    "explain": "The Leafs lost 4–5 and are 3-3-1 (Fox Sports)."
+    "explain": "Election day is Monday 26 October, 10 a.m. to 8 p.m. (CP24)."
    },
    {
-    "q": "What was Tesla's Q3 2026 delivery figure?",
+    "q": "According to a poll reported by CP24 on 13 October, about how far ahead of Brad Bradford was Olivia Chow?",
     "options": [
-     "386,532",
-     "436,532",
-     "486,532",
-     "536,532"
+     "17 points",
+     "12 points",
+     "About 3.5 points",
+     "Level"
     ],
     "answer": 2,
-    "explain": "Tesla delivered 486,532 vehicles, ahead of the 461,974 consensus (Electrek); earnings are on 21 Oct."
+    "explain": "The CP24/CTV poll had Bradford narrowing Chow's lead to about 3.5 points."
    },
    {
-    "q": "What was the US September CPI inflation rate?",
+    "q": "Which team beat Newcastle 4–1 on Monday 12 October, its first home Premier League win in 25 years?",
     "options": [
-     "2.6%",
-     "3.1%",
-     "3.7%",
-     "4.2%"
+     "Coventry City",
+     "Hull City",
+     "Ipswich Town",
+     "Sunderland"
+    ],
+    "answer": 0,
+    "explain": "Coventry City 4–1 Newcastle United (footballwebpages.co.uk)."
+   },
+   {
+    "q": "Who leads the Premier League table with 18 points from six games?",
+    "options": [
+     "Arsenal",
+     "Brighton",
+     "Manchester City",
+     "Chelsea"
     ],
     "answer": 2,
-    "explain": "US CPI was 3.7% (core 2.6%); the Fed decides on 28 Oct (Kiplinger)."
+    "explain": "Manchester City have won all six."
+   },
+   {
+    "q": "Which Premier League match kicks off the weekend, at 12:30 on Saturday 17 October?",
+    "options": [
+     "Everton v Chelsea",
+     "Brentford v Liverpool",
+     "Fulham v Hull City",
+     "Newcastle v Aston Villa"
+    ],
+    "answer": 0,
+    "explain": "Everton v Chelsea is the 12:30 game."
+   },
+   {
+    "q": "Who do the Raptors face in their season opener on 21 October?",
+    "options": [
+     "New York Knicks",
+     "Washington Wizards",
+     "Chicago Bulls",
+     "Miami Heat"
+    ],
+    "answer": 2,
+    "explain": "The Raptors open at home to the Chicago Bulls (TSN)."
    }
   ]
  }

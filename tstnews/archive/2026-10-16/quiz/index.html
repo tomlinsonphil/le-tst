@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/tstnews/style.css?v=b19428d8">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Friday 16 October 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-10-16/">Latest</a><a href="/tstnews/archive/2026-10-16/#headlines">Headlines</a><a href="/tstnews/archive/2026-10-16/#world">World</a><a href="/tstnews/archive/2026-10-16/#france">France</a><a href="/tstnews/archive/2026-10-16/#toronto">Toronto</a><a href="/tstnews/archive/2026-10-16/#uk">UK</a><a href="/tstnews/archive/2026-10-16/#tech">Tech</a><a href="/tstnews/archive/2026-10-16/#following">Following</a><a href="/tstnews/archive/2026-10-16/#money">Economics</a><a href="/tstnews/archive/2026-10-16/#sport">Sport</a><a href="/tstnews/archive/2026-10-16/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-10-16/#sport">Sport</a><a href="/tstnews/archive/2026-10-16/football/">Football</a><a href="/tstnews/archive/2026-10-16/rugby/">Rugby</a><a href="/tstnews/archive/2026-10-16/cricket/">Cricket</a><a href="/tstnews/archive/2026-10-16/tennis/">Tennis</a><a href="/tstnews/archive/2026-10-16/squash/">Squash</a><a href="/tstnews/archive/2026-10-16/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-10-16/baseball/">Baseball</a><a href="/tstnews/archive/2026-10-16/basketball/">Basketball</a><a href="/tstnews/archive/2026-10-16/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-10-16/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>TST News quiz · Friday 16 October 2026: Friday 16 October 2026</h2><p class="intro">Ten questions on the day&#x27;s stories. Pick an answer, see the score at the end, then start again for the next player.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "What was the score when the Maple Leafs played Buffalo on Thursday 15 October?", "options": ["Sabres 5, Leafs 4 (overtime)", "Leafs 5, Sabres 4", "Sabres 3, Leafs 2", "Leafs 6, Sabres 3"], "answer": 0, "explain": "Buffalo won 5–4 in overtime (surprisesports.com)."}, {"q": "Who scored the Sabres' overtime winner against Toronto?", "options": ["Jack Quinn", "Owen Power", "Dennis Gilbert", "Mattias Samuelsson"], "answer": 1, "explain": "Owen Power scored in overtime; Quinn scored twice in regulation."}, {"q": "Who scored a hat trick for the Leafs in Buffalo?", "options": ["Auston Matthews", "William Nylander", "Kirill Marchenko", "John Tavares"], "answer": 2, "explain": "Kirill Marchenko scored three; Matthews scored the other."}, {"q": "What is the Maple Leafs' record after the Buffalo game?", "options": ["3-3-2", "4-3-1", "3-2-3", "2-4-2"], "answer": 0, "explain": "3 wins, 3 losses and 2 overtime losses for 8 points."}, {"q": "When is Toronto's mayoral election day?", "options": ["19 October", "26 October", "2 November", "11 October"], "answer": 1, "explain": "Election day is Monday 26 October, 10 a.m. to 8 p.m. (CP24)."}, {"q": "According to a poll reported by CP24 on 13 October, about how far ahead of Brad Bradford was Olivia Chow?", "options": ["17 points", "12 points", "About 3.5 points", "Level"], "answer": 2, "explain": "The CP24/CTV poll had Bradford narrowing Chow's lead to about 3.5 points."}, {"q": "Which team beat Newcastle 4–1 on Monday 12 October, its first home Premier League win in 25 years?", "options": ["Coventry City", "Hull City", "Ipswich Town", "Sunderland"], "answer": 0, "explain": "Coventry City 4–1 Newcastle United (footballwebpages.co.uk)."}, {"q": "Who leads the Premier League table with 18 points from six games?", "options": ["Arsenal", "Brighton", "Manchester City", "Chelsea"], "answer": 2, "explain": "Manchester City have won all six."}, {"q": "Which Premier League match kicks off the weekend, at 12:30 on Saturday 17 October?", "options": ["Everton v Chelsea", "Brentford v Liverpool", "Fulham v Hull City", "Newcastle v Aston Villa"], "answer": 0, "explain": "Everton v Chelsea is the 12:30 game."}, {"q": "Who do the Raptors face in their season opener on 21 October?", "options": ["New York Knicks", "Washington Wizards", "Chicago Bulls", "Miami Heat"], "answer": 2, "explain": "The Raptors open at home to the Chicago Bulls (TSN)."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>
