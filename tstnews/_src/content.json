@@ -1,8 +1,8 @@
 {
- "date": "2026-10-16",
- "label": "Friday 16 October 2026",
- "note": "Facts are dated to 16 Oct 2026 where a card or table says so; otherwise they are the last confirmed figures, with their own date. On this run the listed news feeds (Euronews, Al Jazeera, Global News, CP24, L'Écho du Mardi) could not be opened, so Headlines still show the 15 Oct lists and are not refreshed. Sections marked 'as of 15 Oct' were not re-verified today. Links are to free-to-read pages where found. Economics content is general information, not financial advice.",
- "sport_note": "Tables show the last figures I could confirm, with their date and source. Panels marked \"Not verified today\" have no confirmed current data.",
+ "date": "2026-10-17",
+ "label": "Saturday 17 October 2026",
+ "note": "Facts are dated to 16-17 Oct 2026 where a card or table says so; otherwise they are the last confirmed figures, with their own date. On this run (early Saturday, Toronto time) the listed news feeds (Euronews, Al Jazeera, Global News, CP24, L'Écho du Mardi) could not be opened directly, so Headlines add only stories whose titles and links appeared in search results (marked 16 Oct); other items are the 15 Oct lists. Sections marked 'not re-verified' were not re-checked today. Links are to free-to-read pages where found. Economics content is general information, not financial advice.",
+ "sport_note": "Tables show the last figures confirmed, with their date and source. Saturday's games had not started when this was written. Panels marked 'Not verified today' have no confirmed current data.",
  "sections": [
   {
    "id": "headlines",
@@ -53,6 +53,21 @@
      "url": "https://www.cp24.com/",
      "items": [
       {
+       "t": "Waymo to test robotaxis in Toronto as it guns for 2028 launch date",
+       "url": "https://www.cp24.com/local/toronto/2026/10/16/waymo-to-launch-robotaxis-in-toronto-this-is-how-the-pilot-program-works/",
+       "when": "16 Oct"
+      },
+      {
+       "t": "Toronto Waterfront Marathon road closures this weekend. Here's what you need to know",
+       "url": "https://www.cp24.com/local/toronto/2026/10/16/toronto-waterfront-marathon-road-closures-this-weekend-heres-what-you-need-to-know/",
+       "when": "16 Oct"
+      },
+      {
+       "t": "5 teens charged after Toronto police officers assaulted at Finch West Station",
+       "url": "https://www.cp24.com/local/toronto/2026/10/16/5-teens-charged-after-toronto-police-officers-assaulted-at-finch-west-station/",
+       "when": "16 Oct"
+      },
+      {
        "t": "3 Canadian Armed Forces members charged in criminal probe that began as investigation into violent abduction: Toronto police",
        "url": "https://www.cp24.com/local/toronto/2026/10/14/3-canadian-armed-forces-members-charged-in-criminal-probe-that-began-as-investigation-into-violent-abduction-toronto-police/",
        "when": "14 Oct",
@@ -63,24 +78,6 @@
        "url": "https://www.cp24.com/politics/queens-park/2026/10/14/cycling-protest-blocks-toronto-bike-lane-removal-work-along-bloor-street-stretch/",
        "when": "14 Oct",
        "syn": "Cycling advocates blocked the first night of Ontario's planned bike lane removal work on Bloor Street in Toronto. Cycle Toronto says protests will continue and has asked Canada's top court to hear its constitutional challenge."
-      },
-      {
-       "t": "Second Harvest gets $60K donation after 7 of its trucks vandalized; police investigating",
-       "url": "https://www.cp24.com/local/toronto/2026/10/14/toronto-based-charity-that-had-7-trucks-vandalized-over-thanksgiving-weekend-receives-60k-donation-as-police-investigation-continues/",
-       "when": "14 Oct",
-       "syn": "Toronto food rescue charity Second Harvest had catalytic converters stolen from seven trucks at its Etobicoke headquarters over Thanksgiving weekend. Aurora Foods responded with a $60,000 donation and food, while police continue investigating."
-      },
-      {
-       "t": "Toronto man accused of making anti-South Asian remarks, assaulting victim",
-       "url": "https://www.cp24.com/local/toronto/2026/10/14/toronto-man-accused-of-making-anti-south-asian-remarks-assaulting-victim/",
-       "when": "14 Oct",
-       "syn": "Toronto police arrested a 43-year-old man after an alleged hate-motivated assault in the city's east end. He allegedly made anti-immigrant and anti-South Asian remarks before attacking the victim, and faces charges including an offence motivated by hatred."
-      },
-      {
-       "t": "4 people taken to hospital after collision in Scarborough",
-       "url": "https://www.cp24.com/local/toronto/2026/10/14/two-taken-to-hospital-after-collision-in-scarborough/",
-       "when": "14 Oct",
-       "syn": "Four people were taken to hospital with non-life-threatening injuries after a two-vehicle collision in Scarborough near Markham Road and Finch Avenue. One vehicle rolled over, the circumstances remain unclear, and the roads have reopened."
       }
      ]
     },
@@ -88,6 +85,21 @@
      "name": "Al Jazeera · World",
      "url": "https://www.aljazeera.com/news/",
      "items": [
+      {
+       "t": "Iran war updates: Strikes hit Houthis in Taiz, coalition intercepts attacks",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports",
+       "when": "16 Oct"
+      },
+      {
+       "t": "Trump rules out using a nuclear bomb on Iran: Why that matters",
+       "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters",
+       "when": "16 Oct"
+      },
+      {
+       "t": "Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal",
+       "url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate",
+       "when": "16 Oct"
+      },
       {
        "t": "Trump administration seeks to strip Ilhan Omar of US citizenship: WSJ",
        "url": "https://www.aljazeera.com/news/2026/10/15/trump-administration-seeks-to-strip-ilhan-omar-of-us-citizenship-wsj",
@@ -97,23 +109,6 @@
        "t": "Teenager dies as heavy rain floods Istanbul",
        "url": "https://www.aljazeera.com/news/2026/10/15/teenager-dies-as-heavy-rain-floods-istanbul",
        "when": "15 Oct"
-      },
-      {
-       "t": "North Korea tests two submarine-launched missiles, state media reports",
-       "url": "https://www.aljazeera.com/news/2026/10/15/north-korea-tests-two-submarine-launched-missiles-state-media-reports",
-       "when": "15 Oct"
-      },
-      {
-       "t": "‘Massive’ Russian attack on Ukraine kills at least 9, damages power sites",
-       "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
-       "when": "14 Oct",
-       "syn": "Russian air attacks across Ukraine killed at least nine people and left over half a million without power, days after Trump announced an \"energy ceasefire.\" Zelenskyy said Ukraine received no early warning from Western partners about a ballistic missile strike on Kyiv."
-      },
-      {
-       "t": "Iran targets Starlink as ‘tool of war’ with hints of more internet curbs",
-       "url": "https://www.aljazeera.com/news/2026/10/14/iran-targets-starlink-as-tool-of-war-with-hints-at-internet-restrictions",
-       "when": "14 Oct",
-       "syn": "Iran has pledged to continue its crackdown on Starlink, which it outlaws on national security grounds, and may impose further internet restrictions during the ongoing war. An official called Starlink a \"tool of war\" used by enemies for command and control and espionage."
       }
      ]
     },
@@ -195,6 +190,8 @@
      "tag": "Ongoing conflict",
      "gap": false,
      "w": [
+      "Friday's fighting spread beyond the Gulf. Al Jazeera's 16 October live page is headlined \"Strikes hit Houthis in Taiz, coalition intercepts attacks\", with the web address pointing to Saudi criticism of the Houthis and a US warning about Saudi airports; the page itself gave no casualty figures. Another headline has Tehran saying it is ready to respond to any US threats against its energy plants, and Iran's president Masoud Pezeshkian warning of the war's long-term environmental damage.",
+      "Al Jazeera also ran an explainer on 16 October, \"Trump rules out using a nuclear bomb on Iran: Why that matters\"; its detail was not read here.",
       "Hormuz is getting more dangerous, not less. Al Jazeera reports the UKMTO logged 15 attacks on shipping between 6 and 14 October, 11 of them in the last four days, and Kpler counted 10 tankers struck from 28 September to 4 October. The US-Navy-led JMIC rates the threat to merchant shipping \"severe\", its second-highest level.",
       "Traffic has fallen with it. Al Jazeera cites about 20.8 million barrels passing on 8 October but only 2.9 million on 11 October, against a pre-war average of 17.1 million a day. Brent was $106.58 early on 14 October (WTI settled at $94.14 the day before). Al Jazeera's live page for 15 October is headlined \"Tehran vows to fight until US yields as ships sink in Hormuz\"; I could not read its detail.",
       "Why you should care from Toronto: oil above $100 feeds fuel costs and inflation, which central banks answer with interest rates. At the 14 October EU summit leaders were also wrestling with gas prices at their highest since winter 2022, per Euronews."
@@ -206,8 +203,16 @@
       "Inflation matters because central banks such as the Bank of Canada, the Bank of England and the US Federal Reserve respond to it by moving interest rates. Higher rates make borrowing dearer and usually weigh on bond prices and on shares, especially in growth sectors.",
       "So a conflict thousands of kilometres away reaches a Toronto investor through fuel costs, mortgage rates and the value of an ETF portfolio."
      ],
-     "s": "As of 14-15 Oct 2026 · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified · not re-verified on 16 Oct",
+     "s": "As of 16 Oct 2026 (headlines and live-page text only) and 14-15 Oct (shipping figures) · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified · shipping figures not re-verified on 17 Oct",
      "links": [
+      {
+       "text": "Al Jazeera: Iran war live, 16 October (Houthis, Taiz, Saudi airports)",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports"
+      },
+      {
+       "text": "Al Jazeera: Trump rules out using a nuclear bomb on Iran",
+       "url": "https://www.aljazeera.com/news/2026/10/16/trump-rules-out-using-a-nuclear-bomb-on-iran-why-that-matters"
+      },
       {
        "text": "Al Jazeera: Iran steps up Hormuz surveillance, attacks soar, oil flows crash again",
        "url": "https://www.aljazeera.com/news/2026/10/14/iran-steps-up-hormuz-surveillance-attacks-soar-oil-flows-crash-again",
@@ -233,6 +238,8 @@
      "tag": "Strikes and ceasefire row",
      "gap": false,
      "w": [
+      "Ukraine hit back on the ground. Al Jazeera reports Ukraine's Third Army Corps finished the fourth phase of Operation Vivaldi in Donetsk, retaking 100 sq km and bringing the campaign to 275 sq km and 16 settlements since August, which has also pulled Russian units away from Sloviansk and Kramatorsk. Kyiv resumed strikes on Russian refineries on 15 October after observing the energy ceasefire for three days.",
+      "The diplomatic backdrop is awkward for Kyiv. Al Jazeera says Trump invited Russia on 9 October to sell 1.8 million tonnes of diesel, effectively reversing sanctions legislation he had signed days earlier. Russia answered on 14 October with 850 drones and 39 missiles that hit 30 energy targets in 19 regions, and Ukraine says it was given no warning about five ballistic missiles that struck Kyiv's Thermal Power Plant No. 4 on 13 October. These are claims as reported by Al Jazeera; they are not independently verified.",
       "Kyiv woke up to blackouts. Al Jazeera reports Russian air attacks killed at least nine people across Ukraine on 14 October, three of them in the capital, and left more than half a million without power. Moscow called the strike \"massive\" and said it hit energy and communications sites.",
       "It came days after Donald Trump announced an \"energy ceasefire\" on Sunday 11 October. Zelenskyy says Russia violated it and calls the ballistic missile strike on energy infrastructure \"deliberate\"; he also says Ukraine got no early warning from Western partners. On 10 October Trump said Ukraine needs a new president, after Zelenskyy condemned a US-Russia fuel deal.",
       "At the 14 October EU summit, Euronews says leaders amended their conclusions to regret the US decision to temporarily lift sanctions on Russian diesel. A Ukraine-focused session with Zelenskyy is set for Friday 16 October."
@@ -243,8 +250,12 @@
       "The war also changed government spending. NATO members have pledged to spend more on defence, which squeezes budgets already stretched by ageing populations and high debt.",
       "When you read about a ceasefire or talks, the markets usually watch three things: energy prices, defence-company shares, and the borrowing costs of European governments."
      ],
-     "s": "As of 14 Oct 2026 · Al Jazeera, Euronews · Russian and Ukrainian claims not independently verified · not re-verified on 16 Oct",
+     "s": "As of 16 Oct 2026 · Al Jazeera, Euronews · Russian and Ukrainian claims not independently verified",
      "links": [
+      {
+       "text": "Al Jazeera: Ukraine advances in occupied Donetsk as Trump hands Putin diesel deal (16 Oct)",
+       "url": "https://www.aljazeera.com/news/2026/10/16/ukraine-repels-russian-forces-as-us-support-wavers-energy-strikes-escalate"
+      },
       {
        "text": "Al Jazeera: 'Massive' Russian attack kills at least 9",
        "url": "https://www.aljazeera.com/news/2026/10/14/massive-russian-attack-on-ukraine-kills-at-least-six-cuts-power-in-kyiv",
@@ -284,11 +295,13 @@
      "t": "Mayoral election on 26 October",
      "tag": "Election · 26 Oct",
      "w": [
+      "The newest poll keeps Olivia Chow ahead. Liaison Strategies, interviewing 1,000 Torontonians by automated phone on 8 and 9 October (margin of error 3.1 points), put Chow on 51% and Brad Bradford on 46%, with 3% for others, as reported by Now Toronto on 14 October. Renters favour Chow 57% to 40%; homeowners favour Bradford 50% to 45%. By area, Bradford leads in Etobicoke (59-38) and Scarborough (50-47), while Chow leads downtown (57-39) and in North York (50-46).",
       "It is now a two-horse race. Chris Alexander quit Toronto's mayoral contest on 6 October, hours before a debate, saying his path to victory was \"not obvious and perhaps not there at all\". That leaves Olivia Chow, the incumbent, against Brad Bradford, and their debates have turned sharp, with clashes over transit fares, bike lanes and the city's finances.",
       "A Liaison Strategies poll published on 6 October, just before Alexander left, had Chow on 48%, Bradford 40% and Alexander 9%. Analysts say Alexander's change-minded supporters are up for grabs, though his name stays on the ballot and many voters may not know he has gone. A Forum Research poll reported by Now Toronto after his exit is headlined as showing Chow ahead by four points.",
       "A CP24 and CTV News Toronto poll reported on 13 October found Bradford had narrowed Chow's lead to about 3.5 points, and Nanos Research has also called it a two-horse race. Advance voting is over (6 to 11 October), so the remaining chance to vote is election day, Monday 26 October, 10 a.m. to 8 p.m. Ten days to go."
      ],
      "f": [
+      "Liaison poll, 8-9 Oct (Now Toronto, 14 Oct): Chow 51%, Bradford 46%, others 3%; Chow approval 52%",
       "Election day: Monday 26 October 2026, 10 a.m. to 8 p.m.",
       "Advance voting: 6 to 11 October (now closed)",
       "Chris Alexander withdrew on 6 October; his name stays on the ballot",
@@ -301,8 +314,17 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. Your voter notification card or myvote.toronto.ca shows where to vote on election day, and you need ID showing your name and Toronto address (a passport alone is not accepted because it has no address). Advance voting for this election has already closed.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 16 Oct 2026 · sources: CP24 (13 Oct), Global News (7 Oct), Now Toronto",
+     "s": "As of 17 Oct 2026 · sources: Now Toronto (14 Oct), CBC headline, CP24 (13 Oct), Global News (7 Oct)",
      "links": [
+      {
+       "text": "Now Toronto: Chow leads Bradford by five points in new poll",
+       "url": "https://nowtoronto.com/news/toronto-election-2026-chow-leads-bradford-by-five-points-new-poll/",
+       "syn": "A Liaison Strategies poll of 1,000 Toronto residents on 8-9 October puts Olivia Chow on 51% and Brad Bradford on 46%. Chow leads among renters and downtown; Bradford leads among homeowners and in Etobicoke and Scarborough."
+      },
+      {
+       "text": "CBC: Advance voter turnout jumped nearly 72% from the 2023 byelection (headline)",
+       "url": "https://www.cbc.ca/news/canada/toronto/toronto-2026-advance-voter-turnout-increase-9.7378763"
+      },
       {
        "text": "CP24: What Olivia Chow and Brad Bradford are promising voters (13 Oct)",
        "url": "https://www.cp24.com/local/toronto/2026/10/13/from-fighting-gridlock-to-grocery-prices-this-is-what-olivia-chow-and-brad-bradford-are-promising-voters/",
@@ -326,18 +348,61 @@
      ]
     },
     {
+     "t": "Waymo robotaxis coming to Toronto",
+     "tag": "Tech · Local · 16 Oct",
+     "w": [
+      "Self-driving taxis are heading for Toronto's snow. Waymo, Alphabet's robotaxi company, has been approved for Ontario's provincial pilot programme and plans to carry its first paying riders in 2028, starting later this year with street mapping and then test runs with a safety driver. It is partnering with Toronto-based Element Fleet Management for maintenance and support.",
+      "Waymo says its cars had 95% fewer serious-injury or fatal crashes than human drivers in its operating cities, based on its own data from over 400 million driverless kilometres. Critics raise snow and ice blocking sensors and the jobs of human drivers; Ontario says the rollout will be phased with a 'credible jobs plan'."
+     ],
+     "n": [
+      "A robotaxi is a taxi with no human driver, summoned by app. Waymo, owned by Google's parent company Alphabet, runs them in several US cities using cameras, radar and lidar (laser scanners) to see the road.",
+      "Ontario lets companies test self-driving vehicles under a pilot programme with conditions set by the province. Testing begins with a person behind the wheel who can take over.",
+      "Winter is the open question: snow and ice can cover sensors. The company says its own safety numbers are strong, but those figures are the company's, not an independent audit."
+     ],
+     "s": "As of 16 Oct 2026 · CP24 · safety figures are Waymo's own",
+     "links": [
+      {
+       "text": "CP24: Waymo to test robotaxis in Toronto as it guns for 2028 launch date",
+       "url": "https://www.cp24.com/local/toronto/2026/10/16/waymo-to-launch-robotaxis-in-toronto-this-is-how-the-pilot-program-works/"
+      }
+     ]
+    },
+    {
+     "t": "Toronto Waterfront Marathon weekend",
+     "tag": "This weekend · closures",
+     "w": [
+      "Run or detour: the Toronto Waterfront Marathon weekend closes major downtown roads. CP24 lists the 5K on Saturday, with Bay Street shut from Queen to Lake Shore from 4 a.m. to about 1 p.m., and the half and full marathons on Sunday, with Lake Shore Boulevard closed between Windermere Avenue and Bathurst Street from 5 a.m. to about 2 p.m. and Yonge, Bay, Bathurst and Bloor closed in the morning."
+     ],
+     "n": [
+      "A marathon is a 42.2 km road race; a half marathon is half that. Big city races close main streets for hours, so check the route map before driving or catching a bus.",
+      "Streets usually reopen in stages as the last runners pass. The full list is on the marathon's own race-weekend page."
+     ],
+     "s": "As of 16 Oct 2026 · CP24 (the article does not state start times)",
+     "links": [
+      {
+       "text": "CP24: Marathon road closures this weekend",
+       "url": "https://www.cp24.com/local/toronto/2026/10/16/toronto-waterfront-marathon-road-closures-this-weekend-heres-what-you-need-to-know/"
+      }
+     ]
+    },
+    {
      "t": "Leafs, Jays and Raptors",
      "tag": "Leafs · Jays · Raptors",
      "w": [
       "The Maple Leafs lost in overtime again. Buffalo won 5–4 on Owen Power's extra-time goal on Thursday 15 October, despite a hat trick from Kirill Marchenko and a goal from Auston Matthews, leaving Toronto 3-3-2 with 8 points. They host the New York Islanders on Saturday.",
+      "Tonight (Saturday 17 October, 7 pm ET at Scotiabank Arena) the Islanders visit, with Toronto leading the season series 1-0 after a 2-1 opening win. NHL.com's preview notes the Leafs have allowed three or more goals in seven of eight games, with both goalies below a .900 save percentage, but own the league's best penalty kill (96.2%). Auston Matthews has a six-game point streak and 13 points.",
       "The Blue Jays have been out of the playoff race since 23 September, when a loss to Baltimore ended their hopes. The Raptors are next up: they open the 2026-27 NBA season at home to the Chicago Bulls on 21 October, per TSN."
      ],
      "n": [
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 16 Oct 2026 · Leafs result from surprisesports.com; Jays and Raptors as of 15 Oct",
+     "s": "As of 17 Oct 2026 · Leafs preview from NHL.com; Jays and Raptors as of 15 Oct",
      "links": [
+      {
+       "text": "NHL.com: Game preview, Islanders at Maple Leafs (17 Oct)",
+       "url": "https://www.nhl.com/islanders/news/game-preview-islanders-at-maple-leafs-oct-17-2026"
+      },
       {
        "text": "Maple Leafs game day: at Utah, 13 Oct (NHL.com)",
        "url": "https://www.nhl.com/mapleleafs/news/game-day-utah-oct-13-2026",
@@ -437,6 +502,7 @@
      "tag": "Westminster · Rate hike risk",
      "w": [
       "The Bank of England's governor has just made the next rate decision a live one. Speaking in Istanbul on 8 October, Andrew Bailey said looking through the energy-price shock only works if inflation expectations stay anchored, and that the Bank is conscious of the risk of elevated expectations. One report puts markets at about a 90% chance of a quarter-point rise to 4.0% on 5 November.",
+      "On Friday 16 October Bailey added a calmer note. Reports from RTÉ and MarketScreener say he sees 'subdued' second-round price pressures so far, meaning little sign yet of energy costs feeding into wages and other prices; the detail beyond that headline was not read.",
       "Bank Rate stands at 3.75% after the Monetary Policy Committee voted 6-3 to hold in September. Bailey also said the Treasury's stance must be credible to markets ahead of the Autumn Budget on 28 October, the first from Prime Minister Andy Burnham's government under Chancellor John Healey.",
       "The next inflation reading, for September, is due from the ONS on 21 October, a week before the Budget."
      ],
@@ -453,7 +519,7 @@
       "Bank Rate matters to ordinary people because mortgages, savings accounts and business loans follow it. It also influences gilt yields. Gilts are UK government bonds. When investors expect higher rates or worry about government borrowing, gilt yields rise and prices fall.",
       "For a Canadian-based ETF investor the UK matters mainly through the pound against the Canadian dollar and through any UK shares inside a global fund."
      ],
-     "s": "As of 15 Oct 2026 · sources: Pound Sterling Live (9 Oct), ONS release calendar · not re-verified on 16 Oct",
+     "s": "As of 15 Oct 2026 · sources: Pound Sterling Live (9 Oct), ONS release calendar · not re-verified on 16 Oct · Bailey, 16 Oct: RTÉ headline",
      "links": [
       {
        "text": "Pound Sterling Live: Bailey hawkish, November hike",
@@ -468,6 +534,10 @@
       {
        "text": "Bank of England: Bank Rate and decisions",
        "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+      },
+      {
+       "text": "RTÉ: BoE's Bailey sees 'subdued' second-round price pressures (16 Oct)",
+       "url": "https://www.rte.ie/news/business/2026/1016/1595607-bank-of-england-on-uk-inflation/"
       }
      ]
     },
@@ -789,6 +859,7 @@
      "t": "Tesla",
      "tag": "Q3 results 21 Oct",
      "w": [
+      "Tesla's Roadster demo on Thursday 15 October drew a shrug from Wall Street. Yahoo Finance reports the stock closed at $354.72 on 16 October, down 2.13% on volume about 64% above average, with analyst Gene Munster calling the car an 'engineering flex' rather than a breakthrough. The Roadster was reportedly built using SpaceX thrusters, which has fuelled talk of a Tesla-SpaceX merger; prediction markets put the odds at 56%, per the same report. (Another site shows a different 16 Oct price, so treat the figure as one source's.)",
       "Tesla's results are six days away. It reports third-quarter earnings on 21 October (call at 5:30 pm Eastern), after a delivery update on 2 October that beat its own compiled forecast: 486,532 vehicles against a consensus of 461,974.",
       "The picture is mixed. Deliveries were down 2.1% on a year earlier and production was 464,391, but energy storage deployments of 13.7 GWh missed the 15.9 GWh analysts expected, per Electrek. A preview from Hudson Labs flags margin pressure, negative free cash flow for the rest of 2026 and capital spending above US$25 billion.",
       "Watch the gross margin and what executives say about the Cybercab, Optimus, Semi and Megapack 3 ramps. Consensus (Hudson Labs, 5 Oct): revenue about US$27.6 billion and GAAP EPS about 26 cents."
@@ -804,8 +875,12 @@
       "For Tesla, the key figures are vehicle deliveries, the gross margin on each car, energy-storage sales and spending on new projects. The company also talks up its autonomous driving and robotaxi plans, which is much of the reason for its valuation.",
       "The Roadster is a long-promised sports car. The Semi is an electric lorry meant to move freight cheaply."
      ],
-     "s": "As of 15 Oct 2026. Sources: Electrek (2 Oct), Hudson Labs preview (5 Oct), Tesla Oracle. · not re-verified on 16 Oct",
+     "s": "As of 17 Oct 2026. Sources: Yahoo Finance (16 Oct), Electrek (2 Oct), Hudson Labs (5 Oct), Tesla Oracle. Earnings date 21 Oct per Tesla Oracle; Yahoo says 'next week'.",
      "links": [
+      {
+       "text": "Yahoo Finance: Stock Market Today, Oct. 16: Tesla slips as Roadster reveal fades before earnings",
+       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-16-214303806.html"
+      },
       {
        "text": "Electrek: Tesla Q3 2026 deliveries 486,532",
        "url": "https://electrek.co/2026/10/02/tesla-q3-2026-deliveries-486532/",
@@ -1122,11 +1197,13 @@
      "t": "Canada: where things stand",
      "tag": "BoC 28 Oct: hike debate",
      "w": [
+      "The data week is here. Statistics Canada publishes September inflation on Monday 19 October, along with the Bank of Canada's business and consumer surveys. A Reuters/LSEG poll expects inflation to rise to 3.2% from 3.0%, while RBC's Nathan Janzen expects it to hold at 3.0%. He calls 28 October a 'live' meeting but a hike is not his base case. Canada also lost 68,000 jobs in September, the second straight monthly fall, which argues against raising rates (BNN Bloomberg, 16 Oct).",
       "Canada's rate call is suddenly live. The Bank of Canada has held at 2.25% since October 2025, but after Governor Macklem said on 2 September that upside inflation risks were growing, several forecasters now expect a hike on 28 October: UBS, Manulife, Oxford Economics and Scotiabank say yes, while RBC sees a close call and a hold, with hikes from early 2027 (Canadian Mortgage Professional, 2 Oct).",
       "Two numbers decide it. September CPI is out on Monday 19 October; inflation was 3.0% in August and one preview expects 3.0% again (UBS 3.3%). The 5-year Government of Canada bond yield stood at 3.59% on 6 October, against 2.75% a year earlier, which is why fixed mortgage rates have been rising (a lender spread of 1.2 to 2.0 points on that yield implies roughly 4.8% to 5.6%, per Wealth North; lender quotes vary).",
       "Shares: the S&P/TSX composite rose 347.89 points to 35,502.65 on 2 October and gained more than 300 points on 13 October on energy stocks, against a record near 36,660 in August. Oil was about US$91 a barrel on 2 October, and new US import bans on some Canadian goods add trade uncertainty."
      ],
      "f": [
+      "Sept CPI Mon 19 Oct: forecasts 3.0% to 3.2% (Aug 3.0%); Canada lost 68,000 jobs in Sept",
       "Policy rate: 2.25%, decision 28 Oct",
       "CPI inflation: 3.0% (August); September CPI on 19 Oct",
       "5-year GoC yield: 3.59% (6 Oct)",
@@ -1138,8 +1215,12 @@
       "The S&P/TSX Composite is the main Canadian share index. It is heavy in banks, energy and mining, so it rises and falls with commodity prices and financial-sector earnings, and is less weighted to technology than US indexes.",
       "The Canadian dollar also matters. When oil rises it often strengthens, which changes the value of any US or international assets you hold."
      ],
-     "s": "As of 15 Oct 2026. Sources: Canadian Mortgage Professional (2 Oct), Wealth North, BNN Bloomberg (2 Oct), CTV (13 Oct). General information, not advice. · not re-verified on 16 Oct",
+     "s": "As of 16-17 Oct 2026. Sources: BNN Bloomberg (16 Oct), Canadian Mortgage Professional (2 Oct), Wealth North. Yields and TSX levels not re-verified. General information, not advice.",
      "links": [
+      {
+       "text": "BNN Bloomberg: Bank of Canada set for pair of important data drops ahead of 'live' rate decision (16 Oct)",
+       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/16/bank-of-canada-set-for-pair-of-important-data-drops-ahead-of-live-rate-decision/"
+      },
       {
        "text": "Canadian Mortgage Professional: rate-hike calls gather pace ahead of October BoC decision",
        "url": "https://www.mpamag.com/ca/mortgage-industry/industry-trends/rate-hike-calls-gather-pace-ahead-of-october-boc-decision/592150",
@@ -1348,9 +1429,9 @@
  "econ": [
   [
    "Canada",
-   "2.25% (next: 28 Oct)",
+   "2.25% (next: 28 Oct, a \"live\" meeting)",
    "3.0% (Aug)",
-   "September CPI 19 Oct. Some banks expect a hike. 5-year GoC yield 3.59% (6 Oct). TSX 35,502.65 on 2 Oct, record near 36,660 in Aug."
+   "September CPI Mon 19 Oct (forecasts 3.0% to 3.2%). Canada lost 68,000 jobs in Sept. 5-year GoC yield 3.59% (6 Oct, not re-verified)."
   ],
   [
    "United States",
@@ -1381,8 +1462,8 @@
   {
    "id": "football",
    "title": "Football",
-   "summary": "Man City top the Premier League, then lose 4–2 to PSG in Europe; Arsenal and Liverpool win in the Champions League.",
-   "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Thursday 15 October 2026.",
+   "summary": "Man City top the Premier League; Everton v Chelsea kicks off the next round at 12:30 UK time today.",
+   "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Saturday 17 October 2026 (before kick-off).",
    "cards": [
     {
      "t": "Premier League",
@@ -1390,7 +1471,7 @@
      "w": [
       "Coventry City ended a 25-year wait on Monday night. A 4–1 win over Newcastle United, the first home Premier League victory for Coventry in 25 years, lifted them out of the bottom three to 14th, with Jack Rudoni's early penalty, Sidiki Cherif, and substitutes Ellis Simms and Stephen Mfuni on the scoresheet. Sven Botman's 70th-minute strike was Newcastle's only reply.",
       "That Monday game was the last of the round, so every club has now played six. Manchester City are top with a perfect 18 points, Arsenal are second on 15 and Brighton third on 13. Newcastle drop to 11th on 8.",
-      "At the bottom, Fulham are last on 2, with Tottenham and AFC Bournemouth both on 3. The table was unchanged on 16 October, with no games since Monday 12 October. The next round starts Saturday 17 October with Everton v Chelsea at 12:30, and Bournemouth host Sunderland on Sunday at 2 pm."
+      "At the bottom, Fulham are last on 2, with Tottenham and AFC Bournemouth both on 3. The table is unchanged this morning, with no games since Monday 12 October. The next round starts Saturday 17 October with Everton v Chelsea at 12:30, and Bournemouth host Sunderland on Sunday at 2 pm."
      ],
      "f": [
       "Leaders: Manchester City 18, Arsenal 15, Brighton & Hove Albion 13",
@@ -1403,7 +1484,7 @@
       "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
       "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
      ],
-     "s": "Table as of Mon 12 Oct 2026 (unchanged on 16 Oct; no games since). Fixtures read 16 Oct. Sources: footballwebpages.co.uk, newcastleunited.com",
+     "s": "Table as of Mon 12 Oct 2026 (unchanged on 17 Oct; no games since). Fixtures read 16 Oct. Sources: footballwebpages.co.uk, newcastleunited.com",
      "links": [
       {
        "text": "Newcastle United: match report, Coventry City 4–1",
@@ -1413,6 +1494,10 @@
       {
        "text": "footballwebpages.co.uk: Premier League table, 12 Oct",
        "url": "https://www.footballwebpages.co.uk/premier-league/20261012"
+      },
+      {
+       "text": "IOL: EPL Saturday preview, Man City headline action as Chelsea, Liverpool face stern tests",
+       "url": "https://iol.co.za/sport/soccer/2026-10-17-epl-saturday-preview-manchester-city-headline-action-as-chelsea-liverpool-face-stern-tests/"
       }
      ]
     },
@@ -1797,7 +1882,7 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Fri 16 Oct 2026 (footballwebpages.co.uk; UK times)",
+       "asof": "Sat 17 Oct 2026, morning (footballwebpages.co.uk Saturday fixtures re-read; UK times). Sunday list as read 16 Oct.",
        "source": "footballwebpages.co.uk",
        "items": [
         "Sat 17 Oct, 12:30: Everton v Chelsea (TNT Sports)",
@@ -2567,7 +2652,7 @@
       {
        "id": "top14",
        "title": "Top 14 results (round 6)",
-       "asof": "Sat 10 – Sun 11 Oct 2026 (latest round; no Top 14 games since)",
+       "asof": "Sat 10 – Sun 11 Oct 2026 (latest round; no Top 14 games since) · not re-checked 17 Oct",
        "source": "itsrugby.fr, Sky Sports",
        "items": [
         "Toulouse 45–34 Bayonne (Sun 11 Oct)",
@@ -2593,7 +2678,7 @@
       {
        "id": "top14-table",
        "title": "Top 14 table (after round 6)",
-       "asof": "Sun 11 Oct 2026, after round 6 (unchanged, no games since)",
+       "asof": "Sun 11 Oct 2026, after round 6 (unchanged, no games since) · not re-checked 17 Oct",
        "source": "itsrugby.fr",
        "cols": [
         "Pos",
@@ -2742,7 +2827,7 @@
       {
        "id": "prem-res",
        "title": "Gallagher Premiership results (round 3)",
-       "asof": "Fri 9 – Sun 11 Oct 2026 (latest round; no games since)",
+       "asof": "Fri 9 – Sun 11 Oct 2026 (latest round; no games since) · not re-checked 17 Oct",
        "source": "Sky Sports",
        "items": [
         "Leicester 38–31 Gloucester (Fri 9 Oct)",
@@ -2762,7 +2847,7 @@
       {
        "id": "urc",
        "title": "United Rugby Championship table (after 3 rounds)",
-       "asof": "4 Oct 2026, after 3 rounds (unchanged; the next round is 23–24 Oct)",
+       "asof": "4 Oct 2026, after 3 rounds (unchanged; the next round is 23–24 Oct) · not re-checked 17 Oct",
        "source": "Wikipedia",
        "cols": [
         "Pos",
@@ -2866,7 +2951,7 @@
       {
        "id": "nations-table",
        "title": "Nations Championship standings (after the July window)",
-       "asof": "18 Jul 2026, end of the July window; the November window starts 6 Nov",
+       "asof": "18 Jul 2026, end of the July window; the November window starts 6 Nov · not re-checked 17 Oct",
        "source": "Wikipedia",
        "cols": [
         "Conference",
@@ -2998,7 +3083,7 @@
       {
        "id": "prem-fix",
        "title": "Upcoming: Premiership and Nations Championship",
-       "asof": "14 Oct 2026 (Premiership dates from TNT Sports/Scotsman, not re-verified; URC and Nations dates from rugbyworld.com and SA Rugby magazine)",
+       "asof": "14 Oct 2026 (Premiership dates from TNT Sports/Scotsman, not re-verified; URC and Nations dates from rugbyworld.com and SA Rugby magazine) · not re-checked 17 Oct",
        "source": "TNT Sports, Scotsman, Wikipedia",
        "items": [
         "Fri 23 Oct: Gloucester v Bath · Newcastle v Sale (Premiership round 4)",
@@ -3123,7 +3208,7 @@
       {
        "id": "cr-res",
        "title": "Latest results",
-       "asof": "9–14 Oct 2026",
+       "asof": "9–14 Oct 2026 · not re-checked 17 Oct",
        "source": "Cricinfo, Sky Sports, ABC/AP, sportsmintmedia.com, The Sports Encounter, CricTracker",
        "items": [
         "West Indies beat India by 24 runs, 4th T20I, Hyderabad (Wed 14 Oct): West Indies 247/3 (Shai Hope 102*, Keemo Paul 5-41), India 223; series level 2–2",
@@ -3158,7 +3243,7 @@
       {
        "id": "cr-fix",
        "title": "Upcoming",
-       "asof": "14 Oct 2026 (dates as listed on Wikipedia on 12 Oct, Sky Sports for the Gqeberha start; not all re-checked)",
+       "asof": "14 Oct 2026 (dates as listed on Wikipedia on 12 Oct, Sky Sports for the Gqeberha start; not all re-checked) · not re-checked 17 Oct",
        "source": "Wikipedia: International cricket in 2026–27",
        "items": [
         "14 Oct: Australia women v Bangladesh women, 3rd ODI, Brisbane (result not found)",
@@ -3183,16 +3268,15 @@
   {
    "id": "tennis",
    "title": "Tennis",
-   "summary": "Zverev set to end 2026 as world No 1; Shanghai quarter-finals today and tomorrow.",
+   "summary": "Shanghai semis: Zverev v Davidovich Fokina, Medvedev v 20-year-old Jodar; Wuhan semis today, final Sunday.",
    "intro": "Rankings and the current tournaments in Shanghai (ATP) and Wuhan (WTA). Updated Thursday 15 October 2026.",
    "cards": [
     {
      "t": "Tennis: the Shanghai Masters",
-     "tag": "Quarter-finals 15–16 Oct",
+     "tag": "Semi-finals · final Sun 18 Oct",
      "w": [
-      "Alexander Zverev is through to the last eight in Shanghai and reports say he will finish 2026 as world number one. Carlos Alcaraz was knocked out on Monday by Belgian Zizou Bergs, 7–5, 7–6(4), which, according to Spanish reports, ends his chance of catching Zverev. Jannik Sinner, still top on 11,000 points, is reported to be out until 2027 with physical problems.",
-      "The quarter-finals are Zverev v Alex de Minaur and Arthur Gea v Alejandro Davidovich Fokina on Thursday 15 October, then Rafael Jodar v Casper Ruud and Daniil Medvedev v Tommy Paul on Friday 16 October. On Wednesday Medvedev beat Stefanos Tsitsipas 6–4, 7–5, Paul beat Bergs 7–6(5), 6–4, Jodar came back again to beat Botic van de Zandschulp, and Felix Auger-Aliassime retired with a knee injury while trailing Ruud 5–2.",
-      "It is a bruising week for the big names. Ben Shelton lost to Gea on 11 October, and Novak Djokovic went out to Hubert Hurkacz on 9 October. The final is on Sunday 18 October."
+      "Alexander Zverev is one win from the Shanghai final. The top seed beat Alex de Minaur 6-4, 6-4 on Thursday 15 October, and Alejandro Davidovich Fokina advanced when Arthur Gea retired trailing 4-1. On Friday 16 October Rafael Jodar became, at 20, the youngest semi-finalist in Shanghai Masters history, coming back to beat Casper Ruud 4-6, 6-4, 6-3, his fourth straight Masters 1000 match won after losing the first set. Daniil Medvedev beat Tommy Paul 6-3, 1-6, 6-3.",
+      "The semi-finals are Zverev v Davidovich Fokina and Medvedev v Jodar; the final is on Sunday 18 October. Earlier in the week Zverev was reported (by Spanish media) to be set to finish 2026 as world number one after Carlos Alcaraz lost to Zizou Bergs, with Jannik Sinner reported out until 2027; the rankings below are dated 5 October and were not re-checked."
      ],
      "f": [
       "Zverev beat Alexander Bublik 7–6(6), 4–6, 7–6(1) in the last 16 (Tue 13 Oct)",
@@ -3204,7 +3288,7 @@
       "A match is played in sets, and a set in games. Within a game, points go 15, 30, 40, then game, and at 40-40 (deuce) a player must win two points in a row. Most tour matches are the best of three sets, and Slams are the best of five for men.",
       "Rankings are based on points won over the previous 52 weeks, so injuries hurt twice: a missed event means missed points and a falling ranking."
      ],
-     "s": "As of 15 Oct 2026. Sources: ATP Tour results page, The Sports Encounter, Emol and El Grafico (rankings reports, Spanish language) · Friday 16 Oct quarter-finals not verified on 16 Oct; ATP results page showed the last 16 of 14 Oct",
+     "s": "As of 16 Oct 2026. Sources: ATP Tour results page (15 Oct), KSAT/AP (16 Oct), Dawn/Reuters (16 Oct); semi-final dates not stated in sources",
      "links": [
       {
        "text": "ATP Tour: Shanghai 2026 results",
@@ -3219,17 +3303,18 @@
     },
     {
      "t": "Tennis: the Wuhan Open (WTA 1000)",
-     "tag": "12–18 Oct",
+     "tag": "Semi-finals Sat 17 Oct",
      "w": [
       "Aryna Sabalenka is out in her first match. The top seed lost 3–6, 6–4, 7–6(5) to American Ann Li on Wednesday after saving nine match points from 2–5 down in the decider, and Li took her tenth chance after 2 hours 27 minutes. Second seed Jessica Pegula also fell, 2–6, 7–6(7), 6–3 to Jelena Ostapenko.",
       "Iga Swiatek (7th seed) won 6–2, 6–1 over Magdalena Frech and plays Ashlyn Krueger next. Karolina Muchova saved her tournament in two tiebreaks against Caty McNally, and world No 170 Sonay Kartal upset ninth seed Belinda Bencic 6–0, 7–5.",
-      "Elena Rybakina, the world No 1, and defending champion Coco Gauff pulled out before the draw, as did Anisimova, Keys and Osaka according to a 9 October entry-list report."
+      "Elena Rybakina, the world No 1, and defending champion Coco Gauff pulled out before the draw, as did Anisimova, Keys and Osaka according to a 9 October entry-list report.",
+      "The quarter-finals on Friday 16 October set up a historic last four: Iga Swiatek (7) beat Ann Li 6-4, 6-1, Maja Chwalinska (16) beat Maria Sakkari 6-0, 3-6, 7-5, Sonay Kartal beat Elina Svitolina 6-2, 2-6, 6-4 and Jelena Ostapenko beat Diana Shnaider 7-6(6), 6-1. Swiatek v Chwalinska is the first all-Polish WTA semi-final in the Open Era, between former junior doubles partners. Kartal, ranked 170 after about six months out with a back injury, plays Ostapenko. Semi-finals are Saturday 17 October; the final is Sunday 18 October."
      ],
      "n": [
       "Wuhan is one of the WTA's 1000-level events, the tour's second-biggest tier after the four Grand Slams. The champion gets 1,000 ranking points.",
       "Rankings count the best results from the last 52 weeks, so a first-round exit costs a seed her chance to add points, while the 1000 events in Asia come at the end of the season as players chase a place at the WTA Finals."
      ],
-     "s": "As of 15 Oct 2026. Sources: Philstar (AFP), Tennis365, WTA draw summary reports",
+     "s": "As of 16-17 Oct 2026. Sources: The Sports Encounter (16 Oct), LTA (16 Oct), Philstar (AFP)",
      "links": [
       {
        "text": "Philstar: Top seed Sabalenka eliminated at first hurdle in Wuhan",
@@ -3252,7 +3337,7 @@
       {
        "id": "atp",
        "title": "ATP top 10",
-       "asof": "ranking dated 5 Oct 2026; still current on 12 Oct per ATP-based reports",
+       "asof": "ranking dated 5 Oct 2026; atptour.com page not re-read on 17 Oct (reports say Zverev will end the year No 1)",
        "source": "atptour.com",
        "cols": [
         "Rank",
@@ -3395,22 +3480,16 @@
       },
       {
        "id": "shanghai",
-       "title": "Shanghai Masters (7–18 Oct): results and quarter-finals",
-       "asof": "Wed 14 Oct 2026",
-       "source": "atptour.com, thesportsencounter.com",
+       "title": "Shanghai Masters (7–18 Oct): results and semi-finals",
+       "asof": "Fri 16 Oct 2026",
+       "source": "atptour.com, KSAT/AP, Dawn/Reuters",
        "items": [
-        "Quarter-final, Thu 15 Oct: [1] Alexander Zverev v [9] Alex de Minaur",
-        "Quarter-final, Thu 15 Oct: Arthur Gea v [25] Alejandro Davidovich Fokina",
-        "Quarter-final, Fri 16 Oct: [12] Rafael Jodar v [20] Casper Ruud",
-        "Quarter-final, Fri 16 Oct: [5] Daniil Medvedev v [15] Tommy Paul",
-        "Last 16, Wed 14 Oct: Medvedev d. Tsitsipas 6–4, 7–5",
-        "Last 16, Wed 14 Oct: Paul d. Bergs 7–6(5), 6–4",
-        "Last 16, Wed 14 Oct: Jodar d. van de Zandschulp 6–7(4), 6–4, 6–2",
-        "Last 16, Wed 14 Oct: Ruud d. Auger-Aliassime 5–2 ret.",
-        "Last 16, Tue 13 Oct: Zverev d. Bublik 7–6(6), 4–6, 7–6(1)",
-        "Last 16, Tue 13 Oct: De Minaur d. Khachanov 6–3, 6–4",
-        "Last 16, Tue 13 Oct: Gea d. Mensik 7–6(4), 6–4",
-        "Last 16, Tue 13 Oct: Davidovich Fokina d. Hurkacz 1–6, 6–3, 7–6(6)"
+        "Semi-final: [1] Alexander Zverev v [25] Alejandro Davidovich Fokina",
+        "Semi-final: [5] Daniil Medvedev v [12] Rafael Jodar",
+        "Quarter-final, Fri 16 Oct: Jodar d. [20] Ruud 4–6, 6–4, 6–3",
+        "Quarter-final, Fri 16 Oct: Medvedev d. [15] Paul 6–3, 1–6, 6–3",
+        "Quarter-final, Thu 15 Oct: Zverev d. [9] De Minaur 6–4, 6–4",
+        "Quarter-final, Thu 15 Oct: Davidovich Fokina d. Gea 4–1 ret."
        ],
        "links": [
         {
@@ -3421,16 +3500,17 @@
       },
       {
        "id": "wuhan",
-       "title": "Wuhan Open (12–18 Oct): latest results",
-       "asof": "Wed 14 Oct 2026",
-       "source": "Philstar (AFP report)",
+       "title": "Wuhan Open (12–18 Oct): quarter-final results and semi-finals",
+       "asof": "Fri 16 Oct 2026",
+       "source": "The Sports Encounter, LTA",
        "items": [
-        "Ann Li d. [1] Aryna Sabalenka 3–6, 6–4, 7–6(5)",
-        "Jelena Ostapenko d. [2] Jessica Pegula 2–6, 7–6(7), 6–3",
-        "[7] Iga Swiatek d. Magdalena Frech 6–2, 6–1",
-        "[6] Karolina Muchova d. Caty McNally 3–6, 7–6(1), 7–6(4)",
-        "Sonay Kartal d. [9] Belinda Bencic 6–0, 7–5",
-        "Next: Li v Janice Tjen; Swiatek v Ashlyn Krueger; Muchova v Diana Shnaider; Kartal v [15] Jasmine Paolini"
+        "Semi-final, Sat 17 Oct: [7] Iga Swiatek v [16] Maja Chwalinska",
+        "Semi-final, Sat 17 Oct: Sonay Kartal v Jelena Ostapenko",
+        "QF: Swiatek d. Ann Li 6–4, 6–1",
+        "QF: Chwalinska d. Maria Sakkari 6–0, 3–6, 7–5",
+        "QF: Kartal d. [5] Elina Svitolina 6–2, 2–6, 6–4",
+        "QF: Ostapenko d. [11] Diana Shnaider 7–6(6), 6–1",
+        "Final: Sun 18 Oct"
        ],
        "note": "Only Wednesday's results were found. The full draw was not confirmed.",
        "links": [
@@ -3504,7 +3584,7 @@
       {
        "id": "sq-res",
        "title": "CIB Egyptian Open (Giza, 6–16 Oct): latest results",
-       "asof": "Quarter-finals, Mon 12 – Tue 13 Oct 2026 (more quarter-finals on Wed 14 Oct)",
+       "asof": "Quarter-finals, Mon 12 – Tue 13 Oct 2026 (more quarter-finals on Wed 14 Oct) · not re-checked 17 Oct",
        "source": "PSA Squash Tour",
        "items": [
         "Men, quarter-finals: Asal (1) bt Zakaria 3–0",
@@ -3530,7 +3610,7 @@
       {
        "id": "sq-men",
        "title": "PSA men's top 10",
-       "asof": "World ranking dated 12 Oct 2026 (re-checked 14 Oct; unchanged)",
+       "asof": "World ranking dated 12 Oct 2026 (re-checked 14 Oct; unchanged) · not re-checked 17 Oct",
        "source": "Squash Info",
        "cols": [
         "Rank",
@@ -3602,7 +3682,7 @@
       {
        "id": "sq-women",
        "title": "PSA women's top 10",
-       "asof": "World ranking dated 12 Oct 2026 (re-checked 14 Oct; unchanged)",
+       "asof": "World ranking dated 12 Oct 2026 (re-checked 14 Oct; unchanged) · not re-checked 17 Oct",
        "source": "Squash Info",
        "cols": [
         "Rank",
@@ -3674,7 +3754,7 @@
       {
        "id": "sq-fix",
        "title": "Upcoming",
-       "asof": "14 Oct 2026",
+       "asof": "14 Oct 2026 · not re-checked 17 Oct",
        "source": "PSA Squash Tour, Squash Ontario",
        "items": [
         "Wed 14 Oct, Egyptian Open quarter-finals: Crouin v Coll · ElSherbini v Gohar · Kennedy v Orfi",
@@ -3761,7 +3841,7 @@
       {
        "id": "fh-res",
        "title": "Latest results found",
-       "asof": "Internationals: 2–3 Oct (nothing newer found). Club news to 14 Oct 2026",
+       "asof": "Internationals: 2–3 Oct (nothing newer found). Club news to 14 Oct 2026 · not re-checked 17 Oct",
        "source": "Outlook India, Wikipedia, FieldHockey.com",
        "items": [
         "Asian Games women's gold medal match: India 1–0 China (Fri 2 Oct)",
@@ -3791,7 +3871,7 @@
       {
        "id": "fh-wc",
        "title": "2026 World Cups (Belgium and the Netherlands, August)",
-       "asof": "Aug 2026",
+       "asof": "Aug 2026 · not re-checked 17 Oct",
        "source": "Wikipedia",
        "items": [
         "Men (15–30 Aug): Germany beat Spain 1–0 in the final (fourth title); Argentina third",
@@ -3811,7 +3891,7 @@
       {
        "id": "fh-fix",
        "title": "Upcoming",
-       "asof": "14 Oct 2026",
+       "asof": "14 Oct 2026 · not re-checked 17 Oct",
        "source": "FieldHockey.com, UNI, Hockey Australia",
        "items": [
         "Sat 17 – Sat 24 Oct: Sultan of Johor Cup (junior); Pakistan have named an 18-player U-21 squad",
@@ -3895,7 +3975,7 @@
       {
        "id": "mlb",
        "title": "MLB league championship series",
-       "asof": "14 Oct 2026 (series status as listed by NBC)",
+       "asof": "14 Oct 2026 (series status as listed by NBC) · not re-checked on 17 Oct",
        "source": "nbcnewyork.com",
        "cols": [
         "Series",
@@ -3989,7 +4069,7 @@
       {
        "id": "rap",
        "title": "Raptors preseason and opener",
-       "asof": "15 Oct 2026",
+       "asof": "15 Oct 2026 · not re-checked 17 Oct",
        "source": "thelines.com; roundtable.io; TSN",
        "cols": [
         "Date",
@@ -4043,16 +4123,17 @@
   {
    "id": "ice-hockey",
    "title": "Ice hockey",
-   "summary": "Leafs 3-3-2 after a 5–4 overtime loss at Buffalo; Islanders on Saturday.",
+   "summary": "Leafs (3-3-2) host the Islanders tonight at 7 pm ET after a 5–4 overtime loss in Buffalo.",
    "intro": "Maple Leafs and the NHL.",
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "3-3-2",
+     "tag": "3-3-2 · Islanders tonight",
      "w": [
       "Heartbreak in Buffalo. The Leafs fought back from behind, with Kirill Marchenko scoring a hat trick and Auston Matthews adding one, but the Sabres won 5–4 in overtime on Thursday 15 October when Owen Power found the winner. Jack Quinn scored twice for Buffalo, with Dennis Gilbert and Mattias Samuelsson also on the sheet.",
       "That leaves Toronto 3-3-2 with 8 points after eight games, two of the defeats coming in overtime. On Tuesday 13 October they had lost 5–4 at Utah, and on 10 October they won 6–3 at Colorado.",
-      "Next up is the New York Islanders at home on Saturday 17 October (7 pm), then San Jose on Monday 19 October."
+      "Next up is the New York Islanders at home on Saturday 17 October (7 pm), then San Jose on Monday 19 October.",
+      "Tonight's visitors are 3-3-1 and have the NHL's second-best goals-against average (2.29). Coach Pete DeBoer has been shuffling his lines, and first overall pick Gavin McKenna was benched for the last 32:54 in Buffalo (NHL.com preview). Starting goalies had not been confirmed."
      ],
      "f": [
       "Record: 3 wins, 3 losses, 2 overtime losses (8 points, 8 games)",
@@ -4064,7 +4145,7 @@
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 16 Oct 2026 (source: surprisesports.com; earlier results Fox Sports)",
+     "s": "As of 17 Oct 2026 (sources: surprisesports.com; NHL.com game preview; Maple Leafs Hot Stove)",
      "links": [
       {
        "text": "Fox Sports: Maple Leafs v Mammoth, 13 Oct 2026 box score",
@@ -4157,7 +4238,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "16 Oct 2026 (Buffalo game now played; remaining dates as listed 11 Oct, not re-checked)",
+       "asof": "17 Oct 2026 (Islanders game confirmed by NHL.com; later dates as listed 11 Oct, not re-checked)",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
@@ -4260,7 +4341,7 @@
       {
        "id": "f1-drivers",
        "title": "Drivers' championship top 10",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026",
+       "asof": "after the Singapore Grand Prix, 11 Oct 2026 · not re-checked 17 Oct",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -4342,7 +4423,7 @@
       {
        "id": "f1-cons",
        "title": "Constructors' championship",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026",
+       "asof": "after the Singapore Grand Prix, 11 Oct 2026 · not re-checked 17 Oct",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -4412,7 +4493,7 @@
       {
        "id": "f1-sing",
        "title": "Singapore Grand Prix result (11 Oct)",
-       "asof": "11 Oct 2026",
+       "asof": "11 Oct 2026 · not re-checked 17 Oct",
        "source": "the-race.com",
        "cols": [
         "Pos",
@@ -4492,7 +4573,7 @@
       {
        "id": "f1-cal",
        "title": "Remaining calendar",
-       "asof": "calendar published by Formula1.com; Austin date confirmed 14 Oct 2026",
+       "asof": "calendar published by Formula1.com; Austin date confirmed 14 Oct 2026 · not re-checked 17 Oct",
        "source": "formula1.com",
        "cols": [
         "Round",
@@ -4551,118 +4632,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Friday 16 October 2026",
+  "title": "TST News quiz: Saturday 17 October 2026",
   "intro": "Ten questions on the day's stories. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "What was the score when the Maple Leafs played Buffalo on Thursday 15 October?",
+    "q": "Who does the Toronto Maple Leafs play at Scotiabank Arena tonight, Saturday 17 October?",
     "options": [
-     "Sabres 5, Leafs 4 (overtime)",
-     "Leafs 5, Sabres 4",
-     "Sabres 3, Leafs 2",
-     "Leafs 6, Sabres 3"
+     "New York Islanders",
+     "San Jose Sharks",
+     "Buffalo Sabres",
+     "Utah Mammoth"
     ],
     "answer": 0,
-    "explain": "Buffalo won 5–4 in overtime (surprisesports.com)."
+    "explain": "The Islanders visit at 7 pm ET (NHL.com preview)."
    },
    {
-    "q": "Who scored the Sabres' overtime winner against Toronto?",
+    "q": "In the Liaison Strategies poll of 8-9 October, what share of voters backed Olivia Chow?",
     "options": [
-     "Jack Quinn",
-     "Owen Power",
-     "Dennis Gilbert",
-     "Mattias Samuelsson"
-    ],
-    "answer": 1,
-    "explain": "Owen Power scored in overtime; Quinn scored twice in regulation."
-   },
-   {
-    "q": "Who scored a hat trick for the Leafs in Buffalo?",
-    "options": [
-     "Auston Matthews",
-     "William Nylander",
-     "Kirill Marchenko",
-     "John Tavares"
-    ],
-    "answer": 2,
-    "explain": "Kirill Marchenko scored three; Matthews scored the other."
-   },
-   {
-    "q": "What is the Maple Leafs' record after the Buffalo game?",
-    "options": [
-     "3-3-2",
-     "4-3-1",
-     "3-2-3",
-     "2-4-2"
+     "51%",
+     "40%",
+     "46%",
+     "58%"
     ],
     "answer": 0,
-    "explain": "3 wins, 3 losses and 2 overtime losses for 8 points."
+    "explain": "Chow 51%, Bradford 46%, others 3% (Now Toronto, 14 Oct)."
    },
    {
-    "q": "When is Toronto's mayoral election day?",
+    "q": "Which company said it will test robotaxis in Toronto with a view to paying riders in 2028?",
     "options": [
-     "19 October",
-     "26 October",
-     "2 November",
-     "11 October"
-    ],
-    "answer": 1,
-    "explain": "Election day is Monday 26 October, 10 a.m. to 8 p.m. (CP24)."
-   },
-   {
-    "q": "According to a poll reported by CP24 on 13 October, about how far ahead of Brad Bradford was Olivia Chow?",
-    "options": [
-     "17 points",
-     "12 points",
-     "About 3.5 points",
-     "Level"
-    ],
-    "answer": 2,
-    "explain": "The CP24/CTV poll had Bradford narrowing Chow's lead to about 3.5 points."
-   },
-   {
-    "q": "Which team beat Newcastle 4–1 on Monday 12 October, its first home Premier League win in 25 years?",
-    "options": [
-     "Coventry City",
-     "Hull City",
-     "Ipswich Town",
-     "Sunderland"
+     "Waymo",
+     "Tesla",
+     "Uber",
+     "Zoox"
     ],
     "answer": 0,
-    "explain": "Coventry City 4–1 Newcastle United (footballwebpages.co.uk)."
+    "explain": "Waymo, with Element Fleet Management (CP24, 16 Oct)."
    },
    {
-    "q": "Who leads the Premier League table with 18 points from six games?",
+    "q": "How old is Rafael Jodar, the youngest ever Shanghai Masters semi-finalist?",
     "options": [
+     "20",
+     "18",
+     "23",
+     "25"
+    ],
+    "answer": 0,
+    "explain": "He is 20 (KSAT/AP, 16 Oct)."
+   },
+   {
+    "q": "Who plays Iga Swiatek in the Wuhan Open semi-final?",
+    "options": [
+     "Maja Chwalinska",
+     "Sonay Kartal",
+     "Jelena Ostapenko",
+     "Ann Li"
+    ],
+    "answer": 0,
+    "explain": "The first all-Polish WTA semi-final in the Open Era (The Sports Encounter)."
+   },
+   {
+    "q": "What is the Bank of Canada's policy rate ahead of the 28 October decision?",
+    "options": [
+     "2.25%",
+     "3.0%",
+     "3.75%",
+     "1.75%"
+    ],
+    "answer": 0,
+    "explain": "The rate has been 2.25% for nearly a year (BNN Bloomberg, 16 Oct)."
+   },
+   {
+    "q": "How many jobs did Canada lose in September, according to BNN Bloomberg?",
+    "options": [
+     "68,000",
+     "6,800",
+     "168,000",
+     "28,000"
+    ],
+    "answer": 0,
+    "explain": "The second straight monthly decline."
+   },
+   {
+    "q": "Which Premier League team is top of the table after six games each?",
+    "options": [
+     "Manchester City",
      "Arsenal",
      "Brighton",
-     "Manchester City",
      "Chelsea"
     ],
-    "answer": 2,
-    "explain": "Manchester City have won all six."
+    "answer": 0,
+    "explain": "Man City have 18 points from six wins (footballwebpages.co.uk, 12 Oct)."
    },
    {
-    "q": "Which Premier League match kicks off the weekend, at 12:30 on Saturday 17 October?",
+    "q": "Which Ukrainian force completed the fourth phase of Operation Vivaldi in Donetsk, per Al Jazeera?",
     "options": [
-     "Everton v Chelsea",
-     "Brentford v Liverpool",
-     "Fulham v Hull City",
-     "Newcastle v Aston Villa"
+     "Third Army Corps",
+     "First Guards Brigade",
+     "Azov Corps",
+     "Fourth Tank Division"
     ],
     "answer": 0,
-    "explain": "Everton v Chelsea is the 12:30 game."
+    "explain": "It retook 100 sq km, bringing the total to 275 sq km (Al Jazeera, 16 Oct)."
    },
    {
-    "q": "Who do the Raptors face in their season opener on 21 October?",
+    "q": "What did analyst Gene Munster call Tesla's Roadster demo?",
     "options": [
-     "New York Knicks",
-     "Washington Wizards",
-     "Chicago Bulls",
-     "Miami Heat"
+     "An 'engineering flex'",
+     "A game-changer",
+     "A flop",
+     "A recall risk"
     ],
-    "answer": 2,
-    "explain": "The Raptors open at home to the Chicago Bulls (TSN)."
+    "answer": 0,
+    "explain": "He said it was not a breakthrough for the stock (Yahoo Finance, 16 Oct)."
    }
   ]
  }

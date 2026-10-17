@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="/tstnews/style.css?v=b19428d8">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Saturday 17 October 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-10-17/">Latest</a><a href="/tstnews/archive/2026-10-17/#headlines">Headlines</a><a href="/tstnews/archive/2026-10-17/#world">World</a><a href="/tstnews/archive/2026-10-17/#france">France</a><a href="/tstnews/archive/2026-10-17/#toronto">Toronto</a><a href="/tstnews/archive/2026-10-17/#uk">UK</a><a href="/tstnews/archive/2026-10-17/#tech">Tech</a><a href="/tstnews/archive/2026-10-17/#following">Following</a><a href="/tstnews/archive/2026-10-17/#money">Economics</a><a href="/tstnews/archive/2026-10-17/#sport">Sport</a><a href="/tstnews/archive/2026-10-17/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-10-17/#sport">Sport</a><a href="/tstnews/archive/2026-10-17/football/">Football</a><a href="/tstnews/archive/2026-10-17/rugby/">Rugby</a><a href="/tstnews/archive/2026-10-17/cricket/">Cricket</a><a href="/tstnews/archive/2026-10-17/tennis/">Tennis</a><a href="/tstnews/archive/2026-10-17/squash/">Squash</a><a href="/tstnews/archive/2026-10-17/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-10-17/baseball/">Baseball</a><a href="/tstnews/archive/2026-10-17/basketball/">Basketball</a><a href="/tstnews/archive/2026-10-17/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-10-17/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>TST News quiz: Saturday 17 October 2026: Saturday 17 October 2026</h2><p class="intro">Ten questions on the day&#x27;s stories. Pick an answer, see the score at the end, then start again for the next player.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "Who does the Toronto Maple Leafs play at Scotiabank Arena tonight, Saturday 17 October?", "options": ["New York Islanders", "San Jose Sharks", "Buffalo Sabres", "Utah Mammoth"], "answer": 0, "explain": "The Islanders visit at 7 pm ET (NHL.com preview)."}, {"q": "In the Liaison Strategies poll of 8-9 October, what share of voters backed Olivia Chow?", "options": ["51%", "40%", "46%", "58%"], "answer": 0, "explain": "Chow 51%, Bradford 46%, others 3% (Now Toronto, 14 Oct)."}, {"q": "Which company said it will test robotaxis in Toronto with a view to paying riders in 2028?", "options": ["Waymo", "Tesla", "Uber", "Zoox"], "answer": 0, "explain": "Waymo, with Element Fleet Management (CP24, 16 Oct)."}, {"q": "How old is Rafael Jodar, the youngest ever Shanghai Masters semi-finalist?", "options": ["20", "18", "23", "25"], "answer": 0, "explain": "He is 20 (KSAT/AP, 16 Oct)."}, {"q": "Who plays Iga Swiatek in the Wuhan Open semi-final?", "options": ["Maja Chwalinska", "Sonay Kartal", "Jelena Ostapenko", "Ann Li"], "answer": 0, "explain": "The first all-Polish WTA semi-final in the Open Era (The Sports Encounter)."}, {"q": "What is the Bank of Canada's policy rate ahead of the 28 October decision?", "options": ["2.25%", "3.0%", "3.75%", "1.75%"], "answer": 0, "explain": "The rate has been 2.25% for nearly a year (BNN Bloomberg, 16 Oct)."}, {"q": "How many jobs did Canada lose in September, according to BNN Bloomberg?", "options": ["68,000", "6,800", "168,000", "28,000"], "answer": 0, "explain": "The second straight monthly decline."}, {"q": "Which Premier League team is top of the table after six games each?", "options": ["Manchester City", "Arsenal", "Brighton", "Chelsea"], "answer": 0, "explain": "Man City have 18 points from six wins (footballwebpages.co.uk, 12 Oct)."}, {"q": "Which Ukrainian force completed the fourth phase of Operation Vivaldi in Donetsk, per Al Jazeera?", "options": ["Third Army Corps", "First Guards Brigade", "Azov Corps", "Fourth Tank Division"], "answer": 0, "explain": "It retook 100 sq km, bringing the total to 275 sq km (Al Jazeera, 16 Oct)."}, {"q": "What did analyst Gene Munster call Tesla's Roadster demo?", "options": ["An 'engineering flex'", "A game-changer", "A flop", "A recall risk"], "answer": 0, "explain": "He said it was not a breakthrough for the stock (Yahoo Finance, 16 Oct)."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>
