@@ -1,15 +1,15 @@
 {
- "date": "2026-10-17",
- "label": "Saturday 17 October 2026",
- "note": "Facts are dated to 16-17 Oct 2026 where a card or table says so; otherwise they are the last confirmed figures, with their own date. On this run (early Saturday, Toronto time) the listed news feeds (Euronews, Al Jazeera, Global News, CP24, L'Écho du Mardi) could not be opened directly, so Headlines add only stories whose titles and links appeared in search results (marked 16 Oct); other items are the 15 Oct lists. Sections marked 'not re-verified' were not re-checked today. Links are to free-to-read pages where found. Economics content is general information, not financial advice.",
- "sport_note": "Tables show the last figures confirmed, with their date and source. Saturday's games had not started when this was written. Panels marked 'Not verified today' have no confirmed current data.",
+ "date": "2026-10-18",
+ "label": "Sunday 18 October 2026",
+ "note": "Refresh of Sun 18 Oct 2026 (early morning, Toronto time) was limited: the news feeds (Euronews, CP24, Al Jazeera, Global News, L'Écho du Mardi) and most score sites were refused by the research tool, so Headlines are the last lists (15 Oct) and not refreshed. Verified today: Premier League and Championship results and the Premier League table after Saturday 17 Oct (footballwebpages.co.uk). Everything else keeps its own date; cards and tables not re-checked today are marked as such. Links are to free-to-read pages where found. Economics content is general information, not financial advice.",
+ "sport_note": "Premier League and Championship Saturday results are verified. Other panels show the last confirmed figures with their own date; those not re-checked on 18 Oct say so. Sunday's Premier League games had not started when this was written.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Not refreshed on 16 Oct: the feeds could not be opened on this run, so these are the 15 Oct lists.",
+   "intro": "Latest stories from free-to-read news sites. Not refreshed on 18 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -1462,7 +1462,7 @@
   {
    "id": "football",
    "title": "Football",
-   "summary": "Man City top the Premier League; Everton v Chelsea kicks off the next round at 12:30 UK time today.",
+   "summary": "Man City top the Premier League after beating Ipswich; Chelsea won 2–0 at Everton. Sunday: Forest v Arsenal at 16:30 UK.",
    "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Saturday 17 October 2026 (before kick-off).",
    "cards": [
     {
@@ -1622,7 +1622,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Mon 12 Oct 2026, 21:52 UK",
+       "asof": "Sat 17 Oct 2026, 15:37 UK (before Newcastle v Aston Villa at 17:30 and Sunday's games)",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -1638,12 +1638,12 @@
         [
          1,
          "Manchester City",
-         6,
-         6,
+         7,
+         7,
          0,
          0,
-         "+11",
-         18
+         "+12",
+         21
         ],
         [
          2,
@@ -1667,36 +1667,46 @@
         ],
         [
          4,
-         "Brentford",
-         6,
-         2,
+         "Chelsea",
+         7,
          4,
-         0,
-         "+6",
-         10
+         1,
+         2,
+         "+4",
+         13
         ],
         [
          5,
-         "Everton",
-         6,
+         "Brentford",
+         7,
          2,
-         4,
+         5,
          0,
-         "+3",
-         10
+         "+6",
+         11
         ],
         [
          6,
-         "Chelsea",
-         6,
-         3,
-         1,
+         "Everton",
+         7,
          2,
-         "+2",
+         4,
+         1,
+         "+1",
          10
         ],
         [
          7,
+         "Liverpool",
+         7,
+         2,
+         4,
+         1,
+         "0",
+         10
+        ],
+        [
+         8,
          "Leeds United",
          6,
          2,
@@ -1706,33 +1716,23 @@
          9
         ],
         [
-         8,
-         "Hull City",
-         6,
-         2,
-         3,
-         1,
-         "+2",
-         9
-        ],
-        [
          9,
-         "Liverpool",
-         6,
+         "Hull City",
+         7,
          2,
          3,
-         1,
-         "0",
+         2,
+         "+1",
          9
         ],
         [
          10,
          "Ipswich Town",
-         6,
+         7,
          3,
          0,
-         3,
-         "-3",
+         4,
+         "-4",
          9
         ],
         [
@@ -1777,6 +1777,16 @@
         ],
         [
          15,
+         "Fulham",
+         7,
+         1,
+         2,
+         4,
+         "-3",
+         5
+        ],
+        [
+         16,
          "Nottingham Forest",
          6,
          1,
@@ -1786,7 +1796,7 @@
          5
         ],
         [
-         16,
+         17,
          "Aston Villa",
          6,
          1,
@@ -1796,7 +1806,7 @@
          5
         ],
         [
-         17,
+         18,
          "Sunderland",
          6,
          1,
@@ -1806,7 +1816,7 @@
          4
         ],
         [
-         18,
+         19,
          "AFC Bournemouth",
          6,
          0,
@@ -1816,7 +1826,7 @@
          3
         ],
         [
-         19,
+         20,
          "Tottenham Hotspur",
          6,
          0,
@@ -1824,16 +1834,6 @@
          3,
          "-6",
          3
-        ],
-        [
-         20,
-         "Fulham",
-         6,
-         0,
-         2,
-         4,
-         "-4",
-         2
         ]
        ],
        "movement": true,
@@ -1841,20 +1841,24 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "All 20 clubs have played six games. Coventry City's 4–1 win over Newcastle United on Monday 12 Oct was the last game of the round.",
+       "note": "Table as last updated at 15:37 on Saturday, after Everton v Chelsea, Brentford v Liverpool, Fulham v Hull City and Manchester City v Ipswich Town. Newcastle v Aston Villa (17:30) is not included. Tottenham's fixture for this round was not seen.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Premier League table",
-         "url": "https://www.footballwebpages.co.uk/premier-league/20261012"
+         "text": "footballwebpages.co.uk: Premier League, 18 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261018"
         }
        ]
       },
       {
        "id": "pl-results",
-       "title": "Latest results (round of 10–12 Oct)",
-       "asof": "Mon 12 Oct 2026",
+       "title": "Latest results (rounds of 10–12 Oct and 17 Oct)",
+       "asof": "Sat 17 Oct 2026 (as of 15:37 UK)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Everton 0–2 Chelsea (Sat 17 Oct)",
+        "Manchester City 2–1 Ipswich Town (Sat 17 Oct)",
+        "Brentford 0–0 Liverpool (Sat 17 Oct)",
+        "Fulham 1–0 Hull City (Sat 17 Oct)",
         "Coventry City 4–1 Newcastle United (Mon 12 Oct)",
         "Liverpool 0–3 Manchester City (Sun 11 Oct)",
         "Crystal Palace 3–1 Nottingham Forest (Sun 11 Oct)",
@@ -1867,7 +1871,7 @@
         "Sunderland 0–2 Brighton & Hove Albion (Sat 10 Oct)"
        ],
        "highlights": true,
-       "note": "Each ▶ Highlights link searches the fuboTV Soccer YouTube channel for that match. I could not read the channel's own video list, so the link opens the channel's search results rather than a single video.",
+       "note": "Saturday's four results were listed by footballwebpages.co.uk; the Newcastle United v Aston Villa result (17:30) was not verified. Each Highlights link searches the fuboTV Soccer YouTube channel for that match.",
        "links": [
         {
          "text": "fuboTV Soccer on YouTube (all videos)",
@@ -1882,20 +1886,15 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Sat 17 Oct 2026, morning (footballwebpages.co.uk Saturday fixtures re-read; UK times). Sunday list as read 16 Oct.",
+       "asof": "Sun 18 Oct 2026, morning (footballwebpages.co.uk; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
-        "Sat 17 Oct, 12:30: Everton v Chelsea (TNT Sports)",
-        "Sat 17 Oct, 15:00: Brentford v Liverpool",
-        "Sat 17 Oct, 15:00: Fulham v Hull City",
-        "Sat 17 Oct, 15:00: Manchester City v Ipswich Town",
-        "Sat 17 Oct, 17:30: Newcastle United v Aston Villa (Sky Sports)",
         "Sun 18 Oct, 14:00: AFC Bournemouth v Sunderland",
         "Sun 18 Oct, 14:00: Brighton & Hove Albion v Crystal Palace",
         "Sun 18 Oct, 14:00: Leeds United v Manchester United",
         "Sun 18 Oct, 16:30: Nottingham Forest v Arsenal"
        ],
-       "note": "Saturday and Sunday fixtures as listed on 16 Oct. Tottenham and Coventry are not on the lists read, so the weekend may include more games; check the Premier League site.",
+       "note": "Sunday's four games as listed on 18 Oct. Tottenham and Coventry are not listed, so check the Premier League site for any others.",
        "links": [
         {
          "text": "footballwebpages.co.uk: fixtures 17 Oct",
@@ -1918,7 +1917,7 @@
       {
        "id": "ch-table",
        "title": "Championship table",
-       "asof": "Wed 14 Oct 2026, 21:53 UK",
+       "asof": "Table below is Wed 14 Oct 2026 (full table not re-read). After Sat 17 Oct: Swansea City 23 pts, West Ham 22, Middlesbrough 22 lead; Burnley 22nd on 8, Derby 23rd on 6, Preston 24th on 4; Southampton (-4) 7th on 17 (footballwebpages.co.uk)",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -2172,9 +2171,9 @@
          4
         ]
        ],
-       "movement": true,
+       "movement": false,
        "key": 1,
-       "note": "All 24 clubs. Wolves and Portsmouth have played nine games, the rest ten. Southampton carry a 4-point deduction.",
+       "note": "Full rows are from 14 Oct and are out of date for most clubs; use the Saturday summary in the heading above. Not verified: full 17 Oct table.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Championship table",
@@ -2184,11 +2183,22 @@
       },
       {
        "id": "ch-res",
-       "title": "Championship results",
-       "asof": "Wed 14 Oct 2026",
+       "title": "Championship results (latest: Sat 17 Oct)",
+       "asof": "Sat 17 Oct 2026",
        "source": "footballwebpages.co.uk",
        "highlights": true,
        "items": [
+        "Birmingham City 3–0 Queens Park Rangers (Sat 17 Oct)",
+        "Bristol City 0–1 Sheffield United (Sat 17 Oct)",
+        "Derby County 0–1 Stoke City (Sat 17 Oct)",
+        "Middlesbrough 2–2 Cardiff City (Sat 17 Oct)",
+        "Millwall 2–2 Lincoln City (Sat 17 Oct)",
+        "Norwich City 0–1 Portsmouth (Sat 17 Oct)",
+        "Southampton 0–0 Bolton Wanderers (Sat 17 Oct)",
+        "Swansea City 0–1 West Ham United (Sat 17 Oct)",
+        "Watford 2–0 Charlton Athletic (Sat 17 Oct)",
+        "West Bromwich Albion 3–2 Blackburn Rovers (Sat 17 Oct)",
+        "Wrexham 4–1 Preston North End (Sat 17 Oct)",
         "Lincoln City 0–6 West Ham United (Wed 14 Oct)",
         "Birmingham City 4–0 Preston North End (Tue 13 Oct)",
         "Bristol City 0–1 Blackburn Rovers (Tue 13 Oct)",
@@ -2197,27 +2207,13 @@
         "Millwall 0–1 Swansea City (Tue 13 Oct)",
         "Stoke City 2–3 Middlesbrough (Tue 13 Oct)",
         "Wolverhampton Wanderers 1–3 Bolton Wanderers (Tue 13 Oct)",
-        "Wrexham 1–2 West Bromwich Albion (Tue 13 Oct)",
-        "Blackburn Rovers 2–1 Cardiff City (Sat 10 Oct)",
-        "Bolton Wanderers 1–2 Stoke City (Sat 10 Oct)",
-        "Charlton Athletic 1–1 Bristol City (Sat 10 Oct)",
-        "Derby County 1–1 Wrexham (Sat 10 Oct)",
-        "Middlesbrough 1–0 Wolverhampton Wanderers (Sat 10 Oct)",
-        "Preston North End 0–1 Millwall (Sat 10 Oct)",
-        "Sheffield United 3–0 Lincoln City (Sat 10 Oct)",
-        "Swansea City 2–1 Norwich City (Sat 10 Oct)",
-        "Watford 0–4 Burnley (Sat 10 Oct)",
-        "West Bromwich Albion 0–1 Birmingham City (Sat 10 Oct)"
+        "Wrexham 1–2 West Bromwich Albion (Tue 13 Oct)"
        ],
-       "note": "Portsmouth 3–2 Sheffield United was also reported but its date was not stated, so it is left out. Upcoming Championship fixtures were not listed on the source page.",
+       "note": "Saturday's 11 results from footballwebpages.co.uk. Earlier midweek results (13–14 Oct) kept below. Wolves' Saturday game was not listed.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Championship, 13 Oct",
-         "url": "https://www.footballwebpages.co.uk/championship/20261013"
-        },
-        {
-         "text": "footballwebpages.co.uk: Championship, 10 Oct",
-         "url": "https://www.footballwebpages.co.uk/championship/20261010"
+         "text": "footballwebpages.co.uk: Championship, 17 Oct",
+         "url": "https://www.footballwebpages.co.uk/championship/20261017"
         }
        ]
       }
@@ -2231,7 +2227,7 @@
       {
        "id": "l1-table",
        "title": "Ligue 1 table",
-       "asof": "after matchday 6 (9–11 Oct 2026); no games since",
+       "asof": "after matchday 6 (9–11 Oct 2026); no games since · not re-checked 18 Oct",
        "source": "eurosport.fr",
        "cols": [
         "Pos",
@@ -2438,7 +2434,7 @@
       {
        "id": "l1-res",
        "title": "Ligue 1 results and fixtures",
-       "asof": "15 Oct 2026",
+       "asof": "15 Oct 2026 · not re-checked 18 Oct",
        "source": "psg.fr, livefootballtickets.com, ligue1.com",
        "highlights": true,
        "items": [
@@ -2474,7 +2470,7 @@
       {
        "id": "ucl",
        "title": "Champions League league phase: matchday 2",
-       "asof": "Wed 14 Oct 2026",
+       "asof": "Wed 14 Oct 2026 · not re-checked 18 Oct",
        "source": "UEFA.com",
        "highlights": true,
        "items": [
@@ -2508,7 +2504,7 @@
       {
        "id": "uel",
        "title": "Europa League: matchday 2 fixtures (Thu 15 Oct)",
-       "asof": "Thu 15 Oct 2026",
+       "asof": "Thu 15 Oct 2026 · not re-checked 18 Oct",
        "source": "footballwebpages.co.uk",
        "items": [
         "17:45: Olympique Lyonnais v Crystal Palace",
@@ -2534,7 +2530,7 @@
        "title": "Cups: Carabao Cup, FA Cup and Coupe de France",
        "gap": true,
        "tag": "Not verified today",
-       "asof": "15 Oct 2026",
+       "asof": "15 Oct 2026 · not re-checked 18 Oct",
        "note": "No confirmed cup draws or fixtures found today.",
        "highlights": true
       }
@@ -3337,7 +3333,7 @@
       {
        "id": "atp",
        "title": "ATP top 10",
-       "asof": "ranking dated 5 Oct 2026; atptour.com page not re-read on 17 Oct (reports say Zverev will end the year No 1)",
+       "asof": "ranking dated 5 Oct 2026; atptour.com page not re-read on 17 Oct (reports say Zverev will end the year No 1) · not re-checked 18 Oct",
        "source": "atptour.com",
        "cols": [
         "Rank",
@@ -3409,7 +3405,7 @@
       {
        "id": "wta",
        "title": "WTA top 10",
-       "asof": "about 11–12 Oct 2026 (source page shows no date; a Punto de Break headline of 11 Oct says Andreeva entered the top 3)",
+       "asof": "about 11–12 Oct 2026 (source page shows no date; a Punto de Break headline of 11 Oct says Andreeva entered the top 3) · not re-checked 18 Oct",
        "source": "wtatennis.com",
        "cols": [
         "Rank",
@@ -3481,7 +3477,7 @@
       {
        "id": "shanghai",
        "title": "Shanghai Masters (7–18 Oct): results and semi-finals",
-       "asof": "Fri 16 Oct 2026",
+       "asof": "Fri 16 Oct 2026 · not re-checked 18 Oct",
        "source": "atptour.com, KSAT/AP, Dawn/Reuters",
        "items": [
         "Semi-final: [1] Alexander Zverev v [25] Alejandro Davidovich Fokina",
@@ -3501,7 +3497,7 @@
       {
        "id": "wuhan",
        "title": "Wuhan Open (12–18 Oct): quarter-final results and semi-finals",
-       "asof": "Fri 16 Oct 2026",
+       "asof": "Fri 16 Oct 2026 · not re-checked 18 Oct",
        "source": "The Sports Encounter, LTA",
        "items": [
         "Semi-final, Sat 17 Oct: [7] Iga Swiatek v [16] Maja Chwalinska",
@@ -4174,7 +4170,7 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "16 Oct 2026",
+       "asof": "16 Oct 2026 · not re-checked 18 Oct",
        "source": "surprisesports.com",
        "items": [
         "3 wins, 3 losses, 2 overtime losses: 8 points after 8 games"
@@ -4184,7 +4180,7 @@
       {
        "id": "tml-res",
        "title": "Last five games",
-       "asof": "16 Oct 2026",
+       "asof": "16 Oct 2026 · not re-checked 18 Oct",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -4265,7 +4261,7 @@
        "title": "NHL Atlantic Division table",
        "gap": true,
        "tag": "Not verified today",
-       "asof": "15 Oct 2026",
+       "asof": "15 Oct 2026 · not re-checked 18 Oct",
        "note": "No readable Atlantic Division table was found today. For reference, Toronto and Buffalo are both 3-3-1 (7 points) going into tonight's game."
       }
      ]
@@ -4632,118 +4628,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Saturday 17 October 2026",
-  "intro": "Ten questions on the day's stories. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz: Sunday 18 October 2026",
+  "intro": "Ten football questions from today's verified results and fixtures. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Who does the Toronto Maple Leafs play at Scotiabank Arena tonight, Saturday 17 October?",
-    "options": [
-     "New York Islanders",
-     "San Jose Sharks",
-     "Buffalo Sabres",
-     "Utah Mammoth"
-    ],
-    "answer": 0,
-    "explain": "The Islanders visit at 7 pm ET (NHL.com preview)."
-   },
-   {
-    "q": "In the Liaison Strategies poll of 8-9 October, what share of voters backed Olivia Chow?",
-    "options": [
-     "51%",
-     "40%",
-     "46%",
-     "58%"
-    ],
-    "answer": 0,
-    "explain": "Chow 51%, Bradford 46%, others 3% (Now Toronto, 14 Oct)."
-   },
-   {
-    "q": "Which company said it will test robotaxis in Toronto with a view to paying riders in 2028?",
-    "options": [
-     "Waymo",
-     "Tesla",
-     "Uber",
-     "Zoox"
-    ],
-    "answer": 0,
-    "explain": "Waymo, with Element Fleet Management (CP24, 16 Oct)."
-   },
-   {
-    "q": "How old is Rafael Jodar, the youngest ever Shanghai Masters semi-finalist?",
-    "options": [
-     "20",
-     "18",
-     "23",
-     "25"
-    ],
-    "answer": 0,
-    "explain": "He is 20 (KSAT/AP, 16 Oct)."
-   },
-   {
-    "q": "Who plays Iga Swiatek in the Wuhan Open semi-final?",
-    "options": [
-     "Maja Chwalinska",
-     "Sonay Kartal",
-     "Jelena Ostapenko",
-     "Ann Li"
-    ],
-    "answer": 0,
-    "explain": "The first all-Polish WTA semi-final in the Open Era (The Sports Encounter)."
-   },
-   {
-    "q": "What is the Bank of Canada's policy rate ahead of the 28 October decision?",
-    "options": [
-     "2.25%",
-     "3.0%",
-     "3.75%",
-     "1.75%"
-    ],
-    "answer": 0,
-    "explain": "The rate has been 2.25% for nearly a year (BNN Bloomberg, 16 Oct)."
-   },
-   {
-    "q": "How many jobs did Canada lose in September, according to BNN Bloomberg?",
-    "options": [
-     "68,000",
-     "6,800",
-     "168,000",
-     "28,000"
-    ],
-    "answer": 0,
-    "explain": "The second straight monthly decline."
-   },
-   {
-    "q": "Which Premier League team is top of the table after six games each?",
+    "q": "Which club topped the Premier League table after Saturday 17 October's early games?",
     "options": [
      "Manchester City",
      "Arsenal",
-     "Brighton",
+     "Brighton & Hove Albion",
      "Chelsea"
     ],
     "answer": 0,
-    "explain": "Man City have 18 points from six wins (footballwebpages.co.uk, 12 Oct)."
+    "explain": "Man City had 21 points from seven wins."
    },
    {
-    "q": "Which Ukrainian force completed the fourth phase of Operation Vivaldi in Donetsk, per Al Jazeera?",
+    "q": "What was the score when Chelsea visited Everton on Saturday 17 October?",
     "options": [
-     "Third Army Corps",
-     "First Guards Brigade",
-     "Azov Corps",
-     "Fourth Tank Division"
+     "Everton 0–2 Chelsea",
+     "Everton 1–1 Chelsea",
+     "Everton 2–0 Chelsea",
+     "Everton 0–1 Chelsea"
     ],
     "answer": 0,
-    "explain": "It retook 100 sq km, bringing the total to 275 sq km (Al Jazeera, 16 Oct)."
+    "explain": "Chelsea won 2–0 (footballwebpages.co.uk)."
    },
    {
-    "q": "What did analyst Gene Munster call Tesla's Roadster demo?",
+    "q": "Which Premier League match finished 0–0 on Saturday 17 October?",
     "options": [
-     "An 'engineering flex'",
-     "A game-changer",
-     "A flop",
-     "A recall risk"
+     "Brentford v Liverpool",
+     "Fulham v Hull City",
+     "Manchester City v Ipswich Town",
+     "Everton v Chelsea"
     ],
     "answer": 0,
-    "explain": "He said it was not a breakthrough for the stock (Yahoo Finance, 16 Oct)."
+    "explain": "Brentford 0–0 Liverpool."
+   },
+   {
+    "q": "Who did Manchester City beat 2–1 on Saturday 17 October?",
+    "options": [
+     "Ipswich Town",
+     "Hull City",
+     "Fulham",
+     "Brentford"
+    ],
+    "answer": 0,
+    "explain": "Man City 2–1 Ipswich Town."
+   },
+   {
+    "q": "Which club sat 20th in the Premier League table on Saturday afternoon, level on 3 points with AFC Bournemouth?",
+    "options": [
+     "Tottenham Hotspur",
+     "Sunderland",
+     "Fulham",
+     "Aston Villa"
+    ],
+    "answer": 0,
+    "explain": "Tottenham Hotspur were 20th on 3 points, one place below Bournemouth on goal difference tie-breaks (table of 17 Oct, 15:37)."
+   },
+   {
+    "q": "Who plays Arsenal at 16:30 UK time on Sunday 18 October?",
+    "options": [
+     "Nottingham Forest",
+     "Leeds United",
+     "Crystal Palace",
+     "Sunderland"
+    ],
+    "answer": 0,
+    "explain": "Nottingham Forest v Arsenal, 16:30 UK."
+   },
+   {
+    "q": "Which Championship side beat Preston North End 4–1 on Saturday 17 October?",
+    "options": [
+     "Wrexham",
+     "Birmingham City",
+     "Watford",
+     "Millwall"
+    ],
+    "answer": 0,
+    "explain": "Wrexham 4–1 Preston."
+   },
+   {
+    "q": "Which Championship club beat Swansea City 1–0 on 17 October, taking second place with 22 points?",
+    "options": [
+     "West Ham United",
+     "Middlesbrough",
+     "Stoke City",
+     "Portsmouth"
+    ],
+    "answer": 0,
+    "explain": "Swansea 0–1 West Ham United."
+   },
+   {
+    "q": "How many points was Southampton deducted this Championship season, according to the table?",
+    "options": [
+     "4",
+     "6",
+     "2",
+     "10"
+    ],
+    "answer": 0,
+    "explain": "Southampton carry a 4-point deduction."
+   },
+   {
+    "q": "Who plays Leeds United at 14:00 UK time on Sunday 18 October?",
+    "options": [
+     "Manchester United",
+     "Chelsea",
+     "Everton",
+     "Liverpool"
+    ],
+    "answer": 0,
+    "explain": "Leeds United v Manchester United."
    }
   ]
  }
