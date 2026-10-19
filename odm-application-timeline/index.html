@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>French medical registration — Phil's guide</title>
+<title>French medical registration — Philip's guide</title>
 <style>
   :root{
     --bg:#faf8f4;
@@ -153,7 +153,7 @@
 <div class="wrap">
 
   <header class="page">
-    <h1>French medical registration — Phil's guide</h1>
+    <h1>French medical registration — Philip's guide</h1>
     <p class="subtitle">Registering with the Conseil départemental de Vaucluse de l'Ordre des Médecins (CDOM 84), under loi n° 2026-373 du 15 mai 2026.</p>
     <div class="meta-row">
       <span class="pill">📍 Vaucluse, France</span>
@@ -167,9 +167,9 @@
   </header>
 
   <section>
-    <p class="lead">Began training before 31 December 2020, so Phil's 2005 Southampton qualification is within scope of the new law. Recognition of the specific UK diploma still depends on a ministerial list CDOM 84 hadn't confirmed as published. Below: every step in order, each with a clear action — email, post, look something up, or just do it — and a ready-to-send draft letter where one's needed.</p>
+    <p class="lead">Began training before 31 December 2020, so Philip's 2005 Southampton qualification is within scope of the new law. Recognition of the specific UK diploma still depends on a ministerial list CDOM 84 hadn't confirmed as published. Below: every step in order, each with a clear action — email, post, look something up, or just do it — and a ready-to-send draft letter where one's needed.</p>
     <div class="note">
-      <strong>How this page stays current:</strong> this is a static page, so it only updates when Phil re-uploads the file. The step statuses are set in a small block near the top of the HTML (search for <code>STEP_DATA</code>) — flip a step's <code>status</code> to <code>"done"</code> and re-upload to le-tst and everyone sees the change. The checkboxes below also work locally in your own browser as a personal tracker, but those don't sync between devices or to anyone else — only editing the file does that.
+      <strong>How this page stays current:</strong> this is a static page, so it only updates when Philip re-uploads the file. The step statuses are set in a small block near the top of the HTML (search for <code>STEP_DATA</code>) — flip a step's <code>status</code> to <code>"done"</code> and re-upload to le-tst and everyone sees the change. The checkboxes below also work locally in your own browser as a personal tracker, but those don't sync between devices or to anyone else — only editing the file does that.
     </div>
   </section>
 
@@ -186,7 +186,7 @@
 
   <section>
     <h2><span class="num">3</span>Forms — status</h2>
-    <p class="lead">All four CDOM 84 forms are pre-filled where the information was known and sent to Phil directly as PDFs (this page can't carry the files themselves).</p>
+    <p class="lead">All four CDOM 84 forms are pre-filled where the information was known and sent to Philip directly as PDFs (this page can't carry the files themselves).</p>
     <table class="forms">
       <thead><tr><th>Form</th><th>What's filled</th><th>Still to do</th></tr></thead>
       <tbody>
@@ -216,11 +216,11 @@
 
   <section>
     <h2><span class="num">4</span>CV</h2>
-    <p class="lead">A French-language CV for the dossier has been drafted as a separate .docx from Phil's English draft (CDOM 84's document list requires French). It condenses the original and drops the "outside work" section as not relevant to a registration file — Phil checks the dates and figures before sending.</p>
+    <p class="lead">A French-language CV for the dossier has been drafted as a separate .docx from Philip's English draft (CDOM 84's document list requires French). It condenses the original and drops the "outside work" section as not relevant to a registration file — Philip checks the dates and figures before sending.</p>
   </section>
 
   <footer>
-    Built for Phil Tomlinson's France relocation — for Guy &amp; Elisabeth to follow along and help where they can. Questions on any step? Ask Phil directly, or email the relevant office using the letters above.
+    Built for Philip Tomlinson's France relocation — for Guy &amp; Elisabeth to follow along and help where they can. Questions on any step? Ask Philip directly, or email the relevant office using the letters above.
   </footer>
 </div>
 
@@ -230,27 +230,27 @@
    status: "done" | "todo" | "waiting"
    action: "email" | "post" | "lookup" | "self" | "wait"
    ============================================================ */
-const LAST_UPDATED = "15 October 2026";
+const LAST_UPDATED = "15 October 2026 — documents now routing via Toronto, not Sablet";
 
 const STEP_DATA = [
-  { n:1, title:"Email CDOM 84", action:"email", status:"todo",
-    detail:'Email <strong>cd.84@ordre.medecin.fr</strong> — ask about ID copy format, deferring the contract document, which diploma box to tick, and confirm the Sablet address as the basis for Vaucluse jurisdiction. Draft: letter 1 below.',
-    time:"Today · reply in days", depends:"None" },
-  { n:2, title:"Email GMC", action:"email", status:"todo",
-    detail:'Email <strong>portfolio@gmc-uk.org</strong> requesting a duplicate Certificate of Completion of Training (CCT). Draft: letter 2 below.',
-    time:"Today · reply ~5 working days", depends:"None" },
+  { n:1, title:"Email CDOM 84", action:"done", status:"done",
+    detail:'Sent 15 Oct to <strong>cd.84@ordre.medecin.fr</strong> — awaiting reply.',
+    time:"Sent 15 Oct · reply in days", depends:"None" },
+  { n:2, title:"Email GMC", action:"done", status:"done",
+    detail:'Sent 15 Oct to <strong>portfolio@gmc-uk.org</strong> — awaiting reply.',
+    time:"Sent 15 Oct · reply ~5 working days", depends:"None" },
   { n:3, title:"Confirm personal details", action:"done", status:"done",
-    detail:"Phil's, Danielle's and the girls' details are filled into the forms.",
+    detail:"Philip's, Danielle's and the girls' details are filled into the forms.",
     time:"Done", depends:"None" },
-  { n:4, title:"Order UK birth certificate", action:"lookup", status:"todo",
-    detail:'Look up &amp; order online: <a href="https://www.gov.uk/order-copy-birth-death-marriage-certificate" target="_blank" rel="noopener">gov.uk/order-copy-birth-death-marriage-certificate</a> (GRO) — order an extract less than 3 months old, delivered to Sablet.',
-    time:"This week · ~15 working days", depends:"None" },
-  { n:5, title:"Get translator quotes", action:"email", status:"todo",
-    detail:"Email 2–3 sworn translators from the official Cour d'Appel de Nîmes list (letter 3 below has the link) requesting quotes.",
-    time:"This week", depends:"None" },
-  { n:6, title:"Locate original medical degree", action:"self", status:"todo",
-    detail:"Do it yourself — locate the physical Southampton BMBS certificate and the large-format GMC CCT certificate.",
-    time:"This week", depends:"None" },
+  { n:4, title:"Order UK birth certificate", action:"done", status:"done",
+    detail:'Ordered via the GRO — dispatch quoted at ~15 working days, delivered to Toronto.',
+    time:"Ordered 15 Oct · ~15 working days to dispatch", depends:"None" },
+  { n:5, title:"Get translator quotes", action:"done", status:"done",
+    detail:"Sent 15 Oct to 2–3 sworn translators — awaiting quotes.",
+    time:"Sent 15 Oct", depends:"None" },
+  { n:6, title:"Locate original medical degree", action:"done", status:"done",
+    detail:"Both the Southampton BMBS certificate and the GMC CCT certificate located.",
+    time:"Done", depends:"None" },
   { n:7, title:"Send documents for translation", action:"post", status:"waiting",
     detail:"Post the GMC duplicate CCT, degree certificate and birth certificate to the chosen translator.",
     time:"Once steps 2 &amp; 4 arrive", depends:"Steps 2, 4" },
@@ -387,12 +387,12 @@ This is required for a medical registration application with the French Ordre de
 
 Kind regards,
 Dr Philip Tomlinson
-[phone number] / [current address]`
+[phone number] / 61 Strathgowan Avenue, Toronto, Ontario, M4N 1C1, Canada`
   },
   {
     title: "3. To a sworn translator — quote request",
     to: "2–3 translators from the official list below",
-    linkNote: 'Official Cour d\'Appel de Nîmes sworn-translator list (PDF, updated Sept 2026) — filter for "anglais": <a href="https://www.cours-appel.justice.fr/sites/default/files/2026-10/Liste%20Interpr%C3%A8tes%20-%20traducteurs%20sept%202026_0.pdf" target="_blank" rel="noopener">cours-appel.justice.fr list</a>',
+    linkNote: 'Official Cour d\'Appel de Nîmes sworn-translator list (PDF, updated Sept 2026) — filter for "anglais": <a href="https://www.cours-appel.justice.fr/sites/default/files/2026-10/Liste%20Interpr%C3%A8tes%20-%20traducteurs%20sept%202026_0.pdf" target="_blank" rel="noopener">cours-appel.justice.fr list</a>. <strong>Currently down for maintenance</strong> (as of 15 Oct 2026) — that\'s a shared government court-sites platform, usually back within a day or two, worth retrying. Meanwhile, search "traducteur assermenté anglais Avignon" or "traducteur juré anglais Vaucluse" directly — most sworn translators list "expert traducteur-interprète près la Cour d\'Appel de Nîmes" on their own site; the email below asks them to confirm that status anyway.',
     body:
 `Objet : Demande de devis — traduction assermentée anglais-français
 
@@ -406,7 +406,7 @@ Les documents concernés sont :
 — Diplôme universitaire de médecine (BMBS, University of Southampton)
 — Éventuellement une attestation du GMC confirmant mon statut d'inscription
 
-Pourriez-vous m'indiquer votre tarif par page ou par document, le délai de réalisation, et si vous travaillez à distance (envoi des documents scannés, réception des traductions par courrier ou voie électronique) ?
+Pourriez-vous me confirmer que vous êtes traducteur assermenté, inscrit sur la liste des experts judiciaires d'une Cour d'Appel ? Et pourriez-vous m'indiquer votre tarif par page ou par document, le délai de réalisation, et si vous travaillez à distance (envoi des documents scannés, réception des traductions par courrier ou voie électronique) ?
 
 Je vous remercie par avance,
 Dr Philip Tomlinson
@@ -416,7 +416,7 @@ tomlinsonphil@gmail.com`
     title: "4. Cover letter — submitting the dossier",
     to: "CDOM 84, 1898 Route de Morières, RN 100, 84000 Avignon (post, with the full dossier)",
     body:
-`Avignon, le [date]
+`Toronto, le [date]
 
 Conseil départemental de Vaucluse de l'Ordre des Médecins
 1898 Route de Morières – RN 100
@@ -444,7 +444,7 @@ Je reste à votre disposition pour tout complément d'information ou pièce supp
 Je vous prie d'agréer, Madame, Monsieur, l'expression de mes salutations distinguées.
 
 Dr Philip Tomlinson
-[adresse] · [téléphone] · tomlinsonphil@gmail.com`
+61 Strathgowan Avenue, Toronto, Ontario, M4N 1C1, Canada · [téléphone] · tomlinsonphil@gmail.com`
   }
 ];
 
