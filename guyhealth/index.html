@@ -84,7 +84,8 @@
 
   /* SECTION */
   section { margin-bottom: 40px; }
-  section:target { scroll-margin-top: calc(var(--nav-h) + 12px); }
+  section:target, div[id]:target { scroll-margin-top: calc(var(--nav-h) + 12px); }
+  #bloods td, #bloods th { white-space: nowrap; }
 
   .section-head {
     display: flex;
@@ -412,15 +413,12 @@
   <a href="#glance">At a Glance</a>
   <a href="#issues">Outstanding Issues</a>
   <a href="#rehabgoals">Rehab Goals</a>
-  <a href="#prevention">Prevention</a>
   <a href="#appointments">Appointments</a>
-  <a href="#pmh">Past Med. History</a>
+  <a href="#prevention">Prevention</a>
+  <a href="#pmh">PMH</a>
   <a href="#social">Social History</a>
-  <a href="#bloods">Lab Results</a>
-  <a href="#medications">Medications</a>
-  <a href="#allergies">Allergies</a>
-  <a href="#immunizations">Immunizations</a>
-  <a href="#documents">Documents</a>
+  <a href="#medications">Meds, Allergies &amp; Immunisations</a>
+  <a href="#documents">Documents &amp; Labs</a>
   <a href="#alldocs">All Documents</a>
   <a href="#timeline">Timeline</a>
   <a href="#diet">Diet</a>
@@ -435,11 +433,10 @@
     <a class="tile-header tile-med" href="#medications">MEDICATIONS</a>
     <div class="tile-body">
       <ul>
-        <li><b>Apixaban — ONE 5mg tablet per dose, not two</b> — until DVT doppler (Dec)</li>
         <li>Clopidogrel 75mg — stents</li>
         <li>Atorvastatin 20mg twice daily + Ezetimibe 10mg</li>
         <li>Bisoprolol, lercanidipine, allopurinol</li>
-        <li class="muted">Stopped: aspirin, clindamycin, colchicine</li>
+        <li class="muted">Stopped: apixaban, aspirin, clindamycin, colchicine</li>
       </ul>
       <a class="tile-more" href="#medications" style="color:#22304a;">Full list + export →</a>
     </div>
@@ -451,7 +448,7 @@
       <ul>
         <li>Anaemia recovering — Hb 125 (12 Oct); colonoscopy Dec</li>
         <li>L knee osteitis — CRP normal (&lt;0.5, 12 Oct), off antibiotics</li>
-        <li>DVT — apixaban until Dec doppler</li>
+        <li>DVT — apixaban stopped Oct; follow-up doppler Dec</li>
       </ul>
       <a class="tile-more" href="#issues" style="color:#B23A6B;">Full list →</a>
     </div>
@@ -462,11 +459,11 @@
     <div class="tile-body">
       <ul>
         <li>3-vessel CAD — 3 stents (RCA Jul 2026; left main + LAD Aug 2026)</li>
-        <li>Hypertension, gout, hiatal hernia</li>
+        <li>Hypertension, gout, hiatus hernia</li>
         <li>R hip replacement 2018</li>
         <li>L knee septic arthritis + osteitis (Jun 2026)</li>
         <li>DVT L calf (Jul 2026)</li>
-        <li>Scalp psoriasis</li>
+        <li>Scalp psoriasis/eczema</li>
         <li class="muted">Family: father/brother cardiac; mother leukaemia; sister colon cancer</li>
       </ul>
       <a class="tile-more" href="#pmh" style="color:#4A7FB5;">Full list →</a>
@@ -519,7 +516,7 @@
       <tbody>
         <tr>
           <td class="bold">DVT follow-up doppler — December 2026</td>
-          <td class="muted">Isolated distal DVT, left fibular vein (7.5mm, provoked), found 10 Jul 2026. Plan from the angiologist: 3 months of anticoagulation, then repeat doppler and stop if clear. The scan due ~10 Oct was cancelled and rebooked for December, so apixaban continues until then.</td>
+          <td class="muted">Isolated distal DVT, left fibular vein (7.5mm, provoked), found 10 Jul 2026. Apixaban was stopped at the 3-month mark in Oct 2026. The repeat doppler due ~10 Oct was cancelled and rebooked for December to confirm the clot has resolved.</td>
         </tr>
         <tr>
           <td class="bold">Colonoscopy — December 2026</td>
@@ -543,7 +540,7 @@
         </tr>
         <tr>
           <td class="bold">Immunisations behind</td>
-          <td class="muted">DTP not up to date, no pneumococcal vaccine ever, shingles 1 of 2 doses (2025) — see Immunizations.</td>
+          <td class="muted">DTP not up to date, no pneumococcal vaccine ever, shingles 1 of 2 doses (2025) — see Medications, Allergies &amp; Immunisations.</td>
         </tr>
       </tbody>
     </table>
@@ -569,7 +566,34 @@
 
   <div class="issue-card amber">
     <div class="issue-title">Skin — non-negotiables</div>
-    <div class="issue-body">Daily antihistamine (desloratadine/Aerius 5mg, as prescribed by the dermatologist) and emollient applied three times daily plus after every shower. This isn't optional/as-needed — consistent barrier support is what actually controls the itch-scratch cycle feeding the psoriasis, rather than treating flares reactively.</div>
+    <div class="issue-body">Daily antihistamine (desloratadine/Aerius 5mg, as prescribed by the dermatologist) and emollient applied three times daily plus after every shower. This isn't optional/as-needed — consistent barrier support is what actually controls the itch-scratch cycle feeding the psoriasis/eczema, rather than treating flares reactively.</div>
+  </div>
+</section>
+
+
+<!-- ═══════════════════════════════════════════ APPOINTMENTS -->
+<section id="appointments">
+  <div class="section-head">
+    <h2>3. Upcoming Appointments</h2>
+    <span>As of 19 October 2026</span>
+  </div>
+
+  <div class="appt">
+    <div class="appt-cal urgent"><div class="appt-day">Dec</div><div class="appt-mon">2026</div></div>
+    <div class="appt-info">
+      <div class="appt-title"><a href="https://drive.google.com/file/d/1HZa64F8HeL5s9zevod7BR9hufsw_uXfG/view?usp=drivesdk" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DVT Follow-up Venous Doppler</a></div>
+      <div class="appt-where">Rebooked from ~10 Oct (cancelled) · Date to be confirmed</div>
+      <div class="appt-flag">Confirms the clot has resolved (apixaban already stopped at 3 months, Oct 2026). Bring the result to GP Dr Paur. Original report (10 Jul 2026): isolated distal DVT, left fibular vein, 7.5mm, provoked.</div>
+    </div>
+  </div>
+
+  <div class="appt">
+    <div class="appt-cal urgent"><div class="appt-day">Dec</div><div class="appt-mon">2026</div></div>
+    <div class="appt-info">
+      <div class="appt-title">Colonoscopy</div>
+      <div class="appt-where">Lined up for December · Date and centre to be confirmed</div>
+      <div class="appt-flag">Sister with colon cancer, polyp removed Dec 2022, iron-deficiency component to the anaemia. Agree the clopidogrel plan around the procedure with Dr Quillot and the endoscopist beforehand.</div>
+    </div>
   </div>
 </section>
 
@@ -577,7 +601,7 @@
 <!-- ═══════════════════════════════════════════ LONGEVITY TARGETS -->
 <section id="prevention">
   <div class="section-head">
-    <h2>3. Prevention</h2>
+    <h2>4. Prevention</h2>
     <span>Targets and tracking — "TBC" means no data on file yet</span>
   </div>
 
@@ -699,34 +723,7 @@
       </tbody>
     </table>
   </div>
-  <p style="font-size:11px;color:var(--light);margin-top:8px;">Immunisations have their own tab — see Immunizations.</p>
-</section>
-
-
-<!-- ═══════════════════════════════════════════ APPOINTMENTS -->
-<section id="appointments">
-  <div class="section-head">
-    <h2>Upcoming Appointments</h2>
-    <span>As of 19 October 2026</span>
-  </div>
-
-  <div class="appt">
-    <div class="appt-cal urgent"><div class="appt-day">Dec</div><div class="appt-mon">2026</div></div>
-    <div class="appt-info">
-      <div class="appt-title"><a href="https://drive.google.com/file/d/1HZa64F8HeL5s9zevod7BR9hufsw_uXfG/view?usp=drivesdk" target="_blank" style="color:inherit;text-decoration:underline;text-underline-offset:3px;">DVT Follow-up Venous Doppler</a></div>
-      <div class="appt-where">Rebooked from ~10 Oct (cancelled) · Date to be confirmed</div>
-      <div class="appt-flag">If the scan is clear, apixaban stops. Bring the result to GP Dr Paur. Original report (10 Jul 2026): isolated distal DVT, left fibular vein, 7.5mm, provoked.</div>
-    </div>
-  </div>
-
-  <div class="appt">
-    <div class="appt-cal urgent"><div class="appt-day">Dec</div><div class="appt-mon">2026</div></div>
-    <div class="appt-info">
-      <div class="appt-title">Colonoscopy</div>
-      <div class="appt-where">Lined up for December · Date and centre to be confirmed</div>
-      <div class="appt-flag">Sister with colon cancer, polyp removed Dec 2022, iron-deficiency component to the anaemia. Agree the clopidogrel and apixaban plan around the procedure with Dr Quillot and the endoscopist beforehand.</div>
-    </div>
-  </div>
+  <p style="font-size:11px;color:var(--light);margin-top:8px;">Immunisations have their own tab — see Medications, Allergies &amp; Immunisations.</p>
 </section>
 
 
@@ -742,20 +739,20 @@
       <thead><tr><th>Condition</th><th>When / Detail</th></tr></thead>
       <tbody>
         <tr><td class="bold">Coronary artery disease (3-vessel) — 3 stents</td><td class="muted">Angiography 7 Jul 2026 (left main ~80%, mid-LAD 60%, mid-RCA 80%; SYNTAX 24). PCI in two sessions: <b>29 Jul 2026</b> — mid-RCA, Orsiro 3.5×30mm drug-eluting stent; <b>6 Aug 2026</b> — rotational atherectomy of the distal left main, then Xience Skypoint 3.5×33mm (left main) and 3×38mm (mid-LAD), kissing balloon to the circumflex. Complete revascularisation. LVEF 80% (echo 18 Jun 2026).</td></tr>
+        <tr><td class="bold">Septic arthritis, left knee (MSSA) + osteitis</td><td class="muted">Pain from 12 Jun 2026; admitted 23 Jun 2026. Washouts 26 Jun and 3 Jul 2026. CT 19 Aug 2026 confirmed osteitis of the medial tibial plateau (two erosive geodes, 12mm and 5mm). Clindamycin, then stopped; CRP &lt;0.5 on 12 Oct 2026.</td></tr>
+        <tr><td class="bold">DVT, left calf (fibular vein), provoked</td><td class="muted">Found 10 Jul 2026 — apixaban Jul–Oct 2026 (stopped at 3 months); follow-up doppler December 2026</td></tr>
+        <tr><td class="bold">Anaemia (inflammation + iron deficiency)</td><td class="muted">From Jun–Jul 2026, Hb nadir 88–89 g/L (Jul–Aug 2026); 125 g/L on 12 Oct 2026</td></tr>
+        <tr><td class="bold">Osteoarthritis, left knee (tricompartmental)</td><td class="muted">Found on X-ray 19 Aug 2026 (unchanged from an older film) — pre-existing and separate from the infection</td></tr>
         <tr><td class="bold">Hypertension</td><td class="muted">20+ years (month not recorded) — lercanidipine + bisoprolol</td></tr>
         <tr><td class="bold">Gout</td><td class="muted">30+ years (month not recorded) — allopurinol long term. Colchicine trialled Jun–Aug 2026 during the knee episode and stopped Aug 2026; no crystals were ever found.</td></tr>
-        <tr><td class="bold">Hiatal hernia</td><td class="muted">Endoscopy 2022 (month not recorded)</td></tr>
+        <tr><td class="bold">Scalp psoriasis/eczema</td><td class="muted">Longstanding; multiple topical courses with limited success. Dermatology review 27 Jul 2026 (Aix). Current: desloratadine daily and emollients; biologic considered later</td></tr>
+        <tr><td class="bold">Lower urinary tract symptoms</td><td class="muted">Dysuria/nocturia — prostate ultrasound referral Feb 2026 (Dr Maclet); outcome not found in folder. PSA Nov 2025 normal</td></tr>
+        <tr><td class="bold">Popliteal cyst, ruptured</td><td class="muted">Jun 2026 — suspected by Dr Unal on 18 Jun 2026, before septic arthritis was found</td></tr>
         <tr><td class="bold">Right total hip replacement</td><td class="muted">2018 (month not recorded), for osteoarthritis</td></tr>
+        <tr><td class="bold">Diverticulosis + colonic polyp (removed)</td><td class="muted">Colonoscopy Dec 2022, Clinique d'Orange (Dr Rabbia). Repeat colonoscopy December 2026</td></tr>
+        <tr><td class="bold">Hiatus hernia</td><td class="muted">Endoscopy 2022 (month not recorded)</td></tr>
         <tr><td class="bold">Right inguinal hernia repair ×2</td><td class="muted">Two separate procedures, dates not recorded</td></tr>
         <tr><td class="bold">Tonsillectomy</td><td class="muted">Age 5</td></tr>
-        <tr><td class="bold">Popliteal cyst, ruptured</td><td class="muted">Jun 2026 — suspected by Dr Unal on 18 Jun 2026, before septic arthritis was found</td></tr>
-        <tr><td class="bold">Septic arthritis, left knee (MSSA) + osteitis</td><td class="muted">Pain from 12 Jun 2026; admitted 23 Jun 2026. Washouts 26 Jun and 3 Jul 2026. CT 19 Aug 2026 confirmed osteitis of the medial tibial plateau (two erosive geodes, 12mm and 5mm). Clindamycin, then stopped; CRP &lt;0.5 on 12 Oct 2026.</td></tr>
-        <tr><td class="bold">Osteoarthritis, left knee (tricompartmental)</td><td class="muted">Found on X-ray 19 Aug 2026 (unchanged from an older film) — pre-existing and separate from the infection</td></tr>
-        <tr><td class="bold">DVT, left calf (fibular vein), provoked</td><td class="muted">Found 10 Jul 2026 — apixaban since Jul 2026; follow-up doppler December 2026</td></tr>
-        <tr><td class="bold">Anaemia (inflammation + iron deficiency)</td><td class="muted">From Jun–Jul 2026, Hb nadir 88–89 g/L (Jul–Aug 2026); 125 g/L on 12 Oct 2026</td></tr>
-        <tr><td class="bold">Scalp psoriasis</td><td class="muted">Longstanding; multiple topical courses with limited success. Dermatology review 27 Jul 2026 (Aix). Current: desloratadine daily and emollients; biologic considered later</td></tr>
-        <tr><td class="bold">Diverticulosis + colonic polyp (removed)</td><td class="muted">Colonoscopy Dec 2022, Clinique d'Orange (Dr Rabbia). Repeat colonoscopy December 2026</td></tr>
-        <tr><td class="bold">Lower urinary tract symptoms</td><td class="muted">Dysuria/nocturia — prostate ultrasound referral Feb 2026 (Dr Maclet); outcome not found in folder. PSA Nov 2025 normal</td></tr>
       </tbody>
     </table>
   </div>
@@ -798,108 +795,6 @@
 </section>
 
 
-<!-- ═══════════════════════════════════════════ BLOOD RESULTS -->
-<section id="bloods">
-  <div class="section-head">
-    <h2>Blood Test Results</h2>
-    <span>Fortnightly monitoring ongoing (per 12 Aug order)</span>
-  </div>
-
-  <div class="alert alert-amber">
-    <strong>⚠ CRP down to 14.6, but Hb continues to slide — 89 g/L (12 Aug)</strong>
-    CRP is now clearly trending the right way (27.3 → 14.6), consistent with the infection settling. But haemoglobin has dropped again — 89 g/L, down from 93 on 3 Aug and the lowest reading of the whole admission — worth actively investigating rather than just monitoring at this point, especially with him still on aspirin/clopidogrel/apixaban together until 14 Aug. * INR 1.40–1.42 and APTT ratio elevated throughout are expected effects of apixaban — not a clotting disorder.
-  </div>
-
-  <div class="alert alert-amber">
-    <strong>⚠ CRP has ticked back up — 23.1 (19 Aug), from 14.6 (12 Aug)</strong>
-    Worth flagging rather than ignoring: the trend had been clearly favourable, and this is a reversal, even if a modest one. Haemoglobin has at least stabilised (89, unchanged from 12 Aug) rather than continuing to fall. Renal function and liver enzymes remain normal and stable — reassuring given his prior hepatotoxic drug reaction. * INR 1.40–1.42 and APTT ratio elevated throughout are expected effects of apixaban — not a clotting disorder.
-  </div>
-
-  <div class="table-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Test</th><th>Normal</th><th>24 Jun</th><th>26 Jun</th><th>28 Jun</th><th>30 Jun</th><th>1 Jul</th><th>3 Jul</th><th>5 Jul</th><th>7 Jul</th><th>9 Jul</th><th>13 Jul</th><th style="background:#2D7A4F;">15 Jul</th><th>22 Jul</th><th>27 Jul</th><th>3 Aug</th><th>12 Aug</th><th>19 Aug</th><th>4 Sep*</th><th>22 Sep*</th><th style="background:#2D7A4F;">12 Oct ↑</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="bold">CRP (mg/L)<br><span style="font-weight:400;font-size:11px;color:#999">Infection marker</span></td>
-          <td class="muted">&lt;5</td>
-          <td class="result-high">149</td><td class="result-high">192</td><td class="result-high">235 ▲</td><td class="result-high">206</td><td class="result-high">207</td><td class="result-high">200</td><td class="result-high">120 ▼</td><td class="result-high">44.8 ▼</td><td class="result-high">43.1</td><td class="result-high">39.4 ▼</td><td class="result-high">36.2 ▼</td><td class="result-high">28.3 ▼</td><td class="result-high">41.1 ▲</td><td class="result-high">27.3 ▼</td><td class="result-high">14.6 ▼</td><td class="result-high" style="color:#A04000;font-weight:700;">23.1 ▲</td>
-        <td class="result-normal">0.6</td><td class="result-high">6.4 ▲</td><td class="result-normal" style="color:#2D7A4F;font-weight:700;">&lt;0.5 ▼ ✓</td>
-        </tr>
-        <tr>
-          <td class="bold">Haemoglobin (g/L)<br><span style="font-weight:400;font-size:11px;color:#999">Anaemia</span></td>
-          <td class="muted">129–167</td>
-          <td class="result-low">121</td><td class="result-low">119</td><td class="result-low">118</td><td class="result-low">107</td><td class="result-low">100</td><td class="result-low">104</td><td class="result-low">99</td><td class="result-low">94 ▼</td><td class="result-low">89 ▼</td><td class="result-low">93 ▲</td><td class="result-low">88 ▼</td><td class="result-low">100 ▲</td><td class="result-low">102</td><td class="result-low">93 ▼</td><td class="result-low">89 ▼</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">89 →</td>
-        <td class="result-low">103</td><td class="result-low">116 ▲</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">125 ▲</td>
-        </tr>
-        <tr>
-          <td class="bold">WBC (G/L)<br><span style="font-weight:400;font-size:11px;color:#999">White cells</span></td>
-          <td class="muted">3.84–9.80</td>
-          <td class="result-high">10.1</td><td class="result-normal">9.34</td><td class="result-high">10.5</td><td class="result-high">11.1</td><td class="result-normal">9.71</td><td class="result-normal">9.11</td><td class="result-normal">7.63</td><td class="result-normal">6.41 ▼</td><td class="result-normal">7.95</td><td class="result-normal">6.65 ▼</td><td class="result-normal">6.04 ▼</td><td class="result-normal">7.26</td><td class="result-normal">7.81</td><td class="result-normal">6.27 ▼</td><td class="result-normal">5.98 ▼</td><td class="result-normal">6.40 ▲</td>
-        <td>—</td><td>—</td><td class="result-normal">5.22</td>
-        </tr>
-        <tr>
-          <td class="bold">Platelets (G/L)<br><span style="font-weight:400;font-size:11px;color:#999">Clotting</span></td>
-          <td class="muted">140–385</td>
-          <td class="result-normal">384</td><td class="result-high">479</td><td class="result-high">520</td><td class="result-high">548</td><td class="result-high">536</td><td class="result-high">589</td><td class="result-high">574</td><td class="result-high">547</td><td class="result-high">543</td><td class="result-high">520 ▼</td><td class="result-high">458 ▼</td><td class="result-high">417 ▼</td><td class="result-high">401 ▼</td><td class="result-normal">363 ▼</td><td class="result-normal">349 ▼</td><td class="result-normal">375 ▲</td>
-        <td class="result-normal">281</td><td class="result-normal">164</td><td class="result-normal">202</td>
-        </tr>
-        <tr>
-          <td class="bold">eGFR (mL/min)<br><span style="font-weight:400;font-size:11px;color:#999">Kidney function</span></td>
-          <td class="muted">&gt;90</td>
-          <td class="result-low">76</td><td class="result-low">58</td><td class="result-low">61</td><td class="result-low">65</td><td class="result-low">66</td><td class="result-low">71</td><td class="result-low">70</td><td class="result-low">62</td><td class="result-low">60</td><td class="result-low">73</td><td class="result-low">74</td><td class="result-low" style="color:#A04000;font-weight:700;">67 ▼</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">72 ▲</td><td class="result-low">—</td><td class="result-low">73 ▲</td><td class="result-low">67 ▼</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="bold">Creatinine (µmol/L)<br><span style="font-weight:400;font-size:11px;color:#999">Kidney marker</span></td>
-          <td class="muted">64–104</td>
-          <td class="result-normal">86</td><td class="result-high">107</td><td class="result-normal">103</td><td class="result-normal">98</td><td class="result-normal">97</td><td class="result-normal">91</td><td class="result-normal">92</td><td class="result-normal">102</td><td class="result-high">105</td><td class="result-normal">89 ▼</td><td class="result-normal">88 ✓</td><td class="result-normal">96.3</td><td class="result-normal">90.2 ✓</td><td class="result-normal">—</td><td class="result-normal">88.4 ✓</td><td class="result-normal">96.2 ✓</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="bold">GGT (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
-          <td class="muted">10–71</td>
-          <td class="result-high">131</td><td class="result-high">139</td><td class="result-high">635 ▲▲</td><td class="result-high">341</td><td class="result-high">258</td><td class="result-high">632 ▲▲</td><td class="result-high">581</td><td class="result-high">332 ▼</td><td class="result-high">239 ▼</td><td class="result-high">146 ▼</td><td class="result-high">114 ▼</td><td class="result-high">79 ▼</td><td>—</td><td>—</td><td>—</td><td class="result-normal">61 ✓</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="bold">AST (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
-          <td class="muted">10–50</td>
-          <td class="result-normal">47</td><td class="result-normal">40</td><td class="result-high">314 ▲▲</td><td class="result-normal">41</td><td class="result-normal">41</td><td class="result-high">63</td><td class="result-normal">37</td><td class="result-normal">29 ✓</td><td class="result-normal">22 ✓</td><td class="result-normal">21 ✓</td><td class="result-normal">17 ✓</td><td class="result-normal">14 ✓</td><td>—</td><td>—</td><td>—</td><td class="result-normal">15 ✓</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="bold">ALT (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
-          <td class="muted">10–50</td>
-          <td class="result-high">97</td><td class="result-high">76</td><td class="result-high">173</td><td class="result-high">80</td><td class="result-high">66</td><td class="result-high">78</td><td class="result-high">65</td><td class="result-normal">42 ✓</td><td class="result-normal">33 ✓</td><td class="result-normal">19 ✓</td><td class="result-normal">16 ✓</td><td class="result-normal">17 ✓</td><td>—</td><td>—</td><td>—</td><td class="result-normal">— ✓ (normal, exact value cut off in source)</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-        <tr>
-          <td class="bold">INR<br><span style="font-weight:400;font-size:11px;color:#999">Clotting (apixaban effect)</span></td>
-          <td class="muted">0.8–1.2</td>
-          <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="result-high">1.40*</td><td class="result-high">1.42*</td><td>—</td><td>—</td>
-        <td>—</td><td>—</td><td>—</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-
-  <div class="alert alert-green" style="margin-top:12px;">
-    <strong>✓ 12 Oct 2026 — CRP normalised (&lt;0.5 mg/L), Hb 125 g/L</strong>
-    CRP has fallen from 23.1 (19 Aug) to &lt;0.5, and Hb has recovered from 89–103 to 125 (still just below range 129–167). WBC 5.22 and platelets 202 normal. *4 Sep and 22 Sep values are taken from the "previous results" columns of the 12 Oct report only (CRP, Hb, platelets); other tests for those dates not available.
-  </div>
-
-
-  <details style="margin-top:10px;">
-    <summary>Why are the liver enzymes elevated?</summary>
-    <div class="explain-body">GGT and ALP (liver enzymes) have been elevated throughout — with two large spikes on 28 June and 3 July. The most likely explanation is a reaction to the antibiotic piperacillin/tazobactam (pip/tazo), which was stopped on 9 July. These enzymes are now falling. The AST and ALT (other liver enzymes) have largely normalised, which is reassuring. They will be monitored in weekly blood tests.</div>
-  </details>
-</section>
-
-
 <!-- ═══════════════════════════════════════════ MEDICATIONS -->
 <section id="medications">
   <div class="section-head">
@@ -924,13 +819,6 @@
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td class="bold">Apixaban (Eliquis) — ONE 5mg tablet per dose</td>
-          <td class="muted">DVT treatment (left calf, Jul 2026)</td>
-          <td class="muted"><b>Take ONE tablet (5mg) each time — never two tablets.</b> Doses are 12 hours apart. Blood thinner for the calf DVT.</td>
-          <td><b>8am: 1 tablet (5mg)<br>8pm: 1 tablet (5mg)</b></td>
-          <td>DVT follow-up doppler, Dec 2026 — stop if clear</td>
-        </tr>
         <tr>
           <td class="bold">Clopidogrel 75mg</td>
           <td class="muted">Antiplatelet — protects the 3 coronary stents</td>
@@ -1032,7 +920,47 @@
       </tbody>
     </table>
   </div>
-  <p style="font-size:11px;color:var(--light);margin-top:8px;">Stopped: aspirin (14 Aug 2026), clindamycin, colchicine (Aug 2026). Stock counts have been removed because the last count (15 Aug) is out of date — send a fresh count to add them back.</p>
+  <p style="font-size:11px;color:var(--light);margin-top:8px;">Stopped: apixaban (Oct 2026, at the 3-month mark), aspirin (14 Aug 2026), clindamycin, colchicine (Aug 2026). Stock counts have been removed because the last count (15 Aug) is out of date — send a fresh count to add them back.</p>
+
+
+<div id="allergies" style="margin-top:36px;">
+  <div class="section-head">
+    <h2>Allergies &amp; Adverse Drug Reactions</h2>
+  </div>
+
+  <div class="alert alert-green">
+    <strong>✓ No formal drug allergy documented</strong>
+    Confirmed in two independent places: the 15 Jul discharge letter states "Pas d'allergie connue" and the 29 Jul discharge fiche records "Allergies au cours du séjour: non." No allergy flagged anywhere else in the records reviewed.
+  </div>
+
+  <div class="alert alert-amber">
+    <strong>⚠ Adverse drug reaction — piperacillin/tazobactam (pip/tazo)</strong>
+    Not a classic allergy, but a significant hepatotoxic-pattern reaction: liver enzymes spiked sharply (AST 314, ALT 173, GGT 635 peak) in late June 2026 while on IV pip/tazo. Drug stopped 9 July, enzymes fell steadily afterward and are now near-normal. Worth documenting as an ADR to avoid pip/tazo in future rather than a true allergy.</div>
+</div>
+
+<div id="immunizations" style="margin-top:36px;">
+  <div class="section-head">
+    <h2>Immunisations</h2>
+    <span>Now documented — from full 15 Jul discharge letter</span>
+  </div>
+
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Vaccine</th><th>Status</th></tr></thead>
+      <tbody>
+        <tr><td class="bold">Influenza</td><td class="muted">Up to date</td></tr>
+        <tr><td class="bold">COVID-19</td><td class="muted">Up to date</td></tr>
+        <tr><td class="bold">Shingles (VZV)</td><td class="muted">1 of 2 doses given, 2025 — likely overdue for the second dose if this was a 2-dose series (e.g. Shingrix, usually 2-6 months apart)</td></tr>
+        <tr><td class="bold">DTP (diphtheria/tetanus/polio)</td><td class="muted">Not up to date — booster needed</td></tr>
+        <tr><td class="bold">Pneumococcal</td><td class="muted">Never vaccinated — worth prioritising given age 75 and recent hospitalisations</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="alert alert-amber" style="margin-top:12px;">
+    <strong>⚠ Three catch-up items</strong>
+    DTP booster, pneumococcal vaccine (first dose), and the second VZV/shingles dose are all reasonable to raise with Dr Paur once he's clear of the current antibiotic course and stable post-PCI — none are urgent this week, but worth booking in for the coming weeks.
+  </div>
+</div>
 </section>
 
 <script>
@@ -1047,7 +975,6 @@ function exportMedList(lang) {
   };
   // [drug, dose, timing, duration_en, duration_fr, indication_en, indication_fr]
   const meds = [
-    ["Apixaban (Eliquis) — 1 comprimé de 5mg à chaque prise, PAS deux", "5mg (1 comprimé)", isFr ? "8h et 20h — 1 comprimé à chaque prise" : "8am and 8pm — ONE tablet each time", "until DVT follow-up doppler (Dec 2026), stop if clear", "jusqu'au contrôle écho-doppler (déc. 2026), arrêt si normal", "DVT treatment", "Traitement de la phlébite"],
     ["Clopidogrel", "75mg", isFr ? "8h" : "8am", "per cardiology (Dr Quillot)", "selon cardiologie (Dr Quillot)", "Antiplatelet — protects the 3 coronary stents", "Antiagrégant — protection des 3 stents coronaires"],
     ["Allopurinol", "100mg — 2 comprimés ensemble (200mg)", isFr ? "18h" : "6pm", "long term", "au long cours", "Gout prophylaxis", "Prophylaxie de la goutte"],
     ["Atorvastatine", "20mg, 1 comprimé 2 fois par jour (= 40mg/j)", isFr ? "8h et 18h" : "8am and 6pm", "long term", "au long cours", "Hyperlipidaemia — secondary prevention post-PCI", "Hyperlipidémie — prévention secondaire post-angioplastie"],
@@ -1102,55 +1029,103 @@ function exportMedList(lang) {
 </script>
 
 
-<!-- ═══════════════════════════════════════════ ALLERGIES -->
-<section id="allergies">
+<!-- ═══════════════════════════════════════════ DOCUMENTS -->
+<section id="documents">
   <div class="section-head">
-    <h2>Allergies &amp; Adverse Drug Reactions</h2>
+    <h2>Documents &amp; Lab Results</h2>
+    <span>Labs first, then documents · Tap to open · Google Drive</span>
   </div>
 
-  <div class="alert alert-green">
-    <strong>✓ No formal drug allergy documented</strong>
-    Confirmed in two independent places: the 15 Jul discharge letter states "Pas d'allergie connue" and the 29 Jul discharge fiche records "Allergies au cours du séjour: non." No allergy flagged anywhere else in the records reviewed.
+  <div id="bloods" style="margin-top:8px;margin-bottom:36px;">
+  <div class="section-head">
+    <h2>Blood Test Results</h2>
+    <span>Latest: 12 Oct 2026</span>
   </div>
 
-  <div class="alert alert-amber">
-    <strong>⚠ Adverse drug reaction — piperacillin/tazobactam (pip/tazo)</strong>
-    Not a classic allergy, but a significant hepatotoxic-pattern reaction: liver enzymes spiked sharply (AST 314, ALT 173, GGT 635 peak) in late June 2026 while on IV pip/tazo. Drug stopped 9 July, enzymes fell steadily afterward and are now near-normal. Worth documenting as an ADR to avoid pip/tazo in future rather than a true allergy.</div>
-</section>
-
-
-<!-- ═══════════════════════════════════════════ IMMUNIZATIONS -->
-<section id="immunizations">
-  <div class="section-head">
-    <h2>Immunizations</h2>
-    <span>Now documented — from full 15 Jul discharge letter</span>
+  <div class="alert alert-green" style="margin-bottom:12px;">
+    <strong>✓ 12 Oct 2026 — CRP normalised (&lt;0.5 mg/L), Hb 125 g/L</strong>
+    CRP has fallen from 23.1 (19 Aug) to &lt;0.5, and Hb has recovered from 89–103 to 125 (still just below range 129–167). WBC 5.22 and platelets 202 normal. *4 Sep and 22 Sep values are taken from the "previous results" columns of the 12 Oct report only (CRP, Hb, platelets); other tests for those dates not available.
   </div>
 
   <div class="table-wrap">
     <table>
-      <thead><tr><th>Vaccine</th><th>Status</th></tr></thead>
+      <thead>
+        <tr>
+          <th>Test</th><th>Normal</th><th>24 Jun</th><th>26 Jun</th><th>28 Jun</th><th>30 Jun</th><th>1 Jul</th><th>3 Jul</th><th>5 Jul</th><th>7 Jul</th><th>9 Jul</th><th>13 Jul</th><th style="background:#2D7A4F;">15 Jul</th><th>22 Jul</th><th>27 Jul</th><th>3 Aug</th><th>12 Aug</th><th>19 Aug</th><th>4 Sep*</th><th>22 Sep*</th><th style="background:#2D7A4F;">12 Oct ↑</th>
+        </tr>
+      </thead>
       <tbody>
-        <tr><td class="bold">Influenza</td><td class="muted">Up to date</td></tr>
-        <tr><td class="bold">COVID-19</td><td class="muted">Up to date</td></tr>
-        <tr><td class="bold">Shingles (VZV)</td><td class="muted">1 of 2 doses given, 2025 — likely overdue for the second dose if this was a 2-dose series (e.g. Shingrix, usually 2-6 months apart)</td></tr>
-        <tr><td class="bold">DTP (diphtheria/tetanus/polio)</td><td class="muted">Not up to date — booster needed</td></tr>
-        <tr><td class="bold">Pneumococcal</td><td class="muted">Never vaccinated — worth prioritising given age 75 and recent hospitalisations</td></tr>
+        <tr>
+          <td class="bold">CRP (mg/L)<br><span style="font-weight:400;font-size:11px;color:#999">Infection marker</span></td>
+          <td class="muted">&lt;5</td>
+          <td class="result-high">149</td><td class="result-high">192</td><td class="result-high">235 ▲</td><td class="result-high">206</td><td class="result-high">207</td><td class="result-high">200</td><td class="result-high">120 ▼</td><td class="result-high">44.8 ▼</td><td class="result-high">43.1</td><td class="result-high">39.4 ▼</td><td class="result-high">36.2 ▼</td><td class="result-high">28.3 ▼</td><td class="result-high">41.1 ▲</td><td class="result-high">27.3 ▼</td><td class="result-high">14.6 ▼</td><td class="result-high" style="color:#A04000;font-weight:700;">23.1 ▲</td>
+        <td class="result-normal">0.6</td><td class="result-high">6.4 ▲</td><td class="result-normal" style="color:#2D7A4F;font-weight:700;">&lt;0.5 ▼ ✓</td>
+        </tr>
+        <tr>
+          <td class="bold">Haemoglobin (g/L)<br><span style="font-weight:400;font-size:11px;color:#999">Anaemia</span></td>
+          <td class="muted">129–167</td>
+          <td class="result-low">121</td><td class="result-low">119</td><td class="result-low">118</td><td class="result-low">107</td><td class="result-low">100</td><td class="result-low">104</td><td class="result-low">99</td><td class="result-low">94 ▼</td><td class="result-low">89 ▼</td><td class="result-low">93 ▲</td><td class="result-low">88 ▼</td><td class="result-low">100 ▲</td><td class="result-low">102</td><td class="result-low">93 ▼</td><td class="result-low">89 ▼</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">89 →</td>
+        <td class="result-low">103</td><td class="result-low">116 ▲</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">125 ▲</td>
+        </tr>
+        <tr>
+          <td class="bold">WBC (G/L)<br><span style="font-weight:400;font-size:11px;color:#999">White cells</span></td>
+          <td class="muted">3.84–9.80</td>
+          <td class="result-high">10.1</td><td class="result-normal">9.34</td><td class="result-high">10.5</td><td class="result-high">11.1</td><td class="result-normal">9.71</td><td class="result-normal">9.11</td><td class="result-normal">7.63</td><td class="result-normal">6.41 ▼</td><td class="result-normal">7.95</td><td class="result-normal">6.65 ▼</td><td class="result-normal">6.04 ▼</td><td class="result-normal">7.26</td><td class="result-normal">7.81</td><td class="result-normal">6.27 ▼</td><td class="result-normal">5.98 ▼</td><td class="result-normal">6.40 ▲</td>
+        <td>—</td><td>—</td><td class="result-normal">5.22</td>
+        </tr>
+        <tr>
+          <td class="bold">Platelets (G/L)<br><span style="font-weight:400;font-size:11px;color:#999">Clotting</span></td>
+          <td class="muted">140–385</td>
+          <td class="result-normal">384</td><td class="result-high">479</td><td class="result-high">520</td><td class="result-high">548</td><td class="result-high">536</td><td class="result-high">589</td><td class="result-high">574</td><td class="result-high">547</td><td class="result-high">543</td><td class="result-high">520 ▼</td><td class="result-high">458 ▼</td><td class="result-high">417 ▼</td><td class="result-high">401 ▼</td><td class="result-normal">363 ▼</td><td class="result-normal">349 ▼</td><td class="result-normal">375 ▲</td>
+        <td class="result-normal">281</td><td class="result-normal">164</td><td class="result-normal">202</td>
+        </tr>
+        <tr>
+          <td class="bold">eGFR (mL/min)<br><span style="font-weight:400;font-size:11px;color:#999">Kidney function</span></td>
+          <td class="muted">&gt;90</td>
+          <td class="result-low">76</td><td class="result-low">58</td><td class="result-low">61</td><td class="result-low">65</td><td class="result-low">66</td><td class="result-low">71</td><td class="result-low">70</td><td class="result-low">62</td><td class="result-low">60</td><td class="result-low">73</td><td class="result-low">74</td><td class="result-low" style="color:#A04000;font-weight:700;">67 ▼</td><td class="result-low" style="color:#2D7A4F;font-weight:700;">72 ▲</td><td class="result-low">—</td><td class="result-low">73 ▲</td><td class="result-low">67 ▼</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
+        <tr>
+          <td class="bold">Creatinine (µmol/L)<br><span style="font-weight:400;font-size:11px;color:#999">Kidney marker</span></td>
+          <td class="muted">64–104</td>
+          <td class="result-normal">86</td><td class="result-high">107</td><td class="result-normal">103</td><td class="result-normal">98</td><td class="result-normal">97</td><td class="result-normal">91</td><td class="result-normal">92</td><td class="result-normal">102</td><td class="result-high">105</td><td class="result-normal">89 ▼</td><td class="result-normal">88 ✓</td><td class="result-normal">96.3</td><td class="result-normal">90.2 ✓</td><td class="result-normal">—</td><td class="result-normal">88.4 ✓</td><td class="result-normal">96.2 ✓</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
+        <tr>
+          <td class="bold">GGT (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
+          <td class="muted">10–71</td>
+          <td class="result-high">131</td><td class="result-high">139</td><td class="result-high">635 ▲▲</td><td class="result-high">341</td><td class="result-high">258</td><td class="result-high">632 ▲▲</td><td class="result-high">581</td><td class="result-high">332 ▼</td><td class="result-high">239 ▼</td><td class="result-high">146 ▼</td><td class="result-high">114 ▼</td><td class="result-high">79 ▼</td><td>—</td><td>—</td><td>—</td><td class="result-normal">61 ✓</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
+        <tr>
+          <td class="bold">AST (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
+          <td class="muted">10–50</td>
+          <td class="result-normal">47</td><td class="result-normal">40</td><td class="result-high">314 ▲▲</td><td class="result-normal">41</td><td class="result-normal">41</td><td class="result-high">63</td><td class="result-normal">37</td><td class="result-normal">29 ✓</td><td class="result-normal">22 ✓</td><td class="result-normal">21 ✓</td><td class="result-normal">17 ✓</td><td class="result-normal">14 ✓</td><td>—</td><td>—</td><td>—</td><td class="result-normal">15 ✓</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
+        <tr>
+          <td class="bold">ALT (U/L)<br><span style="font-weight:400;font-size:11px;color:#999">Liver enzyme</span></td>
+          <td class="muted">10–50</td>
+          <td class="result-high">97</td><td class="result-high">76</td><td class="result-high">173</td><td class="result-high">80</td><td class="result-high">66</td><td class="result-high">78</td><td class="result-high">65</td><td class="result-normal">42 ✓</td><td class="result-normal">33 ✓</td><td class="result-normal">19 ✓</td><td class="result-normal">16 ✓</td><td class="result-normal">17 ✓</td><td>—</td><td>—</td><td>—</td><td class="result-normal">Normal ✓</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
+        <tr>
+          <td class="bold">INR<br><span style="font-weight:400;font-size:11px;color:#999">Clotting</span></td>
+          <td class="muted">0.8–1.2</td>
+          <td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td>—</td><td class="result-high">1.40*</td><td class="result-high">1.42*</td><td>—</td><td>—</td>
+        <td>—</td><td>—</td><td>—</td>
+        </tr>
       </tbody>
     </table>
   </div>
-  <div class="alert alert-amber" style="margin-top:12px;">
-    <strong>⚠ Three catch-up items</strong>
-    DTP booster, pneumococcal vaccine (first dose), and the second VZV/shingles dose are all reasonable to raise with Dr Paur once he's clear of the current antibiotic course and stable post-PCI — none are urgent this week, but worth booking in for the coming weeks.
-  </div>
-</section>
 
 
-<!-- ═══════════════════════════════════════════ DOCUMENTS -->
-<section id="documents">
-  <div class="section-head">
-    <h2>Documents</h2>
-    <span>Tap to open · Google Drive</span>
-  </div>
+
+  <details style="margin-top:10px;">
+    <summary>Why are the liver enzymes elevated?</summary>
+    <div class="explain-body">GGT and ALP (liver enzymes) have been elevated throughout — with two large spikes on 28 June and 3 July. The most likely explanation is a reaction to the antibiotic piperacillin/tazobactam (pip/tazo), which was stopped on 9 July. These enzymes are now falling. The AST and ALT (other liver enzymes) have largely normalised, which is reassuring. They will be monitored in weekly blood tests.</div>
+  </details>
+</div>
 
   <div class="alert alert-green">
     <strong>✓ Linked directly from Google Drive</strong>
@@ -1196,7 +1171,7 @@ function exportMedList(lang) {
       <div class="doc-icon">📄</div>
       <div>
         <div class="doc-name">Full Admission Discharge Letter (Compte-Rendu)</div>
-        <div class="doc-sub">Dictated 15 Jul, uploaded 7 Aug · Family history, social history, immunisation status — source for PMH/Social/Immunizations panels</div>
+        <div class="doc-sub">Dictated 15 Jul, uploaded 7 Aug · Family history, social history, immunisation status — source for PMH/Social/Immunisations panels</div>
       </div>
     </a>
 
@@ -1521,7 +1496,7 @@ function exportMedList(lang) {
       <div class="doc-icon">🔬</div>
       <div>
         <div class="doc-name">GP Referral to Dermatology — Dr Paur</div>
-        <div class="doc-sub">3 Jun 2026 · Scalp psoriasis query · To Aix-en-Provence</div>
+        <div class="doc-sub">3 Jun 2026 · Scalp psoriasis/eczema query · To Aix-en-Provence</div>
       </div>
     </a>
 
@@ -1749,10 +1724,10 @@ function exportMedList(lang) {
 
   <div class="timeline">
 
-    <div class="t-event info">
-      <div class="t-date">18 October 2026</div>
-      <div class="t-title">DVT follow-up doppler rebooked for December</div>
-      <div class="t-body">The scan due ~10 Oct was cancelled. Apixaban continues until the repeat doppler; if clear, it stops.</div>
+    <div class="t-event good">
+      <div class="t-date">October 2026</div>
+      <div class="t-title">Apixaban stopped at the 3-month mark</div>
+      <div class="t-body">Course for the left calf DVT completed. The follow-up doppler due ~10 Oct was cancelled and rebooked for December to confirm the clot has resolved.</div>
     </div>
 
     <div class="t-event good">
@@ -1980,6 +1955,10 @@ function exportMedList(lang) {
   }, { rootMargin: '-20% 0px -70% 0px' });
 
   sections.forEach(s => observer.observe(s));
+
+  // At a Glance → very top of the page
+  const glanceLink = document.querySelector('nav a[href="#glance"]');
+  if (glanceLink) glanceLink.addEventListener('click', e => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
 </script>
 
 </body>
