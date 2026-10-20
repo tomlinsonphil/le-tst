@@ -1,8 +1,8 @@
 {
- "date": "2026-10-19",
- "label": "Monday 19 October 2026",
- "note": "Refresh of Mon 19 Oct 2026 (early morning, Toronto time). Headlines come from the Euronews, Al Jazeera, CP24, Global News and L'Écho du Mardi feeds. Verified today: the France riots, Alberta referendum day and CFB Wainwright reports; Premier League table and Sunday results; Championship and Ligue 1 tables; Shanghai Masters final; Maple Leafs record and schedule; F1, ATP and WTA pages; SpaceX and NASA pages; Bank of Canada, Bank of England and Federal Reserve sites. Cards and tables not re-checked today say so. Economics content is general information, not financial advice.",
- "sport_note": "Premier League table and Sunday results, Championship and Ligue 1 tables, Shanghai Masters final, Wuhan Open champion, Maple Leafs and F1 pages were re-checked on 19 Oct. Rugby, cricket, squash, field hockey, baseball and some European results were not re-checked and say so. Tottenham v Coventry (Mon 19 Oct, 8 pm UK) had not been played when this was written.",
+ "date": "2026-10-20",
+ "label": "Tuesday 20 October 2026",
+ "note": "Refresh of Tue 20 Oct 2026 (early morning, Toronto time). Headlines come from the Euronews, Al Jazeera, Global News and L'Écho du Mardi feeds; CP24's feed could not be read, so its list is built from CP24 stories that appeared in search results. Verified today: Alberta referendum result (CTV/CP24), Premier League table and Monday result, Maple Leafs v Sharks, ATP rankings (19 Oct), F1 page, US Middle East alert (Euronews). Cards, tables and sport pages not re-checked today say so in their own as-of lines; this was a lighter refresh than usual because several source pages were refused. Economics content is general information, not financial advice.",
+ "sport_note": "Premier League table and results (to Mon 19 Oct), ATP top 10 (19 Oct), Maple Leafs and the F1 page were re-checked on 20 Oct. The WTA page, Championship, Ligue 1, rugby, cricket, squash, field hockey, baseball, basketball and European results were not re-checked and say so.",
  "sections": [
   {
    "id": "headlines",
@@ -17,30 +17,30 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Macron vows to hold those who sought to “bring down the Republic” accountable after riots",
-       "url": "https://www.euronews.com/2026/10/18/macron-vows-to-hold-those-who-sought-to-bring-down-the-republic-accountable-after-riots",
-       "when": "18 Oct",
-       "syn": "After a night of rioting, looting and fires in French cities, Macron said \"nothing justified\" the unrest and that looters will pay for the damage. Euronews puts arrests at over 2,000 and more than 600 police, gendarmes and firefighters injured."
+       "t": "Protesters block entrances to Paris's Louvre museum",
+       "url": "https://www.euronews.com/video/2026/10/19/protesters-block-entrances-to-pariss-louvre-museum",
+       "when": "19 Oct"
       },
       {
-       "t": "Tensions remain high in Paris after violent protests across France",
-       "url": "https://www.euronews.com/video/2026/10/18/tensions-remain-high-in-paris-after-violent-protests-across-france",
-       "when": "18 Oct"
+       "t": "UN food agency to cut aid to 500,000 people in Gaza as funding dries up",
+       "url": "https://www.euronews.com/2026/10/19/un-food-agency-to-cut-aid-to-500000-people-in-gaza-as-funding-dries-up",
+       "when": "19 Oct"
       },
       {
-       "t": "Spain changes Ceuta patrol rules over ships' \"innocent passage\"",
-       "url": "https://www.euronews.com/2026/10/18/spain-changes-ceuta-patrol-rules-over-ships-innocent-passage",
-       "when": "18 Oct"
+       "t": "New Chinese brands drive curiosity at the Mondial de l'Auto car show in Paris",
+       "url": "https://www.euronews.com/2026/10/19/new-chinese-brands-drive-curiosity-at-the-mondial-de-lauto-car-show-in-paris",
+       "when": "19 Oct"
       },
       {
-       "t": "Shopkeepers defend their livelihood from masked looters during the French riots",
-       "url": "https://www.euronews.com/video/2026/10/18/shopkeepers-defend-their-livelihood-from-masked-looters-during-the-french-riots",
-       "when": "18 Oct"
+       "t": "Tents fill Lisbon square as protesters highlight Portugal's housing crisis",
+       "url": "https://www.euronews.com/video/2026/10/19/tents-fill-lisbon-square-as-protesters-highlight-portugals-housing-crisis",
+       "when": "19 Oct"
       },
       {
-       "t": "Marine Le Pen warns of 'threat to democracy' and blasts 'exhausted Macronist power'",
-       "url": "https://www.euronews.com/2026/10/18/marine-le-pen-warns-of-threat-to-democracy-and-blasts-exhausted-macronist-power",
-       "when": "18 Oct"
+       "t": "US issues rare Middle East red alert warning to its citizens in the region",
+       "url": "https://www.euronews.com/2026/10/19/us-issues-rare-middle-east-red-alert-warning-to-its-citizens-in-the-region",
+       "when": "19 Oct",
+       "syn": "US embassies in 12 Middle East countries told Americans to plan for flight cancellations and airspace closures, warning that hostilities involving Yemen's Houthis and Iran could escalate rapidly and that Iran and aligned groups could target US interests worldwide."
       }
      ]
     },
@@ -49,31 +49,29 @@
      "url": "https://www.cp24.com/",
      "items": [
       {
-       "t": "Albertans head to polls in historic referendum on whether they want to stay in Canada",
-       "url": "https://www.cp24.com/news/canada/2026/10/19/albertans-head-to-polls-in-historic-referendum-on-whether-they-want-to-stay-in-canada/",
-       "when": "19 Oct",
-       "syn": "Albertans vote on ten referendum questions, one asking whether to stay in Canada or start the process toward a binding separation vote. More than 1.3 million had already voted by mail or in advance polls."
+       "t": "Albertans reject separation in historic vote, CTV News projects. Live updates.",
+       "url": "https://cp24.com/news/canada/2026/10/20/albertans-reject-separation-in-historic-vote-ctv-news-projects-live-updates",
+       "when": "20 Oct"
       },
       {
-       "t": "What happened at CFB Wainwright? 4 soldiers dead, 39 wounded. Here are the confirmed facts.",
-       "url": "https://www.cp24.com/news/canada/2026/10/19/what-happened-at-cfb-wainwright-4-soldiers-dead-39-wounded-here-are-the-confirmed-facts/",
-       "when": "19 Oct",
-       "syn": "A grass fire spread during live-grenade training at the Alberta base on 17 October, killing four soldiers and hospitalizing 39. Cause is under investigation; a board of inquiry will be held and officials say there is no sign of terrorism."
+       "t": "Police charge driver with intentionally causing serious injury to Australian federal lawmaker",
+       "url": "https://www.cp24.com/news/world/2026/10/20/police-charge-driver-with-intentionally-causing-serious-injury-to-australian-federal-lawmaker/",
+       "when": "20 Oct"
       },
       {
-       "t": "France erupts: Riots, looting and mass arrests",
-       "url": "https://www.cp24.com/news/world/2026/10/18/macron-condemns-those-who-sought-to-bring-down-the-republic-after-rioting-mars-nationwide-protests/",
+       "t": "127 kg of cocaine seized at Ambassador Bridge",
+       "url": "https://www.cp24.com/local/peel/2026/10/19/127-kg-of-cocaine-seized-at-ambassador-bridge/",
        "when": "19 Oct"
       },
       {
-       "t": "Breaking down how Monday’s Alberta referendum ballot works",
-       "url": "https://www.cp24.com/news/canada/2026/10/18/breaking-down-how-mondays-alberta-referendum-ballot-works/",
+       "t": "10 suspects connected to ‘violent’ auto theft ring in Peel Region facing 128 charges",
+       "url": "https://www.cp24.com/local/toronto/2026/10/19/10-suspects-connected-to-violent-auto-theft-ring-in-peel-region-facing-128-charges/",
        "when": "19 Oct"
       },
       {
-       "t": "Christopher Liew: Which accounts should you draw from first in retirement?",
-       "url": "https://www.cp24.com/news/money/2026/10/19/christopher-liew-which-accounts-should-you-draw-from-first-in-retirement/",
-       "when": "19 Oct"
+       "t": "Bradford pledges ‘common sense’ transit plan for Toronto marathon, Chow fires back",
+       "url": "https://www.cp24.com/local/toronto/2026/10/18/bradford-pledges-common-sense-transit-plan-for-toronto-marathon-chow-fires-back/",
+       "when": "18 Oct"
       }
      ]
     },
@@ -82,30 +80,29 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Macron condemns violence after riots lead to looting and mass arrests",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/macron-condemns-violence-after-riots-lead-to-looting-and-mass-arrests",
-       "when": "18 Oct"
+       "t": "US Supreme Court to hear case on race in school admissions",
+       "url": "https://www.aljazeera.com/news/2026/10/20/us-supreme-court-to-hear-case-on-race-in-school-admissions",
+       "when": "20 Oct"
       },
       {
-       "t": "Fire engulfs Albania's Supreme Court as protests enter fifth day",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire",
-       "when": "18 Oct"
+       "t": "Japan launches historic mission to bring back Mars moon samples",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/japan-launches-historic-mission-to-bring-back-mars-moon-samples",
+       "when": "20 Oct"
       },
       {
-       "t": "'Anger and shame': Macron denounces France's nationwide rioting, looting",
-       "url": "https://www.aljazeera.com/news/2026/10/18/macron-denounces-frances-nationwide-rioting-looting",
-       "when": "18 Oct",
-       "syn": "Macron said he felt \"anger and shame\" after Saturday's violence, which began as student-led protests that Yellow Vests joined. The Interior Ministry reported nearly 2,400 arrests and about 1,000 police and gendarmes injured; Mélenchon and Bardella both attacked the government."
+       "t": "Fourteen dead in illegal Colombian gold mine collapse",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/20/fourteen-dead-in-illegal-colombian-gold-mine-collapse",
+       "when": "20 Oct"
       },
       {
-       "t": "What's behind Europe's youth protests?",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/whats-behind-europes-youth-protests",
-       "when": "18 Oct"
+       "t": "'Deliberate' car ramming of Australian MP an isolated incident, police say",
+       "url": "https://www.aljazeera.com/news/2026/10/20/deliberate-car-ramming-of-australian-mp-an-isolated-incident-police-say",
+       "when": "20 Oct"
       },
       {
-       "t": "India's crackdown on cockroaches, critics and cameras",
-       "url": "https://www.aljazeera.com/video/the-listening-post/2026/10/18/indias-crackdown-on-cockroaches-critics-and-cameras",
-       "when": "18 Oct"
+       "t": "Angel Reese scores 30 as Dream stun Valkyries to go level in WNBA Finals",
+       "url": "https://www.aljazeera.com/sports/2026/10/20/angel-reese-scores-30-as-dream-stun-valkyries-to-go-level-in-wnba-finals",
+       "when": "20 Oct"
       }
      ]
     },
@@ -114,31 +111,29 @@
      "url": "https://globalnews.ca/toronto/",
      "items": [
       {
-       "t": "Bobrovsky, Maple Leafs looking to find traction",
-       "url": "https://globalnews.ca/news/12107016/bobrovsky-maple-leafs-looking-to-find-traction/",
-       "when": "18 Oct",
-       "syn": "The Leafs are 3-4-2 and have lost four of five. Goalie Sergei Bobrovsky is 1-3-2 with a .891 save percentage; captain Auston Matthews said the team has left him \"out to dry\". San Jose visits on Monday."
+       "t": "McKenna back in the spotlight for Maple Leafs",
+       "url": "https://globalnews.ca/news/12108924/mckenna-back-in-the-spotlight-for-maple-leafs/",
+       "when": "20 Oct"
       },
       {
-       "t": "Horvat leads Islanders past Maple Leafs 4-1",
-       "url": "https://globalnews.ca/news/12106751/horvat-leads-islanders-past-maple-leafs/",
-       "when": "17 Oct"
+       "t": "McKenna scores winner, Maple Leafs top Sharks",
+       "url": "https://globalnews.ca/news/12108820/mckenna-scores-winner-maple-leafs-top-sharks/",
+       "when": "20 Oct"
       },
       {
-       "t": "OSAP pause leads career college to suspend classes",
-       "url": "https://globalnews.ca/news/12106605/career-college-suspends-classes-osap-pause/",
-       "when": "17 Oct",
-       "syn": "Ontario has paused OSAP payments to private colleges during an audit, and Trillium College suspended classes at its campuses. The minister cites \"systemic issues\" and promises low-interest loans, with no timeline."
+       "t": "Graves willing to do anything the Raptors ask him",
+       "url": "https://globalnews.ca/news/12108207/graves-willing-to-do-anything-the-raptors-ask-him/",
+       "when": "19 Oct"
       },
       {
-       "t": "Maple Leafs centre John Tavares out week-to-week",
-       "url": "https://globalnews.ca/news/12106503/maple-leafs-centre-john-tavares-out-week-to-week/",
-       "when": "17 Oct"
+       "t": "Trustees in supervised school boards won’t be sworn in after election: Ford government",
+       "url": "https://globalnews.ca/news/12108029/trustees-in-supervised-school-boards-wont-be-sworn-in-after-election-ford-government/",
+       "when": "19 Oct"
       },
       {
-       "t": "Raptors convert Bittle’s deal to 2-way contract",
-       "url": "https://globalnews.ca/news/12106443/raptors-convert-bittles-deal-to-2-way-contract/",
-       "when": "17 Oct"
+       "t": "Stiles unavailable to canvass for Chow as Toronto election enters final week",
+       "url": "https://globalnews.ca/news/12107983/stiles-unavailable-to-canvas-for-chow-as-toronto-election-enters-final-week/",
+       "when": "19 Oct"
       }
      ]
     },
@@ -147,29 +142,29 @@
      "url": "https://www.echodumardi.com/",
      "items": [
       {
-       "t": "(Vidéo) La date de la 2e édition du Marathon d’Avignon dévoilée",
-       "url": "https://www.echodumardi.com/actualite/video-la-date-de-la-2e-edition-du-marathon-davignon-devoilee/",
-       "when": "17 Oct"
+       "t": "À Avignon, les enchères font revivre la Provence des peintres",
+       "url": "https://www.echodumardi.com/actualite/a-avignon-les-encheres-font-revivre-la-provence-des-peintres/",
+       "when": "19 Oct"
       },
       {
-       "t": "Cavaillon, les photos sont des trésors de témoignages",
-       "url": "https://www.echodumardi.com/culture-loisirs/cavaillon-les-photos-sont-des-tresors-de-temoignages/",
-       "when": "16 Oct"
+       "t": "Évaluation des entreprises : l'IA transforme les pratiques, pas la responsabilité des professionnels",
+       "url": "https://www.echodumardi.com/juridique/evaluation-des-entreprises-lia-transforme-les-pratiques-pas-la-responsabilite-des-professionnels/",
+       "when": "19 Oct"
       },
       {
-       "t": "Un Territoria d’argent pour Luberon Monts de Vaucluse",
-       "url": "https://www.echodumardi.com/politiqueetterritoire/un-territoria-dargent-pour-luberon-monts-de-vaucluse/",
-       "when": "16 Oct"
+       "t": "Violences : Les maires de Vaucluse veulent défendre la République",
+       "url": "https://www.echodumardi.com/actualite/violences-les-maires-de-vaucluse-veulent-defendre-la-republique/",
+       "when": "19 Oct"
       },
       {
-       "t": "Logement social : la demande reste insatisfaite en Vaucluse",
-       "url": "https://www.echodumardi.com/politiqueetterritoire/logement-social-la-demande-reste-insatisfaite-en-vaucluse/",
-       "when": "16 Oct"
+       "t": "Les pommes Juliet résistent aux canicules et font pousser la solidarité en Vaucluse",
+       "url": "https://www.echodumardi.com/economie/les-pommes-juliet-resistent-aux-canicules-et-font-pousser-la-solidarite-en-vaucluse/",
+       "when": "19 Oct"
       },
       {
-       "t": "Franck Cabas, nouveau président d’Aésio Santé Méditerranée",
-       "url": "https://www.echodumardi.com/actualite/franck-cabas-nouveau-president-daesio-sante-mediterranee/",
-       "when": "16 Oct"
+       "t": "Avignon : 21 interpellations et des dégâts à 500 000 €",
+       "url": "https://www.echodumardi.com/actualite/avignon-sous-le-choc-21-interpellations-et-des-degats-a-500-000-e/",
+       "when": "19 Oct"
       }
      ]
     }
@@ -187,7 +182,8 @@
       "Al Jazeera also ran an explainer on 16 October, \"Trump rules out using a nuclear bomb on Iran: Why that matters\"; its detail was not read here.",
       "Hormuz is getting more dangerous, not less. Al Jazeera reports the UKMTO logged 15 attacks on shipping between 6 and 14 October, 11 of them in the last four days, and Kpler counted 10 tankers struck from 28 September to 4 October. The US-Navy-led JMIC rates the threat to merchant shipping \"severe\", its second-highest level.",
       "Traffic has fallen with it. Al Jazeera cites about 20.8 million barrels passing on 8 October but only 2.9 million on 11 October, against a pre-war average of 17.1 million a day. Brent was $106.58 early on 14 October (WTI settled at $94.14 the day before). Al Jazeera's live page for 15 October is headlined \"Tehran vows to fight until US yields as ships sink in Hormuz\"; I could not read its detail.",
-      "Why you should care from Toronto: oil above $100 feeds fuel costs and inflation, which central banks answer with interest rates. At the 14 October EU summit leaders were also wrestling with gas prices at their highest since winter 2022, per Euronews."
+      "Why you should care from Toronto: oil above $100 feeds fuel costs and inflation, which central banks answer with interest rates. At the 14 October EU summit leaders were also wrestling with gas prices at their highest since winter 2022, per Euronews.",
+      "Update, 19 Oct: US embassies in 12 Middle East countries issued near-identical alerts warning of possible flight cancellations and airspace closures, and of rapid escalation involving Yemen's Houthis and Iran (Euronews). Qatar Airways has suspended Riyadh and Dammam flights until 24 October."
      ],
      "n": [
       "The Strait of Hormuz is a narrow stretch of sea between Iran to the north and Oman to the south, linking the Persian Gulf to the open ocean. Roughly a fifth of the world's oil, and a large share of its liquefied natural gas, passes through it. There is no easy alternative route for most of that cargo.",
@@ -198,6 +194,10 @@
      ],
      "s": "As of 16 Oct 2026 (headlines and live-page text only) and 14-15 Oct (shipping figures) · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified · shipping figures not re-verified on 17 Oct · not re-checked 19 Oct",
      "links": [
+      {
+       "text": "Euronews: US issues rare Middle East red alert warning",
+       "url": "https://www.euronews.com/2026/10/19/us-issues-rare-middle-east-red-alert-warning-to-its-citizens-in-the-region"
+      },
       {
        "text": "Al Jazeera: Iran war live, 16 October (Houthis, Taiz, Saudi airports)",
        "url": "https://www.aljazeera.com/news/liveblog/2026/10/16/iran-war-live-saudi-blasts-houthi-war-crimes-us-warns-on-saudi-airports"
@@ -307,19 +307,19 @@
    "id": "toronto",
    "items": [
     {
-     "t": "Alberta votes: stay in Canada, and nine other questions",
-     "tag": "Referendum · today 19 Oct",
+     "t": "Alberta votes to stay in Canada",
+     "tag": "Referendum result · 20 Oct",
      "gap": false,
      "w": [
-      "Alberta goes to the polls today for a vote with no precedent in modern Canada. The ballot carries ten questions. One asks whether Alberta should remain a province of Canada or whether its government should begin the constitutional process toward a later, binding referendum on separation; the other nine cover immigration and the Constitution, including talks with other provinces on shifting powers from Ottawa and abolishing the Senate.",
-      "Premier Danielle Smith called the vote. She says she herself voted to stay in Canada but wants a yes on the nine other questions to give her a mandate to negotiate with Prime Minister Mark Carney. Carney campaigned in Alberta last week, telling a Calgary crowd to say \"no to the nine\". More than 1.3 million Albertans had voted by mail or in advance polls before today (CP24).",
-      "The polls say remain. The latest listed on Wikipedia, all from August and early September, have staying in Canada at 64% (Abacus, 4–7 Sep), 74% (Research Co., 24–26 Aug) and 65% (Leger, 21–23 Aug), against 22% to 24% for starting the separation route. A yes would not itself take Alberta out of Canada: the process would run through a further vote and, because the Constitution has no clause for unilateral separation, a constitutional amendment. Results were not available when this was written."
+      "Albertans have said no to a second separation referendum. CTV News projects that 76.4% voted to remain in Canada on Question 10 against 23.6% for starting the route to a binding referendum, with more than 2.2 million valid votes counted. Prime Minister Mark Carney said \"Albertans chose Canada\"; Premier Danielle Smith, who called the vote, said she was \"very pleased\" with early results and was to address the province on Tuesday evening.",
+      "The other nine questions, on immigration and the Constitution, were a different story. The five immigration questions had \"yes\" ahead by at least 40,000 votes at 1 a.m., while the constitutional questions were far tighter, with Q6 essentially tied and Q9 about even at roughly 170,000 votes a side. Official results for Questions 1 to 9 are due Wednesday morning.",
+      "Separatists are not going away. Let Alberta Decide's Keith Wilson said the debate will continue, and a motion to make the UCP officially separatist is expected at its November convention. Any constitutional change would need Ottawa and seven provinces representing at least half the population."
      ],
      "f": [
-      "Voting day: Monday 19 October 2026; ten ballot questions",
-      "More than 1.3 million advance and mail ballots (CP24)",
-      "Polls (Aug–Sep): remain 64–74%, separation referendum 22–24%",
-      "A yes on the separation question starts a process; it does not itself end Alberta's place in Canada"
+      "Question 10: 76.4% remain, 23.6% second referendum (CTV projection)",
+      "More than 2.2 million valid votes (Elections Alberta)",
+      "Questions 1–9: official results due Wednesday morning",
+      "Constitutional changes need the Senate, House of Commons and seven provinces with half the population"
      ],
      "n": [
       "Canada is a federation: ten provinces and three territories share power with the federal government in Ottawa. Provinces run health care, education and natural resources, while Ottawa handles things like defence, the currency and foreign affairs.",
@@ -328,15 +328,11 @@
       "The Clarity Act, passed by Parliament in 2000 after Quebec's 1995 referendum, says Ottawa will negotiate secession only after a clear question and a clear majority. That is why a yes here sets a process in motion rather than ending anything today.",
       "For an investor, the main risk to watch is political noise around the Canadian dollar and Alberta's energy-heavy index weights."
      ],
-     "s": "As of 19 Oct 2026. Sources: CP24 (19 Oct), Wikipedia (poll table). Polls are from August–September; no recent poll or result was found.",
+     "s": "As of 20 Oct 2026, early morning. Source: CP24/CTV News live updates. Final tallies were still being counted.",
      "links": [
       {
-       "text": "CP24: Albertans head to polls in historic referendum",
-       "url": "https://www.cp24.com/news/canada/2026/10/19/albertans-head-to-polls-in-historic-referendum-on-whether-they-want-to-stay-in-canada/"
-      },
-      {
-       "text": "CP24: Breaking down how Monday's Alberta referendum ballot works",
-       "url": "https://www.cp24.com/news/canada/2026/10/18/breaking-down-how-mondays-alberta-referendum-ballot-works/"
+       "text": "CP24: Albertans reject separation in historic vote, CTV News projects",
+       "url": "https://cp24.com/news/canada/2026/10/20/albertans-reject-separation-in-historic-vote-ctv-news-projects-live-updates"
       },
       {
        "text": "Wikipedia: 2026 Alberta independence referendum",
@@ -474,18 +470,22 @@
     },
     {
      "t": "Leafs, Jays and Raptors",
-     "tag": "Leafs · Jays · Raptors",
+     "tag": "Leafs · Jays · Raptors · 20 Oct",
      "w": [
-      "The Maple Leafs are sliding. Saturday's 4–1 home loss to the Islanders, with Bo Horvat leading New York, left Toronto 3-4-2 (8 points), seventh in the Atlantic Division and losers of four of their last five (surprisesports.com, Global News). Goalie Sergei Bobrovsky is 1-3-2 with a .891 save percentage, and captain Auston Matthews said the team had \"left him out to dry\".",
-      "Centres John Tavares and defenceman Chris Tanev are out week-to-week, and No. 1 pick Gavin McKenna was benched on Thursday. San Jose visit tonight (7:30 pm ET), then it is Columbus on Tuesday, the Rangers at home on Thursday and Edmonton on Saturday.",
+      "Rookie Gavin McKenna answered his critics. The No. 1 pick scored the third-period power-play winner, Auston Matthews tied it late in the second and Nick Paul added an empty-netter as the Maple Leafs beat the San Jose Sharks 3–1 on Monday night, ending a four-game losing streak and lifting Toronto to 4-4-2 (Global News). Mason Marchment had given the Sharks the early lead.",
+      "Columbus is next on Tuesday, then the Rangers at home on Thursday and Edmonton on Saturday. Earlier reporting had Tavares and Tanev out week-to-week; that was not re-checked today.",
       "The Blue Jays have been out of the playoff race since 23 September. The Raptors open the 2026-27 NBA season at home to the Chicago Bulls on Wednesday 21 October; on 17 October they converted Bittle's contract to a two-way deal (Global News)."
      ],
      "n": [
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 19 Oct 2026 · surprisesports.com, Global News (17–18 Oct)",
+     "s": "As of 20 Oct 2026 · Global News (19–20 Oct); injury note from 19 Oct, not re-checked",
      "links": [
+      {
+       "text": "Global News: McKenna scores winner, Maple Leafs top Sharks",
+       "url": "https://globalnews.ca/news/12108820/mckenna-scores-winner-maple-leafs-top-sharks/"
+      },
       {
        "text": "Global News: Bobrovsky, Maple Leafs looking to find traction",
        "url": "https://globalnews.ca/news/12107016/bobrovsky-maple-leafs-looking-to-find-traction/"
@@ -1778,7 +1778,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Sun 18 Oct 2026, 18:24 UK (after Sunday's games; Tottenham and Coventry have played 6, Tottenham v Coventry is Mon 19 Oct)",
+       "asof": "Mon 19 Oct 2026, 21:58 UK (after Tottenham 3–1 Coventry; all 20 clubs have played 7)",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -1943,16 +1943,26 @@
         ],
         [
          16,
-         "Coventry City",
-         6,
-         2,
-         0,
-         4,
-         "-6",
+         "Tottenham Hotspur",
+         7,
+         1,
+         3,
+         3,
+         "-4",
          6
         ],
         [
          17,
+         "Coventry City",
+         7,
+         2,
+         0,
+         5,
+         "-8",
+         6
+        ],
+        [
+         18,
          "Fulham",
          7,
          1,
@@ -1962,7 +1972,7 @@
          5
         ],
         [
-         18,
+         19,
          "Nottingham Forest",
          7,
          1,
@@ -1972,7 +1982,7 @@
          5
         ],
         [
-         19,
+         20,
          "Sunderland",
          7,
          1,
@@ -1980,16 +1990,6 @@
          5,
          "-8",
          4
-        ],
-        [
-         20,
-         "Tottenham Hotspur",
-         6,
-         0,
-         3,
-         3,
-         "-6",
-         3
         ]
        ],
        "movement": true,
@@ -1997,7 +1997,7 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Table as last updated at 18:24 on Sunday. Bournemouth's 2–0 win over Sunderland is their first of the season.",
+       "note": "Tottenham's first win of the season lifts them out of the bottom three; Sunderland are now bottom on 4 points. Bournemouth are 15th on 6 points.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 19 Oct",
@@ -2007,10 +2007,11 @@
       },
       {
        "id": "pl-results",
-       "title": "Latest results (rounds of 10–12 Oct and 17–18 Oct)",
-       "asof": "Sun 18 Oct 2026 (footballwebpages.co.uk, thescore.com, news items)",
+       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct)",
+       "asof": "Mon 19 Oct 2026 (footballwebpages.co.uk)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Tottenham Hotspur 3–1 Coventry City (Mon 19 Oct)",
         "Nottingham Forest 0–1 Arsenal (Sun 18 Oct)",
         "Leeds United 1–1 Manchester United (Sun 18 Oct)",
         "AFC Bournemouth 2–0 Sunderland (Sun 18 Oct)",
@@ -2047,17 +2048,20 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Mon 19 Oct 2026 (footballwebpages.co.uk; UK times)",
+       "asof": "Tue 20 Oct 2026 (footballwebpages.co.uk; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
-        "Mon 19 Oct, 20:00 (Sky): Tottenham Hotspur v Coventry City",
-        "Sat 24 Oct: Manchester United v AFC Bournemouth (date from earlier research, not re-checked)"
+        "Sun 25 Oct, 14:00 (Sky): Crystal Palace v Newcastle United",
+        "Sun 25 Oct, 14:00 (Sky): Hull City v Brentford",
+        "Sun 25 Oct, 14:00 (Sky PL): Liverpool v Brighton & Hove Albion",
+        "Sun 25 Oct, 14:00 (Sky): Manchester United v AFC Bournemouth",
+        "Sun 25 Oct, 16:30 (Sky PL): Sunderland v Leeds United"
        ],
-       "note": "Only Monday's game is listed on the page read; the rest of the round was not shown.",
+       "note": "Only Sunday 25 October is listed on the page read; Saturday and Monday fixtures were not shown. This corrects the earlier Saturday 24 Oct date for Manchester United v Bournemouth.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Premier League, 19 Oct",
-         "url": "https://www.footballwebpages.co.uk/premier-league/20261019"
+         "text": "footballwebpages.co.uk: Premier League, 25 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
         }
        ]
       }
@@ -3488,7 +3492,7 @@
       {
        "id": "atp",
        "title": "ATP top 10",
-       "asof": "ranking dated 5 Oct 2026, the latest date on atptour.com when re-read 19 Oct; post-Shanghai update not yet shown",
+       "asof": "ranking dated 19 Oct 2026 (atptour.com, read 20 Oct)",
        "source": "atptour.com",
        "cols": [
         "Rank",
@@ -3499,52 +3503,52 @@
         [
          1,
          "Jannik Sinner",
-         "11,000"
+         "10,950"
         ],
         [
          2,
          "Alexander Zverev",
-         "9,720"
+         "10,070"
         ],
         [
          3,
          "Carlos Alcaraz",
-         "5,560"
+         "5,610"
         ],
         [
          4,
          "Ben Shelton",
-         "4,680"
+         "4,720"
         ],
         [
          5,
-         "Felix Auger-Aliassime",
-         "3,890"
+         "Daniil Medvedev",
+         "3,660"
         ],
         [
          6,
-         "Daniil Medvedev",
-         "3,860"
+         "Flavio Cobolli",
+         "3,640"
         ],
         [
          7,
-         "Flavio Cobolli",
-         "3,680"
+         "Felix Auger-Aliassime",
+         "3,590"
         ],
         [
          8,
-         "Novak Djokovic",
-         "3,480"
-        ],
-        [
-         9,
          "Alex de Minaur",
          "3,430"
         ],
         [
-         10,
+         9,
          "Frances Tiafoe",
          "3,380"
+        ],
+        [
+         10,
+         "Arthur Fils",
+         "3,325"
         ]
        ],
        "movement": true,
@@ -3555,12 +3559,12 @@
          "url": "https://www.atptour.com/en/rankings/singles"
         }
        ],
-       "note": "Rankings after Shanghai were not yet published on the page read."
+       "note": "Updated after the Shanghai Masters; Novak Djokovic is no longer in the top 10 on this page."
       },
       {
        "id": "wta",
        "title": "WTA top 10",
-       "asof": "wtatennis.com page re-read 19 Oct (no date shown; identical to 11 Oct figures); post-Wuhan update not confirmed",
+       "asof": "wtatennis.com page re-read 19 Oct (no date shown; identical to 11 Oct figures); post-Wuhan update not confirmed · not re-checked 20 Oct (page refused)",
        "source": "wtatennis.com",
        "cols": [
         "Rank",
@@ -4325,17 +4329,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "19 Oct 2026",
+       "asof": "20 Oct 2026 (Global News)",
        "source": "surprisesports.com",
        "items": [
-        "3 wins, 4 losses, 2 overtime losses: 8 points after 9 games; 7th in the Atlantic Division"
+        "4 wins, 4 losses, 2 overtime losses: 10 points after 10 games (4-4-2)"
        ],
        "note": "An overtime loss earns 1 point."
       },
       {
        "id": "tml-res",
        "title": "Last five games",
-       "asof": "19 Oct 2026 (surprisesports.com)",
+       "asof": "20 Oct 2026 (Global News; earlier rows from surprisesports.com 19 Oct)",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -4344,6 +4348,12 @@
         "Result"
        ],
        "rows": [
+        [
+         "19 Oct",
+         "v San Jose Sharks",
+         "3–1",
+         "W"
+        ],
         [
          "17 Oct",
          "v New York Islanders",
@@ -4367,39 +4377,25 @@
          "@ Colorado Avalanche",
          "6–3",
          "W"
-        ],
-        [
-         "8 Oct",
-         "@ Vegas Golden Knights",
-         "3–4",
-         "L"
         ]
        ],
        "links": [
         {
-         "text": "Fox Sports: Maple Leafs v Mammoth box score",
-         "url": "https://www.foxsports.com/nhl/toronto-maple-leafs-vs-utah-mammoth-oct-13-2026-game-boxscore-44658"
-        },
-        {
-         "text": "Global News: Matthews scores in OT as Leafs top Preds 5-4",
-         "url": "https://globalnews.ca/news/12090607/matthews-scores-in-ot-leafs-top-preds-5-4/"
+         "text": "Global News: McKenna scores winner, Maple Leafs top Sharks",
+         "url": "https://globalnews.ca/news/12108820/mckenna-scores-winner-maple-leafs-top-sharks/"
         }
        ]
       },
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "19 Oct 2026 (surprisesports.com; Eastern time)",
+       "asof": "20 Oct 2026 (surprisesports.com list of 19 Oct; Eastern time; not re-read)",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
         "Opponent"
        ],
        "rows": [
-        [
-         "19 Oct, 7:30 pm",
-         "v San Jose Sharks"
-        ],
         [
          "20 Oct, 7:00 pm",
          "@ Columbus Blue Jackets"
@@ -4496,7 +4492,7 @@
       {
        "id": "f1-drivers",
        "title": "Drivers' championship top 10",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page re-read 19 Oct, unchanged",
+       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page (dated 14 Oct) re-read 20 Oct, unchanged",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -4578,7 +4574,7 @@
       {
        "id": "f1-cons",
        "title": "Constructors' championship",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page re-read 19 Oct, unchanged",
+       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page (dated 14 Oct) re-read 20 Oct, unchanged",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -4787,118 +4783,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Monday 19 October 2026",
-  "intro": "Ten questions from today's verified stories: France's riots, Alberta's vote, Wainwright, Toronto, football and tennis. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz: Tuesday 20 October 2026",
+  "intro": "Ten questions from today's verified stories: Alberta's vote, the Middle East alert, the Leafs, football, tennis and F1. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "What two words did Emmanuel Macron use to describe how he felt after France's weekend rioting?",
+    "q": "What share of Albertans voted to remain in Canada on Question 10, per CTV's projection?",
     "options": [
-     "Pride and relief",
-     "Anger and shame",
-     "Sorrow and doubt",
-     "Shock and surprise"
-    ],
-    "answer": 1,
-    "explain": "Al Jazeera quotes Macron's \"anger and shame\" in his Sunday address."
-   },
-   {
-    "q": "Roughly how many arrests did the Interior Ministry report after Saturday 17 October's riots (via Al Jazeera)?",
-    "options": [
-     "About 240",
-     "About 800",
-     "Nearly 2,400",
-     "About 12,000"
+     "64.1%",
+     "70.0%",
+     "76.4%",
+     "81.2%"
     ],
     "answer": 2,
-    "explain": "Al Jazeera cites nearly 2,400 arrests; Euronews says over 2,000."
+    "explain": "CTV News projected 76.4% to remain and 23.6% for a second referendum."
    },
    {
-    "q": "Whose historic town hall was reported engulfed in flames?",
+    "q": "What did Prime Minister Mark Carney say after the Alberta vote?",
     "options": [
-     "Limoges",
-     "Lyon",
-     "Avignon",
-     "Rennes"
+     "\"Albertans chose Canada\"",
+     "\"The debate is over\"",
+     "\"Ottawa will listen\"",
+     "\"A narrow escape\""
     ],
     "answer": 0,
-    "explain": "Euronews reported the historic town hall in Limoges on fire."
+    "explain": "CP24 quotes Carney's statement \"Albertans chose Canada\"."
    },
    {
-    "q": "How many questions are on Alberta's referendum ballot?",
+    "q": "When are official results for Alberta's Questions 1 to 9 due?",
     "options": [
-     "Three",
-     "Five",
-     "Ten",
-     "Twenty"
-    ],
-    "answer": 2,
-    "explain": "One asks about staying in Canada; the other nine cover immigration and the Constitution."
-   },
-   {
-    "q": "How many Canadian soldiers died in the grass fire at CFB Wainwright?",
-    "options": [
-     "Two",
-     "Four",
-     "Seven",
-     "Twelve"
+     "Tuesday evening",
+     "Wednesday morning",
+     "Friday",
+     "Next month"
     ],
     "answer": 1,
-    "explain": "Four died and 39 people were hospitalized (CP24)."
+    "explain": "Elections Alberta results for Q1–9 are due Wednesday morning."
    },
    {
-    "q": "What was the score when Manchester United visited Leeds United on Sunday 18 October?",
+    "q": "In how many Middle East countries did US embassies issue the red alert?",
     "options": [
-     "Leeds 0–2 United",
-     "Leeds 2–1 United",
-     "Leeds 1–1 United",
-     "Leeds 3–0 United"
+     "3",
+     "7",
+     "12",
+     "25"
     ],
     "answer": 2,
-    "explain": "Mbeumo scored for United and Calvert-Lewin for Leeds."
+    "explain": "Euronews: near-identical alerts went to Americans in 12 countries."
    },
    {
-    "q": "Which team's 2–0 win over Sunderland was its first Premier League win of the season?",
+    "q": "Who scored the winning goal as the Maple Leafs beat San Jose 3–1?",
     "options": [
-     "AFC Bournemouth",
-     "Fulham",
-     "Tottenham Hotspur",
-     "Coventry City"
+     "Auston Matthews",
+     "Gavin McKenna",
+     "Nick Paul",
+     "Mason Marchment"
+    ],
+    "answer": 1,
+    "explain": "McKenna scored the third-period power-play winner (Global News)."
+   },
+   {
+    "q": "What is the Maple Leafs' record after Monday's win?",
+    "options": [
+     "4-4-2",
+     "6-2-2",
+     "3-5-2",
+     "5-3-2"
     ],
     "answer": 0,
-    "explain": "Bournemouth's win lifted them to 15th."
+    "explain": "Global News gives Toronto's record as 4-4-2."
    },
    {
-    "q": "Which club leads the Premier League on 21 points after seven games?",
+    "q": "Which team leads the Premier League with 21 points from 7 games?",
     "options": [
      "Arsenal",
-     "Brighton & Hove Albion",
-     "Chelsea",
-     "Manchester City"
-    ],
-    "answer": 3,
-    "explain": "Man City have won all seven; Arsenal are second on 18."
-   },
-   {
-    "q": "Who won the Shanghai Masters final on Sunday 18 October?",
-    "options": [
-     "Alexander Zverev",
-     "Daniil Medvedev",
-     "Alejandro Davidovich Fokina",
-     "Rafael Jodar"
+     "Brighton",
+     "Manchester City",
+     "Chelsea"
     ],
     "answer": 2,
-    "explain": "Davidovich Fokina beat fellow Spaniard Jodar in the final."
+    "explain": "Manchester City are the only unbeaten-and-perfect side: seven wins from seven."
    },
    {
-    "q": "Which team do the Maple Leafs host on Monday 19 October at 7:30 pm ET?",
+    "q": "What was the score when Tottenham played Coventry on Monday?",
     "options": [
-     "San Jose Sharks",
-     "New York Rangers",
-     "Edmonton Oilers",
-     "Columbus Blue Jackets"
+     "1–1",
+     "3–1",
+     "0–2",
+     "2–0"
     ],
-    "answer": 0,
-    "explain": "The Leafs are 3-4-2 and host San Jose tonight."
+    "answer": 1,
+    "explain": "Tottenham won 3–1, per footballwebpages.co.uk."
+   },
+   {
+    "q": "When is Manchester United v AFC Bournemouth?",
+    "options": [
+     "Sat 24 Oct",
+     "Sun 25 Oct, 14:00",
+     "Mon 26 Oct",
+     "Sat 31 Oct"
+    ],
+    "answer": 1,
+    "explain": "footballwebpages.co.uk lists it for Sunday 25 October at 2pm."
+   },
+   {
+    "q": "Who leads the ATP singles rankings dated 19 October with 10,950 points?",
+    "options": [
+     "Carlos Alcaraz",
+     "Alexander Zverev",
+     "Jannik Sinner",
+     "Ben Shelton"
+    ],
+    "answer": 2,
+    "explain": "Sinner is No. 1 on 10,950 points, ahead of Zverev on 10,070."
    }
   ]
  }
