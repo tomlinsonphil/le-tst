@@ -1,15 +1,15 @@
 {
- "date": "2026-10-21",
- "label": "Wednesday 21 October 2026",
- "note": "Refresh of Wed 21 Oct 2026 (early morning, Toronto time). Headlines: Euronews, Al Jazeera and Global News feeds were read; the CP24 sitemap and the L'Écho du Mardi feed could not be opened, so CP24 keeps its 20 Oct list and L'Écho's list comes from its news page (20 Oct). Verified today: Champions League matchday 3 (Tue 20 Oct, UEFA), Premier League table and fixtures (footballwebpages, last updated Mon 19 Oct), Leafs 6–2 at Columbus, NBA opening night, Toronto mayoral polls, Ontario's OSAP probe, Paris/Avignon/Marseille stories, Sudan, Australia, Albania, SpaceX, NASA and Tesla's results date. ATP/WTA rankings, Ligue 1, Championship, F1 standings and other tables could not be re-read today (their pages were refused) and are marked as not re-checked.",
- "sport_note": "Refresh of Wed 21 Oct 2026 (early morning, Toronto time). Headlines: Euronews, Al Jazeera and Global News feeds were read; the CP24 sitemap and the L'Écho du Mardi feed could not be opened, so CP24 keeps its 20 Oct list and L'Écho's list comes from its news page (20 Oct). Verified today: Champions League matchday 3 (Tue 20 Oct, UEFA), Premier League table and fixtures (footballwebpages, last updated Mon 19 Oct), Leafs 6–2 at Columbus, NBA opening night, Toronto mayoral polls, Ontario's OSAP probe, Paris/Avignon/Marseille stories, Sudan, Australia, Albania, SpaceX, NASA and Tesla's results date. ATP/WTA rankings, Ligue 1, Championship, F1 standings and other tables could not be re-read today (their pages were refused) and are marked as not re-checked.",
+ "date": "2026-10-22",
+ "label": "Thursday 22 October 2026",
+ "note": "Refresh of Thu 22 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and several data pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Tesla's Q3 results (Electrek, 21 Oct, and Tesla's own 8-K for deliveries), the Toronto mayoral race (Nanos poll for CP24/CTV, 15-18 Oct, and tonight's debate), Champions League matchday 3 results for Wed 21 Oct (UEFA.com), and the Premier League table (footballwebpages, last updated Mon 19 Oct; no round since). Everything else keeps its earlier text and is marked 'not re-checked 22 Oct' where it carries a date; ATP/WTA, Ligue 1, Championship, F1, rugby, cricket and the other sport tables were not re-read and are as of their stated dates.",
+ "sport_note": "Refresh of Thu 22 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and several data pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Tesla's Q3 results (Electrek, 21 Oct, and Tesla's own 8-K for deliveries), the Toronto mayoral race (Nanos poll for CP24/CTV, 15-18 Oct, and tonight's debate), Champions League matchday 3 results for Wed 21 Oct (UEFA.com), and the Premier League table (footballwebpages, last updated Mon 19 Oct; no round since). Everything else keeps its earlier text and is marked 'not re-checked 22 Oct' where it carries a date; ATP/WTA, Ligue 1, Championship, F1, rugby, cricket and the other sport tables were not re-read and are as of their stated dates.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Not refreshed on 18 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Not refreshed on 22 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -447,8 +447,9 @@
     },
     {
      "t": "Mayoral election on 26 October",
-     "tag": "Election · 26 Oct · polls split",
+     "tag": "Election · 26 Oct · debate tonight",
      "w": [
+      "Latest, 22 Oct: four days out, the race is a statistical tie. A Nanos Research poll for CP24 and CTV News Toronto, taken 15 to 18 October among 762 Torontonians (margin of error ±3.6 points), puts Olivia Chow on 49.8% and Brad Bradford on 46.6% of decided voters, with 4% for another candidate and 16% of respondents undecided. Tonight at 7 p.m. the two front-runners meet in the final debate, \"Toronto Decides\", moderated by CTV News Toronto's Michelle Dube, with Newstalk 1010's John Moore bringing in viewer questions. It is on CP24, CP24.com, CTVNewsToronto.ca and Crave. Election day is Monday 26 October.",
       "Latest, 21 Oct: the race is a coin flip. Two polls published on Tuesday disagree on who leads: Mainstreet Research has Brad Bradford on 48.9% and Olivia Chow on 47.5%, which it calls \"nearly equal\" (Bradford ahead in Etobicoke and North York, Chow in Scarborough and downtown), while Pollara Strategic Insights has Chow on 53% to Bradford's 46% among decided voters. On the trail, Chow pressed Bradford over tenant conditions at 500 Dawes Road and promised a RentSafeTO task force; both candidates have pledged to eliminate TTC slow zones (Global News, 20 Oct). Election day is Monday 26 October.",
       "Latest, 19 Oct: a Nanos poll taken 8–10 October (via CP24's 15 October live blog) has Olivia Chow on 51% and Brad Bradford on 47% of decided voters. The final debate, \"Toronto Decides\", airs live on CP24 on Thursday 22 October at 7 p.m. Chow is pitching 15,000 youth jobs; Bradford is promising to prioritize the Eglinton East LRT and make Toronto Water a public utility.",
       "The newest poll keeps Olivia Chow ahead. Liaison Strategies, interviewing 1,000 Torontonians by automated phone on 8 and 9 October (margin of error 3.1 points), put Chow on 51% and Brad Bradford on 46%, with 3% for others, as reported by Now Toronto on 14 October. Renters favour Chow 57% to 40%; homeowners favour Bradford 50% to 45%. By area, Bradford leads in Etobicoke (59-38) and Scarborough (50-47), while Chow leads downtown (57-39) and in North York (50-46).",
@@ -457,6 +458,8 @@
       "A CP24 and CTV News Toronto poll reported on 13 October found Bradford had narrowed Chow's lead to about 3.5 points, and Nanos Research has also called it a two-horse race. Advance voting is over (6 to 11 October), so the remaining chance to vote is election day, Monday 26 October, 10 a.m. to 8 p.m. One week to go."
      ],
      "f": [
+      "Nanos (15-18 Oct, n=762, ±3.6): Chow 49.8%, Bradford 46.6%, other 4%, undecided 16%",
+      "Final debate: Thu 22 Oct, 7 p.m., CP24 (Chow v Bradford)",
       "20 Oct polls: Mainstreet Bradford 48.9%, Chow 47.5%; Pollara Chow 53%, Bradford 46% (decided voters)",
       "Liaison poll, 8-9 Oct (Now Toronto, 14 Oct): Chow 51%, Bradford 46%, others 3%; Chow approval 52%",
       "Election day: Monday 26 October 2026, 10 a.m. to 8 p.m.",
@@ -471,8 +474,18 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. Your voter notification card or myvote.toronto.ca shows where to vote on election day, and you need ID showing your name and Toronto address (a passport alone is not accepted because it has no address). Advance voting for this election has already closed.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 21 Oct 2026 · Global News (20 Oct) for the newest polls; older polls (Nanos, Liaison) are from 6-15 Oct",
+     "s": "As of 22 Oct 2026 · CP24 (20 and 21 Oct) for the Nanos poll and debate details; other polls from 6-20 Oct as dated",
      "links": [
+      {
+       "text": "CP24: Chow and Bradford in statistical tie with election less than a week away (Nanos poll)",
+       "url": "https://www.cp24.com/local/toronto/2026/10/20/exclusive-poll-olivia-chow-and-brad-bradford-in-statistical-tie-with-toronto-election-less-than-one-week-away/",
+       "syn": "Nanos Research for CP24 and CTV News Toronto, 15-18 October, 762 residents: Olivia Chow 49.8%, Brad Bradford 46.6% among decided voters, margin of error 3.6 points, with 16% undecided."
+      },
+      {
+       "text": "CP24: How to watch the Toronto Decides mayoral debate",
+       "url": "https://www.cp24.com/gta-elections-2026/2026/10/21/how-to-watch-toronto-decides-the-municipal-debate/",
+       "syn": "The CP24 debate between Olivia Chow and Brad Bradford is on Thursday 22 October at 7 p.m., moderated by Michelle Dube, and streams on CP24.com, CTVNewsToronto.ca, the CP24 app and Crave."
+      },
       {
        "text": "Global News: Chow and Bradford neck-and-neck with days left",
        "url": "https://globalnews.ca/news/12110038/chow-and-bradford-neck-and-neck-days-left-toronto-mayoral-election-campaign/"
@@ -552,7 +565,7 @@
     },
     {
      "t": "Leafs, Jays and Raptors",
-     "tag": "Leafs 5-4-2 · Raptors open tonight",
+     "tag": "Leafs 5-4-2 (as of 21 Oct) · not re-checked 22 Oct",
      "w": [
       "The Leafs finally found their legs. Toronto beat the Columbus Blue Jackets 6–2 on Tuesday night: Kirill Marchenko scored on the power play in his return to Columbus, with William Nylander, Auston Matthews, Easton Cowan (short-handed), Jack Roslovic and Marshall Rifai, who got his first NHL goal, adding the rest. Anthony Stolarz made 35 saves, and the win, their second straight, lifts Toronto to 5-4-2 (NHL.com). The Rangers visit Scotiabank Arena on Thursday.",
       "The Rangers come to town on Thursday and Edmonton host on Saturday (7 pm ET, per the earlier schedule list). Earlier reporting had Tavares and Tanev out week-to-week; that was not re-checked today.",
@@ -563,7 +576,7 @@
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 21 Oct 2026 · NHL.com (Leafs recap, 20 Oct), Global News (19–20 Oct)",
+     "s": "As of 21 Oct 2026 · NHL.com (Leafs recap, 20 Oct), Global News (19–20 Oct) · Raptors' opener result and Wednesday's games not verified on 22 Oct",
      "links": [
       {
        "text": "NHL.com: Marchenko scores in Columbus return, Maple Leafs pull away",
@@ -1138,29 +1151,31 @@
     },
     {
      "t": "Tesla",
-     "tag": "Q3 results tonight",
+     "tag": "Q3 results out · 21 Oct",
      "w": [
-      "Tesla's Roadster demo on Thursday 15 October drew a shrug from Wall Street. Yahoo Finance reports the stock closed at $354.72 on 16 October, down 2.13% on volume about 64% above average, with analyst Gene Munster calling the car an 'engineering flex' rather than a breakthrough. The Roadster was reportedly built using SpaceX thrusters, which has fuelled talk of a Tesla-SpaceX merger; prediction markets put the odds at 56%, per the same report. (Another site shows a different 16 Oct price, so treat the figure as one source's.)",
-      "Tesla's results are tonight. It reports third-quarter earnings on Wednesday 21 October, with the call at 5:30 pm Eastern (4:30 pm Central) after the market close and a webcast on its investor relations site, after a delivery update on 2 October that beat its own compiled forecast: 486,532 vehicles against a consensus of 461,974.",
-      "The picture is mixed. Deliveries were down 2.1% on a year earlier and production was 464,391, but energy storage deployments of 13.7 GWh missed the 15.9 GWh analysts expected, per Electrek. A preview from Hudson Labs flags margin pressure, negative free cash flow for the rest of 2026 and capital spending above US$25 billion.",
-      "Watch the gross margin and what executives say about the Cybercab, Optimus, Semi and Megapack 3 ramps. Consensus (Hudson Labs, 5 Oct): revenue about US$27.6 billion and GAAP EPS about 26 cents."
+      "Tesla's third quarter was a story of better margins and thinner profits. The company reported revenue of $28.05 billion on Wednesday 21 October, flat on a year earlier and in line with the roughly $28.06 billion analysts expected, while non-GAAP earnings of 48 cents a share beat the 45 cents consensus (Electrek).",
+      "Beneath the headline, profit shrank: GAAP net income fell 43% to $787 million (22 cents a share) and operating income dropped 56% to $718 million, as operating costs jumped 39% to $4.78 billion on a 69% rise in research spending to $2.76 billion. Gross margin improved to 19.6% from 18.0% a year ago, with the car business at 18.1% excluding regulatory credits, up from 15.4%.",
+      "The cash picture is the one to watch. Free cash flow was $1.53 billion against $3.99 billion a year earlier, as capital spending more than doubled to $4.73 billion; year-to-date it is $13.01 billion against guidance of more than $25 billion for 2026. The Cybercab joined the Austin Robotaxi fleet about a month before quarter-end, and Robotaxi has reached nearly two million cumulative unsupervised miles. Energy storage deployments of 13.7 GWh missed the 15.9 GWh analysts wanted, and energy revenue fell 16% to $2.88 billion."
      ],
      "f": [
-      "Earnings call: 21 October, 5:30 pm ET",
-      "Q3 deliveries: 486,532 (consensus 461,974)",
-      "Energy storage: 13.7 GWh (expected 15.9)",
-      "Production: 464,391"
+      "Revenue: $28.05bn (flat; consensus ~$28.06bn)",
+      "Non-GAAP EPS: $0.48 (consensus $0.45)",
+      "GAAP net income: $787m, down 43%",
+      "Gross margin: 19.6% (18.0% a year ago)",
+      "Free cash flow: $1.53bn; capex $4.73bn",
+      "Q3 deliveries: 486,532; storage 13.7 GWh"
      ],
      "n": [
-      "A quarterly earnings call is where a listed company reports its revenue and profit for the last three months, and executives answer analysts' questions. The share price often moves sharply on the news, so investors watch for how results compare with expectations.",
-      "For Tesla, the key figures are vehicle deliveries, the gross margin on each car, energy-storage sales and spending on new projects. The company also talks up its autonomous driving and robotaxi plans, which is much of the reason for its valuation.",
-      "The Roadster is a long-promised sports car. The Semi is an electric lorry meant to move freight cheaply."
+      "A quarterly earnings report is where a listed company states its revenue (sales) and profit for the last three months, and executives answer analysts' questions. A share price can move sharply on how the numbers compare with expectations.",
+      "For Tesla the key measures are vehicle deliveries, gross margin (what is left of each sale after the direct cost of making the product), energy-storage sales and spending on new projects. Free cash flow is the cash left after running the business and paying for equipment and factories.",
+      "Cybercab is Tesla's planned driverless taxi, Optimus its humanoid robot and Robotaxi its ride-hailing service. Much of Tesla's valuation rests on those bets paying off, which is why heavy spending on them weighs on profit."
      ],
-     "s": "As of 21 Oct 2026 (earnings call time confirmed by Tesla Oracle). Other figures: Yahoo Finance (16 Oct), Electrek (2 Oct), Hudson Labs (5 Oct).",
+     "s": "As of 22 Oct 2026 · Electrek (21 Oct) for results; Tesla Form 8-K for the earnings date and deliveries. Share-price reaction after hours not verified.",
      "links": [
       {
-       "text": "Yahoo Finance: Stock Market Today, Oct. 16: Tesla slips as Roadster reveal fades before earnings",
-       "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-today-oct-16-214303806.html"
+       "text": "Electrek: Tesla Q3 2026 financial results, margins rebound, profit still falls",
+       "url": "https://electrek.co/2026/10/21/tesla-tsla-q3-2026-financial-results/",
+       "syn": "Electrek reports revenue of $28.05bn, flat on a year earlier, non-GAAP EPS of 48 cents against 45 expected, GAAP net income down 43% to $787m, and gross margin up to 19.6%."
       },
       {
        "text": "Electrek: Tesla Q3 2026 deliveries 486,532",
@@ -1170,10 +1185,6 @@
       {
        "text": "Hudson Labs: Tesla Q3 2026 earnings preview",
        "url": "https://www.hudson-labs.com/research/tesla-q3-2026-earnings-preview-tsla-revenue-margins-outlook"
-      },
-      {
-       "text": "Tesla Oracle: Q3 2026 earnings call date and time",
-       "url": "https://www.teslaoracle.com/?p=66789"
       }
      ]
     }
@@ -2763,10 +2774,19 @@
       {
        "id": "ucl",
        "title": "Champions League league phase: matchday 3",
-       "asof": "Tue 20 Oct 2026 results (UEFA.com, read 21 Oct); Wed 21 Oct games not yet played",
+       "asof": "Tue 20 and Wed 21 Oct 2026 results (UEFA.com, read 22 Oct); matchday 4 is 3-4 Nov",
        "source": "UEFA.com",
        "highlights": true,
        "items": [
+        "Como 4–1 Manchester United (Wed 21 Oct)",
+        "Lille 2–4 Galatasaray (Wed 21 Oct)",
+        "Aston Villa 3–1 Viking (Wed 21 Oct)",
+        "Club Brugge 3–0 Lens (Wed 21 Oct)",
+        "Bayern München 2–2 Arsenal (Wed 21 Oct)",
+        "Inter 1–0 Shakhtar Donetsk (Wed 21 Oct)",
+        "Real Madrid 4–1 Leipzig (Wed 21 Oct)",
+        "Real Betis 1–0 Feyenoord (Wed 21 Oct)",
+        "Sporting CP 2–3 LASK (Wed 21 Oct)",
         "Fenerbahçe 2–2 Slavia Praha (Tue 20 Oct)",
         "Sabah 1–2 Borussia Dortmund (Tue 20 Oct)",
         "Roma 4–0 Slovan Bratislava (Tue 20 Oct)",
@@ -2795,7 +2815,7 @@
         "Real Betis 3–2 Porto (Wed 14 Oct)",
         "Slovan Bratislava 0–3 Stuttgart (Wed 14 Oct)"
        ],
-       "note": "Wed 21 Oct fixtures: Como v Manchester United, Lille v Galatasaray, Aston Villa v Viking, Club Brugge v Lens, Bayern München v Arsenal, Inter v Shakhtar Donetsk, Real Madrid v Leipzig, Real Betis v Feyenoord, Sporting v LASK. The league-phase table was not read. Matchday 2 results are listed below.",
+       "note": "Matchday 4 is on 3 and 4 November. The league-phase table was not read. Matchday 2 results are listed below.",
        "links": [
         {
          "text": "UEFA: league-phase fixtures and results",
@@ -4933,118 +4953,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Wednesday 21 October 2026",
-  "intro": "Ten questions from today's verified stories: Toronto's mayoral race, Sudan, Paris, the Champions League, the Leafs, the NBA and Tesla. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz: Thursday 22 October 2026",
+  "intro": "Ten questions from today's verified stories: Tesla's results, Toronto's mayoral race, the Champions League and the Premier League. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Which poll published on 20 October put Olivia Chow ahead 53% to 46% among decided voters?",
+    "q": "What revenue did Tesla report for the third quarter of 2026?",
     "options": [
-     "Mainstreet Research",
-     "Pollara Strategic Insights",
-     "Nanos Research",
-     "Liaison Strategies"
+     "$18.6 billion",
+     "$28.05 billion",
+     "$38.2 billion",
+     "$12.4 billion"
     ],
     "answer": 1,
-    "explain": "Global News reports Pollara had Chow 53%, Bradford 46%, while Mainstreet had Bradford 48.9% to Chow's 47.5%."
+    "explain": "Electrek reports revenue of $28.05bn, flat on a year earlier."
    },
    {
-    "q": "How many private career colleges were first inspected in Ontario's OSAP probe?",
+    "q": "By how much did Tesla's GAAP net income fall year on year in Q3?",
     "options": [
-     "Three",
-     "Eight",
-     "Twenty",
-     "242"
-    ],
-    "answer": 1,
-    "explain": "Investigators began in-person inspections at eight private career colleges; 242 had been cut off from OSAP."
-   },
-   {
-    "q": "At least how many people were killed in the drone attack on Amiet Market in Abyei?",
-    "options": [
-     "53",
-     "103",
-     "153",
-     "253"
+     "13%",
+     "28%",
+     "43%",
+     "66%"
     ],
     "answer": 2,
-    "explain": "A South Sudanese official put the toll at at least 153, expected to rise (Al Jazeera)."
+    "explain": "GAAP net income was $787m, down 43%."
    },
    {
-    "q": "Which Australian MP lost both legs after being struck by a car outside her electorate office?",
+    "q": "How many vehicles did Tesla deliver in Q3 2026?",
     "options": [
-     "Helen Haines",
-     "Penny Wong",
-     "Zali Steggall",
-     "Teresa Smith"
+     "386,532",
+     "486,532",
+     "586,532",
+     "286,532"
+    ],
+    "answer": 1,
+    "explain": "Tesla's 8-K lists 486,532 deliveries."
+   },
+   {
+    "q": "What was Tesla's Q3 total gross margin?",
+    "options": [
+     "9.6%",
+     "14.2%",
+     "19.6%",
+     "24.1%"
+    ],
+    "answer": 2,
+    "explain": "Gross margin rose to 19.6% from 18.0% a year earlier."
+   },
+   {
+    "q": "According to Nanos for CP24/CTV, who led Toronto's mayoral race on 15-18 October?",
+    "options": [
+     "Brad Bradford by 10 points",
+     "Olivia Chow, 49.8% to 46.6%",
+     "Chris Alexander",
+     "A dead heat at 40% each"
+    ],
+    "answer": 1,
+    "explain": "Nanos had Chow on 49.8% and Bradford on 46.6% of decided voters, within the ±3.6 margin of error."
+   },
+   {
+    "q": "When is Toronto's election day?",
+    "options": [
+     "Thursday 22 October",
+     "Saturday 24 October",
+     "Monday 26 October",
+     "Sunday 1 November"
+    ],
+    "answer": 2,
+    "explain": "Election day is Monday 26 October 2026."
+   },
+   {
+    "q": "What was the score when Como played Manchester United in the Champions League on 21 October?",
+    "options": [
+     "Como 4–1 Manchester United",
+     "Como 1–1 Manchester United",
+     "Como 0–2 Manchester United",
+     "Como 2–2 Manchester United"
     ],
     "answer": 0,
-    "explain": "Independent MP Helen Haines, who represents Indi, was rammed in Wangaratta on 19 October."
+    "explain": "UEFA lists Como 4–1 Manchester United."
    },
    {
-    "q": "What did PM Sébastien Lecornu say the French government will cover for about 3,000 affected businesses?",
+    "q": "Which match in Champions League matchday 3 on 21 October finished 2–2?",
     "options": [
-     "Their rent",
-     "Employees' salaries",
-     "Their insurance premiums",
-     "Their taxes"
+     "Real Madrid v Leipzig",
+     "Bayern München v Arsenal",
+     "Inter v Shakhtar Donetsk",
+     "Aston Villa v Viking"
     ],
     "answer": 1,
-    "explain": "Al Jazeera reports the government will cover employees' salaries, with a fund to help restocking."
+    "explain": "Bayern München 2–2 Arsenal."
    },
    {
-    "q": "What was the score when PSG played Barcelona in the Champions League on 20 October (UEFA.com)?",
+    "q": "Who leads the Premier League table after seven games each (as of 19 October)?",
     "options": [
-     "PSG 2–4 Barcelona",
-     "PSG 3–3 Barcelona",
-     "PSG 4–2 Barcelona",
-     "PSG 5–2 Barcelona"
+     "Arsenal",
+     "Brighton",
+     "Manchester City",
+     "Chelsea"
     ],
     "answer": 2,
-    "explain": "UEFA lists Paris Saint-Germain 4–2 Barcelona."
+    "explain": "Manchester City have 21 points from seven wins."
    },
    {
-    "q": "Which team did Liverpool beat 4–3 on Tuesday night?",
+    "q": "When is Champions League matchday 4?",
     "options": [
-     "Villarreal",
-     "Bodø/Glimt",
-     "Napoli",
-     "Sabah"
+     "28-29 October",
+     "3-4 November",
+     "10-11 November",
+     "24-25 November"
     ],
-    "answer": 0,
-    "explain": "Liverpool 4–3 Villarreal (UEFA.com); Napoli's 4–3 was against Bodø/Glimt."
-   },
-   {
-    "q": "Who scored his first NHL goal as the Maple Leafs beat Columbus 6–2?",
-    "options": [
-     "Easton Cowan",
-     "Jack Roslovic",
-     "Marshall Rifai",
-     "Kirill Marchenko"
-    ],
-    "answer": 2,
-    "explain": "NHL.com says Marshall Rifai scored his first NHL goal; Toronto moved to 5-4-2."
-   },
-   {
-    "q": "Who scored 28 points for the 76ers in their opening-night win at Madison Square Garden?",
-    "options": [
-     "LeBron James",
-     "Joel Embiid",
-     "Jaylen Brown",
-     "Tyrese Maxey"
-    ],
-    "answer": 3,
-    "explain": "Maxey led all scorers with 28 in the 106–100 win over the Knicks."
-   },
-   {
-    "q": "At what time (Eastern) is Tesla's Q3 earnings call on Wednesday 21 October?",
-    "options": [
-     "8:30 am",
-     "12:00 pm",
-     "5:30 pm",
-     "9:00 pm"
-    ],
-    "answer": 2,
-    "explain": "Tesla's call is at 5:30 pm ET (4:30 pm Central), after the market close."
+    "answer": 1,
+    "explain": "UEFA lists matchday 4 on 3 and 4 November 2026."
    }
   ]
  }
