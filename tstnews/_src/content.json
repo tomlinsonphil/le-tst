@@ -1,8 +1,8 @@
 {
- "date": "2026-10-22",
- "label": "Thursday 22 October 2026",
- "note": "Refresh of Thu 22 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and several data pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Tesla's Q3 results (Electrek, 21 Oct, and Tesla's own 8-K for deliveries), the Toronto mayoral race (Nanos poll for CP24/CTV, 15-18 Oct, and tonight's debate), Champions League matchday 3 results for Wed 21 Oct (UEFA.com), and the Premier League table (footballwebpages, last updated Mon 19 Oct; no round since). Everything else keeps its earlier text and is marked 'not re-checked 22 Oct' where it carries a date; ATP/WTA, Ligue 1, Championship, F1, rugby, cricket and the other sport tables were not re-read and are as of their stated dates.",
- "sport_note": "Refresh of Thu 22 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and several data pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Tesla's Q3 results (Electrek, 21 Oct, and Tesla's own 8-K for deliveries), the Toronto mayoral race (Nanos poll for CP24/CTV, 15-18 Oct, and tonight's debate), Champions League matchday 3 results for Wed 21 Oct (UEFA.com), and the Premier League table (footballwebpages, last updated Mon 19 Oct; no round since). Everything else keeps its earlier text and is marked 'not re-checked 22 Oct' where it carries a date; ATP/WTA, Ligue 1, Championship, F1, rugby, cricket and the other sport tables were not re-read and are as of their stated dates.",
+ "date": "2026-10-23",
+ "label": "Friday 23 October 2026",
+ "note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
+ "sport_note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
  "sections": [
   {
    "id": "headlines",
@@ -779,18 +779,22 @@
     },
     {
      "t": "Bournemouth",
-     "tag": "Football · first win",
+     "tag": "Football · 3–0 over Milan",
      "w": [
-      "Bournemouth have their first league win of the season. Sunday's 2–0 home victory over Sunderland lifted the Cherries out of the bottom three to 15th with 6 points after seven games (footballwebpages.co.uk table, 18 Oct, 18:24).",
-      "Next is Manchester United away on Saturday 24 October (date from earlier research, not re-checked). No other Bournemouth town news dated this week was found."
+      "Bournemouth went from bottom-three worries to a European scalp. On Thursday night the Cherries beat AC Milan 3–0 in the Europa League (UEFA.com, 22 Oct), a week after their first Premier League win of the season, 2–0 over Sunderland, lifted them to 15th with 6 points.",
+      "Next is Manchester United away on Sunday 25 October at 2 pm (footballwebpages.co.uk, checked 23 Oct). No other Bournemouth town news dated this week was found."
      ],
      "n": [
       "Bournemouth is a seaside town on England's south coast in Dorset, famous for about seven miles of sandy beach, a Victorian pier and cliffs cut by wooded gorges called chines. It grew as a Victorian resort and now supports tourism, finance and a large student population.",
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league."
      ],
-     "s": "As of 19 Oct 2026 · footballwebpages.co.uk",
+     "s": "As of 23 Oct 2026 · UEFA.com, footballwebpages.co.uk",
      "link": "football/#premier-league",
      "links": [
+      {
+       "text": "UEFA.com: Europa League results (matchday 3)",
+       "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+      },
       {
        "text": "Premier League table (footballwebpages)",
        "url": "https://www.footballwebpages.co.uk/premier-league/20261010"
@@ -1779,12 +1783,12 @@
   {
    "id": "football",
    "title": "Football",
-   "summary": "Champions League matchday 3: PSG 4–2 Barcelona, Liverpool 4–3 Villarreal, Man City 5–1 AEK; Man City lead the Premier League; Man United v Bournemouth on Sun 25 Oct.",
+   "summary": "Europa League: Bournemouth 3–0 AC Milan; Man City lead the Premier League; weekend: Villa v City, Arsenal v Everton, Man United v Bournemouth (Sun 25 Oct).",
    "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Saturday 17 October 2026 (before kick-off).",
    "cards": [
     {
      "t": "Premier League",
-     "tag": "After 7 games (Spurs and Coventry 6)",
+     "tag": "After 7 games (table as of Mon 19 Oct)",
      "w": [
       "Manchester City stay perfect. Seven wins from seven, the latest a 2–1 against Ipswich on Saturday, keep them top on 21 points, but Arsenal are the story of the weekend: a 1–0 win at Nottingham Forest on Sunday moved them to 18 points, three clear of Brighton, whose 5–0 demolition of Crystal Palace lifted them to 16 with a goal difference of +18.",
       "At the other end, AFC Bournemouth finally have a win, 2–0 over Sunderland, which lifts them to 15th. Leeds and Manchester United drew 1–1 at Elland Road (Mbeumo for United, Calvert-Lewin for Leeds), Aston Villa won 1–0 at Newcastle through Johan Manzambi, and Chelsea won 2–0 at Everton.",
@@ -1793,7 +1797,7 @@
      "f": [
       "Leaders: Manchester City 21, Arsenal 18, Brighton 16",
       "Bottom: Tottenham 3 (6 played), Sunderland 4, Nottingham Forest 5",
-      "Mon 19 Oct, 20:00: Tottenham v Coventry"
+      "Weekend: Sat 24 Oct Villa v Man City 12:30, Arsenal v Everton 15:00, Chelsea v Spurs 17:30; Sun 25 Oct five games"
      ],
      "n": [
       "The Premier League is England's top division, with 20 clubs. Each plays every other club twice, home and away, for 38 matches. A win earns 3 points, a draw 1 and a defeat 0. Ties in points are split by goal difference, then goals scored.",
@@ -1872,27 +1876,28 @@
      ]
     },
     {
-     "t": "Europa League: matchday 2",
-     "tag": "Thu 15 Oct",
+     "t": "Europa League: matchday 3",
+     "tag": "Bournemouth 3–0 Milan",
      "w": [
-      "Bournemouth's European night arrives. AFC Bournemouth host Sturm Graz at the Vitality Stadium at 8pm tonight, after a 2–1 win at Real Sociedad on matchday one, though Alex Scott (thigh) is expected to miss several weeks and Eli Junior Kroupi, Justin Kluivert, Julian Araujo, Veljko Milosavljevic and Amine Adli are also out.",
-      "Crystal Palace, who beat Lech Poznań 4–0 on matchday one, are at Lyon at 5.45pm, Sunderland travel to Torreense at 5.45pm, and Marseille and Rennes are at home to Olympiakos and OFI at 8pm. Times are as listed by footballwebpages, believed to be UK time."
+      "Bournemouth turned a rough start to the season into a European night to remember. The Cherries beat AC Milan 3–0 on Thursday, one of the standout results of Europa League matchday 3.",
+      "Elsewhere Crystal Palace drew 2–2 at Beşiktaş and Sunderland 1–1 at Lech Poznań, Real Sociedad hammered Lillestrøm 6–0, Hoffenheim beat Lyon 3–0, and Celtic lost 2–1 at home to Celta Vigo. Matchday 4 is on Thursday 5 November."
      ],
      "n": [
       "The Europa League is Europe's second-tier club competition and uses the same league-phase format as the Champions League: one big table, eight games per club against different opponents.",
       "Clubs finishing high in the table skip straight to the round of 16, those in the middle play a two-legged play-off, and the rest go out. English clubs qualify through league position or by winning a domestic cup."
      ],
-     "s": "As of 15 Oct 2026. Sources: footballwebpages.co.uk, Sports Mole · not re-checked 21 Oct",
+     "s": "Thu 22 Oct 2026 · UEFA.com",
      "links": [
       {
-       "text": "footballwebpages.co.uk: Europa League, 15 Oct fixtures",
-       "url": "https://www.footballwebpages.co.uk/uefa-europa-league/20261015"
-      },
-      {
-       "text": "Sports Mole: Bournemouth v Sturm Graz preview",
-       "url": "https://www.sportsmole.co.uk/football/bournemouth/europa-league/preview/bournemouth-vs-sturm-graz-prediction-team-news-lineups_606756.html",
-       "syn": "Bournemouth host Sturm Graz in the Europa League on 15 October 2026, seeking back-to-back wins after beating Real Sociedad 2-1. Alex Scott is expected to miss several weeks with a thigh injury, and both sides have injury absences."
+       "text": "UEFA.com: Europa League results",
+       "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
       }
+     ],
+     "f": [
+      "Bournemouth 3–0 AC Milan",
+      "Beşiktaş 2–2 Crystal Palace; Lech Poznań 1–1 Sunderland",
+      "Lillestrøm 0–6 Real Sociedad",
+      "Next: Thu 5 Nov (matchday 4)"
      ]
     },
     {
@@ -2196,17 +2201,25 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Wed 21 Oct 2026 (footballwebpages.co.uk page for 25 Oct; UK times)",
+       "asof": "Fri 23 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Sat 24 Oct, 12:30: Aston Villa v Manchester City",
+        "Sat 24 Oct, 15:00: Arsenal v Everton",
+        "Sat 24 Oct, 15:00: Coventry City v Fulham",
+        "Sat 24 Oct, 17:30: Chelsea v Tottenham Hotspur",
         "Sun 25 Oct, 14:00 (Sky): Crystal Palace v Newcastle United",
         "Sun 25 Oct, 14:00 (Sky): Hull City v Brentford",
         "Sun 25 Oct, 14:00 (Sky PL): Liverpool v Brighton & Hove Albion",
         "Sun 25 Oct, 14:00 (Sky): Manchester United v AFC Bournemouth",
         "Sun 25 Oct, 16:30 (Sky PL): Sunderland v Leeds United"
        ],
-       "note": "Only Sunday 25 October is listed on the page read; Saturday and Monday fixtures were not shown. This corrects the earlier Saturday 24 Oct date for Manchester United v Bournemouth.",
+       "note": "Saturday and Sunday listed from footballwebpages. Any Monday 26 Oct fixtures were not checked. No Premier League round has been played since Mon 19 Oct, so the table and results panels are unchanged.",
        "links": [
+        {
+         "text": "footballwebpages.co.uk: Premier League, 24 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261024"
+        },
         {
          "text": "footballwebpages.co.uk: Premier League, 25 Oct",
          "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
@@ -2825,27 +2838,37 @@
       },
       {
        "id": "uel",
-       "title": "Europa League: matchday 2 fixtures (Thu 15 Oct)",
-       "asof": "Thu 15 Oct 2026 · not re-checked 21 Oct",
-       "source": "footballwebpages.co.uk",
+       "title": "Europa League league phase: matchday 3 (Thu 22 Oct)",
+       "asof": "Thu 22 Oct 2026 results (UEFA.com, read 23 Oct); matchday 4 is Thu 5 Nov",
+       "source": "UEFA.com",
        "items": [
-        "17:45: Olympique Lyonnais v Crystal Palace",
-        "17:45: Torreense v Sunderland",
-        "17:45: Red Bull Salzburg v AC Milan",
-        "17:45: Lech Poznań v Bayer Leverkusen",
-        "20:00: AFC Bournemouth v Sturm Graz",
-        "20:00: Benfica v Celtic",
-        "20:00: Celta Vigo v Juventus",
-        "20:00: Olympique Marseille v Olympiakos",
-        "20:00: Rennes v OFI"
+        "AFC Bournemouth 3–0 AC Milan",
+        "Beşiktaş 2–2 Crystal Palace",
+        "Lech Poznań 1–1 Sunderland",
+        "Juventus 2–2 Rennes",
+        "Hoffenheim 3–0 Olympique Lyonnais",
+        "Celtic 1–2 Celta Vigo",
+        "Sturm Graz 1–0 Olympique Marseille",
+        "Lillestrøm 0–6 Real Sociedad",
+        "Omonia Nicosia 1–4 Benfica",
+        "OFI Crete 0–2 Bayer Leverkusen",
+        "Ararat-Armenia 0–4 AZ Alkmaar",
+        "Ferencváros 4–1 Torreense",
+        "Dinamo Zagreb 2–4 NEC Nijmegen",
+        "Union Saint-Gilloise 4–0 Hapoel Be'er Sheva",
+        "Viktoria Plzeň 1–2 Levski Sofia",
+        "Jagiellonia Białystok 0–3 Anderlecht",
+        "Celje 2–2 Red Bull Salzburg",
+        "Olympiacos 1–0 Sparta Prague"
        ],
-       "note": "A selection of the 18 matches. Kick-off times as listed (5.45pm and 8pm), believed to be UK time. Results were not available when this was written.",
+       "note": "All 18 results as listed by UEFA.com (all dated Thu 22 Oct). The league-phase table was not read.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Europa League, 15 Oct",
-         "url": "https://www.footballwebpages.co.uk/uefa-europa-league/20261015"
+         "text": "UEFA.com: Europa League league-phase fixtures and results",
+         "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
         }
-       ]
+       ],
+       "highlights": true
       },
       {
        "id": "cups",
@@ -4953,118 +4976,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Thursday 22 October 2026",
-  "intro": "Ten questions from today's verified stories: Tesla's results, Toronto's mayoral race, the Champions League and the Premier League. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz: Friday 23 October 2026",
+  "intro": "Ten questions from today's verified stories: the Europa League, the Premier League weekend, Toronto's mayoral race and Tesla. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
+   {
+    "q": "What was the score when AFC Bournemouth played AC Milan in the Europa League on Thursday?",
+    "options": [
+     "Bournemouth 3–0 Milan",
+     "Bournemouth 1–1 Milan",
+     "Bournemouth 0–2 Milan",
+     "Bournemouth 2–1 Milan"
+    ],
+    "answer": 0,
+    "explain": "UEFA.com lists Bournemouth 3–0 Milan on matchday 3."
+   },
+   {
+    "q": "Which team beat Lillestrøm 6–0 in the Europa League?",
+    "options": [
+     "Real Sociedad",
+     "Celtic",
+     "Benfica",
+     "Celta Vigo"
+    ],
+    "answer": 0,
+    "explain": "Lillestrøm 0–6 Real Sociedad (UEFA.com, 22 Oct)."
+   },
+   {
+    "q": "Crystal Palace played Beşiktaş in the Europa League. What was the result?",
+    "options": [
+     "2–2 draw",
+     "3–0 win",
+     "1–0 defeat",
+     "0–0 draw"
+    ],
+    "answer": 0,
+    "explain": "Beşiktaş 2–2 Crystal Palace."
+   },
+   {
+    "q": "When is Europa League matchday 4?",
+    "options": [
+     "Thursday 5 November",
+     "Thursday 29 October",
+     "Tuesday 3 November",
+     "Thursday 12 November"
+    ],
+    "answer": 0,
+    "explain": "UEFA.com gives Thursday 5 November 2026."
+   },
+   {
+    "q": "Which Premier League team has won all seven of its games (table of 19 Oct)?",
+    "options": [
+     "Manchester City",
+     "Arsenal",
+     "Brighton",
+     "Chelsea"
+    ],
+    "answer": 0,
+    "explain": "Manchester City: 7 wins from 7, 21 points."
+   },
+   {
+    "q": "Who plays Manchester City at 12:30 on Saturday 24 October?",
+    "options": [
+     "Aston Villa",
+     "Arsenal",
+     "Chelsea",
+     "Everton"
+    ],
+    "answer": 0,
+    "explain": "Aston Villa v Manchester City, 12:30 (footballwebpages)."
+   },
+   {
+    "q": "Which match kicks off at 2 pm on Sunday 25 October?",
+    "options": [
+     "Manchester United v AFC Bournemouth",
+     "Arsenal v Everton",
+     "Chelsea v Tottenham",
+     "Coventry v Fulham"
+    ],
+    "answer": 0,
+    "explain": "Manchester United v Bournemouth is a 2 pm Sunday game; Arsenal v Everton, Coventry v Fulham and Chelsea v Spurs are on Saturday."
+   },
+   {
+    "q": "What is Brighton's goal difference in the 19 Oct Premier League table?",
+    "options": [
+     "+18",
+     "+12",
+     "+6",
+     "-4"
+    ],
+    "answer": 0,
+    "explain": "Brighton: 23 scored, 5 conceded, +18."
+   },
+   {
+    "q": "When is Toronto's mayoral election day?",
+    "options": [
+     "Monday 26 October",
+     "Saturday 24 October",
+     "Thursday 29 October",
+     "Monday 2 November"
+    ],
+    "answer": 0,
+    "explain": "Election day is Monday 26 October."
+   },
    {
     "q": "What revenue did Tesla report for the third quarter of 2026?",
     "options": [
-     "$18.6 billion",
      "$28.05 billion",
+     "$18.6 billion",
      "$38.2 billion",
      "$12.4 billion"
     ],
-    "answer": 1,
-    "explain": "Electrek reports revenue of $28.05bn, flat on a year earlier."
-   },
-   {
-    "q": "By how much did Tesla's GAAP net income fall year on year in Q3?",
-    "options": [
-     "13%",
-     "28%",
-     "43%",
-     "66%"
-    ],
-    "answer": 2,
-    "explain": "GAAP net income was $787m, down 43%."
-   },
-   {
-    "q": "How many vehicles did Tesla deliver in Q3 2026?",
-    "options": [
-     "386,532",
-     "486,532",
-     "586,532",
-     "286,532"
-    ],
-    "answer": 1,
-    "explain": "Tesla's 8-K lists 486,532 deliveries."
-   },
-   {
-    "q": "What was Tesla's Q3 total gross margin?",
-    "options": [
-     "9.6%",
-     "14.2%",
-     "19.6%",
-     "24.1%"
-    ],
-    "answer": 2,
-    "explain": "Gross margin rose to 19.6% from 18.0% a year earlier."
-   },
-   {
-    "q": "According to Nanos for CP24/CTV, who led Toronto's mayoral race on 15-18 October?",
-    "options": [
-     "Brad Bradford by 10 points",
-     "Olivia Chow, 49.8% to 46.6%",
-     "Chris Alexander",
-     "A dead heat at 40% each"
-    ],
-    "answer": 1,
-    "explain": "Nanos had Chow on 49.8% and Bradford on 46.6% of decided voters, within the ±3.6 margin of error."
-   },
-   {
-    "q": "When is Toronto's election day?",
-    "options": [
-     "Thursday 22 October",
-     "Saturday 24 October",
-     "Monday 26 October",
-     "Sunday 1 November"
-    ],
-    "answer": 2,
-    "explain": "Election day is Monday 26 October 2026."
-   },
-   {
-    "q": "What was the score when Como played Manchester United in the Champions League on 21 October?",
-    "options": [
-     "Como 4–1 Manchester United",
-     "Como 1–1 Manchester United",
-     "Como 0–2 Manchester United",
-     "Como 2–2 Manchester United"
-    ],
     "answer": 0,
-    "explain": "UEFA lists Como 4–1 Manchester United."
-   },
-   {
-    "q": "Which match in Champions League matchday 3 on 21 October finished 2–2?",
-    "options": [
-     "Real Madrid v Leipzig",
-     "Bayern München v Arsenal",
-     "Inter v Shakhtar Donetsk",
-     "Aston Villa v Viking"
-    ],
-    "answer": 1,
-    "explain": "Bayern München 2–2 Arsenal."
-   },
-   {
-    "q": "Who leads the Premier League table after seven games each (as of 19 October)?",
-    "options": [
-     "Arsenal",
-     "Brighton",
-     "Manchester City",
-     "Chelsea"
-    ],
-    "answer": 2,
-    "explain": "Manchester City have 21 points from seven wins."
-   },
-   {
-    "q": "When is Champions League matchday 4?",
-    "options": [
-     "28-29 October",
-     "3-4 November",
-     "10-11 November",
-     "24-25 November"
-    ],
-    "answer": 1,
-    "explain": "UEFA lists matchday 4 on 3 and 4 November 2026."
+    "explain": "Electrek reports revenue of $28.05bn, flat on a year earlier."
    }
   ]
  }
