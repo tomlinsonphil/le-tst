@@ -1,6 +1,6 @@
 {
- "date": "2026-10-23",
- "label": "Friday 23 October 2026",
+ "date": "2026-10-24",
+ "label": "Saturday 24 October 2026",
  "note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
  "sport_note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
  "sections": [
@@ -9,7 +9,7 @@
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Not refreshed on 22 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Not refreshed on 24 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -1788,23 +1788,23 @@
    "cards": [
     {
      "t": "Premier League",
-     "tag": "After 7 games (table as of Mon 19 Oct)",
+     "tag": "After 7–8 games (table as of Fri 23 Oct)",
      "w": [
-      "Manchester City stay perfect. Seven wins from seven, the latest a 2–1 against Ipswich on Saturday, keep them top on 21 points, but Arsenal are the story of the weekend: a 1–0 win at Nottingham Forest on Sunday moved them to 18 points, three clear of Brighton, whose 5–0 demolition of Crystal Palace lifted them to 16 with a goal difference of +18.",
-      "At the other end, AFC Bournemouth finally have a win, 2–0 over Sunderland, which lifts them to 15th. Leeds and Manchester United drew 1–1 at Elland Road (Mbeumo for United, Calvert-Lewin for Leeds), Aston Villa won 1–0 at Newcastle through Johan Manzambi, and Chelsea won 2–0 at Everton.",
-      "Tottenham are bottom on 3 points with a game in hand: they host Coventry on Monday night at 8 pm. Sunderland (4) and Forest (5) are also in the bottom three."
+      "Manchester City stay perfect: seven wins from seven keep them top on 21 points, with Arsenal second on 18 and Brighton third on 16 and a goal difference of +18. Friday night brought a 1–1 draw at Ipswich against Nottingham Forest, which lifts Ipswich to 9th on 10 points and Forest to 16th on 6.",
+      "Tottenham, whose first win of the season came on Monday (3–1 against Coventry), are 17th on 6 points, level with Bournemouth, Forest and Coventry. Sunderland are bottom on 4.",
+      "Saturday is a big one: Aston Villa v Manchester City at 12:30, Arsenal v Everton and Coventry v Fulham at 15:00, and Chelsea v Tottenham at 17:30 (UK). Five more games follow on Sunday, including Manchester United v Bournemouth at 14:00."
      ],
      "f": [
       "Leaders: Manchester City 21, Arsenal 18, Brighton 16",
-      "Bottom: Tottenham 3 (6 played), Sunderland 4, Nottingham Forest 5",
-      "Weekend: Sat 24 Oct Villa v Man City 12:30, Arsenal v Everton 15:00, Chelsea v Spurs 17:30; Sun 25 Oct five games"
+      "Bottom: Sunderland 4, Fulham 5, then four clubs on 6",
+      "Saturday 24 Oct: Villa v Man City 12:30, Arsenal v Everton 15:00, Coventry v Fulham 15:00, Chelsea v Spurs 17:30"
      ],
      "n": [
       "The Premier League is England's top division, with 20 clubs. Each plays every other club twice, home and away, for 38 matches. A win earns 3 points, a draw 1 and a defeat 0. Ties in points are split by goal difference, then goals scored.",
       "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
       "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
      ],
-     "s": "Table last updated Mon 19 Oct 2026 (footballwebpages.co.uk, re-read 21 Oct); no league games since.",
+     "s": "Table as of Fri 23 Oct 2026, 21:58 UK (footballwebpages.co.uk)",
      "links": [
       {
        "text": "footballwebpages.co.uk: Premier League table, 19 Oct",
@@ -1931,7 +1931,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Mon 19 Oct 2026, 21:58 UK (after Tottenham 3–1 Coventry; all 20 clubs have played 7) · re-read Wed 21 Oct: no games since",
+       "asof": "Fri 23 Oct 2026, 21:58 UK (after Ipswich Town 1–1 Nottingham Forest; Ipswich and Forest have played 8, the rest 7) · Saturday's games not yet played at the time of this build",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -2026,22 +2026,22 @@
         ],
         [
          9,
+         "Ipswich Town",
+         8,
+         3,
+         1,
+         4,
+         "-4",
+         10
+        ],
+        [
+         10,
          "Hull City",
          7,
          2,
          3,
          2,
          "+1",
-         9
-        ],
-        [
-         10,
-         "Ipswich Town",
-         7,
-         3,
-         0,
-         4,
-         "-4",
          9
         ],
         [
@@ -2096,6 +2096,16 @@
         ],
         [
          16,
+         "Nottingham Forest",
+         8,
+         1,
+         3,
+         4,
+         "-4",
+         6
+        ],
+        [
+         17,
          "Tottenham Hotspur",
          7,
          1,
@@ -2105,7 +2115,7 @@
          6
         ],
         [
-         17,
+         18,
          "Coventry City",
          7,
          2,
@@ -2115,23 +2125,13 @@
          6
         ],
         [
-         18,
+         19,
          "Fulham",
          7,
          1,
          2,
          4,
          "-3",
-         5
-        ],
-        [
-         19,
-         "Nottingham Forest",
-         7,
-         1,
-         2,
-         4,
-         "-4",
          5
         ],
         [
@@ -2150,20 +2150,21 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Tottenham's first win of the season lifts them out of the bottom three; Sunderland are now bottom on 4 points. Bournemouth are 15th on 6 points.",
+       "note": "Ipswich's point moves them up to 9th on 10 points; Forest climb to 16th on 6 points. Bournemouth are 15th on 6 points. Sunderland are bottom on 4.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Premier League, 19 Oct",
-         "url": "https://www.footballwebpages.co.uk/premier-league/20261019"
+         "text": "footballwebpages.co.uk: Premier League, 25 Oct (table updated 23 Oct)",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
         }
        ]
       },
       {
        "id": "pl-results",
-       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct)",
-       "asof": "Mon 19 Oct 2026 (footballwebpages.co.uk) · re-read Wed 21 Oct: no games since",
+       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, Fri 23 Oct)",
+       "asof": "Fri 23 Oct 2026 (footballwebpages.co.uk, page for 25 Oct)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Ipswich Town 1–1 Nottingham Forest (Fri 23 Oct)",
         "Tottenham Hotspur 3–1 Coventry City (Mon 19 Oct)",
         "Nottingham Forest 0–1 Arsenal (Sun 18 Oct)",
         "Leeds United 1–1 Manchester United (Sun 18 Oct)",
@@ -2201,7 +2202,7 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Fri 23 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct; UK times)",
+       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
         "Sat 24 Oct, 12:30: Aston Villa v Manchester City",
@@ -2214,7 +2215,7 @@
         "Sun 25 Oct, 14:00 (Sky): Manchester United v AFC Bournemouth",
         "Sun 25 Oct, 16:30 (Sky PL): Sunderland v Leeds United"
        ],
-       "note": "Saturday and Sunday listed from footballwebpages. Any Monday 26 Oct fixtures were not checked. No Premier League round has been played since Mon 19 Oct, so the table and results panels are unchanged.",
+       "note": "Saturday and Sunday listed from footballwebpages; Saturday's scores were not available at the time of this build. Any Monday 26 Oct fixtures were not checked.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 24 Oct",
@@ -4976,118 +4977,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Friday 23 October 2026",
-  "intro": "Ten questions from today's verified stories: the Europa League, the Premier League weekend, Toronto's mayoral race and Tesla. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz: Saturday 24 October 2026",
+  "intro": "Ten questions from today's verified Premier League data: the table, Friday night's draw and the weekend fixtures. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "What was the score when AFC Bournemouth played AC Milan in the Europa League on Thursday?",
+    "q": "Who top the Premier League table on 21 points after seven games?",
     "options": [
-     "Bournemouth 3–0 Milan",
-     "Bournemouth 1–1 Milan",
-     "Bournemouth 0–2 Milan",
-     "Bournemouth 2–1 Milan"
-    ],
-    "answer": 0,
-    "explain": "UEFA.com lists Bournemouth 3–0 Milan on matchday 3."
-   },
-   {
-    "q": "Which team beat Lillestrøm 6–0 in the Europa League?",
-    "options": [
-     "Real Sociedad",
-     "Celtic",
-     "Benfica",
-     "Celta Vigo"
-    ],
-    "answer": 0,
-    "explain": "Lillestrøm 0–6 Real Sociedad (UEFA.com, 22 Oct)."
-   },
-   {
-    "q": "Crystal Palace played Beşiktaş in the Europa League. What was the result?",
-    "options": [
-     "2–2 draw",
-     "3–0 win",
-     "1–0 defeat",
-     "0–0 draw"
-    ],
-    "answer": 0,
-    "explain": "Beşiktaş 2–2 Crystal Palace."
-   },
-   {
-    "q": "When is Europa League matchday 4?",
-    "options": [
-     "Thursday 5 November",
-     "Thursday 29 October",
-     "Tuesday 3 November",
-     "Thursday 12 November"
-    ],
-    "answer": 0,
-    "explain": "UEFA.com gives Thursday 5 November 2026."
-   },
-   {
-    "q": "Which Premier League team has won all seven of its games (table of 19 Oct)?",
-    "options": [
-     "Manchester City",
      "Arsenal",
+     "Manchester City",
      "Brighton",
      "Chelsea"
     ],
-    "answer": 0,
-    "explain": "Manchester City: 7 wins from 7, 21 points."
+    "answer": 1,
+    "explain": "Manchester City have won all seven (table as of 23 Oct, footballwebpages.co.uk)."
    },
    {
-    "q": "Who plays Manchester City at 12:30 on Saturday 24 October?",
+    "q": "What was the score when Ipswich Town played Nottingham Forest on Friday 23 October?",
+    "options": [
+     "1–0",
+     "2–2",
+     "1–1",
+     "0–0"
+    ],
+    "answer": 2,
+    "explain": "The match finished 1–1."
+   },
+   {
+    "q": "Which club is bottom of the Premier League on 4 points?",
+    "options": [
+     "Fulham",
+     "Sunderland",
+     "Coventry City",
+     "Tottenham"
+    ],
+    "answer": 1,
+    "explain": "Sunderland have 4 points from seven games."
+   },
+   {
+    "q": "Which side has the best goal difference in the league (+18)?",
+    "options": [
+     "Manchester City",
+     "Chelsea",
+     "Brighton & Hove Albion",
+     "Arsenal"
+    ],
+    "answer": 2,
+    "explain": "Brighton are +18 after seven games."
+   },
+   {
+    "q": "Who plays Manchester City at 12:30 UK time today (Saturday 24 October)?",
     "options": [
      "Aston Villa",
      "Arsenal",
-     "Chelsea",
-     "Everton"
+     "Everton",
+     "Chelsea"
     ],
     "answer": 0,
-    "explain": "Aston Villa v Manchester City, 12:30 (footballwebpages)."
+    "explain": "Aston Villa v Manchester City kicks off at 12:30."
    },
    {
-    "q": "Which match kicks off at 2 pm on Sunday 25 October?",
+    "q": "Which London derby kicks off at 17:30 UK time today?",
     "options": [
-     "Manchester United v AFC Bournemouth",
      "Arsenal v Everton",
+     "Coventry v Fulham",
      "Chelsea v Tottenham",
-     "Coventry v Fulham"
+     "Crystal Palace v Newcastle"
     ],
-    "answer": 0,
-    "explain": "Manchester United v Bournemouth is a 2 pm Sunday game; Arsenal v Everton, Coventry v Fulham and Chelsea v Spurs are on Saturday."
+    "answer": 2,
+    "explain": "Chelsea v Tottenham Hotspur is the late game."
    },
    {
-    "q": "What is Brighton's goal difference in the 19 Oct Premier League table?",
+    "q": "Who hosts AFC Bournemouth on Sunday 25 October at 14:00?",
     "options": [
-     "+18",
-     "+12",
-     "+6",
-     "-4"
+     "Manchester United",
+     "Liverpool",
+     "Hull City",
+     "Sunderland"
     ],
     "answer": 0,
-    "explain": "Brighton: 23 scored, 5 conceded, +18."
+    "explain": "Manchester United v AFC Bournemouth, 14:00."
    },
    {
-    "q": "When is Toronto's mayoral election day?",
+    "q": "Which club has played 8 games, alongside Ipswich, after Friday night?",
     "options": [
-     "Monday 26 October",
-     "Saturday 24 October",
-     "Thursday 29 October",
-     "Monday 2 November"
+     "Nottingham Forest",
+     "Everton",
+     "Leeds United",
+     "Brentford"
     ],
     "answer": 0,
-    "explain": "Election day is Monday 26 October."
+    "explain": "Ipswich and Forest have each played 8; everyone else has played 7."
    },
    {
-    "q": "What revenue did Tesla report for the third quarter of 2026?",
+    "q": "How many points do Arsenal have after seven games?",
     "options": [
-     "$28.05 billion",
-     "$18.6 billion",
-     "$38.2 billion",
-     "$12.4 billion"
+     "16",
+     "15",
+     "18",
+     "21"
+    ],
+    "answer": 2,
+    "explain": "Arsenal have 6 wins and 1 defeat: 18 points."
+   },
+   {
+    "q": "Tottenham's first win of the season came on Monday 19 October against which club?",
+    "options": [
+     "Coventry City",
+     "Fulham",
+     "Ipswich Town",
+     "Chelsea"
     ],
     "answer": 0,
-    "explain": "Electrek reports revenue of $28.05bn, flat on a year earlier."
+    "explain": "Tottenham beat Coventry City 3–1."
    }
   ]
  }
