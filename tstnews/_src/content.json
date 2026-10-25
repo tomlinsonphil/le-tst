@@ -1,15 +1,15 @@
 {
- "date": "2026-10-24",
- "label": "Saturday 24 October 2026",
- "note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
- "sport_note": "Refresh of Fri 23 Oct 2026 (early morning, Toronto time). A limited run: the permitted news feeds (Euronews, Al Jazeera, CP24, Global News, L'Écho du Mardi) and the other listed pages were refused by the fetch tool, so Headlines keep their earlier lists with their own dates. Verified today: Europa League matchday 3 results for Thu 22 Oct (UEFA.com), Premier League weekend fixtures for 24 and 25 Oct and the table (footballwebpages, last updated Mon 19 Oct; no round since). The Toronto mayoral race text is as of 22 Oct (no newer poll found; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 23 Oct; no new world, France, UK-town, tech, Following, economics, tennis, F1, rugby, cricket or other sport figures were verified today.",
+ "date": "2026-10-25",
+ "label": "Sunday 25 October 2026",
+ "note": "Refresh of Sun 25 Oct 2026 (early morning, Toronto time). A limited run: most permitted feeds (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and the Sunday football page were refused by the fetch tool. Verified today: Euronews 'Just in' page (24 Oct), three Al Jazeera/Euronews articles on Iran and the Italian protests (24 Oct), and the Premier League pages for 19 and 24 Oct (footballwebpages.co.uk; table as of Sat 24 Oct 14:23 UK, Saturday's other results were still in progress on the page and are not verified). The Toronto mayoral race text is unchanged from 22 Oct (Wikipedia lists no result; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 25 Oct.",
+ "sport_note": "Refresh of Sun 25 Oct 2026 (early morning, Toronto time). A limited run: most permitted feeds (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and the Sunday football page were refused by the fetch tool. Verified today: Euronews 'Just in' page (24 Oct), three Al Jazeera/Euronews articles on Iran and the Italian protests (24 Oct), and the Premier League pages for 19 and 24 Oct (footballwebpages.co.uk; table as of Sat 24 Oct 14:23 UK, Saturday's other results were still in progress on the page and are not verified). The Toronto mayoral race text is unchanged from 22 Oct (Wikipedia lists no result; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 25 Oct.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Not refreshed on 24 Oct: the feeds could not be opened on this run (access refused), so these are the earlier lists, with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Euronews was refreshed on 25 Oct from its 'Just in' page (24 Oct stories); Al Jazeera shows recent article links from search; the other feeds could not be opened on this run, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -17,29 +17,30 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Qatar revamped its entire defence system in six hours, intelligence chief reveals",
-       "url": "https://www.euronews.com/2026/10/20/qatar-revamped-its-entire-defence-system-in-six-hours-intelligence-chief-reveals",
-       "when": "20 Oct"
+       "t": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
+       "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
+       "when": "24 Oct, 16:31"
       },
       {
-       "t": "Heavy rain causes widespread flooding in France's Marseille",
-       "url": "https://www.euronews.com/video/2026/10/20/heavy-rain-causes-widespread-flooding-in-frances-marseille",
-       "when": "20 Oct"
+       "t": "Fire engulfs Hitler's former Eagle's Nest retreat in Germany",
+       "url": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
+       "when": "24 Oct, 16:11"
       },
       {
-       "t": "King Charles welcomes Oman's Sultan Haitham for state visit to UK",
-       "url": "https://www.euronews.com/video/2026/10/20/king-charles-welcomes-omans-sultan-haitham-for-state-visit-to-uk",
-       "when": "20 Oct"
+       "t": "Live. Thousands rally in Tirana as anti-government protests persist",
+       "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
+       "when": "24 Oct, 14:56"
       },
       {
-       "t": "Fireworks, petrol bombs and water cannon as unrest escalates in Albania",
-       "url": "https://www.euronews.com/video/2026/10/20/fireworks-petrol-bombs-and-water-cannon-as-unrest-escalates-in-albania",
-       "when": "20 Oct"
+       "t": "Watch: French police deploy armoured vehicles in Paris and Marseille",
+       "url": "https://www.euronews.com/video/2026/10/24/watch-french-police-deploy-armoured-vehicles-in-paris-and-marseille",
+       "when": "24 Oct, 14:46"
       },
       {
-       "t": "Uzbekistan's $12bn business drive gathers pace during Rubio visit",
-       "url": "https://www.euronews.com/2026/10/20/uzbekistans-12bn-business-drive-gathers-pace-during-rubio-visit",
-       "when": "20 Oct"
+       "t": "Italy deploys hundreds of soldiers as nationwide protests raise fears of fresh violence",
+       "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
+       "when": "24 Oct, 14:39",
+       "syn": "Clashes with police in Rome, Milan, Turin, Bologna and Florence on 24 Oct; the government sent 500 more soldiers to Milan after violence on 17–18 October."
       }
      ]
     },
@@ -79,29 +80,25 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Australian MP loses both legs in vehicle attack as suspect appears in court",
-       "url": "https://www.aljazeera.com/news/2026/10/21/australian-mp-loses-both-legs-in-vehicle-attack-as-suspect-appears-in-court",
-       "when": "21 Oct, 08:34 UTC"
+       "t": "Iran says won't allow US warships to get close as Trump ponders new attacks",
+       "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks",
+       "when": "24 Oct",
+       "syn": "Iran's armed forces say they are ready to fire on US warships; Trump said the US 'may do another Epic Fury'. Brent rose to about $117."
       },
       {
-       "t": "Drone attack in disputed Sudan-South Sudan border region kills at least 153",
-       "url": "https://www.aljazeera.com/news/2026/10/21/drone-attack-in-disputed-sudan-south-sudan-border-region-kills-at-least-153",
-       "when": "21 Oct, 08:25 UTC"
+       "t": "US-Iran war, then and now: How the landscape has changed since February",
+       "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february",
+       "when": "23 Oct"
       },
       {
-       "t": "Bayern Munich vs Arsenal: Champions League - Predictions, Olise, lineups",
-       "url": "https://www.aljazeera.com/sports/2026/10/21/bayern-munich-arsenal-champions-league-predictions-saka-kane-olise",
-       "when": "21 Oct, 08:15 UTC"
+       "t": "Iran reveals 'offensive' doctrine, US issues alert: Is war imminent?",
+       "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent",
+       "when": "22 Oct"
       },
       {
-       "t": "'It's hard for us': Paris small businesses bear brunt of protest violence",
-       "url": "https://www.aljazeera.com/news/2026/10/21/its-hard-for-us-paris-small-businesses-bear-brunt-of-protest-violence",
-       "when": "21 Oct, 07:56 UTC"
-      },
-      {
-       "t": "LeBron James's 76ers beat NY Knicks on NBA's opening night at MSG",
-       "url": "https://www.aljazeera.com/sports/2026/10/21/lebron-jamess-76ers-beat-ny-knicks-on-nbas-opening-night-at-msg",
-       "when": "21 Oct, 08:30 UTC"
+       "t": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
+       "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response",
+       "when": "22 Oct"
       }
      ]
     },
@@ -174,7 +171,7 @@
    "items": [
     {
      "t": "Iran war and the Strait of Hormuz",
-     "tag": "Ongoing conflict",
+     "tag": "Ongoing conflict · update 24 Oct",
      "gap": false,
      "w": [
       "Friday's fighting spread beyond the Gulf. Al Jazeera's 16 October live page is headlined \"Strikes hit Houthis in Taiz, coalition intercepts attacks\", with the web address pointing to Saudi criticism of the Houthis and a US warning about Saudi airports; the page itself gave no casualty figures. Another headline has Tehran saying it is ready to respond to any US threats against its energy plants, and Iran's president Masoud Pezeshkian warning of the war's long-term environmental damage.",
@@ -183,7 +180,8 @@
       "Traffic has fallen with it. Al Jazeera cites about 20.8 million barrels passing on 8 October but only 2.9 million on 11 October, against a pre-war average of 17.1 million a day. Brent was $106.58 early on 14 October (WTI settled at $94.14 the day before). Al Jazeera's live page for 15 October is headlined \"Tehran vows to fight until US yields as ships sink in Hormuz\"; I could not read its detail.",
       "Why you should care from Toronto: oil above $100 feeds fuel costs and inflation, which central banks answer with interest rates. At the 14 October EU summit leaders were also wrestling with gas prices at their highest since winter 2022, per Euronews.",
       "Update, 19 Oct: US embassies in 12 Middle East countries issued near-identical alerts warning of possible flight cancellations and airspace closures, and of rapid escalation involving Yemen's Houthis and Iran (Euronews). Qatar Airways has suspended Riyadh and Dammam flights until 24 October.",
-      "Update, 21 Oct: Qatar's intelligence chief told the Global Security Forum in Doha that his country redeployed its entire defensive systems within six hours to meet threats linked to the Iran war, calling it \"unprecedented and successful\". Qatar's foreign ministry says Qatar-mediated US-Iran talks are continuing, with both sides engaged, and the US ambassador to Turkey, Tom Barrack, said Washington wants a peace deal but that a lack of trust with Iran's IRGC is the obstacle (Euronews, 20 Oct)."
+      "Update, 21 Oct: Qatar's intelligence chief told the Global Security Forum in Doha that his country redeployed its entire defensive systems within six hours to meet threats linked to the Iran war, calling it \"unprecedented and successful\". Qatar's foreign ministry says Qatar-mediated US-Iran talks are continuing, with both sides engaged, and the US ambassador to Turkey, Tom Barrack, said Washington wants a peace deal but that a lack of trust with Iran's IRGC is the obstacle (Euronews, 20 Oct).",
+      "Update, 24 Oct: Iran's armed forces said they are prepared to fire on US warships, and Chief of General Staff Ali Abdollahi said the US Navy could not re-enter Iranian waters, after Trump told a Florida rally on 23 October that the US military \"may do another Epic Fury\", the name Al Jazeera gives the war's opening bombing campaign. The IRGC said seven tankers were attacked or hit mines overnight into 22 October and two supertankers struck mines on 23 October. Brent rose to about $117, its highest since April. At an Istanbul meeting on 23 October regional and European foreign ministers opposed a new attack on Iran, but neither the US nor Iran attended; mediated talks have yielded nothing. Israel votes on 27 October and the US holds midterms on 3 November (Al Jazeera, 24 Oct)."
      ],
      "n": [
       "The Strait of Hormuz is a narrow stretch of sea between Iran to the north and Oman to the south, linking the Persian Gulf to the open ocean. Roughly a fifth of the world's oil, and a large share of its liquefied natural gas, passes through it. There is no easy alternative route for most of that cargo.",
@@ -192,8 +190,12 @@
       "Inflation matters because central banks such as the Bank of Canada, the Bank of England and the US Federal Reserve respond to it by moving interest rates. Higher rates make borrowing dearer and usually weigh on bond prices and on shares, especially in growth sectors.",
       "So a conflict thousands of kilometres away reaches a Toronto investor through fuel costs, mortgage rates and the value of an ETF portfolio."
      ],
-     "s": "As of 16 Oct 2026 (headlines and live-page text only) and 14-15 Oct (shipping figures) · Al Jazeera, Euronews · attack counts are UKMTO/Kpler figures as reported; Iranian claims unverified · shipping figures not re-verified on 17 Oct · not re-checked 21 Oct · Update 21 Oct from Euronews (20 Oct); no new shipping or oil figures were verified today.",
+     "s": "As of 24 Oct 2026 · Al Jazeera",
      "links": [
+      {
+       "text": "Al Jazeera: Iran says won't allow US warships to get close (24 Oct)",
+       "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
+      },
       {
        "text": "Euronews: US issues rare Middle East red alert warning",
        "url": "https://www.euronews.com/2026/10/19/us-issues-rare-middle-east-red-alert-warning-to-its-citizens-in-the-region"
@@ -227,6 +229,28 @@
       {
        "text": "Euronews: Qatar revamped its entire defence system in six hours",
        "url": "https://www.euronews.com/2026/10/20/qatar-revamped-its-entire-defence-system-in-six-hours-intelligence-chief-reveals"
+      }
+     ]
+    },
+    {
+     "t": "Italy: protests turn violent in several cities",
+     "tag": "Breaking · 24 Oct",
+     "gap": false,
+     "w": [
+      "Italy spent Saturday bracing for more street violence. Clashes broke out between protesters and police in Rome, Milan, Turin, Bologna and Florence, and officers answered bottles, stones and firecrackers with water cannon and tear gas. Around 10,000 people joined a combined march in Milan, and in Bologna paramedics treated an injured young protester (Euronews, 24 Oct).",
+      "It follows violent unrest in Milan on 17 and 18 October, with clashes, vandalism and looting. Police say about 2,000 young people took part and 45 were arrested, 34 of them minors. Ahead of Saturday, police carried out more than 150 searches in Milan, Monza and about 20 other cities, and Interior Minister Matteo Piantedosi suggested the earlier disturbances were coordinated.",
+      "Giorgia Meloni's government sent 500 more soldiers to Milan, with drone surveillance and railway checks. Protesters cite living costs, low wages and military spending; Meloni has condemned the violence."
+     ],
+     "n": [
+      "Italy is governed by a right-wing coalition led by Prime Minister Giorgia Meloni. The Interior Minister runs the police and is the government's public face on public order.",
+      "Across Europe this autumn there have been youth-led protests about the cost of living and public spending; France, Albania and Italy have all seen unrest in recent weeks, with different local triggers.",
+      "Water cannon and tear gas are standard crowd-control tools; the soldiers sent to Milan add visible security rather than replacing police."
+     ],
+     "s": "As of 24 Oct 2026 · Euronews",
+     "links": [
+      {
+       "text": "Euronews: Italy deploys hundreds of soldiers as nationwide protests raise fears of fresh violence",
+       "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence"
       }
      ]
     },
@@ -330,7 +354,8 @@
      "gap": false,
      "w": [
       "Tirana's streets filled with fireworks and flames on Monday. Protesters threw Molotov cocktails, fireworks and stones at police, who answered with water cannon, tear gas and rubber bullets; Euronews reports about 300 people injured, more than half of them police officers.",
-      "The clashes are the latest in months of anti-government protests over corruption and university conditions, with demonstrators demanding Prime Minister Edi Rama's resignation. Rama said protest is a right but violence is a crime, and accused demonstrators of crossing a \"red line\"."
+      "The clashes are the latest in months of anti-government protests over corruption and university conditions, with demonstrators demanding Prime Minister Edi Rama's resignation. Rama said protest is a right but violence is a crime, and accused demonstrators of crossing a \"red line\".",
+      "Update, 24 Oct: Euronews's live page says thousands rallied in Tirana as anti-government protests persist, with protesters burning symbolic pillows outside the prime minister's office (headline and URL only; the page body was not read)."
      ],
      "n": [
       "Albania is a Balkan country of under three million people on the Adriatic coast, and is a candidate to join the European Union.",
@@ -343,6 +368,10 @@
       {
        "text": "Euronews: Fireworks, petrol bombs and water cannon as unrest escalates in Albania",
        "url": "https://www.euronews.com/video/2026/10/20/fireworks-petrol-bombs-and-water-cannon-as-unrest-escalates-in-albania"
+      },
+      {
+       "text": "Euronews live: thousands rally in Tirana (24 Oct)",
+       "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic"
       }
      ]
     },
@@ -365,6 +394,26 @@
       {
        "text": "Al Jazeera: Fire engulfs Albania's Supreme Court",
        "url": "https://www.aljazeera.com/video/newsfeed/2026/10/18/albania-protests-supreme-court-fire"
+      }
+     ]
+    },
+    {
+     "t": "Hebron: Israel removes about 250 Palestinian families",
+     "tag": "New · 24 Oct",
+     "gap": false,
+     "w": [
+      "Israel has removed around 250 Palestinian families from the West Bank city of Hebron after soldier deaths, according to a Euronews headline published on 24 October.",
+      "Only the headline was available to this run, so the circumstances, the soldiers' deaths and reactions are not verified here."
+     ],
+     "n": [
+      "Hebron is the largest city in the occupied West Bank and has a long-contested centre where Israeli settlers live close to Palestinian residents under heavy military presence.",
+      "Removals of families are highly contentious and are criticised by Palestinians and many rights groups; read the linked story for the full account."
+     ],
+     "s": "As of 24 Oct 2026 · Euronews (headline only)",
+     "links": [
+      {
+       "text": "Euronews: Israel removes around 250 Palestinian families from Hebron",
+       "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier"
       }
      ]
     }
@@ -874,7 +923,8 @@
       "The numbers differ by outlet. Al Jazeera, citing the Interior Ministry, reports nearly 2,400 arrests on Saturday and about 1,000 police and gendarmes injured; Euronews puts arrests at over 2,000 and injuries at more than 600 police, gendarmes and firefighters. Both agree on the scale: nationwide, and heavy.",
       "In a televised address on Sunday evening Emmanuel Macron spoke of \"anger and shame\", said \"nothing justified\" the violence and promised that looters would pay. He drew a line between peaceful protesters with legitimate grievances and rioters, blamed \"insurrectionist elements from the radical far left, joined by numerous criminals\" (Euronews), and announced a crisis unit to help people in difficulty. Reports say he announced no state of emergency, curfew or other new security measures.",
       "Politics moved in at once. Jean-Luc Mélenchon said the government alone is responsible for failing to keep order; Jordan Bardella called the speech \"lamentable\" and \"cowardly\"; Marine Le Pen warned of a \"threat to democracy\". With the presidential election due next April and Le Pen leading in polls (Euronews), the riots are already campaign material. Macron travels to Kuwait on Monday.",
-      "Update, 21 Oct: the clean-up is turning to the shopkeepers. Al Jazeera reports that looting around Place de la République left shops boarded up, with one phone-shop owner saying at least €70,000 of stock was taken and his insurance does not cover theft. Prime Minister Sébastien Lecornu has put more than 200 investigators on the case and says the government will cover employees' salaries at about 3,000 affected businesses, with a support fund to help them restock. Some stolen goods turned up for sale online within hours, and digital minister Anne Le Henanff has told platforms to take listings down \"without delay\". Another protest is announced for Saturday."
+      "Update, 21 Oct: the clean-up is turning to the shopkeepers. Al Jazeera reports that looting around Place de la République left shops boarded up, with one phone-shop owner saying at least €70,000 of stock was taken and his insurance does not cover theft. Prime Minister Sébastien Lecornu has put more than 200 investigators on the case and says the government will cover employees' salaries at about 3,000 affected businesses, with a support fund to help them restock. Some stolen goods turned up for sale online within hours, and digital minister Anne Le Henanff has told platforms to take listings down \"without delay\". Another protest is announced for Saturday.",
+      "Update, 24 Oct: Euronews has video of French police deploying armoured vehicles in Paris and Marseille (24 Oct, 14:46); only the headline was available to this run."
      ],
      "f": [
       "Riots: Saturday 17 October; Macron's address: Sunday 18 October",
@@ -907,6 +957,10 @@
       {
        "text": "CP24: France erupts: Riots, looting and mass arrests",
        "url": "https://www.cp24.com/news/world/2026/10/18/macron-condemns-those-who-sought-to-bring-down-the-republic-after-rioting-mars-nationwide-protests/"
+      },
+      {
+       "text": "Euronews video: French police deploy armoured vehicles in Paris and Marseille (24 Oct)",
+       "url": "https://www.euronews.com/video/2026/10/24/watch-french-police-deploy-armoured-vehicles-in-paris-and-marseille"
       }
      ]
     },
@@ -1931,7 +1985,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Fri 23 Oct 2026, 21:58 UK (after Ipswich Town 1–1 Nottingham Forest; Ipswich and Forest have played 8, the rest 7) · Saturday's games not yet played at the time of this build",
+       "asof": "Sat 24 Oct 2026, 14:23 UK (after Fri's Ipswich 1–1 Forest and Villa 2–1 City; Saturday's later games not included)",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -1947,11 +2001,11 @@
         [
          1,
          "Manchester City",
-         7,
+         8,
          7,
          0,
-         0,
-         "+12",
+         1,
+         "+11",
          21
         ],
         [
@@ -1996,6 +2050,16 @@
         ],
         [
          6,
+         "Aston Villa",
+         8,
+         3,
+         2,
+         3,
+         "-3",
+         11
+        ],
+        [
+         7,
          "Brentford",
          7,
          2,
@@ -2005,7 +2069,7 @@
          10
         ],
         [
-         7,
+         8,
          "Leeds United",
          7,
          2,
@@ -2015,7 +2079,7 @@
          10
         ],
         [
-         8,
+         9,
          "Everton",
          7,
          2,
@@ -2025,7 +2089,7 @@
          10
         ],
         [
-         9,
+         10,
          "Ipswich Town",
          8,
          3,
@@ -2035,7 +2099,7 @@
          10
         ],
         [
-         10,
+         11,
          "Hull City",
          7,
          2,
@@ -2045,18 +2109,8 @@
          9
         ],
         [
-         11,
-         "Newcastle United",
-         7,
-         2,
-         2,
-         3,
-         "-4",
-         8
-        ],
-        [
          12,
-         "Aston Villa",
+         "Newcastle United",
          7,
          2,
          2,
@@ -2150,7 +2204,7 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Ipswich's point moves them up to 9th on 10 points; Forest climb to 16th on 6 points. Bournemouth are 15th on 6 points. Sunderland are bottom on 4.",
+       "note": "Aston Villa's win over Manchester City ends City's perfect start, but they stay top on 21 points. Bournemouth are 15th on 6 points and play Manchester United on Sunday. Sunderland are bottom on 4.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 25 Oct (table updated 23 Oct)",
@@ -2160,10 +2214,11 @@
       },
       {
        "id": "pl-results",
-       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, Fri 23 Oct)",
-       "asof": "Fri 23 Oct 2026 (footballwebpages.co.uk, page for 25 Oct)",
+       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, 23–24 Oct)",
+       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk, page read 15:07 UK)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Aston Villa 2–1 Manchester City (Sat 24 Oct)",
         "Ipswich Town 1–1 Nottingham Forest (Fri 23 Oct)",
         "Tottenham Hotspur 3–1 Coventry City (Mon 19 Oct)",
         "Nottingham Forest 0–1 Arsenal (Sun 18 Oct)",
@@ -2187,7 +2242,7 @@
         "Sunderland 0–2 Brighton & Hove Albion (Sat 10 Oct)"
        ],
        "highlights": true,
-       "note": "Sunday's scores: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). Brighton's 5–0 comes from a news item and is consistent with the table's goal differences; footballwebpages.co.uk listed 4–0 at 82' while in play. Each Highlights link searches the fuboTV Soccer YouTube channel.",
+       "note": "Not verified: Arsenal v Everton, Coventry v Fulham and Chelsea v Tottenham (Sat 24 Oct) were still in progress or not started when the page was read, and no later page was readable; check footballwebpages.co.uk. Sunday's scores: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). Brighton's 5–0 comes from a news item and is consistent with the table's goal differences; footballwebpages.co.uk listed 4–0 at 82' while in play. Each Highlights link searches the fuboTV Soccer YouTube channel.",
        "links": [
         {
          "text": "fuboTV Soccer on YouTube (all videos)",
@@ -2202,7 +2257,7 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct; UK times)",
+       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk; UK times)",
        "source": "footballwebpages.co.uk",
        "items": [
         "Sat 24 Oct, 12:30: Aston Villa v Manchester City",
@@ -2215,7 +2270,7 @@
         "Sun 25 Oct, 14:00 (Sky): Manchester United v AFC Bournemouth",
         "Sun 25 Oct, 16:30 (Sky PL): Sunderland v Leeds United"
        ],
-       "note": "Saturday and Sunday listed from footballwebpages; Saturday's scores were not available at the time of this build. Any Monday 26 Oct fixtures were not checked.",
+       "note": "Saturday's afternoon and evening results were not verified (see Latest results). Sunday's fixtures are as listed on 23 Oct; any Monday fixtures were not checked.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 24 Oct",
@@ -4977,118 +5032,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz: Saturday 24 October 2026",
+  "title": "TST News quiz · Sunday 25 October 2026",
   "intro": "Ten questions from today's verified Premier League data: the table, Friday night's draw and the weekend fixtures. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Who top the Premier League table on 21 points after seven games?",
+    "q": "What price did Brent crude rise to on 23–24 October, its highest since April?",
     "options": [
-     "Arsenal",
-     "Manchester City",
-     "Brighton",
-     "Chelsea"
+     "About $87",
+     "About $97",
+     "About $107",
+     "About $117"
     ],
-    "answer": 1,
-    "explain": "Manchester City have won all seven (table as of 23 Oct, footballwebpages.co.uk)."
+    "answer": 3,
+    "explain": "Al Jazeera reported Brent at about $117."
    },
    {
-    "q": "What was the score when Ipswich Town played Nottingham Forest on Friday 23 October?",
+    "q": "On what date did the war with Iran begin, according to Al Jazeera?",
     "options": [
-     "1–0",
-     "2–2",
+     "28 February",
+     "1 March",
+     "28 June",
+     "1 September"
+    ],
+    "answer": 0,
+    "explain": "Al Jazeera says the war began on 28 February 2026."
+   },
+   {
+    "q": "What did Trump say the US military 'may do' again at a Florida rally on 23 October?",
+    "options": [
+     "Another Epic Fury",
+     "Another Desert Storm",
+     "Another Midnight Hammer",
+     "Another Rolling Thunder"
+    ],
+    "answer": 0,
+    "explain": "He said the military 'may do another Epic Fury' (Al Jazeera)."
+   },
+   {
+    "q": "How many extra soldiers did Italy's government send to Milan?",
+    "options": [
+     "50",
+     "200",
+     "500",
+     "5,000"
+    ],
+    "answer": 2,
+    "explain": "Euronews: an additional 500 soldiers, plus drones and railway checks."
+   },
+   {
+    "q": "Of the 45 people arrested in Milan on 17–18 October, how many were minors?",
+    "options": [
+     "12",
+     "23",
+     "34",
+     "41"
+    ],
+    "answer": 2,
+    "explain": "Police said 34 of the 45 arrested were minors."
+   },
+   {
+    "q": "Roughly how many people joined the combined march in Milan on Saturday 24 October?",
+    "options": [
+     "500",
+     "2,000",
+     "10,000",
+     "100,000"
+    ],
+    "answer": 2,
+    "explain": "Euronews put it at around 10,000."
+   },
+   {
+    "q": "Who won Aston Villa v Manchester City on Saturday 24 October?",
+    "options": [
+     "Villa 2–1",
+     "City 2–1",
+     "Draw 1–1",
+     "City 3–0"
+    ],
+    "answer": 0,
+    "explain": "footballwebpages.co.uk lists Aston Villa 2–1 Manchester City at full time."
+   },
+   {
+    "q": "What was the score when Ipswich Town played Nottingham Forest on 23 October?",
+    "options": [
+     "0–0",
      "1–1",
-     "0–0"
-    ],
-    "answer": 2,
-    "explain": "The match finished 1–1."
-   },
-   {
-    "q": "Which club is bottom of the Premier League on 4 points?",
-    "options": [
-     "Fulham",
-     "Sunderland",
-     "Coventry City",
-     "Tottenham"
+     "2–1",
+     "0–1"
     ],
     "answer": 1,
-    "explain": "Sunderland have 4 points from seven games."
+    "explain": "They drew 1–1."
    },
    {
-    "q": "Which side has the best goal difference in the league (+18)?",
+    "q": "Which team was bottom of the Premier League on Saturday 24 October, with 4 points?",
     "options": [
-     "Manchester City",
-     "Chelsea",
-     "Brighton & Hove Albion",
-     "Arsenal"
-    ],
-    "answer": 2,
-    "explain": "Brighton are +18 after seven games."
-   },
-   {
-    "q": "Who plays Manchester City at 12:30 UK time today (Saturday 24 October)?",
-    "options": [
-     "Aston Villa",
-     "Arsenal",
-     "Everton",
-     "Chelsea"
-    ],
-    "answer": 0,
-    "explain": "Aston Villa v Manchester City kicks off at 12:30."
-   },
-   {
-    "q": "Which London derby kicks off at 17:30 UK time today?",
-    "options": [
-     "Arsenal v Everton",
-     "Coventry v Fulham",
-     "Chelsea v Tottenham",
-     "Crystal Palace v Newcastle"
-    ],
-    "answer": 2,
-    "explain": "Chelsea v Tottenham Hotspur is the late game."
-   },
-   {
-    "q": "Who hosts AFC Bournemouth on Sunday 25 October at 14:00?",
-    "options": [
-     "Manchester United",
-     "Liverpool",
-     "Hull City",
-     "Sunderland"
-    ],
-    "answer": 0,
-    "explain": "Manchester United v AFC Bournemouth, 14:00."
-   },
-   {
-    "q": "Which club has played 8 games, alongside Ipswich, after Friday night?",
-    "options": [
-     "Nottingham Forest",
-     "Everton",
-     "Leeds United",
-     "Brentford"
-    ],
-    "answer": 0,
-    "explain": "Ipswich and Forest have each played 8; everyone else has played 7."
-   },
-   {
-    "q": "How many points do Arsenal have after seven games?",
-    "options": [
-     "16",
-     "15",
-     "18",
-     "21"
-    ],
-    "answer": 2,
-    "explain": "Arsenal have 6 wins and 1 defeat: 18 points."
-   },
-   {
-    "q": "Tottenham's first win of the season came on Monday 19 October against which club?",
-    "options": [
-     "Coventry City",
      "Fulham",
-     "Ipswich Town",
-     "Chelsea"
+     "Coventry City",
+     "Sunderland",
+     "Nottingham Forest"
     ],
-    "answer": 0,
-    "explain": "Tottenham beat Coventry City 3–1."
+    "answer": 2,
+    "explain": "Sunderland have 4 points from 7 games."
+   },
+   {
+    "q": "Which West Bank city did Israel remove about 250 Palestinian families from, per Euronews on 24 October?",
+    "options": [
+     "Nablus",
+     "Hebron",
+     "Jericho",
+     "Ramallah"
+    ],
+    "answer": 1,
+    "explain": "Euronews headline: Hebron."
    }
   ]
  }
