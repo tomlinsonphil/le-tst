@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="icon" type="image/svg+xml" href="/tstnews/favicon.svg">
+<link rel="stylesheet" href="/tstnews/style.css?v=b19428d8">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Monday 26 October 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-10-26/">Latest</a><a href="/tstnews/archive/2026-10-26/#headlines">Headlines</a><a href="/tstnews/archive/2026-10-26/#world">World</a><a href="/tstnews/archive/2026-10-26/#france">France</a><a href="/tstnews/archive/2026-10-26/#toronto">Toronto</a><a href="/tstnews/archive/2026-10-26/#uk">UK</a><a href="/tstnews/archive/2026-10-26/#tech">Tech</a><a href="/tstnews/archive/2026-10-26/#following">Following</a><a href="/tstnews/archive/2026-10-26/#money">Economics</a><a href="/tstnews/archive/2026-10-26/#sport">Sport</a><a href="/tstnews/archive/2026-10-26/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-10-26/#sport">Sport</a><a href="/tstnews/archive/2026-10-26/football/">Football</a><a href="/tstnews/archive/2026-10-26/rugby/">Rugby</a><a href="/tstnews/archive/2026-10-26/cricket/">Cricket</a><a href="/tstnews/archive/2026-10-26/tennis/">Tennis</a><a href="/tstnews/archive/2026-10-26/squash/">Squash</a><a href="/tstnews/archive/2026-10-26/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-10-26/baseball/">Baseball</a><a href="/tstnews/archive/2026-10-26/basketball/">Basketball</a><a href="/tstnews/archive/2026-10-26/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-10-26/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>TST News quiz · Monday 26 October 2026: Monday 26 October 2026</h2><p class="intro">Ten questions from today&#x27;s verified stories: the Premier League weekend, the Leafs in Edmonton, Iran and Toronto&#x27;s election day. Pick an answer, see the score at the end, then start again for the next player.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "Which two clubs are level on 21 points at the top of the Premier League after eight games?", "options": ["Liverpool and Chelsea", "Manchester City and Arsenal", "Arsenal and Brighton", "Manchester City and Liverpool"], "answer": 1, "explain": "City (+11) and Arsenal (+8) have 21 points each, City ahead on goal difference (footballwebpages.co.uk)."}, {"q": "What was the score when Bournemouth visited Manchester United on Sunday 25 October?", "options": ["0–1", "0–2", "0–3", "1–3"], "answer": 2, "explain": "Bournemouth won 3–0 at Old Trafford."}, {"q": "Who scored twice for the Maple Leafs in their 7–2 win at Edmonton?", "options": ["Auston Matthews", "William Nylander", "Troy Stecher", "Zack MacEwen"], "answer": 1, "explain": "Nylander scored twice; Draisaitl got both Oilers goals."}, {"q": "Which team sits bottom of the Premier League on 5 points?", "options": ["Coventry City", "Nottingham Forest", "Sunderland", "Fulham"], "answer": 2, "explain": "Sunderland drew 0–0 with Leeds and stay bottom on 5."}, {"q": "What did Trump say he would not do until after the 3 November midterms, according to The National?", "options": ["Meet Iran's president", "Strike Iran", "Lift oil sanctions", "Withdraw carriers"], "answer": 1, "explain": "He has said he would not strike Iran until after the midterm elections."}, {"q": "Who is Olivia Chow's main opponent in the Toronto mayoral race?", "options": ["Ana Bailão", "John Tory", "Brad Bradford", "Chris Alexander"], "answer": 2, "explain": "Brad Bradford; Chris Alexander suspended his campaign on 6 October."}, {"q": "What hours are the Toronto polls open on election day, 26 October?", "options": ["8 a.m. to 6 p.m.", "10 a.m. to 8 p.m.", "9 a.m. to 9 p.m.", "Noon to midnight"], "answer": 1, "explain": "Polls are open 10 a.m. to 8 p.m."}, {"q": "Which club won 2–0 at Chelsea on Saturday 24 October?", "options": ["Arsenal", "Everton", "Tottenham Hotspur", "Fulham"], "answer": 2, "explain": "Chelsea 0–2 Tottenham Hotspur."}, {"q": "Which rocket launched Starlink 15-15 on 23 October after three scrubs?", "options": ["Starship", "Falcon Heavy", "Falcon 9", "New Glenn"], "answer": 2, "explain": "A Falcon 9 from Vandenberg, on the fourth attempt (Spaceflight Now)."}, {"q": "Which Premier League side travel to Chelsea on Saturday 31 October at 12:30 UK?", "options": ["Manchester United", "Newcastle United", "Leeds United", "Everton"], "answer": 0, "explain": "Chelsea v Manchester United is the 12:30 kick-off."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>

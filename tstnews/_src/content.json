@@ -1,8 +1,8 @@
 {
- "date": "2026-10-25",
- "label": "Sunday 25 October 2026",
- "note": "Refresh of Sun 25 Oct 2026 (early morning, Toronto time). A limited run: most permitted feeds (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and the Sunday football page were refused by the fetch tool. Verified today: Euronews 'Just in' page (24 Oct), three Al Jazeera/Euronews articles on Iran and the Italian protests (24 Oct), and the Premier League pages for 19 and 24 Oct (footballwebpages.co.uk; table as of Sat 24 Oct 14:23 UK, Saturday's other results were still in progress on the page and are not verified). The Toronto mayoral race text is unchanged from 22 Oct (Wikipedia lists no result; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 25 Oct.",
- "sport_note": "Refresh of Sun 25 Oct 2026 (early morning, Toronto time). A limited run: most permitted feeds (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and the Sunday football page were refused by the fetch tool. Verified today: Euronews 'Just in' page (24 Oct), three Al Jazeera/Euronews articles on Iran and the Italian protests (24 Oct), and the Premier League pages for 19 and 24 Oct (footballwebpages.co.uk; table as of Sat 24 Oct 14:23 UK, Saturday's other results were still in progress on the page and are not verified). The Toronto mayoral race text is unchanged from 22 Oct (Wikipedia lists no result; election day Mon 26 Oct). Everything else keeps its earlier text and is as of its stated date, not re-checked 25 Oct.",
+ "date": "2026-10-26",
+ "label": "Monday 26 October 2026",
+ "note": "Refresh of Mon 26 Oct 2026 (early morning, Toronto time, before the Toronto polls opened). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and most other pages were refused by the fetch tool after a retry, so the Headlines lists are unchanged from 25 Oct. Verified today: Premier League results and table (footballwebpages.co.uk, 25 Oct 18:24 UK), Leafs 7–2 at Edmonton (surprisesports.com), the Iran/Trump report of 25 Oct (The National), Wikipedia's Toronto election page, and SpaceX launches (Spaceflight Now). Not verified: the F1 United States GP result, the World Series, Ligue 1 and tennis. Everything else keeps its earlier text and is as of its stated date.",
+ "sport_note": "Refresh of Mon 26 Oct 2026 (early morning, Toronto time, before the Toronto polls opened). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and most other pages were refused by the fetch tool after a retry, so the Headlines lists are unchanged from 25 Oct. Verified today: Premier League results and table (footballwebpages.co.uk, 25 Oct 18:24 UK), Leafs 7–2 at Edmonton (surprisesports.com), the Iran/Trump report of 25 Oct (The National), Wikipedia's Toronto election page, and SpaceX launches (Spaceflight Now). Not verified: the F1 United States GP result, the World Series, Ligue 1 and tennis. Everything else keeps its earlier text and is as of its stated date.",
  "sections": [
   {
    "id": "headlines",
@@ -171,9 +171,10 @@
    "items": [
     {
      "t": "Iran war and the Strait of Hormuz",
-     "tag": "Ongoing conflict · update 24 Oct",
+     "tag": "Ongoing conflict · update 25 Oct",
      "gap": false,
      "w": [
+      "Update, 25 Oct: Trump says he has \"a decision to make\" on Iran. He told Fox News: \"Do I finish it off, which would be very easy to do, or do I make a deal?\", then told reporters at the White House that \"there will not be a strike today\". He has said he will not strike before the 3 November US midterm elections, and officials warn the period between the election and the new Congress could be especially dangerous. CENTCOM chief Adm. Brad Cooper visited the Strait of Hormuz on Sunday; CENTCOM says US forces have cleared shipping lanes of Iranian mines and helped Gulf allies export more than 1.5 billion barrels since summer. A third US carrier group is heading for the Arabian Gulf, and the US is trimming diplomatic and military staff in parts of the Middle East because of Iranian and Houthi threats. The article did not report an Iranian reply (The National, 25 Oct).",
       "Friday's fighting spread beyond the Gulf. Al Jazeera's 16 October live page is headlined \"Strikes hit Houthis in Taiz, coalition intercepts attacks\", with the web address pointing to Saudi criticism of the Houthis and a US warning about Saudi airports; the page itself gave no casualty figures. Another headline has Tehran saying it is ready to respond to any US threats against its energy plants, and Iran's president Masoud Pezeshkian warning of the war's long-term environmental damage.",
       "Al Jazeera also ran an explainer on 16 October, \"Trump rules out using a nuclear bomb on Iran: Why that matters\"; its detail was not read here.",
       "Hormuz is getting more dangerous, not less. Al Jazeera reports the UKMTO logged 15 attacks on shipping between 6 and 14 October, 11 of them in the last four days, and Kpler counted 10 tankers struck from 28 September to 4 October. The US-Navy-led JMIC rates the threat to merchant shipping \"severe\", its second-highest level.",
@@ -190,8 +191,12 @@
       "Inflation matters because central banks such as the Bank of Canada, the Bank of England and the US Federal Reserve respond to it by moving interest rates. Higher rates make borrowing dearer and usually weigh on bond prices and on shares, especially in growth sectors.",
       "So a conflict thousands of kilometres away reaches a Toronto investor through fuel costs, mortgage rates and the value of an ETF portfolio."
      ],
-     "s": "As of 24 Oct 2026 · Al Jazeera",
+     "s": "As of 25 Oct 2026 · The National (25 Oct), Al Jazeera (24 Oct and earlier)",
      "links": [
+      {
+       "text": "The National: Trump has 'a decision to make' on Iran",
+       "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/"
+      },
       {
        "text": "Al Jazeera: Iran says won't allow US warships to get close (24 Oct)",
        "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks"
@@ -496,8 +501,9 @@
     },
     {
      "t": "Mayoral election on 26 October",
-     "tag": "Election · 26 Oct · debate tonight",
+     "tag": "Election day · 26 Oct · polls open 10 a.m. to 8 p.m.",
      "w": [
+      "Election day, Mon 26 Oct: polls are open from 10 a.m. to 8 p.m. and no result was available when this page was built (early morning). Wikipedia's election page lists the most recent polls, by Liaison Strategies on 24–25 October, at Chow 52% and Bradford 44%, though other late polls range from a Bradford lead of about 1 point to a Chow lead of 11. Chris Alexander (suspended 6 Oct) and Odessa Paloma Parker (dropped out 21 Oct) remain on the ballot. Polls are projections, not results; check CP24 or Global News tonight.",
       "Latest, 22 Oct: four days out, the race is a statistical tie. A Nanos Research poll for CP24 and CTV News Toronto, taken 15 to 18 October among 762 Torontonians (margin of error ±3.6 points), puts Olivia Chow on 49.8% and Brad Bradford on 46.6% of decided voters, with 4% for another candidate and 16% of respondents undecided. Tonight at 7 p.m. the two front-runners meet in the final debate, \"Toronto Decides\", moderated by CTV News Toronto's Michelle Dube, with Newstalk 1010's John Moore bringing in viewer questions. It is on CP24, CP24.com, CTVNewsToronto.ca and Crave. Election day is Monday 26 October.",
       "Latest, 21 Oct: the race is a coin flip. Two polls published on Tuesday disagree on who leads: Mainstreet Research has Brad Bradford on 48.9% and Olivia Chow on 47.5%, which it calls \"nearly equal\" (Bradford ahead in Etobicoke and North York, Chow in Scarborough and downtown), while Pollara Strategic Insights has Chow on 53% to Bradford's 46% among decided voters. On the trail, Chow pressed Bradford over tenant conditions at 500 Dawes Road and promised a RentSafeTO task force; both candidates have pledged to eliminate TTC slow zones (Global News, 20 Oct). Election day is Monday 26 October.",
       "Latest, 19 Oct: a Nanos poll taken 8–10 October (via CP24's 15 October live blog) has Olivia Chow on 51% and Brad Bradford on 47% of decided voters. The final debate, \"Toronto Decides\", airs live on CP24 on Thursday 22 October at 7 p.m. Chow is pitching 15,000 youth jobs; Bradford is promising to prioritize the Eglinton East LRT and make Toronto Water a public utility.",
@@ -523,8 +529,12 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. Your voter notification card or myvote.toronto.ca shows where to vote on election day, and you need ID showing your name and Toronto address (a passport alone is not accepted because it has no address). Advance voting for this election has already closed.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 22 Oct 2026 · CP24 (20 and 21 Oct) for the Nanos poll and debate details; other polls from 6-20 Oct as dated",
+     "s": "As of 26 Oct 2026 (before polls opened) · Wikipedia, Now Toronto, CP24, CTV, Global News",
      "links": [
+      {
+       "text": "Wikipedia: 2026 Toronto mayoral election",
+       "url": "https://en.wikipedia.org/wiki/2026_Toronto_mayoral_election"
+      },
       {
        "text": "CP24: Chow and Bradford in statistical tie with election less than a week away (Nanos poll)",
        "url": "https://www.cp24.com/local/toronto/2026/10/20/exclusive-poll-olivia-chow-and-brad-bradford-in-statistical-tie-with-toronto-election-less-than-one-week-away/",
@@ -614,8 +624,9 @@
     },
     {
      "t": "Leafs, Jays and Raptors",
-     "tag": "Leafs 5-4-2 (as of 21 Oct) · not re-checked 22 Oct",
+     "tag": "Leafs 7-4-2 (surprisesports.com, 24 Oct)",
      "w": [
+      "Toronto went to Edmonton and won 7–2 on Saturday night. William Nylander scored twice, with Jack Roslovic, Auston Matthews, Troy Stecher, Zack MacEwen and Vinni Lettieri adding the rest, and Anthony Stolarz made 30 saves; Leon Draisaitl scored both Oilers goals (surprisesports.com). The Leafs are listed at 7-4-2, which implies a win over the Rangers on Thursday that was not separately verified.",
       "The Leafs finally found their legs. Toronto beat the Columbus Blue Jackets 6–2 on Tuesday night: Kirill Marchenko scored on the power play in his return to Columbus, with William Nylander, Auston Matthews, Easton Cowan (short-handed), Jack Roslovic and Marshall Rifai, who got his first NHL goal, adding the rest. Anthony Stolarz made 35 saves, and the win, their second straight, lifts Toronto to 5-4-2 (NHL.com). The Rangers visit Scotiabank Arena on Thursday.",
       "The Rangers come to town on Thursday and Edmonton host on Saturday (7 pm ET, per the earlier schedule list). Earlier reporting had Tavares and Tanev out week-to-week; that was not re-checked today.",
       "Columbus is next on Tuesday, then the Rangers at home on Thursday and Edmonton on Saturday. Earlier reporting had Tavares and Tanev out week-to-week; that was not re-checked today.",
@@ -625,7 +636,7 @@
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 21 Oct 2026 · NHL.com (Leafs recap, 20 Oct), Global News (19–20 Oct) · Raptors' opener result and Wednesday's games not verified on 22 Oct",
+     "s": "As of 25 Oct 2026 · surprisesports.com (Leafs 7–2 Oilers, 24 Oct); other lines as of 21 Oct",
      "links": [
       {
        "text": "NHL.com: Marchenko scores in Columbus return, Maple Leafs pull away",
@@ -828,18 +839,22 @@
     },
     {
      "t": "Bournemouth",
-     "tag": "Football · 3–0 over Milan",
+     "tag": "Football · 3–0 at Old Trafford",
      "w": [
-      "Bournemouth went from bottom-three worries to a European scalp. On Thursday night the Cherries beat AC Milan 3–0 in the Europa League (UEFA.com, 22 Oct), a week after their first Premier League win of the season, 2–0 over Sunderland, lifted them to 15th with 6 points.",
-      "Next is Manchester United away on Sunday 25 October at 2 pm (footballwebpages.co.uk, checked 23 Oct). No other Bournemouth town news dated this week was found."
+      "Bournemouth have won at Old Trafford, 3–0. Sunday's result (footballwebpages.co.uk) leaves Manchester United 16th on 7 points and lifts the Cherries to 13th on 9, after Thursday's 3–0 Europa League win over AC Milan (UEFA.com) and their 2–0 win over Sunderland a week earlier.",
+      "Next is Leeds United at home on Saturday 31 October at 3 pm (UK). No other Bournemouth town news dated this week was found."
      ],
      "n": [
       "Bournemouth is a seaside town on England's south coast in Dorset, famous for about seven miles of sandy beach, a Victorian pier and cliffs cut by wooded gorges called chines. It grew as a Victorian resort and now supports tourism, finance and a large student population.",
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league."
      ],
-     "s": "As of 23 Oct 2026 · UEFA.com, footballwebpages.co.uk",
+     "s": "As of 26 Oct 2026 · footballwebpages.co.uk (25 Oct), UEFA.com",
      "link": "football/#premier-league",
      "links": [
+      {
+       "text": "footballwebpages.co.uk: Premier League, 25 Oct",
+       "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
+      },
       {
        "text": "UEFA.com: Europa League results (matchday 3)",
        "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
@@ -1444,8 +1459,9 @@
     },
     {
      "t": "SpaceX",
-     "tag": "Launches this month",
+     "tag": "Launches this month · update 26 Oct",
      "w": [
+      "Latest: after three scrubs, Falcon 9 launched Starlink 15-15 from Vandenberg on Friday 23 October at 3:48 p.m. PDT, on the fourth attempt (Spaceflight Now). Before that, Bandwagon-5 with the Starfall reentry capsule and 31 customer payloads was scheduled for Tuesday 20 October from pad 40 at Cape Canaveral. Spaceflight Now's October page has no Starship news.",
       "Latest, 21 Oct: SpaceX scrubbed a Tuesday attempt to launch 27 Starlink satellites on a Falcon 9 from Vandenberg (Spaceflight Now, 20 Oct); the page did not give a new date. Before that, a Falcon 9 launched a classified payload for the US Space Force on 15 October.",
       "Latest, 19 Oct: Spaceflight Now lists a Falcon 9 launch of a classified payload for the US Space Force from Vandenberg on 15 October (5:01 pm PDT), and a new target of Tuesday 20 October at 6:30 am EDT, from pad 40 at Cape Canaveral, for the Bandwagon-5 rideshare carrying the Starfall reentry capsule after a weather scrub. Its October page showed no Starship headlines.",
       "SpaceX has been on a roll this week. A Falcon 9 launched NASA's CRS-35 cargo Dragon on Tuesday 13 October at 6:33 am EDT from Cape Canaveral, and the booster, flying for the eighth time, landed back at the pad. Dragon is due to dock at the station on the morning of Thursday 15 October.",
@@ -1456,7 +1472,7 @@
       "Starship is its giant next-generation rocket, designed to be fully reusable and to carry people and cargo to the Moon and Mars. Each test flight teaches the engineers what to fix next, which is why SpaceX launches early and often.",
       "Starlink is the satellite internet network, with thousands of satellites in low orbit. 'V3' is the next, larger generation of those satellites."
      ],
-     "s": "As of 21 Oct 2026 · Spaceflight Now (October page, read 21 Oct)",
+     "s": "As of 26 Oct 2026 · Spaceflight Now (October page)",
      "links": [
       {
        "text": "Spaceflight Now: SpaceX scrubs launch of 27 Starlink satellites from Vandenberg",
@@ -1842,31 +1858,32 @@
    "cards": [
     {
      "t": "Premier League",
-     "tag": "After 7–8 games (table as of Fri 23 Oct)",
+     "tag": "After 8 games each (table as of Sun 25 Oct)",
      "w": [
-      "Manchester City stay perfect: seven wins from seven keep them top on 21 points, with Arsenal second on 18 and Brighton third on 16 and a goal difference of +18. Friday night brought a 1–1 draw at Ipswich against Nottingham Forest, which lifts Ipswich to 9th on 10 points and Forest to 16th on 6.",
-      "Tottenham, whose first win of the season came on Monday (3–1 against Coventry), are 17th on 6 points, level with Bournemouth, Forest and Coventry. Sunderland are bottom on 4.",
-      "Saturday is a big one: Aston Villa v Manchester City at 12:30, Arsenal v Everton and Coventry v Fulham at 15:00, and Chelsea v Tottenham at 17:30 (UK). Five more games follow on Sunday, including Manchester United v Bournemouth at 14:00."
+      "A dead heat at the top: Manchester City and Arsenal both have 21 points after eight games, City ahead on goal difference (+11 to +8). Arsenal beat Everton 2–0 on Saturday; City had lost 2–1 at Aston Villa, ending their perfect start.",
+      "Sunday's biggest story was at Old Trafford, where Bournemouth won 3–0 to leave Manchester United 16th on 7 points. Liverpool beat Brighton 2–0 to climb to fourth on 15, Newcastle won 2–0 at Crystal Palace, and Sunderland drew 0–0 with Leeds but stay bottom on 5. Spurs won 2–0 at Chelsea.",
+      "Next up on Saturday 31 October: Chelsea v Manchester United at 12:30, Manchester City v Brighton at 15:00 and Aston Villa v Fulham at 20:00 (UK)."
      ],
      "f": [
-      "Leaders: Manchester City 21, Arsenal 18, Brighton 16",
-      "Bottom: Sunderland 4, Fulham 5, then four clubs on 6",
-      "Saturday 24 Oct: Villa v Man City 12:30, Arsenal v Everton 15:00, Coventry v Fulham 15:00, Chelsea v Spurs 17:30"
+      "Leaders: Manchester City 21 (+11), Arsenal 21 (+8), Brighton 16",
+      "Bottom: Sunderland 5, then Forest and Coventry on 6",
+      "Sun 25 Oct: Man Utd 0–3 Bournemouth, Liverpool 2–0 Brighton",
+      "Next: Chelsea v Man Utd, Sat 31 Oct, 12:30 UK"
      ],
      "n": [
       "The Premier League is England's top division, with 20 clubs. Each plays every other club twice, home and away, for 38 matches. A win earns 3 points, a draw 1 and a defeat 0. Ties in points are split by goal difference, then goals scored.",
       "The bottom three clubs are relegated to the Championship, and three clubs promoted from there take their place. This promotion and relegation system runs through all of English football, down through League One, League Two and the non-league levels.",
       "The top finishers qualify for European competition the following season, so the table matters at the top as well as the bottom. The season runs from August to May."
      ],
-     "s": "Table as of Fri 23 Oct 2026, 21:58 UK (footballwebpages.co.uk)",
+     "s": "Table as of Sun 25 Oct 2026, 18:24 UK (footballwebpages.co.uk)",
      "links": [
       {
-       "text": "footballwebpages.co.uk: Premier League table, 19 Oct",
-       "url": "https://www.footballwebpages.co.uk/premier-league/20261019"
+       "text": "footballwebpages.co.uk: Premier League, 25 Oct",
+       "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
       },
       {
-       "text": "footballwebpages.co.uk: results, 18 Oct",
-       "url": "https://www.footballwebpages.co.uk/premier-league/20261018"
+       "text": "footballwebpages.co.uk: Premier League, 24 Oct",
+       "url": "https://www.footballwebpages.co.uk/premier-league/20261024"
       }
      ]
     },
@@ -1985,7 +2002,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Sat 24 Oct 2026, 14:23 UK (after Fri's Ipswich 1–1 Forest and Villa 2–1 City; Saturday's later games not included)",
+       "asof": "Sun 25 Oct 2026, 18:24 UK, all clubs have played 8 (footballwebpages.co.uk)",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -2011,45 +2028,75 @@
         [
          2,
          "Arsenal",
+         8,
          7,
-         6,
          0,
          1,
-         "+6",
-         18
+         "+8",
+         21
         ],
         [
          3,
          "Brighton & Hove Albion",
-         7,
+         8,
          5,
          1,
-         1,
-         "+18",
+         2,
+         "+16",
          16
         ],
         [
          4,
-         "Chelsea",
-         7,
+         "Liverpool",
+         8,
          4,
+         3,
          1,
-         2,
-         "+4",
-         13
+         "+3",
+         15
         ],
         [
          5,
-         "Liverpool",
-         7,
-         3,
-         3,
+         "Chelsea",
+         8,
+         4,
          1,
-         "+1",
-         12
+         3,
+         "+2",
+         13
         ],
         [
          6,
+         "Brentford",
+         8,
+         2,
+         5,
+         1,
+         "+5",
+         11
+        ],
+        [
+         7,
+         "Leeds United",
+         8,
+         2,
+         5,
+         1,
+         "+3",
+         11
+        ],
+        [
+         8,
+         "Newcastle United",
+         8,
+         3,
+         2,
+         3,
+         "-2",
+         11
+        ],
+        [
+         9,
          "Aston Villa",
          8,
          3,
@@ -2059,37 +2106,27 @@
          11
         ],
         [
-         7,
-         "Brentford",
-         7,
-         2,
-         4,
-         1,
-         "+5",
-         10
-        ],
-        [
+         10,
+         "Hull City",
          8,
-         "Leeds United",
-         7,
          2,
          4,
-         1,
-         "+3",
-         10
-        ],
-        [
-         9,
-         "Everton",
-         7,
          2,
-         4,
-         1,
          "+1",
          10
         ],
         [
-         10,
+         11,
+         "Everton",
+         8,
+         2,
+         4,
+         2,
+         "-1",
+         10
+        ],
+        [
+         12,
          "Ipswich Town",
          8,
          3,
@@ -2099,57 +2136,57 @@
          10
         ],
         [
-         11,
-         "Hull City",
-         7,
+         13,
+         "AFC Bournemouth",
+         8,
          2,
          3,
-         2,
-         "+1",
+         3,
+         "-1",
          9
         ],
         [
-         12,
-         "Newcastle United",
-         7,
-         2,
+         14,
+         "Tottenham Hotspur",
+         8,
          2,
          3,
-         "-4",
-         8
-        ],
-        [
-         13,
-         "Manchester United",
-         7,
-         1,
-         4,
-         2,
-         "0",
-         7
-        ],
-        [
-         14,
-         "Crystal Palace",
-         7,
-         2,
-         1,
-         4,
-         "-8",
-         7
+         3,
+         "-2",
+         9
         ],
         [
          15,
-         "AFC Bournemouth",
-         7,
-         1,
-         3,
-         3,
-         "-4",
-         6
+         "Fulham",
+         8,
+         2,
+         2,
+         4,
+         "-2",
+         8
         ],
         [
          16,
+         "Manchester United",
+         8,
+         1,
+         4,
+         3,
+         "-3",
+         7
+        ],
+        [
+         17,
+         "Crystal Palace",
+         8,
+         2,
+         1,
+         5,
+         "-10",
+         7
+        ],
+        [
+         18,
          "Nottingham Forest",
          8,
          1,
@@ -2159,44 +2196,24 @@
          6
         ],
         [
-         17,
-         "Tottenham Hotspur",
-         7,
-         1,
-         3,
-         3,
-         "-4",
-         6
-        ],
-        [
-         18,
+         19,
          "Coventry City",
-         7,
+         8,
          2,
          0,
-         5,
-         "-8",
+         6,
+         "-9",
          6
-        ],
-        [
-         19,
-         "Fulham",
-         7,
-         1,
-         2,
-         4,
-         "-3",
-         5
         ],
         [
          20,
          "Sunderland",
-         7,
+         8,
          1,
-         1,
+         2,
          5,
          "-8",
-         4
+         5
         ]
        ],
        "movement": true,
@@ -2204,20 +2221,28 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Aston Villa's win over Manchester City ends City's perfect start, but they stay top on 21 points. Bournemouth are 15th on 6 points and play Manchester United on Sunday. Sunderland are bottom on 4.",
+       "note": "Manchester City and Arsenal are level on 21 points, City ahead on goal difference; Brighton, third on 16, lost 2–0 at Liverpool. Bournemouth beat Manchester United 3–0 at Old Trafford to climb to 13th on 9 points. Sunderland are bottom on 5. W/D/L columns are worked out from the earlier table plus this weekend's results and agree with every points total.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Premier League, 25 Oct (table updated 23 Oct)",
+         "text": "footballwebpages.co.uk: Premier League, 25 Oct",
          "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
         }
        ]
       },
       {
        "id": "pl-results",
-       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, 23–24 Oct)",
-       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk, page read 15:07 UK)",
+       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, 23–25 Oct)",
+       "asof": "Sun 25 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct, read 26 Oct)",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Crystal Palace 0–2 Newcastle United (Sun 25 Oct)",
+        "Hull City 1–1 Brentford (Sun 25 Oct)",
+        "Liverpool 2–0 Brighton & Hove Albion (Sun 25 Oct)",
+        "Manchester United 0–3 AFC Bournemouth (Sun 25 Oct)",
+        "Sunderland 0–0 Leeds United (Sun 25 Oct)",
+        "Arsenal 2–0 Everton (Sat 24 Oct)",
+        "Chelsea 0–2 Tottenham Hotspur (Sat 24 Oct)",
+        "Coventry City 0–1 Fulham (Sat 24 Oct)",
         "Aston Villa 2–1 Manchester City (Sat 24 Oct)",
         "Ipswich Town 1–1 Nottingham Forest (Fri 23 Oct)",
         "Tottenham Hotspur 3–1 Coventry City (Mon 19 Oct)",
@@ -2242,7 +2267,7 @@
         "Sunderland 0–2 Brighton & Hove Albion (Sat 10 Oct)"
        ],
        "highlights": true,
-       "note": "Not verified: Arsenal v Everton, Coventry v Fulham and Chelsea v Tottenham (Sat 24 Oct) were still in progress or not started when the page was read, and no later page was readable; check footballwebpages.co.uk. Sunday's scores: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). Brighton's 5–0 comes from a news item and is consistent with the table's goal differences; footballwebpages.co.uk listed 4–0 at 82' while in play. Each Highlights link searches the fuboTV Soccer YouTube channel.",
+       "note": "Every match of the 23–25 Oct round is listed (Fri Ipswich 1–1 Forest and Sat Villa 2–1 City were already in the list). Earlier-round notes: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). The page's table links showed provisional scores for some Sunday games (for example Hull 1–0 Brentford) that differ from the full-time list; the full-time list is used here and agrees with the table's goal differences. Each Highlights link searches the fuboTV Soccer YouTube channel.",
        "links": [
         {
          "text": "fuboTV Soccer on YouTube (all videos)",
@@ -2257,28 +2282,23 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Sat 24 Oct 2026 (footballwebpages.co.uk; UK times)",
+       "asof": "Sat 31 Oct 2026 list (footballwebpages.co.uk, UK times, read 26 Oct)",
        "source": "footballwebpages.co.uk",
        "items": [
-        "Sat 24 Oct, 12:30: Aston Villa v Manchester City",
-        "Sat 24 Oct, 15:00: Arsenal v Everton",
-        "Sat 24 Oct, 15:00: Coventry City v Fulham",
-        "Sat 24 Oct, 17:30: Chelsea v Tottenham Hotspur",
-        "Sun 25 Oct, 14:00 (Sky): Crystal Palace v Newcastle United",
-        "Sun 25 Oct, 14:00 (Sky): Hull City v Brentford",
-        "Sun 25 Oct, 14:00 (Sky PL): Liverpool v Brighton & Hove Albion",
-        "Sun 25 Oct, 14:00 (Sky): Manchester United v AFC Bournemouth",
-        "Sun 25 Oct, 16:30 (Sky PL): Sunderland v Leeds United"
+        "Sat 31 Oct, 12:30: Chelsea v Manchester United",
+        "Sat 31 Oct, 15:00: AFC Bournemouth v Leeds United",
+        "Sat 31 Oct, 15:00: Brentford v Nottingham Forest",
+        "Sat 31 Oct, 15:00: Coventry City v Sunderland",
+        "Sat 31 Oct, 15:00: Hull City v Ipswich Town",
+        "Sat 31 Oct, 15:00: Manchester City v Brighton & Hove Albion",
+        "Sat 31 Oct, 17:30: Tottenham Hotspur v Crystal Palace",
+        "Sat 31 Oct, 20:00: Aston Villa v Fulham"
        ],
-       "note": "Saturday's afternoon and evening results were not verified (see Latest results). Sunday's fixtures are as listed on 23 Oct; any Monday fixtures were not checked.",
+       "note": "Only the Saturday 31 October games were readable; Sunday 1 November and any midweek or cup games were not checked, and Arsenal, Everton, Liverpool and Newcastle do not appear on the Saturday list.",
        "links": [
         {
-         "text": "footballwebpages.co.uk: Premier League, 24 Oct",
-         "url": "https://www.footballwebpages.co.uk/premier-league/20261024"
-        },
-        {
-         "text": "footballwebpages.co.uk: Premier League, 25 Oct",
-         "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
+         "text": "footballwebpages.co.uk: Premier League, 31 Oct",
+         "url": "https://www.footballwebpages.co.uk/premier-league/20261031"
         }
        ]
       }
@@ -4337,7 +4357,7 @@
      "tag": "Season over",
      "w": [
       "October baseball is going on without Toronto. The Blue Jays were eliminated with a 4–2 loss to the Orioles on 23 September, as reported by CP24 and MLB.com, so the reigning American League champions are watching from home.",
-      "The league championship series are well under way. In the National League the Brewers lead the Dodgers 3–0, after beating the Padres in four games in the division series. In the American League the Guardians and Rays are level at 1–1. The World Series is due to open on Friday 23 October."
+      "The World Series was due to open on Friday 23 October, with a possible Game 7 on 31 October in Milwaukee (Flashscore). The Brewers had a 3–0 lead over the Dodgers in the NLCS (MLB.com, mid-October); World Series results were not verified on 26 Oct."
      ],
      "n": [
       "Baseball is played between two teams of nine across nine innings. In each innings one team bats and the other fields, and a half-innings ends after three outs. The pitcher throws to the batter, who tries to hit the ball and run round four bases to score.",
@@ -4540,23 +4560,27 @@
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "5-4-2 · 6–2 at Columbus",
+     "tag": "7-4-2 · 7–2 at Edmonton",
      "w": [
-      "The Leafs have stopped the slide. They beat Columbus 6–2 on Tuesday, with Marchenko, Nylander, Matthews, Cowan (short-handed), Roslovic and rookie Marshall Rifai, scoring his first NHL goal, and Anthony Stolarz stopping 35 shots. It was their second straight win after a three-game skid and moves them to 5-4-2 (NHL.com).",
-      "Next: the Rangers at Scotiabank Arena on Thursday 22 October, then Edmonton on Saturday 24 October (times from the earlier schedule list, not re-read)."
+      "A statement win in Edmonton: the Leafs beat the Oilers 7–2 on Saturday 24 October. Nylander scored twice, Roslovic, Matthews, Stecher, MacEwen and Lettieri added one each, and Stolarz made 30 saves. Draisaitl got both Edmonton goals.",
+      "The record is listed at 7-4-2 (surprisesports.com). The next game was not verified; check the NHL schedule."
      ],
      "f": [
-      "Record: 5 wins, 4 losses, 2 overtime losses (12 points, 11 games)",
-      "Last result: 6–2 at Columbus, 20 Oct",
-      "Next: v NY Rangers, Thu 22 Oct, 7 pm ET"
+      "Record: 7 wins, 4 losses, 2 overtime losses (as listed 24 Oct)",
+      "Last result: 7–2 at Edmonton, 24 Oct",
+      "Next: not verified"
      ],
      "n": [
       "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 21 Oct 2026 · NHL.com recap (20 Oct)",
+     "s": "As of 25 Oct 2026 · surprisesports.com",
      "links": [
+      {
+       "text": "surprisesports.com: Maple Leafs vs Oilers, 24 Oct",
+       "url": "https://surprisesports.com/scores/nhl/maple-leafs-vs-oilers-401892574/"
+      },
       {
        "text": "NHL.com: Marchenko scores in Columbus return, Maple Leafs pull away",
        "url": "https://www.nhl.com/news/toronto-maple-leafs-columbus-blue-jackets-game-recap-october-20-2026"
@@ -4564,10 +4588,6 @@
       {
        "text": "Global News: Bobrovsky, Maple Leafs looking to find traction",
        "url": "https://globalnews.ca/news/12107016/bobrovsky-maple-leafs-looking-to-find-traction/"
-      },
-      {
-       "text": "Global News: Horvat leads Islanders past Maple Leafs 4-1",
-       "url": "https://globalnews.ca/news/12106751/horvat-leads-islanders-past-maple-leafs/"
       }
      ]
     }
@@ -4582,17 +4602,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "21 Oct 2026 (NHL.com recap)",
+       "asof": "24 Oct 2026 (surprisesports.com)",
        "source": "surprisesports.com",
        "items": [
-        "5 wins, 4 losses, 2 overtime losses: 12 points after 11 games (5-4-2)"
+        "7 wins, 4 losses, 2 overtime losses (7-4-2) as listed after the 24 Oct game; 16 points if the usual 2-points-per-win rule applies"
        ],
        "note": "An overtime loss earns 1 point."
       },
       {
        "id": "tml-res",
        "title": "Last five games",
-       "asof": "21 Oct 2026 (NHL.com for 20 Oct; earlier rows from Global News and surprisesports.com)",
+       "asof": "24 Oct 2026 (surprisesports.com); the 22 Oct Rangers game is not in the list (result not verified)",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -4601,6 +4621,12 @@
         "Result"
        ],
        "rows": [
+        [
+         "24 Oct",
+         "@ Edmonton Oilers",
+         "7–2",
+         "W"
+        ],
         [
          "20 Oct",
          "@ Columbus Blue Jackets",
@@ -4624,12 +4650,6 @@
          "@ Buffalo Sabres",
          "4–5",
          "L (OT)"
-        ],
-        [
-         "13 Oct",
-         "@ Utah Mammoth",
-         "4–5",
-         "L"
         ]
        ],
        "links": [
@@ -4642,23 +4662,14 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "21 Oct 2026 (surprisesports.com list of 19 Oct; Eastern time; not re-read)",
+       "asof": "26 Oct 2026 · not verified",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
         "Opponent"
        ],
-       "rows": [
-        [
-         "22 Oct, 7:00 pm",
-         "v New York Rangers"
-        ],
-        [
-         "24 Oct, 7:00 pm",
-         "@ Edmonton Oilers"
-        ]
-       ],
-       "note": ""
+       "rows": [],
+       "note": "Not verified: the schedule pages could not be read on 26 Oct. Check nhl.com/mapleleafs."
       },
       {
        "id": "nhl-table",
@@ -4690,11 +4701,12 @@
    "cards": [
     {
      "t": "Formula 1",
-     "tag": "Singapore GP done; US GP next",
+     "tag": "US GP weekend: result not verified",
      "w": [
       "Max Verstappen has won in Singapore from pole, and the title race did not flinch. The Red Bull driver took a lights-to-flag victory at Marina Bay on Sunday 11 October, ahead of Ferrari's Charles Leclerc and Mercedes' Kimi Antonelli, after also winning the sprint earlier in the weekend.",
       "Antonelli's third place stretches his championship lead to 102 points: 340 against team-mate George Russell's 238, who finished ninth. Lewis Hamilton is third on 229, Verstappen fourth on 221. Mercedes lead the constructors' on 578 from Ferrari (444) and McLaren (339).",
-      "The United States Grand Prix in Austin on 23 to 25 October could crown Antonelli: he needs to win, with Russell ninth or lower and Hamilton fifth or lower, to clinch on win count-back. If not, the title would go to Mexico City."
+      "The United States Grand Prix in Austin on 23 to 25 October could crown Antonelli: he needs to win, with Russell ninth or lower and Hamilton fifth or lower, to clinch on win count-back. If not, the title would go to Mexico City.",
+      "Update, 26 Oct: the United States Grand Prix was scheduled for Sunday 25 October at COTA, with Kimi Antonelli on pole (formulaonehistory.com), but no race result could be verified, so the standings below are still as of the Singapore GP."
      ],
      "f": [
       "Singapore GP (11 Oct): 1 Verstappen, 2 Leclerc, 3 Antonelli",
@@ -5032,118 +5044,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Sunday 25 October 2026",
-  "intro": "Ten questions from today's verified Premier League data: the table, Friday night's draw and the weekend fixtures. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Monday 26 October 2026",
+  "intro": "Ten questions from today's verified stories: the Premier League weekend, the Leafs in Edmonton, Iran and Toronto's election day. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "What price did Brent crude rise to on 23–24 October, its highest since April?",
+    "q": "Which two clubs are level on 21 points at the top of the Premier League after eight games?",
     "options": [
-     "About $87",
-     "About $97",
-     "About $107",
-     "About $117"
-    ],
-    "answer": 3,
-    "explain": "Al Jazeera reported Brent at about $117."
-   },
-   {
-    "q": "On what date did the war with Iran begin, according to Al Jazeera?",
-    "options": [
-     "28 February",
-     "1 March",
-     "28 June",
-     "1 September"
-    ],
-    "answer": 0,
-    "explain": "Al Jazeera says the war began on 28 February 2026."
-   },
-   {
-    "q": "What did Trump say the US military 'may do' again at a Florida rally on 23 October?",
-    "options": [
-     "Another Epic Fury",
-     "Another Desert Storm",
-     "Another Midnight Hammer",
-     "Another Rolling Thunder"
-    ],
-    "answer": 0,
-    "explain": "He said the military 'may do another Epic Fury' (Al Jazeera)."
-   },
-   {
-    "q": "How many extra soldiers did Italy's government send to Milan?",
-    "options": [
-     "50",
-     "200",
-     "500",
-     "5,000"
-    ],
-    "answer": 2,
-    "explain": "Euronews: an additional 500 soldiers, plus drones and railway checks."
-   },
-   {
-    "q": "Of the 45 people arrested in Milan on 17–18 October, how many were minors?",
-    "options": [
-     "12",
-     "23",
-     "34",
-     "41"
-    ],
-    "answer": 2,
-    "explain": "Police said 34 of the 45 arrested were minors."
-   },
-   {
-    "q": "Roughly how many people joined the combined march in Milan on Saturday 24 October?",
-    "options": [
-     "500",
-     "2,000",
-     "10,000",
-     "100,000"
-    ],
-    "answer": 2,
-    "explain": "Euronews put it at around 10,000."
-   },
-   {
-    "q": "Who won Aston Villa v Manchester City on Saturday 24 October?",
-    "options": [
-     "Villa 2–1",
-     "City 2–1",
-     "Draw 1–1",
-     "City 3–0"
-    ],
-    "answer": 0,
-    "explain": "footballwebpages.co.uk lists Aston Villa 2–1 Manchester City at full time."
-   },
-   {
-    "q": "What was the score when Ipswich Town played Nottingham Forest on 23 October?",
-    "options": [
-     "0–0",
-     "1–1",
-     "2–1",
-     "0–1"
+     "Liverpool and Chelsea",
+     "Manchester City and Arsenal",
+     "Arsenal and Brighton",
+     "Manchester City and Liverpool"
     ],
     "answer": 1,
-    "explain": "They drew 1–1."
+    "explain": "City (+11) and Arsenal (+8) have 21 points each, City ahead on goal difference (footballwebpages.co.uk)."
    },
    {
-    "q": "Which team was bottom of the Premier League on Saturday 24 October, with 4 points?",
+    "q": "What was the score when Bournemouth visited Manchester United on Sunday 25 October?",
     "options": [
-     "Fulham",
+     "0–1",
+     "0–2",
+     "0–3",
+     "1–3"
+    ],
+    "answer": 2,
+    "explain": "Bournemouth won 3–0 at Old Trafford."
+   },
+   {
+    "q": "Who scored twice for the Maple Leafs in their 7–2 win at Edmonton?",
+    "options": [
+     "Auston Matthews",
+     "William Nylander",
+     "Troy Stecher",
+     "Zack MacEwen"
+    ],
+    "answer": 1,
+    "explain": "Nylander scored twice; Draisaitl got both Oilers goals."
+   },
+   {
+    "q": "Which team sits bottom of the Premier League on 5 points?",
+    "options": [
      "Coventry City",
+     "Nottingham Forest",
      "Sunderland",
-     "Nottingham Forest"
+     "Fulham"
     ],
     "answer": 2,
-    "explain": "Sunderland have 4 points from 7 games."
+    "explain": "Sunderland drew 0–0 with Leeds and stay bottom on 5."
    },
    {
-    "q": "Which West Bank city did Israel remove about 250 Palestinian families from, per Euronews on 24 October?",
+    "q": "What did Trump say he would not do until after the 3 November midterms, according to The National?",
     "options": [
-     "Nablus",
-     "Hebron",
-     "Jericho",
-     "Ramallah"
+     "Meet Iran's president",
+     "Strike Iran",
+     "Lift oil sanctions",
+     "Withdraw carriers"
     ],
     "answer": 1,
-    "explain": "Euronews headline: Hebron."
+    "explain": "He has said he would not strike Iran until after the midterm elections."
+   },
+   {
+    "q": "Who is Olivia Chow's main opponent in the Toronto mayoral race?",
+    "options": [
+     "Ana Bailão",
+     "John Tory",
+     "Brad Bradford",
+     "Chris Alexander"
+    ],
+    "answer": 2,
+    "explain": "Brad Bradford; Chris Alexander suspended his campaign on 6 October."
+   },
+   {
+    "q": "What hours are the Toronto polls open on election day, 26 October?",
+    "options": [
+     "8 a.m. to 6 p.m.",
+     "10 a.m. to 8 p.m.",
+     "9 a.m. to 9 p.m.",
+     "Noon to midnight"
+    ],
+    "answer": 1,
+    "explain": "Polls are open 10 a.m. to 8 p.m."
+   },
+   {
+    "q": "Which club won 2–0 at Chelsea on Saturday 24 October?",
+    "options": [
+     "Arsenal",
+     "Everton",
+     "Tottenham Hotspur",
+     "Fulham"
+    ],
+    "answer": 2,
+    "explain": "Chelsea 0–2 Tottenham Hotspur."
+   },
+   {
+    "q": "Which rocket launched Starlink 15-15 on 23 October after three scrubs?",
+    "options": [
+     "Starship",
+     "Falcon Heavy",
+     "Falcon 9",
+     "New Glenn"
+    ],
+    "answer": 2,
+    "explain": "A Falcon 9 from Vandenberg, on the fourth attempt (Spaceflight Now)."
+   },
+   {
+    "q": "Which Premier League side travel to Chelsea on Saturday 31 October at 12:30 UK?",
+    "options": [
+     "Manchester United",
+     "Newcastle United",
+     "Leeds United",
+     "Everton"
+    ],
+    "answer": 0,
+    "explain": "Chelsea v Manchester United is the 12:30 kick-off."
    }
   ]
  }
