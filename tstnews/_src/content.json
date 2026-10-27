@@ -1,7 +1,7 @@
 {
- "date": "2026-10-26",
- "label": "Monday 26 October 2026",
- "note": "Refresh of Mon 26 Oct 2026 (early morning, Toronto time, before the Toronto polls opened). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and most other pages were refused by the fetch tool after a retry, so the Headlines lists are unchanged from 25 Oct. Verified today: Premier League results and table (footballwebpages.co.uk, 25 Oct 18:24 UK), Leafs 7–2 at Edmonton (surprisesports.com), the Iran/Trump report of 25 Oct (The National), Wikipedia's Toronto election page, and SpaceX launches (Spaceflight Now). Not verified: the F1 United States GP result, the World Series, Ligue 1 and tennis. Everything else keeps its earlier text and is as of its stated date.",
+ "date": "2026-10-27",
+ "label": "Tuesday 27 October 2026",
+ "note": "Refresh of Tue 27 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, football, tennis, F1 and central-bank pages) was refused by the fetch tool after a retry, and the footballwebpages 25 Oct page failed. Only the Toronto election result (CP24, Wikipedia, The Local) and the 24 Oct Premier League page were read. All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
  "sport_note": "Refresh of Mon 26 Oct 2026 (early morning, Toronto time, before the Toronto polls opened). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and most other pages were refused by the fetch tool after a retry, so the Headlines lists are unchanged from 25 Oct. Verified today: Premier League results and table (footballwebpages.co.uk, 25 Oct 18:24 UK), Leafs 7–2 at Edmonton (surprisesports.com), the Iran/Trump report of 25 Oct (The National), Wikipedia's Toronto election page, and SpaceX launches (Spaceflight Now). Not verified: the F1 United States GP result, the World Series, Ligue 1 and tennis. Everything else keeps its earlier text and is as of its stated date.",
  "sections": [
   {
@@ -49,6 +49,16 @@
      "url": "https://www.cp24.com/",
      "items": [
       {
+       "t": "Olivia Chow won a second term as mayor: Here's how",
+       "url": "https://www.cp24.com/local/toronto/2026/10/27/how-olivia-chow-won-a-second-term/",
+       "when": "27 Oct"
+      },
+      {
+       "t": "Chow re-elected in Toronto. Tedjo wins in Mississauga. How GTA election night unfolded.",
+       "url": "https://www.cp24.com/local/toronto/2026/10/27/olivia-chow-re-elected-as-torontos-mayor-live-updates-here/",
+       "when": "27 Oct"
+      },
+      {
        "t": "Albertans reject separation in historic vote, CTV News projects. Live updates.",
        "url": "https://cp24.com/news/canada/2026/10/20/albertans-reject-separation-in-historic-vote-ctv-news-projects-live-updates",
        "when": "20 Oct"
@@ -62,16 +72,6 @@
        "t": "127 kg of cocaine seized at Ambassador Bridge",
        "url": "https://www.cp24.com/local/peel/2026/10/19/127-kg-of-cocaine-seized-at-ambassador-bridge/",
        "when": "19 Oct"
-      },
-      {
-       "t": "10 suspects connected to ‘violent’ auto theft ring in Peel Region facing 128 charges",
-       "url": "https://www.cp24.com/local/toronto/2026/10/19/10-suspects-connected-to-violent-auto-theft-ring-in-peel-region-facing-128-charges/",
-       "when": "19 Oct"
-      },
-      {
-       "t": "Bradford pledges ‘common sense’ transit plan for Toronto marathon, Chow fires back",
-       "url": "https://www.cp24.com/local/toronto/2026/10/18/bradford-pledges-common-sense-transit-plan-for-toronto-marathon-chow-fires-back/",
-       "when": "18 Oct"
       }
      ]
     },
@@ -500,28 +500,20 @@
      ]
     },
     {
-     "t": "Mayoral election on 26 October",
-     "tag": "Election day · 26 Oct · polls open 10 a.m. to 8 p.m.",
+     "t": "Olivia Chow re-elected Toronto mayor",
+     "tag": "Result · 26 Oct · Chow wins second term",
      "w": [
-      "Election day, Mon 26 Oct: polls are open from 10 a.m. to 8 p.m. and no result was available when this page was built (early morning). Wikipedia's election page lists the most recent polls, by Liaison Strategies on 24–25 October, at Chow 52% and Bradford 44%, though other late polls range from a Bradford lead of about 1 point to a Chow lead of 11. Chris Alexander (suspended 6 Oct) and Odessa Paloma Parker (dropped out 21 Oct) remain on the ballot. Polls are projections, not results; check CP24 or Global News tonight.",
-      "Latest, 22 Oct: four days out, the race is a statistical tie. A Nanos Research poll for CP24 and CTV News Toronto, taken 15 to 18 October among 762 Torontonians (margin of error ±3.6 points), puts Olivia Chow on 49.8% and Brad Bradford on 46.6% of decided voters, with 4% for another candidate and 16% of respondents undecided. Tonight at 7 p.m. the two front-runners meet in the final debate, \"Toronto Decides\", moderated by CTV News Toronto's Michelle Dube, with Newstalk 1010's John Moore bringing in viewer questions. It is on CP24, CP24.com, CTVNewsToronto.ca and Crave. Election day is Monday 26 October.",
-      "Latest, 21 Oct: the race is a coin flip. Two polls published on Tuesday disagree on who leads: Mainstreet Research has Brad Bradford on 48.9% and Olivia Chow on 47.5%, which it calls \"nearly equal\" (Bradford ahead in Etobicoke and North York, Chow in Scarborough and downtown), while Pollara Strategic Insights has Chow on 53% to Bradford's 46% among decided voters. On the trail, Chow pressed Bradford over tenant conditions at 500 Dawes Road and promised a RentSafeTO task force; both candidates have pledged to eliminate TTC slow zones (Global News, 20 Oct). Election day is Monday 26 October.",
-      "Latest, 19 Oct: a Nanos poll taken 8–10 October (via CP24's 15 October live blog) has Olivia Chow on 51% and Brad Bradford on 47% of decided voters. The final debate, \"Toronto Decides\", airs live on CP24 on Thursday 22 October at 7 p.m. Chow is pitching 15,000 youth jobs; Bradford is promising to prioritize the Eglinton East LRT and make Toronto Water a public utility.",
-      "The newest poll keeps Olivia Chow ahead. Liaison Strategies, interviewing 1,000 Torontonians by automated phone on 8 and 9 October (margin of error 3.1 points), put Chow on 51% and Brad Bradford on 46%, with 3% for others, as reported by Now Toronto on 14 October. Renters favour Chow 57% to 40%; homeowners favour Bradford 50% to 45%. By area, Bradford leads in Etobicoke (59-38) and Scarborough (50-47), while Chow leads downtown (57-39) and in North York (50-46).",
-      "It is now a two-horse race. Chris Alexander quit Toronto's mayoral contest on 6 October, hours before a debate, saying his path to victory was \"not obvious and perhaps not there at all\". That leaves Olivia Chow, the incumbent, against Brad Bradford, and their debates have turned sharp, with clashes over transit fares, bike lanes and the city's finances.",
-      "A Liaison Strategies poll published on 6 October, just before Alexander left, had Chow on 48%, Bradford 40% and Alexander 9%. Analysts say Alexander's change-minded supporters are up for grabs, though his name stays on the ballot and many voters may not know he has gone. A Forum Research poll reported by Now Toronto after his exit is headlined as showing Chow ahead by four points.",
-      "A CP24 and CTV News Toronto poll reported on 13 October found Bradford had narrowed Chow's lead to about 3.5 points, and Nanos Research has also called it a two-horse race. Advance voting is over (6 to 11 October), so the remaining chance to vote is election day, Monday 26 October, 10 a.m. to 8 p.m. One week to go."
+      "Olivia Chow has won a second term as Toronto's mayor, and not narrowly. With 99.2% of polls reporting late on Monday, CP24 had her on 529,042 votes, about 54.2%, to Brad Bradford's 401,415, about 41.1%: a margin of roughly 127,600 votes, or 13 points. Those results were unofficial, and the final count may move slightly.",
+      "That is a long way from the 'coin flip' the late polls had suggested. Chow swept all five Scarborough wards and won big downtown, while Bradford took most of Etobicoke and several North York and midtown wards. Pollster Nick Nanos called it a 'crushing victory' and credited her team's ground game: 'They delivered on the ground.'",
+      "Turnout surged. CP24 reports about 976,550 mayoral votes, against 563,124 ballots in 2022, a rise of roughly 73%. Elsewhere in the GTA, Alvin Tedjo ousted Mississauga mayor Carolyn Parrish, and Patrick Brown was re-elected in Brampton with about 55% (78% of polls in).",
+      "Earlier (to 25 Oct): the final polls had disagreed, from a Bradford lead of about one point (Mainstreet, 16-18 Oct) to a Chow lead of 8 (Liaison, 24-25 Oct: 52% to 44%). The Nanos poll for CP24 and CTV (15-18 Oct, n=762) had Chow 49.8%, Bradford 46.6%."
      ],
      "f": [
-      "Nanos (15-18 Oct, n=762, ±3.6): Chow 49.8%, Bradford 46.6%, other 4%, undecided 16%",
-      "Final debate: Thu 22 Oct, 7 p.m., CP24 (Chow v Bradford)",
-      "20 Oct polls: Mainstreet Bradford 48.9%, Chow 47.5%; Pollara Chow 53%, Bradford 46% (decided voters)",
-      "Liaison poll, 8-9 Oct (Now Toronto, 14 Oct): Chow 51%, Bradford 46%, others 3%; Chow approval 52%",
-      "Election day: Monday 26 October 2026, 10 a.m. to 8 p.m.",
-      "Advance voting: 6 to 11 October (now closed)",
-      "Chris Alexander withdrew on 6 October; his name stays on the ballot",
-      "Poll (Liaison, published 6 Oct, before withdrawal): Chow 48%, Bradford 40%, Alexander 9%",
-      "CP24/CTV poll (reported 13 Oct): Chow's lead over Bradford down to about 3.5 points; 53 candidates on the ballot"
+      "Chow ~54.2% (529,042), Bradford ~41.1% (401,415) at 99.2% of polls (CP24, unofficial)",
+      "Margin about 127,600 votes / 13 points",
+      "Mayoral votes ~976,550 vs 563,124 ballots in 2022 (about +73%)",
+      "Mississauga: Alvin Tedjo beat Carolyn Parrish; Brampton: Patrick Brown re-elected (~55%, 78% of polls)",
+      "Final pre-election polls: Liaison 52-44 Chow; Mainstreet 49-48 Bradford"
      ],
      "n": [
       "Toronto's mayor leads a council of 25 ward councillors plus the mayor. The mayor chairs council meetings, proposes the annual budget and represents the city to other governments. Since 2022 Ontario has also given the mayors of Toronto and Ottawa \"strong mayor\" powers, which let them propose budgets and hire senior staff with fewer council votes.",
@@ -529,58 +521,25 @@
       "You vote only in your own ward for a councillor, but everyone votes for the mayor. Your voter notification card or myvote.toronto.ca shows where to vote on election day, and you need ID showing your name and Toronto address (a passport alone is not accepted because it has no address). Advance voting for this election has already closed.",
       "Why it matters beyond politics: the city's choices on development, transit funding and property tax shape rents, commute times and house prices, which feed into the wider economy."
      ],
-     "s": "As of 26 Oct 2026 (before polls opened) · Wikipedia, Now Toronto, CP24, CTV, Global News",
+     "s": "As of 27 Oct 2026, early morning · CP24 (27 Oct, 12:08 a.m. EDT), CP24 live blog (26 Oct), The Local (26 Oct) · unofficial results",
      "links": [
+      {
+       "text": "CP24: How Olivia Chow won a second term",
+       "url": "https://www.cp24.com/local/toronto/2026/10/27/how-olivia-chow-won-a-second-term/",
+       "syn": "CP24 reports Chow on about 54.2% to Bradford's 41.1% with 99.2% of polls in, a 13-point margin. Nanos credits her ground game; turnout was up about 73% on 2022."
+      },
+      {
+       "text": "CP24: Chow re-elected; Tedjo wins in Mississauga; how GTA election night unfolded",
+       "url": "https://www.cp24.com/local/toronto/2026/10/27/olivia-chow-re-elected-as-torontos-mayor-live-updates-here/",
+       "syn": "Live blog: CP24-CTV projects Chow's re-election, Alvin Tedjo defeats Carolyn Parrish in Mississauga, and Patrick Brown is re-elected in Brampton."
+      },
+      {
+       "text": "The Local: Olivia Chow is projected to be re-elected as Toronto mayor",
+       "url": "https://thelocal.to/olivia-chow-re-elected-toronto-mayor/"
+      },
       {
        "text": "Wikipedia: 2026 Toronto mayoral election",
        "url": "https://en.wikipedia.org/wiki/2026_Toronto_mayoral_election"
-      },
-      {
-       "text": "CP24: Chow and Bradford in statistical tie with election less than a week away (Nanos poll)",
-       "url": "https://www.cp24.com/local/toronto/2026/10/20/exclusive-poll-olivia-chow-and-brad-bradford-in-statistical-tie-with-toronto-election-less-than-one-week-away/",
-       "syn": "Nanos Research for CP24 and CTV News Toronto, 15-18 October, 762 residents: Olivia Chow 49.8%, Brad Bradford 46.6% among decided voters, margin of error 3.6 points, with 16% undecided."
-      },
-      {
-       "text": "CP24: How to watch the Toronto Decides mayoral debate",
-       "url": "https://www.cp24.com/gta-elections-2026/2026/10/21/how-to-watch-toronto-decides-the-municipal-debate/",
-       "syn": "The CP24 debate between Olivia Chow and Brad Bradford is on Thursday 22 October at 7 p.m., moderated by Michelle Dube, and streams on CP24.com, CTVNewsToronto.ca, the CP24 app and Crave."
-      },
-      {
-       "text": "Global News: Chow and Bradford neck-and-neck with days left",
-       "url": "https://globalnews.ca/news/12110038/chow-and-bradford-neck-and-neck-days-left-toronto-mayoral-election-campaign/"
-      },
-      {
-       "text": "Now Toronto: Chow leads Bradford by five points in new poll",
-       "url": "https://nowtoronto.com/news/toronto-election-2026-chow-leads-bradford-by-five-points-new-poll/",
-       "syn": "A Liaison Strategies poll of 1,000 Toronto residents on 8-9 October puts Olivia Chow on 51% and Brad Bradford on 46%. Chow leads among renters and downtown; Bradford leads among homeowners and in Etobicoke and Scarborough."
-      },
-      {
-       "text": "CBC: Advance voter turnout jumped nearly 72% from the 2023 byelection (headline)",
-       "url": "https://www.cbc.ca/news/canada/toronto/toronto-2026-advance-voter-turnout-increase-9.7378763"
-      },
-      {
-       "text": "CP24: What Olivia Chow and Brad Bradford are promising voters (13 Oct)",
-       "url": "https://www.cp24.com/local/toronto/2026/10/13/from-fighting-gridlock-to-grocery-prices-this-is-what-olivia-chow-and-brad-bradford-are-promising-voters/",
-       "syn": "CP24's election piece, published 13 October, sets out the pledges of the two leading candidates, Olivia Chow and Brad Bradford, among 53 mayoral candidates, and reports a new poll showing Bradford within about 3.5 points."
-      },
-      {
-       "text": "Global News: Toronto mayoral race narrows to Chow-Bradford showdown",
-       "url": "https://globalnews.ca/news/12091495/toronto-mayoral-race-narrows-to-chow-bradford-showdown/",
-       "syn": "Chris Alexander dropped out of Toronto's mayoral race hours before a debate, leaving Olivia Chow and Brad Bradford in a two-way contest. A poll published before his exit had Chow at 48 per cent, Bradford at 40 per cent, and Alexander at nine per cent."
-      },
-      {
-       "text": "CP24: Chris Alexander drops out of race",
-       "url": "https://cp24.com/gta-elections-2026/2026/10/06/chris-alexander-drops-out-of-race-to-become-torontos-next-mayor/",
-       "syn": "Chris Alexander has dropped out of Toronto's mayoral race after a new poll put him well behind Olivia Chow and Brad Bradford. He will not endorse another candidate, and his name will likely stay on ballots."
-      },
-      {
-       "text": "CP24: Advance voting and election day, what you need to know",
-       "url": "https://www.cp24.com/local/toronto/2026/10/06/toronto-advance-voting-starts-today-everything-you-need-to-know/",
-       "syn": "Advance voting for Toronto's mayoral, city council, and school trustee races runs from October 6 to 11, with election day on October 26. Voters must show ID with their name and Toronto address, and passports are not accepted."
-      },
-      {
-       "text": "CP24: Toronto mayoral candidates unveil new promises as race tightens",
-       "url": "https://www.cp24.com/local/toronto/2026/10/15/toronto-mayoral-candidates-unveil-new-promises-as-election-race-tightens-live-updates-here"
       }
      ]
     },
@@ -5044,118 +5003,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Monday 26 October 2026",
-  "intro": "Ten questions from today's verified stories: the Premier League weekend, the Leafs in Edmonton, Iran and Toronto's election day. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Tuesday 27 October 2026",
+  "intro": "Ten questions from the verified stories: Toronto's election result and the Premier League weekend. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Which two clubs are level on 21 points at the top of the Premier League after eight games?",
+    "q": "Who won Toronto's mayoral election on 26 October?",
     "options": [
-     "Liverpool and Chelsea",
-     "Manchester City and Arsenal",
-     "Arsenal and Brighton",
-     "Manchester City and Liverpool"
-    ],
-    "answer": 1,
-    "explain": "City (+11) and Arsenal (+8) have 21 points each, City ahead on goal difference (footballwebpages.co.uk)."
-   },
-   {
-    "q": "What was the score when Bournemouth visited Manchester United on Sunday 25 October?",
-    "options": [
-     "0–1",
-     "0–2",
-     "0–3",
-     "1–3"
-    ],
-    "answer": 2,
-    "explain": "Bournemouth won 3–0 at Old Trafford."
-   },
-   {
-    "q": "Who scored twice for the Maple Leafs in their 7–2 win at Edmonton?",
-    "options": [
-     "Auston Matthews",
-     "William Nylander",
-     "Troy Stecher",
-     "Zack MacEwen"
-    ],
-    "answer": 1,
-    "explain": "Nylander scored twice; Draisaitl got both Oilers goals."
-   },
-   {
-    "q": "Which team sits bottom of the Premier League on 5 points?",
-    "options": [
-     "Coventry City",
-     "Nottingham Forest",
-     "Sunderland",
-     "Fulham"
-    ],
-    "answer": 2,
-    "explain": "Sunderland drew 0–0 with Leeds and stay bottom on 5."
-   },
-   {
-    "q": "What did Trump say he would not do until after the 3 November midterms, according to The National?",
-    "options": [
-     "Meet Iran's president",
-     "Strike Iran",
-     "Lift oil sanctions",
-     "Withdraw carriers"
-    ],
-    "answer": 1,
-    "explain": "He has said he would not strike Iran until after the midterm elections."
-   },
-   {
-    "q": "Who is Olivia Chow's main opponent in the Toronto mayoral race?",
-    "options": [
-     "Ana Bailão",
-     "John Tory",
      "Brad Bradford",
-     "Chris Alexander"
-    ],
-    "answer": 2,
-    "explain": "Brad Bradford; Chris Alexander suspended his campaign on 6 October."
-   },
-   {
-    "q": "What hours are the Toronto polls open on election day, 26 October?",
-    "options": [
-     "8 a.m. to 6 p.m.",
-     "10 a.m. to 8 p.m.",
-     "9 a.m. to 9 p.m.",
-     "Noon to midnight"
+     "Olivia Chow",
+     "Chris Alexander",
+     "Odessa Paloma Parker"
     ],
     "answer": 1,
-    "explain": "Polls are open 10 a.m. to 8 p.m."
+    "explain": "Chow was re-elected with about 54% (CP24)."
    },
    {
-    "q": "Which club won 2–0 at Chelsea on Saturday 24 October?",
+    "q": "Roughly what share of the mayoral vote did Brad Bradford get (CP24, unofficial)?",
     "options": [
-     "Arsenal",
-     "Everton",
-     "Tottenham Hotspur",
-     "Fulham"
+     "About 31%",
+     "About 41%",
+     "About 47%",
+     "About 54%"
+    ],
+    "answer": 1,
+    "explain": "401,415 votes, about 41.1% (CP24)."
+   },
+   {
+    "q": "About how big was Chow's winning margin?",
+    "options": [
+     "1 point",
+     "5 points",
+     "13 points",
+     "30 points"
     ],
     "answer": 2,
-    "explain": "Chelsea 0–2 Tottenham Hotspur."
+    "explain": "About 127,600 votes, roughly 13 points (CP24)."
    },
    {
-    "q": "Which rocket launched Starlink 15-15 on 23 October after three scrubs?",
+    "q": "How many ballots were cast in the 2022 Toronto mayoral election, per CP24?",
     "options": [
-     "Starship",
-     "Falcon Heavy",
-     "Falcon 9",
-     "New Glenn"
-    ],
-    "answer": 2,
-    "explain": "A Falcon 9 from Vandenberg, on the fourth attempt (Spaceflight Now)."
-   },
-   {
-    "q": "Which Premier League side travel to Chelsea on Saturday 31 October at 12:30 UK?",
-    "options": [
-     "Manchester United",
-     "Newcastle United",
-     "Leeds United",
-     "Everton"
+     "563,124",
+     "976,550",
+     "300,000",
+     "1.2 million"
     ],
     "answer": 0,
-    "explain": "Chelsea v Manchester United is the 12:30 kick-off."
+    "explain": "CP24 puts 2022 at 563,124 ballots, so this year's turnout rose about 73%."
+   },
+   {
+    "q": "Who beat incumbent Carolyn Parrish in Mississauga?",
+    "options": [
+     "Bonnie Crombie",
+     "Patrick Brown",
+     "Alvin Tedjo",
+     "Steven Del Duca"
+    ],
+    "answer": 2,
+    "explain": "Alvin Tedjo won (CP24 live blog)."
+   },
+   {
+    "q": "Which mayor was re-elected in Brampton with about 55%?",
+    "options": [
+     "Patrick Brown",
+     "Marianne Meed Ward",
+     "David West",
+     "Michael Jubb"
+    ],
+    "answer": 0,
+    "explain": "Patrick Brown (CP24 live blog, 78% of polls)."
+   },
+   {
+    "q": "Which area did Chow sweep, winning all five wards, according to CP24?",
+    "options": [
+     "Etobicoke",
+     "Scarborough",
+     "North York",
+     "Willowdale"
+    ],
+    "answer": 1,
+    "explain": "All five Scarborough wards (CP24)."
+   },
+   {
+    "q": "What was the score when Aston Villa hosted Manchester City on Sat 24 Oct?",
+    "options": [
+     "2–1 to Villa",
+     "1–1",
+     "0–2",
+     "3–0 to City"
+    ],
+    "answer": 0,
+    "explain": "Aston Villa 2–1 Manchester City (footballwebpages.co.uk)."
+   },
+   {
+    "q": "Which team beat Chelsea 2–0 at Stamford Bridge on Sat 24 Oct?",
+    "options": [
+     "Arsenal",
+     "Tottenham Hotspur",
+     "Everton",
+     "Fulham"
+    ],
+    "answer": 1,
+    "explain": "Chelsea 0–2 Tottenham (footballwebpages.co.uk)."
+   },
+   {
+    "q": "What was the score in Sunderland v Leeds United on Sun 25 Oct?",
+    "options": [
+     "1–0",
+     "2–2",
+     "0–0",
+     "3–1"
+    ],
+    "answer": 2,
+    "explain": "0–0, per footballwebpages.co.uk's video listing."
    }
   ]
  }
