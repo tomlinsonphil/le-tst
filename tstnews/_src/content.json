@@ -1,15 +1,15 @@
 {
- "date": "2026-10-27",
- "label": "Tuesday 27 October 2026",
- "note": "Refresh of Tue 27 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, football, tennis, F1 and central-bank pages) was refused by the fetch tool after a retry, and the footballwebpages 25 Oct page failed. Only the Toronto election result (CP24, Wikipedia, The Local) and the 24 Oct Premier League page were read. All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
- "sport_note": "Refresh of Mon 26 Oct 2026 (early morning, Toronto time, before the Toronto polls opened). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi) and most other pages were refused by the fetch tool after a retry, so the Headlines lists are unchanged from 25 Oct. Verified today: Premier League results and table (footballwebpages.co.uk, 25 Oct 18:24 UK), Leafs 7–2 at Edmonton (surprisesports.com), the Iran/Trump report of 25 Oct (The National), Wikipedia's Toronto election page, and SpaceX launches (Spaceflight Now). Not verified: the F1 United States GP result, the World Series, Ligue 1 and tennis. Everything else keeps its earlier text and is as of its stated date.",
+ "date": "2026-10-28",
+ "label": "Wednesday 28 October 2026",
+ "note": "Refresh of Wed 28 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages, central banks) was refused by the fetch tool after a retry, and WebSearch returned titles only. Verified today: Euronews's 'top news stories today' page (27 Oct stories), the Premier League results and table (sportnewsafrica.com, updated 28 Oct 03:00 GMT; no games since 25 Oct) and the Bank of Canada decision calendar (storeys.com). The Bank of Canada (9:45 ET) and Fed decisions had not yet been announced at the time of this run. All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
+ "sport_note": "Wed 28 Oct 2026: only the Premier League table and results were re-checked (no games since Sun 25 Oct). Every other sport panel keeps its own 'as of' date and has not been re-verified.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Euronews was refreshed on 25 Oct from its 'Just in' page (24 Oct stories); Al Jazeera shows recent article links from search; the other feeds could not be opened on this run, so they keep earlier lists with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Euronews was refreshed on 28 Oct from its 'top news stories today' page (27 Oct stories); the other feeds could not be opened on this run, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -17,30 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Israel removes around 250 Palestinian families from West Bank city of Hebron after soldier deaths",
-       "url": "https://www.euronews.com/2026/10/24/israel-removes-around-250-palestinian-families-from-west-bank-city-of-hebron-after-soldier",
-       "when": "24 Oct, 16:31"
+       "t": "Two men charged over RAF Fairford air base incident",
+       "url": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-",
+       "when": "27 Oct"
       },
       {
-       "t": "Fire engulfs Hitler's former Eagle's Nest retreat in Germany",
-       "url": "https://www.euronews.com/video/2026/10/24/fire-engulfs-hitlers-former-eagles-nest-retreat-in-germany",
-       "when": "24 Oct, 16:11"
+       "t": "Norwegian media sue Meta over plans to use their journalism for AI",
+       "url": "https://www.euronews.com/2026/10/27/norwegian-media-sue-meta-over-plans-to-use-their-journalism-for-ai",
+       "when": "27 Oct"
       },
       {
-       "t": "Live. Thousands rally in Tirana as anti-government protests persist",
-       "url": "https://www.euronews.com/2026/10/24/tensions-rise-in-albania-as-protesters-burn-symbolic-pillows-outside-prime-ministers-offic",
-       "when": "24 Oct, 14:56"
+       "t": "Neil Young sues Donald Trump's political committee for copyright infringement - again",
+       "url": "https://www.euronews.com/2026/10/27/neil-young-sues-donald-trumps-political-committee-for-copyright-infringement-again",
+       "when": "27 Oct"
       },
       {
-       "t": "Watch: French police deploy armoured vehicles in Paris and Marseille",
-       "url": "https://www.euronews.com/video/2026/10/24/watch-french-police-deploy-armoured-vehicles-in-paris-and-marseille",
-       "when": "24 Oct, 14:46"
+       "t": "Could mosquito poop help detect new health threats?",
+       "url": "https://www.euronews.com/2026/10/27/mosquito-toilets-how-scientists-are-using-mosquito-poop-to-detect-viruses",
+       "when": "27 Oct"
       },
       {
-       "t": "Italy deploys hundreds of soldiers as nationwide protests raise fears of fresh violence",
-       "url": "https://www.euronews.com/2026/10/24/italy-deploys-hundreds-of-soldiers-as-nationwide-protests-raise-fears-of-fresh-violence",
-       "when": "24 Oct, 14:39",
-       "syn": "Clashes with police in Rome, Milan, Turin, Bologna and Florence on 24 Oct; the government sent 500 more soldiers to Milan after violence on 17–18 October."
+       "t": "Latest news bulletin | October 27th, 2026 – Midday",
+       "url": "https://www.euronews.com/video/2026/10/27/latest-news-bulletin-october-27th-2026-midday",
+       "when": "27 Oct, midday"
       }
      ]
     },
@@ -1544,13 +1543,14 @@
    "items": [
     {
      "t": "Canada: where things stand",
-     "tag": "BoC 28 Oct: hike debate",
+     "tag": "BoC decision due 28 Oct, 9:45 ET",
      "w": [
       "Update 19 Oct: the Bank of Canada's site shows its policy rate at 2.25% and the next announcement on 28 October. September inflation from Statistics Canada is due today, and China's third-quarter GDP is also due today; neither figure had been verified when this was written.",
       "The data week is here. Statistics Canada publishes September inflation on Monday 19 October, along with the Bank of Canada's business and consumer surveys. A Reuters/LSEG poll expects inflation to rise to 3.2% from 3.0%, while RBC's Nathan Janzen expects it to hold at 3.0%. He calls 28 October a 'live' meeting but a hike is not his base case. Canada also lost 68,000 jobs in September, the second straight monthly fall, which argues against raising rates (BNN Bloomberg, 16 Oct).",
       "Canada's rate call is suddenly live. The Bank of Canada has held at 2.25% since October 2025, but after Governor Macklem said on 2 September that upside inflation risks were growing, several forecasters now expect a hike on 28 October: UBS, Manulife, Oxford Economics and Scotiabank say yes, while RBC sees a close call and a hold, with hikes from early 2027 (Canadian Mortgage Professional, 2 Oct).",
       "Two numbers decide it. September CPI is out on Monday 19 October; inflation was 3.0% in August and one preview expects 3.0% again (UBS 3.3%). The 5-year Government of Canada bond yield stood at 3.59% on 6 October, against 2.75% a year earlier, which is why fixed mortgage rates have been rising (a lender spread of 1.2 to 2.0 points on that yield implies roughly 4.8% to 5.6%, per Wealth North; lender quotes vary).",
-      "Shares: the S&P/TSX composite rose 347.89 points to 35,502.65 on 2 October and gained more than 300 points on 13 October on energy stocks, against a record near 36,660 in August. Oil was about US$91 a barrel on 2 October, and new US import bans on some Canadian goods add trade uncertainty."
+      "Shares: the S&P/TSX composite rose 347.89 points to 35,502.65 on 2 October and gained more than 300 points on 13 October on energy stocks, against a record near 36,660 in August. Oil was about US$91 a barrel on 2 October, and new US import bans on some Canadian goods add trade uncertainty.",
+      "Update, 28 Oct: the Bank of Canada's calendar lists today, Wednesday 28 October, as a decision date, with the announcement at 9:45 a.m. Eastern and a Monetary Policy Report alongside. The result was not out when this page was built, so check the Bank's site for the decision."
      ],
      "f": [
       "Sept CPI Mon 19 Oct: forecasts 3.0% to 3.2% (Aug 3.0%); Canada lost 68,000 jobs in Sept",
@@ -1961,8 +1961,8 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Sun 25 Oct 2026, 18:24 UK, all clubs have played 8 (footballwebpages.co.uk)",
-       "source": "footballwebpages.co.uk",
+       "asof": "Wed 28 Oct 2026 (page updated 03:00 GMT, sportnewsafrica.com); all clubs have played 8, no games since Sun 25 Oct",
+       "source": "sportnewsafrica.com (matches footballwebpages.co.uk 25 Oct)",
        "cols": [
         "Pos",
         "Team",
@@ -2185,6 +2185,10 @@
         {
          "text": "footballwebpages.co.uk: Premier League, 25 Oct",
          "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
+        },
+        {
+         "text": "sportnewsafrica.com: Premier League fixtures and table",
+         "url": "https://sportnewsafrica.com/en/fixtures/premier-league/"
         }
        ]
       },
@@ -5003,118 +5007,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Tuesday 27 October 2026",
-  "intro": "Ten questions from the verified stories: Toronto's election result and the Premier League weekend. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Wednesday 28 October 2026",
+  "intro": "Ten questions from today's verified items: the Premier League weekend, Euronews headlines and the Bank of Canada. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Who won Toronto's mayoral election on 26 October?",
-    "options": [
-     "Brad Bradford",
-     "Olivia Chow",
-     "Chris Alexander",
-     "Odessa Paloma Parker"
-    ],
-    "answer": 1,
-    "explain": "Chow was re-elected with about 54% (CP24)."
-   },
-   {
-    "q": "Roughly what share of the mayoral vote did Brad Bradford get (CP24, unofficial)?",
-    "options": [
-     "About 31%",
-     "About 41%",
-     "About 47%",
-     "About 54%"
-    ],
-    "answer": 1,
-    "explain": "401,415 votes, about 41.1% (CP24)."
-   },
-   {
-    "q": "About how big was Chow's winning margin?",
-    "options": [
-     "1 point",
-     "5 points",
-     "13 points",
-     "30 points"
-    ],
-    "answer": 2,
-    "explain": "About 127,600 votes, roughly 13 points (CP24)."
-   },
-   {
-    "q": "How many ballots were cast in the 2022 Toronto mayoral election, per CP24?",
-    "options": [
-     "563,124",
-     "976,550",
-     "300,000",
-     "1.2 million"
-    ],
-    "answer": 0,
-    "explain": "CP24 puts 2022 at 563,124 ballots, so this year's turnout rose about 73%."
-   },
-   {
-    "q": "Who beat incumbent Carolyn Parrish in Mississauga?",
-    "options": [
-     "Bonnie Crombie",
-     "Patrick Brown",
-     "Alvin Tedjo",
-     "Steven Del Duca"
-    ],
-    "answer": 2,
-    "explain": "Alvin Tedjo won (CP24 live blog)."
-   },
-   {
-    "q": "Which mayor was re-elected in Brampton with about 55%?",
-    "options": [
-     "Patrick Brown",
-     "Marianne Meed Ward",
-     "David West",
-     "Michael Jubb"
-    ],
-    "answer": 0,
-    "explain": "Patrick Brown (CP24 live blog, 78% of polls)."
-   },
-   {
-    "q": "Which area did Chow sweep, winning all five wards, according to CP24?",
-    "options": [
-     "Etobicoke",
-     "Scarborough",
-     "North York",
-     "Willowdale"
-    ],
-    "answer": 1,
-    "explain": "All five Scarborough wards (CP24)."
-   },
-   {
-    "q": "What was the score when Aston Villa hosted Manchester City on Sat 24 Oct?",
-    "options": [
-     "2–1 to Villa",
-     "1–1",
-     "0–2",
-     "3–0 to City"
-    ],
-    "answer": 0,
-    "explain": "Aston Villa 2–1 Manchester City (footballwebpages.co.uk)."
-   },
-   {
-    "q": "Which team beat Chelsea 2–0 at Stamford Bridge on Sat 24 Oct?",
+    "q": "Which club beat Manchester City 2–1 on Saturday 24 October?",
     "options": [
      "Arsenal",
-     "Tottenham Hotspur",
+     "Aston Villa",
+     "Chelsea",
+     "Liverpool"
+    ],
+    "answer": 1,
+    "explain": "Aston Villa 2–1 Manchester City (sportnewsafrica.com)."
+   },
+   {
+    "q": "What was the score when Bournemouth visited Manchester United on 25 October?",
+    "options": [
+     "Man Utd 0–3 Bournemouth",
+     "Man Utd 1–1 Bournemouth",
+     "Man Utd 2–0 Bournemouth",
+     "Man Utd 3–0 Bournemouth"
+    ],
+    "answer": 0,
+    "explain": "Manchester United 0–3 Bournemouth."
+   },
+   {
+    "q": "Which two Premier League clubs are level on 21 points at the top after matchday 8?",
+    "options": [
+     "Man City and Liverpool",
+     "Arsenal and Brighton",
+     "Man City and Arsenal",
+     "Chelsea and Arsenal"
+    ],
+    "answer": 2,
+    "explain": "City lead on goal difference (+11 v +8)."
+   },
+   {
+    "q": "Which Premier League club is bottom after eight games?",
+    "options": [
+     "Coventry",
+     "Sunderland",
+     "Nottingham Forest",
+     "Crystal Palace"
+    ],
+    "answer": 1,
+    "explain": "Sunderland have 5 points."
+   },
+   {
+    "q": "Who did Liverpool beat 2–0 on 25 October?",
+    "options": [
+     "Brighton",
+     "Newcastle",
      "Everton",
      "Fulham"
     ],
-    "answer": 1,
-    "explain": "Chelsea 0–2 Tottenham (footballwebpages.co.uk)."
+    "answer": 0,
+    "explain": "Liverpool 2–0 Brighton."
    },
    {
-    "q": "What was the score in Sunderland v Leeds United on Sun 25 Oct?",
+    "q": "Which London club won 2–0 away at Chelsea on 24 October?",
     "options": [
-     "1–0",
-     "2–2",
-     "0–0",
-     "3–1"
+     "Arsenal",
+     "West Ham",
+     "Tottenham",
+     "Fulham"
     ],
     "answer": 2,
-    "explain": "0–0, per footballwebpages.co.uk's video listing."
+    "explain": "Chelsea 0–2 Tottenham."
+   },
+   {
+    "q": "What did Norwegian media sue Meta over, according to Euronews on 27 October?",
+    "options": [
+     "Plans to use their journalism for AI",
+     "Ad prices",
+     "Data leaks",
+     "Video licensing"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 27 Oct."
+   },
+   {
+    "q": "Whose political committee is Neil Young suing for copyright infringement, again?",
+    "options": [
+     "Joe Biden's",
+     "Donald Trump's",
+     "Boris Johnson's",
+     "Emmanuel Macron's"
+    ],
+    "answer": 1,
+    "explain": "Euronews, 27 Oct."
+   },
+   {
+    "q": "What time (Eastern) does the Bank of Canada announce its rate decisions?",
+    "options": [
+     "8:00 a.m.",
+     "9:45 a.m.",
+     "12:00 p.m.",
+     "2:00 p.m."
+    ],
+    "answer": 1,
+    "explain": "All announcements are released at 9:45 a.m. ET (storeys.com)."
+   },
+   {
+    "q": "What happened to Hull City and Brentford on 25 October?",
+    "options": [
+     "Hull won 2–0",
+     "Brentford won 3–1",
+     "They drew 1–1",
+     "They drew 0–0"
+    ],
+    "answer": 2,
+    "explain": "Hull City 1–1 Brentford."
    }
   ]
  }
