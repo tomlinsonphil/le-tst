@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="icon" type="image/svg+xml" href="/tstnews/favicon.svg">
+<link rel="stylesheet" href="/tstnews/style.css?v=b19428d8">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Thursday 29 October 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-10-29/">Latest</a><a href="/tstnews/archive/2026-10-29/#headlines">Headlines</a><a href="/tstnews/archive/2026-10-29/#world">World</a><a href="/tstnews/archive/2026-10-29/#france">France</a><a href="/tstnews/archive/2026-10-29/#toronto">Toronto</a><a href="/tstnews/archive/2026-10-29/#uk">UK</a><a href="/tstnews/archive/2026-10-29/#tech">Tech</a><a href="/tstnews/archive/2026-10-29/#following">Following</a><a href="/tstnews/archive/2026-10-29/#money">Economics</a><a href="/tstnews/archive/2026-10-29/#sport">Sport</a><a href="/tstnews/archive/2026-10-29/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-10-29/#sport">Sport</a><a href="/tstnews/archive/2026-10-29/football/">Football</a><a href="/tstnews/archive/2026-10-29/rugby/">Rugby</a><a href="/tstnews/archive/2026-10-29/cricket/">Cricket</a><a href="/tstnews/archive/2026-10-29/tennis/">Tennis</a><a href="/tstnews/archive/2026-10-29/squash/">Squash</a><a href="/tstnews/archive/2026-10-29/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-10-29/baseball/">Baseball</a><a href="/tstnews/archive/2026-10-29/basketball/">Basketball</a><a href="/tstnews/archive/2026-10-29/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-10-29/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>TST News quiz · Thursday 29 October 2026: Thursday 29 October 2026</h2><p class="intro">Ten questions from today&#x27;s verified items: central banks, the UN Cuba vote, the US Grand Prix and the World Series. Pick an answer, see the score at the end, then start again for the next player.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "To what level did the Bank of Canada raise its overnight rate on 28 October?", "options": ["2.25%", "2.50%", "2.75%", "3.00%"], "answer": 1, "explain": "A 25 basis point rise to 2.5% (Bank of Canada)."}, {"q": "When was the Bank of Canada's last rate increase before this one?", "options": ["July 2023", "October 2025", "January 2022", "September 2024"], "answer": 0, "explain": "The Bank described it as its first hike since July 2023 (investinglive.com)."}, {"q": "What range did the US Federal Reserve hold its rate at on 28 October?", "options": ["3.50–3.75%", "3.75–4.00%", "4.00–4.25%", "4.25–4.50%"], "answer": 1, "explain": "Held at 3.75% to 4% (Euronews)."}, {"q": "How did the Fed's vote go?", "options": ["Unanimous", "10–2 with two dissenters wanting a hike", "7–5", "9–3 with dissenters wanting a cut"], "answer": 1, "explain": "Lisa Cook and Beth Hammack voted for another hike (Euronews)."}, {"q": "In the UN vote on the US embargo on Cuba, how many countries voted in favour of ending it?", "options": ["130", "160", "95", "187"], "answer": 0, "explain": "130 for, 17 against, 25 abstentions: the lowest support since 1995 (Euronews)."}, {"q": "Which country's tax agency was hit by a cyberattack on 28 October?", "options": ["Belgium", "Spain", "Netherlands", "Denmark"], "answer": 0, "explain": "Belgium's FOD Financiën took MyMinfin and other services offline (Euronews)."}, {"q": "Who won the United States Grand Prix in Austin on 25 October?", "options": ["Kimi Antonelli", "Max Verstappen", "Charles Leclerc", "Lewis Hamilton"], "answer": 0, "explain": "Antonelli's ninth win of 2026 (PlanetF1, Radio X)."}, {"q": "Who finished second at the US Grand Prix?", "options": ["Charles Leclerc", "Lewis Hamilton", "George Russell", "Lando Norris"], "answer": 0, "explain": "Leclerc, 13 seconds behind (PlanetF1)."}, {"q": "Which two teams are playing in the 2026 World Series?", "options": ["Brewers and Rays", "Blue Jays and Dodgers", "Guardians and Brewers", "Dodgers and Rays"], "answer": 0, "explain": "Milwaukee Brewers v Tampa Bay Rays (Fox 13)."}, {"q": "What was the score when the Maple Leafs played Calgary on 26 October?", "options": ["Leafs 2–5 Flames", "Leafs 5–2 Flames", "Leafs 3–1 Flames", "Leafs 1–4 Flames"], "answer": 0, "explain": "A 2–5 loss (Daily Faceoff schedule page)."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>

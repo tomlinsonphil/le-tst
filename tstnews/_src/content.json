@@ -1,8 +1,8 @@
 {
- "date": "2026-10-28",
- "label": "Wednesday 28 October 2026",
- "note": "Refresh of Wed 28 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages, central banks) was refused by the fetch tool after a retry, and WebSearch returned titles only. Verified today: Euronews's 'top news stories today' page (27 Oct stories), the Premier League results and table (sportnewsafrica.com, updated 28 Oct 03:00 GMT; no games since 25 Oct) and the Bank of Canada decision calendar (storeys.com). The Bank of Canada (9:45 ET) and Fed decisions had not yet been announced at the time of this run. All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
- "sport_note": "Wed 28 Oct 2026: only the Premier League table and results were re-checked (no games since Sun 25 Oct). Every other sport panel keeps its own 'as of' date and has not been re-verified.",
+ "date": "2026-10-29",
+ "label": "Thursday 29 October 2026",
+ "note": "Refresh of Thu 29 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages) was refused by the fetch tool after a retry, so the Headlines for those outlets are carried over with their own dates, except Euronews, which was read from its 'top news stories' page. Newly verified today: Bank of Canada decision (28 Oct), Fed decision (28 Oct, Euronews), UN Cuba embargo vote, Belgium tax-agency cyberattack, the United States Grand Prix result (25 Oct), Maple Leafs 2–5 Flames (26 Oct) and the World Series status (Brewers v Rays). All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
+ "sport_note": "Thu 29 Oct 2026: re-checked the F1 US Grand Prix result, the Maple Leafs and the World Series. The Premier League table and results are unchanged (no games since Sun 25 Oct; next round Fri 30 Oct to Sun 1 Nov per earlier lists). Every other sport panel keeps its own 'as of' date and has not been re-verified.",
  "sections": [
   {
    "id": "headlines",
@@ -17,29 +17,32 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
+       "t": "Spain: Madrid mourns train crash victims as rescuers work through the night",
+       "url": "https://www.euronews.com/video/2026/10/29/spain-madrid-mourns-train-crash-victims-as-rescuers-work-through-the-night",
+       "when": "29 Oct"
+      },
+      {
+       "t": "Support for UN vote to end US embargo on Cuba falls to 30-year low",
+       "url": "https://www.euronews.com/2026/10/28/support-for-un-vote-to-end-us-embargo-on-cuba-falls-to-30-year-low",
+       "when": "28 Oct",
+       "syn": "The UN General Assembly again called for an end to the US embargo on Cuba, but by 130 votes to 17 with 25 abstentions, the lowest support since 1995."
+      },
+      {
+       "t": "Belgium's finance and tax agency hit by cyberattack, filing deadlines",
+       "url": "https://www.euronews.com/2026/10/28/belgiums-finance-and-tax-agency-hit-by-cyberattack",
+       "when": "28 Oct",
+       "syn": "Belgium's finance ministry took its MyMinfin portal and other online services offline after a cyberattack; some tax filing deadlines will be extended and no data breach has been seen so far."
+      },
+      {
+       "t": "Fed holds rates days before US midterms but two officials dissented",
+       "url": "https://www.euronews.com/2026/10/28/fed-holds-rates-days-before-us-midterms-as-two-officials-push-for-another-hike",
+       "when": "28 Oct",
+       "syn": "The Fed kept its rate at 3.75% to 4% on a 10–2 vote, with two officials wanting another hike."
+      },
+      {
        "t": "Two men charged over RAF Fairford air base incident",
        "url": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-",
        "when": "27 Oct"
-      },
-      {
-       "t": "Norwegian media sue Meta over plans to use their journalism for AI",
-       "url": "https://www.euronews.com/2026/10/27/norwegian-media-sue-meta-over-plans-to-use-their-journalism-for-ai",
-       "when": "27 Oct"
-      },
-      {
-       "t": "Neil Young sues Donald Trump's political committee for copyright infringement - again",
-       "url": "https://www.euronews.com/2026/10/27/neil-young-sues-donald-trumps-political-committee-for-copyright-infringement-again",
-       "when": "27 Oct"
-      },
-      {
-       "t": "Could mosquito poop help detect new health threats?",
-       "url": "https://www.euronews.com/2026/10/27/mosquito-toilets-how-scientists-are-using-mosquito-poop-to-detect-viruses",
-       "when": "27 Oct"
-      },
-      {
-       "t": "Latest news bulletin | October 27th, 2026 – Midday",
-       "url": "https://www.euronews.com/video/2026/10/27/latest-news-bulletin-october-27th-2026-midday",
-       "when": "27 Oct, midday"
       }
      ]
     },
@@ -168,6 +171,68 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Cuba: UN support for ending the US embargo hits a 30-year low",
+     "tag": "United Nations · 28 Oct",
+     "gap": false,
+     "w": [
+      "The annual UN vote against the US embargo on Cuba passed again, but the cheering has thinned. The General Assembly backed ending the embargo by 130 votes to 17, with 25 abstentions, the lowest support since 1995; last year more than 160 countries voted in favour.",
+      "Germany, Italy and Latvia abstained for the first time in 34 years, and several states, among them Colombia, Costa Rica, Ecuador, Morocco, Slovenia and Bosnia, voted against, many for the first time. US Ambassador Mike Waltz denied there is a blockade and blamed Cuba's hardship on its government; Cuba's foreign minister accused Washington of a pressure campaign.",
+      "The resolution is not legally binding, but it is read as a gauge of world opinion, and Cuba is struggling with fuel shortages and power cuts after Washington tightened oil and sanctions pressure."
+     ],
+     "n": [
+      "The United States has restricted trade with Cuba since 1960, after Fidel Castro's revolution and the seizure of American-owned property. Over the decades the measures grew into a wide embargo covering most commerce and finance.",
+      "Every autumn the UN General Assembly votes on a resolution calling for the embargo to end. Because the General Assembly cannot force any country to act, the vote matters mostly as a show of how many governments agree.",
+      "Cuba says the embargo is the cause of shortages in food, fuel and medicine; Washington says the Cuban government's own policies and its lack of political freedom are to blame."
+     ],
+     "s": "As of 28 Oct 2026 · Euronews (28 Oct)",
+     "links": [
+      {
+       "text": "Euronews: Support for UN vote to end US embargo on Cuba falls to 30-year low",
+       "url": "https://www.euronews.com/2026/10/28/support-for-un-vote-to-end-us-embargo-on-cuba-falls-to-30-year-low"
+      }
+     ]
+    },
+    {
+     "t": "Belgium: tax agency hit by cyberattack",
+     "tag": "Europe · 28 Oct",
+     "gap": false,
+     "w": [
+      "Belgium's tax office has gone dark on purpose. The Federal Public Service Finance said on Wednesday that a cyberattack was disrupting its digital services, and it pulled the MyMinfin portal, where people and firms manage tax returns and documents, along with several other online services offline.",
+      "The shutdown is described as a precaution while investigators secure the systems. Some upcoming filing deadlines will be extended, with new dates still to be announced, and the agency has seen no sign so far that anyone's personal data was compromised."
+     ],
+     "n": [
+      "Belgium's Federal Public Service Finance, known locally as FOD Financiën or SPF Finances, collects taxes and runs the state's financial services. Most Belgians file their returns online through MyMinfin.",
+      "A cyberattack on a public service can mean criminals trying to steal data, lock systems for a ransom, or simply overload them. Authorities often take systems offline as a precaution while they find out which it is.",
+      "The agency has not said who is behind the attack, and the cause was not established in the report read."
+     ],
+     "s": "As of 28 Oct 2026 · Euronews (28 Oct)",
+     "links": [
+      {
+       "text": "Euronews: Belgium's finance and tax agency hit by cyberattack",
+       "url": "https://www.euronews.com/2026/10/28/belgiums-finance-and-tax-agency-hit-by-cyberattack"
+      }
+     ]
+    },
+    {
+     "t": "Spain: train crash",
+     "tag": "Headline only · 29 Oct",
+     "gap": true,
+     "w": [
+      "Euronews leads Thursday with a video headline, \"Madrid mourns train crash victims as rescuers work through the night\". The video page was the only source read, and the figures a summary of it gave (death toll, location, cause) could not be checked against another report, so none are repeated here. Check Euronews or Spanish official sources for the confirmed toll."
+     ],
+     "n": [
+      "Spain runs one of Europe's largest high-speed rail networks. Serious accidents on it are rare, so a crash with fatalities is national news and normally triggers an official investigation by the rail accident commission.",
+      "Investigations of this kind usually take months to report a cause; early explanations from the scene are often revised."
+     ],
+     "s": "As of 29 Oct 2026 · Euronews headline only; details not verified",
+     "links": [
+      {
+       "text": "Euronews: Madrid mourns train crash victims as rescuers work through the night",
+       "url": "https://www.euronews.com/video/2026/10/29/spain-madrid-mourns-train-crash-victims-as-rescuers-work-through-the-night"
+      }
+     ]
+    },
     {
      "t": "Iran war and the Strait of Hormuz",
      "tag": "Ongoing conflict · update 25 Oct",
@@ -582,8 +647,9 @@
     },
     {
      "t": "Leafs, Jays and Raptors",
-     "tag": "Leafs 7-4-2 (surprisesports.com, 24 Oct)",
+     "tag": "Leafs lost 2–5 to Flames (26 Oct)",
      "w": [
+      "The Leafs ran into a wall against Calgary. Toronto lost 2–5 to the Flames on Monday 26 October (Daily Faceoff schedule page). They were due to host Seattle on Wednesday 28 October; that result was not verified. Vancouver follow on Saturday 31 October, 7 pm ET.",
       "Toronto went to Edmonton and won 7–2 on Saturday night. William Nylander scored twice, with Jack Roslovic, Auston Matthews, Troy Stecher, Zack MacEwen and Vinni Lettieri adding the rest, and Anthony Stolarz made 30 saves; Leon Draisaitl scored both Oilers goals (surprisesports.com). The Leafs are listed at 7-4-2, which implies a win over the Rangers on Thursday that was not separately verified.",
       "The Leafs finally found their legs. Toronto beat the Columbus Blue Jackets 6–2 on Tuesday night: Kirill Marchenko scored on the power play in his return to Columbus, with William Nylander, Auston Matthews, Easton Cowan (short-handed), Jack Roslovic and Marshall Rifai, who got his first NHL goal, adding the rest. Anthony Stolarz made 35 saves, and the win, their second straight, lifts Toronto to 5-4-2 (NHL.com). The Rangers visit Scotiabank Arena on Thursday.",
       "The Rangers come to town on Thursday and Edmonton host on Saturday (7 pm ET, per the earlier schedule list). Earlier reporting had Tavares and Tanev out week-to-week; that was not re-checked today.",
@@ -594,7 +660,7 @@
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
       "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
      ],
-     "s": "As of 25 Oct 2026 · surprisesports.com (Leafs 7–2 Oilers, 24 Oct); other lines as of 21 Oct",
+     "s": "As of 29 Oct 2026 · Daily Faceoff (26 Oct result and schedule); other lines as of 25 Oct or 21 Oct",
      "links": [
       {
        "text": "NHL.com: Marchenko scores in Columbus return, Maple Leafs pull away",
@@ -1542,22 +1608,19 @@
    "id": "money",
    "items": [
     {
-     "t": "Canada: where things stand",
-     "tag": "BoC decision due 28 Oct, 9:45 ET",
+     "t": "Canada: the Bank of Canada raises its rate",
+     "tag": "BoC hiked to 2.5% · 28 Oct",
      "w": [
-      "Update 19 Oct: the Bank of Canada's site shows its policy rate at 2.25% and the next announcement on 28 October. September inflation from Statistics Canada is due today, and China's third-quarter GDP is also due today; neither figure had been verified when this was written.",
-      "The data week is here. Statistics Canada publishes September inflation on Monday 19 October, along with the Bank of Canada's business and consumer surveys. A Reuters/LSEG poll expects inflation to rise to 3.2% from 3.0%, while RBC's Nathan Janzen expects it to hold at 3.0%. He calls 28 October a 'live' meeting but a hike is not his base case. Canada also lost 68,000 jobs in September, the second straight monthly fall, which argues against raising rates (BNN Bloomberg, 16 Oct).",
-      "Canada's rate call is suddenly live. The Bank of Canada has held at 2.25% since October 2025, but after Governor Macklem said on 2 September that upside inflation risks were growing, several forecasters now expect a hike on 28 October: UBS, Manulife, Oxford Economics and Scotiabank say yes, while RBC sees a close call and a hold, with hikes from early 2027 (Canadian Mortgage Professional, 2 Oct).",
-      "Two numbers decide it. September CPI is out on Monday 19 October; inflation was 3.0% in August and one preview expects 3.0% again (UBS 3.3%). The 5-year Government of Canada bond yield stood at 3.59% on 6 October, against 2.75% a year earlier, which is why fixed mortgage rates have been rising (a lender spread of 1.2 to 2.0 points on that yield implies roughly 4.8% to 5.6%, per Wealth North; lender quotes vary).",
-      "Shares: the S&P/TSX composite rose 347.89 points to 35,502.65 on 2 October and gained more than 300 points on 13 October on energy stocks, against a record near 36,660 in August. Oil was about US$91 a barrel on 2 October, and new US import bans on some Canadian goods add trade uncertainty.",
-      "Update, 28 Oct: the Bank of Canada's calendar lists today, Wednesday 28 October, as a decision date, with the announcement at 9:45 a.m. Eastern and a Monetary Policy Report alongside. The result was not out when this page was built, so check the Bank's site for the decision."
+      "The Bank of Canada has raised interest rates for the first time since July 2023. On Wednesday 28 October it lifted its overnight rate target by 25 basis points to 2.5%, with the Bank Rate at 2.75% and the deposit rate at 2.45%.",
+      "The reason is inflation that will not settle. CPI has hovered around 3% since April and the Bank expects about 3.5% by year-end, although excluding gasoline inflation was 2.2% in September and core measures are near 2%. It sees inflation averaging 3% in 2027 and returning to about 2% by mid-2028.",
+      "Governing Council left the door open: \"There could be a need to increase the policy rate further, but given uncertainties, Governing Council agreed to proceed carefully.\" The Bank puts GDP growth at 3.3% in Q2 2026 and about 2% in Q3, slowing in Q4 because of new US tariffs, with about 1% for 2026 and roughly 2% in 2027 and 2028. Unemployment has sat near 6.5%. The Canadian dollar is around 71 US cents.",
+      "For a Canadian ETF investor, higher policy rates tend to lift bond yields, which can push existing bond prices down, and raise fixed mortgage and savings rates. Treat the earlier 5-year yield and TSX levels below as dated."
      ],
      "f": [
-      "Sept CPI Mon 19 Oct: forecasts 3.0% to 3.2% (Aug 3.0%); Canada lost 68,000 jobs in Sept",
-      "Policy rate: 2.25%, decision 28 Oct",
-      "CPI inflation: 3.0% (August); September CPI on 19 Oct",
-      "5-year GoC yield: 3.59% (6 Oct)",
-      "TSX: 35,502.65 (2 Oct), up 300+ points on 13 Oct; record near 36,660 in August"
+      "Policy rate: 2.5% (raised 25 bp on 28 Oct 2026); Bank Rate 2.75%; deposit rate 2.45%",
+      "CPI: about 3% since April, seen near 3.5% by year-end; 2.2% excluding gasoline (Sept)",
+      "Bank forecast: GDP about 1% in 2026, 2% in 2027–28; CPI near 3% in 2027, 2% by mid-2028",
+      "Not re-verified: 5-year GoC yield 3.59% (6 Oct), TSX 35,502.65 (2 Oct)"
      ],
      "n": [
       "The Bank of Canada sets its overnight policy rate, the rate that banks charge each other, and uses it to steer inflation toward 2%. Commercial banks set their prime rate from it, which drives variable mortgages and lines of credit.",
@@ -1565,20 +1628,11 @@
       "The S&P/TSX Composite is the main Canadian share index. It is heavy in banks, energy and mining, so it rises and falls with commodity prices and financial-sector earnings, and is less weighted to technology than US indexes.",
       "The Canadian dollar also matters. When oil rises it often strengthens, which changes the value of any US or international assets you hold."
      ],
-     "s": "As of 16-17 Oct 2026. Sources: BNN Bloomberg (16 Oct), Canadian Mortgage Professional (2 Oct), Wealth North. Yields and TSX levels not re-verified. General information, not advice. · not re-checked 21 Oct",
+     "s": "As of 28 Oct 2026. Sources: Bank of Canada announcement page (28 Oct), investinglive.com full statement. Yield and TSX figures from 2–6 Oct not re-checked. General information, not advice.",
      "links": [
       {
-       "text": "BNN Bloomberg: Bank of Canada set for pair of important data drops ahead of 'live' rate decision (16 Oct)",
-       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/16/bank-of-canada-set-for-pair-of-important-data-drops-ahead-of-live-rate-decision/"
-      },
-      {
-       "text": "Canadian Mortgage Professional: rate-hike calls gather pace ahead of October BoC decision",
-       "url": "https://www.mpamag.com/ca/mortgage-industry/industry-trends/rate-hike-calls-gather-pace-ahead-of-october-boc-decision/592150",
-       "syn": "Several forecasters, including UBS, Manulife and Oxford Economics, now expect Bank of Canada rate hikes in October as inflation sits above target. RBC still expects holds before a 2027 hiking cycle."
-      },
-      {
-       "text": "BNN Bloomberg: S&P/TSX composite, 2 Oct",
-       "url": "https://www.bnnbloomberg.ca/markets/tsx/2026/10/02/sptsx-composite-up-more-than-150-points/"
+       "text": "Bank of Canada: interest rate announcement and Monetary Policy Report (28 Oct)",
+       "url": "https://www.bankofcanada.ca/2026/10/fad-announcement-release-mpr-2026-10-28/"
       },
       {
        "text": "Bank of Canada: interest rate announcements",
@@ -1588,40 +1642,41 @@
     },
     {
      "t": "United States: rates rising again",
-     "tag": "Fed 28 Oct; CPI 3.7%",
+     "tag": "Fed held 3.75–4.00% · 28 Oct",
      "w": [
-      "Inflation just came in hot. US September CPI, released on 14 October, rose 3.7% from a year earlier (forecast 3.6%), with core at 2.6% (forecast 2.5%), according to Kiplinger. That lands two weeks before the Fed's 27-28 October meeting.",
-      "The Fed raised its target range to 3.75-4.00% on 16 September, its first hike since 2023, by a unanimous 12-0 vote. A hold in October was widely expected before the CPI release (markets gave a hike roughly 16-18% as of 9 October), though most officials expect another increase by year-end. The decision is on 28 October at 2:00 pm Eastern."
+      "The Federal Reserve hit pause. On 28 October it held its benchmark range at 3.75% to 4%, a month after September's hike, its first increase in three years. The vote was 10–2: Governor Lisa Cook and Cleveland Fed President Beth Hammack both wanted another quarter-point rise.",
+      "The Fed said inflation \"remains elevated\" and described activity as \"expanding at a strong pace\". September CPI rose 3.7% on the year, core 2.6%, and Brent crude was about $111.75 a barrel, against roughly $72 before the Iran war began in late February. Employers added only 29,000 jobs in September and unemployment rose to 4.2%.",
+      "Markets priced an 87.5% chance of a hike at the December meeting (CME FedWatch, per Euronews). The decision came days before the US midterm elections, and President Trump is trying to remove Cook over mortgage-fraud allegations she denies."
      ],
      "f": [
-      "Fed target range: 3.75-4.00% (raised 16 Sep)",
+      "Fed target range: 3.75–4.00% (held 28 Oct, 10–2 vote)",
       "Sept CPI: 3.7% (core 2.6%)",
-      "Next decision: 28 Oct, 2:00 pm ET; then 8-9 Dec"
+      "Next decision: 8–9 Dec (market odds of a hike 87.5%, CME FedWatch via Euronews)"
      ],
      "n": [
       "The Federal Reserve is the US central bank. Its policy committee sets a target range for the federal funds rate, and that rate anchors borrowing costs worldwide because the US dollar is the world's main reserve currency.",
       "When the Fed raises rates, newly issued bonds pay more, so existing bonds with lower rates fall in price. High rates also make future profits worth less today, which hurts fast-growing technology shares most.",
       "Because the S&P 500 and Nasdaq are such large parts of global equity funds, a change in US policy can move your ETF even if you hold no US-specific fund."
      ],
-     "s": "As of 15 Oct 2026. Sources: Kiplinger (CPI, 14 Oct), political.org preview (12 Oct). · not re-checked 21 Oct",
+     "s": "As of 28 Oct 2026. Source: Euronews (28 Oct). General information, not advice.",
      "links": [
+      {
+       "text": "Euronews: Fed holds rates days before US midterms but two officials dissented",
+       "url": "https://www.euronews.com/2026/10/28/fed-holds-rates-days-before-us-midterms-as-two-officials-push-for-another-hike"
+      },
       {
        "text": "Kiplinger: September CPI report",
        "url": "https://www.kiplinger.com/investing/economy/cpi-report-september-2026-what-to-expect",
        "syn": "Kiplinger reports September CPI rose 0.6% monthly and 3.7% annually, above expectations, driven mostly by gasoline. Core CPI rose 2.6% annually. Economists debate whether the Fed will hike at its October 28 meeting."
-      },
-      {
-       "text": "Federal Reserve: monetary policy",
-       "url": "https://www.federalreserve.gov/monetarypolicy.htm"
       }
      ]
     },
     {
      "t": "United Kingdom and France",
-     "tag": "BoE 5 Nov; ECB 29 Oct",
+     "tag": "BoE 5 Nov; ECB 29 Oct (not verified)",
      "w": [
       "Europe is tightening on both sides of the Channel. The Bank of England held Bank Rate at 3.75% on 17 September, but by a 6-3 vote, with three members wanting a hike to 4.00%. UK inflation was 3.1% in August, September's figure is due on 21 October, and the next decision is on 5 November. Goldman Sachs has forecast a hike then (Kitco, 14 Sep).",
-      "France follows the ECB, which raised its deposit rate to 2.50% on 10 September (effective 16 September), its second hike this year. Euro-area inflation jumped to 3.8% in September (flash, 2 October) from 3.2%, led by energy at 18.8%. The next ECB decision is 29 October, and pricing in late September put a hike to 2.75% at about 60%.",
+      "France follows the ECB, which raised its deposit rate to 2.50% on 10 September (effective 16 September), its second hike this year. Euro-area inflation jumped to 3.8% in September (flash, 2 October) from 3.2%, led by energy at 18.8%. The next ECB decision is 29 October, and pricing in late September put a hike to 2.75% at about 60%. Update 29 Oct: the ECB's decision was due today; its outcome could not be verified at the time of this run.",
       "France's 10-year yield was 4.85% on 13 October, after topping 5% earlier in the month, a more-than-two-decade high. Paris targets a 5% of GDP deficit in 2027, but support in parliament is uncertain before next year's presidential election."
      ],
      "n": [
@@ -1779,15 +1834,15 @@
  "econ": [
   [
    "Canada",
-   "2.25% (next: 28 Oct, a \"live\" meeting)",
-   "3.0% (Aug)",
-   "BoC site (19 Oct): rate 2.25%, next announcement 28 Oct. September CPI due Mon 19 Oct, not yet verified. Canada lost 68,000 jobs in Sept (BNN Bloomberg, 16 Oct)."
+   "2.50% (raised 25 bp on 28 Oct; Bank Rate 2.75%)",
+   "≈3% (CPI since April; 2.2% ex-gasoline in Sept)",
+   "BoC (28 Oct): first hike since July 2023; says more may be needed. Next decision date not read."
   ],
   [
    "United States",
-   "3.75–4.00% (next: 28 Oct)",
-   "3.7% (Sept)",
-   "Fed raised on 16 Sep under Chair Warsh (not re-checked). Fed site (19 Oct) lists the 15–16 Sep minutes, posted 7 Oct; rate range and next meeting date not on the page read."
+   "3.75–4.00% (held 28 Oct, 10–2)",
+   "3.7% (Sept; core 2.6%)",
+   "Euronews (28 Oct): Cook and Hammack dissented for a hike; December hike priced at 87.5%. Next: 8–9 Dec."
   ],
   [
    "United Kingdom",
@@ -1797,7 +1852,7 @@
   ],
   [
    "France / euro area",
-   "ECB deposit 2.50% (next: 29 Oct)",
+   "ECB deposit 2.50% (decision due 29 Oct: not verified)",
    "3.8% euro area (Sept flash)",
    "ECB hiked 10 Sep (not re-checked). Weekend riots add political risk ahead of the 2027 budget vote (scheduled 20 Oct) and April 2027 presidential election."
   ],
@@ -4312,7 +4367,7 @@
   {
    "id": "baseball",
    "title": "Baseball",
-   "summary": "Blue Jays out; Brewers up 3–0 on Dodgers, Rays-Guardians 1–1.",
+   "summary": "Blue Jays out. World Series: Brewers beat Rays in Games 1 and 2; later games not verified.",
    "intro": "Blue Jays and the MLB postseason.",
    "cards": [
     {
@@ -4320,15 +4375,19 @@
      "tag": "Season over",
      "w": [
       "October baseball is going on without Toronto. The Blue Jays were eliminated with a 4–2 loss to the Orioles on 23 September, as reported by CP24 and MLB.com, so the reigning American League champions are watching from home.",
-      "The World Series was due to open on Friday 23 October, with a possible Game 7 on 31 October in Milwaukee (Flashscore). The Brewers had a 3–0 lead over the Dodgers in the NLCS (MLB.com, mid-October); World Series results were not verified on 26 Oct."
+      "The World Series is Milwaukee Brewers against Tampa Bay Rays. The Brewers won Game 1 and then Game 2 5–4 at American Family Field on Saturday 24 October (Fox 13). Game 3 was set for Monday 26 October at Tropicana Field; its result was not verified."
      ],
      "n": [
       "Baseball is played between two teams of nine across nine innings. In each innings one team bats and the other fields, and a half-innings ends after three outs. The pitcher throws to the batter, who tries to hit the ball and run round four bases to score.",
       "Major League Baseball has 30 teams in two leagues. Twelve teams make the postseason. After the wild-card round come the division series, the league championship series and the World Series.",
       "The regular season is 162 games, so single results matter less than in football and the best teams still lose about 60 games."
      ],
-     "s": "As of 14 Oct 2026 (bracket, NBC) · 23 Sep (Jays elimination) · not re-checked 21 Oct",
+     "s": "As of 29 Oct 2026 · Fox 13 (Game 2); Jays elimination 23 Sep",
      "links": [
+      {
+       "text": "Fox 13: Rays lose to Brewers in Game 2",
+       "url": "https://fox13news.com/news/world-series-tampa-bay-rays-lose-milwaukee-brewers-game-2"
+      },
       {
        "text": "CP24: Blue Jays eliminated with loss to Orioles",
        "url": "https://www.cp24.com/local/toronto/2026/09/23/blue-jays-eliminated-from-playoff-contention-with-loss-to-orioles/",
@@ -4345,9 +4404,8 @@
       }
      ],
      "f": [
-      "NLCS: Brewers lead Dodgers 3–0 (Game 4 Thu 15 Oct, 8 pm ET)",
-      "ALCS: Guardians v Rays 1–1 (Game 3 Thu 15 Oct, 1 pm ET)",
-      "World Series Game 1: Fri 23 Oct"
+      "World Series: Brewers won Games 1 and 2 (Game 2: 5–4, 24 Oct)",
+      "Game 3: Mon 26 Oct at Tropicana Field (result not verified)"
      ]
     }
    ],
@@ -4359,9 +4417,9 @@
      "panels": [
       {
        "id": "mlb",
-       "title": "MLB league championship series",
-       "asof": "14 Oct 2026 (series status as listed by NBC) · not re-checked 21 Oct",
-       "source": "nbcnewyork.com",
+       "title": "MLB World Series",
+       "asof": "24 Oct 2026 (Fox 13); games since 26 Oct not verified",
+       "source": "fox13news.com",
        "cols": [
         "Series",
         "Matchup",
@@ -4370,23 +4428,17 @@
        ],
        "rows": [
         [
-         "NLCS",
-         "Milwaukee Brewers v Los Angeles Dodgers",
-         "Brewers lead 3–0 (2–1, 7–4, 6–2)",
-         "Game 4: 15 Oct, 8 pm ET"
-        ],
-        [
-         "ALCS",
-         "Cleveland Guardians v Tampa Bay Rays",
-         "Tied 1–1 (Guardians 7–3, Rays 3–1)",
-         "Game 3: 15 Oct, 1 pm ET"
+         "World Series",
+         "Milwaukee Brewers v Tampa Bay Rays",
+         "Brewers won Games 1 and 2 (Game 2 5–4, 24 Oct)",
+         "Game 3: 26 Oct, Tropicana Field (result not verified)"
         ]
        ],
-       "note": "Milwaukee beat San Diego in four games in the division series and Los Angeles beat Atlanta 3–1; Tampa Bay swept the Yankees and Cleveland beat the White Sox. The World Series opens Friday 23 October. On 21 Oct only NLCS Game 1 (Brewers 2–1, 11 Oct) was re-confirmed; the standings above may be out of date.",
+       "note": "The Brewers beat the Dodgers in the NLCS and the Rays won the ALCS over Cleveland (earlier reporting). Check MLB.com for the current series score.",
        "links": [
         {
-         "text": "NBC: NLCS and ALCS schedule and bracket",
-         "url": "https://www.nbcnewyork.com/mlb/nlcs-alcs-schedule-bracket-playoffs-2026/"
+         "text": "Fox 13: Rays lose to Brewers in Game 2",
+         "url": "https://fox13news.com/news/world-series-tampa-bay-rays-lose-milwaukee-brewers-game-2"
         }
        ]
       }
@@ -4518,13 +4570,14 @@
   {
    "id": "ice-hockey",
    "title": "Ice hockey",
-   "summary": "Leafs (5-4-2) beat Columbus 6–2 on Tue 20 Oct; the Rangers visit Thursday.",
+   "summary": "Lost 2–5 to Calgary on 26 Oct; Seattle on 28 Oct not verified; Vancouver next, Sat 31 Oct.",
    "intro": "Maple Leafs and the NHL.",
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "7-4-2 · 7–2 at Edmonton",
+     "tag": "Lost 2–5 to Calgary (26 Oct)",
      "w": [
+      "Toronto fell 2–5 to the Calgary Flames on Monday 26 October. Next on the list: the Seattle Kraken on Wednesday 28 October (result not verified) and the Vancouver Canucks on Saturday 31 October, 7 pm ET (Daily Faceoff).",
       "A statement win in Edmonton: the Leafs beat the Oilers 7–2 on Saturday 24 October. Nylander scored twice, Roslovic, Matthews, Stecher, MacEwen and Lettieri added one each, and Stolarz made 30 saves. Draisaitl got both Edmonton goals.",
       "The record is listed at 7-4-2 (surprisesports.com). The next game was not verified; check the NHL schedule."
      ],
@@ -4538,7 +4591,7 @@
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 25 Oct 2026 · surprisesports.com",
+     "s": "As of 29 Oct 2026 · Daily Faceoff; earlier lines surprisesports.com 25 Oct",
      "links": [
       {
        "text": "surprisesports.com: Maple Leafs vs Oilers, 24 Oct",
@@ -4568,14 +4621,14 @@
        "asof": "24 Oct 2026 (surprisesports.com)",
        "source": "surprisesports.com",
        "items": [
-        "7 wins, 4 losses, 2 overtime losses (7-4-2) as listed after the 24 Oct game; 16 points if the usual 2-points-per-win rule applies"
+        "7-4-2 after the 24 Oct game (surprisesports.com); the 26 Oct 2–5 loss to Calgary is not yet in that record (probably 7-5-2 if it was a regulation loss, calculated, not verified)"
        ],
        "note": "An overtime loss earns 1 point."
       },
       {
        "id": "tml-res",
        "title": "Last five games",
-       "asof": "24 Oct 2026 (surprisesports.com); the 22 Oct Rangers game is not in the list (result not verified)",
+       "asof": "26 Oct 2026 (Daily Faceoff) and 24 Oct (surprisesports.com)",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -4584,6 +4637,12 @@
         "Result"
        ],
        "rows": [
+        [
+         "26 Oct",
+         "Calgary Flames",
+         "2–5",
+         "L"
+        ],
         [
          "24 Oct",
          "@ Edmonton Oilers",
@@ -4607,12 +4666,6 @@
          "v New York Islanders",
          "1–4",
          "L"
-        ],
-        [
-         "15 Oct",
-         "@ Buffalo Sabres",
-         "4–5",
-         "L (OT)"
         ]
        ],
        "links": [
@@ -4625,14 +4678,22 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "26 Oct 2026 · not verified",
+       "asof": "29 Oct 2026 (Daily Faceoff schedule page, 26 Oct week)",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
         "Opponent"
        ],
-       "rows": [],
-       "note": "Not verified: the schedule pages could not be read on 26 Oct. Check nhl.com/mapleleafs."
+       "rows": [
+        [
+         "Wed 28 Oct, 10:00 pm ET",
+         "Seattle Kraken (result not verified)"
+        ],
+        [
+         "Sat 31 Oct, 7:00 pm ET",
+         "Vancouver Canucks"
+        ]
+       ]
       },
       {
        "id": "nhl-table",
@@ -4659,23 +4720,21 @@
   {
    "id": "f1",
    "title": "F1",
-   "summary": "Antonelli leads on 340 (as of the Singapore GP, not re-checked); US GP race Sun 25 Oct, 15:00 CDT.",
+   "summary": "Antonelli wins the US GP (25 Oct, ninth win of 2026); points calculated, ~123 clear.",
    "intro": "Formula 1 championship.",
    "cards": [
     {
      "t": "Formula 1",
-     "tag": "US GP weekend: result not verified",
+     "tag": "Antonelli wins in Austin",
      "w": [
-      "Max Verstappen has won in Singapore from pole, and the title race did not flinch. The Red Bull driver took a lights-to-flag victory at Marina Bay on Sunday 11 October, ahead of Ferrari's Charles Leclerc and Mercedes' Kimi Antonelli, after also winning the sprint earlier in the weekend.",
-      "Antonelli's third place stretches his championship lead to 102 points: 340 against team-mate George Russell's 238, who finished ninth. Lewis Hamilton is third on 229, Verstappen fourth on 221. Mercedes lead the constructors' on 578 from Ferrari (444) and McLaren (339).",
-      "The United States Grand Prix in Austin on 23 to 25 October could crown Antonelli: he needs to win, with Russell ninth or lower and Hamilton fifth or lower, to clinch on win count-back. If not, the title would go to Mexico City.",
-      "Update, 26 Oct: the United States Grand Prix was scheduled for Sunday 25 October at COTA, with Kimi Antonelli on pole (formulaonehistory.com), but no race result could be verified, so the standings below are still as of the Singapore GP."
+      "Kimi Antonelli is one step from the crown. The Mercedes driver dominated the United States Grand Prix at Austin on Sunday 25 October, his ninth win of 2026, on a one-stop strategy, and is described as on the brink of becoming Formula 1's youngest world champion.",
+      "Ferrari's Charles Leclerc was second (+13.1s), Max Verstappen third, Lewis Hamilton fourth, Lando Norris fifth, Isack Hadjar sixth, Oscar Piastri seventh, George Russell eighth, Liam Lawson ninth and Pierre Gasly tenth (PlanetF1). Hamilton and Russell stay in mathematical contention, so the title is not yet won.",
+      "Adding the standard points to the Singapore standings gives Antonelli 365, Russell 242, Hamilton 241, Verstappen 236 and Leclerc 233. This table is our calculation, not a published standings page, so treat it as provisional."
      ],
      "f": [
-      "Singapore GP (11 Oct): 1 Verstappen, 2 Leclerc, 3 Antonelli",
-      "Drivers: Antonelli 340, Russell 238, Hamilton 229",
-      "Constructors: Mercedes 578, Ferrari 444, McLaren 339",
-      "Next: US GP, Austin, 23 to 25 Oct"
+      "US GP (25 Oct): 1 Antonelli, 2 Leclerc, 3 Verstappen, 4 Hamilton, 5 Norris",
+      "Drivers (calculated): Antonelli 365, Russell 242, Hamilton 241, Verstappen 236",
+      "Constructors: not recalculated, panel still after Singapore"
      ],
      "n": [
       "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
@@ -4683,25 +4742,19 @@
       "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
       "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
      ],
-     "s": "Standings after the Singapore GP, 11 Oct 2026 (RacingNews365, The Race, Crash.net) · standings re-checked 19 Oct (DirecTV)",
+     "s": "US GP result 25 Oct 2026 (PlanetF1, Radio X); points calculated from the Singapore standings (RacingNews365)",
      "links": [
+      {
+       "text": "PlanetF1: United States Grand Prix 2026 race results",
+       "url": "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race"
+      },
+      {
+       "text": "Radio X: Antonelli wins Austin race to move to brink of F1 world title",
+       "url": "https://www.radiox.co.uk/news/sport/united-states-gp-kimi-antonelli-wins-austin-r/"
+      },
       {
        "text": "RacingNews365: standings after Singapore GP",
        "url": "https://racingnews365.com/2026-f1-championship-standings-after-singapore-grand-prix"
-      },
-      {
-       "text": "The Race: Singapore GP result",
-       "url": "https://www.the-race.com/formula-1/f1-2026-singapore-grand-prix-race-result/",
-       "syn": "Max Verstappen won the Singapore Grand Prix for Red Bull, 7.3 seconds ahead of Ferrari's Charles Leclerc, with Mercedes' Kimi Antonelli third. Lance Stroll, Franco Colapinto and Gabriel Bortoleto retired."
-      },
-      {
-       "text": "Crash.net: how Antonelli can win the title at the US GP",
-       "url": "https://www.crash.net/f1/news/1107507/1/how-kimi-antonelli-can-become-f1-world-champion-united-states-gp",
-       "syn": "Kimi Antonelli leads Mercedes teammate George Russell by 102 points with six races left and could clinch the title at the US Grand Prix in Austin. He would need to win, with Russell ninth or lower and Lewis Hamilton fifth or lower."
-      },
-      {
-       "text": "Formula1.com: 2026 calendar",
-       "url": "https://www.formula1.com/en/latest/article/formula-1-reveals-calendar-for-2026-season.YctbMZWqBvrgyddrnauo8.YctbMZWqBvrgyddrnauo8"
       }
      ]
     }
@@ -4715,8 +4768,8 @@
      "panels": [
       {
        "id": "f1-drivers",
-       "title": "Drivers' championship top 10",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page (dated 14 Oct) re-read 20 Oct, unchanged",
+       "title": "Drivers' championship top 10 (calculated after US GP)",
+       "asof": "after the US Grand Prix, 25 Oct 2026: CALCULATED by adding race points (PlanetF1 result) to the Singapore standings; no published table read",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -4729,76 +4782,76 @@
          1,
          "Kimi Antonelli",
          "Mercedes",
-         340
+         365
         ],
         [
          2,
          "George Russell",
          "Mercedes",
-         238
+         242
         ],
         [
          3,
          "Lewis Hamilton",
          "Ferrari",
-         229
+         241
         ],
         [
          4,
          "Max Verstappen",
          "Red Bull Racing",
-         221
+         236
         ],
         [
          5,
          "Charles Leclerc",
          "Ferrari",
-         215
+         233
         ],
         [
          6,
          "Lando Norris",
          "McLaren",
-         201
+         211
         ],
         [
          7,
          "Oscar Piastri",
          "McLaren",
-         138
+         144
         ],
         [
          8,
          "Isack Hadjar",
          "Red Bull Racing",
-         97
+         105
         ],
         [
          9,
          "Liam Lawson",
          "Racing Bulls",
-         75
+         77
         ],
         [
          10,
          "Pierre Gasly",
          "Alpine",
-         41
+         42
         ]
        ],
        "movement": true,
        "key": 1,
        "links": [
         {
-         "text": "RacingNews365: standings after Singapore GP",
-         "url": "https://racingnews365.com/2026-f1-championship-standings-after-singapore-grand-prix"
+         "text": "PlanetF1: US Grand Prix 2026 results",
+         "url": "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race"
         }
        ]
       },
       {
        "id": "f1-cons",
        "title": "Constructors' championship",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026; DirecTV page (dated 14 Oct) re-read 20 Oct, unchanged",
+       "asof": "after the Singapore Grand Prix, 11 Oct 2026; NOT updated for the US GP",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -5007,118 +5060,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Wednesday 28 October 2026",
-  "intro": "Ten questions from today's verified items: the Premier League weekend, Euronews headlines and the Bank of Canada. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Thursday 29 October 2026",
+  "intro": "Ten questions from today's verified items: central banks, the UN Cuba vote, the US Grand Prix and the World Series. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "Which club beat Manchester City 2–1 on Saturday 24 October?",
+    "q": "To what level did the Bank of Canada raise its overnight rate on 28 October?",
     "options": [
-     "Arsenal",
-     "Aston Villa",
-     "Chelsea",
-     "Liverpool"
+     "2.25%",
+     "2.50%",
+     "2.75%",
+     "3.00%"
     ],
     "answer": 1,
-    "explain": "Aston Villa 2–1 Manchester City (sportnewsafrica.com)."
+    "explain": "A 25 basis point rise to 2.5% (Bank of Canada)."
    },
    {
-    "q": "What was the score when Bournemouth visited Manchester United on 25 October?",
+    "q": "When was the Bank of Canada's last rate increase before this one?",
     "options": [
-     "Man Utd 0–3 Bournemouth",
-     "Man Utd 1–1 Bournemouth",
-     "Man Utd 2–0 Bournemouth",
-     "Man Utd 3–0 Bournemouth"
+     "July 2023",
+     "October 2025",
+     "January 2022",
+     "September 2024"
     ],
     "answer": 0,
-    "explain": "Manchester United 0–3 Bournemouth."
+    "explain": "The Bank described it as its first hike since July 2023 (investinglive.com)."
    },
    {
-    "q": "Which two Premier League clubs are level on 21 points at the top after matchday 8?",
+    "q": "What range did the US Federal Reserve hold its rate at on 28 October?",
     "options": [
-     "Man City and Liverpool",
-     "Arsenal and Brighton",
-     "Man City and Arsenal",
-     "Chelsea and Arsenal"
-    ],
-    "answer": 2,
-    "explain": "City lead on goal difference (+11 v +8)."
-   },
-   {
-    "q": "Which Premier League club is bottom after eight games?",
-    "options": [
-     "Coventry",
-     "Sunderland",
-     "Nottingham Forest",
-     "Crystal Palace"
+     "3.50–3.75%",
+     "3.75–4.00%",
+     "4.00–4.25%",
+     "4.25–4.50%"
     ],
     "answer": 1,
-    "explain": "Sunderland have 5 points."
+    "explain": "Held at 3.75% to 4% (Euronews)."
    },
    {
-    "q": "Who did Liverpool beat 2–0 on 25 October?",
+    "q": "How did the Fed's vote go?",
     "options": [
-     "Brighton",
-     "Newcastle",
-     "Everton",
-     "Fulham"
+     "Unanimous",
+     "10–2 with two dissenters wanting a hike",
+     "7–5",
+     "9–3 with dissenters wanting a cut"
+    ],
+    "answer": 1,
+    "explain": "Lisa Cook and Beth Hammack voted for another hike (Euronews)."
+   },
+   {
+    "q": "In the UN vote on the US embargo on Cuba, how many countries voted in favour of ending it?",
+    "options": [
+     "130",
+     "160",
+     "95",
+     "187"
     ],
     "answer": 0,
-    "explain": "Liverpool 2–0 Brighton."
+    "explain": "130 for, 17 against, 25 abstentions: the lowest support since 1995 (Euronews)."
    },
    {
-    "q": "Which London club won 2–0 away at Chelsea on 24 October?",
+    "q": "Which country's tax agency was hit by a cyberattack on 28 October?",
     "options": [
-     "Arsenal",
-     "West Ham",
-     "Tottenham",
-     "Fulham"
-    ],
-    "answer": 2,
-    "explain": "Chelsea 0–2 Tottenham."
-   },
-   {
-    "q": "What did Norwegian media sue Meta over, according to Euronews on 27 October?",
-    "options": [
-     "Plans to use their journalism for AI",
-     "Ad prices",
-     "Data leaks",
-     "Video licensing"
+     "Belgium",
+     "Spain",
+     "Netherlands",
+     "Denmark"
     ],
     "answer": 0,
-    "explain": "Euronews, 27 Oct."
+    "explain": "Belgium's FOD Financiën took MyMinfin and other services offline (Euronews)."
    },
    {
-    "q": "Whose political committee is Neil Young suing for copyright infringement, again?",
+    "q": "Who won the United States Grand Prix in Austin on 25 October?",
     "options": [
-     "Joe Biden's",
-     "Donald Trump's",
-     "Boris Johnson's",
-     "Emmanuel Macron's"
+     "Kimi Antonelli",
+     "Max Verstappen",
+     "Charles Leclerc",
+     "Lewis Hamilton"
     ],
-    "answer": 1,
-    "explain": "Euronews, 27 Oct."
+    "answer": 0,
+    "explain": "Antonelli's ninth win of 2026 (PlanetF1, Radio X)."
    },
    {
-    "q": "What time (Eastern) does the Bank of Canada announce its rate decisions?",
+    "q": "Who finished second at the US Grand Prix?",
     "options": [
-     "8:00 a.m.",
-     "9:45 a.m.",
-     "12:00 p.m.",
-     "2:00 p.m."
+     "Charles Leclerc",
+     "Lewis Hamilton",
+     "George Russell",
+     "Lando Norris"
     ],
-    "answer": 1,
-    "explain": "All announcements are released at 9:45 a.m. ET (storeys.com)."
+    "answer": 0,
+    "explain": "Leclerc, 13 seconds behind (PlanetF1)."
    },
    {
-    "q": "What happened to Hull City and Brentford on 25 October?",
+    "q": "Which two teams are playing in the 2026 World Series?",
     "options": [
-     "Hull won 2–0",
-     "Brentford won 3–1",
-     "They drew 1–1",
-     "They drew 0–0"
+     "Brewers and Rays",
+     "Blue Jays and Dodgers",
+     "Guardians and Brewers",
+     "Dodgers and Rays"
     ],
-    "answer": 2,
-    "explain": "Hull City 1–1 Brentford."
+    "answer": 0,
+    "explain": "Milwaukee Brewers v Tampa Bay Rays (Fox 13)."
+   },
+   {
+    "q": "What was the score when the Maple Leafs played Calgary on 26 October?",
+    "options": [
+     "Leafs 2–5 Flames",
+     "Leafs 5–2 Flames",
+     "Leafs 3–1 Flames",
+     "Leafs 1–4 Flames"
+    ],
+    "answer": 0,
+    "explain": "A 2–5 loss (Daily Faceoff schedule page)."
    }
   ]
  }
