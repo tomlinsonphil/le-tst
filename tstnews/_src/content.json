@@ -1,8 +1,8 @@
 {
- "date": "2026-10-29",
- "label": "Thursday 29 October 2026",
- "note": "Refresh of Thu 29 Oct 2026 (early morning, Toronto time). A limited run: every permitted feed URL (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages) was refused by the fetch tool after a retry, so the Headlines for those outlets are carried over with their own dates, except Euronews, which was read from its 'top news stories' page. Newly verified today: Bank of Canada decision (28 Oct), Fed decision (28 Oct, Euronews), UN Cuba embargo vote, Belgium tax-agency cyberattack, the United States Grand Prix result (25 Oct), Maple Leafs 2–5 Flames (26 Oct) and the World Series status (Brewers v Rays). All other sections are carried over from earlier days and keep their own 'as of' dates; nothing else has been re-verified.",
- "sport_note": "Thu 29 Oct 2026: re-checked the F1 US Grand Prix result, the Maple Leafs and the World Series. The Premier League table and results are unchanged (no games since Sun 25 Oct; next round Fri 30 Oct to Sun 1 Nov per earlier lists). Every other sport panel keeps its own 'as of' date and has not been re-verified.",
+ "date": "2026-10-30",
+ "label": "Friday 30 October 2026",
+ "note": "Refresh of Fri 30 Oct 2026 (early morning, Toronto time). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages) were refused by the fetch tool, so Headlines for Euronews, Al Jazeera and Global News come from search results (titles and URLs as published), while CP24 and L'Écho du Mardi are carried over with their own dates. Three new world cards were read from pages found in search. Every other card and panel keeps its own 'as of' date and was NOT re-checked today.",
+ "sport_note": "Fri 30 Oct 2026: sport pages were not refreshed in this run (footballwebpages and other sources could not be read). Every panel keeps its own 'as of' date; the Premier League round of Fri 30 Oct to Sun 1 Nov has not been played or reported yet.",
  "sections": [
   {
    "id": "headlines",
@@ -17,32 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Spain: Madrid mourns train crash victims as rescuers work through the night",
-       "url": "https://www.euronews.com/video/2026/10/29/spain-madrid-mourns-train-crash-victims-as-rescuers-work-through-the-night",
-       "when": "29 Oct"
+       "t": "EU and Canada to seal broader, deeper alliance in Trump's long shadow",
+       "url": "https://www.euronews.com/2026/10/30/eu-and-canada-to-seal-new-alliance-in-montreal-under-trumps-shadow",
+       "when": "30 Oct"
       },
       {
-       "t": "Support for UN vote to end US embargo on Cuba falls to 30-year low",
-       "url": "https://www.euronews.com/2026/10/28/support-for-un-vote-to-end-us-embargo-on-cuba-falls-to-30-year-low",
-       "when": "28 Oct",
-       "syn": "The UN General Assembly again called for an end to the US embargo on Cuba, but by 130 votes to 17 with 25 abstentions, the lowest support since 1995."
+       "t": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
+       "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
+       "when": "30 Oct"
       },
       {
-       "t": "Belgium's finance and tax agency hit by cyberattack, filing deadlines",
-       "url": "https://www.euronews.com/2026/10/28/belgiums-finance-and-tax-agency-hit-by-cyberattack",
-       "when": "28 Oct",
-       "syn": "Belgium's finance ministry took its MyMinfin portal and other online services offline after a cyberattack; some tax filing deadlines will be extended and no data breach has been seen so far."
+       "t": "Largest bank heist in history: Binance hack rocks crypto industry",
+       "url": "https://www.euronews.com/2026/10/30/crypto-platform-binance-confirms-major-hack-with-more-than-25bn-frozen",
+       "when": "30 Oct"
       },
       {
-       "t": "Fed holds rates days before US midterms but two officials dissented",
-       "url": "https://www.euronews.com/2026/10/28/fed-holds-rates-days-before-us-midterms-as-two-officials-push-for-another-hike",
-       "when": "28 Oct",
-       "syn": "The Fed kept its rate at 3.75% to 4% on a 10–2 vote, with two officials wanting another hike."
+       "t": "Drone attack and fire reported at Russia's Novokuibyshevsk oil refinery",
+       "url": "https://www.euronews.com/2026/10/30/drone-attack-and-fire-reported-at-russias-novokuibyshevsk-oil-refinery",
+       "when": "30 Oct"
       },
       {
-       "t": "Two men charged over RAF Fairford air base incident",
-       "url": "https://www.euronews.com/2026/10/27/two-men-charged-over-raf-fairford-air-base-incident-with-one-accused-of-assisting-foreign-",
-       "when": "27 Oct"
+       "t": "‘Godspeed, Captain’: Heartfelt tributes pour in for Sir Patrick Stewart",
+       "url": "https://www.euronews.com/2026/10/30/godspeed-captain-heartfelt-tributes-pour-in-for-sir-patrick-stewart",
+       "when": "30 Oct"
       }
      ]
     },
@@ -82,25 +79,29 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Iran says won't allow US warships to get close as Trump ponders new attacks",
-       "url": "https://www.aljazeera.com/news/2026/10/24/iran-says-wont-allow-us-warships-to-get-close-as-trump-ponders-new-attacks",
-       "when": "24 Oct",
-       "syn": "Iran's armed forces say they are ready to fire on US warships; Trump said the US 'may do another Epic Fury'. Brent rose to about $117."
+       "t": "Trump cancels Iowa, Kansas midterm events, opts for ‘tele-rallies’",
+       "url": "https://www.aljazeera.com/news/2026/10/30/trump-cancels-iowa-kansas-midterm-events-opting-for-tele-rallies",
+       "when": "30 Oct"
       },
       {
-       "t": "US-Iran war, then and now: How the landscape has changed since February",
-       "url": "https://www.aljazeera.com/news/2026/10/23/us-iran-war-then-and-now-how-the-landscape-has-changed-since-february",
-       "when": "23 Oct"
+       "t": "US midterms: 4 days to go",
+       "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies",
+       "when": "30 Oct"
       },
       {
-       "t": "Iran reveals 'offensive' doctrine, US issues alert: Is war imminent?",
-       "url": "https://www.aljazeera.com/news/2026/10/22/iran-reveals-offensive-doctrine-us-issues-alert-is-war-imminent",
-       "when": "22 Oct"
+       "t": "Houthi forces claim six attacks on Saudi airports, oil facilities",
+       "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities",
+       "when": "30 Oct"
       },
       {
-       "t": "Iran says seven ships hit in Hormuz Strait, warns US of wider response",
-       "url": "https://www.aljazeera.com/news/2026/10/22/iran-says-seven-ships-hit-in-hormuz-strait-warns-us-of-wider-response",
-       "when": "22 Oct"
+       "t": "Australian court rejects ‘mushroom murderer’ Erin Patterson’s appeal",
+       "url": "https://www.aljazeera.com/news/2026/10/30/australian-mushroom-murderer-erin-patterson-loses-appeal-bid",
+       "when": "30 Oct"
+      },
+      {
+       "t": "Flash floods kill five in Syria",
+       "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria",
+       "when": "30 Oct"
       }
      ]
     },
@@ -109,29 +110,24 @@
      "url": "https://globalnews.ca/toronto/",
      "items": [
       {
-       "t": "Celebrini scores twice, Sharks rally to beat Habs",
-       "url": "https://globalnews.ca/news/12110560/celebrini-scores-twice-sharks-rally-to-beat-habs/",
-       "when": "21 Oct"
+       "t": "Patrick Stewart, ‘Star Trek: The Next Generation’ actor, dead at 86",
+       "url": "https://globalnews.ca/news/12126334/patrick-stewart-star-trek-dead/",
+       "when": "c. 29 Oct (date not shown in search)"
       },
       {
-       "t": "Man pleads guilty to manslaughter after fatal fight in Parkdale rooming house",
-       "url": "https://globalnews.ca/news/12109950/man-pleads-guilty-to-manslaughter-after-fatal-fight-in-parkdale-rooming-house/",
-       "when": "20 Oct"
+       "t": "Competition Bureau ‘reviewing’ $17B DoorDash deal to acquire Instacart",
+       "url": "https://globalnews.ca/news/12125679/doordash-acquire-instacart-deal/",
+       "when": "c. 29 Oct (date not shown in search)"
       },
       {
-       "t": "Ontario begins probe of eight private career colleges over alleged OSAP 'fraud'",
-       "url": "https://globalnews.ca/news/12110123/ontario-begins-probe-of-eight-private-career-colleges-over-alleged-osap-fraud/",
-       "when": "20 Oct"
+       "t": "Shooting at Bridle Path home sends 4 to hospital (video)",
+       "url": "https://globalnews.ca/video/12125795/shooting-at-bridle-path-home-sends-4-to-hospital/",
+       "when": "c. 29 Oct (date not shown in search)"
       },
       {
-       "t": "Chow and Bradford neck-and-neck with days left in Toronto mayoral election campaign",
-       "url": "https://globalnews.ca/news/12110038/chow-and-bradford-neck-and-neck-days-left-toronto-mayoral-election-campaign/",
-       "when": "20 Oct"
-      },
-      {
-       "t": "As Stelco reports soaring earnings, how solid is their layoff legal case?",
-       "url": "https://globalnews.ca/news/12103489/stelco-layoffs-ottawa-court/",
-       "when": "20 Oct"
+       "t": "Global News at 6 Toronto: October 29, 2026 (video)",
+       "url": "https://globalnews.ca/video/12126776/global-news-at-6-toronto-october-29-2026/",
+       "when": "29 Oct"
       }
      ]
     },
@@ -171,6 +167,76 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Israel election: Netanyahu's bloc leads, but no majority",
+     "tag": "Israel · 30 Oct",
+     "gap": false,
+     "w": [
+      "Israel's election has produced a stalemate. Benjamin Netanyahu's bloc won 53 of the 120 Knesset seats, ahead of the opposition camp's 48, led by Gadi Eisenkot's centrist Yashar party, but neither side reached the 61 needed to govern. Likud is the biggest single party on 27 seats, and Arab parties won a record 19 between them, leaving them holding the balance of power.",
+      "The aftermath is already bitter. Netanyahu accused Arab parties of \"stealing\" the election and asked police and the Shin Bet to look into fraud; Likud alleges foreign funding, focusing on Ra'am, whose leader Mansour Abbas reportedly denies wrongdoing. Eisenkot has called for a full Shin Bet investigation.",
+      "Next, President Isaac Herzog consults party leaders, then asks one to try to form a government: 28 days, extendable by 14. If that fails a second candidate gets a turn, and if all fail Israel goes to yet another election."
+     ],
+     "n": [
+      "Israel has a single-chamber parliament, the Knesset, with 120 seats. A party or bloc needs 61 to form a government, and because many parties win seats, governments are almost always coalitions.",
+      "After the vote, the president does not simply pick the biggest party: he asks whichever politician looks most likely to assemble 61 seats. That person then negotiates with other parties, offering ministries and policy promises.",
+      "Arab parties have often been left out of coalitions. Their record 19 seats this time make them hard to ignore, which is why the row over them has become so heated."
+     ],
+     "s": "As of 30 Oct 2026 · Euronews (30 Oct)",
+     "links": [
+      {
+       "text": "Euronews: Netanyahu bloc first but without majority",
+       "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority"
+      }
+     ]
+    },
+    {
+     "t": "Binance hack: billions frozen after a record crypto theft",
+     "tag": "Crypto · 30 Oct",
+     "gap": false,
+     "w": [
+      "Binance, the world's biggest crypto exchange, has confirmed it was hacked. The company says more than $2.5 billion was frozen to stop a larger theft, and analytics firm Chainalysis estimated about $5.9 billion was stolen at the time, though the full scope was not clear. Euronews calls it the largest bank heist in history.",
+      "Tether said it froze about $1.6 billion and Circle more than $800 million in USDC. Deposits and withdrawals were paused for security checks, and Binance said it was working with law enforcement while insisting user funds were safe and pledging to cover losses. BNB fell nearly 10%.",
+      "The US Justice Department and FBI had not yet commented. How the attack happened was not explained."
+     ],
+     "n": [
+      "Binance is an online exchange where people buy, sell and hold cryptocurrencies. Like a bank, it holds large sums for customers, but it is not regulated like a bank.",
+      "Stablecoins such as Tether's and Circle's USDC are tokens designed to track the dollar. Their issuers can freeze tokens at specific addresses, which is how stolen money can sometimes be stopped.",
+      "For a long-term ETF investor the direct risk is small, but the episode is a reminder of why crypto exchanges carry risks that broad index funds do not."
+     ],
+     "s": "As of 30 Oct 2026 · Euronews (30 Oct); figures early and may change",
+     "links": [
+      {
+       "text": "Euronews: Largest bank heist in history: Binance hack rocks crypto industry",
+       "url": "https://www.euronews.com/2026/10/30/crypto-platform-binance-confirms-major-hack-with-more-than-25bn-frozen"
+      }
+     ]
+    },
+    {
+     "t": "US midterms: four days to go",
+     "tag": "United States · 30 Oct",
+     "gap": false,
+     "w": [
+      "With four days to the 3 November midterms, Democrats lead the national picture: RealClearPolling shows them ahead 51.4% to 43.2%. A Marquette poll in Wisconsin (14–22 Oct) put Trump's approval at 37% and disapproval at 61%, and only 16% said they were better off than a year ago.",
+      "In the Senate races CNN polls show Democrat James Talarico ahead of Republican Ken Paxton in Texas, 49% to 43%, and Democrat Abdul El-Sayed ahead of Republican Mike Rogers in Michigan, 49% to 42%. Trump cancelled rallies in Kansas and Iowa and is campaigning by phone in nearly 20 states.",
+      "A legal dispute over an Alaska Senate candidate who shares incumbent Dan Sullivan's name could delay that result."
+     ],
+     "n": [
+      "US midterm elections happen halfway through a president's four-year term. All 435 House seats and about a third of the Senate are contested, so they decide whether the president's party keeps control of Congress.",
+      "National polls measure the popular vote, but control is decided seat by seat, so state and district polls matter more. As one pollster put it, polls are not perfect predictions.",
+      "Control of Congress shapes what a president can pass, and whether the opposition can launch investigations."
+     ],
+     "s": "As of 30 Oct 2026 · Al Jazeera (30 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: US midterms: 4 days to go",
+       "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies"
+      },
+      {
+       "text": "Al Jazeera: Trump cancels Iowa, Kansas midterm events",
+       "url": "https://www.aljazeera.com/news/2026/10/30/trump-cancels-iowa-kansas-midterm-events-opting-for-tele-rallies"
+      }
+     ]
+    },
     {
      "t": "Cuba: UN support for ending the US embargo hits a 30-year low",
      "tag": "United Nations · 28 Oct",
@@ -5060,118 +5126,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Thursday 29 October 2026",
-  "intro": "Ten questions from today's verified items: central banks, the UN Cuba vote, the US Grand Prix and the World Series. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Friday 30 October 2026",
+  "intro": "Ten questions from verified items: the Israeli election, the Binance hack, the US midterms and some of this week's earlier stories. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "To what level did the Bank of Canada raise its overnight rate on 28 October?",
+    "q": "How many Knesset seats did Netanyahu's bloc win?",
     "options": [
-     "2.25%",
-     "2.50%",
-     "2.75%",
-     "3.00%"
+     "48",
+     "53",
+     "61",
+     "27"
     ],
     "answer": 1,
-    "explain": "A 25 basis point rise to 2.5% (Bank of Canada)."
+    "explain": "53 of 120, against 48 for the opposition (Euronews)."
    },
    {
-    "q": "When was the Bank of Canada's last rate increase before this one?",
+    "q": "How many seats are needed to form a government in Israel's 120-seat Knesset?",
     "options": [
-     "July 2023",
-     "October 2025",
-     "January 2022",
-     "September 2024"
+     "51",
+     "58",
+     "61",
+     "67"
     ],
-    "answer": 0,
-    "explain": "The Bank described it as its first hike since July 2023 (investinglive.com)."
+    "answer": 2,
+    "explain": "A bloc needs 61."
    },
    {
-    "q": "What range did the US Federal Reserve hold its rate at on 28 October?",
+    "q": "Which party is the largest single party, with 27 seats?",
     "options": [
-     "3.50–3.75%",
-     "3.75–4.00%",
-     "4.00–4.25%",
-     "4.25–4.50%"
+     "Yashar",
+     "Ra'am",
+     "Likud",
+     "Shas"
+    ],
+    "answer": 2,
+    "explain": "Likud (Euronews)."
+   },
+   {
+    "q": "How many seats did Arab parties win combined?",
+    "options": [
+     "9",
+     "12",
+     "19",
+     "25"
+    ],
+    "answer": 2,
+    "explain": "A record 19."
+   },
+   {
+    "q": "Which crypto exchange confirmed a major hack on 30 October?",
+    "options": [
+     "Coinbase",
+     "Binance",
+     "Kraken",
+     "Gemini"
     ],
     "answer": 1,
-    "explain": "Held at 3.75% to 4% (Euronews)."
+    "explain": "Binance (Euronews)."
    },
    {
-    "q": "How did the Fed's vote go?",
+    "q": "Roughly how much did Tether say it froze?",
     "options": [
-     "Unanimous",
-     "10–2 with two dissenters wanting a hike",
-     "7–5",
-     "9–3 with dissenters wanting a cut"
+     "$160 million",
+     "$800 million",
+     "$1.6 billion",
+     "$5.9 billion"
+    ],
+    "answer": 2,
+    "explain": "About $1.6 billion; Circle froze over $800 million in USDC."
+   },
+   {
+    "q": "How many days are left to the US midterms (3 Nov) as of 30 Oct?",
+    "options": [
+     "2",
+     "4",
+     "7",
+     "10"
     ],
     "answer": 1,
-    "explain": "Lisa Cook and Beth Hammack voted for another hike (Euronews)."
+    "explain": "Four days (Al Jazeera)."
    },
    {
-    "q": "In the UN vote on the US embargo on Cuba, how many countries voted in favour of ending it?",
+    "q": "In RealClearPolling's national figures, Democrats led Republicans by about how much?",
     "options": [
-     "130",
-     "160",
-     "95",
-     "187"
+     "2 points",
+     "5 points",
+     "8 points",
+     "15 points"
     ],
-    "answer": 0,
-    "explain": "130 for, 17 against, 25 abstentions: the lowest support since 1995 (Euronews)."
+    "answer": 2,
+    "explain": "51.4% to 43.2%, about 8.2 points."
    },
    {
-    "q": "Which country's tax agency was hit by a cyberattack on 28 October?",
+    "q": "In the Marquette Wisconsin poll, what was Trump's approval?",
     "options": [
-     "Belgium",
-     "Spain",
-     "Netherlands",
-     "Denmark"
+     "37%",
+     "45%",
+     "52%",
+     "61%"
     ],
     "answer": 0,
-    "explain": "Belgium's FOD Financiën took MyMinfin and other services offline (Euronews)."
+    "explain": "37% approve, 61% disapprove."
    },
    {
-    "q": "Who won the United States Grand Prix in Austin on 25 October?",
+    "q": "Where is Trump holding 'tele-rallies' instead of events in Iowa and Kansas?",
     "options": [
-     "Kimi Antonelli",
-     "Max Verstappen",
-     "Charles Leclerc",
-     "Lewis Hamilton"
+     "By phone in nearly 20 states",
+     "On TV only",
+     "In Alaska",
+     "Nowhere"
     ],
     "answer": 0,
-    "explain": "Antonelli's ninth win of 2026 (PlanetF1, Radio X)."
-   },
-   {
-    "q": "Who finished second at the US Grand Prix?",
-    "options": [
-     "Charles Leclerc",
-     "Lewis Hamilton",
-     "George Russell",
-     "Lando Norris"
-    ],
-    "answer": 0,
-    "explain": "Leclerc, 13 seconds behind (PlanetF1)."
-   },
-   {
-    "q": "Which two teams are playing in the 2026 World Series?",
-    "options": [
-     "Brewers and Rays",
-     "Blue Jays and Dodgers",
-     "Guardians and Brewers",
-     "Dodgers and Rays"
-    ],
-    "answer": 0,
-    "explain": "Milwaukee Brewers v Tampa Bay Rays (Fox 13)."
-   },
-   {
-    "q": "What was the score when the Maple Leafs played Calgary on 26 October?",
-    "options": [
-     "Leafs 2–5 Flames",
-     "Leafs 5–2 Flames",
-     "Leafs 3–1 Flames",
-     "Leafs 1–4 Flames"
-    ],
-    "answer": 0,
-    "explain": "A 2–5 loss (Daily Faceoff schedule page)."
+    "explain": "He cancelled both rallies and is campaigning by phone in nearly 20 states."
    }
   ]
  }
