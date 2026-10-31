@@ -1,15 +1,15 @@
 {
- "date": "2026-10-30",
- "label": "Friday 30 October 2026",
- "note": "Refresh of Fri 30 Oct 2026 (early morning, Toronto time). A limited run: the permitted feed URLs (Euronews RSS, Al Jazeera sitemap, CP24, Global News, L'Écho du Mardi, footballwebpages) were refused by the fetch tool, so Headlines for Euronews, Al Jazeera and Global News come from search results (titles and URLs as published), while CP24 and L'Écho du Mardi are carried over with their own dates. Three new world cards were read from pages found in search. Every other card and panel keeps its own 'as of' date and was NOT re-checked today.",
- "sport_note": "Fri 30 Oct 2026: sport pages were not refreshed in this run (footballwebpages and other sources could not be read). Every panel keeps its own 'as of' date; the Premier League round of Fri 30 Oct to Sun 1 Nov has not been played or reported yet.",
+ "date": "2026-10-31",
+ "label": "Saturday 31 October 2026",
+ "note": "Refresh of Sat 31 Oct 2026 (early morning, Toronto time). A limited run: only the Al Jazeera news sitemap could be read. The Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages URLs were refused by the fetch tool, so those feeds and the Premier League pages keep their earlier lists with their own dates. New world cards and the Ligue 1 and Tokyo tennis updates come from Al Jazeera pages read today. Every other card and panel keeps its own 'as of' date and was NOT re-checked today.",
+ "sport_note": "Sat 31 Oct 2026: only PSG's win at Le Havre, the Nice and Lille results, and the Tokyo tennis semi-final were updated (Al Jazeera). The Premier League, rugby, cricket, squash, field hockey, baseball, basketball, ice hockey and F1 panels keep their own 'as of' dates. Today's Premier League games (Sat 31 Oct) had not been played when this was built.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Euronews was refreshed on 28 Oct from its 'top news stories today' page (27 Oct stories); the other feeds could not be opened on this run, so they keep earlier lists with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Al Jazeera was refreshed on 31 Oct from its news sitemap; the other feeds were refused on this run, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -79,29 +79,29 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Trump cancels Iowa, Kansas midterm events, opts for ‘tele-rallies’",
-       "url": "https://www.aljazeera.com/news/2026/10/30/trump-cancels-iowa-kansas-midterm-events-opting-for-tele-rallies",
-       "when": "30 Oct"
+       "t": "Hakimi's hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1",
+       "url": "https://www.aljazeera.com/sports/2026/10/31/achraf-hakimi-hattrick-ligue-1-psg-le-havre-football",
+       "when": "31 Oct"
       },
       {
-       "t": "US midterms: 4 days to go",
-       "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies",
-       "when": "30 Oct"
+       "t": "US, South Korea, Japan call for 'complete denuclearisation' of North Korea",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea",
+       "when": "31 Oct"
       },
       {
-       "t": "Houthi forces claim six attacks on Saudi airports, oil facilities",
-       "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities",
-       "when": "30 Oct"
+       "t": "US midterms: 3 days to go - What latest polls say as early voting surges",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
+       "when": "31 Oct"
       },
       {
-       "t": "Australian court rejects ‘mushroom murderer’ Erin Patterson’s appeal",
-       "url": "https://www.aljazeera.com/news/2026/10/30/australian-mushroom-murderer-erin-patterson-loses-appeal-bid",
-       "when": "30 Oct"
+       "t": "Ebola death toll in DR Congo passes 5,000",
+       "url": "https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000",
+       "when": "31 Oct"
       },
       {
-       "t": "Flash floods kill five in Syria",
-       "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria",
-       "when": "30 Oct"
+       "t": "US greenlights $2.1bn Patriot missile sale to Ukraine",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine",
+       "when": "31 Oct"
       }
      ]
     },
@@ -168,6 +168,132 @@
    "id": "world",
    "items": [
     {
+     "t": "US midterms: three days to go",
+     "tag": "United States · 31 Oct",
+     "gap": false,
+     "w": [
+      "Three days before the 3 November midterms, more than 43 million Americans have already voted, nearly 10 million more than at the same point in 2022 (AP analysis, as of Friday). Texas has passed 6.3 million early votes, up from 4.2 million in 2022, and Georgia's 2.5 million already beats its 2022 early total.",
+      "RealClearPolling's average has Democrats ahead on the national House ballot, 51.4% to 43.2%. Sabato's Crystal Ball calls a Democratic House almost certain, but the Senate is far less clear: seven toss-ups will decide whether Republicans keep it. An Emerson poll has Democrat Adam Hamilton on 49% to Republican Sen. Roger Marshall's 45% in Kansas.",
+      "Trump reversed his decision to cancel Kansas and Iowa rallies; both are now set for Sunday. A dispute over two Alaska Senate candidates named Dan Sullivan has drawn Justice Department action, and Democrat Mary Peltola denies involvement in recruiting the second."
+     ],
+     "n": [
+      "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the Senate are up, so they decide whether the president's party keeps control of Congress.",
+      "National polls measure the popular vote, but control is decided seat by seat, which is why state and district polls matter more. Early voting numbers show enthusiasm, not who people voted for.",
+      "Control of Congress shapes what a president can pass and whether the opposition can launch investigations."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: US midterms, 3 days to go",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
+      }
+     ]
+    },
+    {
+     "t": "Ebola: DR Congo death toll passes 5,000",
+     "tag": "Public health · 31 Oct",
+     "gap": false,
+     "w": [
+      "The Bundibugyo-strain Ebola outbreak in the Democratic Republic of the Congo has killed more than 5,000 people, government data show, making it the country's deadliest on record. More than 10,000 people have been infected since it was declared in May, and the virus has reached 8 of the DRC's 26 provinces.",
+      "It is now the second-largest Ebola outbreak ever, behind the 2014–2016 epidemic in West Africa. Kenya and Uganda have reported cases, and Nigeria became the fourth African country to report one. Saudi Arabia suspended travel to and entry from Kenya on Friday.",
+      "There is no approved vaccine or treatment for this rare strain, and authorities have not yet found a way to control it."
+     ],
+     "n": [
+      "Ebola is a severe, often fatal viral disease spread through contact with the body fluids of infected people. Outbreaks are usually contained with isolation, contact tracing and vaccination.",
+      "The Bundibugyo strain is rarer than the Zaire strain that most vaccines target, which is why no licensed vaccine exists for it. Conflict and strained health services have slowed detection in this outbreak.",
+      "Some governments restrict travel or quarantine arrivals from affected countries; health agencies usually advise caution about such measures, but the decisions are national."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: Ebola death toll in DR Congo passes 5,000",
+       "url": "https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000"
+      }
+     ]
+    },
+    {
+     "t": "North Korea: US, South Korea and Japan press for denuclearisation",
+     "tag": "Diplomacy · 31 Oct",
+     "gap": false,
+     "w": [
+      "The foreign ministers of the US, South Korea and Japan reaffirmed their \"resolute commitment to the complete denuclearisation\" of North Korea on the sidelines of the G20 meeting in Atlanta, a State Department readout says. Marco Rubio, Cho Hyun and Toshimitsu Motegi also pledged full implementation of UN Security Council resolutions.",
+      "The message lands as Donald Trump seeks another meeting with Kim Jong Un, with speculation of an encounter at next month's APEC summit in China. South Korea's president Lee Jae Myung has floated a freeze of the nuclear programme in return for sanctions relief; critics say that could amount to accepting a nuclear North Korea, which has written its status into law."
+     ],
+     "n": [
+      "North Korea has tested nuclear weapons and long-range missiles for years and is under UN sanctions meant to stop its programmes.",
+      "'Denuclearisation' means Pyongyang giving up its weapons. Pyongyang says its arsenal is permanent and irreversible, so the word is a sticking point in any talks.",
+      "A freeze would stop further growth instead of removing what exists, which is why it divides Washington's allies."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: US, South Korea, Japan call for 'complete denuclearisation'",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea"
+      }
+     ]
+    },
+    {
+     "t": "Ukraine: US approves $2.1bn Patriot missile sale",
+     "tag": "Ukraine war · 31 Oct",
+     "gap": false,
+     "w": [
+      "The US State Department has approved a possible sale of 500 Patriot PAC-3 missiles to Ukraine worth an estimated $2.1bn, among the largest US steps to supply Kyiv with defensive weapons since Trump's second term began. Ukraine will pay through contributions from Canada, Germany and Norway under the US JUMPSTART programme, plus EU-loan-funded national money.",
+      "The catch is the calendar: the missiles have not yet been built, and two people briefed say deliveries are not expected until a couple of years into the 2030s. Zelenskyy said Kyiv had waited almost a month for approval.",
+      "Meanwhile Russian strikes continue; a drone strike in Dnipro killed at least 14 people on a rail platform."
+     ],
+     "n": [
+      "Patriot is a US-made air-defence system; the PAC-3 is the interceptor missile it fires to knock down incoming missiles.",
+      "Interceptors are expensive and in short supply worldwide, and US stocks have also been drawn down by heavy use in the Iran war, according to Al Jazeera.",
+      "Lockheed Martin has pledged to triple PAC-3 production capacity by the end of 2030."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: US greenlights $2.1bn Patriot missile sale to Ukraine",
+       "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine"
+      }
+     ]
+    },
+    {
+     "t": "Poland: protest as a constitutional crisis hits the top court",
+     "tag": "Europe · 31 Oct",
+     "gap": false,
+     "w": [
+      "Poland's president joined protesters outside the Constitutional Court, cutting short a trip to Senegal, as protesters and police faced off. The government has moved to remove the court's president and vice-president, which critics call a coup within the court (Al Jazeera video report, 31 Oct). Details beyond that were not in the short report."
+     ],
+     "n": [
+      "Poland's Constitutional Court rules on whether laws and government actions fit the constitution, so who controls it matters to the balance of power between the government and the president.",
+      "The story is a short video summary; follow the link for the latest."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct, video)",
+     "links": [
+      {
+       "text": "Al Jazeera: Poland's president joins protest",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/polands-president-joins-protest-amid-constitutional-crisis-at-top-court"
+      }
+     ]
+    },
+    {
+     "t": "Pope Leo votes in the US midterms",
+     "tag": "Vatican · 31 Oct",
+     "gap": false,
+     "w": [
+      "Pope Leo XIV is the first pontiff to vote in a US general election, casting a mail-in ballot in his birthplace, Chicago, the Vatican confirmed on Friday. It did not say whom he chose. He requested the ballot on 3 October, about ten days before surgery to remove a cancerous lung tumour; he left hospital on 17 October and has gradually resumed his duties.",
+      "Illinois voters will choose a successor to retiring Senator Dick Durbin and decide on Governor JB Pritzker's re-election. Since becoming pope in May 2025 Leo has clashed with Trump over the Iran war and immigration enforcement."
+     ],
+     "n": [
+      "The pope is a US citizen by birth (Robert Prevost) as well as a Peruvian and Vatican citizen. US law lets citizens abroad vote by absentee ballot.",
+      "Popes traditionally avoid party politics, so the vote is news in itself."
+     ],
+     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "links": [
+      {
+       "text": "Al Jazeera: Pope Leo becomes first pontiff to vote in US general election",
+       "url": "https://www.aljazeera.com/news/2026/10/31/pope-leo-becomes-first-pontiff-to-vote-in-us-general-election"
+      }
+     ]
+    },
+    {
      "t": "Israel election: Netanyahu's bloc leads, but no majority",
      "tag": "Israel · 30 Oct",
      "gap": false,
@@ -208,32 +334,6 @@
       {
        "text": "Euronews: Largest bank heist in history: Binance hack rocks crypto industry",
        "url": "https://www.euronews.com/2026/10/30/crypto-platform-binance-confirms-major-hack-with-more-than-25bn-frozen"
-      }
-     ]
-    },
-    {
-     "t": "US midterms: four days to go",
-     "tag": "United States · 30 Oct",
-     "gap": false,
-     "w": [
-      "With four days to the 3 November midterms, Democrats lead the national picture: RealClearPolling shows them ahead 51.4% to 43.2%. A Marquette poll in Wisconsin (14–22 Oct) put Trump's approval at 37% and disapproval at 61%, and only 16% said they were better off than a year ago.",
-      "In the Senate races CNN polls show Democrat James Talarico ahead of Republican Ken Paxton in Texas, 49% to 43%, and Democrat Abdul El-Sayed ahead of Republican Mike Rogers in Michigan, 49% to 42%. Trump cancelled rallies in Kansas and Iowa and is campaigning by phone in nearly 20 states.",
-      "A legal dispute over an Alaska Senate candidate who shares incumbent Dan Sullivan's name could delay that result."
-     ],
-     "n": [
-      "US midterm elections happen halfway through a president's four-year term. All 435 House seats and about a third of the Senate are contested, so they decide whether the president's party keeps control of Congress.",
-      "National polls measure the popular vote, but control is decided seat by seat, so state and district polls matter more. As one pollster put it, polls are not perfect predictions.",
-      "Control of Congress shapes what a president can pass, and whether the opposition can launch investigations."
-     ],
-     "s": "As of 30 Oct 2026 · Al Jazeera (30 Oct)",
-     "links": [
-      {
-       "text": "Al Jazeera: US midterms: 4 days to go",
-       "url": "https://www.aljazeera.com/news/2026/10/30/us-midterms-4-days-to-go-what-the-polls-say-as-trump-cancels-two-rallies"
-      },
-      {
-       "text": "Al Jazeera: Trump cancels Iowa, Kansas midterm events",
-       "url": "https://www.aljazeera.com/news/2026/10/30/trump-cancels-iowa-kansas-midterm-events-opting-for-tele-rallies"
       }
      ]
     },
@@ -301,9 +401,10 @@
     },
     {
      "t": "Iran war and the Strait of Hormuz",
-     "tag": "Ongoing conflict · update 25 Oct",
+     "tag": "Ongoing conflict · update 31 Oct",
      "gap": false,
      "w": [
+      "Update, 31 Oct: Iran's Revolutionary Guard says four tankers caught fire in the Strait of Hormuz after hitting naval mines on what it calls \"unauthorised routes\". The claim comes from the IRGC alone; no independent confirmation, casualty figures or vessel names were given (Al Jazeera video, 31 Oct).",
       "Update, 25 Oct: Trump says he has \"a decision to make\" on Iran. He told Fox News: \"Do I finish it off, which would be very easy to do, or do I make a deal?\", then told reporters at the White House that \"there will not be a strike today\". He has said he will not strike before the 3 November US midterm elections, and officials warn the period between the election and the new Congress could be especially dangerous. CENTCOM chief Adm. Brad Cooper visited the Strait of Hormuz on Sunday; CENTCOM says US forces have cleared shipping lanes of Iranian mines and helped Gulf allies export more than 1.5 billion barrels since summer. A third US carrier group is heading for the Arabian Gulf, and the US is trimming diplomatic and military staff in parts of the Middle East because of Iranian and Houthi threats. The article did not report an Iranian reply (The National, 25 Oct).",
       "Friday's fighting spread beyond the Gulf. Al Jazeera's 16 October live page is headlined \"Strikes hit Houthis in Taiz, coalition intercepts attacks\", with the web address pointing to Saudi criticism of the Houthis and a US warning about Saudi airports; the page itself gave no casualty figures. Another headline has Tehran saying it is ready to respond to any US threats against its energy plants, and Iran's president Masoud Pezeshkian warning of the war's long-term environmental damage.",
       "Al Jazeera also ran an explainer on 16 October, \"Trump rules out using a nuclear bomb on Iran: Why that matters\"; its detail was not read here.",
@@ -323,6 +424,10 @@
      ],
      "s": "As of 25 Oct 2026 · The National (25 Oct), Al Jazeera (24 Oct and earlier)",
      "links": [
+      {
+       "text": "Al Jazeera: Iran says four tankers on fire after striking mines in Hormuz",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/10/31/iran-says-four-tankers-on-fire-after-striking-mines-in-hormuz"
+      },
       {
        "text": "The National: Trump has 'a decision to make' on Iran",
        "url": "https://www.thenationalnews.com/news/us/2026/10/25/trump-iran-strike/"
@@ -2301,7 +2406,7 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Manchester City and Arsenal are level on 21 points, City ahead on goal difference; Brighton, third on 16, lost 2–0 at Liverpool. Bournemouth beat Manchester United 3–0 at Old Trafford to climb to 13th on 9 points. Sunderland are bottom on 5. W/D/L columns are worked out from the earlier table plus this weekend's results and agree with every points total.",
+       "note": "Manchester City and Arsenal are level on 21 points, City ahead on goal difference; Brighton, third on 16, lost 2–0 at Liverpool. Bournemouth beat Manchester United 3–0 at Old Trafford to climb to 13th on 9 points. Sunderland are bottom on 5. W/D/L columns are worked out from the earlier table plus this weekend's results and agree with every points total. Not updated on 31 Oct: the footballwebpages pages could not be fetched, and a premierleague.com table that appeared in search showed a different club list and was not used. The table above is as of the 25 Oct round (gap for matches since).",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 25 Oct",
@@ -2378,7 +2483,7 @@
         "Sat 31 Oct, 17:30: Tottenham Hotspur v Crystal Palace",
         "Sat 31 Oct, 20:00: Aston Villa v Fulham"
        ],
-       "note": "Only the Saturday 31 October games were readable; Sunday 1 November and any midweek or cup games were not checked, and Arsenal, Everton, Liverpool and Newcastle do not appear on the Saturday list.",
+       "note": "Today's Saturday games (31 Oct) had not been played when this was built; results will appear on the next refresh. Sunday 1 November and midweek games were not checked.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 31 Oct",
@@ -2707,7 +2812,7 @@
       {
        "id": "l1-table",
        "title": "Ligue 1 table",
-       "asof": "after matchday 7 (16–18 Oct 2026), eurosport.fr page read 19 Oct",
+       "asof": "after matchday 7 (16–18 Oct 2026, STALE: not updated). Partial update 31 Oct: PSG 20 pts from 9, Lille 18, Rennes 16, Le Havre bottom on 2 (Al Jazeera)",
        "source": "eurosport.fr",
        "cols": [
         "Pos",
@@ -2905,19 +3010,26 @@
        "key": 1,
        "links": [
         {
+         "text": "Al Jazeera: PSG 5-1 Le Havre",
+         "url": "https://www.aljazeera.com/sports/2026/10/31/achraf-hakimi-hattrick-ligue-1-psg-le-havre-football"
+        },
+        {
          "text": "Eurosport France: Ligue 1 standings",
          "url": "https://www.eurosport.fr/football/ligue-1/standing.shtml"
         }
        ],
-       "note": "Eurosport lists abbreviations; OL = Lyon, PFC = Paris FC, LEN = Lens, OM = Marseille. Five clubs are level on 14 points; the order of the first five follows the page."
+       "note": "Eurosport lists abbreviations; OL = Lyon, PFC = Paris FC, LEN = Lens, OM = Marseille. Five clubs are level on 14 points; the order of the first five follows the page. The rows below are the matchday 7 table and are out of date; PSG now lead on 20 points after nine games, two clear of Lille, with Rennes third on 16. A full updated table was not readable on this run (gap)."
       },
       {
        "id": "l1-res",
        "title": "Ligue 1 results and fixtures",
-       "asof": "Sat 17 Oct 2026 (PSG result, psg.fr); other matchday 7 scores not verified",
+       "asof": "Fri 30 Oct 2026 (Al Jazeera, 31 Oct); earlier matchday 7 scores as before",
        "source": "psg.fr, livefootballtickets.com, ligue1.com",
        "highlights": true,
        "items": [
+        "Le Havre 1–5 Paris Saint-Germain (Fri 30 Oct)",
+        "Nice 5–2 Rennes (round of 30 Oct–1 Nov)",
+        "Lille beat Lens (Giroud's late winner; score not stated)",
         "Strasbourg 1–3 Paris Saint-Germain (Sat 17 Oct)",
         "Paris Saint-Germain 3–1 Le Mans (Sat 10 Oct)",
         "Lens 2–1 Lyon (9–11 Oct round)",
@@ -2928,8 +3040,12 @@
         "Fixture: Sun 25 Oct, 19:45: Paris Saint-Germain v Olympique Lyonnais",
         "Fixture: Fri 30 Oct, 18:00: Le Havre v Paris Saint-Germain"
        ],
-       "note": "Only PSG's matchday 7 result was confirmed; the rest of the round is reflected in the table but its scores were not found. PSG fixtures from psg.fr (times as listed, time zone not stated).",
+       "note": "Hakimi scored a hat-trick and made two assists; PSG have won nine straight in all competitions. Josh Maja scored for Le Havre; Godts and Mayulu scored for PSG. Date of the Nice and Lille games not stated in the report.",
        "links": [
+        {
+         "text": "Al Jazeera: Hakimi's hat-trick guides PSG to 5-1 win at Le Havre",
+         "url": "https://www.aljazeera.com/sports/2026/10/31/achraf-hakimi-hattrick-ligue-1-psg-le-havre-football"
+        },
         {
          "text": "PSG: calendar and results, October",
          "url": "https://www.psg.fr/football-masculin/calendrier/season/2026-27?period=Oct"
@@ -3838,6 +3954,23 @@
      "title": "Tennis",
      "intro": "World rankings and the current tournament.",
      "panels": [
+      {
+       "id": "tokyo",
+       "title": "Pan Pacific Open, Tokyo (WTA 500): semi-final",
+       "asof": "Sat 31 Oct 2026 (Al Jazeera)",
+       "source": "Al Jazeera",
+       "items": [
+        "Semi-final: Leylah Fernandez (CAN) d. Kamilla Rakhimova (UZB) 7–5, 6–3",
+        "Final, Sun 1 Nov: Fernandez v Diana Shnaider or Mia Pohankova (the other semi-final was not reported)"
+       ],
+       "note": "Fernandez, world No 23, reached the final after top seed Elena Rybakina withdrew with a neck injury; it is her third final of 2026 and she is chasing a seventh WTA title. She won in Singapore last month and lost the Ningbo final to Rybakina last week.",
+       "links": [
+        {
+         "text": "Al Jazeera: Fernandez reaches Pan Pacific Open final",
+         "url": "https://www.aljazeera.com/sports/2026/10/31/leylah-fernandez-canada-pan-pacific-open-final-tokyo-tennis-wta"
+        }
+       ]
+      },
       {
        "id": "atp",
        "title": "ATP top 10",
@@ -5126,118 +5259,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Friday 30 October 2026",
-  "intro": "Ten questions from verified items: the Israeli election, the Binance hack, the US midterms and some of this week's earlier stories. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Saturday 31 October 2026",
+  "intro": "Ten questions from today's verified items: the US midterms, Ebola, Ukraine, North Korea, the pope's vote and the weekend's sport. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "How many Knesset seats did Netanyahu's bloc win?",
+    "q": "About how many Americans had voted early five days before Election Day, according to AP?",
     "options": [
-     "48",
-     "53",
-     "61",
-     "27"
-    ],
-    "answer": 1,
-    "explain": "53 of 120, against 48 for the opposition (Euronews)."
-   },
-   {
-    "q": "How many seats are needed to form a government in Israel's 120-seat Knesset?",
-    "options": [
-     "51",
-     "58",
-     "61",
-     "67"
+     "12 million",
+     "25 million",
+     "More than 43 million",
+     "80 million"
     ],
     "answer": 2,
-    "explain": "A bloc needs 61."
+    "explain": "More than 43 million, nearly 10 million more than at the same point in 2022 (Al Jazeera, AP)."
    },
    {
-    "q": "Which party is the largest single party, with 27 seats?",
+    "q": "What is the Democratic lead on the national House ballot in RealClearPolling's average?",
     "options": [
-     "Yashar",
-     "Ra'am",
-     "Likud",
-     "Shas"
-    ],
-    "answer": 2,
-    "explain": "Likud (Euronews)."
-   },
-   {
-    "q": "How many seats did Arab parties win combined?",
-    "options": [
-     "9",
-     "12",
-     "19",
-     "25"
-    ],
-    "answer": 2,
-    "explain": "A record 19."
-   },
-   {
-    "q": "Which crypto exchange confirmed a major hack on 30 October?",
-    "options": [
-     "Coinbase",
-     "Binance",
-     "Kraken",
-     "Gemini"
-    ],
-    "answer": 1,
-    "explain": "Binance (Euronews)."
-   },
-   {
-    "q": "Roughly how much did Tether say it froze?",
-    "options": [
-     "$160 million",
-     "$800 million",
-     "$1.6 billion",
-     "$5.9 billion"
-    ],
-    "answer": 2,
-    "explain": "About $1.6 billion; Circle froze over $800 million in USDC."
-   },
-   {
-    "q": "How many days are left to the US midterms (3 Nov) as of 30 Oct?",
-    "options": [
-     "2",
-     "4",
-     "7",
-     "10"
-    ],
-    "answer": 1,
-    "explain": "Four days (Al Jazeera)."
-   },
-   {
-    "q": "In RealClearPolling's national figures, Democrats led Republicans by about how much?",
-    "options": [
-     "2 points",
-     "5 points",
-     "8 points",
-     "15 points"
-    ],
-    "answer": 2,
-    "explain": "51.4% to 43.2%, about 8.2 points."
-   },
-   {
-    "q": "In the Marquette Wisconsin poll, what was Trump's approval?",
-    "options": [
-     "37%",
-     "45%",
-     "52%",
-     "61%"
+     "51.4% to 43.2%",
+     "45% to 44%",
+     "60% to 35%",
+     "49% to 47%"
     ],
     "answer": 0,
-    "explain": "37% approve, 61% disapprove."
+    "explain": "RealClearPolling had Democrats ahead 51.4% to 43.2% (Al Jazeera)."
    },
    {
-    "q": "Where is Trump holding 'tele-rallies' instead of events in Iowa and Kansas?",
+    "q": "Which strain of Ebola is behind the outbreak in the DR Congo?",
     "options": [
-     "By phone in nearly 20 states",
-     "On TV only",
-     "In Alaska",
-     "Nowhere"
+     "Zaire",
+     "Sudan",
+     "Bundibugyo",
+     "Marburg"
     ],
-    "answer": 0,
-    "explain": "He cancelled both rallies and is campaigning by phone in nearly 20 states."
+    "answer": 2,
+    "explain": "The Bundibugyo strain, for which there is no approved vaccine or treatment."
+   },
+   {
+    "q": "How many people has the DR Congo Ebola outbreak killed, according to government data?",
+    "options": [
+     "Over 500",
+     "Over 1,500",
+     "Over 5,000",
+     "Over 28,000"
+    ],
+    "answer": 2,
+    "explain": "The death toll passed 5,000; more than 10,000 have been infected."
+   },
+   {
+    "q": "How many Patriot PAC-3 missiles did the US approve selling to Ukraine?",
+    "options": [
+     "50",
+     "200",
+     "500",
+     "2,000"
+    ],
+    "answer": 2,
+    "explain": "500 missiles worth an estimated $2.1bn, with delivery not expected until the 2030s."
+   },
+   {
+    "q": "Where did the US, South Korea and Japan foreign ministers meet to call for North Korea's denuclearisation?",
+    "options": [
+     "Seoul",
+     "Tokyo",
+     "The G20 meeting in Atlanta",
+     "Beijing"
+    ],
+    "answer": 2,
+    "explain": "On the sidelines of the G20 meeting in Atlanta."
+   },
+   {
+    "q": "Pope Leo XIV is the first pope to do what?",
+    "options": [
+     "Visit Alaska",
+     "Vote in a US general election",
+     "Address Congress",
+     "Fly to Antarctica"
+    ],
+    "answer": 1,
+    "explain": "He cast a mail-in ballot from Chicago, his birthplace, in the midterms."
+   },
+   {
+    "q": "How many goals did Achraf Hakimi score in PSG's win at Le Havre?",
+    "options": [
+     "One",
+     "Two",
+     "Three",
+     "Four"
+    ],
+    "answer": 2,
+    "explain": "A hat-trick in a 5–1 win, plus two assists."
+   },
+   {
+    "q": "How many points do PSG have after nine Ligue 1 games?",
+    "options": [
+     "14",
+     "16",
+     "18",
+     "20"
+    ],
+    "answer": 3,
+    "explain": "PSG are on 20 points, two clear of Lille."
+   },
+   {
+    "q": "Which Canadian reached the Pan Pacific Open final in Tokyo?",
+    "options": [
+     "Bianca Andreescu",
+     "Leylah Fernandez",
+     "Victoria Mboko",
+     "Eugenie Bouchard"
+    ],
+    "answer": 1,
+    "explain": "Leylah Fernandez beat Kamilla Rakhimova 7–5, 6–3 in the semi-final."
    }
   ]
  }
