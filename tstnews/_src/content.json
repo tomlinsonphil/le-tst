@@ -1,15 +1,15 @@
 {
- "date": "2026-10-31",
- "label": "Saturday 31 October 2026",
- "note": "Refresh of Sat 31 Oct 2026 (early morning, Toronto time). A limited run: only the Al Jazeera news sitemap could be read. The Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages URLs were refused by the fetch tool, so those feeds and the Premier League pages keep their earlier lists with their own dates. New world cards and the Ligue 1 and Tokyo tennis updates come from Al Jazeera pages read today. Every other card and panel keeps its own 'as of' date and was NOT re-checked today.",
- "sport_note": "Sat 31 Oct 2026: only PSG's win at Le Havre, the Nice and Lille results, and the Tokyo tennis semi-final were updated (Al Jazeera). The Premier League, rugby, cricket, squash, field hockey, baseball, basketball, ice hockey and F1 panels keep their own 'as of' dates. Today's Premier League games (Sat 31 Oct) had not been played when this was built.",
+ "date": "2026-11-01",
+ "label": "Sunday 1 November 2026",
+ "note": "Refresh of Sun 1 Nov 2026 (early morning, Toronto time). A limited run: only the Al Jazeera news sitemap and six Al Jazeera pages could be read. The Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages URLs were refused by the fetch tool, so those feeds and tables keep earlier lists with their own dates. Every card and panel not named below keeps its own 'as of' date and was NOT re-checked today.",
+ "sport_note": "Sun 1 Nov 2026: only the Mexico City GP qualifying, MotoGP Malaysia and Barcelona 6-1 Alaves were updated (Al Jazeera). The Premier League results of 31 Oct and all other tables keep their own 'as of' dates and were not re-checked.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Al Jazeera was refreshed on 31 Oct from its news sitemap; the other feeds were refused on this run, so they keep earlier lists with their own dates.",
+   "intro": "Latest stories from free-to-read news sites. Al Jazeera was refreshed on 1 Nov from its news sitemap; the other feeds were refused on this run, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -79,29 +79,29 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Hakimi's hat-trick guides PSG to stunning 5-1 win at Le Havre in Ligue 1",
-       "url": "https://www.aljazeera.com/sports/2026/10/31/achraf-hakimi-hattrick-ligue-1-psg-le-havre-football",
-       "when": "31 Oct"
+       "t": "Qatar LNG carrier struck by 'unidentified objects' in Gulf",
+       "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
+       "when": "1 Nov"
       },
       {
-       "t": "US, South Korea, Japan call for 'complete denuclearisation' of North Korea",
-       "url": "https://www.aljazeera.com/news/2026/10/31/us-south-korea-japan-call-for-complete-denuclearisation-of-north-korea",
-       "when": "31 Oct"
+       "t": "Yemeni government forces seize strategic positions in al-Jawf",
+       "url": "https://www.aljazeera.com/news/2026/11/1/yemeni-government-forces-seize-strategic-positions-in-al-jawf",
+       "when": "1 Nov"
       },
       {
-       "t": "US midterms: 3 days to go - What latest polls say as early voting surges",
-       "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges",
-       "when": "31 Oct"
+       "t": "Where are the most expensive midterm races and who is funding them?",
+       "url": "https://www.aljazeera.com/economy/2026/11/1/where-are-the-most-expensive-midterm-races-and-who-is-funding-them",
+       "when": "1 Nov"
       },
       {
-       "t": "Ebola death toll in DR Congo passes 5,000",
-       "url": "https://www.aljazeera.com/news/2026/10/31/ebola-death-toll-in-dr-congo-passes-5000",
-       "when": "31 Oct"
+       "t": "From railway tragedy to gov't change: Serbia's two-year fight for justice",
+       "url": "https://www.aljazeera.com/news/2026/11/1/from-railway-tragedy-to-govt-change-serbias-two-year-fight-for-justice",
+       "when": "1 Nov"
       },
       {
-       "t": "US greenlights $2.1bn Patriot missile sale to Ukraine",
-       "url": "https://www.aljazeera.com/news/2026/10/31/us-greenlights-2-1bn-patriot-missile-sale-to-ukraine",
-       "when": "31 Oct"
+       "t": "Marquez wins Malaysian Grand Prix to close in on retaining championship",
+       "url": "https://www.aljazeera.com/sports/2026/11/1/marquez-wins-malaysian-grand-prix-to-close-in-on-retaining-championship",
+       "when": "1 Nov"
       }
      ]
     },
@@ -168,25 +168,86 @@
    "id": "world",
    "items": [
     {
-     "t": "US midterms: three days to go",
-     "tag": "United States · 31 Oct",
+     "t": "Gulf: Qatari LNG carrier hit by 'unidentified objects'",
+     "tag": "Gulf · 1 Nov",
      "gap": false,
      "w": [
-      "Three days before the 3 November midterms, more than 43 million Americans have already voted, nearly 10 million more than at the same point in 2022 (AP analysis, as of Friday). Texas has passed 6.3 million early votes, up from 4.2 million in 2022, and Georgia's 2.5 million already beats its 2022 early total.",
-      "RealClearPolling's average has Democrats ahead on the national House ballot, 51.4% to 43.2%. Sabato's Crystal Ball calls a Democratic House almost certain, but the Senate is far less clear: seven toss-ups will decide whether Republicans keep it. An Emerson poll has Democrat Adam Hamilton on 49% to Republican Sen. Roger Marshall's 45% in Kansas.",
-      "Trump reversed his decision to cancel Kansas and Iowa rallies; both are now set for Sunday. A dispute over two Alaska Senate candidates named Dan Sullivan has drawn Justice Department action, and Democrat Mary Peltola denies involvement in recruiting the second."
+      "A Qatari liquefied natural gas tanker, the Al Mayeda, was struck by 'unidentified objects' while sailing in the Gulf on Friday evening, its owner Qatar Gas Transport Company said in a statement on Sunday 1 November.",
+      "No crew were hurt and no environmental damage was reported. The company says the ship is in a safe, operational condition while the impact is assessed.",
+      "It lands in a tense week for shipping: Al Jazeera's related headlines record rising attacks on vessels in the Strait of Hormuz, Oman's rescue of 25 people from a burning tanker on 30 October, and Iran saying on 31 October that four tankers were on fire after striking mines, even as a US delegation was in Qatar for talks."
+     ],
+     "f": [
+      "Vessel: Al Mayeda (Qatar Gas Transport Company)",
+      "Crew injured: none reported"
+     ],
+     "n": [
+      "Liquefied natural gas (LNG) is gas chilled into a liquid so ships can carry it. Qatar is one of the world's biggest exporters, and its tankers leave the Gulf through the Strait of Hormuz, a narrow sea lane between Iran and Oman.",
+      "Because so much energy passes through that one channel, any attack or sea mine there can push up fuel prices far from the region. That is why incidents involving ships are watched closely by governments and markets.",
+      "This report comes amid the US-Israel war on Iran referred to by Al Jazeera; who fired at the ship has not been stated."
+     ],
+     "s": "As of 1 Nov 2026 · Al Jazeera (1 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Qatar LNG carrier struck by 'unidentified objects' in Gulf",
+       "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf"
+      }
+     ]
+    },
+    {
+     "t": "Yemen: government forces claim gains in al-Jawf",
+     "tag": "Yemen · 1 Nov",
+     "gap": false,
+     "w": [
+      "Yemen's internationally recognised government says its forces have retaken military positions and strategic heights east of al-Hazm, the capital of al-Jawf governorate, as part of 'Operation Dawn of Yemen', launched in October to reverse Houthi gains.",
+      "The army says it seized weapons depots and destroyed armoured vehicles; the Houthis say they halted the advances in al-Jawf and neighbouring Marib. Neither claim is independently verified.",
+      "The human cost is rising: the UN says more than 290,000 people have fled their homes since fighting escalated in August, including nearly 6,100 pregnant women, and the siege of Taiz is choking supplies of food, fuel and medicine."
+     ],
+     "f": [
+      "Displaced since Aug: 290,000+ (UN OCHA)",
+      "Refugees at risk: 65,000+ (UNHCR)"
+     ],
+     "n": [
+      "Yemen has been split since the Houthis, a group backed by Iran, seized the capital Sanaa in 2014. The internationally recognised government, supported by a Saudi-led coalition, controls other parts of the country.",
+      "Al-Jawf is a governorate bordering Saudi Arabia and the Houthi-held areas of Sanaa and Saada, which makes it strategically important.",
+      "Years of war have left millions in need of aid, and new offensives tend to displace more civilians."
+     ],
+     "s": "As of 1 Nov 2026 · Al Jazeera (1 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Yemeni government forces seize strategic positions in al-Jawf",
+       "url": "https://www.aljazeera.com/news/2026/11/1/yemeni-government-forces-seize-strategic-positions-in-al-jawf"
+      }
+     ]
+    },
+    {
+     "t": "US midterms: the money, two days out",
+     "tag": "United States · 1 Nov",
+     "gap": false,
+     "w": [
+      "Two days before the 3 November midterms, the price tag is staggering: AdImpact puts advertising spending and reservations at $11.21bn as of 26 October, against $3.2bn for the 2024 presidential season.",
+      "The costliest Senate fights are Texas (over $534m), Ohio (over $435m) and Michigan (about $333m). In Texas, Democrat James Talarico has raised $146m to Republican Ken Paxton's $22m, but Paxton has had roughly $300m of outside spending; a late-October CNN poll had Talarico on 49% and Paxton on 43%. Elon Musk is the biggest Republican-aligned donor at about $446m, with over $150m going to Paxton's campaign, while George Soros (about $102m) and Michael Bloomberg ($84.2m plus $36m) lead on the Democratic side.",
+      "Polls suggest Democrats will likely take the House and are favoured to win the Senate, according to Al Jazeera's reading of the polling."
      ],
      "n": [
       "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the Senate are up, so they decide whether the president's party keeps control of Congress.",
       "National polls measure the popular vote, but control is decided seat by seat, which is why state and district polls matter more. Early voting numbers show enthusiasm, not who people voted for.",
       "Control of Congress shapes what a president can pass and whether the opposition can launch investigations."
      ],
-     "s": "As of 31 Oct 2026 · Al Jazeera (31 Oct)",
+     "s": "As of 1 Nov 2026 · Al Jazeera (1 Nov)",
      "links": [
+      {
+       "text": "Al Jazeera: the most expensive midterm races and who funds them",
+       "url": "https://www.aljazeera.com/economy/2026/11/1/where-are-the-most-expensive-midterm-races-and-who-is-funding-them"
+      },
       {
        "text": "Al Jazeera: US midterms, 3 days to go",
        "url": "https://www.aljazeera.com/news/2026/10/31/us-midterms-3-days-to-go-what-latest-polls-say-as-early-voting-surges"
       }
+     ],
+     "f": [
+      "Ad spending: $11.21bn (AdImpact, 26 Oct)",
+      "Texas Senate: Talarico 49%, Paxton 43% (CNN, late Oct)",
+      "Election day: Tuesday 3 November 2026"
      ]
     },
     {
@@ -2174,6 +2235,29 @@
       {
        "text": "Championship table and results (footballwebpages)",
        "url": "https://www.footballwebpages.co.uk/championship/20261013"
+      }
+     ]
+    },
+    {
+     "t": "La Liga: Barcelona 6-1 Alaves",
+     "tag": "Spain · 31 Oct",
+     "w": [
+      "Barcelona hammered Alaves 6-1 at the Camp Nou on Saturday 31 October, with Raphinha and Lamine Yamal each scoring twice, plus Fermin Lopez and substitute Anthony Gordon; Mariano Diaz replied for Alaves.",
+      "The win put Barcelona back on top of La Liga, two points clear of Atletico Madrid, who won 2-0 at Levante. Real Madrid are third. It was a bounce-back after the Champions League loss to PSG and the 2-1 El Clasico defeat the previous weekend."
+     ],
+     "f": [
+      "Barcelona 6-1 Alaves (31 Oct)",
+      "Atletico Madrid 2-0 Levante"
+     ],
+     "n": [
+      "La Liga is Spain's top football league; 20 clubs play each other home and away and the leader at the end wins the title.",
+      "El Clasico is the name for the Barcelona v Real Madrid match, one of football's biggest fixtures."
+     ],
+     "s": "As of 1 Nov 2026 · Al Jazeera (1 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Barcelona hammer Alaves to retain Liga top spot",
+       "url": "https://www.aljazeera.com/sports/2026/11/1/lamine-yamal-raphinha-help-barcelona-hammer-alaves-to-retain-liga-top-spot"
       }
      ]
     }
@@ -4924,16 +5008,15 @@
    "cards": [
     {
      "t": "Formula 1",
-     "tag": "Antonelli wins in Austin",
+     "tag": "Hamilton on pole in Mexico",
      "w": [
-      "Kimi Antonelli is one step from the crown. The Mercedes driver dominated the United States Grand Prix at Austin on Sunday 25 October, his ninth win of 2026, on a one-stop strategy, and is described as on the brink of becoming Formula 1's youngest world champion.",
-      "Ferrari's Charles Leclerc was second (+13.1s), Max Verstappen third, Lewis Hamilton fourth, Lando Norris fifth, Isack Hadjar sixth, Oscar Piastri seventh, George Russell eighth, Liam Lawson ninth and Pierre Gasly tenth (PlanetF1). Hamilton and Russell stay in mathematical contention, so the title is not yet won.",
-      "Adding the standard points to the Singapore standings gives Antonelli 365, Russell 242, Hamilton 241, Verstappen 236 and Leclerc 233. This table is our calculation, not a published standings page, so treat it as provisional."
+      "Lewis Hamilton took his first pole position for Ferrari in Mexico City qualifying, with a 1:16.514 that edged George Russell (Mercedes) by 0.009s and Charles Leclerc (Ferrari) by 0.119s. Kimi Antonelli starts fourth after Max Verstappen took a grid penalty; Lando Norris is sixth and Oscar Piastri 13th. Liam Lawson was disqualified from qualifying for a technical breach.",
+      "The race is on Sunday 1 November and the title could be settled: Antonelli leads Russell by 123 points with 100 still available this weekend, and needs only a ninth-place finish to clinch it and become Italy's first champion since 1953. Russell would have to win and Hamilton would also need to win to keep it alive (Al Jazeera). The race result was not available when this was built."
      ],
      "f": [
-      "US GP (25 Oct): 1 Antonelli, 2 Leclerc, 3 Verstappen, 4 Hamilton, 5 Norris",
-      "Drivers (calculated): Antonelli 365, Russell 242, Hamilton 241, Verstappen 236",
-      "Constructors: not recalculated, panel still after Singapore"
+      "Mexico qualifying: 1 Hamilton, 2 Russell, 3 Leclerc, 4 Antonelli, 6 Norris",
+      "Antonelli leads Russell by 123 points; 100 available",
+      "Earlier: US GP (25 Oct) won by Antonelli"
      ],
      "n": [
       "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
@@ -4941,8 +5024,12 @@
       "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
       "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
      ],
-     "s": "US GP result 25 Oct 2026 (PlanetF1, Radio X); points calculated from the Singapore standings (RacingNews365)",
+     "s": "Mexico qualifying 31 Oct / race 1 Nov 2026 (Al Jazeera, 1 Nov); earlier US GP from PlanetF1",
      "links": [
+      {
+       "text": "Al Jazeera: Hamilton takes first Ferrari pole; Antonelli starts fourth in Mexico",
+       "url": "https://www.aljazeera.com/sports/2026/11/1/f1-hamilton-takes-first-ferrari-pole-antonelli-starts-fourth-in-mexico"
+      },
       {
        "text": "PlanetF1: United States Grand Prix 2026 race results",
        "url": "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race"
@@ -4954,6 +5041,29 @@
       {
        "text": "RacingNews365: standings after Singapore GP",
        "url": "https://racingnews365.com/2026-f1-championship-standings-after-singapore-grand-prix"
+      }
+     ]
+    },
+    {
+     "t": "MotoGP: Marquez wins in Malaysia",
+     "tag": "Sepang · 1 Nov",
+     "w": [
+      "Marc Marquez (Ducati) won the Malaysian Grand Prix at Sepang by more than four seconds, ahead of Pedro Acosta (KTM) and his brother Alex Marquez (Gresini), who started on pole. He now has 399 points to Jorge Martin's 355.",
+      "Martin missed the race with a fractured wrist from a crash at Phillip Island and conceded his title bid is essentially over. Marquez could seal an eighth title at next weekend's Qatar Grand Prix if he extends his lead to 74 points, with two rounds left."
+     ],
+     "f": [
+      "Standings: Marquez 399, Martin 355",
+      "Next: Qatar GP, Lusail, next weekend"
+     ],
+     "n": [
+      "MotoGP is the premier world championship for motorcycle road racing. Riders score points at each Grand Prix and the highest total at season's end is champion.",
+      "Ducati, KTM, Gresini (a Ducati-supplied team) and Aprilia are among the teams on the grid."
+     ],
+     "s": "As of 1 Nov 2026 · Al Jazeera (1 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Marquez wins Malaysian Grand Prix",
+       "url": "https://www.aljazeera.com/sports/2026/11/1/marquez-wins-malaysian-grand-prix-to-close-in-on-retaining-championship"
       }
      ]
     }
@@ -5263,114 +5373,114 @@
   "intro": "Ten questions from today's verified items: the US midterms, Ebola, Ukraine, North Korea, the pope's vote and the weekend's sport. Pick an answer, see the score at the end, then start again for the next player.",
   "questions": [
    {
-    "q": "About how many Americans had voted early five days before Election Day, according to AP?",
+    "q": "How much did AdImpact estimate midterm ad spending and reservations at, as of 26 October?",
     "options": [
-     "12 million",
-     "25 million",
-     "More than 43 million",
-     "80 million"
+     "$3.2bn",
+     "$5bn",
+     "$11.21bn",
+     "$20bn"
     ],
     "answer": 2,
-    "explain": "More than 43 million, nearly 10 million more than at the same point in 2022 (Al Jazeera, AP)."
+    "explain": "$11.21bn versus $3.2bn for the 2024 presidential season (Al Jazeera)."
    },
    {
-    "q": "What is the Democratic lead on the national House ballot in RealClearPolling's average?",
+    "q": "Which Senate race has seen the most spending, at over $534m?",
     "options": [
-     "51.4% to 43.2%",
-     "45% to 44%",
-     "60% to 35%",
-     "49% to 47%"
+     "Ohio",
+     "Texas",
+     "Michigan",
+     "Kansas"
+    ],
+    "answer": 1,
+    "explain": "Texas, Talarico v Paxton (Al Jazeera)."
+   },
+   {
+    "q": "What is the name of the Qatari LNG carrier hit by 'unidentified objects'?",
+    "options": [
+     "Al Mayeda",
+     "Al Khor",
+     "Doha Star",
+     "Lusail"
     ],
     "answer": 0,
-    "explain": "RealClearPolling had Democrats ahead 51.4% to 43.2% (Al Jazeera)."
+    "explain": "Al Mayeda, owned by Qatar Gas Transport Company."
    },
    {
-    "q": "Which strain of Ebola is behind the outbreak in the DR Congo?",
+    "q": "Were any crew hurt on the Al Mayeda?",
     "options": [
-     "Zaire",
-     "Sudan",
-     "Bundibugyo",
-     "Marburg"
+     "Yes, several",
+     "One died",
+     "No crew were hurt",
+     "Not stated"
     ],
     "answer": 2,
-    "explain": "The Bundibugyo strain, for which there is no approved vaccine or treatment."
+    "explain": "No crew members were hurt and no environmental damage was reported."
    },
    {
-    "q": "How many people has the DR Congo Ebola outbreak killed, according to government data?",
+    "q": "In Yemen, the government offensive in al-Jawf is part of which operation?",
     "options": [
-     "Over 500",
-     "Over 1,500",
-     "Over 5,000",
-     "Over 28,000"
+     "Operation Dawn of Yemen",
+     "Operation Red Sea",
+     "Operation Sanaa",
+     "Operation Desert Storm"
+    ],
+    "answer": 0,
+    "explain": "Operation Dawn of Yemen, launched in October 2026."
+   },
+   {
+    "q": "Who took his first Ferrari pole in Mexico City qualifying?",
+    "options": [
+     "Charles Leclerc",
+     "Kimi Antonelli",
+     "Lewis Hamilton",
+     "George Russell"
     ],
     "answer": 2,
-    "explain": "The death toll passed 5,000; more than 10,000 have been infected."
+    "explain": "Lewis Hamilton, with 1:16.514."
    },
    {
-    "q": "How many Patriot PAC-3 missiles did the US approve selling to Ukraine?",
+    "q": "What does Kimi Antonelli need in Mexico to clinch the F1 title?",
     "options": [
-     "50",
-     "200",
-     "500",
-     "2,000"
+     "A win",
+     "A podium",
+     "A ninth-place finish",
+     "Fastest lap"
     ],
     "answer": 2,
-    "explain": "500 missiles worth an estimated $2.1bn, with delivery not expected until the 2030s."
+    "explain": "A ninth-place finish; he leads Russell by 123 points."
    },
    {
-    "q": "Where did the US, South Korea and Japan foreign ministers meet to call for North Korea's denuclearisation?",
+    "q": "Who won the MotoGP Malaysian Grand Prix at Sepang?",
     "options": [
-     "Seoul",
-     "Tokyo",
-     "The G20 meeting in Atlanta",
-     "Beijing"
-    ],
-    "answer": 2,
-    "explain": "On the sidelines of the G20 meeting in Atlanta."
-   },
-   {
-    "q": "Pope Leo XIV is the first pope to do what?",
-    "options": [
-     "Visit Alaska",
-     "Vote in a US general election",
-     "Address Congress",
-     "Fly to Antarctica"
-    ],
-    "answer": 1,
-    "explain": "He cast a mail-in ballot from Chicago, his birthplace, in the midterms."
-   },
-   {
-    "q": "How many goals did Achraf Hakimi score in PSG's win at Le Havre?",
-    "options": [
-     "One",
-     "Two",
-     "Three",
-     "Four"
-    ],
-    "answer": 2,
-    "explain": "A hat-trick in a 5–1 win, plus two assists."
-   },
-   {
-    "q": "How many points do PSG have after nine Ligue 1 games?",
-    "options": [
-     "14",
-     "16",
-     "18",
-     "20"
+     "Pedro Acosta",
+     "Alex Marquez",
+     "Jorge Martin",
+     "Marc Marquez"
     ],
     "answer": 3,
-    "explain": "PSG are on 20 points, two clear of Lille."
+    "explain": "Marc Marquez (Ducati), over four seconds clear."
    },
    {
-    "q": "Which Canadian reached the Pan Pacific Open final in Tokyo?",
+    "q": "Why did Jorge Martin miss the Malaysian MotoGP race?",
     "options": [
-     "Bianca Andreescu",
-     "Leylah Fernandez",
-     "Victoria Mboko",
-     "Eugenie Bouchard"
+     "A fractured wrist",
+     "Illness",
+     "A team ban",
+     "A broken bike"
     ],
-    "answer": 1,
-    "explain": "Leylah Fernandez beat Kamilla Rakhimova 7–5, 6–3 in the semi-final."
+    "answer": 0,
+    "explain": "He fractured his wrist in a crash at Phillip Island."
+   },
+   {
+    "q": "What was the score when Barcelona played Alaves on 31 October?",
+    "options": [
+     "2-0",
+     "3-1",
+     "6-1",
+     "4-4"
+    ],
+    "answer": 2,
+    "explain": "Barcelona won 6-1; Raphinha and Yamal scored two each."
    }
   ]
  }
