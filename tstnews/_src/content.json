@@ -1,6 +1,6 @@
 {
- "date": "2026-11-01",
- "label": "Sunday 1 November 2026",
+ "date": "2026-11-02",
+ "label": "Monday 2 November 2026",
  "note": "Refresh of Sun 1 Nov 2026 (early morning, Toronto time). A limited run: only the Al Jazeera news sitemap and six Al Jazeera pages could be read. The Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages URLs were refused by the fetch tool, so those feeds and tables keep earlier lists with their own dates. Every card and panel not named below keeps its own 'as of' date and was NOT re-checked today.",
  "sport_note": "Sun 1 Nov 2026: only the Mexico City GP qualifying, MotoGP Malaysia and Barcelona 6-1 Alaves were updated (Al Jazeera). The Premier League results of 31 Oct and all other tables keep their own 'as of' dates and were not re-checked.",
  "sections": [
@@ -9,7 +9,7 @@
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Latest stories from free-to-read news sites. Al Jazeera was refreshed on 1 Nov from its news sitemap; the other feeds were refused on this run, so they keep earlier lists with their own dates.",
+   "intro": "Al Jazeera's news sitemap was re-read on 2 Nov but its newest entries were still from 1 Nov; Euronews, CP24, Global News and L'Écho du Mardi feeds were refused on this run, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -167,6 +167,33 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "US midterms: final rallies on election eve",
+     "tag": "United States · 2 Nov",
+     "gap": false,
+     "w": [
+      "On the eve of the midterms, both camps took to the road. Donald Trump closed his campaign on Sunday at the Lincoln Memorial Reflecting Pool in Washington after a stop in Iowa, telling supporters \"We're going to win\"; Democrats held get-out-the-vote rallies on Monday.",
+      "AFP reports that Democrats are near certain to take the House and have at least even odds in the Senate, where the New York Times/Siena final poll has them ahead in all seven of the most competitive races, though five leads sit inside the margin of error. NBC News found 60% of Americans disapprove of Trump, mainly over prices tied to the war against Iran.",
+      "A record 54 million people have already cast early ballots, and roughly $11bn has gone on advertising. Election Day is Tuesday 3 November."
+     ],
+     "n": [
+      "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the 100 Senate seats are up.",
+      "Control of Congress decides whether a president can pass laws and whether the opposition can launch investigations or block judicial appointments.",
+      "Polls measure opinion; control is decided seat by seat, which is why a lead inside the margin of error is still a toss-up."
+     ],
+     "s": "As of 2 Nov 2026 · AFP via The Korea Times (2 Nov)",
+     "links": [
+      {
+       "text": "The Korea Times (AFP): Democrats, Trump hold final rallies before midterm elections",
+       "url": "https://www.koreatimes.co.kr/world/20261102/democrats-trump-hold-final-rallies-before-midterm-elections"
+      }
+     ],
+     "f": [
+      "Early ballots cast: 54 million (record, AFP)",
+      "NBC News: 60% disapprove of Trump",
+      "Election day: Tuesday 3 November 2026"
+     ]
+    },
     {
      "t": "Gulf: Qatari LNG carrier hit by 'unidentified objects'",
      "tag": "Gulf · 1 Nov",
@@ -2505,9 +2532,10 @@
       {
        "id": "pl-results",
        "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, 23–25 Oct)",
-       "asof": "Sun 25 Oct 2026 (footballwebpages.co.uk pages for 24 and 25 Oct, read 26 Oct)",
+       "asof": "Sun 1 Nov 2026 (Liverpool–Arsenal only); rest as of Sun 25 Oct 2026",
        "source": "footballwebpages.co.uk",
        "items": [
+        "Liverpool 0–1 Arsenal (Sun 1 Nov; Havertz 16', Anfield)",
         "Crystal Palace 0–2 Newcastle United (Sun 25 Oct)",
         "Hull City 1–1 Brentford (Sun 25 Oct)",
         "Liverpool 2–0 Brighton & Hove Albion (Sun 25 Oct)",
@@ -2540,8 +2568,12 @@
         "Sunderland 0–2 Brighton & Hove Albion (Sat 10 Oct)"
        ],
        "highlights": true,
-       "note": "Every match of the 23–25 Oct round is listed (Fri Ipswich 1–1 Forest and Sat Villa 2–1 City were already in the list). Earlier-round notes: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). The page's table links showed provisional scores for some Sunday games (for example Hull 1–0 Brentford) that differ from the full-time list; the full-time list is used here and agrees with the table's goal differences. Each Highlights link searches the fuboTV Soccer YouTube channel.",
+       "note": "Only Liverpool 0–1 Arsenal (Sun 1 Nov, liverpoolfc.com match report, read 2 Nov) could be verified for the 30 Oct–1 Nov round. The footballwebpages.co.uk pages were unreadable, so the other results of this round, the table and fixtures are NOT VERIFIED and still show the 25 Oct round. Every match of the 23–25 Oct round is listed (Fri Ipswich 1–1 Forest and Sat Villa 2–1 City were already in the list). Earlier-round notes: Leeds 1–1 United (Mbeumo 35', Calvert-Lewin 51', thescore.com); Newcastle 0–1 Villa (Manzambi 36', thescore.com). The page's table links showed provisional scores for some Sunday games (for example Hull 1–0 Brentford) that differ from the full-time list; the full-time list is used here and agrees with the table's goal differences. Each Highlights link searches the fuboTV Soccer YouTube channel.",
        "links": [
+        {
+         "text": "Liverpool FC: match report, Liverpool 0–1 Arsenal",
+         "url": "https://www.liverpoolfc.com/news/match-report-liverpool-arsenal-premier-league-november-2026"
+        },
         {
          "text": "fuboTV Soccer on YouTube (all videos)",
          "url": "https://www.youtube.com/@fubotvofficial/videos"
@@ -5369,118 +5401,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Saturday 31 October 2026",
-  "intro": "Ten questions from today's verified items: the US midterms, Ebola, Ukraine, North Korea, the pope's vote and the weekend's sport. Pick an answer, see the score at the end, then start again for the next player.",
+  "title": "TST News quiz · Monday 2 November 2026",
+  "intro": "Ten questions on the stories in today's edition.",
   "questions": [
    {
-    "q": "How much did AdImpact estimate midterm ad spending and reservations at, as of 26 October?",
+    "q": "What is Election Day for the 2026 US midterms?",
     "options": [
-     "$3.2bn",
-     "$5bn",
-     "$11.21bn",
-     "$20bn"
-    ],
-    "answer": 2,
-    "explain": "$11.21bn versus $3.2bn for the 2024 presidential season (Al Jazeera)."
-   },
-   {
-    "q": "Which Senate race has seen the most spending, at over $534m?",
-    "options": [
-     "Ohio",
-     "Texas",
-     "Michigan",
-     "Kansas"
+     "Monday 2 November",
+     "Tuesday 3 November",
+     "Wednesday 4 November",
+     "Saturday 7 November"
     ],
     "answer": 1,
-    "explain": "Texas, Talarico v Paxton (Al Jazeera)."
+    "explain": "Election Day is Tuesday 3 November (AFP)."
    },
    {
-    "q": "What is the name of the Qatari LNG carrier hit by 'unidentified objects'?",
+    "q": "Roughly how many early ballots had been cast, a record, according to AFP?",
     "options": [
-     "Al Mayeda",
-     "Al Khor",
-     "Doha Star",
-     "Lusail"
-    ],
-    "answer": 0,
-    "explain": "Al Mayeda, owned by Qatar Gas Transport Company."
-   },
-   {
-    "q": "Were any crew hurt on the Al Mayeda?",
-    "options": [
-     "Yes, several",
-     "One died",
-     "No crew were hurt",
-     "Not stated"
+     "5.4 million",
+     "24 million",
+     "54 million",
+     "154 million"
     ],
     "answer": 2,
-    "explain": "No crew members were hurt and no environmental damage was reported."
+    "explain": "AFP reports a record 54 million early ballots."
    },
    {
-    "q": "In Yemen, the government offensive in al-Jawf is part of which operation?",
+    "q": "Where did Trump give his closing speech on Sunday 1 November?",
     "options": [
-     "Operation Dawn of Yemen",
-     "Operation Red Sea",
-     "Operation Sanaa",
-     "Operation Desert Storm"
+     "Lincoln Memorial Reflecting Pool",
+     "Mar-a-Lago",
+     "Des Moines",
+     "Capitol steps"
     ],
     "answer": 0,
-    "explain": "Operation Dawn of Yemen, launched in October 2026."
+    "explain": "At the Lincoln Memorial Reflecting Pool in Washington (AFP)."
    },
    {
-    "q": "Who took his first Ferrari pole in Mexico City qualifying?",
+    "q": "What share of Americans disapprove of Trump in NBC's poll released 1 Nov?",
+    "options": [
+     "40%",
+     "50%",
+     "60%",
+     "70%"
+    ],
+    "answer": 2,
+    "explain": "60% disapprove (NBC News via AFP)."
+   },
+   {
+    "q": "Who scored Arsenal's winner at Anfield on 1 November?",
+    "options": [
+     "Bukayo Saka",
+     "Kai Havertz",
+     "Declan Rice",
+     "Gabriel Martinelli"
+    ],
+    "answer": 1,
+    "explain": "Kai Havertz tapped in on 16 minutes (liverpoolfc.com)."
+   },
+   {
+    "q": "What was the score in Liverpool v Arsenal?",
+    "options": [
+     "0–1",
+     "1–1",
+     "2–1",
+     "0–2"
+    ],
+    "answer": 0,
+    "explain": "Liverpool 0–1 Arsenal."
+   },
+   {
+    "q": "Who won the Malaysian MotoGP on 1 November?",
+    "options": [
+     "Marc Márquez",
+     "Jorge Martín",
+     "Pecco Bagnaia",
+     "Fabio Quartararo"
+    ],
+    "answer": 0,
+    "explain": "Márquez won, closing in on retaining the title (Al Jazeera)."
+   },
+   {
+    "q": "Who took a first Ferrari pole in Mexico qualifying?",
     "options": [
      "Charles Leclerc",
-     "Kimi Antonelli",
      "Lewis Hamilton",
-     "George Russell"
+     "Kimi Antonelli",
+     "Max Verstappen"
     ],
-    "answer": 2,
-    "explain": "Lewis Hamilton, with 1:16.514."
+    "answer": 1,
+    "explain": "Hamilton took his first Ferrari pole; Antonelli starts fourth (Al Jazeera)."
    },
    {
-    "q": "What does Kimi Antonelli need in Mexico to clinch the F1 title?",
+    "q": "Which team did Barcelona beat 6–1 in La Liga on 1 November?",
     "options": [
-     "A win",
-     "A podium",
-     "A ninth-place finish",
-     "Fastest lap"
-    ],
-    "answer": 2,
-    "explain": "A ninth-place finish; he leads Russell by 123 points."
-   },
-   {
-    "q": "Who won the MotoGP Malaysian Grand Prix at Sepang?",
-    "options": [
-     "Pedro Acosta",
-     "Alex Marquez",
-     "Jorge Martin",
-     "Marc Marquez"
-    ],
-    "answer": 3,
-    "explain": "Marc Marquez (Ducati), over four seconds clear."
-   },
-   {
-    "q": "Why did Jorge Martin miss the Malaysian MotoGP race?",
-    "options": [
-     "A fractured wrist",
-     "Illness",
-     "A team ban",
-     "A broken bike"
+     "Alavés",
+     "Getafe",
+     "Girona",
+     "Sevilla"
     ],
     "answer": 0,
-    "explain": "He fractured his wrist in a crash at Phillip Island."
+    "explain": "Barcelona hammered Alavés (Al Jazeera)."
    },
    {
-    "q": "What was the score when Barcelona played Alaves on 31 October?",
+    "q": "What was struck by 'unidentified objects' in the Gulf?",
     "options": [
-     "2-0",
-     "3-1",
-     "6-1",
-     "4-4"
+     "A Qatari LNG carrier",
+     "A US destroyer",
+     "An oil rig",
+     "A cruise ship"
     ],
-    "answer": 2,
-    "explain": "Barcelona won 6-1; Raphinha and Yamal scored two each."
+    "answer": 0,
+    "explain": "A Qatar LNG carrier (Al Jazeera, 1 Nov)."
    }
   ]
  }
