@@ -1,8 +1,8 @@
 {
- "date": "2026-11-02",
- "label": "Monday 2 November 2026",
- "note": "Refresh of Sun 1 Nov 2026 (early morning, Toronto time). A limited run: only the Al Jazeera news sitemap and six Al Jazeera pages could be read. The Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages URLs were refused by the fetch tool, so those feeds and tables keep earlier lists with their own dates. Every card and panel not named below keeps its own 'as of' date and was NOT re-checked today.",
- "sport_note": "Sun 1 Nov 2026: only the Mexico City GP qualifying, MotoGP Malaysia and Barcelona 6-1 Alaves were updated (Al Jazeera). The Premier League results of 31 Oct and all other tables keep their own 'as of' dates and were not re-checked.",
+ "date": "2026-11-03",
+ "label": "Tuesday 3 November 2026",
+ "note": "Refresh of Tue 3 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi, footballwebpages and the Al Jazeera sitemap were refused by the fetch tool, so only Al Jazeera pages that appeared in search results could be read. Only the US midterms card, the Al Jazeera headlines and the quiz are updated today. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
+ "sport_note": "Tue 3 Nov 2026: no sport pages could be re-checked in this run (score sites refused). All sport tables, results and fixtures keep their own 'as of' dates (latest update 1 Nov: Mexico City GP qualifying, MotoGP Malaysia, Barcelona 6-1 Alaves).",
  "sections": [
   {
    "id": "headlines",
@@ -79,28 +79,28 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
+       "t": "US midterm elections live: Polls due to open in test for Trump",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump",
+       "when": "3 Nov"
+      },
+      {
+       "t": "What time do polls open and close in the US midterm elections 2026?",
+       "url": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
+       "when": "3 Nov"
+      },
+      {
+       "t": "How the president’s party has fared in every US midterm election since 1946",
+       "url": "https://www.aljazeera.com/news/2026/11/2/how-the-presidents-party-has-fared-in-every-us-midterm-election-since-1946",
+       "when": "2 Nov"
+      },
+      {
+       "t": "US midterms: What to know about independent voters and candidates",
+       "url": "https://www.aljazeera.com/news/2026/11/2/us-midterms-what-to-know-about-independent-voters-and-candidates",
+       "when": "2 Nov"
+      },
+      {
        "t": "Qatar LNG carrier struck by 'unidentified objects' in Gulf",
        "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
-       "when": "1 Nov"
-      },
-      {
-       "t": "Yemeni government forces seize strategic positions in al-Jawf",
-       "url": "https://www.aljazeera.com/news/2026/11/1/yemeni-government-forces-seize-strategic-positions-in-al-jawf",
-       "when": "1 Nov"
-      },
-      {
-       "t": "Where are the most expensive midterm races and who is funding them?",
-       "url": "https://www.aljazeera.com/economy/2026/11/1/where-are-the-most-expensive-midterm-races-and-who-is-funding-them",
-       "when": "1 Nov"
-      },
-      {
-       "t": "From railway tragedy to gov't change: Serbia's two-year fight for justice",
-       "url": "https://www.aljazeera.com/news/2026/11/1/from-railway-tragedy-to-govt-change-serbias-two-year-fight-for-justice",
-       "when": "1 Nov"
-      },
-      {
-       "t": "Marquez wins Malaysian Grand Prix to close in on retaining championship",
-       "url": "https://www.aljazeera.com/sports/2026/11/1/marquez-wins-malaysian-grand-prix-to-close-in-on-retaining-championship",
        "when": "1 Nov"
       }
      ]
@@ -168,30 +168,41 @@
    "id": "world",
    "items": [
     {
-     "t": "US midterms: final rallies on election eve",
-     "tag": "United States · 2 Nov",
+     "t": "US midterms: Election Day arrives",
+     "tag": "United States · 3 Nov",
      "gap": false,
      "w": [
-      "On the eve of the midterms, both camps took to the road. Donald Trump closed his campaign on Sunday at the Lincoln Memorial Reflecting Pool in Washington after a stop in Iowa, telling supporters \"We're going to win\"; Democrats held get-out-the-vote rallies on Monday.",
-      "AFP reports that Democrats are near certain to take the House and have at least even odds in the Senate, where the New York Times/Siena final poll has them ahead in all seven of the most competitive races, though five leads sit inside the margin of error. NBC News found 60% of Americans disapprove of Trump, mainly over prices tied to the war against Iran.",
-      "A record 54 million people have already cast early ballots, and roughly $11bn has gone on advertising. Election Day is Tuesday 3 November."
+      "Election Day is here: Vermont's polls opened at 5am local time, New Jersey, Virginia, Connecticut and Kentucky followed at 6am, and the first polls close at 6pm ET in Indiana and Kentucky. Al Jazeera frames the vote as a referendum on Donald Trump.",
+      "At stake are all 435 House seats, 35 of the Senate's 100 seats and governorships in 36 states. Democrats need a net gain of three seats for the House and four for the Senate.",
+      "First results should arrive on Tuesday night, but closely contested races could take hours or days to call, and mail and provisional ballots mean final tallies can take days or weeks. Alaska is the last to close, at about 1am ET Wednesday."
      ],
      "n": [
       "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the 100 Senate seats are up.",
       "Control of Congress decides whether a president can pass laws and whether the opposition can launch investigations or block judicial appointments.",
       "Polls measure opinion; control is decided seat by seat, which is why a lead inside the margin of error is still a toss-up."
      ],
-     "s": "As of 2 Nov 2026 · AFP via The Korea Times (2 Nov)",
+     "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
      "links": [
       {
-       "text": "The Korea Times (AFP): Democrats, Trump hold final rallies before midterm elections",
-       "url": "https://www.koreatimes.co.kr/world/20261102/democrats-trump-hold-final-rallies-before-midterm-elections"
+       "text": "Al Jazeera: What time do polls open and close in the US midterm elections 2026?",
+       "url": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
+       "syn": "Lists poll opening and closing times by state, when results may arrive, and what is at stake: all 435 House seats, 35 Senate seats and 36 governorships."
+      },
+      {
+       "text": "Al Jazeera live: Polls due to open in test for Trump",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump",
+       "syn": "Live coverage framing the midterms as a referendum on Trump, with poll-opening times and the seats up for grabs."
+      },
+      {
+       "text": "Al Jazeera: US midterms, 2 days to go",
+       "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail"
       }
      ],
      "f": [
-      "Early ballots cast: 54 million (record, AFP)",
-      "NBC News: 60% disapprove of Trump",
-      "Election day: Tuesday 3 November 2026"
+      "Election Day: Tuesday 3 November 2026",
+      "House: all 435 seats; Senate: 35 of 100; governors: 36 states",
+      "Democrats need a net +3 (House) or +4 (Senate)",
+      "Last polls close about 1am ET Wednesday (Alaska)"
      ]
     },
     {
@@ -5401,11 +5412,11 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Monday 2 November 2026",
-  "intro": "Ten questions on the stories in today's edition.",
+  "title": "TST News quiz · Tuesday 3 November 2026",
+  "intro": "Ten questions on today's US midterms Election Day.",
   "questions": [
    {
-    "q": "What is Election Day for the 2026 US midterms?",
+    "q": "What is the date of the 2026 US midterm Election Day?",
     "options": [
      "Monday 2 November",
      "Tuesday 3 November",
@@ -5413,10 +5424,87 @@
      "Saturday 7 November"
     ],
     "answer": 1,
-    "explain": "Election Day is Tuesday 3 November (AFP)."
+    "explain": "Tuesday 3 November 2026 (Al Jazeera)."
    },
    {
-    "q": "Roughly how many early ballots had been cast, a record, according to AFP?",
+    "q": "How many House seats are up in the midterms?",
+    "options": [
+     "100",
+     "218",
+     "435",
+     "538"
+    ],
+    "answer": 2,
+    "explain": "All 435 House seats (Al Jazeera)."
+   },
+   {
+    "q": "How many Senate seats are up?",
+    "options": [
+     "20",
+     "35",
+     "51",
+     "100"
+    ],
+    "answer": 1,
+    "explain": "35 of the Senate's 100 seats (Al Jazeera)."
+   },
+   {
+    "q": "How many states elect a governor this year?",
+    "options": [
+     "12",
+     "24",
+     "36",
+     "50"
+    ],
+    "answer": 2,
+    "explain": "Governorships in 36 states (Al Jazeera)."
+   },
+   {
+    "q": "What net gain do House Democrats need for a majority?",
+    "options": [
+     "Three seats",
+     "Ten seats",
+     "Twenty seats",
+     "Thirty seats"
+    ],
+    "answer": 0,
+    "explain": "House Democrats need a net gain of three; Senate Democrats four (Al Jazeera)."
+   },
+   {
+    "q": "Which state's polls open first, at 5am ET?",
+    "options": [
+     "Vermont",
+     "Alaska",
+     "Florida",
+     "Ohio"
+    ],
+    "answer": 0,
+    "explain": "Vermont opens at 5am ET; Alaska is the last to close, about 1am ET Wednesday."
+   },
+   {
+    "q": "Roughly when do the last polls close?",
+    "options": [
+     "6pm ET Tuesday",
+     "Midnight ET",
+     "About 1am ET Wednesday",
+     "Noon Wednesday"
+    ],
+    "answer": 2,
+    "explain": "Alaska closes about 1am ET Wednesday."
+   },
+   {
+    "q": "Which two states' polls close first, at 6pm ET?",
+    "options": [
+     "Indiana and Kentucky",
+     "Texas and Ohio",
+     "Maine and Vermont",
+     "Iowa and Kansas"
+    ],
+    "answer": 0,
+    "explain": "Indiana and Kentucky are the earliest closings (Al Jazeera)."
+   },
+   {
+    "q": "How many early ballots had been cast, a record, according to AFP (reported 2 Nov)?",
     "options": [
      "5.4 million",
      "24 million",
@@ -5424,95 +5512,18 @@
      "154 million"
     ],
     "answer": 2,
-    "explain": "AFP reports a record 54 million early ballots."
+    "explain": "AFP reported a record 54 million early ballots."
    },
    {
-    "q": "Where did Trump give his closing speech on Sunday 1 November?",
-    "options": [
-     "Lincoln Memorial Reflecting Pool",
-     "Mar-a-Lago",
-     "Des Moines",
-     "Capitol steps"
-    ],
-    "answer": 0,
-    "explain": "At the Lincoln Memorial Reflecting Pool in Washington (AFP)."
-   },
-   {
-    "q": "What share of Americans disapprove of Trump in NBC's poll released 1 Nov?",
+    "q": "According to NBC News (via AFP), what share of Americans disapprove of Trump?",
     "options": [
      "40%",
      "50%",
      "60%",
-     "70%"
+     "75%"
     ],
     "answer": 2,
-    "explain": "60% disapprove (NBC News via AFP)."
-   },
-   {
-    "q": "Who scored Arsenal's winner at Anfield on 1 November?",
-    "options": [
-     "Bukayo Saka",
-     "Kai Havertz",
-     "Declan Rice",
-     "Gabriel Martinelli"
-    ],
-    "answer": 1,
-    "explain": "Kai Havertz tapped in on 16 minutes (liverpoolfc.com)."
-   },
-   {
-    "q": "What was the score in Liverpool v Arsenal?",
-    "options": [
-     "0–1",
-     "1–1",
-     "2–1",
-     "0–2"
-    ],
-    "answer": 0,
-    "explain": "Liverpool 0–1 Arsenal."
-   },
-   {
-    "q": "Who won the Malaysian MotoGP on 1 November?",
-    "options": [
-     "Marc Márquez",
-     "Jorge Martín",
-     "Pecco Bagnaia",
-     "Fabio Quartararo"
-    ],
-    "answer": 0,
-    "explain": "Márquez won, closing in on retaining the title (Al Jazeera)."
-   },
-   {
-    "q": "Who took a first Ferrari pole in Mexico qualifying?",
-    "options": [
-     "Charles Leclerc",
-     "Lewis Hamilton",
-     "Kimi Antonelli",
-     "Max Verstappen"
-    ],
-    "answer": 1,
-    "explain": "Hamilton took his first Ferrari pole; Antonelli starts fourth (Al Jazeera)."
-   },
-   {
-    "q": "Which team did Barcelona beat 6–1 in La Liga on 1 November?",
-    "options": [
-     "Alavés",
-     "Getafe",
-     "Girona",
-     "Sevilla"
-    ],
-    "answer": 0,
-    "explain": "Barcelona hammered Alavés (Al Jazeera)."
-   },
-   {
-    "q": "What was struck by 'unidentified objects' in the Gulf?",
-    "options": [
-     "A Qatari LNG carrier",
-     "A US destroyer",
-     "An oil rig",
-     "A cruise ship"
-    ],
-    "answer": 0,
-    "explain": "A Qatar LNG carrier (Al Jazeera, 1 Nov)."
+    "explain": "NBC News found 60% disapprove, mainly over prices tied to the war against Iran."
    }
   ]
  }
