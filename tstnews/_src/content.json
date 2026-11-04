@@ -1,15 +1,15 @@
 {
- "date": "2026-11-03",
- "label": "Tuesday 3 November 2026",
- "note": "Refresh of Tue 3 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi, footballwebpages and the Al Jazeera sitemap were refused by the fetch tool, so only Al Jazeera pages that appeared in search results could be read. Only the US midterms card, the Al Jazeera headlines and the quiz are updated today. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
- "sport_note": "Tue 3 Nov 2026: no sport pages could be re-checked in this run (score sites refused). All sport tables, results and fixtures keep their own 'as of' dates (latest update 1 Nov: Mexico City GP qualifying, MotoGP Malaysia, Barcelona 6-1 Alaves).",
+ "date": "2026-11-04",
+ "label": "Wednesday 4 November 2026",
+ "note": "Refresh of Wed 4 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages pages were refused by the fetch tool (Al Jazeera's sitemap could be read, but its newest entries were from 3 Nov). Updated today: the US midterms result (from a Forbes live blog, early Wed 4 Nov, so calls may change), three Al Jazeera world stories, the Tenerife football tragedy, the Al Jazeera headlines and the quiz. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
+ "sport_note": "Wed 4 Nov 2026: score sites (footballwebpages, 11v11 and others) were refused, so no sport table, result or fixture could be re-checked. All sport panels keep their own 'as of' dates; the only new sport item is the Tenerife card on the football page.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Al Jazeera's news sitemap was re-read on 2 Nov but its newest entries were still from 1 Nov; Euronews, CP24, Global News and L'Écho du Mardi feeds were refused on this run, so they keep earlier lists with their own dates.",
+   "intro": "Al Jazeera's news sitemap was read on 4 Nov but its newest entries were still from 3 Nov; Euronews, CP24, Global News and L'Écho du Mardi feeds were refused again, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -84,24 +84,29 @@
        "when": "3 Nov"
       },
       {
-       "t": "What time do polls open and close in the US midterm elections 2026?",
-       "url": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
+       "t": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
+       "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest",
        "when": "3 Nov"
       },
       {
-       "t": "How the president’s party has fared in every US midterm election since 1946",
-       "url": "https://www.aljazeera.com/news/2026/11/2/how-the-presidents-party-has-fared-in-every-us-midterm-election-since-1946",
-       "when": "2 Nov"
+       "t": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
+       "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia",
+       "when": "3 Nov"
       },
       {
-       "t": "US midterms: What to know about independent voters and candidates",
-       "url": "https://www.aljazeera.com/news/2026/11/2/us-midterms-what-to-know-about-independent-voters-and-candidates",
-       "when": "2 Nov"
+       "t": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+       "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
+       "when": "3 Nov"
       },
       {
-       "t": "Qatar LNG carrier struck by 'unidentified objects' in Gulf",
-       "url": "https://www.aljazeera.com/news/2026/11/1/qatar-lng-carrier-struck-by-unidentified-objects-in-gulf",
-       "when": "1 Nov"
+       "t": "Lebanon cuts power to public bodies as electricity crisis deepens",
+       "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens",
+       "when": "3 Nov"
+      },
+      {
+       "t": "Tenerife's Jesus de Miguel dies after on-field collision with goalkeeper",
+       "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision",
+       "when": "3 Nov"
       }
      ]
     },
@@ -168,41 +173,111 @@
    "id": "world",
    "items": [
     {
-     "t": "US midterms: Election Day arrives",
-     "tag": "United States · 3 Nov",
+     "t": "US midterms: Democrats win the House and Senate, reports say",
+     "tag": "United States · 4 Nov",
      "gap": false,
      "w": [
-      "Election Day is here: Vermont's polls opened at 5am local time, New Jersey, Virginia, Connecticut and Kentucky followed at 6am, and the first polls close at 6pm ET in Indiana and Kentucky. Al Jazeera frames the vote as a referendum on Donald Trump.",
-      "At stake are all 435 House seats, 35 of the Senate's 100 seats and governorships in 36 states. Democrats need a net gain of three seats for the House and four for the Senate.",
-      "First results should arrive on Tuesday night, but closely contested races could take hours or days to call, and mail and provisional ballots mean final tallies can take days or weeks. Alaska is the last to close, at about 1am ET Wednesday."
+      "Democrats have swept Congress, according to a Forbes live blog updated at 1:46am EST on Wednesday: the AP called the House for Democrats early on 4 November, and the blog says Democrats regained the Senate, with Hakeem Jeffries positioned to become Speaker when the new Congress convenes in January.",
+      "The same page lists seven Republican-held Senate seats flipping: Maine (Troy Jackson over Susan Collins), Iowa (Josh Turek), Kansas (Adam Hamilton, the first Kansas Democrat elected to the Senate since 1932), Ohio (Sherrod Brown), South Carolina (Annie Andrews), North Carolina (Roy Cooper) and New Hampshire (Chris Pappas). Jon Ossoff held Georgia and Ashley Moody held Florida for Republicans.",
+      "Caveats: this rests on one live blog written overnight. The page says Democrat James Talarico 'flipped' Texas but gives no detail, so Texas is not verified here; Alaska and some New York races were still outstanding, and final seat totals were not given. Exit polls cited put Trump's disapproval near 60%."
+     ],
+     "f": [
+      "AP call: House to Democrats, early Wed 4 Nov 2026 (per Forbes live blog)",
+      "Senate: Democrats regain control (per the same blog); final seat counts not given",
+      "Texas, Alaska, Westchester NY: not verified / pending"
      ],
      "n": [
-      "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the 100 Senate seats are up.",
-      "Control of Congress decides whether a president can pass laws and whether the opposition can launch investigations or block judicial appointments.",
-      "Polls measure opinion; control is decided seat by seat, which is why a lead inside the margin of error is still a toss-up."
+      "US midterm elections fall halfway through a president's four-year term. All 435 House seats and about a third of the 100 Senate seats are up, and the president's party has often lost ground.",
+      "Control of Congress decides whether a president can pass laws, and whether the opposition can open investigations, block judicial appointments or set the House agenda through the Speaker.",
+      "Networks and the AP 'call' a race when the remaining uncounted votes cannot change the winner. Calls made overnight can be revised, and mail ballots and recounts can take days."
+     ],
+     "s": "As of 4 Nov 2026, ~1:46am EST · Forbes live blog (single source; others' pre-result live blogs read the same day)",
+     "links": [
+      {
+       "text": "Forbes: Democrats sweep House and Senate in stunning rout (live)",
+       "url": "https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/"
+      },
+      {
+       "text": "CBS News: Election Day 2026 live updates",
+       "url": "https://www.cbsnews.com/live-updates/election-day-2026-midterms/"
+      }
+     ]
+    },
+    {
+     "t": "Iran war: US strikes Qeshm Island as talks stall",
+     "tag": "Gulf · 3 Nov",
+     "gap": false,
+     "w": [
+      "US forces struck Iran's Qeshm Island on 2 November, the first attack there since June, in what US officials called 'defensive' strikes on Iranians firing surface-to-air missiles at US assets, Al Jazeera reports. They followed an IRGC claim that it had downed a US MQ-9 drone near the Strait of Hormuz.",
+      "Qatar-led mediation goes on, though talks reportedly ended Monday without a breakthrough. President Masoud Pezeshkian said Supreme Leader Mojtaba Khamenei had given the government 'certain authorities' over talks; JD Vance said he felt 'pretty good' about a settlement, and Trump said he was 'in no rush' to resume strikes.",
+      "Oil prices fell more than 7% on Monday. The war began on 28 February."
+     ],
+     "f": [
+      "Strike date: 2 Nov 2026",
+      "War began: 28 Feb 2026",
+      "Oil: down over 7% on Mon 2 Nov (Al Jazeera)"
+     ],
+     "n": [
+      "The Strait of Hormuz is a narrow sea lane between Iran and Oman through which a large share of the world's oil and gas ships pass, so fighting nearby moves energy prices.",
+      "The IRGC is Iran's Revolutionary Guards, a powerful military force separate from the regular army.",
+      "Qatar acts as a go-between because it talks to both Washington and Tehran."
      ],
      "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
      "links": [
       {
-       "text": "Al Jazeera: What time do polls open and close in the US midterm elections 2026?",
-       "url": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
-       "syn": "Lists poll opening and closing times by state, when results may arrive, and what is at stake: all 435 House seats, 35 Senate seats and 36 governorships."
-      },
-      {
-       "text": "Al Jazeera live: Polls due to open in test for Trump",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump",
-       "syn": "Live coverage framing the midterms as a referendum on Trump, with poll-opening times and the seats up for grabs."
-      },
-      {
-       "text": "Al Jazeera: US midterms, 2 days to go",
-       "url": "https://www.aljazeera.com/news/2026/11/1/us-midterms-2-days-to-go-what-polls-say-as-trump-el-sayed-hit-the-trail"
+       "text": "Al Jazeera: US hits Qeshm Island, Pezeshkian signals more diplomacy",
+       "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest"
       }
+     ]
+    },
+    {
+     "t": "Ukraine: Russian strike hits Kharkiv hospital, 73 hurt",
+     "tag": "Ukraine · 3 Nov",
+     "gap": false,
+     "w": [
+      "Russia struck a city clinical hospital in Kharkiv on the night of Monday 2 November, injuring at least 73 people, President Zelenskyy said; the mayor reported over 1,000 windows shattered and damage to the cardiology department.",
+      "It was part of a wider overnight barrage on power sites across nine regions: Zelenskyy counted 289 attack drones, 17 ballistic missiles and 59 cruise missiles. More than 180,000 people lost power in Zhytomyr region by Tuesday morning.",
+      "The attack followed a strike on an aid distribution centre the day before that killed at least 33 people."
      ],
      "f": [
-      "Election Day: Tuesday 3 November 2026",
-      "House: all 435 seats; Senate: 35 of 100; governors: 36 states",
-      "Democrats need a net +3 (House) or +4 (Senate)",
-      "Last polls close about 1am ET Wednesday (Alaska)"
+      "Injured in Kharkiv: at least 73",
+      "Overnight: 289 drones, 17 ballistic and 59 cruise missiles (Zelenskyy)"
+     ],
+     "n": [
+      "Russia invaded Ukraine in February 2022. Since then it has repeatedly hit Ukraine's power grid, which matters most as winter approaches.",
+      "Ukrainian and Russian claims about attacks are hard to verify independently; the figures here are Ukrainian officials' statements as reported by Al Jazeera."
+     ],
+     "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: At least 73 injured as Russia bombs Ukrainian hospital and power plants",
+       "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants"
+      }
+     ]
+    },
+    {
+     "t": "Lebanon: power cut to public bodies as electricity crisis deepens",
+     "tag": "Lebanon · 3 Nov",
+     "gap": false,
+     "w": [
+      "Lebanon's Energy Ministry began cutting electricity on Monday to about 100 public institutions with unpaid bills, a move that exposes a row between Energy Minister Joe Saddi and the government he sits in.",
+      "Saddi says his demands for more supply, cheaper fuel and settled debts to the state utility have been ignored, and he and three Lebanese Forces colleagues are boycotting cabinet. In Beirut, state power has fallen from about 21 hours a day before 2019 to two to four.",
+      "The World Bank projects 17.5% inflation this year; Qatar has offered two power plants and a 20-year LNG deal, though experts say deep reform is needed."
+     ],
+     "f": [
+      "Institutions cut: about 100",
+      "Beirut state power: 2 to 4 hours a day"
+     ],
+     "n": [
+      "Lebanon's economy collapsed from 2019, and the state electricity company has struggled since, so most households rely on private generators.",
+      "Unpaid state bills are one reason the utility cannot buy fuel."
+     ],
+     "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Lebanon cuts power to public bodies",
+       "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens"
+      }
      ]
     },
     {
@@ -2140,6 +2215,27 @@
    "summary": "Europa League: Bournemouth 3–0 AC Milan; Man City lead the Premier League; weekend: Villa v City, Arsenal v Everton, Man United v Bournemouth (Sun 25 Oct).",
    "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Saturday 17 October 2026 (before kick-off).",
    "cards": [
+    {
+     "t": "Tenerife's Jesus de Miguel dies after on-field collision",
+     "tag": "Spain · 3 Nov",
+     "gap": false,
+     "w": [
+      "Tenerife forward Jesus de Miguel, 30, has died after a collision in the club's Spanish second-division match against Andorra on Monday 2 November, Al Jazeera reports.",
+      "The game was heading for a 2-2 draw when, seven minutes into added time, goalkeeper Jesus Owono's knee appeared to strike de Miguel's chest; Owono was shown a red card, the match was abandoned and players were in tears. Reports say he suffered a cardiac arrest in an ambulance.",
+      "Tenerife announced his death on Tuesday: 'Broken with pain, with a lump in our throat and unable to believe that this is true.' His family has asked for privacy."
+     ],
+     "n": [
+      "Spain's Segunda División is the country's second tier of professional football, one level below La Liga.",
+      "Sudden cardiac arrest on the pitch is rare but has affected players at every level; stadiums are required to have medical teams and defibrillators on hand."
+     ],
+     "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Tenerife's Jesus de Miguel dies after on-field collision",
+       "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision"
+      }
+     ]
+    },
     {
      "t": "Premier League",
      "tag": "After 8 games each (table as of Sun 25 Oct)",
@@ -5412,118 +5508,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Tuesday 3 November 2026",
-  "intro": "Ten questions on today's US midterms Election Day.",
+  "title": "TST News quiz · Wednesday 4 November 2026",
+  "intro": "Ten questions on the midterm results and Tuesday's world stories.",
   "questions": [
    {
-    "q": "What is the date of the 2026 US midterm Election Day?",
+    "q": "Which party did the AP call the US House for, early on 4 November?",
     "options": [
-     "Monday 2 November",
-     "Tuesday 3 November",
-     "Wednesday 4 November",
-     "Saturday 7 November"
+     "Republicans",
+     "Democrats",
+     "Independents",
+     "It was a tie"
     ],
     "answer": 1,
-    "explain": "Tuesday 3 November 2026 (Al Jazeera)."
+    "explain": "Per the Forbes live blog, the AP called the House for Democrats early Wednesday."
    },
    {
-    "q": "How many House seats are up in the midterms?",
+    "q": "Who is positioned to become House Speaker in January if Democrats hold the House?",
+    "options": [
+     "Hakeem Jeffries",
+     "Mike Johnson",
+     "Chuck Schumer",
+     "Nancy Pelosi"
+    ],
+    "answer": 0,
+    "explain": "Hakeem Jeffries (Forbes live blog)."
+   },
+   {
+    "q": "Which Maine Democrat beat Sen. Susan Collins?",
+    "options": [
+     "Troy Jackson",
+     "Sherrod Brown",
+     "Roy Cooper",
+     "Josh Turek"
+    ],
+    "answer": 0,
+    "explain": "Troy Jackson (Forbes live blog)."
+   },
+   {
+    "q": "Which former senator won back his Ohio seat for Democrats?",
+    "options": [
+     "Sherrod Brown",
+     "Jon Husted",
+     "Roy Cooper",
+     "Chris Pappas"
+    ],
+    "answer": 0,
+    "explain": "Sherrod Brown beat Sen. Jon Husted."
+   },
+   {
+    "q": "Kansas elected its first Democratic senator since which year?",
+    "options": [
+     "1932",
+     "1968",
+     "1988",
+     "2008"
+    ],
+    "answer": 0,
+    "explain": "1932, per the Forbes live blog."
+   },
+   {
+    "q": "Which island did US forces strike on 2 November?",
+    "options": [
+     "Qeshm Island",
+     "Kharg Island",
+     "Cyprus",
+     "Bahrain"
+    ],
+    "answer": 0,
+    "explain": "Qeshm Island, Iran (Al Jazeera)."
+   },
+   {
+    "q": "When did the US-Iran war begin?",
+    "options": [
+     "28 February",
+     "1 June",
+     "3 November",
+     "4 July"
+    ],
+    "answer": 0,
+    "explain": "28 February 2026 (Al Jazeera)."
+   },
+   {
+    "q": "How many people were injured when Russia struck a Kharkiv hospital?",
+    "options": [
+     "At least 73",
+     "About 7",
+     "Over 500",
+     "None"
+    ],
+    "answer": 0,
+    "explain": "At least 73 (Zelenskyy, via Al Jazeera)."
+   },
+   {
+    "q": "About how many Lebanese public bodies had their power cut on Monday?",
     "options": [
      "100",
-     "218",
-     "435",
-     "538"
-    ],
-    "answer": 2,
-    "explain": "All 435 House seats (Al Jazeera)."
-   },
-   {
-    "q": "How many Senate seats are up?",
-    "options": [
-     "20",
-     "35",
-     "51",
-     "100"
-    ],
-    "answer": 1,
-    "explain": "35 of the Senate's 100 seats (Al Jazeera)."
-   },
-   {
-    "q": "How many states elect a governor this year?",
-    "options": [
-     "12",
-     "24",
-     "36",
-     "50"
-    ],
-    "answer": 2,
-    "explain": "Governorships in 36 states (Al Jazeera)."
-   },
-   {
-    "q": "What net gain do House Democrats need for a majority?",
-    "options": [
-     "Three seats",
-     "Ten seats",
-     "Twenty seats",
-     "Thirty seats"
+     "10",
+     "1,000",
+     "None"
     ],
     "answer": 0,
-    "explain": "House Democrats need a net gain of three; Senate Democrats four (Al Jazeera)."
+    "explain": "About 100 institutions with unpaid bills."
    },
    {
-    "q": "Which state's polls open first, at 5am ET?",
+    "q": "Which club did footballer Jesus de Miguel play for?",
     "options": [
-     "Vermont",
-     "Alaska",
-     "Florida",
-     "Ohio"
+     "Tenerife",
+     "Andorra",
+     "Barcelona",
+     "Sevilla"
     ],
     "answer": 0,
-    "explain": "Vermont opens at 5am ET; Alaska is the last to close, about 1am ET Wednesday."
-   },
-   {
-    "q": "Roughly when do the last polls close?",
-    "options": [
-     "6pm ET Tuesday",
-     "Midnight ET",
-     "About 1am ET Wednesday",
-     "Noon Wednesday"
-    ],
-    "answer": 2,
-    "explain": "Alaska closes about 1am ET Wednesday."
-   },
-   {
-    "q": "Which two states' polls close first, at 6pm ET?",
-    "options": [
-     "Indiana and Kentucky",
-     "Texas and Ohio",
-     "Maine and Vermont",
-     "Iowa and Kansas"
-    ],
-    "answer": 0,
-    "explain": "Indiana and Kentucky are the earliest closings (Al Jazeera)."
-   },
-   {
-    "q": "How many early ballots had been cast, a record, according to AFP (reported 2 Nov)?",
-    "options": [
-     "5.4 million",
-     "24 million",
-     "54 million",
-     "154 million"
-    ],
-    "answer": 2,
-    "explain": "AFP reported a record 54 million early ballots."
-   },
-   {
-    "q": "According to NBC News (via AFP), what share of Americans disapprove of Trump?",
-    "options": [
-     "40%",
-     "50%",
-     "60%",
-     "75%"
-    ],
-    "answer": 2,
-    "explain": "NBC News found 60% disapprove, mainly over prices tied to the war against Iran."
+    "explain": "Tenerife, who drew 2-2 with Andorra on 2 November."
    }
   ]
  }
