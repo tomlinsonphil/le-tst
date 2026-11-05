@@ -1,15 +1,15 @@
 {
- "date": "2026-11-04",
- "label": "Wednesday 4 November 2026",
- "note": "Refresh of Wed 4 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages pages were refused by the fetch tool (Al Jazeera's sitemap could be read, but its newest entries were from 3 Nov). Updated today: the US midterms result (from a Forbes live blog, early Wed 4 Nov, so calls may change), three Al Jazeera world stories, the Tenerife football tragedy, the Al Jazeera headlines and the quiz. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
- "sport_note": "Wed 4 Nov 2026: score sites (footballwebpages, 11v11 and others) were refused, so no sport table, result or fixture could be re-checked. All sport panels keep their own 'as of' dates; the only new sport item is the Tenerife card on the football page.",
+ "date": "2026-11-05",
+ "label": "Thursday 5 November 2026",
+ "note": "Refresh of Thu 5 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages pages were refused by the fetch tool again. Updated today: Al Jazeera headlines (sitemap read, entries to 12:36 UTC on 4 Nov), US midterm world reaction (Al Jazeera), Champions League matchday 4 results (UEFA.com), the Tenerife follow-up and the quiz. Bank of England decision due today was NOT verified. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
+ "sport_note": "Thu 5 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked. New today: Champions League matchday 4 results from UEFA.com and the Tenerife follow-up. All other sport panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Al Jazeera's news sitemap was read on 4 Nov but its newest entries were still from 3 Nov; Euronews, CP24, Global News and L'Écho du Mardi feeds were refused again, so they keep earlier lists with their own dates.",
+   "intro": "Al Jazeera's news sitemap was read on 5 Nov (newest entries 12:36 UTC, 4 Nov); Euronews, CP24, Global News and L'Écho du Mardi feeds were refused again, so they keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -79,34 +79,34 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "US midterm elections live: Polls due to open in test for Trump",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/3/us-midterm-elections-live-polls-due-to-open-in-test-for-trump",
-       "when": "3 Nov"
+       "t": "Tenerife's Jesus de Miguel remembered in moving tributes by football world",
+       "url": "https://www.aljazeera.com/sports/2026/11/4/tenerifes-jesus-de-miguel-remembered-in-moving-tributes-by-football-world",
+       "when": "4 Nov"
       },
       {
-       "t": "US hits Qeshm Island, Pezeshkian signals more diplomacy: Iran war latest",
-       "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest",
-       "when": "3 Nov"
+       "t": "America is heading for two years of constitutional brinkmanship",
+       "url": "https://www.aljazeera.com/opinions/2026/11/4/america-is-heading-for-two-years-of-constitutional-brinkmanship",
+       "when": "4 Nov"
       },
       {
-       "t": "Deadly RSF drone attacks reveal deep divisions between Sudan and Ethiopia",
-       "url": "https://www.aljazeera.com/news/2026/11/3/deadly-rsf-drone-strikes-reveal-deep-divisions-between-sudan-and-ethiopia",
-       "when": "3 Nov"
+       "t": "Musk makes light of defeats after record spend on Republican candidates",
+       "url": "https://www.aljazeera.com/news/2026/11/4/musk-makes-light-of-defeats-after-record-spend-on-republican-candidates",
+       "when": "4 Nov"
       },
       {
-       "t": "At least 73 injured as Russia bombs Ukrainian hospital and power plants",
-       "url": "https://www.aljazeera.com/news/2026/11/3/at-least-73-injured-as-russia-bombs-ukrainian-hospital-and-power-plants",
-       "when": "3 Nov"
+       "t": "'Call me senator': How Abdul El-Sayed beat Trump's hate to create history",
+       "url": "https://www.aljazeera.com/news/2026/11/4/call-me-senator-how-abdul-el-sayed-beat-trumps-hate-to-create-history",
+       "when": "4 Nov"
       },
       {
-       "t": "Lebanon cuts power to public bodies as electricity crisis deepens",
-       "url": "https://www.aljazeera.com/news/2026/11/3/lebanon-cuts-power-to-public-bodies-as-electricity-crisis-deepens",
-       "when": "3 Nov"
+       "t": "'Seismic shift': World reacts to US midterm election results",
+       "url": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results",
+       "when": "4 Nov"
       },
       {
-       "t": "Tenerife's Jesus de Miguel dies after on-field collision with goalkeeper",
-       "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision",
-       "when": "3 Nov"
+       "t": "Why Democrats may struggle to rein in Trump's foreign policy",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-democrats-may-struggle-to-rein-in-trumps-foreign-policy",
+       "when": "4 Nov"
       }
      ]
     },
@@ -174,11 +174,12 @@
    "items": [
     {
      "t": "US midterms: Democrats win the House and Senate, reports say",
-     "tag": "United States · 4 Nov",
+     "tag": "United States · 4–5 Nov",
      "gap": false,
      "w": [
       "Democrats have swept Congress, according to a Forbes live blog updated at 1:46am EST on Wednesday: the AP called the House for Democrats early on 4 November, and the blog says Democrats regained the Senate, with Hakeem Jeffries positioned to become Speaker when the new Congress convenes in January.",
       "The same page lists seven Republican-held Senate seats flipping: Maine (Troy Jackson over Susan Collins), Iowa (Josh Turek), Kansas (Adam Hamilton, the first Kansas Democrat elected to the Senate since 1932), Ohio (Sherrod Brown), South Carolina (Annie Andrews), North Carolina (Roy Cooper) and New Hampshire (Chris Pappas). Jon Ossoff held Georgia and Ashley Moody held Florida for Republicans.",
+      "The world reacted fast. Al Jazeera reports Trump acknowledged the Iran war and gasoline prices probably hurt his party; Iran's Mohammad Bagher Ghalibaf said 'Americans said NO TO WAR'; Israeli opposition figure Yair Golan called Netanyahu toxic; Spain's Pedro Sanchez linked the result to a far-right 'unravelling' ahead of snap elections on 29 November; and Russia's Sergey Ryabkov warned of a 'sharply negative' Democratic approach. The UK, Greece and Japan stressed alliances would hold. Al Jazeera gives no seat counts.",
       "Caveats: this rests on one live blog written overnight. The page says Democrat James Talarico 'flipped' Texas but gives no detail, so Texas is not verified here; Alaska and some New York races were still outstanding, and final seat totals were not given. Exit polls cited put Trump's disapproval near 60%."
      ],
      "f": [
@@ -191,8 +192,13 @@
       "Control of Congress decides whether a president can pass laws, and whether the opposition can open investigations, block judicial appointments or set the House agenda through the Speaker.",
       "Networks and the AP 'call' a race when the remaining uncounted votes cannot change the winner. Calls made overnight can be revised, and mail ballots and recounts can take days."
      ],
-     "s": "As of 4 Nov 2026, ~1:46am EST · Forbes live blog (single source; others' pre-result live blogs read the same day)",
+     "s": "As of 5 Nov 2026 · Forbes live blog (early 4 Nov) plus Al Jazeera world reaction (4 Nov). Final seat counts not verified.",
      "links": [
+      {
+       "text": "Al Jazeera: 'Seismic shift': World reacts to US midterm results",
+       "url": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results",
+       "syn": "Democrats won both chambers of Congress, including Maine where Troy Jackson unseated Susan Collins. Leaders from Iran, Israel, Spain, Russia, the UK, Greece and Japan responded."
+      },
       {
        "text": "Forbes: Democrats sweep House and Senate in stunning rout (live)",
        "url": "https://www.forbes.com/sites/saradorn/2026/11/04/midterm-election-results-live-updates-democrats-sweep-house-and-senate-in-stunning-rout/"
@@ -2222,7 +2228,8 @@
      "w": [
       "Tenerife forward Jesus de Miguel, 30, has died after a collision in the club's Spanish second-division match against Andorra on Monday 2 November, Al Jazeera reports.",
       "The game was heading for a 2-2 draw when, seven minutes into added time, goalkeeper Jesus Owono's knee appeared to strike de Miguel's chest; Owono was shown a red card, the match was abandoned and players were in tears. Reports say he suffered a cardiac arrest in an ambulance.",
-      "Tenerife announced his death on Tuesday: 'Broken with pain, with a lump in our throat and unable to believe that this is true.' His family has asked for privacy."
+      "Tenerife announced his death on Tuesday: 'Broken with pain, with a lump in our throat and unable to believe that this is true.' His family has asked for privacy.",
+      "Update from Al Jazeera on 4 Nov: Tenerife declared six days of mourning, Spanish domestic matches were postponed and UEFA held a minute's silence at Champions League games. Andorra goalkeeper Jesus Owono said he 'never intended to hurt anyone'; local police opened an investigation, though criminal proceedings are considered unlikely."
      ],
      "n": [
       "Spain's Segunda División is the country's second tier of professional football, one level below La Liga.",
@@ -2230,6 +2237,11 @@
      ],
      "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
      "links": [
+      {
+       "text": "Al Jazeera: Tenerife's Jesus de Miguel remembered in tributes",
+       "url": "https://www.aljazeera.com/sports/2026/11/4/tenerifes-jesus-de-miguel-remembered-in-moving-tributes-by-football-world",
+       "syn": "Tributes from clubs, players and fans followed the 30-year-old striker's death after a collision with a goalkeeper. Tenerife declared six days of mourning."
+      },
       {
        "text": "Al Jazeera: Tenerife's Jesus de Miguel dies after on-field collision",
        "url": "https://www.aljazeera.com/sports/2026/11/3/footballer-dies-after-on-field-collision"
@@ -2297,32 +2309,28 @@
      ]
     },
     {
-     "t": "Champions League: matchday 3",
-     "tag": "20 Oct · more tonight",
+     "t": "Champions League: matchday 4",
+     "tag": "3–4 Nov · results",
+     "gap": false,
      "w": [
-      "Paris Saint-Germain beat Barcelona 4–2 on Tuesday night in the tie of the round (UEFA.com), while Liverpool survived a seven-goal thriller to beat Villarreal 4–3 and Manchester City swept past AEK Athens 5–1. Napoli edged Bodø/Glimt 4–3 and Roma beat Slovan Bratislava 4–0.",
-      "Elsewhere Dortmund won 2–1 at Sabah, PSV won 1–0 at Porto, Fenerbahçe drew 2–2 with Slavia Praha and Stuttgart drew 1–1 with Atlético Madrid.",
-      "Wednesday brings Bayern v Arsenal, Real Madrid v Leipzig, Aston Villa v Viking, Como v Manchester United and Lille v Galatasaray, among others (kick-off times on the CBS page are given in an unstated time zone)."
+      "Nine goals in one night: Como thrashed Lens 9–1 on Wednesday (UEFA.com), the most lopsided scoreline of a busy matchday. Paris Saint-Germain also routed Villarreal 6–0 on Tuesday.",
+      "English clubs had a mixed run. Arsenal won 2–1 at Slavia Praha and Manchester United beat Roma 3–2, but Liverpool lost 3–2 at Fenerbahçe, Manchester City lost 3–2 at Leipzig and Aston Villa went down 3–0 at Barcelona.",
+      "Elsewhere Real Madrid won 3–2 at AEK Athens, Bayern won 2–0 at Atlético Madrid, Inter won 3–0 at Feyenoord and Porto beat Napoli 4–1. UEFA held a minute's silence at games for Tenerife's Jesus de Miguel."
      ],
      "n": [
       "The Champions League is Europe's top club competition. Since the 2024-25 season it has used a \"league phase\": 36 clubs sit in one big table, but each plays only eight different opponents, four at home and four away.",
       "The top 8 in the table go straight to the round of 16. Teams in places 9 to 24 play a two-legged play-off for the remaining places. The bottom 12 are knocked out.",
       "Below it are the Europa League and the Conference League, which use the same format, and clubs dropping out of the Champions League can fall into them. Finals are played in late May."
      ],
-     "s": "As of 21 Oct 2026. Source: UEFA.com results page (Tue 20 Oct). One site gave PSG 5–2; UEFA's 4–2 is used.",
+     "s": "As of 5 Nov 2026. Source: UEFA.com results page (all 18 matchday-4 results). Table not read.",
      "f": [
-      "PSG 4–2 Barcelona; Man City 5–1 AEK Athens; Liverpool 4–3 Villarreal",
-      "Wed 21 Oct: Bayern v Arsenal; Real Madrid v Leipzig; Aston Villa v Viking; Como v Man United"
+      "Como 9–1 Lens; PSG 6–0 Villarreal; Leipzig 2–3 Man City; Fenerbahçe 3–2 Liverpool",
+      "Slavia Praha 1–2 Arsenal; Man United 3–2 Roma; Barcelona 3–0 Aston Villa"
      ],
      "links": [
       {
        "text": "UEFA: Champions League league phase fixtures and results",
        "url": "https://www.uefa.com/uefachampionsleague/news/02a8-2174c9e9019d-f909a77bd77a-1000--2026-27-champions-league-all-the-league-phase-fixtures-a/"
-      },
-      {
-       "text": "Citizen Digital: Arsenal cruise past Lille",
-       "url": "https://citizen.digital/article/arsenal-cruise-past-lille-into-share-of-champions-league-lead-n392007",
-       "syn": "Arsenal beat Lille 3-0 at the Emirates in the Champions League league phase on 13 October 2026. Jurrien Timber, Eberechi Eze and Bukayo Saka scored within seven second-half minutes after a goalless first half."
       }
      ]
     },
@@ -3285,11 +3293,29 @@
      "panels": [
       {
        "id": "ucl",
-       "title": "Champions League league phase: matchday 3",
-       "asof": "Tue 20 and Wed 21 Oct 2026 results (UEFA.com, read 22 Oct); matchday 4 is 3-4 Nov",
+       "title": "Champions League league phase: matchday 4 (with earlier rounds)",
+       "asof": "Tue 3 and Wed 4 Nov 2026 results (UEFA.com, read 5 Nov); matchdays 1–3 below",
        "source": "UEFA.com",
        "highlights": true,
        "items": [
+        "Barcelona 3–0 Aston Villa (Tue 3 Nov)",
+        "Atlético Madrid 0–2 Bayern München (Tue 3 Nov)",
+        "Feyenoord 0–3 Inter (Tue 3 Nov)",
+        "Shakhtar Donetsk 0–1 Sporting CP (Tue 3 Nov)",
+        "Manchester United 3–2 Roma (Tue 3 Nov)",
+        "LASK 4–0 Slovan Bratislava (Tue 3 Nov)",
+        "Bodø/Glimt 0–0 Lille (Tue 3 Nov)",
+        "Villarreal 0–6 Paris Saint-Germain (Tue 3 Nov)",
+        "Galatasaray 2–0 Stuttgart (Tue 3 Nov)",
+        "AEK Athens 2–3 Real Madrid (Wed 4 Nov)",
+        "Slavia Praha 1–2 Arsenal (Wed 4 Nov)",
+        "Borussia Dortmund 2–1 Real Betis (Wed 4 Nov)",
+        "PSV Eindhoven 1–2 Club Brugge (Wed 4 Nov)",
+        "Fenerbahçe 3–2 Liverpool (Wed 4 Nov)",
+        "Lens 1–9 Como (Wed 4 Nov)",
+        "Leipzig 2–3 Manchester City (Wed 4 Nov)",
+        "Porto 4–1 Napoli (Wed 4 Nov)",
+        "Viking 4–1 Sabah (Wed 4 Nov)",
         "Como 4–1 Manchester United (Wed 21 Oct)",
         "Lille 2–4 Galatasaray (Wed 21 Oct)",
         "Aston Villa 3–1 Viking (Wed 21 Oct)",
@@ -3327,7 +3353,7 @@
         "Real Betis 3–2 Porto (Wed 14 Oct)",
         "Slovan Bratislava 0–3 Stuttgart (Wed 14 Oct)"
        ],
-       "note": "Matchday 4 is on 3 and 4 November. The league-phase table was not read. Matchday 2 results are listed below.",
+       "note": "The league-phase table was not read. Matchday 4 results are first; earlier rounds follow.",
        "links": [
         {
          "text": "UEFA: league-phase fixtures and results",
@@ -5508,118 +5534,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Wednesday 4 November 2026",
-  "intro": "Ten questions on the midterm results and Tuesday's world stories.",
+  "title": "TST News quiz · Thursday 5 November 2026",
+  "intro": "Ten questions on the midterm reaction and this week's Champions League.",
   "questions": [
    {
-    "q": "Which party did the AP call the US House for, early on 4 November?",
-    "options": [
-     "Republicans",
-     "Democrats",
-     "Independents",
-     "It was a tie"
-    ],
-    "answer": 1,
-    "explain": "Per the Forbes live blog, the AP called the House for Democrats early Wednesday."
-   },
-   {
-    "q": "Who is positioned to become House Speaker in January if Democrats hold the House?",
-    "options": [
-     "Hakeem Jeffries",
-     "Mike Johnson",
-     "Chuck Schumer",
-     "Nancy Pelosi"
-    ],
-    "answer": 0,
-    "explain": "Hakeem Jeffries (Forbes live blog)."
-   },
-   {
-    "q": "Which Maine Democrat beat Sen. Susan Collins?",
+    "q": "Which Maine Democrat unseated Republican Susan Collins?",
     "options": [
      "Troy Jackson",
      "Sherrod Brown",
      "Roy Cooper",
-     "Josh Turek"
-    ],
-    "answer": 0,
-    "explain": "Troy Jackson (Forbes live blog)."
-   },
-   {
-    "q": "Which former senator won back his Ohio seat for Democrats?",
-    "options": [
-     "Sherrod Brown",
-     "Jon Husted",
-     "Roy Cooper",
      "Chris Pappas"
     ],
     "answer": 0,
-    "explain": "Sherrod Brown beat Sen. Jon Husted."
+    "explain": "Al Jazeera's world-reaction report names Troy Jackson."
    },
    {
-    "q": "Kansas elected its first Democratic senator since which year?",
+    "q": "Which Iranian figure said 'Americans said NO TO WAR'?",
     "options": [
-     "1932",
-     "1968",
-     "1988",
-     "2008"
+     "Mohammad Bagher Ghalibaf",
+     "Yair Golan",
+     "Sergey Ryabkov",
+     "Pedro Sanchez"
     ],
     "answer": 0,
-    "explain": "1932, per the Forbes live blog."
+    "explain": "Iran's Ghalibaf, per Al Jazeera."
    },
    {
-    "q": "Which island did US forces strike on 2 November?",
+    "q": "When are Spain's snap elections, per Al Jazeera?",
     "options": [
-     "Qeshm Island",
-     "Kharg Island",
-     "Cyprus",
-     "Bahrain"
+     "29 November",
+     "15 November",
+     "6 December",
+     "1 January"
     ],
     "answer": 0,
-    "explain": "Qeshm Island, Iran (Al Jazeera)."
+    "explain": "Pedro Sanchez referred to snap elections on 29 November."
    },
    {
-    "q": "When did the US-Iran war begin?",
+    "q": "What did Trump say probably hurt his party at the midterms?",
     "options": [
-     "28 February",
-     "1 June",
-     "3 November",
-     "4 July"
+     "The Iran war and gasoline prices",
+     "Tariffs and tax cuts",
+     "The shutdown",
+     "A scandal"
     ],
     "answer": 0,
-    "explain": "28 February 2026 (Al Jazeera)."
+    "explain": "Per Al Jazeera, he acknowledged the Iran war and gasoline prices."
    },
    {
-    "q": "How many people were injured when Russia struck a Kharkiv hospital?",
+    "q": "What was the score when Como played Lens in the Champions League?",
     "options": [
-     "At least 73",
-     "About 7",
-     "Over 500",
-     "None"
+     "Lens 1–9 Como",
+     "Lens 2–2 Como",
+     "Lens 0–3 Como",
+     "Lens 1–4 Como"
     ],
     "answer": 0,
-    "explain": "At least 73 (Zelenskyy, via Al Jazeera)."
+    "explain": "UEFA.com, Wed 4 Nov."
    },
    {
-    "q": "About how many Lebanese public bodies had their power cut on Monday?",
+    "q": "Who won 6–0 at Villarreal on Tuesday?",
     "options": [
-     "100",
-     "10",
-     "1,000",
-     "None"
+     "Paris Saint-Germain",
+     "Bayern München",
+     "Inter",
+     "Barcelona"
     ],
     "answer": 0,
-    "explain": "About 100 institutions with unpaid bills."
+    "explain": "Villarreal 0–6 PSG (UEFA.com)."
    },
    {
-    "q": "Which club did footballer Jesus de Miguel play for?",
+    "q": "Which English club lost 3–2 at Fenerbahçe?",
     "options": [
-     "Tenerife",
-     "Andorra",
-     "Barcelona",
-     "Sevilla"
+     "Liverpool",
+     "Arsenal",
+     "Manchester United",
+     "Aston Villa"
     ],
     "answer": 0,
-    "explain": "Tenerife, who drew 2-2 with Andorra on 2 November."
+    "explain": "Fenerbahçe 3–2 Liverpool."
+   },
+   {
+    "q": "Who won 3–2 at Leipzig?",
+    "options": [
+     "Manchester City",
+     "Real Madrid",
+     "Dortmund",
+     "Porto"
+    ],
+    "answer": 0,
+    "explain": "Leipzig 2–3 Manchester City."
+   },
+   {
+    "q": "Arsenal's result at Slavia Praha was:",
+    "options": [
+     "2–1 win",
+     "1–1 draw",
+     "0–1 loss",
+     "3–0 win"
+    ],
+    "answer": 0,
+    "explain": "Slavia Praha 1–2 Arsenal."
+   },
+   {
+    "q": "How many days of mourning did Tenerife declare for Jesus de Miguel?",
+    "options": [
+     "Six",
+     "Three",
+     "One",
+     "Ten"
+    ],
+    "answer": 0,
+    "explain": "Al Jazeera: six days of mourning."
    }
   ]
  }
