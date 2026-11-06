@@ -1,8 +1,8 @@
 {
- "date": "2026-11-05",
- "label": "Thursday 5 November 2026",
- "note": "Refresh of Thu 5 Nov 2026 (Toronto morning). A limited run: the Euronews RSS, CP24, Global News, L'Écho du Mardi and footballwebpages pages were refused by the fetch tool again. Updated today: Al Jazeera headlines (sitemap read, entries to 12:36 UTC on 4 Nov), US midterm world reaction (Al Jazeera), Champions League matchday 4 results (UEFA.com), the Tenerife follow-up and the quiz. Bank of England decision due today was NOT verified. Every other card, table and feed keeps its own 'as of' date and was NOT re-checked.",
- "sport_note": "Thu 5 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked. New today: Champions League matchday 4 results from UEFA.com and the Tenerife follow-up. All other sport panels keep their own 'as of' dates.",
+ "date": "2026-11-06",
+ "label": "Friday 6 November 2026",
+ "note": "Refresh of Fri 6 Nov 2026 (Toronto morning). A limited run: the Euronews, Al Jazeera, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused by the fetch tool, so the Headlines lists keep their last verified entries with their own dates. Updated today (from pages actually read): the Bank of England rate rise (MoneyWeek), the Iran/Hormuz picture (CBS News live page, Gulf News), Europa League matchday 4 (UEFA.com), Bournemouth and the UK/economics rows, and a new quiz. All other items keep their own 'as of' dates; nothing older has been presented as new.",
+ "sport_note": "Fri 6 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked. New today: Europa League matchday 4 results from UEFA.com. All other sport panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
@@ -210,29 +210,33 @@
      ]
     },
     {
-     "t": "Iran war: US strikes Qeshm Island as talks stall",
-     "tag": "Gulf · 3 Nov",
+     "t": "Iran war: tankers burn in Hormuz as Qatar brokers, Trump weighs options",
+     "tag": "Gulf · 5 Nov",
      "gap": false,
      "w": [
-      "US forces struck Iran's Qeshm Island on 2 November, the first attack there since June, in what US officials called 'defensive' strikes on Iranians firing surface-to-air missiles at US assets, Al Jazeera reports. They followed an IRGC claim that it had downed a US MQ-9 drone near the Strait of Hormuz.",
-      "Qatar-led mediation goes on, though talks reportedly ended Monday without a breakthrough. President Masoud Pezeshkian said Supreme Leader Mojtaba Khamenei had given the government 'certain authorities' over talks; JD Vance said he felt 'pretty good' about a settlement, and Trump said he was 'in no rush' to resume strikes.",
-      "Oil prices fell more than 7% on Monday. The war began on 28 February."
+      "Tankers are burning in and around the Strait of Hormuz again. Iran's Revolutionary Guards said two more tankers struck mines and caught fire on 5 November, a day after claiming four more; maritime officials have not confirmed the incidents. Separately, the UK Maritime Trade Operations centre reported a tanker hit by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar (CBS News live page, Gulf News).",
+      "Diplomacy is crawling. Qatar, with Pakistani and Saudi help, is pressing a draft framework with confidence-building steps, but no date is set for direct US-Iran talks. Iran says it will end the war only if the US lifts its naval blockade, halts fighting on all fronts and eases sanctions. Donald Trump says he is in no rush and is weighing strikes, a deal or keeping the blockade; he has told the Financial Times he has no immediate plans for new strikes.",
+      "Oil has swung hard: Brent fell more than 8% on 4 November to about $94, its first close below $100 since September and well under the $116 peak of 23 October, then rose 2.2% to $96.70 on 5 November."
      ],
      "f": [
-      "Strike date: 2 Nov 2026",
-      "War began: 28 Feb 2026",
-      "Oil: down over 7% on Mon 2 Nov (Al Jazeera)"
+      "Brent: ~$94 on 4 Nov, $96.70 on 5 Nov (CBS News)",
+      "Peak: $116 on 23 Oct",
+      "War began: 28 Feb 2026"
      ],
      "n": [
       "The Strait of Hormuz is a narrow sea lane between Iran and Oman through which a large share of the world's oil and gas ships pass, so fighting nearby moves energy prices.",
       "The IRGC is Iran's Revolutionary Guards, a powerful military force separate from the regular army.",
       "Qatar acts as a go-between because it talks to both Washington and Tehran."
      ],
-     "s": "As of 3 Nov 2026 · Al Jazeera (3 Nov)",
+     "s": "As of 5 Nov 2026 · CBS News live updates, Gulf News (5 Nov)",
      "links": [
       {
-       "text": "Al Jazeera: US hits Qeshm Island, Pezeshkian signals more diplomacy",
-       "url": "https://www.aljazeera.com/news/2026/11/3/us-hits-qeshm-island-pezeshkian-signals-more-diplomacy-iran-war-latest"
+       "text": "CBS News: Iran war live updates",
+       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+      },
+      {
+       "text": "Gulf News: US/Israel-Iran standoff, 5 Nov",
+       "url": "https://gulfnews.com/world/mena/usisrael-iran-standoff-what-uae-residents-should-know-this-evening-1.500737389"
       }
      ]
     },
@@ -852,6 +856,26 @@
    "id": "toronto",
    "items": [
     {
+     "t": "Ford rejects Toronto's push for a new funding deal",
+     "tag": "Toronto · 5 Nov",
+     "gap": false,
+     "w": [
+      "Premier Doug Ford has slammed the door on Toronto's request for a new funding arrangement with the province, telling the city \"There's no 2.0\", according to an Urban Toronto news roundup citing CBC (5 Nov).",
+      "The same roundup notes a poll finding most Toronto and GTA residents favour moving encampment occupants into support facilities (CityNews), and that the federal Liberals will table their 2026 budget amid economic and trade uncertainty (Global News). Only the roundup's summaries were read, not the original stories."
+     ],
+     "n": [
+      "Cities in Ontario are creatures of the province, which sets what they may tax and often shares costs for transit, housing and shelters.",
+      "Toronto's mayor has argued the city's budget cannot keep up with demands such as shelters and transit, hence the ask for a new 'deal'. The premier's reply suggests no new money is coming soon."
+     ],
+     "s": "As of 6 Nov 2026 · Urban Toronto news roundup (5 Nov); original CBC story not read",
+     "links": [
+      {
+       "text": "Urban Toronto: News Roundup for November 5, 2026",
+       "url": "https://urbantoronto.ca/news/2026/11/news-roundup-november-5-2026.62108"
+      }
+     ]
+    },
+    {
      "t": "Alberta votes to stay in Canada",
      "tag": "Referendum result · 20 Oct",
      "gap": false,
@@ -1214,29 +1238,21 @@
     },
     {
      "t": "Bournemouth",
-     "tag": "Football · 3–0 at Old Trafford",
+     "tag": "Football · 3–1 at Sparta Prague",
      "w": [
-      "Bournemouth have won at Old Trafford, 3–0. Sunday's result (footballwebpages.co.uk) leaves Manchester United 16th on 7 points and lifts the Cherries to 13th on 9, after Thursday's 3–0 Europa League win over AC Milan (UEFA.com) and their 2–0 win over Sunderland a week earlier.",
-      "Next is Leeds United at home on Saturday 31 October at 3 pm (UK). No other Bournemouth town news dated this week was found."
+      "Bournemouth came from behind in Prague to beat Sparta 3–1 in the Europa League on 5 November, with three substitutes scoring: Tyler Adams, Evanilson and Rayan. Sparta's Tobias Guddal was sent off before half-time and Ebrima Singhateh had given the hosts the lead (UEFA.com).",
+      "It keeps the Cherries unbeaten in their European debut campaign. Next in Europe: Celta Vigo on 26 November. Their latest Premier League result and table position could not be re-checked today."
      ],
      "n": [
       "Bournemouth is a seaside town on England's south coast in Dorset, famous for about seven miles of sandy beach, a Victorian pier and cliffs cut by wooded gorges called chines. It grew as a Victorian resort and now supports tourism, finance and a large student population.",
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league."
      ],
-     "s": "As of 26 Oct 2026 · footballwebpages.co.uk (25 Oct), UEFA.com",
+     "s": "As of 6 Nov 2026 · UEFA.com (5 Nov)",
      "link": "football/#premier-league",
      "links": [
       {
-       "text": "footballwebpages.co.uk: Premier League, 25 Oct",
-       "url": "https://www.footballwebpages.co.uk/premier-league/20261025"
-      },
-      {
-       "text": "UEFA.com: Europa League results (matchday 3)",
-       "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
-      },
-      {
-       "text": "Premier League table (footballwebpages)",
-       "url": "https://www.footballwebpages.co.uk/premier-league/20261010"
+       "text": "UEFA.com: Europa League matchday 4 round-up",
+       "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
       },
       {
        "text": "Wikipedia: AFC Bournemouth",
@@ -1245,11 +1261,6 @@
       {
        "text": "Wikipedia: Bournemouth",
        "url": "https://en.wikipedia.org/wiki/Bournemouth"
-      },
-      {
-       "text": "Sky Sports: Bournemouth 2026-27 fixtures",
-       "url": "https://skysports.com/football/news/11095/13555659/bournemouth-premier-league-2026-27-fixtures-and-schedule",
-       "syn": "Bournemouth open the 2026/27 Premier League season away at Manchester City on August 23, live on Sky Sports. Under new boss Marco Rose, who finished sixth last term, the Cherries also begin their first Europa League campaign in September."
       }
      ]
     },
@@ -2024,33 +2035,22 @@
     },
     {
      "t": "United Kingdom and France",
-     "tag": "BoE 5 Nov; ECB 29 Oct (not verified)",
+     "tag": "BoE hiked 5 Nov; ECB 29 Oct (not verified)",
      "w": [
-      "Europe is tightening on both sides of the Channel. The Bank of England held Bank Rate at 3.75% on 17 September, but by a 6-3 vote, with three members wanting a hike to 4.00%. UK inflation was 3.1% in August, September's figure is due on 21 October, and the next decision is on 5 November. Goldman Sachs has forecast a hike then (Kitco, 14 Sep).",
-      "France follows the ECB, which raised its deposit rate to 2.50% on 10 September (effective 16 September), its second hike this year. Euro-area inflation jumped to 3.8% in September (flash, 2 October) from 3.2%, led by energy at 18.8%. The next ECB decision is 29 October, and pricing in late September put a hike to 2.75% at about 60%. Update 29 Oct: the ECB's decision was due today; its outcome could not be verified at the time of this run.",
-      "France's 10-year yield was 4.85% on 13 October, after topping 5% earlier in the month, a more-than-two-decade high. Paris targets a 5% of GDP deficit in 2027, but support in parliament is uncertain before next year's presidential election."
+      "The Bank of England has raised Bank Rate to 4% from 3.75%, its first hike in about three years, on 5 November. The vote was 8–1 for a quarter-point rise, with one member wanting half a point (MoneyWeek). UK inflation was 3.5% in the year to September, up from 3.1% in August, and the Bank forecasts it will climb to 5% by mid-2027, mainly on energy costs.",
+      "Governor Andrew Bailey said the increase should not be seen as the first in an inevitable long sequence of hikes. Moneyfacts estimates the rise adds about £37 a month to a £250,000 tracker mortgage over 25 years; fixed-rate borrowers feel it only when their deals end, as many lenders had priced it in.",
+      "France follows the ECB, which raised its deposit rate to 2.50% on 10 September. Its 29 October decision could not be verified in this run. France's 10-year yield was 4.85% on 13 October (older figure), with a 2027 budget and presidential election ahead."
      ],
      "n": [
       "Both countries have high debt and slow growth. In a high-debt country, rising interest rates make the interest bill larger every year, which leaves less for services or tax cuts.",
       "France does not set its own rates. As a euro member it follows the European Central Bank, so it cannot cut rates to help itself and must instead cut spending or raise taxes.",
       "The UK has its own currency, so the pound can fall when investors worry. That raises import prices and inflation, another reason the Bank of England is cautious."
      ],
-     "s": "As of 15 Oct 2026. Sources: MTS Insights (BoE), Nation Thailand (ECB, 11 Sep), Asianet/Eurostat (2 Oct), Trading Economics (13 Oct). · not re-checked 21 Oct",
+     "s": "As of 6 Nov 2026. Sources: MoneyWeek (BoE, 5 Nov); ECB and French yield figures are older and not re-checked.",
      "links": [
       {
-       "text": "Kitco: Goldman Sachs sees BoE rate hike in November",
-       "url": "https://www.kitco.com/news/off-the-wire/2026-09-14/goldman-sachs-sees-boe-rate-hike-november-amid-inflation-concerns",
-       "syn": "Goldman Sachs expects a 25-basis-point Bank of England rate hike in November 2026, citing persistent inflation and solid growth, while still expecting a hold at 3.75% at the September 17 meeting."
-      },
-      {
-       "text": "Nation Thailand: ECB raises deposit rate to 2.50%",
-       "url": "https://www.nationthailand.com/news/world/40070896",
-       "syn": "The European Central Bank raised its deposit rate by 0.25 points to 2.50%, citing energy-driven inflation tied to Middle East disruptions. Markets anticipate further hikes by April 2027."
-      },
-      {
-       "text": "Trading Economics: French bond yields ease",
-       "url": "https://tradingeconomics.com/france/government-bond-yield/news/591446",
-       "syn": "France's 10-year OAT yield fell to 4.85%, tracking lower US Treasury yields. Oil ended a three-session rally, though French borrowing costs remain near two-decade highs amid record debt and fiscal concerns."
+       "text": "MoneyWeek: Bank of England raises interest rates (live)",
+       "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
       },
       {
        "text": "Bank of England: Bank Rate",
@@ -2197,9 +2197,9 @@
   ],
   [
    "United Kingdom",
-   "3.75% (next: 5 Nov)",
-   "3.1% (Aug)",
-   "BoE site (19 Oct): Bank Rate 3.75%, next date 5 Nov; page shows inflation 3.1%. September CPI due 21 Oct."
+   "4.00% (raised 25 bp from 3.75% on 5 Nov, 8–1 vote)",
+   "3.5% (Sept; BoE sees ~5% by mid-2027)",
+   "MoneyWeek (5 Nov): first hike in about three years; Bailey says not the start of an inevitable long run of hikes."
   ],
   [
    "France / euro area",
@@ -3363,34 +3363,34 @@
       },
       {
        "id": "uel",
-       "title": "Europa League league phase: matchday 3 (Thu 22 Oct)",
-       "asof": "Thu 22 Oct 2026 results (UEFA.com, read 23 Oct); matchday 4 is Thu 5 Nov",
+       "title": "Europa League league phase: matchday 4 (Thu 5 Nov)",
+       "asof": "Thu 5 Nov 2026 results (UEFA.com round-up, read 6 Nov); matchday 5 is 26 Nov",
        "source": "UEFA.com",
        "items": [
-        "AFC Bournemouth 3–0 AC Milan",
-        "Beşiktaş 2–2 Crystal Palace",
-        "Lech Poznań 1–1 Sunderland",
-        "Juventus 2–2 Rennes",
-        "Hoffenheim 3–0 Olympique Lyonnais",
-        "Celtic 1–2 Celta Vigo",
-        "Sturm Graz 1–0 Olympique Marseille",
-        "Lillestrøm 0–6 Real Sociedad",
-        "Omonia Nicosia 1–4 Benfica",
-        "OFI Crete 0–2 Bayer Leverkusen",
-        "Ararat-Armenia 0–4 AZ Alkmaar",
-        "Ferencváros 4–1 Torreense",
-        "Dinamo Zagreb 2–4 NEC Nijmegen",
-        "Union Saint-Gilloise 4–0 Hapoel Be'er Sheva",
-        "Viktoria Plzeň 1–2 Levski Sofia",
-        "Jagiellonia Białystok 0–3 Anderlecht",
-        "Celje 2–2 Red Bull Salzburg",
-        "Olympiacos 1–0 Sparta Prague"
+        "AC Milan 0–2 Ferencváros",
+        "Sparta Prague 1–3 AFC Bournemouth",
+        "Crystal Palace 1–1 Hoffenheim",
+        "Lillestrøm 0–1 Viktoria Plzeň",
+        "NEC Nijmegen 3–1 Omonia Nicosia",
+        "Levski Sofia 1–0 Jagiellonia Białystok",
+        "Real Sociedad 1–1 Olympique Lyonnais",
+        "Anderlecht 2–0 Red Bull Salzburg",
+        "Rennes 0–0 Olympiacos",
+        "AZ Alkmaar 1–2 Juventus",
+        "Bayer Leverkusen 0–1 Olympique Marseille",
+        "Celtic 3–2 Beşiktaş",
+        "Hapoel Be'er Sheva 0–2 OFI Crete",
+        "Celta Vigo 1–2 Union Saint-Gilloise",
+        "Torreense 3–2 Ararat-Armenia",
+        "Sturm Graz 2–3 Celje",
+        "Benfica 3–1 Lech Poznań",
+        "Sunderland 0–2 GNK Dinamo Zagreb"
        ],
-       "note": "All 18 results as listed by UEFA.com (all dated Thu 22 Oct). The league-phase table was not read.",
+       "note": "All 18 results as listed by UEFA.com (Thu 5 Nov). Palace played the second half with ten men and Kamada equalised late. Table not read.",
        "links": [
         {
-         "text": "UEFA.com: Europa League league-phase fixtures and results",
-         "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2174cafa5bb6-82bbc20c9b92-1000--2026-27-europa-league-all-the-league-phase-fixtures-and-re/"
+         "text": "UEFA.com: Europa League matchday 4 round-up",
+         "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
         }
        ],
        "highlights": true
@@ -5534,118 +5534,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Thursday 5 November 2026",
-  "intro": "Ten questions on the midterm reaction and this week's Champions League.",
+  "title": "TST News quiz · Friday 6 November 2026",
+  "intro": "Ten questions on the Bank of England, Hormuz, Europa League night and Toronto.",
   "questions": [
    {
-    "q": "Which Maine Democrat unseated Republican Susan Collins?",
+    "q": "What is the Bank of England's Bank Rate after the 5 November decision?",
     "options": [
-     "Troy Jackson",
-     "Sherrod Brown",
-     "Roy Cooper",
-     "Chris Pappas"
+     "4.00%",
+     "3.75%",
+     "4.50%",
+     "3.50%"
     ],
     "answer": 0,
-    "explain": "Al Jazeera's world-reaction report names Troy Jackson."
+    "explain": "Raised 25 bp from 3.75% to 4% (MoneyWeek)."
    },
    {
-    "q": "Which Iranian figure said 'Americans said NO TO WAR'?",
+    "q": "How did the Monetary Policy Committee vote?",
     "options": [
-     "Mohammad Bagher Ghalibaf",
-     "Yair Golan",
-     "Sergey Ryabkov",
-     "Pedro Sanchez"
+     "8–1 for a quarter-point rise",
+     "9–0",
+     "6–3 to hold",
+     "5–4 for a half-point rise"
     ],
     "answer": 0,
-    "explain": "Iran's Ghalibaf, per Al Jazeera."
+    "explain": "Eight for 0.25 points, one for 0.5 (MoneyWeek)."
    },
    {
-    "q": "When are Spain's snap elections, per Al Jazeera?",
+    "q": "What was UK CPI inflation in the year to September?",
     "options": [
-     "29 November",
-     "15 November",
-     "6 December",
-     "1 January"
+     "3.5%",
+     "3.1%",
+     "5.0%",
+     "2.2%"
     ],
     "answer": 0,
-    "explain": "Pedro Sanchez referred to snap elections on 29 November."
+    "explain": "3.5%, up from 3.1% in August (MoneyWeek)."
    },
    {
-    "q": "What did Trump say probably hurt his party at the midterms?",
+    "q": "What inflation level does the Bank forecast by mid-2027?",
     "options": [
-     "The Iran war and gasoline prices",
-     "Tariffs and tax cuts",
-     "The shutdown",
-     "A scandal"
+     "5%",
+     "2%",
+     "3.1%",
+     "7%"
     ],
     "answer": 0,
-    "explain": "Per Al Jazeera, he acknowledged the Iran war and gasoline prices."
+    "explain": "About 5%, mainly on energy prices."
    },
    {
-    "q": "What was the score when Como played Lens in the Champions League?",
+    "q": "Who is the Bank of England governor who said the hike is not the first of an inevitable long sequence?",
     "options": [
-     "Lens 1–9 Como",
-     "Lens 2–2 Como",
-     "Lens 0–3 Como",
-     "Lens 1–4 Como"
+     "Andrew Bailey",
+     "Mark Carney",
+     "Tiff Macklem",
+     "Jerome Powell"
     ],
     "answer": 0,
-    "explain": "UEFA.com, Wed 4 Nov."
+    "explain": "Andrew Bailey, per MoneyWeek."
    },
    {
-    "q": "Who won 6–0 at Villarreal on Tuesday?",
+    "q": "Roughly where did Brent crude close on 4 November?",
     "options": [
-     "Paris Saint-Germain",
-     "Bayern München",
-     "Inter",
-     "Barcelona"
+     "About $94",
+     "About $116",
+     "About $60",
+     "About $130"
     ],
     "answer": 0,
-    "explain": "Villarreal 0–6 PSG (UEFA.com)."
+    "explain": "Down over 8%, first close under $100 since September (CBS News)."
    },
    {
-    "q": "Which English club lost 3–2 at Fenerbahçe?",
+    "q": "What was Brent's peak on 23 October?",
     "options": [
-     "Liverpool",
-     "Arsenal",
-     "Manchester United",
-     "Aston Villa"
+     "$116",
+     "$94",
+     "$100",
+     "$87"
     ],
     "answer": 0,
-    "explain": "Fenerbahçe 3–2 Liverpool."
+    "explain": "CBS News live updates."
    },
    {
-    "q": "Who won 3–2 at Leipzig?",
+    "q": "Which Gulf state is leading mediation between Washington and Tehran?",
     "options": [
-     "Manchester City",
-     "Real Madrid",
-     "Dortmund",
-     "Porto"
+     "Qatar",
+     "Kuwait",
+     "Bahrain",
+     "Jordan"
     ],
     "answer": 0,
-    "explain": "Leipzig 2–3 Manchester City."
+    "explain": "Qatar, with Pakistani and Saudi help."
    },
    {
-    "q": "Arsenal's result at Slavia Praha was:",
+    "q": "Who scored for Bournemouth as substitutes at Sparta Prague?",
     "options": [
-     "2–1 win",
-     "1–1 draw",
-     "0–1 loss",
-     "3–0 win"
+     "Adams, Evanilson and Rayan",
+     "Semenyo, Kluivert and Tavernier",
+     "Solanke, Ouattara and Cook",
+     "Kerkez, Christie and Scott"
     ],
     "answer": 0,
-    "explain": "Slavia Praha 1–2 Arsenal."
+    "explain": "Tyler Adams, Evanilson and Rayan, 3–1 (UEFA.com)."
    },
    {
-    "q": "How many days of mourning did Tenerife declare for Jesus de Miguel?",
+    "q": "Which side ended Sunderland's unbeaten start to the Europa League phase?",
     "options": [
-     "Six",
-     "Three",
-     "One",
-     "Ten"
+     "GNK Dinamo Zagreb",
+     "Benfica",
+     "Celtic",
+     "Lech Poznań"
     ],
     "answer": 0,
-    "explain": "Al Jazeera: six days of mourning."
+    "explain": "Dinamo won 2–0 at Sunderland (UEFA.com)."
    }
   ]
  }

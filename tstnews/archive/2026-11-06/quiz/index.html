@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="icon" type="image/svg+xml" href="/tstnews/favicon.svg">
+<link rel="stylesheet" href="/tstnews/style.css?v=b19428d8">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Friday 6 November 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-11-06/">Latest</a><a href="/tstnews/archive/2026-11-06/#headlines">Headlines</a><a href="/tstnews/archive/2026-11-06/#world">World</a><a href="/tstnews/archive/2026-11-06/#france">France</a><a href="/tstnews/archive/2026-11-06/#toronto">Toronto</a><a href="/tstnews/archive/2026-11-06/#uk">UK</a><a href="/tstnews/archive/2026-11-06/#tech">Tech</a><a href="/tstnews/archive/2026-11-06/#following">Following</a><a href="/tstnews/archive/2026-11-06/#money">Economics</a><a href="/tstnews/archive/2026-11-06/#sport">Sport</a><a href="/tstnews/archive/2026-11-06/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-11-06/#sport">Sport</a><a href="/tstnews/archive/2026-11-06/football/">Football</a><a href="/tstnews/archive/2026-11-06/rugby/">Rugby</a><a href="/tstnews/archive/2026-11-06/cricket/">Cricket</a><a href="/tstnews/archive/2026-11-06/tennis/">Tennis</a><a href="/tstnews/archive/2026-11-06/squash/">Squash</a><a href="/tstnews/archive/2026-11-06/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-11-06/baseball/">Baseball</a><a href="/tstnews/archive/2026-11-06/basketball/">Basketball</a><a href="/tstnews/archive/2026-11-06/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-11-06/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>TST News quiz · Friday 6 November 2026: Friday 6 November 2026</h2><p class="intro">Ten questions on the Bank of England, Hormuz, Europa League night and Toronto.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "What is the Bank of England's Bank Rate after the 5 November decision?", "options": ["4.00%", "3.75%", "4.50%", "3.50%"], "answer": 0, "explain": "Raised 25 bp from 3.75% to 4% (MoneyWeek)."}, {"q": "How did the Monetary Policy Committee vote?", "options": ["8–1 for a quarter-point rise", "9–0", "6–3 to hold", "5–4 for a half-point rise"], "answer": 0, "explain": "Eight for 0.25 points, one for 0.5 (MoneyWeek)."}, {"q": "What was UK CPI inflation in the year to September?", "options": ["3.5%", "3.1%", "5.0%", "2.2%"], "answer": 0, "explain": "3.5%, up from 3.1% in August (MoneyWeek)."}, {"q": "What inflation level does the Bank forecast by mid-2027?", "options": ["5%", "2%", "3.1%", "7%"], "answer": 0, "explain": "About 5%, mainly on energy prices."}, {"q": "Who is the Bank of England governor who said the hike is not the first of an inevitable long sequence?", "options": ["Andrew Bailey", "Mark Carney", "Tiff Macklem", "Jerome Powell"], "answer": 0, "explain": "Andrew Bailey, per MoneyWeek."}, {"q": "Roughly where did Brent crude close on 4 November?", "options": ["About $94", "About $116", "About $60", "About $130"], "answer": 0, "explain": "Down over 8%, first close under $100 since September (CBS News)."}, {"q": "What was Brent's peak on 23 October?", "options": ["$116", "$94", "$100", "$87"], "answer": 0, "explain": "CBS News live updates."}, {"q": "Which Gulf state is leading mediation between Washington and Tehran?", "options": ["Qatar", "Kuwait", "Bahrain", "Jordan"], "answer": 0, "explain": "Qatar, with Pakistani and Saudi help."}, {"q": "Who scored for Bournemouth as substitutes at Sparta Prague?", "options": ["Adams, Evanilson and Rayan", "Semenyo, Kluivert and Tavernier", "Solanke, Ouattara and Cook", "Kerkez, Christie and Scott"], "answer": 0, "explain": "Tyler Adams, Evanilson and Rayan, 3–1 (UEFA.com)."}, {"q": "Which side ended Sunderland's unbeaten start to the Europa League phase?", "options": ["GNK Dinamo Zagreb", "Benfica", "Celtic", "Lech Poznań"], "answer": 0, "explain": "Dinamo won 2–0 at Sunderland (UEFA.com)."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>
