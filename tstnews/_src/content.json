@@ -1,8 +1,8 @@
 {
- "date": "2026-11-06",
- "label": "Friday 6 November 2026",
- "note": "Refresh of Fri 6 Nov 2026 (Toronto morning). A limited run: the Euronews, Al Jazeera, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused by the fetch tool, so the Headlines lists keep their last verified entries with their own dates. Updated today (from pages actually read): the Bank of England rate rise (MoneyWeek), the Iran/Hormuz picture (CBS News live page, Gulf News), Europa League matchday 4 (UEFA.com), Bournemouth and the UK/economics rows, and a new quiz. All other items keep their own 'as of' dates; nothing older has been presented as new.",
- "sport_note": "Fri 6 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked. New today: Europa League matchday 4 results from UEFA.com. All other sport panels keep their own 'as of' dates.",
+ "date": "2026-11-07",
+ "label": "Saturday 7 November 2026",
+ "note": "Refresh of Sat 7 Nov 2026 (Toronto morning). A limited run: the Euronews, Al Jazeera, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused again by the fetch tool, and searches for France, the UK, Ukraine and Toronto returned nothing dated 6-7 Nov. Updated today (from pages actually read): the Iran/Hormuz picture (Al Jazeera live blog and CBS News live page, 6 Nov), the Rolex Paris Masters round of 16 (ATP Tour, 5 Nov), and a new quiz. Everything else keeps its own 'as of' date; nothing older has been presented as new.",
+ "sport_note": "Sat 7 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked this run. New today: Rolex Paris Masters round of 16 (ATP Tour). All other sport panels keep their own 'as of' dates. Leafs v Canadiens is listed for tonight, 7 Nov, 7 pm (ticket listing; result not yet known).",
  "sections": [
   {
    "id": "headlines",
@@ -210,17 +210,18 @@
      ]
     },
     {
-     "t": "Iran war: tankers burn in Hormuz as Qatar brokers, Trump weighs options",
-     "tag": "Gulf · 5 Nov",
+     "t": "Iran war: three more tankers hit in Hormuz, a seafarer dead, Trump hints at renewed strikes",
+     "tag": "Gulf · 6 Nov",
      "gap": false,
      "w": [
-      "Tankers are burning in and around the Strait of Hormuz again. Iran's Revolutionary Guards said two more tankers struck mines and caught fire on 5 November, a day after claiming four more; maritime officials have not confirmed the incidents. Separately, the UK Maritime Trade Operations centre reported a tanker hit by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar (CBS News live page, Gulf News).",
-      "Diplomacy is crawling. Qatar, with Pakistani and Saudi help, is pressing a draft framework with confidence-building steps, but no date is set for direct US-Iran talks. Iran says it will end the war only if the US lifts its naval blockade, halts fighting on all fronts and eases sanctions. Donald Trump says he is in no rush and is weighing strikes, a deal or keeping the blockade; he has told the Financial Times he has no immediate plans for new strikes.",
-      "Oil has swung hard: Brent fell more than 8% on 4 November to about $94, its first close below $100 since September and well under the $116 peak of 23 October, then rose 2.2% to $96.70 on 5 November."
+      "The Strait of Hormuz is still a danger zone. Iran's Revolutionary Guards said two more tankers struck mines and caught fire on 6 November, and Al Jazeera's live blog counts three tankers hit in all. Greek manager Velos Tankers said a seafarer was killed when its unladen tanker MT Velos was struck on Thursday 5 November by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar. The Guards also claimed they shot down a US MQ-1 drone over Qeshm Island; Washington has not confirmed that.",
+      "Diplomacy is stuck. Iran says it will hold to seven conditions for reopening the strait and wants them carried out on the ground before it talks, while the US keeps its naval blockade of Iranian ships and ports. Al Jazeera says Trump has suggested full-scale strikes could resume; on 3 November he told the Financial Times he was 'locked and loaded' but might have no reason to go. Iran sent a new nuclear and peace proposal through Qatar on 5 November, and Trump spoke to Qatar's Emir.",
+      "Oil keeps reacting. Brent fell more than 8% on 4 November to about $94, the first drop below $100 since September, then recovered slightly on 5 and 6 November as the ship attacks went on (CBS News). The International Maritime Organization counted 121 attacks in the Gulf region up to 27 October, with at least 24 seafarers killed."
      ],
      "f": [
-      "Brent: ~$94 on 4 Nov, $96.70 on 5 Nov (CBS News)",
+      "Brent: ~$94 on 4 Nov, $96.70 on 5 Nov, slight rebound 6 Nov (CBS News)",
       "Peak: $116 on 23 Oct",
+      "IMO: 121 attacks to 27 Oct, at least 24 seafarers killed",
       "War began: 28 Feb 2026"
      ],
      "n": [
@@ -228,15 +229,19 @@
       "The IRGC is Iran's Revolutionary Guards, a powerful military force separate from the regular army.",
       "Qatar acts as a go-between because it talks to both Washington and Tehran."
      ],
-     "s": "As of 5 Nov 2026 · CBS News live updates, Gulf News (5 Nov)",
+     "s": "As of 6 Nov 2026 · Al Jazeera live blog (6 Nov), CBS News live updates. Iranian claims are not independently confirmed.",
      "links": [
+      {
+       "text": "Al Jazeera: Iran war live, 6 Nov",
+       "url": "https://www.aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
+      },
       {
        "text": "CBS News: Iran war live updates",
        "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
       },
       {
-       "text": "Gulf News: US/Israel-Iran standoff, 5 Nov",
-       "url": "https://gulfnews.com/world/mena/usisrael-iran-standoff-what-uae-residents-should-know-this-evening-1.500737389"
+       "text": "Al Jazeera: Iran says tankers struck in Hormuz (5 Nov)",
+       "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
       }
      ]
     },
@@ -4138,6 +4143,26 @@
    "intro": "Rankings and the current tournaments in Shanghai (ATP) and Wuhan (WTA). Updated Thursday 15 October 2026.",
    "cards": [
     {
+     "t": "Tennis: Shelton, Fritz and Paul reach the Paris Masters quarter-finals",
+     "tag": "Rolex Paris Masters · R16 Thu 5 Nov",
+     "w": [
+      "Paris is down to the last eight. On Thursday 5 November third seed Ben Shelton came from a set down to beat home hope Arthur Rinderknech 3–6, 6–4, 7–6(5), and 11th seed Taylor Fritz beat sixth seed Arthur Fils 6–3, 6–4.",
+      "Tommy Paul (12) beat Quentin Halys 7–6(3), 6–4. Luca Van Assche knocked out Lorenzo Musetti 7–5, 3–6, 6–4, Casper Ruud beat Jan-Lennard Struff 6–3, 6–3, qualifier Rinky Hijikata beat Tomas Martin Etcheverry 2–6, 6–3, 7–5, and lucky loser Nuno Borges beat Ignacio Buse 6–0, 6–2. Quarter-final and later results were not found."
+     ],
+     "n": [
+      "The Rolex Paris Masters is the last Masters 1000 event of the ATP season, played indoors in Paris from 2 to 8 November 2026.",
+      "A Masters 1000 is the tier just below the Grand Slams, with 1000 ranking points for the champion.",
+      "A qualifier reached the main draw through a preliminary event; a lucky loser is a beaten qualifier who gets a late place when someone withdraws."
+     ],
+     "s": "As of Thu 5 Nov 2026 · ATP Tour results page (round of 16 only)",
+     "links": [
+      {
+       "text": "ATP Tour: Paris 2026 results",
+       "url": "https://www.atptour.com/en/news/paris-2026-results"
+      }
+     ]
+    },
+    {
      "t": "Tennis: Davidovich Fokina wins the Shanghai Masters",
      "tag": "Champion · final Sun 18 Oct",
      "w": [
@@ -5534,8 +5559,8 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Friday 6 November 2026",
-  "intro": "Ten questions on the Bank of England, Hormuz, Europa League night and Toronto.",
+  "title": "TST News quiz · Saturday 7 November 2026",
+  "intro": "Ten questions on Hormuz, oil, the Paris Masters, Toronto and central banks.",
   "questions": [
    {
     "q": "What is the Bank of England's Bank Rate after the 5 November decision?",
@@ -5546,106 +5571,106 @@
      "3.50%"
     ],
     "answer": 0,
-    "explain": "Raised 25 bp from 3.75% to 4% (MoneyWeek)."
+    "explain": "Raised 25 bp from 3.75% to 4% (MoneyWeek, in the economics section)."
    },
    {
-    "q": "How did the Monetary Policy Committee vote?",
-    "options": [
-     "8–1 for a quarter-point rise",
-     "9–0",
-     "6–3 to hold",
-     "5–4 for a half-point rise"
-    ],
-    "answer": 0,
-    "explain": "Eight for 0.25 points, one for 0.5 (MoneyWeek)."
-   },
-   {
-    "q": "What was UK CPI inflation in the year to September?",
-    "options": [
-     "3.5%",
-     "3.1%",
-     "5.0%",
-     "2.2%"
-    ],
-    "answer": 0,
-    "explain": "3.5%, up from 3.1% in August (MoneyWeek)."
-   },
-   {
-    "q": "What inflation level does the Bank forecast by mid-2027?",
-    "options": [
-     "5%",
-     "2%",
-     "3.1%",
-     "7%"
-    ],
-    "answer": 0,
-    "explain": "About 5%, mainly on energy prices."
-   },
-   {
-    "q": "Who is the Bank of England governor who said the hike is not the first of an inevitable long sequence?",
-    "options": [
-     "Andrew Bailey",
-     "Mark Carney",
-     "Tiff Macklem",
-     "Jerome Powell"
-    ],
-    "answer": 0,
-    "explain": "Andrew Bailey, per MoneyWeek."
-   },
-   {
-    "q": "Roughly where did Brent crude close on 4 November?",
+    "q": "Roughly where did Brent crude fall to on 4 November, its first drop below $100 since September?",
     "options": [
      "About $94",
      "About $116",
-     "About $60",
-     "About $130"
+     "About $75",
+     "About $103"
     ],
     "answer": 0,
-    "explain": "Down over 8%, first close under $100 since September (CBS News)."
+    "explain": "Brent fell more than 8% to about $94 (CBS News)."
    },
    {
-    "q": "What was Brent's peak on 23 October?",
+    "q": "What was the peak Brent price recorded on 23 October?",
     "options": [
      "$116",
-     "$94",
      "$100",
-     "$87"
+     "$94",
+     "$130"
     ],
     "answer": 0,
-    "explain": "CBS News live updates."
+    "explain": "The peak was $116 on 23 Oct (CBS News)."
    },
    {
-    "q": "Which Gulf state is leading mediation between Washington and Tehran?",
+    "q": "Which tanker lost a seafarer after being hit north of Madinat ash Shamal, Qatar?",
     "options": [
-     "Qatar",
-     "Kuwait",
-     "Bahrain",
-     "Jordan"
+     "MT Velos",
+     "Al Mayeda",
+     "Nakilat One",
+     "Qeshm Star"
     ],
     "answer": 0,
-    "explain": "Qatar, with Pakistani and Saudi help."
+    "explain": "Velos Tankers said a seafarer died on the MT Velos on 5 Nov (Al Jazeera live blog)."
    },
    {
-    "q": "Who scored for Bournemouth as substitutes at Sparta Prague?",
+    "q": "Which US drone did Iran's Revolutionary Guards claim to have shot down over Qeshm Island?",
     "options": [
-     "Adams, Evanilson and Rayan",
-     "Semenyo, Kluivert and Tavernier",
-     "Solanke, Ouattara and Cook",
-     "Kerkez, Christie and Scott"
+     "MQ-1",
+     "F-35",
+     "MQ-9 Reaper only",
+     "Global Hawk"
     ],
     "answer": 0,
-    "explain": "Tyler Adams, Evanilson and Rayan, 3–1 (UEFA.com)."
+    "explain": "The IRGC claimed an MQ-1; the US had not confirmed it (Al Jazeera)."
    },
    {
-    "q": "Which side ended Sunderland's unbeaten start to the Europa League phase?",
+    "q": "How many attacks did the IMO count in the Gulf region up to 27 October?",
     "options": [
-     "GNK Dinamo Zagreb",
-     "Benfica",
-     "Celtic",
-     "Lech Poznań"
+     "121",
+     "24",
+     "60",
+     "350"
     ],
     "answer": 0,
-    "explain": "Dinamo won 2–0 at Sunderland (UEFA.com)."
+    "explain": "121 attacks, with at least 24 seafarers killed (Al Jazeera)."
+   },
+   {
+    "q": "Who beat sixth seed Arthur Fils in the Paris Masters round of 16?",
+    "options": [
+     "Taylor Fritz",
+     "Ben Shelton",
+     "Tommy Paul",
+     "Casper Ruud"
+    ],
+    "answer": 0,
+    "explain": "Fritz won 6–3, 6–4 (ATP Tour)."
+   },
+   {
+    "q": "Which player beat Arthur Rinderknech 3–6, 6–4, 7–6(5) in Paris?",
+    "options": [
+     "Ben Shelton",
+     "Casper Ruud",
+     "Luca Van Assche",
+     "Nuno Borges"
+    ],
+    "answer": 0,
+    "explain": "Third seed Shelton came from a set down (ATP Tour)."
+   },
+   {
+    "q": "Who won a second term as Toronto mayor on 26 October?",
+    "options": [
+     "Olivia Chow",
+     "Brad Bradford",
+     "Patrick Brown",
+     "Doug Ford"
+    ],
+    "answer": 0,
+    "explain": "Chow got about 54.2% to Bradford's 41.1% (CP24, unofficial)."
+   },
+   {
+    "q": "What is the Bank of Canada's overnight rate target after its 28 October hike?",
+    "options": [
+     "2.5%",
+     "2.0%",
+     "3.0%",
+     "2.75%"
+    ],
+    "answer": 0,
+    "explain": "Raised 25 bp to 2.5% (Bank of Canada)."
    }
   ]
  }
