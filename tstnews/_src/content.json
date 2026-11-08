@@ -1,8 +1,8 @@
 {
- "date": "2026-11-07",
- "label": "Saturday 7 November 2026",
- "note": "Refresh of Sat 7 Nov 2026 (Toronto morning). A limited run: the Euronews, Al Jazeera, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused again by the fetch tool, and searches for France, the UK, Ukraine and Toronto returned nothing dated 6-7 Nov. Updated today (from pages actually read): the Iran/Hormuz picture (Al Jazeera live blog and CBS News live page, 6 Nov), the Rolex Paris Masters round of 16 (ATP Tour, 5 Nov), and a new quiz. Everything else keeps its own 'as of' date; nothing older has been presented as new.",
- "sport_note": "Sat 7 Nov 2026: score sites (footballwebpages and others) were refused, so no league table or domestic result could be re-checked this run. New today: Rolex Paris Masters round of 16 (ATP Tour). All other sport panels keep their own 'as of' dates. Leafs v Canadiens is listed for tonight, 7 Nov, 7 pm (ticket listing; result not yet known).",
+ "date": "2026-11-08",
+ "label": "Sunday 8 November 2026",
+ "note": "Refresh of Sun 8 Nov 2026 (Toronto early morning). A limited run: the Euronews, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused again, so those headline lists keep their last verified dates and every football, rugby, cricket, squash, field hockey, baseball, basketball and ice hockey panel keeps its own 'as of' date. Updated today from sources that could be read: Al Jazeera headlines, Hormuz and Russian diesel (Al Jazeera, 7 Nov), Formula 1 (Mexico City GP result, Antonelli's title, Sao Paulo qualifying) and the Paris Masters semi-finals (ATP Tour).",
+ "sport_note": "Sun 8 Nov 2026: score sites for football and hockey were refused, so no league table or domestic result could be re-checked this run. New today: F1 Mexico City result and Antonelli's world title, Sao Paulo qualifying (race today), Rolex Paris Masters semi-finals (final today). All other sport panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
@@ -79,34 +79,36 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Tenerife's Jesus de Miguel remembered in moving tributes by football world",
-       "url": "https://www.aljazeera.com/sports/2026/11/4/tenerifes-jesus-de-miguel-remembered-in-moving-tributes-by-football-world",
-       "when": "4 Nov"
+       "t": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+       "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation",
+       "when": "7 Nov",
+       "syn": "The US struck Iran's Qeshm island after vessels were attacked in Hormuz; UKMTO counted at least 11 ships hit in the week to 6 November, and mediators are working to stop a wider US-Iran conflict."
       },
       {
-       "t": "America is heading for two years of constitutional brinkmanship",
-       "url": "https://www.aljazeera.com/opinions/2026/11/4/america-is-heading-for-two-years-of-constitutional-brinkmanship",
-       "when": "4 Nov"
+       "t": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+       "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal",
+       "when": "7 Nov",
+       "syn": "Despite a US sanctions exemption, at least three tankers of Russian diesel have changed course as traders fear legal risk, because Congress's ban on Russian energy imports remains in place."
       },
       {
-       "t": "Musk makes light of defeats after record spend on Republican candidates",
-       "url": "https://www.aljazeera.com/news/2026/11/4/musk-makes-light-of-defeats-after-record-spend-on-republican-candidates",
-       "when": "4 Nov"
+       "t": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
+       "url": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war",
+       "when": "7 Nov"
       },
       {
-       "t": "'Call me senator': How Abdul El-Sayed beat Trump's hate to create history",
-       "url": "https://www.aljazeera.com/news/2026/11/4/call-me-senator-how-abdul-el-sayed-beat-trumps-hate-to-create-history",
-       "when": "4 Nov"
+       "t": "Rains flood 70,000 displaced families' tents in Gaza",
+       "url": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza",
+       "when": "7 Nov"
       },
       {
-       "t": "'Seismic shift': World reacts to US midterm election results",
-       "url": "https://www.aljazeera.com/news/2026/11/4/seismic-shift-world-reacts-to-us-midterm-election-results",
-       "when": "4 Nov"
+       "t": "Pro-Russian hackers leak Italian foreign minister's data on dark web",
+       "url": "https://www.aljazeera.com/news/2026/11/7/pro-russian-hackers-leak-italian-foreign-ministers-data-on-dark-web",
+       "when": "7 Nov"
       },
       {
-       "t": "Why Democrats may struggle to rein in Trump's foreign policy",
-       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/why-democrats-may-struggle-to-rein-in-trumps-foreign-policy",
-       "when": "4 Nov"
+       "t": "Atletico Madrid vs Barcelona: La Liga - predictions, team news, lineups",
+       "url": "https://www.aljazeera.com/sports/2026/11/7/atletico-madrid-barcelona-la-liga-prediction-team-news-lineups-preview",
+       "when": "7 Nov"
       }
      ]
     },
@@ -210,18 +212,18 @@
      ]
     },
     {
-     "t": "Iran war: three more tankers hit in Hormuz, a seafarer dead, Trump hints at renewed strikes",
-     "tag": "Gulf · 6 Nov",
+     "t": "Iran war: US strikes Qeshm island as ships keep burning in Hormuz",
+     "tag": "Gulf · 7 Nov",
      "gap": false,
      "w": [
-      "The Strait of Hormuz is still a danger zone. Iran's Revolutionary Guards said two more tankers struck mines and caught fire on 6 November, and Al Jazeera's live blog counts three tankers hit in all. Greek manager Velos Tankers said a seafarer was killed when its unladen tanker MT Velos was struck on Thursday 5 November by two unidentified projectiles about 50 nautical miles north of Madinat ash Shamal, Qatar. The Guards also claimed they shot down a US MQ-1 drone over Qeshm Island; Washington has not confirmed that.",
-      "Diplomacy is stuck. Iran says it will hold to seven conditions for reopening the strait and wants them carried out on the ground before it talks, while the US keeps its naval blockade of Iranian ships and ports. Al Jazeera says Trump has suggested full-scale strikes could resume; on 3 November he told the Financial Times he was 'locked and loaded' but might have no reason to go. Iran sent a new nuclear and peace proposal through Qatar on 5 November, and Trump spoke to Qatar's Emir.",
-      "Oil keeps reacting. Brent fell more than 8% on 4 November to about $94, the first drop below $100 since September, then recovered slightly on 5 and 6 November as the ship attacks went on (CBS News). The International Maritime Organization counted 121 attacks in the Gulf region up to 27 October, with at least 24 seafarers killed."
+      "The US hit Iran again on Friday night. Two projectiles struck Qeshm island, part of a run of strikes on Iranian air defences and launchers that President Trump has called 'minor strikes'. Iran's army said it destroyed a US-made MQ-9 drone and the Revolutionary Guards claimed an MQ-1, reportedly the 16th of that model downed since the war began (Iranian claims, not independently confirmed).",
+      "The sea lane is paying for it. The UK Maritime Trade Operations centre reported at least 11 ships attacked in and around the Strait of Hormuz in the week to 6 November, three of which sank, and says transits are about 65 percent below pre-conflict levels. A Western military intelligence agency counts 88 projectile strikes since hostilities resumed in early July, and warns most attacks go unreported.",
+      "Diplomacy is racing the clock. Foreign Minister Abbas Araghchi held talks with 12 foreign ministers in 48 hours, while a Guards spokesman said Iran's earlier missile range limit of about 2,000 km no longer applies. Analysts quoted by Al Jazeera warn the risk of war rises after the US midterms."
      ],
      "f": [
-      "Brent: ~$94 on 4 Nov, $96.70 on 5 Nov, slight rebound 6 Nov (CBS News)",
-      "Peak: $116 on 23 Oct",
-      "IMO: 121 attacks to 27 Oct, at least 24 seafarers killed",
+      "UKMTO: at least 11 ships attacked, 3 sunk, week to 6 Nov",
+      "Hormuz transits ~65% below pre-conflict",
+      "88 projectile strikes since early July (Western intelligence agency)",
       "War began: 28 Feb 2026"
      ],
      "n": [
@@ -229,19 +231,42 @@
       "The IRGC is Iran's Revolutionary Guards, a powerful military force separate from the regular army.",
       "Qatar acts as a go-between because it talks to both Washington and Tehran."
      ],
-     "s": "As of 6 Nov 2026 · Al Jazeera live blog (6 Nov), CBS News live updates. Iranian claims are not independently confirmed.",
+     "s": "As of 7 Nov 2026 · Al Jazeera (7 Nov). Oil-price figures from 4–6 Nov are in earlier coverage and were not re-checked today.",
      "links": [
       {
-       "text": "Al Jazeera: Iran war live, 6 Nov",
-       "url": "https://www.aljazeera.com/amp/news/liveblog/2026/11/6/iran-war-live-trump-warns-us-may-have-to-destroy-rest-of-iran"
-      },
-      {
-       "text": "CBS News: Iran war live updates",
-       "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-midterms-strait-of-hormuz/"
+       "text": "Al Jazeera: Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+       "url": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation"
       },
       {
        "text": "Al Jazeera: Iran says tankers struck in Hormuz (5 Nov)",
        "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
+      }
+     ]
+    },
+    {
+     "t": "Russian diesel for America: the Trump-Putin deal stalls at the dock",
+     "tag": "Energy · 7 Nov",
+     "gap": false,
+     "w": [
+      "A headline deal is struggling to leave the harbour. Since Trump's 9 October call with Putin, at least three tankers carrying Russian diesel to the US have changed course, and none has yet arrived, even though US retail diesel topped $6 a gallon in September, nearly double pre-war levels.",
+      "The paperwork says go: the deal allows Russian diesel sales and imports until 7 April and the Treasury's sanctions office issued a temporary exemption. But Congress's ban on Russian energy imports still stands, traders and ports fear the legal risk, and New Jersey's governor has told port operators to turn such ships away. Analysts reckon the first cargo equals about two hours of US distillate use; the Kremlin says 'all the diesel will find its buyers', while Putin's envoy called reports of diverted tankers 'fake'."
+     ],
+     "f": [
+      "Deal window: to 7 April",
+      "Promised: 300,000+ tonnes now, 500,000 in November, 1 million after (Trump's figures)",
+      "US diesel above $6/gal in September"
+     ],
+     "n": [
+      "Diesel is the fuel that moves trucks, trains, farm machinery and ships, so its price feeds into the cost of food and goods.",
+      "Sanctions are legal limits on trading with a country. The US Treasury can issue temporary exemptions, but a law passed by Congress, such as the ban on Russian energy imports, cannot be waived by a Treasury licence alone, which is why buyers are nervous.",
+      "A tanker 'changing course' simply means a ship heading for one port is redirected to another because its cargo cannot safely be sold or unloaded where it was bound."
+     ],
+     "s": "As of 7 Nov 2026 · Al Jazeera (7 Nov)",
+     "links": [
+      {
+       "text": "Al Jazeera: Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+       "url": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal",
+       "syn": "Explains why at least three Russian diesel tankers have diverted from the US despite a Treasury exemption, citing the unrepealed congressional ban and port-level resistance."
       }
      ]
     },
@@ -4139,22 +4164,22 @@
   {
    "id": "tennis",
    "title": "Tennis",
-   "summary": "Shanghai semis: Zverev v Davidovich Fokina, Medvedev v 20-year-old Jodar; Wuhan semis today, final Sunday.",
+   "summary": "Paris Masters final today: Alcaraz v Shelton (semi-finals Sat 7 Nov).",
    "intro": "Rankings and the current tournaments in Shanghai (ATP) and Wuhan (WTA). Updated Thursday 15 October 2026.",
    "cards": [
     {
-     "t": "Tennis: Shelton, Fritz and Paul reach the Paris Masters quarter-finals",
-     "tag": "Rolex Paris Masters · R16 Thu 5 Nov",
+     "t": "Tennis: Alcaraz and Shelton set up the Paris Masters final",
+     "tag": "Rolex Paris Masters · semi-finals Sat 7 Nov · final Sun 8 Nov",
      "w": [
-      "Paris is down to the last eight. On Thursday 5 November third seed Ben Shelton came from a set down to beat home hope Arthur Rinderknech 3–6, 6–4, 7–6(5), and 11th seed Taylor Fritz beat sixth seed Arthur Fils 6–3, 6–4.",
-      "Tommy Paul (12) beat Quentin Halys 7–6(3), 6–4. Luca Van Assche knocked out Lorenzo Musetti 7–5, 3–6, 6–4, Casper Ruud beat Jan-Lennard Struff 6–3, 6–3, qualifier Rinky Hijikata beat Tomas Martin Etcheverry 2–6, 6–3, 7–5, and lucky loser Nuno Borges beat Ignacio Buse 6–0, 6–2. Quarter-final and later results were not found."
+      "Carlos Alcaraz and Ben Shelton will contest the Rolex Paris Masters final. On Saturday 7 November second seed Alcaraz beat Casper Ruud 6–4, 6–4, and third seed Shelton came through a three-setter against home hope Luca Van Assche, 5–7, 6–3, 6–4.",
+      "In the doubles, French wild cards Quentin Halys and Pierre-Hugues Herbert beat top seeds Harri Heliovaara and Henry Patten 6–4, 7–6(3), and Christian Harrison and Neal Skupski beat Lucas Miedler and Neil Oberleitner 6–4, 6–4. No final result had been published when this was built."
      ],
      "n": [
       "The Rolex Paris Masters is the last Masters 1000 event of the ATP season, played indoors in Paris from 2 to 8 November 2026.",
       "A Masters 1000 is the tier just below the Grand Slams, with 1000 ranking points for the champion.",
       "A qualifier reached the main draw through a preliminary event; a lucky loser is a beaten qualifier who gets a late place when someone withdraws."
      ],
-     "s": "As of Thu 5 Nov 2026 · ATP Tour results page (round of 16 only)",
+     "s": "As of Sat 7 Nov 2026 · ATP Tour results page (semi-finals only; no final result yet)",
      "links": [
       {
        "text": "ATP Tour: Paris 2026 results",
@@ -5193,20 +5218,22 @@
   {
    "id": "f1",
    "title": "F1",
-   "summary": "Antonelli wins the US GP (25 Oct, ninth win of 2026); points calculated, ~123 clear.",
+   "summary": "Antonelli is world champion (Mexico City, 1 Nov); Norris on pole in Sao Paulo, race today.",
    "intro": "Formula 1 championship.",
    "cards": [
     {
-     "t": "Formula 1",
-     "tag": "Hamilton on pole in Mexico",
+     "t": "Formula 1: Antonelli is champion; Norris on pole in Sao Paulo",
+     "tag": "Mexico result 1 Nov · Sao Paulo race Sun 8 Nov",
      "w": [
-      "Lewis Hamilton took his first pole position for Ferrari in Mexico City qualifying, with a 1:16.514 that edged George Russell (Mercedes) by 0.009s and Charles Leclerc (Ferrari) by 0.119s. Kimi Antonelli starts fourth after Max Verstappen took a grid penalty; Lando Norris is sixth and Oscar Piastri 13th. Liam Lawson was disqualified from qualifying for a technical breach.",
-      "The race is on Sunday 1 November and the title could be settled: Antonelli leads Russell by 123 points with 100 still available this weekend, and needs only a ninth-place finish to clinch it and become Italy's first champion since 1953. Russell would have to win and Hamilton would also need to win to keep it alive (Al Jazeera). The race result was not available when this was built."
+      "Kimi Antonelli is Formula 1's youngest world champion. The Mercedes driver clinched the title by finishing third at the Mexico City Grand Prix on 1 November, at 20 years and 68 days, beating Sebastian Vettel's 2010 record of 23 years and 134 days and becoming the first Italian champion since Alberto Ascari in 1953. His lead reached an unassailable 119 points after the podium, and he cried on the team radio (Al Jazeera).",
+      "Max Verstappen won the red-flagged, restarted race for his second win of the season, with Lewis Hamilton second after starting from pole. Mercedes lead Ferrari 630 to 504 in the constructors' standings and could clinch that title in Brazil.",
+      "In Sao Paulo, Lando Norris took pole on Saturday 7 November in 1:27.470, ahead of George Russell and Antonelli, with Charles Leclerc fourth. The race is today, Sunday 8 November, at 2pm local time. Russell reportedly faces a five-place grid drop and Leclerc ten (formulaonehistory.com); the final grid was not confirmed. The race result was not available when this was built."
      ],
      "f": [
-      "Mexico qualifying: 1 Hamilton, 2 Russell, 3 Leclerc, 4 Antonelli, 6 Norris",
-      "Antonelli leads Russell by 123 points; 100 available",
-      "Earlier: US GP (25 Oct) won by Antonelli"
+      "Antonelli: champion, 20 years 68 days; first Italian since 1953",
+      "Mexico GP: 1 Verstappen, 2 Hamilton, 3 Antonelli, 4 Leclerc, 5 Norris, 6 Russell",
+      "Sao Paulo pole: Norris 1:27.470; race Sun 8 Nov, 2pm local",
+      "Constructors: Mercedes 630, Ferrari 504"
      ],
      "n": [
       "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
@@ -5214,23 +5241,20 @@
       "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
       "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
      ],
-     "s": "Mexico qualifying 31 Oct / race 1 Nov 2026 (Al Jazeera, 1 Nov); earlier US GP from PlanetF1",
+     "s": "Mexico City GP 1 Nov and Sao Paulo qualifying 7 Nov 2026 (Al Jazeera, PlanetF1, gpblog, formulaonehistory.com)",
      "links": [
       {
-       "text": "Al Jazeera: Hamilton takes first Ferrari pole; Antonelli starts fourth in Mexico",
-       "url": "https://www.aljazeera.com/sports/2026/11/1/f1-hamilton-takes-first-ferrari-pole-antonelli-starts-fourth-in-mexico"
+       "text": "Al Jazeera: Antonelli becomes Formula One's youngest world champion",
+       "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
+       "syn": "Antonelli clinched the title with third place in Mexico City, aged 20 years 68 days, ahead of Vettel's record; Verstappen won and Mercedes lead Ferrari 630-504 in the constructors' standings."
       },
       {
-       "text": "PlanetF1: United States Grand Prix 2026 race results",
-       "url": "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race"
+       "text": "PlanetF1: Mexico City GP 2026 race results",
+       "url": "https://www.planetf1.com/news/f1-results-mexico-city-grand-prix-2026-race"
       },
       {
-       "text": "Radio X: Antonelli wins Austin race to move to brink of F1 world title",
-       "url": "https://www.radiox.co.uk/news/sport/united-states-gp-kimi-antonelli-wins-austin-r/"
-      },
-      {
-       "text": "RacingNews365: standings after Singapore GP",
-       "url": "https://racingnews365.com/2026-f1-championship-standings-after-singapore-grand-prix"
+       "text": "GPblog: full results and standings",
+       "url": "https://www.gpblog.com/en/news/f1-full-results-antonelli-becomes-f1s-youngest-ever-champion-in-mexico"
       }
      ]
     },
@@ -5266,10 +5290,150 @@
      "intro": "Drivers and constructors, as of the Singapore Grand Prix (11 October).",
      "panels": [
       {
+       "id": "f1-sp",
+       "title": "Sao Paulo Grand Prix qualifying (Sat 7 Nov)",
+       "asof": "Sat 7 Nov 2026 · race Sun 8 Nov, 2pm local (formulaonehistory.com). Grid penalties reported: Russell -5, Leclerc -10; final grid not confirmed",
+       "source": "formulaonehistory.com",
+       "cols": [
+        "Pos",
+        "Driver",
+        "Team",
+        "Q3 time"
+       ],
+       "rows": [
+        [
+         1,
+         "Lando Norris",
+         "McLaren",
+         "1:27.470"
+        ],
+        [
+         2,
+         "George Russell",
+         "Mercedes",
+         "1:27.674"
+        ],
+        [
+         3,
+         "Kimi Antonelli",
+         "Mercedes",
+         "1:28.095"
+        ],
+        [
+         4,
+         "Charles Leclerc",
+         "Ferrari",
+         "1:28.289"
+        ],
+        [
+         5,
+         "Liam Lawson",
+         "Racing Bulls",
+         "1:28.321"
+        ],
+        [
+         6,
+         "Nico Hulkenberg",
+         "Audi",
+         "1:28.668"
+        ],
+        [
+         7,
+         "Isack Hadjar",
+         "Red Bull",
+         "1:28.763"
+        ],
+        [
+         8,
+         "Oliver Bearman",
+         "Haas",
+         "1:29.831"
+        ],
+        [
+         9,
+         "Fernando Alonso",
+         "Aston Martin",
+         "1:30.311"
+        ],
+        [
+         10,
+         "Alexander Albon",
+         "Williams",
+         "1:30.456"
+        ]
+       ],
+       "links": [
+        {
+         "text": "formulaonehistory.com: 2026 Sao Paulo Grand Prix",
+         "url": "https://www.formulaonehistory.com/2026-sao-paulo-grand-prix/"
+        }
+       ]
+      },
+      {
+       "id": "f1-mex",
+       "title": "Mexico City Grand Prix result (1 Nov)",
+       "asof": "1 Nov 2026 (PlanetF1 on-track order; Crash.net reports later post-race penalties that changed the lower points places, so positions 7–10 are not final)",
+       "source": "planetf1.com, crash.net",
+       "cols": [
+        "Pos",
+        "Driver",
+        "Team",
+        "Gap"
+       ],
+       "rows": [
+        [
+         1,
+         "Max Verstappen",
+         "Red Bull",
+         "winner"
+        ],
+        [
+         2,
+         "Lewis Hamilton",
+         "Ferrari",
+         "+0.799s"
+        ],
+        [
+         3,
+         "Kimi Antonelli",
+         "Mercedes",
+         "+4.006s"
+        ],
+        [
+         4,
+         "Charles Leclerc",
+         "Ferrari",
+         "+10.707s"
+        ],
+        [
+         5,
+         "Lando Norris",
+         "McLaren",
+         "+11.778s"
+        ],
+        [
+         6,
+         "George Russell",
+         "Mercedes",
+         "+12.263s"
+        ]
+       ],
+       "links": [
+        {
+         "text": "PlanetF1: Mexico City GP 2026 race results",
+         "url": "https://www.planetf1.com/news/f1-results-mexico-city-grand-prix-2026-race"
+        },
+        {
+         "text": "Crash.net: updated results after post-race penalties",
+         "url": "https://crash.net/f1/results/1109251/1/formula-1-mexico-grand-prix-full-race-results"
+        }
+       ]
+      },
+      {
        "id": "f1-drivers",
-       "title": "Drivers' championship top 10 (calculated after US GP)",
-       "asof": "after the US Grand Prix, 25 Oct 2026: CALCULATED by adding race points (PlanetF1 result) to the Singapore standings; no published table read",
-       "source": "racingnews365.com",
+       "title": "Drivers' championship top 10 (after Mexico City GP)",
+       "asof": "after the Mexico City GP, 1 Nov 2026 (gpblog.com standings page; the top six agree with Al Jazeera's 130-point Antonelli–Russell gap; places 7–10 may not include post-race penalties)",
+       "source": "gpblog.com",
        "cols": [
         "Pos",
         "Driver",
@@ -5281,43 +5445,43 @@
          1,
          "Kimi Antonelli",
          "Mercedes",
-         365
+         380
         ],
         [
          2,
-         "George Russell",
-         "Mercedes",
-         242
+         "Max Verstappen",
+         "Red Bull Racing",
+         261
         ],
         [
          3,
          "Lewis Hamilton",
          "Ferrari",
-         241
+         259
         ],
         [
          4,
-         "Max Verstappen",
-         "Red Bull Racing",
-         236
+         "George Russell",
+         "Mercedes",
+         250
         ],
         [
          5,
          "Charles Leclerc",
          "Ferrari",
-         233
+         245
         ],
         [
          6,
          "Lando Norris",
          "McLaren",
-         211
+         221
         ],
         [
          7,
          "Oscar Piastri",
          "McLaren",
-         144
+         150
         ],
         [
          8,
@@ -5329,29 +5493,29 @@
          9,
          "Liam Lawson",
          "Racing Bulls",
-         77
+         79
         ],
         [
          10,
          "Pierre Gasly",
          "Alpine",
-         42
+         43
         ]
        ],
        "movement": true,
        "key": 1,
        "links": [
         {
-         "text": "PlanetF1: US Grand Prix 2026 results",
-         "url": "https://www.planetf1.com/news/f1-results-united-states-grand-prix-2026-race"
+         "text": "GPblog: Mexico results and standings",
+         "url": "https://www.gpblog.com/en/news/f1-full-results-antonelli-becomes-f1s-youngest-ever-champion-in-mexico"
         }
        ]
       },
       {
        "id": "f1-cons",
        "title": "Constructors' championship",
-       "asof": "after the Singapore Grand Prix, 11 Oct 2026; NOT updated for the US GP",
-       "source": "racingnews365.com",
+       "asof": "after the Mexico City GP, 1 Nov 2026: only the top two are verified (Al Jazeera); other teams not re-checked since the Singapore GP (11 Oct) and are no longer shown",
+       "source": "Al Jazeera",
        "cols": [
         "Pos",
         "Team",
@@ -5361,60 +5525,15 @@
         [
          1,
          "Mercedes",
-         578
+         630
         ],
         [
          2,
          "Ferrari",
-         444
-        ],
-        [
-         3,
-         "McLaren",
-         339
-        ],
-        [
-         4,
-         "Red Bull Racing",
-         332
-        ],
-        [
-         5,
-         "Racing Bulls",
-         100
-        ],
-        [
-         6,
-         "Alpine",
-         68
-        ],
-        [
-         7,
-         "Haas F1 Team",
-         30
-        ],
-        [
-         8,
-         "Audi",
-         23
-        ],
-        [
-         9,
-         "Williams",
-         12
-        ],
-        [
-         10,
-         "Aston Martin",
-         7
-        ],
-        [
-         11,
-         "Cadillac",
-         0
+         504
         ]
        ],
-       "movement": true,
+       "movement": false,
        "key": 1
       },
       {
@@ -5500,7 +5619,7 @@
       {
        "id": "f1-cal",
        "title": "Remaining calendar",
-       "asof": "calendar published by Formula1.com; Austin date confirmed 14 Oct 2026 · not re-checked 21 Oct",
+       "asof": "Sao Paulo race time from formulaonehistory.com (8 Nov 2026); other dates from the original calendar, not re-checked",
        "source": "formula1.com",
        "cols": [
         "Round",
@@ -5559,118 +5678,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Saturday 7 November 2026",
-  "intro": "Ten questions on Hormuz, oil, the Paris Masters, Toronto and central banks.",
+  "title": "TST News quiz · Sunday 8 November 2026",
+  "intro": "Ten questions on Hormuz, Russian diesel, Formula 1, the Paris Masters and the Bank of England.",
   "questions": [
+   {
+    "q": "How many ships did UKMTO say were attacked in and around Hormuz in the week to 6 November?",
+    "options": [
+     "At least 5",
+     "At least 11",
+     "At least 25",
+     "At least 40"
+    ],
+    "answer": 1,
+    "explain": "At least 11, three of which sank (Al Jazeera, 7 Nov)."
+   },
+   {
+    "q": "By roughly how much are Hormuz transits below pre-conflict levels?",
+    "options": [
+     "About 15%",
+     "About 35%",
+     "About 65%",
+     "About 90%"
+    ],
+    "answer": 2,
+    "explain": "About 65 percent below (UKMTO via Al Jazeera)."
+   },
+   {
+    "q": "Until what date does the Trump-Putin deal allow Russian diesel sales and imports into the US?",
+    "options": [
+     "7 April",
+     "1 January",
+     "30 November",
+     "31 December"
+    ],
+    "answer": 0,
+    "explain": "The deal runs to 7 April; Congress's ban on Russian energy imports still stands."
+   },
+   {
+    "q": "Who won the Mexico City Grand Prix on 1 November?",
+    "options": [
+     "Lewis Hamilton",
+     "Kimi Antonelli",
+     "Max Verstappen",
+     "George Russell"
+    ],
+    "answer": 2,
+    "explain": "Verstappen won the red-flagged, restarted race; Hamilton was second."
+   },
+   {
+    "q": "How old was Kimi Antonelli when he clinched the F1 title?",
+    "options": [
+     "19 years 12 days",
+     "20 years 68 days",
+     "22 years 3 months",
+     "23 years 134 days"
+    ],
+    "answer": 1,
+    "explain": "20 years and 68 days; 23 years 134 days was Vettel's old record."
+   },
+   {
+    "q": "When was the last Italian F1 world champion before Antonelli?",
+    "options": [
+     "Alberto Ascari, 1953",
+     "Giuseppe Farina, 1950",
+     "Riccardo Patrese, 1992",
+     "Michele Alboreto, 1985"
+    ],
+    "answer": 0,
+    "explain": "Ascari in 1953 (Al Jazeera)."
+   },
+   {
+    "q": "What are the constructors' standings after Mexico, Mercedes v Ferrari?",
+    "options": [
+     "630 v 504",
+     "580 v 520",
+     "700 v 400",
+     "504 v 630"
+    ],
+    "answer": 0,
+    "explain": "Mercedes 630, Ferrari 504; Mercedes could clinch in Brazil."
+   },
+   {
+    "q": "Who took pole for the Sao Paulo Grand Prix on 7 November?",
+    "options": [
+     "Max Verstappen",
+     "Lando Norris",
+     "George Russell",
+     "Kimi Antonelli"
+    ],
+    "answer": 1,
+    "explain": "Norris, 1:27.470, ahead of Russell and Antonelli."
+   },
+   {
+    "q": "Who beat Casper Ruud in the Paris Masters semi-finals?",
+    "options": [
+     "Ben Shelton",
+     "Jannik Sinner",
+     "Carlos Alcaraz",
+     "Taylor Fritz"
+    ],
+    "answer": 2,
+    "explain": "Alcaraz won 6–4, 6–4 and meets Shelton in the final."
+   },
    {
     "q": "What is the Bank of England's Bank Rate after the 5 November decision?",
     "options": [
-     "4.00%",
+     "3.50%",
      "3.75%",
-     "4.50%",
-     "3.50%"
+     "4.00%",
+     "4.50%"
     ],
-    "answer": 0,
-    "explain": "Raised 25 bp from 3.75% to 4% (MoneyWeek, in the economics section)."
-   },
-   {
-    "q": "Roughly where did Brent crude fall to on 4 November, its first drop below $100 since September?",
-    "options": [
-     "About $94",
-     "About $116",
-     "About $75",
-     "About $103"
-    ],
-    "answer": 0,
-    "explain": "Brent fell more than 8% to about $94 (CBS News)."
-   },
-   {
-    "q": "What was the peak Brent price recorded on 23 October?",
-    "options": [
-     "$116",
-     "$100",
-     "$94",
-     "$130"
-    ],
-    "answer": 0,
-    "explain": "The peak was $116 on 23 Oct (CBS News)."
-   },
-   {
-    "q": "Which tanker lost a seafarer after being hit north of Madinat ash Shamal, Qatar?",
-    "options": [
-     "MT Velos",
-     "Al Mayeda",
-     "Nakilat One",
-     "Qeshm Star"
-    ],
-    "answer": 0,
-    "explain": "Velos Tankers said a seafarer died on the MT Velos on 5 Nov (Al Jazeera live blog)."
-   },
-   {
-    "q": "Which US drone did Iran's Revolutionary Guards claim to have shot down over Qeshm Island?",
-    "options": [
-     "MQ-1",
-     "F-35",
-     "MQ-9 Reaper only",
-     "Global Hawk"
-    ],
-    "answer": 0,
-    "explain": "The IRGC claimed an MQ-1; the US had not confirmed it (Al Jazeera)."
-   },
-   {
-    "q": "How many attacks did the IMO count in the Gulf region up to 27 October?",
-    "options": [
-     "121",
-     "24",
-     "60",
-     "350"
-    ],
-    "answer": 0,
-    "explain": "121 attacks, with at least 24 seafarers killed (Al Jazeera)."
-   },
-   {
-    "q": "Who beat sixth seed Arthur Fils in the Paris Masters round of 16?",
-    "options": [
-     "Taylor Fritz",
-     "Ben Shelton",
-     "Tommy Paul",
-     "Casper Ruud"
-    ],
-    "answer": 0,
-    "explain": "Fritz won 6–3, 6–4 (ATP Tour)."
-   },
-   {
-    "q": "Which player beat Arthur Rinderknech 3–6, 6–4, 7–6(5) in Paris?",
-    "options": [
-     "Ben Shelton",
-     "Casper Ruud",
-     "Luca Van Assche",
-     "Nuno Borges"
-    ],
-    "answer": 0,
-    "explain": "Third seed Shelton came from a set down (ATP Tour)."
-   },
-   {
-    "q": "Who won a second term as Toronto mayor on 26 October?",
-    "options": [
-     "Olivia Chow",
-     "Brad Bradford",
-     "Patrick Brown",
-     "Doug Ford"
-    ],
-    "answer": 0,
-    "explain": "Chow got about 54.2% to Bradford's 41.1% (CP24, unofficial)."
-   },
-   {
-    "q": "What is the Bank of Canada's overnight rate target after its 28 October hike?",
-    "options": [
-     "2.5%",
-     "2.0%",
-     "3.0%",
-     "2.75%"
-    ],
-    "answer": 0,
-    "explain": "Raised 25 bp to 2.5% (Bank of Canada)."
+    "answer": 2,
+    "explain": "Raised 25 bp from 3.75% to 4% (see the economics section)."
    }
   ]
  }
