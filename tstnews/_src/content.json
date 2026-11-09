@@ -1,8 +1,8 @@
 {
- "date": "2026-11-08",
- "label": "Sunday 8 November 2026",
- "note": "Refresh of Sun 8 Nov 2026 (Toronto early morning). A limited run: the Euronews, CP24, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused again, so those headline lists keep their last verified dates and every football, rugby, cricket, squash, field hockey, baseball, basketball and ice hockey panel keeps its own 'as of' date. Updated today from sources that could be read: Al Jazeera headlines, Hormuz and Russian diesel (Al Jazeera, 7 Nov), Formula 1 (Mexico City GP result, Antonelli's title, Sao Paulo qualifying) and the Paris Masters semi-finals (ATP Tour).",
- "sport_note": "Sun 8 Nov 2026: score sites for football and hockey were refused, so no league table or domestic result could be re-checked this run. New today: F1 Mexico City result and Antonelli's world title, Sao Paulo qualifying (race today), Rolex Paris Masters semi-finals (final today). All other sport panels keep their own 'as of' dates.",
+ "date": "2026-11-09",
+ "label": "Monday 9 November 2026",
+ "note": "Refresh of Mon 9 Nov 2026 (Toronto early morning). A limited run: the Euronews, CP24, Global News and L'Écho du Mardi feeds, the Al Jazeera sitemap, the DirecTV F1 standings page and the footballwebpages pages were refused or unreadable, so those headline lists, football, rugby, cricket, squash, field hockey, baseball, basketball, ice hockey and all news sections keep their last verified dates. Updated today: the Rolex Paris Masters final (ATP Tour) and the Sao Paulo Grand Prix result (racingnews365.com, provisional).",
+ "sport_note": "Mon 9 Nov 2026: score sites for football and hockey were refused again, so no league table or domestic result could be re-checked. New today: Alcaraz wins the Paris Masters; Norris wins the Sao Paulo GP (provisional order). All other sport panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
@@ -4164,27 +4164,31 @@
   {
    "id": "tennis",
    "title": "Tennis",
-   "summary": "Paris Masters final today: Alcaraz v Shelton (semi-finals Sat 7 Nov).",
+   "summary": "Alcaraz beats Shelton 7–6(5), 7–5 to win the Paris Masters (Sun 8 Nov).",
    "intro": "Rankings and the current tournaments in Shanghai (ATP) and Wuhan (WTA). Updated Thursday 15 October 2026.",
    "cards": [
     {
-     "t": "Tennis: Alcaraz and Shelton set up the Paris Masters final",
-     "tag": "Rolex Paris Masters · semi-finals Sat 7 Nov · final Sun 8 Nov",
+     "t": "Tennis: Alcaraz wins the Paris Masters",
+     "tag": "Rolex Paris Masters · final Sun 8 Nov",
      "w": [
-      "Carlos Alcaraz and Ben Shelton will contest the Rolex Paris Masters final. On Saturday 7 November second seed Alcaraz beat Casper Ruud 6–4, 6–4, and third seed Shelton came through a three-setter against home hope Luca Van Assche, 5–7, 6–3, 6–4.",
-      "In the doubles, French wild cards Quentin Halys and Pierre-Hugues Herbert beat top seeds Harri Heliovaara and Henry Patten 6–4, 7–6(3), and Christian Harrison and Neal Skupski beat Lucas Miedler and Neil Oberleitner 6–4, 6–4. No final result had been published when this was built."
+      "Carlos Alcaraz is the Rolex Paris Masters champion. The second seed from Spain beat American third seed Ben Shelton 7–6(5), 7–5 in the final on Sunday 8 November, according to the ATP Tour's results page.",
+      "The week had set the pair up on Saturday: Alcaraz beat Casper Ruud 6–4, 6–4 and Shelton came through a three-setter against home hope Luca Van Assche, 5–7, 6–3, 6–4. The ATP page did not give the doubles final, and the post-Paris world rankings had not been read, so the ATP top 10 below is still the 19 Oct list."
      ],
      "n": [
       "The Rolex Paris Masters is the last Masters 1000 event of the ATP season, played indoors in Paris from 2 to 8 November 2026.",
       "A Masters 1000 is the tier just below the Grand Slams, with 1000 ranking points for the champion.",
       "A qualifier reached the main draw through a preliminary event; a lucky loser is a beaten qualifier who gets a late place when someone withdraws."
      ],
-     "s": "As of Sat 7 Nov 2026 · ATP Tour results page (semi-finals only; no final result yet)",
+     "s": "As of Mon 9 Nov 2026 · ATP Tour results page (final score; doubles final not shown)",
      "links": [
       {
        "text": "ATP Tour: Paris 2026 results",
        "url": "https://www.atptour.com/en/news/paris-2026-results"
       }
+     ],
+     "f": [
+      "Final (Sun 8 Nov): Alcaraz d. Shelton 7–6(5), 7–5",
+      "Semi-finals (Sat 7 Nov): Alcaraz d. Ruud 6–4, 6–4; Shelton d. Van Assche 5–7, 6–3, 6–4"
      ]
     },
     {
@@ -5218,22 +5222,21 @@
   {
    "id": "f1",
    "title": "F1",
-   "summary": "Antonelli is world champion (Mexico City, 1 Nov); Norris on pole in Sao Paulo, race today.",
+   "summary": "Norris wins the Sao Paulo GP (provisional order, possible Ferrari penalty adjustments); Antonelli already champion.",
    "intro": "Formula 1 championship.",
    "cards": [
     {
-     "t": "Formula 1: Antonelli is champion; Norris on pole in Sao Paulo",
-     "tag": "Mexico result 1 Nov · Sao Paulo race Sun 8 Nov",
+     "t": "Formula 1: Norris wins in Sao Paulo; Antonelli already champion",
+     "tag": "Sao Paulo result Sun 8 Nov · Antonelli champion since 1 Nov",
      "w": [
-      "Kimi Antonelli is Formula 1's youngest world champion. The Mercedes driver clinched the title by finishing third at the Mexico City Grand Prix on 1 November, at 20 years and 68 days, beating Sebastian Vettel's 2010 record of 23 years and 134 days and becoming the first Italian champion since Alberto Ascari in 1953. His lead reached an unassailable 119 points after the podium, and he cried on the team radio (Al Jazeera).",
-      "Max Verstappen won the red-flagged, restarted race for his second win of the season, with Lewis Hamilton second after starting from pole. Mercedes lead Ferrari 630 to 504 in the constructors' standings and could clinch that title in Brazil.",
-      "In Sao Paulo, Lando Norris took pole on Saturday 7 November in 1:27.470, ahead of George Russell and Antonelli, with Charles Leclerc fourth. The race is today, Sunday 8 November, at 2pm local time. Russell reportedly faces a five-place grid drop and Leclerc ten (formulaonehistory.com); the final grid was not confirmed. The race result was not available when this was built."
+      "Lando Norris converted pole into victory at the Sao Paulo Grand Prix on Sunday 8 November. On the order shown by racingnews365.com he finished 14.6 seconds clear of Max Verstappen, with Red Bull's Isack Hadjar third, Mercedes pair George Russell and Kimi Antonelli fourth and fifth, and Oscar Piastri sixth.",
+      "The same page carries a headline saying the results were adjusted after a Ferrari time penalty, so the order below is provisional; the Ferrari places (Leclerc eighth, Hamilton ninth) in particular may have changed. Drivers' and constructors' points after Brazil were not verified, so those tables still show the position after Mexico City.",
+      "The title was settled a week earlier: Kimi Antonelli clinched the world championship in Mexico City on 1 November, at 20 years and 68 days the youngest champion in Formula 1 history and the first Italian since Alberto Ascari in 1953."
      ],
      "f": [
-      "Antonelli: champion, 20 years 68 days; first Italian since 1953",
-      "Mexico GP: 1 Verstappen, 2 Hamilton, 3 Antonelli, 4 Leclerc, 5 Norris, 6 Russell",
-      "Sao Paulo pole: Norris 1:27.470; race Sun 8 Nov, 2pm local",
-      "Constructors: Mercedes 630, Ferrari 504"
+      "Sao Paulo (provisional): 1 Norris, 2 Verstappen +14.602s, 3 Hadjar, 4 Russell, 5 Antonelli, 6 Piastri",
+      "Antonelli: champion, 20 years 68 days",
+      "Next: Las Vegas GP, 19 to 21 Nov (calendar, not re-checked)"
      ],
      "n": [
       "Formula 1 is a world championship for single-seater racing cars. Each season has around two dozen race weekends across the world, called Grands Prix. Ten teams used to compete, and the 2026 grid has 11, with Audi and Cadillac among the newer names.",
@@ -5241,8 +5244,12 @@
       "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
       "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
      ],
-     "s": "Mexico City GP 1 Nov and Sao Paulo qualifying 7 Nov 2026 (Al Jazeera, PlanetF1, gpblog, formulaonehistory.com)",
+     "s": "As of Mon 9 Nov 2026 · racingnews365.com (provisional; penalty adjustments not read) and Al Jazeera for Mexico City",
      "links": [
+      {
+       "text": "RacingNews365: Sao Paulo GP results",
+       "url": "https://racingnews365.com/f1/races/sao-paulo-gp/results"
+      },
       {
        "text": "Al Jazeera: Antonelli becomes Formula One's youngest world champion",
        "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
@@ -5251,10 +5258,6 @@
       {
        "text": "PlanetF1: Mexico City GP 2026 race results",
        "url": "https://www.planetf1.com/news/f1-results-mexico-city-grand-prix-2026-race"
-      },
-      {
-       "text": "GPblog: full results and standings",
-       "url": "https://www.gpblog.com/en/news/f1-full-results-antonelli-becomes-f1s-youngest-ever-champion-in-mexico"
       }
      ]
     },
@@ -5291,81 +5294,81 @@
      "panels": [
       {
        "id": "f1-sp",
-       "title": "Sao Paulo Grand Prix qualifying (Sat 7 Nov)",
-       "asof": "Sat 7 Nov 2026 · race Sun 8 Nov, 2pm local (formulaonehistory.com). Grid penalties reported: Russell -5, Leclerc -10; final grid not confirmed",
-       "source": "formulaonehistory.com",
+       "title": "Sao Paulo Grand Prix result (Sun 8 Nov, provisional)",
+       "asof": "Sun 8 Nov 2026 · racingnews365.com; the page notes results adjusted after a Ferrari time penalty, so positions may have changed",
+       "source": "racingnews365.com",
        "cols": [
         "Pos",
         "Driver",
         "Team",
-        "Q3 time"
+        "Gap"
        ],
        "rows": [
         [
          1,
          "Lando Norris",
          "McLaren",
-         "1:27.470"
+         "winner"
         ],
         [
          2,
-         "George Russell",
-         "Mercedes",
-         "1:27.674"
+         "Max Verstappen",
+         "Red Bull",
+         "+14.602s"
         ],
         [
          3,
-         "Kimi Antonelli",
-         "Mercedes",
-         "1:28.095"
+         "Isack Hadjar",
+         "Red Bull",
+         "+24.485s"
         ],
         [
          4,
-         "Charles Leclerc",
-         "Ferrari",
-         "1:28.289"
+         "George Russell",
+         "Mercedes",
+         "+33.991s"
         ],
         [
          5,
-         "Liam Lawson",
-         "Racing Bulls",
-         "1:28.321"
+         "Kimi Antonelli",
+         "Mercedes",
+         "+41.017s"
         ],
         [
          6,
-         "Nico Hulkenberg",
-         "Audi",
-         "1:28.668"
+         "Oscar Piastri",
+         "McLaren",
+         "+56.475s"
         ],
         [
          7,
-         "Isack Hadjar",
-         "Red Bull",
-         "1:28.763"
+         "Liam Lawson",
+         "Racing Bulls",
+         "+75.402s"
         ],
         [
          8,
-         "Oliver Bearman",
-         "Haas",
-         "1:29.831"
+         "Charles Leclerc",
+         "Ferrari",
+         "+78.586s"
         ],
         [
          9,
-         "Fernando Alonso",
-         "Aston Martin",
-         "1:30.311"
+         "Lewis Hamilton",
+         "Ferrari",
+         "+1 lap"
         ],
         [
          10,
-         "Alexander Albon",
-         "Williams",
-         "1:30.456"
+         "Nico Hulkenberg",
+         "Audi",
+         "+1 lap"
         ]
        ],
        "links": [
         {
-         "text": "formulaonehistory.com: 2026 Sao Paulo Grand Prix",
-         "url": "https://www.formulaonehistory.com/2026-sao-paulo-grand-prix/"
+         "text": "RacingNews365: Sao Paulo GP results",
+         "url": "https://racingnews365.com/f1/races/sao-paulo-gp/results"
         }
        ]
       },
@@ -5432,7 +5435,7 @@
       {
        "id": "f1-drivers",
        "title": "Drivers' championship top 10 (after Mexico City GP)",
-       "asof": "after the Mexico City GP, 1 Nov 2026 (gpblog.com standings page; the top six agree with Al Jazeera's 130-point Antonelli–Russell gap; places 7–10 may not include post-race penalties)",
+       "asof": "after the Mexico City GP, 1 Nov 2026 (gpblog.com standings page; the top six agree with Al Jazeera's 130-point Antonelli–Russell gap; places 7–10 may not include post-race penalties) · NOT updated for Sao Paulo (points after Brazil not verified)",
        "source": "gpblog.com",
        "cols": [
         "Pos",
@@ -5514,7 +5517,7 @@
       {
        "id": "f1-cons",
        "title": "Constructors' championship",
-       "asof": "after the Mexico City GP, 1 Nov 2026: only the top two are verified (Al Jazeera); other teams not re-checked since the Singapore GP (11 Oct) and are no longer shown",
+       "asof": "after the Mexico City GP, 1 Nov 2026: only the top two are verified (Al Jazeera); other teams not re-checked since the Singapore GP (11 Oct) and are no longer shown · NOT updated for Sao Paulo (points after Brazil not verified)",
        "source": "Al Jazeera",
        "cols": [
         "Pos",
@@ -5678,118 +5681,74 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Sunday 8 November 2026",
-  "intro": "Ten questions on Hormuz, Russian diesel, Formula 1, the Paris Masters and the Bank of England.",
+  "title": "TST News quiz · Monday 9 November 2026",
+  "intro": "Six questions on the Paris Masters, the Sao Paulo Grand Prix and Formula 1's new champion.",
   "questions": [
    {
-    "q": "How many ships did UKMTO say were attacked in and around Hormuz in the week to 6 November?",
+    "q": "Who won the Rolex Paris Masters final on Sunday 8 November?",
     "options": [
-     "At least 5",
-     "At least 11",
-     "At least 25",
-     "At least 40"
+     "Ben Shelton",
+     "Carlos Alcaraz",
+     "Jannik Sinner",
+     "Casper Ruud"
     ],
     "answer": 1,
-    "explain": "At least 11, three of which sank (Al Jazeera, 7 Nov)."
+    "explain": "Alcaraz beat Shelton 7–6(5), 7–5 (ATP Tour)."
    },
    {
-    "q": "By roughly how much are Hormuz transits below pre-conflict levels?",
+    "q": "Whom did Ben Shelton beat in the Paris semi-finals?",
     "options": [
-     "About 15%",
-     "About 35%",
-     "About 65%",
-     "About 90%"
-    ],
-    "answer": 2,
-    "explain": "About 65 percent below (UKMTO via Al Jazeera)."
-   },
-   {
-    "q": "Until what date does the Trump-Putin deal allow Russian diesel sales and imports into the US?",
-    "options": [
-     "7 April",
-     "1 January",
-     "30 November",
-     "31 December"
+     "Luca Van Assche",
+     "Casper Ruud",
+     "Alexander Zverev",
+     "Arthur Fils"
     ],
     "answer": 0,
-    "explain": "The deal runs to 7 April; Congress's ban on Russian energy imports still stands."
+    "explain": "Shelton beat home hope Van Assche 5–7, 6–3, 6–4."
    },
    {
-    "q": "Who won the Mexico City Grand Prix on 1 November?",
+    "q": "Who won the Sao Paulo Grand Prix (provisional order)?",
     "options": [
-     "Lewis Hamilton",
-     "Kimi Antonelli",
      "Max Verstappen",
+     "Kimi Antonelli",
+     "Lando Norris",
      "George Russell"
     ],
     "answer": 2,
-    "explain": "Verstappen won the red-flagged, restarted race; Hamilton was second."
+    "explain": "Norris won from pole, 14.6s ahead of Verstappen (racingnews365.com)."
    },
    {
-    "q": "How old was Kimi Antonelli when he clinched the F1 title?",
+    "q": "Who finished third in Sao Paulo on the provisional order?",
     "options": [
-     "19 years 12 days",
+     "Isack Hadjar",
+     "Lewis Hamilton",
+     "Oscar Piastri",
+     "Charles Leclerc"
+    ],
+    "answer": 0,
+    "explain": "Red Bull's Hadjar was third; Hamilton and Leclerc were ninth and eighth before any penalty adjustment."
+   },
+   {
+    "q": "How old was Kimi Antonelli when he clinched the F1 title in Mexico City?",
+    "options": [
+     "18 years",
+     "19 years 200 days",
      "20 years 68 days",
-     "22 years 3 months",
      "23 years 134 days"
     ],
-    "answer": 1,
-    "explain": "20 years and 68 days; 23 years 134 days was Vettel's old record."
+    "answer": 2,
+    "explain": "20 years and 68 days; Vettel's 2010 record was 23 years 134 days."
    },
    {
-    "q": "When was the last Italian F1 world champion before Antonelli?",
+    "q": "When was the last Italian F1 champion before Antonelli?",
     "options": [
      "Alberto Ascari, 1953",
-     "Giuseppe Farina, 1950",
-     "Riccardo Patrese, 1992",
-     "Michele Alboreto, 1985"
+     "Nino Farina, 1950",
+     "Jarno Trulli, 2004",
+     "Giancarlo Fisichella, 2006"
     ],
     "answer": 0,
-    "explain": "Ascari in 1953 (Al Jazeera)."
-   },
-   {
-    "q": "What are the constructors' standings after Mexico, Mercedes v Ferrari?",
-    "options": [
-     "630 v 504",
-     "580 v 520",
-     "700 v 400",
-     "504 v 630"
-    ],
-    "answer": 0,
-    "explain": "Mercedes 630, Ferrari 504; Mercedes could clinch in Brazil."
-   },
-   {
-    "q": "Who took pole for the Sao Paulo Grand Prix on 7 November?",
-    "options": [
-     "Max Verstappen",
-     "Lando Norris",
-     "George Russell",
-     "Kimi Antonelli"
-    ],
-    "answer": 1,
-    "explain": "Norris, 1:27.470, ahead of Russell and Antonelli."
-   },
-   {
-    "q": "Who beat Casper Ruud in the Paris Masters semi-finals?",
-    "options": [
-     "Ben Shelton",
-     "Jannik Sinner",
-     "Carlos Alcaraz",
-     "Taylor Fritz"
-    ],
-    "answer": 2,
-    "explain": "Alcaraz won 6–4, 6–4 and meets Shelton in the final."
-   },
-   {
-    "q": "What is the Bank of England's Bank Rate after the 5 November decision?",
-    "options": [
-     "3.50%",
-     "3.75%",
-     "4.00%",
-     "4.50%"
-    ],
-    "answer": 2,
-    "explain": "Raised 25 bp from 3.75% to 4% (see the economics section)."
+    "explain": "Antonelli is the first Italian champion since Alberto Ascari in 1953."
    }
   ]
  }
