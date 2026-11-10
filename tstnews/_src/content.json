@@ -1,15 +1,15 @@
 {
- "date": "2026-11-09",
- "label": "Monday 9 November 2026",
- "note": "Refresh of Mon 9 Nov 2026 (Toronto early morning). A limited run: the Euronews, CP24, Global News and L'Écho du Mardi feeds, the Al Jazeera sitemap, the DirecTV F1 standings page and the footballwebpages pages were refused or unreadable, so those headline lists, football, rugby, cricket, squash, field hockey, baseball, basketball, ice hockey and all news sections keep their last verified dates. Updated today: the Rolex Paris Masters final (ATP Tour) and the Sao Paulo Grand Prix result (racingnews365.com, provisional).",
- "sport_note": "Mon 9 Nov 2026: score sites for football and hockey were refused again, so no league table or domestic result could be re-checked. New today: Alcaraz wins the Paris Masters; Norris wins the Sao Paulo GP (provisional order). All other sport panels keep their own 'as of' dates.",
+ "date": "2026-11-10",
+ "label": "Tuesday 10 November 2026",
+ "note": "Refresh of Tue 10 Nov 2026 (Toronto early morning). A limited run: the permitted feed URLs (Euronews, CP24, Global News, L'Écho du Mardi, Al Jazeera sitemap) and the footballwebpages pages were refused or unreadable, and the permission requests went unanswered, so Headlines keep the latest list that could be read (Euronews, 5 Nov archive page). Updated today from search-result pages: France budget vote and strikes, UK Bank of England hike, Premier League weekend results (8 Nov), Maple Leafs results, ATP Finals field. Everything else keeps its own 'as of' date and is not re-verified.",
+ "sport_note": "Tue 10 Nov 2026: score sites for tables were refused again. New today: Premier League results of the 7–8 Nov weekend (Outlook India match report), Maple Leafs 2–4 Canadiens (Global News), ATP Finals field (ATP Tour). League tables are NOT re-verified; other panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Al Jazeera's news sitemap was read on 5 Nov (newest entries 12:36 UTC, 4 Nov); Euronews, CP24, Global News and L'Écho du Mardi feeds were refused again, so they keep earlier lists with their own dates.",
+   "intro": "Feed URLs were refused again on 10 Nov, so Euronews shows five stories from its 5 Nov archive page (read today); the other outlets keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "EU and Canada to seal broader, deeper alliance in Trump's long shadow",
-       "url": "https://www.euronews.com/2026/10/30/eu-and-canada-to-seal-new-alliance-in-montreal-under-trumps-shadow",
-       "when": "30 Oct"
+       "t": "Hundreds of thousands march in nationwide strike in France as government backs austerity budget",
+       "url": "https://www.euronews.com/2026/11/05/france-braces-for-nationwide-strike-as-government-backs-austerity-budget-to-rein-in-soarin",
+       "when": "5 Nov"
       },
       {
-       "t": "Netanyahu bloc first but without majority as Arab parties hold balance of power in Israel election",
-       "url": "https://www.euronews.com/2026/10/30/netanyahu-bloc-emerges-ahead-in-israeli-election-but-fails-to-secure-majority",
-       "when": "30 Oct"
+       "t": "Bank of England raises key interest rate for first time in over 3 years",
+       "url": "https://www.euronews.com/2026/11/05/bank-of-england-raises-key-interest-rate-for-first-time-in-over-3-years",
+       "when": "5 Nov"
       },
       {
-       "t": "Largest bank heist in history: Binance hack rocks crypto industry",
-       "url": "https://www.euronews.com/2026/10/30/crypto-platform-binance-confirms-major-hack-with-more-than-25bn-frozen",
-       "when": "30 Oct"
+       "t": "Europe weighs implications of Trump's midterm setback",
+       "url": "https://www.euronews.com/2026/11/05/europe-weighs-implications-of-trumps-midterm-setback",
+       "when": "5 Nov"
       },
       {
-       "t": "Drone attack and fire reported at Russia's Novokuibyshevsk oil refinery",
-       "url": "https://www.euronews.com/2026/10/30/drone-attack-and-fire-reported-at-russias-novokuibyshevsk-oil-refinery",
-       "when": "30 Oct"
+       "t": "Portugal great Cristiano Ronaldo announces retirement from international football",
+       "url": "https://www.euronews.com/2026/11/05/portugal-great-cristiano-ronaldo-announces-retirement-from-international-football",
+       "when": "5 Nov"
       },
       {
-       "t": "‘Godspeed, Captain’: Heartfelt tributes pour in for Sir Patrick Stewart",
-       "url": "https://www.euronews.com/2026/10/30/godspeed-captain-heartfelt-tributes-pour-in-for-sir-patrick-stewart",
-       "when": "30 Oct"
+       "t": "South Korea plans to extend anti-piracy patrols closer to Strait of Hormuz",
+       "url": "https://www.euronews.com/2026/11/05/south-korea-plans-to-extend-anti-piracy-patrols-closer-to-strait-of-hormuz",
+       "when": "5 Nov"
       }
      ]
     },
@@ -218,7 +218,8 @@
      "w": [
       "The US hit Iran again on Friday night. Two projectiles struck Qeshm island, part of a run of strikes on Iranian air defences and launchers that President Trump has called 'minor strikes'. Iran's army said it destroyed a US-made MQ-9 drone and the Revolutionary Guards claimed an MQ-1, reportedly the 16th of that model downed since the war began (Iranian claims, not independently confirmed).",
       "The sea lane is paying for it. The UK Maritime Trade Operations centre reported at least 11 ships attacked in and around the Strait of Hormuz in the week to 6 November, three of which sank, and says transits are about 65 percent below pre-conflict levels. A Western military intelligence agency counts 88 projectile strikes since hostilities resumed in early July, and warns most attacks go unreported.",
-      "Diplomacy is racing the clock. Foreign Minister Abbas Araghchi held talks with 12 foreign ministers in 48 hours, while a Guards spokesman said Iran's earlier missile range limit of about 2,000 km no longer applies. Analysts quoted by Al Jazeera warn the risk of war rises after the US midterms."
+      "Diplomacy is racing the clock. Foreign Minister Abbas Araghchi held talks with 12 foreign ministers in 48 hours, while a Guards spokesman said Iran's earlier missile range limit of about 2,000 km no longer applies. Analysts quoted by Al Jazeera warn the risk of war rises after the US midterms.",
+      "Update, Wed 4 Nov (Al Jazeera): Iran's security council called Washington's reply to its seven conditions for reopening Hormuz 'not convincing'; Qatar is passing proposals between the sides. Trump confirmed a 'minor' US strike on an Iranian anti-aircraft site on 3 Nov, and US media reported plans for wider strikes that could follow the midterms. The IRGC's claim of four tankers hit by mines could not be independently verified. Not re-checked since."
      ],
      "f": [
       "UKMTO: at least 11 ships attacked, 3 sunk, week to 6 Nov",
@@ -240,6 +241,10 @@
       {
        "text": "Al Jazeera: Iran says tankers struck in Hormuz (5 Nov)",
        "url": "https://www.aljazeera.com/news/2026/11/5/iran-says-tankers-struck-in-hormuz-amid-fears-of-new-us-attack"
+      },
+      {
+       "text": "Al Jazeera: Iran says US reply to Hormuz plan 'unconvincing'; Trump confirms strikes",
+       "url": "https://aljazeera.com/news/2026/11/4/iran-says-us-reply-to-hormuz-plan-unconvincing-trump-confirms-strikes"
       }
      ]
     },
@@ -1201,7 +1206,8 @@
       "The Bank of England's governor has just made the next rate decision a live one. Speaking in Istanbul on 8 October, Andrew Bailey said looking through the energy-price shock only works if inflation expectations stay anchored, and that the Bank is conscious of the risk of elevated expectations. One report puts markets at about a 90% chance of a quarter-point rise to 4.0% on 5 November.",
       "On Friday 16 October Bailey added a calmer note. Reports from RTÉ and MarketScreener say he sees 'subdued' second-round price pressures so far, meaning little sign yet of energy costs feeding into wages and other prices; the detail beyond that headline was not read.",
       "Bank Rate stands at 3.75% after the Monetary Policy Committee voted 6-3 to hold in September. Bailey also said the Treasury's stance must be credible to markets ahead of the Autumn Budget on 28 October, the first from Prime Minister Andy Burnham's government under Chancellor John Healey.",
-      "The next inflation reading, for September, is due from the ONS on 21 October, a week before the Budget."
+      "The next inflation reading, for September, is due from the ONS on 21 October, a week before the Budget.",
+      "Update, 5 Nov: the Bank did it. Euronews reports the Bank of England raised its key rate for the first time in over three years; the Economics page records the move as 3.75% to 4.00% on an 8–1 vote (MoneyWeek, 5 Nov). The text above was written before the decision."
      ],
      "f": [
       "Bank Rate: 3.75% (held 17 Sep, 6-3 vote); next decision 5 Nov",
@@ -1235,6 +1241,10 @@
       {
        "text": "RTÉ: BoE's Bailey sees 'subdued' second-round price pressures (16 Oct)",
        "url": "https://www.rte.ie/news/business/2026/1016/1595607-bank-of-england-on-uk-inflation/"
+      },
+      {
+       "text": "Euronews: Bank of England raises key interest rate for first time in over 3 years",
+       "url": "https://www.euronews.com/2026/11/05/bank-of-england-raises-key-interest-rate-for-first-time-in-over-3-years"
       }
      ]
     },
@@ -1345,6 +1355,41 @@
   {
    "id": "france",
    "items": [
+    {
+     "t": "France: Assembly throws out the 2027 budget as strikers march",
+     "tag": "Budget · strike 5 Nov",
+     "gap": false,
+     "w": [
+      "France's austerity budget is in tatters at the first hurdle, and the streets have said what they think of it. On Wednesday 4 November the National Assembly rejected the revenue section of the 2027 finance bill by 458 votes to none, with two abstentions, which under budget rules sank the whole text at first reading (Brussels Signal).",
+      "A day later hundreds of thousands marched in a national strike. Authorities counted about 600,000; unions claimed more than 1.5 million. More than 70,000 officers were deployed, and the main job was keeping the marches peaceful. CGT leader Sophie Binet argues the deficit should be tackled by taxing the wealthiest and the largest companies.",
+      "The government is not giving up. Prime Minister Sébastien Lecornu's minority government wants €43 billion in savings to bring the deficit to 5% of GDP in 2027. The Senate examines the government's original draft from 20 November, with a vote scheduled for 9 December; a joint committee would then look for a compromise. Since 1 November, 10 million barrels of diesel have been released from strategic reserves, and the economy minister says pump prices have fallen by about 15 cents a litre."
+     ],
+     "f": [
+      "Assembly vote (4 Nov): 458 against, 0 for, 2 abstentions",
+      "Strike (5 Nov): about 600,000 (authorities) vs over 1.5 million (unions)",
+      "Government target: €43bn savings; deficit to 5% of GDP in 2027",
+      "Senate: from 20 Nov; vote scheduled 9 Dec",
+      "Presidential election: April 2027; Le Pen's National Rally leads polls"
+     ],
+     "n": [
+      "France writes a new budget every autumn. The government proposes it, and the National Assembly and the Senate must both vote on it. If the Assembly rejects the revenue half, as happened here, the whole text falls at that stage and the Senate takes up the government's original version.",
+      "Prime Minister Sébastien Lecornu leads a minority government, meaning it does not control a majority in the Assembly and must win votes from rival parties. That is why a budget can be thrown out so heavily.",
+      "France has been under an EU excessive deficit procedure since July 2024: Brussels asks it to bring annual borrowing down toward a limit of 3% of GDP, and the government has set 5% as its 2027 goal.",
+      "The strikes sit on top of weeks of unrest: student protests from mid-September over overcrowded classrooms and teacher shortages, then the riots of 17–18 October (see the card below). Fuel prices rose because the Strait of Hormuz has been closed.",
+      "The CGT is one of France's biggest trade unions, and the National Rally and France Unbowed are the two parties currently leading the polls ahead of the April 2027 presidential election."
+     ],
+     "s": "As of Tue 10 Nov 2026 · Brussels Signal (5–6 Nov); Euronews (5 Nov)",
+     "links": [
+      {
+       "text": "Brussels Signal: France hit by nationwide strike after MPs throw out austerity budget",
+       "url": "https://brusselssignal.eu/2026/11/france-hit-by-nationwide-strike-after-mps-throw-out-austerity-budget/"
+      },
+      {
+       "text": "Euronews: Hundreds of thousands march in nationwide strike in France",
+       "url": "https://www.euronews.com/2026/11/05/france-braces-for-nationwide-strike-as-government-backs-austerity-budget-to-rein-in-soarin"
+      }
+     ]
+    },
     {
      "t": "France: riots, looting and mass arrests",
      "tag": "Breaking · 17–19 Oct",
@@ -2252,6 +2297,33 @@
    "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Saturday 17 October 2026 (before kick-off).",
    "cards": [
     {
+     "t": "Premier League: City stumble again as Arsenal go six clear",
+     "tag": "Weekend 7–8 Nov",
+     "gap": false,
+     "w": [
+      "Arsenal are suddenly the team with the room to breathe. Martin Ødegaard's 72nd-minute goal beat Hull City 1–0 on Sunday 8 November, and with Manchester City losing 3–1 at Nottingham Forest, the leaders are six points clear (Outlook India).",
+      "City's wobble is real: three straight league defeats after seven straight wins. Forest scored through Jair Cunha in the sixth minute and Liam Delap twice (18', 74'), with Rayan Cherki replying for City. It was only Forest's second win of the season.",
+      "Elsewhere: Leeds beat Tottenham 1–0 through a 79th-minute Noah Okafor goal, Newcastle and Fulham drew 1–1, and Manchester United and Aston Villa were listed at 4–4 on 8 November in photo captions, with no further detail read."
+     ],
+     "f": [
+      "Arsenal 1–0 Hull; Forest 3–1 Man City; Leeds 1–0 Spurs; Newcastle 1–1 Fulham; Man United 4–4 Villa",
+      "Arsenal six points clear of City",
+      "Full table not re-verified"
+     ],
+     "n": [
+      "The Premier League is England's top division: 20 clubs play each other home and away, 38 games each, three points for a win and one for a draw.",
+      "Clubs finishing in the top places qualify for European competitions; the bottom three are relegated to the Championship.",
+      "A lead of six points after about ten games is big but not decisive; there are still roughly 28 games to play."
+     ],
+     "s": "As of Tue 10 Nov 2026 · Outlook India report of 8 Nov; some dates unverified",
+     "links": [
+      {
+       "text": "Outlook India: City lose third straight game; Arsenal open six-point lead",
+       "url": "https://www.outlookindia.com/sports/football/premier-league-2026-27-nottingham-forest-vs-manchester-city-arsenal-v-hull-city-report"
+      }
+     ]
+    },
+    {
      "t": "Tenerife's Jesus de Miguel dies after on-field collision",
      "tag": "Spain · 3 Nov",
      "gap": false,
@@ -2443,7 +2515,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "Wed 28 Oct 2026 (page updated 03:00 GMT, sportnewsafrica.com); all clubs have played 8, no games since Sun 25 Oct",
+       "asof": "Wed 28 Oct 2026, now OUT OF DATE (all clubs had played 8). Not re-read on 10 Nov: footballwebpages was refused.",
        "source": "sportnewsafrica.com (matches footballwebpages.co.uk 25 Oct)",
        "cols": [
         "Pos",
@@ -2662,7 +2734,7 @@
        "highlight": [
         "Bournemouth"
        ],
-       "note": "Manchester City and Arsenal are level on 21 points, City ahead on goal difference; Brighton, third on 16, lost 2–0 at Liverpool. Bournemouth beat Manchester United 3–0 at Old Trafford to climb to 13th on 9 points. Sunderland are bottom on 5. W/D/L columns are worked out from the earlier table plus this weekend's results and agree with every points total. Not updated on 31 Oct: the footballwebpages pages could not be fetched, and a premierleague.com table that appeared in search showed a different club list and was not used. The table above is as of the 25 Oct round (gap for matches since).",
+       "note": "Do not rely on this table. What is verified from 8 Nov (Outlook India): Arsenal lead the league, six points ahead of second-placed Manchester City, who have lost three in a row after seven straight wins; Leeds are eighth, two points above Tottenham; Forest, with their second win of the season, are two points clear of the relegation zone; Manchester United were in the bottom three before the Villa game.",
        "links": [
         {
          "text": "footballwebpages.co.uk: Premier League, 25 Oct",
@@ -2676,10 +2748,15 @@
       },
       {
        "id": "pl-results",
-       "title": "Latest results (rounds of 10–12 Oct, 17–19 Oct, 23–25 Oct)",
-       "asof": "Sun 1 Nov 2026 (Liverpool–Arsenal only); rest as of Sun 25 Oct 2026",
-       "source": "footballwebpages.co.uk",
+       "title": "Latest results (weekend 7–8 Nov, then earlier rounds)",
+       "asof": "Sun 8 Nov 2026 (Outlook India match report, read 10 Nov): five results; the rest as of Sun 1 Nov / Sun 25 Oct. Other 7–8 Nov results not read.",
+       "source": "outlookindia.com; earlier rounds footballwebpages.co.uk",
        "items": [
+        "Nottingham Forest 3–1 Manchester City (Sun 8 Nov; Cunha 6', Delap 18' and 74'; Cherki for City)",
+        "Arsenal 1–0 Hull City (Sun 8 Nov; Ødegaard 72')",
+        "Manchester United 4–4 Aston Villa (Sun 8 Nov per photo caption; scorers not read)",
+        "Leeds United 1–0 Tottenham Hotspur (weekend of 7–8 Nov, date not verified; Okafor 79')",
+        "Newcastle United 1–1 Fulham (weekend of 7–8 Nov, date not verified)",
         "Liverpool 0–1 Arsenal (Sun 1 Nov; Havertz 16', Anfield)",
         "Crystal Palace 0–2 Newcastle United (Sun 25 Oct)",
         "Hull City 1–1 Brentford (Sun 25 Oct)",
@@ -4192,6 +4269,27 @@
      ]
     },
     {
+     "t": "Tennis: ATP Finals field is set",
+     "tag": "Turin · 15–22 Nov",
+     "gap": false,
+     "w": [
+      "The season finale has its eight. The ATP Tour lists the singles qualifiers for the Nitto ATP Finals as Alexander Zverev, Carlos Alcaraz, Ben Shelton, Daniil Medvedev, Flavio Cobolli, Arthur Fils, Frances Tiafoe and Rafael Jodar.",
+      "The event runs 15–22 November in Turin, in two groups (John McEnroe and Ivan Lendl), and the draw is on Thursday 12 November at about 12:45 pm CET."
+     ],
+     "n": [
+      "The ATP Finals is the year-end tournament for the eight best men's singles players of the season, played indoors rather than as a knockout from the start.",
+      "The eight are split into two groups of four; everyone plays the other three in their group, and the top two from each group go through to the semi-finals.",
+      "Qualifying is based on ranking points won over the season."
+     ],
+     "s": "As of 10 Nov 2026 · ATP Tour",
+     "links": [
+      {
+       "text": "ATP Tour: Nitto ATP Finals 2026 field is set",
+       "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-field-is-set"
+      }
+     ]
+    },
+    {
      "t": "Tennis: Davidovich Fokina wins the Shanghai Masters",
      "tag": "Champion · final Sun 18 Oct",
      "w": [
@@ -5077,35 +5175,31 @@
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "Lost 2–5 to Calgary (26 Oct)",
+     "tag": "Lost 2–4 to Montreal (7 Nov)",
      "w": [
-      "Toronto fell 2–5 to the Calgary Flames on Monday 26 October. Next on the list: the Seattle Kraken on Wednesday 28 October (result not verified) and the Vancouver Canucks on Saturday 31 October, 7 pm ET (Daily Faceoff).",
-      "A statement win in Edmonton: the Leafs beat the Oilers 7–2 on Saturday 24 October. Nylander scored twice, Roslovic, Matthews, Stecher, MacEwen and Lettieri added one each, and Stolarz made 30 saves. Draisaitl got both Edmonton goals.",
-      "The record is listed at 7-4-2 (surprisesports.com). The next game was not verified; check the NHL schedule."
+      "The Leafs are sliding. Montreal beat Toronto 4–2 on Saturday 7 November behind two goals from Alex Newhook, plus Chris Kreider and Zachary Bolduc; William Nylander and Gavin McKenna scored for Toronto (Global News).",
+      "It followed a 3–2 home loss to Utah on 3 November, when Nick Schmaltz scored the winner on a power play with 6:48 left and Jack Roslovic scored both Toronto goals (CP24). The record now stands at 8-8-2.",
+      "Next up: the New Jersey Devils at home on Sunday 8 November (result not verified)."
      ],
      "f": [
-      "Record: 7 wins, 4 losses, 2 overtime losses (as listed 24 Oct)",
-      "Last result: 7–2 at Edmonton, 24 Oct",
-      "Next: not verified"
+      "Record: 8 wins, 8 losses, 2 overtime losses (after 7 Nov)",
+      "Last verified results: 2–4 v Montreal (7 Nov), 2–3 v Utah (3 Nov)",
+      "Next: v New Jersey, 8 Nov (not verified)"
      ],
      "n": [
       "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 29 Oct 2026 · Daily Faceoff; earlier lines surprisesports.com 25 Oct",
+     "s": "As of 10 Nov 2026 · Global News (7 Nov), CP24 (3 Nov)",
      "links": [
       {
-       "text": "surprisesports.com: Maple Leafs vs Oilers, 24 Oct",
-       "url": "https://surprisesports.com/scores/nhl/maple-leafs-vs-oilers-401892574/"
+       "text": "Global News: Newhook, Fowler lead Canadiens over Maple Leafs",
+       "url": "https://globalnews.ca/news/12141495/newhook-fowler-lead-canadiens-over-maple-leafs/"
       },
       {
-       "text": "NHL.com: Marchenko scores in Columbus return, Maple Leafs pull away",
-       "url": "https://www.nhl.com/news/toronto-maple-leafs-columbus-blue-jackets-game-recap-october-20-2026"
-      },
-      {
-       "text": "Global News: Bobrovsky, Maple Leafs looking to find traction",
-       "url": "https://globalnews.ca/news/12107016/bobrovsky-maple-leafs-looking-to-find-traction/"
+       "text": "CP24: Schmaltz scores winner, Utah Mammoth down Maple Leafs 3–2",
+       "url": "https://www.cp24.com/news/sports/2026/11/04/schmaltz-scores-winner-utah-mammoth-down-toronto-maple-leafs-3-2/"
       }
      ]
     }
@@ -5120,17 +5214,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "24 Oct 2026 (surprisesports.com)",
-       "source": "surprisesports.com",
+       "asof": "7 Nov 2026 (Global News)",
+       "source": "globalnews.ca",
        "items": [
-        "7-4-2 after the 24 Oct game (surprisesports.com); the 26 Oct 2–5 loss to Calgary is not yet in that record (probably 7-5-2 if it was a regulation loss, calculated, not verified)"
+        "8-8-2 after the 7 Nov loss to Montreal (Global News); 8-7-2 after the 3 Nov loss to Utah (CP24)"
        ],
        "note": "An overtime loss earns 1 point."
       },
       {
        "id": "tml-res",
-       "title": "Last five games",
-       "asof": "26 Oct 2026 (Daily Faceoff) and 24 Oct (surprisesports.com)",
+       "title": "Recent games (games between 26 Oct and 3 Nov not verified)",
+       "asof": "7 Nov 2026 (Global News, CP24); earlier rows 26 Oct and before",
        "source": "surprisesports.com",
        "cols": [
         "Date",
@@ -5139,6 +5233,18 @@
         "Result"
        ],
        "rows": [
+        [
+         "7 Nov",
+         "Montreal Canadiens",
+         "2–4",
+         "L"
+        ],
+        [
+         "3 Nov",
+         "Utah Mammoth",
+         "2–3",
+         "L"
+        ],
         [
          "26 Oct",
          "Calgary Flames",
@@ -5180,7 +5286,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "29 Oct 2026 (Daily Faceoff schedule page, 26 Oct week)",
+       "asof": "7 Nov 2026 (Global News)",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
@@ -5188,12 +5294,8 @@
        ],
        "rows": [
         [
-         "Wed 28 Oct, 10:00 pm ET",
-         "Seattle Kraken (result not verified)"
-        ],
-        [
-         "Sat 31 Oct, 7:00 pm ET",
-         "Vancouver Canucks"
+         "Sun 8 Nov",
+         "New Jersey Devils (home; result not verified)"
         ]
        ]
       },
@@ -5681,74 +5783,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Monday 9 November 2026",
-  "intro": "Six questions on the Paris Masters, the Sao Paulo Grand Prix and Formula 1's new champion.",
+  "title": "TST News quiz · Tuesday 10 November 2026",
+  "intro": "Ten questions on the French budget, the Premier League weekend, the Leafs, Turin and last week's headlines.",
   "questions": [
    {
-    "q": "Who won the Rolex Paris Masters final on Sunday 8 November?",
+    "q": "By what margin did France's National Assembly reject the revenue part of the 2027 budget on 4 November?",
     "options": [
-     "Ben Shelton",
-     "Carlos Alcaraz",
-     "Jannik Sinner",
-     "Casper Ruud"
-    ],
-    "answer": 1,
-    "explain": "Alcaraz beat Shelton 7–6(5), 7–5 (ATP Tour)."
-   },
-   {
-    "q": "Whom did Ben Shelton beat in the Paris semi-finals?",
-    "options": [
-     "Luca Van Assche",
-     "Casper Ruud",
-     "Alexander Zverev",
-     "Arthur Fils"
+     "458 to 0",
+     "300 to 250",
+     "289 to 288",
+     "512 to 40"
     ],
     "answer": 0,
-    "explain": "Shelton beat home hope Van Assche 5–7, 6–3, 6–4."
+    "explain": "458 votes to none, with two abstentions (Brussels Signal)."
    },
    {
-    "q": "Who won the Sao Paulo Grand Prix (provisional order)?",
+    "q": "When does the French Senate begin examining the government's original budget draft?",
     "options": [
-     "Max Verstappen",
-     "Kimi Antonelli",
-     "Lando Norris",
-     "George Russell"
-    ],
-    "answer": 2,
-    "explain": "Norris won from pole, 14.6s ahead of Verstappen (racingnews365.com)."
-   },
-   {
-    "q": "Who finished third in Sao Paulo on the provisional order?",
-    "options": [
-     "Isack Hadjar",
-     "Lewis Hamilton",
-     "Oscar Piastri",
-     "Charles Leclerc"
+     "20 November",
+     "1 December",
+     "9 December",
+     "15 January"
     ],
     "answer": 0,
-    "explain": "Red Bull's Hadjar was third; Hamilton and Leclerc were ninth and eighth before any penalty adjustment."
+    "explain": "From 20 November, with a vote scheduled for 9 December."
    },
    {
-    "q": "How old was Kimi Antonelli when he clinched the F1 title in Mexico City?",
+    "q": "About how many people marched in France's 5 November strike, according to the authorities?",
     "options": [
-     "18 years",
-     "19 years 200 days",
-     "20 years 68 days",
-     "23 years 134 days"
-    ],
-    "answer": 2,
-    "explain": "20 years and 68 days; Vettel's 2010 record was 23 years 134 days."
-   },
-   {
-    "q": "When was the last Italian F1 champion before Antonelli?",
-    "options": [
-     "Alberto Ascari, 1953",
-     "Nino Farina, 1950",
-     "Jarno Trulli, 2004",
-     "Giancarlo Fisichella, 2006"
+     "600,000",
+     "60,000",
+     "6 million",
+     "1.5 million"
     ],
     "answer": 0,
-    "explain": "Antonelli is the first Italian champion since Alberto Ascari in 1953."
+    "explain": "Authorities said about 600,000; unions claimed over 1.5 million."
+   },
+   {
+    "q": "Who scored Arsenal's winner against Hull City on 8 November?",
+    "options": [
+     "Martin Ødegaard",
+     "Bukayo Saka",
+     "Kai Havertz",
+     "Declan Rice"
+    ],
+    "answer": 0,
+    "explain": "Ødegaard scored in the 72nd minute for a 1–0 win."
+   },
+   {
+    "q": "How many Premier League games in a row had Manchester City lost after losing at Nottingham Forest?",
+    "options": [
+     "Three",
+     "One",
+     "Five",
+     "Two"
+    ],
+    "answer": 0,
+    "explain": "The 3–1 defeat was City's third straight, after seven straight wins."
+   },
+   {
+    "q": "Who scored twice for Nottingham Forest against Manchester City?",
+    "options": [
+     "Liam Delap",
+     "Jair Cunha",
+     "Rayan Cherki",
+     "Noah Okafor"
+    ],
+    "answer": 0,
+    "explain": "Delap scored in the 18th and 74th minutes."
+   },
+   {
+    "q": "Which team beat the Maple Leafs 4–2 on 7 November?",
+    "options": [
+     "Montreal Canadiens",
+     "Utah Mammoth",
+     "New Jersey Devils",
+     "Calgary Flames"
+    ],
+    "answer": 0,
+    "explain": "Montreal won behind two goals from Alex Newhook (Global News)."
+   },
+   {
+    "q": "What is the Maple Leafs' record after the 7 November game?",
+    "options": [
+     "8-8-2",
+     "10-6-1",
+     "7-4-2",
+     "8-7-2"
+    ],
+    "answer": 0,
+    "explain": "8 wins, 8 losses, 2 overtime losses."
+   },
+   {
+    "q": "Where are the Nitto ATP Finals being played from 15 to 22 November?",
+    "options": [
+     "Turin",
+     "London",
+     "Paris",
+     "Melbourne"
+    ],
+    "answer": 0,
+    "explain": "In Turin; the draw is on 12 November (ATP Tour)."
+   },
+   {
+    "q": "What did the Bank of England do on 5 November?",
+    "options": [
+     "Raised its key rate for the first time in over three years",
+     "Cut its key rate",
+     "Left rates unchanged",
+     "Sold gilts"
+    ],
+    "answer": 0,
+    "explain": "Euronews: first rate rise in over three years; Bank Rate went to 4.00%."
    }
   ]
  }
