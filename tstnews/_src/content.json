@@ -1,15 +1,15 @@
 {
- "date": "2026-11-10",
- "label": "Tuesday 10 November 2026",
- "note": "Refresh of Tue 10 Nov 2026 (Toronto early morning). A limited run: the permitted feed URLs (Euronews, CP24, Global News, L'Écho du Mardi, Al Jazeera sitemap) and the footballwebpages pages were refused or unreadable, and the permission requests went unanswered, so Headlines keep the latest list that could be read (Euronews, 5 Nov archive page). Updated today from search-result pages: France budget vote and strikes, UK Bank of England hike, Premier League weekend results (8 Nov), Maple Leafs results, ATP Finals field. Everything else keeps its own 'as of' date and is not re-verified.",
- "sport_note": "Tue 10 Nov 2026: score sites for tables were refused again. New today: Premier League results of the 7–8 Nov weekend (Outlook India match report), Maple Leafs 2–4 Canadiens (Global News), ATP Finals field (ATP Tour). League tables are NOT re-verified; other panels keep their own 'as of' dates.",
+ "date": "2026-11-11",
+ "label": "Wednesday 11 November 2026",
+ "note": "Refresh of Wed 11 Nov 2026 (Toronto early morning). A limited run: the permitted feed URLs, the footballwebpages pages and most article pages were refused or unanswered, so the only page read in full was Euronews's 9 Nov archive list. New today are cards written from those Euronews headlines (headline-level facts only), a new Euronews list and a new quiz. Everything else keeps its own 'as of' date and is NOT re-verified; league tables, results and fixtures are stale.",
+ "sport_note": "Wed 11 Nov 2026: score sites (footballwebpages, ATP, F1 pages) were refused or unreadable, so no sport panel was re-verified today. Each panel keeps its own 'as of' date.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Feed URLs were refused again on 10 Nov, so Euronews shows five stories from its 5 Nov archive page (read today); the other outlets keep earlier lists with their own dates.",
+   "intro": "Feed URLs were refused again on 11 Nov. Euronews shows five stories from its 9 Nov archive page (read today); the other outlets keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Hundreds of thousands march in nationwide strike in France as government backs austerity budget",
-       "url": "https://www.euronews.com/2026/11/05/france-braces-for-nationwide-strike-as-government-backs-austerity-budget-to-rein-in-soarin",
-       "when": "5 Nov"
+       "t": "Lecornu announces €24 monthly rise in minimum wage and tax breaks for firms",
+       "url": "https://www.euronews.com/2026/11/09/lecornu-announces-24-monthly-rise-in-minimum-wage-and-tax-breaks-for-firms",
+       "when": "9 Nov"
       },
       {
-       "t": "Bank of England raises key interest rate for first time in over 3 years",
-       "url": "https://www.euronews.com/2026/11/05/bank-of-england-raises-key-interest-rate-for-first-time-in-over-3-years",
-       "when": "5 Nov"
+       "t": "Trump plans to meet Putin and Xi in China next week",
+       "url": "https://www.euronews.com/2026/11/09/donald-trump-plans-to-meet-vladimir-putin-and-xi-jinping-in-china-to-discuss-ending-iran-w",
+       "when": "9 Nov"
       },
       {
-       "t": "Europe weighs implications of Trump's midterm setback",
-       "url": "https://www.euronews.com/2026/11/05/europe-weighs-implications-of-trumps-midterm-setback",
-       "when": "5 Nov"
+       "t": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
+       "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
+       "when": "9 Nov"
       },
       {
-       "t": "Portugal great Cristiano Ronaldo announces retirement from international football",
-       "url": "https://www.euronews.com/2026/11/05/portugal-great-cristiano-ronaldo-announces-retirement-from-international-football",
-       "when": "5 Nov"
+       "t": "Nvidia stock slides as company probes claims CEO was foreign intelligence target",
+       "url": "https://www.euronews.com/2026/11/09/nvidia-stock-slides-as-company-probes-claims-ceo-was-foreign-intelligence-target",
+       "when": "9 Nov"
       },
       {
-       "t": "South Korea plans to extend anti-piracy patrols closer to Strait of Hormuz",
-       "url": "https://www.euronews.com/2026/11/05/south-korea-plans-to-extend-anti-piracy-patrols-closer-to-strait-of-hormuz",
-       "when": "5 Nov"
+       "t": "'We will not lower our ambition': Everything you need to know on day one of the COP31 climate talks",
+       "url": "https://www.euronews.com/2026/11/09/we-will-not-lower-our-ambition-everything-you-need-to-know-on-day-one-of-the-cop31-climate",
+       "when": "9 Nov"
       }
      ]
     },
@@ -174,6 +174,58 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Trump plans to meet Putin and Xi in China next week",
+     "tag": "World · 9 Nov",
+     "gap": false,
+     "w": [
+      "Donald Trump intends to meet Vladimir Putin and Xi Jinping in China next week, Euronews reports, with the Iran war on the agenda going by the headline's wording.",
+      "In a separate Euronews story, Trump says the US has 'won' the Iran war while Marco Rubio reports no progress in talks. Ukraine–Russia peace talks are also due in Abu Dhabi, with the EU sending a joint team.",
+      "Only headlines were read, so dates, venue and any agenda beyond the headline are not verified."
+     ],
+     "f": [
+      "Planned meeting: Trump, Putin, Xi in China 'next week' (Euronews, 9 Nov)",
+      "Trump says US has 'won' Iran war; Rubio reports no progress in talks (Euronews, 9 Nov)",
+      "EU to send joint team to Ukraine–Russia peace talks in Abu Dhabi (Euronews, 9 Nov)"
+     ],
+     "n": [
+      "Three leaders hold most of the leverage on two wars: the US is fighting Iran, Russia is fighting Ukraine, and China is the biggest buyer of Gulf oil.",
+      "Summits like this rarely produce a deal on the day; their value is in who is seen at the table and what is signalled.",
+      "Europe has complained of being left out, which is why Brussels is sending its own team to Abu Dhabi."
+     ],
+     "s": "Euronews, 9 Nov 2026 (headline and list page read; article body not opened)",
+     "links": [
+      {
+       "text": "Euronews: Trump plans to meet Putin and Xi in China",
+       "url": "https://www.euronews.com/2026/11/09/donald-trump-plans-to-meet-vladimir-putin-and-xi-jinping-in-china-to-discuss-ending-iran-w"
+      }
+     ]
+    },
+    {
+     "t": "Russell Brand sentenced to 10 years and six months",
+     "tag": "UK · 9 Nov",
+     "gap": false,
+     "w": [
+      "British comedian Russell Brand has been sentenced to 10 years and six months in prison for rape and sexual assault, Euronews reports.",
+      "Only the headline was read; the number of counts, the court and the judge's remarks are not verified here."
+     ],
+     "f": [
+      "Sentence: 10 years and six months (Euronews, 9 Nov)",
+      "Court and counts: not verified"
+     ],
+     "n": [
+      "In England and Wales, sentences for serious sexual offences are set by a judge after a jury verdict, within published sentencing guidelines.",
+      "The headline sentence is usually the total term; offenders typically serve part of it in custody and the rest on licence.",
+      "Cases involving well-known people draw heavy coverage, but the legal process is the same as for anyone."
+     ],
+     "s": "Euronews, 9 Nov 2026 (headline and list page read; article body not opened)",
+     "links": [
+      {
+       "text": "Euronews: Russell Brand sentenced",
+       "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul"
+      }
+     ]
+    },
     {
      "t": "US midterms: Democrats win the House and Senate, reports say",
      "tag": "United States · 4–5 Nov",
@@ -1356,6 +1408,31 @@
    "id": "france",
    "items": [
     {
+     "t": "France: Lecornu announces a €24 monthly minimum-wage rise and tax breaks for firms",
+     "tag": "France · 9 Nov",
+     "gap": false,
+     "w": [
+      "Prime Minister Sébastien Lecornu has put a number on the table: a €24 monthly rise in the minimum wage, paired with tax breaks for firms, according to Euronews's headline of 9 November.",
+      "Only the headline was read, so the timing, the cost and who gets which break are not verified here. Treat it as a signal that Paris is trying to answer the street with pay while keeping business onside, as the budget fight and strikes rumble on."
+     ],
+     "f": [
+      "Headline: €24 monthly minimum-wage rise plus tax breaks for firms (Euronews, 9 Nov)",
+      "Details, start date and cost: not verified"
+     ],
+     "n": [
+      "France sets a national minimum wage, the SMIC, which rises each year with prices and sometimes by extra government decisions.",
+      "Governments pair wage moves with tax breaks for employers so that firms do not simply pass the cost on through job cuts or price rises.",
+      "It matters now because the 2027 budget is contested and unions have been striking over living costs."
+     ],
+     "s": "Euronews, 9 Nov 2026 (headline and list page read; article body not opened)",
+     "links": [
+      {
+       "text": "Euronews: Lecornu announces €24 monthly rise in minimum wage",
+       "url": "https://www.euronews.com/2026/11/09/lecornu-announces-24-monthly-rise-in-minimum-wage-and-tax-breaks-for-firms"
+      }
+     ]
+    },
+    {
      "t": "France: Assembly throws out the 2027 budget as strikers march",
      "tag": "Budget · strike 5 Nov",
      "gap": false,
@@ -1653,6 +1730,32 @@
   {
    "id": "tech",
    "items": [
+    {
+     "t": "Nvidia probes claims its CEO was a foreign intelligence target",
+     "tag": "Tech · 9 Nov",
+     "gap": false,
+     "w": [
+      "Nvidia is investigating claims that chief executive Jensen Huang was targeted by an alleged Chinese spy, and its shares slid on the news, Euronews reports. Trump called Huang an 'honorable guy' in a separate Euronews video report.",
+      "Only headlines were read, so the size of the share fall and the substance of the allegations are not verified."
+     ],
+     "f": [
+      "Nvidia stock slides as company probes claims (Euronews, 9 Nov)",
+      "Trump calls Huang an 'honorable guy' (Euronews video, 9 Nov)",
+      "Share price move: not verified"
+     ],
+     "n": [
+      "Nvidia designs the chips that power most AI systems, making it one of the world's most valuable companies and a focus of US–China tension.",
+      "A company investigating its own chief executive is unusual and moves markets because investors fear distraction or export-control fallout.",
+      "Allegations are not findings; the probe's outcome is not known."
+     ],
+     "s": "Euronews, 9 Nov 2026 (headline and list page read; article body not opened)",
+     "links": [
+      {
+       "text": "Euronews: Nvidia stock slides",
+       "url": "https://www.euronews.com/2026/11/09/nvidia-stock-slides-as-company-probes-claims-ceo-was-foreign-intelligence-target"
+      }
+     ]
+    },
     {
      "t": "Tech advances",
      "tag": "AI agents and models",
@@ -5783,118 +5886,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Tuesday 10 November 2026",
-  "intro": "Ten questions on the French budget, the Premier League weekend, the Leafs, Turin and last week's headlines.",
+  "title": "TST News quiz · Wednesday 11 November 2026",
+  "intro": "Ten questions drawn from the Euronews stories of 9 November.",
   "questions": [
    {
-    "q": "By what margin did France's National Assembly reject the revenue part of the 2027 budget on 4 November?",
+    "q": "What sentence was Russell Brand given?",
     "options": [
-     "458 to 0",
-     "300 to 250",
-     "289 to 288",
-     "512 to 40"
+     "5 years",
+     "10 years and six months",
+     "15 years",
+     "2 years"
     ],
-    "answer": 0,
-    "explain": "458 votes to none, with two abstentions (Brussels Signal)."
+    "answer": 1,
+    "explain": "10 years and six months for rape and sexual assault (Euronews, 9 Nov)."
    },
    {
-    "q": "When does the French Senate begin examining the government's original budget draft?",
+    "q": "Where did the COP31 climate talks begin?",
     "options": [
-     "20 November",
-     "1 December",
-     "9 December",
-     "15 January"
-    ],
-    "answer": 0,
-    "explain": "From 20 November, with a vote scheduled for 9 December."
-   },
-   {
-    "q": "About how many people marched in France's 5 November strike, according to the authorities?",
-    "options": [
-     "600,000",
-     "60,000",
-     "6 million",
-     "1.5 million"
-    ],
-    "answer": 0,
-    "explain": "Authorities said about 600,000; unions claimed over 1.5 million."
-   },
-   {
-    "q": "Who scored Arsenal's winner against Hull City on 8 November?",
-    "options": [
-     "Martin Ødegaard",
-     "Bukayo Saka",
-     "Kai Havertz",
-     "Declan Rice"
-    ],
-    "answer": 0,
-    "explain": "Ødegaard scored in the 72nd minute for a 1–0 win."
-   },
-   {
-    "q": "How many Premier League games in a row had Manchester City lost after losing at Nottingham Forest?",
-    "options": [
-     "Three",
-     "One",
-     "Five",
-     "Two"
-    ],
-    "answer": 0,
-    "explain": "The 3–1 defeat was City's third straight, after seven straight wins."
-   },
-   {
-    "q": "Who scored twice for Nottingham Forest against Manchester City?",
-    "options": [
-     "Liam Delap",
-     "Jair Cunha",
-     "Rayan Cherki",
-     "Noah Okafor"
-    ],
-    "answer": 0,
-    "explain": "Delap scored in the 18th and 74th minutes."
-   },
-   {
-    "q": "Which team beat the Maple Leafs 4–2 on 7 November?",
-    "options": [
-     "Montreal Canadiens",
-     "Utah Mammoth",
-     "New Jersey Devils",
-     "Calgary Flames"
-    ],
-    "answer": 0,
-    "explain": "Montreal won behind two goals from Alex Newhook (Global News)."
-   },
-   {
-    "q": "What is the Maple Leafs' record after the 7 November game?",
-    "options": [
-     "8-8-2",
-     "10-6-1",
-     "7-4-2",
-     "8-7-2"
-    ],
-    "answer": 0,
-    "explain": "8 wins, 8 losses, 2 overtime losses."
-   },
-   {
-    "q": "Where are the Nitto ATP Finals being played from 15 to 22 November?",
-    "options": [
-     "Turin",
-     "London",
+     "Antalya, Turkey",
+     "Lisbon",
      "Paris",
-     "Melbourne"
+     "Dubai"
     ],
     "answer": 0,
-    "explain": "In Turin; the draw is on 12 November (ATP Tour)."
+    "explain": "Delegates arrived in Antalya (Euronews, 9 Nov)."
    },
    {
-    "q": "What did the Bank of England do on 5 November?",
+    "q": "How many victims were honoured after the Kraków market shooting?",
     "options": [
-     "Raised its key rate for the first time in over three years",
-     "Cut its key rate",
-     "Left rates unchanged",
-     "Sold gilts"
+     "Two",
+     "Four",
+     "Six",
+     "Ten"
+    ],
+    "answer": 2,
+    "explain": "Tusk and Nawrocki honoured six victims (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Which French leader announced a €24 monthly minimum-wage rise?",
+    "options": [
+     "Lecornu",
+     "Macron",
+     "Mélenchon",
+     "Barnier"
     ],
     "answer": 0,
-    "explain": "Euronews: first rate rise in over three years; Bank Rate went to 4.00%."
+    "explain": "Prime Minister Lecornu (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Which company's CEO, Jensen Huang, faces a spy-related probe?",
+    "options": [
+     "Tesla",
+     "Nvidia",
+     "Intel",
+     "Netflix"
+    ],
+    "answer": 1,
+    "explain": "Nvidia is investigating (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Who became the oldest ever Booker prize winner?",
+    "options": [
+     "M John Harrison",
+     "Ian McEwan",
+     "Zadie Smith",
+     "Kazuo Ishiguro"
+    ],
+    "answer": 0,
+    "explain": "For 'The End of Everything' (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Which pope visited Argentina?",
+    "options": [
+     "Francis",
+     "Leo XIV",
+     "Benedict XVI",
+     "John Paul II"
+    ],
+    "answer": 1,
+    "explain": "Pope Leo XIV was welcomed by Milei (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Where are Ukraine–Russia peace talks due?",
+    "options": [
+     "Geneva",
+     "Istanbul",
+     "Abu Dhabi",
+     "Vienna"
+    ],
+    "answer": 2,
+    "explain": "The EU will send a joint team (Euronews, 9 Nov)."
+   },
+   {
+    "q": "Storm Charles was forecast to hit which countries?",
+    "options": [
+     "Portugal and Spain",
+     "Italy and Greece",
+     "Norway and Sweden",
+     "UK and Ireland"
+    ],
+    "answer": 0,
+    "explain": "With winds up to 120 km/h (Euronews, 9 Nov)."
+   },
+   {
+    "q": "At least how many died in the steel plant explosion in Izmir province, Turkey?",
+    "options": [
+     "7",
+     "17",
+     "27",
+     "37"
+    ],
+    "answer": 1,
+    "explain": "At least 17 dead and 13 injured (Euronews, 9 Nov)."
    }
   ]
  }
