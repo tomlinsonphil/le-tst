@@ -1,8 +1,8 @@
 {
- "date": "2026-11-11",
- "label": "Wednesday 11 November 2026",
- "note": "Refresh of Wed 11 Nov 2026 (Toronto early morning). A limited run: the permitted feed URLs, the footballwebpages pages and most article pages were refused or unanswered, so the only page read in full was Euronews's 9 Nov archive list. New today are cards written from those Euronews headlines (headline-level facts only), a new Euronews list and a new quiz. Everything else keeps its own 'as of' date and is NOT re-verified; league tables, results and fixtures are stale.",
- "sport_note": "Wed 11 Nov 2026: score sites (footballwebpages, ATP, F1 pages) were refused or unreadable, so no sport panel was re-verified today. Each panel keeps its own 'as of' date.",
+ "date": "2026-11-12",
+ "label": "Thursday 12 November 2026",
+ "note": "Refresh of Thu 12 Nov 2026 (Toronto early morning). A limited run: only the Euronews RSS feed and three Euronews article pages could be read. The CP24, Al Jazeera, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused, so those outlets keep their last lists with honest dates. New today: Euronews headlines, three new cards, a new quiz. Everything else keeps its own 'as of' date and is NOT re-verified; league tables, results and fixtures are stale.",
+ "sport_note": "Thu 12 Nov 2026: score sites (footballwebpages, ATP, F1 pages) were refused or unreadable, so no sport panel was re-verified today. Each panel keeps its own 'as of' date.",
  "sections": [
   {
    "id": "headlines",
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Lecornu announces €24 monthly rise in minimum wage and tax breaks for firms",
-       "url": "https://www.euronews.com/2026/11/09/lecornu-announces-24-monthly-rise-in-minimum-wage-and-tax-breaks-for-firms",
-       "when": "9 Nov"
+       "t": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
+       "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
+       "when": "11 Nov"
       },
       {
-       "t": "Trump plans to meet Putin and Xi in China next week",
-       "url": "https://www.euronews.com/2026/11/09/donald-trump-plans-to-meet-vladimir-putin-and-xi-jinping-in-china-to-discuss-ending-iran-w",
-       "when": "9 Nov"
+       "t": "Zaporizhzhia mayor: city lives in constant fear as Russian attacks continue",
+       "url": "https://www.euronews.com/2026/11/11/zaporizhzhia-mayor-city-lives-in-constant-fear-as-russian-attacks-continue",
+       "when": "11 Nov"
       },
       {
-       "t": "British comedian Russell Brand sentenced to 10 years and six months for rape, sexual assault",
-       "url": "https://www.euronews.com/2026/11/09/british-comedian-russell-brand-sentenced-to-10-years-and-six-months-for-rape-sexual-assaul",
-       "when": "9 Nov"
+       "t": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply",
+       "url": "https://www.euronews.com/2026/11/11/german-tech-company-signs-60-million-contract-with-elon-musk-for-satellite-solar-cell-supp",
+       "when": "11 Nov"
       },
       {
-       "t": "Nvidia stock slides as company probes claims CEO was foreign intelligence target",
-       "url": "https://www.euronews.com/2026/11/09/nvidia-stock-slides-as-company-probes-claims-ceo-was-foreign-intelligence-target",
-       "when": "9 Nov"
+       "t": "Russian ambassador to the US dies, Russia's foreign ministry announced",
+       "url": "https://www.euronews.com/2026/11/11/russian-ambassador-to-the-us-dies-russias-foreign-ministry-announced",
+       "when": "11 Nov"
       },
       {
-       "t": "'We will not lower our ambition': Everything you need to know on day one of the COP31 climate talks",
-       "url": "https://www.euronews.com/2026/11/09/we-will-not-lower-our-ambition-everything-you-need-to-know-on-day-one-of-the-cop31-climate",
-       "when": "9 Nov"
+       "t": "Portugal closes all schools and non-essential services over Storm Charles",
+       "url": "https://www.euronews.com/2026/11/11/portugal-closes-all-schools-and-non-essential-services-over-storm-charles",
+       "when": "11 Nov"
       }
      ]
     },
@@ -174,6 +174,83 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Russia's ambassador to the US, Alexander Darchiev, dies suddenly",
+     "tag": "World · 11 Nov",
+     "gap": false,
+     "w": [
+      "Russia's ambassador to Washington, Alexander Darchiev, has died at 66. Moscow's foreign ministry announced it on X on Wednesday, saying he 'passed away suddenly' and giving no cause.",
+      "A veteran diplomat, Darchiev took over from Anatoly Antonov in early 2025 and had earlier served in Washington in the late 2000s and as ambassador to Canada from 2014 to 2021. His death lands just as Moscow and Washington are trying to repair ties damaged since 2022."
+     ],
+     "f": [
+      "Aged 66; died Wed 11 Nov 2026; cause not stated",
+      "Ambassador to Canada 2014–2021"
+     ],
+     "n": [
+      "An ambassador is a country's top official representative in another country, and the post is a main channel for sensitive talks.",
+      "Russia–US relations have been strained since Russia's 2022 invasion of Ukraine, so the empty seat matters at a delicate moment.",
+      "Russia will have to name a successor; no name was given in the report."
+     ],
+     "s": "Euronews, 11 Nov 2026 (article read in full)",
+     "links": [
+      {
+       "text": "Euronews: Russian ambassador to the US dies",
+       "url": "https://www.euronews.com/2026/11/11/russian-ambassador-to-the-us-dies-russias-foreign-ministry-announced"
+      }
+     ]
+    },
+    {
+     "t": "Storm Charles: Portugal shuts every school",
+     "tag": "Europe · 11 Nov",
+     "gap": false,
+     "w": [
+      "Portugal shut all of its roughly 8,000 schools and non-essential public services as Storm Charles closed in, an unprecedented step for a forecast storm, Euronews reports. Civil servants were told to work from home and Lisbon's streets emptied.",
+      "Forecasters expected gusts up to 140 km/h and heavy rain; coaches, trains, river links and flights were cut or cancelled and a major supermarket chain closed its stores. Then the storm split into two centres, and some red warnings were downgraded to orange, though winds and rain stay strong.",
+      "The caution comes after the deadly Storm Kristin earlier this year."
+     ],
+     "f": [
+      "About 8,000 schools closed",
+      "Gusts up to 140 km/h forecast",
+      "Some red warnings cut to orange after the storm split"
+     ],
+     "n": [
+      "Portugal's weather agency IPMA issues colour-coded warnings; red is the highest.",
+      "Atlantic storms hit Iberia in autumn and winter, and floods and power cuts are the usual damage.",
+      "Authorities acted early to avoid a repeat of Storm Kristin."
+     ],
+     "s": "Euronews, 11 Nov 2026 (article read in full)",
+     "links": [
+      {
+       "text": "Euronews: Portugal closes all schools over Storm Charles",
+       "url": "https://www.euronews.com/2026/11/11/portugal-closes-all-schools-and-non-essential-services-over-storm-charles"
+      }
+     ]
+    },
+    {
+     "t": "France honours 11 November: Macron's last as president",
+     "tag": "France · 11 Nov",
+     "gap": false,
+     "w": [
+      "Emmanuel Macron led the national armistice ceremony at the Arc de Triomphe on the 108th anniversary, his last 11 November as head of state. He reviewed troops, rekindled the Unknown Soldier's flame and named five service members who died since January.",
+      "The rivals went elsewhere: Marine Le Pen marked the day at Hénin-Beaumont, while Jean-Luc Mélenchon chose Gentioux-Pigerolles, a village memorial inscribed 'Cursed be war', and said France must not prepare for conflict."
+     ],
+     "f": [
+      "108th anniversary of the 1918 armistice",
+      "Le Pen: Hénin-Beaumont; Mélenchon: Gentioux-Pigerolles (Creuse)"
+     ],
+     "n": [
+      "11 November marks the 1918 armistice that ended fighting in the First World War and is a public holiday in France.",
+      "Several presidential hopefuls appear at ceremonies, so memory and politics overlap.",
+      "Mélenchon leads La France Insoumise; Le Pen the National Rally."
+     ],
+     "s": "Euronews, 11 Nov 2026 (article read in full)",
+     "links": [
+      {
+       "text": "Euronews: France's 11 November ceremonies",
+       "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism"
+      }
+     ]
+    },
     {
      "t": "Trump plans to meet Putin and Xi in China next week",
      "tag": "World · 9 Nov",
@@ -5886,118 +5963,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Wednesday 11 November 2026",
-  "intro": "Ten questions drawn from the Euronews stories of 9 November.",
+  "title": "TST News quiz · Thursday 12 November 2026",
+  "intro": "Ten questions drawn from the Euronews stories of 11 November.",
   "questions": [
    {
-    "q": "What sentence was Russell Brand given?",
+    "q": "Who is Russia's ambassador to the US who died on 11 November?",
     "options": [
-     "5 years",
-     "10 years and six months",
-     "15 years",
-     "2 years"
+     "Anatoly Antonov",
+     "Alexander Darchiev",
+     "Sergei Lavrov",
+     "Dmitry Peskov"
     ],
     "answer": 1,
-    "explain": "10 years and six months for rape and sexual assault (Euronews, 9 Nov)."
+    "explain": "Alexander Darchiev, aged 66 (Euronews, 11 Nov)."
    },
    {
-    "q": "Where did the COP31 climate talks begin?",
+    "q": "Which country was Darchiev ambassador to from 2014 to 2021?",
     "options": [
-     "Antalya, Turkey",
-     "Lisbon",
-     "Paris",
-     "Dubai"
+     "Canada",
+     "Japan",
+     "India",
+     "Germany"
     ],
     "answer": 0,
-    "explain": "Delegates arrived in Antalya (Euronews, 9 Nov)."
+    "explain": "Canada (Euronews, 11 Nov)."
    },
    {
-    "q": "How many victims were honoured after the Kraków market shooting?",
+    "q": "Roughly how many schools did Portugal close for Storm Charles?",
     "options": [
-     "Two",
-     "Four",
-     "Six",
-     "Ten"
+     "800",
+     "8,000",
+     "80,000",
+     "80"
+    ],
+    "answer": 1,
+    "explain": "About 8,000 (Euronews, 11 Nov)."
+   },
+   {
+    "q": "What peak gusts were forecast for Storm Charles?",
+    "options": [
+     "60 km/h",
+     "100 km/h",
+     "140 km/h",
+     "220 km/h"
     ],
     "answer": 2,
-    "explain": "Tusk and Nawrocki honoured six victims (Euronews, 9 Nov)."
+    "explain": "Up to 140 km/h (Euronews, 11 Nov)."
    },
    {
-    "q": "Which French leader announced a €24 monthly minimum-wage rise?",
+    "q": "Where did Macron lead the 11 November ceremony?",
     "options": [
-     "Lecornu",
-     "Macron",
-     "Mélenchon",
-     "Barnier"
+     "Arc de Triomphe",
+     "Versailles",
+     "Verdun",
+     "Notre-Dame"
     ],
     "answer": 0,
-    "explain": "Prime Minister Lecornu (Euronews, 9 Nov)."
+    "explain": "At the Arc de Triomphe (Euronews, 11 Nov)."
    },
    {
-    "q": "Which company's CEO, Jensen Huang, faces a spy-related probe?",
+    "q": "Which anniversary of the armistice was marked?",
     "options": [
-     "Tesla",
-     "Nvidia",
-     "Intel",
-     "Netflix"
+     "100th",
+     "108th",
+     "75th",
+     "90th"
     ],
     "answer": 1,
-    "explain": "Nvidia is investigating (Euronews, 9 Nov)."
+    "explain": "The 108th (Euronews, 11 Nov)."
    },
    {
-    "q": "Who became the oldest ever Booker prize winner?",
+    "q": "Where did Jean-Luc Mélenchon mark the day?",
     "options": [
-     "M John Harrison",
-     "Ian McEwan",
-     "Zadie Smith",
-     "Kazuo Ishiguro"
+     "Gentioux-Pigerolles",
+     "Marseille",
+     "Lille",
+     "Orange"
     ],
     "answer": 0,
-    "explain": "For 'The End of Everything' (Euronews, 9 Nov)."
+    "explain": "At the 'Cursed be war' memorial in Gentioux-Pigerolles, Creuse (Euronews, 11 Nov)."
    },
    {
-    "q": "Which pope visited Argentina?",
+    "q": "How much did the German firm's contract with Elon Musk's company reportedly total?",
     "options": [
-     "Francis",
-     "Leo XIV",
-     "Benedict XVI",
-     "John Paul II"
+     "€6 million",
+     "€60 million",
+     "€600 million",
+     "€6 billion"
     ],
     "answer": 1,
-    "explain": "Pope Leo XIV was welcomed by Milei (Euronews, 9 Nov)."
+    "explain": "€60 million, for satellite solar cells (Euronews, 11 Nov)."
    },
    {
-    "q": "Where are Ukraine–Russia peace talks due?",
+    "q": "How much did German ministries spend on office décor?",
     "options": [
-     "Geneva",
-     "Istanbul",
-     "Abu Dhabi",
-     "Vienna"
-    ],
-    "answer": 2,
-    "explain": "The EU will send a joint team (Euronews, 9 Nov)."
-   },
-   {
-    "q": "Storm Charles was forecast to hit which countries?",
-    "options": [
-     "Portugal and Spain",
-     "Italy and Greece",
-     "Norway and Sweden",
-     "UK and Ireland"
+     "€5.8 million",
+     "€58 million",
+     "€580,000",
+     "€58,000"
     ],
     "answer": 0,
-    "explain": "With winds up to 120 km/h (Euronews, 9 Nov)."
+    "explain": "€5.8 million, drawing criticism (Euronews, 11 Nov)."
    },
    {
-    "q": "At least how many died in the steel plant explosion in Izmir province, Turkey?",
+    "q": "Which Caribbean nation's highest court overturned a gay sex ban?",
     "options": [
-     "7",
-     "17",
-     "27",
-     "37"
+     "Jamaica",
+     "Trinidad and Tobago",
+     "Barbados",
+     "Bahamas"
     ],
     "answer": 1,
-    "explain": "At least 17 dead and 13 injured (Euronews, 9 Nov)."
+    "explain": "Trinidad and Tobago (Euronews, 11 Nov)."
    }
   ]
  }
