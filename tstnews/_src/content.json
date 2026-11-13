@@ -1,15 +1,15 @@
 {
- "date": "2026-11-12",
- "label": "Thursday 12 November 2026",
- "note": "Refresh of Thu 12 Nov 2026 (Toronto early morning). A limited run: only the Euronews RSS feed and three Euronews article pages could be read. The CP24, Al Jazeera, Global News and L'Écho du Mardi feeds and the footballwebpages pages were refused, so those outlets keep their last lists with honest dates. New today: Euronews headlines, three new cards, a new quiz. Everything else keeps its own 'as of' date and is NOT re-verified; league tables, results and fixtures are stale.",
- "sport_note": "Thu 12 Nov 2026: score sites (footballwebpages, ATP, F1 pages) were refused or unreadable, so no sport panel was re-verified today. Each panel keeps its own 'as of' date.",
+ "date": "2026-11-13",
+ "label": "Friday 13 November 2026",
+ "note": "Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
+ "sport_note": "Fri 13 Nov 2026: only Formula 1 (Crash.net standings after Brazil) and the Premier League weekend of 7-8 Nov (Outlook India) were re-read. Score sites such as footballwebpages, ATP and WTA were refused, so other sport panels keep their own 'as of' dates.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Feed URLs were refused again on 11 Nov. Euronews shows five stories from its 9 Nov archive page (read today); the other outlets keep earlier lists with their own dates.",
+   "intro": "Feed URLs were refused again on 13 Nov. Euronews shows five stories read from its home page today; Global News Toronto shows a list read today; the other outlets keep earlier lists with their own dates.",
    "items": [],
    "feeds": [
     {
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
-       "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
-       "when": "11 Nov"
+       "t": "Nvidia shares tumble as Jensen Huang steps down as CEO",
+       "url": "https://www.euronews.com/2026/11/12/nvidia-shares-tumble-as-jensen-huang-steps-down-as-ceo",
+       "when": "12 Nov"
       },
       {
-       "t": "Zaporizhzhia mayor: city lives in constant fear as Russian attacks continue",
-       "url": "https://www.euronews.com/2026/11/11/zaporizhzhia-mayor-city-lives-in-constant-fear-as-russian-attacks-continue",
-       "when": "11 Nov"
+       "t": "Witkoff and Kushner arrive in Moscow",
+       "url": "https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-",
+       "when": "12 Nov"
       },
       {
-       "t": "German tech company signs €60 million contract with Elon Musk for satellite solar cell supply",
-       "url": "https://www.euronews.com/2026/11/11/german-tech-company-signs-60-million-contract-with-elon-musk-for-satellite-solar-cell-supp",
-       "when": "11 Nov"
+       "t": "Ukraine envoy row hijacks EU leaders' first AI summit",
+       "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit",
+       "when": "13 Nov"
       },
       {
-       "t": "Russian ambassador to the US dies, Russia's foreign ministry announced",
-       "url": "https://www.euronews.com/2026/11/11/russian-ambassador-to-the-us-dies-russias-foreign-ministry-announced",
-       "when": "11 Nov"
+       "t": "Microsoft racing to fix global outage affecting Outlook, Teams and Copilot",
+       "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands",
+       "when": "12 Nov"
       },
       {
-       "t": "Portugal closes all schools and non-essential services over Storm Charles",
-       "url": "https://www.euronews.com/2026/11/11/portugal-closes-all-schools-and-non-essential-services-over-storm-charles",
-       "when": "11 Nov"
+       "t": "Two guards collapse beside Macron during official welcoming ceremony",
+       "url": "https://www.euronews.com/2026/11/12/two-guards-collapse-beside-macron-during-official-welcoming-ceremony",
+       "when": "12 Nov"
       }
      ]
     },
@@ -117,24 +117,29 @@
      "url": "https://globalnews.ca/toronto/",
      "items": [
       {
-       "t": "Patrick Stewart, ‘Star Trek: The Next Generation’ actor, dead at 86",
-       "url": "https://globalnews.ca/news/12126334/patrick-stewart-star-trek-dead/",
-       "when": "c. 29 Oct (date not shown in search)"
+       "t": "Genetic genealogy helps Toronto police identify man found dead in 1992",
+       "url": "https://globalnews.ca/news/12146122/genetic-genealogy-project-31-toronto-police-man-identified/",
+       "when": "Nov 11"
       },
       {
-       "t": "Competition Bureau ‘reviewing’ $17B DoorDash deal to acquire Instacart",
-       "url": "https://globalnews.ca/news/12125679/doordash-acquire-instacart-deal/",
-       "when": "c. 29 Oct (date not shown in search)"
+       "t": "Wealth gap between Montreal and Toronto remains steady, report finds",
+       "url": "https://globalnews.ca/news/12146043/montreal-toronto-wealth-gap/",
+       "when": "Nov 11"
       },
       {
-       "t": "Shooting at Bridle Path home sends 4 to hospital (video)",
-       "url": "https://globalnews.ca/video/12125795/shooting-at-bridle-path-home-sends-4-to-hospital/",
-       "when": "c. 29 Oct (date not shown in search)"
+       "t": "Toronto’s Edey finding footing with Grizzlies",
+       "url": "https://globalnews.ca/news/12144186/torontos-edey-finding-footing-with-grizzlies/",
+       "when": "Nov 10"
       },
       {
-       "t": "Global News at 6 Toronto: October 29, 2026 (video)",
-       "url": "https://globalnews.ca/video/12126776/global-news-at-6-toronto-october-29-2026/",
-       "when": "29 Oct"
+       "t": "Toronto Pearson, Durham region ER among possible measles exposure sites",
+       "url": "https://globalnews.ca/news/12141827/measles-exposure-toronto-pearson-durham-region/",
+       "when": "Nov 8"
+      },
+      {
+       "t": "Greater Toronto Area home sales down nearly 8% in October: real estate board",
+       "url": "https://globalnews.ca/news/12136224/toronto-area-home-sales-october-2026/",
+       "when": "Nov 4"
       }
      ]
     },
@@ -174,6 +179,42 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Witkoff and Kushner in Moscow as Europe pushes for a seat at Ukraine talks",
+     "tag": "World · 12–13 Nov",
+     "gap": false,
+     "w": [
+      "US envoys Steve Witkoff and Jared Kushner arrived in Moscow on Thursday 12 November to seek Vladimir Putin's blessing for bringing Europe into the Ukraine peace talks, according to Euronews headlines. By Friday the headline was that the envoys had met Putin while Europe pushed to join.",
+      "Moscow is playing it cool. Euronews's headline says Russia played down peace talks with Europe even after Witkoff raised hopes of a breakthrough, and a second says Europe has told Russia its security architecture is for Europeans to decide.",
+      "Only headlines were read, so what Putin said and what, if anything, was agreed is not verified."
+     ],
+     "f": [
+      "Witkoff and Kushner arrive in Moscow (Euronews, 12 Nov)",
+      "Russia plays down peace talks with Europe (Euronews, 12 Nov)",
+      "Europe: security architecture is for us to decide (Euronews, 12 Nov)",
+      "US envoys meet Putin as Europe pushes to join Ukraine talks (Euronews, 13 Nov)"
+     ],
+     "n": [
+      "Russia invaded Ukraine in 2022 and the war is still going. Washington has been trying to broker a deal, with Steve Witkoff and Jared Kushner as President Trump's envoys.",
+      "Europe pays much of the bill for Ukraine's defence and worries about being handed a settlement it had no part in negotiating, which is why it wants its own seat at the table.",
+      "Talks like these often produce statements of 'progress' long before any ceasefire; the useful signal is who is in the room."
+     ],
+     "s": "Euronews home page, read 13 Nov 2026 (headlines only; article bodies not opened)",
+     "links": [
+      {
+       "text": "Euronews: Witkoff and Kushner arrive in Moscow",
+       "url": "https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-"
+      },
+      {
+       "text": "Euronews: Russia plays down peace talks with Europe",
+       "url": "https://www.euronews.com/2026/11/12/russia-plays-down-peace-talks-with-europe-after-witkoff-raises-hopes-of-breakthrough"
+      },
+      {
+       "text": "Euronews: US envoys meet Putin as Europe pushes to join Ukraine talks",
+       "url": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks"
+      }
+     ]
+    },
     {
      "t": "Russia's ambassador to the US, Alexander Darchiev, dies suddenly",
      "tag": "World · 11 Nov",
@@ -1040,6 +1081,34 @@
      ]
     },
     {
+     "t": "GTA housing: October home sales down nearly 8%",
+     "tag": "Toronto · 4–11 Nov",
+     "gap": false,
+     "w": [
+      "Toronto's housing market cooled again in October. Global News reports Greater Toronto Area home sales fell nearly 8% in October, according to the real estate board, and a separate report says Toronto and Vancouver saw their first rent increase in nearly three years.",
+      "Only headlines from Global News's Toronto page were read, so the exact figures and the comparison period are not verified."
+     ],
+     "f": [
+      "GTA home sales down nearly 8% in October (Global News, 4 Nov)",
+      "Toronto and Vancouver: first rent rise in nearly 3 years (Global News, 5 Nov)"
+     ],
+     "n": [
+      "The Toronto Regional Real Estate Board publishes monthly sales and price data for the Greater Toronto Area, a widely quoted gauge of the market.",
+      "Falling sales alongside rising rents is a mixed signal for renters and would-be buyers, and interest rates are a main driver."
+     ],
+     "s": "Global News Toronto page, read 13 Nov 2026 (headlines only)",
+     "links": [
+      {
+       "text": "Global News: GTA home sales down nearly 8% in October",
+       "url": "https://globalnews.ca/news/12136224/toronto-area-home-sales-october-2026/"
+      },
+      {
+       "text": "Global News: Toronto and Vancouver first rent increase in nearly 3 years",
+       "url": "https://globalnews.ca/news/12138065/toronto-vancouver-rent-increase-2026/"
+      }
+     ]
+    },
+    {
      "t": "Alberta votes to stay in Canada",
      "tag": "Referendum result · 20 Oct",
      "gap": false,
@@ -1808,28 +1877,59 @@
    "id": "tech",
    "items": [
     {
-     "t": "Nvidia probes claims its CEO was a foreign intelligence target",
-     "tag": "Tech · 9 Nov",
+     "t": "Nvidia: Jensen Huang resigns as CEO; CFO Colette Kress steps in",
+     "tag": "Tech · 12 Nov",
      "gap": false,
      "w": [
-      "Nvidia is investigating claims that chief executive Jensen Huang was targeted by an alleged Chinese spy, and its shares slid on the news, Euronews reports. Trump called Huang an 'honorable guy' in a separate Euronews video report.",
-      "Only headlines were read, so the size of the share fall and the substance of the allegations are not verified."
+      "Nvidia's founder is gone. The company announced on Thursday 12 November that Jensen Huang has resigned as president, chief executive and board member, effective immediately, and Euronews reports the shares tumbled.",
+      "Chief financial officer Colette Kress, who has held that job since September 2013, becomes interim CEO while remaining CFO. The board is searching for a permanent successor, internal or external, and has named Harvey C. Jones, a former CEO and executive chairman of Synopsys, as its first-ever chair.",
+      "The timing is stark: Nvidia reports third-quarter fiscal 2027 results on Tuesday 17 November, with a call at 2 pm Pacific. The reason for Huang's departure and the size of the share fall were not verified; the resignation follows days of reports about a probe into claims he was targeted by an alleged Chinese spy."
      ],
      "f": [
-      "Nvidia stock slides as company probes claims (Euronews, 9 Nov)",
-      "Trump calls Huang an 'honorable guy' (Euronews video, 9 Nov)",
-      "Share price move: not verified"
+      "Resigned 12 Nov, effective immediately (NVIDIA announcement)",
+      "Interim CEO: Colette Kress (also CFO)",
+      "New board chair: Harvey C. Jones",
+      "Q3 results: Tue 17 Nov",
+      "Share fall: not verified"
      ],
      "n": [
-      "Nvidia designs the chips that power most AI systems, making it one of the world's most valuable companies and a focus of US–China tension.",
-      "A company investigating its own chief executive is unusual and moves markets because investors fear distraction or export-control fallout.",
-      "Allegations are not findings; the probe's outcome is not known."
+      "Nvidia designs the chips that power most AI systems, which has made it one of the world's most valuable companies. Jensen Huang co-founded it and has led it since the start.",
+      "When a founder-CEO leaves abruptly, investors worry about strategy and about who can fill the role. That is why such news moves markets.",
+      "An interim CEO is a stop-gap while the board looks for a permanent leader."
      ],
-     "s": "Euronews, 9 Nov 2026 (headline and list page read; article body not opened)",
+     "s": "NVIDIA announcement (SEC filing page) read 13 Nov 2026; Euronews headlines",
      "links": [
       {
-       "text": "Euronews: Nvidia stock slides",
-       "url": "https://www.euronews.com/2026/11/09/nvidia-stock-slides-as-company-probes-claims-ceo-was-foreign-intelligence-target"
+       "text": "Euronews: Nvidia shares tumble as Jensen Huang steps down",
+       "url": "https://www.euronews.com/2026/11/12/nvidia-shares-tumble-as-jensen-huang-steps-down-as-ceo"
+      },
+      {
+       "text": "Euronews: What is next for Nvidia after Huang resigns?",
+       "url": "https://www.euronews.com/2026/11/12/what-is-next-for-nvidia-after-ceo-jensen-huang-resigns"
+      }
+     ]
+    },
+    {
+     "t": "Microsoft outage hits Outlook, Teams and Copilot",
+     "tag": "Tech · 12 Nov",
+     "gap": false,
+     "w": [
+      "Email went quiet for thousands on Thursday 12 November. A Microsoft service interruption hit Outlook hardest, with Teams, Copilot and other Microsoft 365 tools also affected, and the Americas worst hit.",
+      "Downdetector logged more than 130,000 Outlook complaints in the US by about 1:30 pm Eastern, plus over 46,000 for Microsoft 365 and around 3,000 for Teams. Microsoft blamed part of its infrastructure for 'higher than normal load', said it was redistributing traffic, and reported Teams issues resolved in North America, though some users still had connection problems."
+     ],
+     "f": [
+      "130,000+ Outlook reports in the US by ~1:30 pm ET (Downdetector, via Euronews)",
+      "Cause given: 'higher than normal load'"
+     ],
+     "n": [
+      "Microsoft 365 bundles Outlook email, Teams chat and meetings, and Copilot, the AI assistant, into one cloud service that many offices rely on.",
+      "Downdetector counts user reports, so it shows scale and timing rather than an exact number of affected users."
+     ],
+     "s": "Euronews, 12 Nov 2026 (article read)",
+     "links": [
+      {
+       "text": "Euronews: Microsoft racing to fix global outage",
+       "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands"
       }
      ]
     },
@@ -5504,20 +5604,21 @@
   {
    "id": "f1",
    "title": "F1",
-   "summary": "Norris wins the Sao Paulo GP (provisional order, possible Ferrari penalty adjustments); Antonelli already champion.",
+   "summary": "Norris wins the Sao Paulo GP; Antonelli drivers' champion, Mercedes constructors' champions.",
    "intro": "Formula 1 championship.",
    "cards": [
     {
-     "t": "Formula 1: Norris wins in Sao Paulo; Antonelli already champion",
-     "tag": "Sao Paulo result Sun 8 Nov · Antonelli champion since 1 Nov",
+     "t": "Formula 1: Norris wins in Sao Paulo; Mercedes clinch constructors' title",
+     "tag": "Sao Paulo result Sun 8 Nov · Antonelli champion · Mercedes champions",
      "w": [
-      "Lando Norris converted pole into victory at the Sao Paulo Grand Prix on Sunday 8 November. On the order shown by racingnews365.com he finished 14.6 seconds clear of Max Verstappen, with Red Bull's Isack Hadjar third, Mercedes pair George Russell and Kimi Antonelli fourth and fifth, and Oscar Piastri sixth.",
-      "The same page carries a headline saying the results were adjusted after a Ferrari time penalty, so the order below is provisional; the Ferrari places (Leclerc eighth, Hamilton ninth) in particular may have changed. Drivers' and constructors' points after Brazil were not verified, so those tables still show the position after Mexico City.",
-      "The title was settled a week earlier: Kimi Antonelli clinched the world championship in Mexico City on 1 November, at 20 years and 68 days the youngest champion in Formula 1 history and the first Italian since Alberto Ascari in 1953."
+      "Lando Norris made it look easy in tricky Sao Paulo conditions. He started from pole on intermediate tyres, took the lead on lap 20 when Kimi Antonelli spun at Turn 1 in front of him, and won by 14.6 seconds from Max Verstappen, who recovered from 21st on the grid (Silverstone report, 9 Nov).",
+      "Isack Hadjar was third for Red Bull. George Russell recovered from a spin on his pit exit to take fourth after Antonelli let him through, and fifth place for Antonelli was enough, with Russell's fourth, to clinch the 2026 constructors' title for Mercedes. Lewis Hamilton started 20th and finished ninth.",
+      "Antonelli had already clinched the drivers' crown in Mexico City on 1 November, at 20 years and 68 days the youngest champion in F1 history. He leads Verstappen 390 to 279 with three rounds left."
      ],
      "f": [
-      "Sao Paulo (provisional): 1 Norris, 2 Verstappen +14.602s, 3 Hadjar, 4 Russell, 5 Antonelli, 6 Piastri",
-      "Antonelli: champion, 20 years 68 days",
+      "Sao Paulo: 1 Norris, 2 Verstappen +14.602s, 3 Hadjar, 4 Russell, 5 Antonelli, 6 Piastri",
+      "Drivers: Antonelli champion, 390 pts; Verstappen 279; Russell 262 (Crash.net)",
+      "Constructors: Mercedes champions, 652; Ferrari 510",
       "Next: Las Vegas GP, 19 to 21 Nov (calendar, not re-checked)"
      ],
      "n": [
@@ -5526,20 +5627,20 @@
       "A separate constructors' championship adds up both of a team's drivers' points. Teams care about it because the prize money depends on it.",
       "The sport changed its rules for 2026, with new engines and chassis regulations, which is one reason the order at the front looks different from recent years."
      ],
-     "s": "As of Mon 9 Nov 2026 · racingnews365.com (provisional; penalty adjustments not read) and Al Jazeera for Mexico City",
+     "s": "As of Fri 13 Nov 2026 · Silverstone race report (9 Nov), Crash.net standings after Brazil (8 Nov)",
      "links": [
       {
-       "text": "RacingNews365: Sao Paulo GP results",
-       "url": "https://racingnews365.com/f1/races/sao-paulo-gp/results"
+       "text": "Silverstone: Sao Paulo GP results",
+       "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+      },
+      {
+       "text": "Crash.net: F1 standings after the Brazil GP",
+       "url": "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix"
       },
       {
        "text": "Al Jazeera: Antonelli becomes Formula One's youngest world champion",
        "url": "https://www.aljazeera.com/sports/2026/11/2/kimi-antonelli-becomes-formula-ones-youngest-world-champion-in-mexico-city",
        "syn": "Antonelli clinched the title with third place in Mexico City, aged 20 years 68 days, ahead of Vettel's record; Verstappen won and Mercedes lead Ferrari 630-504 in the constructors' standings."
-      },
-      {
-       "text": "PlanetF1: Mexico City GP 2026 race results",
-       "url": "https://www.planetf1.com/news/f1-results-mexico-city-grand-prix-2026-race"
       }
      ]
     },
@@ -5577,7 +5678,7 @@
       {
        "id": "f1-sp",
        "title": "Sao Paulo Grand Prix result (Sun 8 Nov, provisional)",
-       "asof": "Sun 8 Nov 2026 · racingnews365.com; the page notes results adjusted after a Ferrari time penalty, so positions may have changed",
+       "asof": "Sun 8 Nov 2026 · Silverstone report (9 Nov); order matches racingnews365; Bearman 17th with a 5-second penalty",
        "source": "racingnews365.com",
        "cols": [
         "Pos",
@@ -5716,9 +5817,9 @@
       },
       {
        "id": "f1-drivers",
-       "title": "Drivers' championship top 10 (after Mexico City GP)",
-       "asof": "after the Mexico City GP, 1 Nov 2026 (gpblog.com standings page; the top six agree with Al Jazeera's 130-point Antonelli–Russell gap; places 7–10 may not include post-race penalties) · NOT updated for Sao Paulo (points after Brazil not verified)",
-       "source": "gpblog.com",
+       "title": "Drivers' championship top 10 (after Sao Paulo GP)",
+       "asof": "after the Sao Paulo GP, 8 Nov 2026 (Crash.net)",
+       "source": "crash.net",
        "cols": [
         "Pos",
         "Driver",
@@ -5730,77 +5831,77 @@
          1,
          "Kimi Antonelli",
          "Mercedes",
-         380
+         390
         ],
         [
          2,
          "Max Verstappen",
          "Red Bull Racing",
-         261
+         279
         ],
         [
          3,
-         "Lewis Hamilton",
-         "Ferrari",
-         259
+         "George Russell",
+         "Mercedes",
+         262
         ],
         [
          4,
-         "George Russell",
-         "Mercedes",
-         250
+         "Lewis Hamilton",
+         "Ferrari",
+         261
         ],
         [
          5,
          "Charles Leclerc",
          "Ferrari",
-         245
+         249
         ],
         [
          6,
          "Lando Norris",
          "McLaren",
-         221
+         246
         ],
         [
          7,
          "Oscar Piastri",
          "McLaren",
-         150
+         152
         ],
         [
          8,
          "Isack Hadjar",
          "Red Bull Racing",
-         105
+         122
         ],
         [
          9,
          "Liam Lawson",
          "Racing Bulls",
-         79
+         89
         ],
         [
          10,
          "Pierre Gasly",
          "Alpine",
-         43
+         42
         ]
        ],
        "movement": true,
        "key": 1,
        "links": [
         {
-         "text": "GPblog: Mexico results and standings",
-         "url": "https://www.gpblog.com/en/news/f1-full-results-antonelli-becomes-f1s-youngest-ever-champion-in-mexico"
+         "text": "Crash.net: standings after the Brazil GP",
+         "url": "https://www.crash.net/f1/news/1110014/1/new-f1-championship-standings-after-brazil-grand-prix"
         }
        ]
       },
       {
        "id": "f1-cons",
-       "title": "Constructors' championship",
-       "asof": "after the Mexico City GP, 1 Nov 2026: only the top two are verified (Al Jazeera); other teams not re-checked since the Singapore GP (11 Oct) and are no longer shown · NOT updated for Sao Paulo (points after Brazil not verified)",
-       "source": "Al Jazeera",
+       "title": "Constructors' championship (after Sao Paulo GP)",
+       "asof": "after the Sao Paulo GP, 8 Nov 2026 (Crash.net). Crash.net's Red Bull (415) and Racing Bulls (114) totals do not match their drivers' sums (401, 128), so those two may be off.",
+       "source": "crash.net",
        "cols": [
         "Pos",
         "Team",
@@ -5810,12 +5911,57 @@
         [
          1,
          "Mercedes",
-         630
+         652
         ],
         [
          2,
          "Ferrari",
-         504
+         510
+        ],
+        [
+         3,
+         "Red Bull Racing",
+         415
+        ],
+        [
+         4,
+         "McLaren",
+         398
+        ],
+        [
+         5,
+         "Racing Bulls",
+         114
+        ],
+        [
+         6,
+         "Alpine",
+         69
+        ],
+        [
+         7,
+         "Haas",
+         31
+        ],
+        [
+         8,
+         "Audi",
+         28
+        ],
+        [
+         9,
+         "Williams",
+         12
+        ],
+        [
+         10,
+         "Aston Martin",
+         7
+        ],
+        [
+         11,
+         "Cadillac",
+         0
         ]
        ],
        "movement": false,
@@ -5963,118 +6109,118 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Thursday 12 November 2026",
-  "intro": "Ten questions drawn from the Euronews stories of 11 November.",
+  "title": "TST News quiz · Friday 13 November 2026",
+  "intro": "Ten questions drawn from the stories read on 12 and 13 November.",
   "questions": [
    {
-    "q": "Who is Russia's ambassador to the US who died on 11 November?",
+    "q": "Who has become interim CEO of Nvidia after Jensen Huang resigned on 12 November?",
     "options": [
-     "Anatoly Antonov",
-     "Alexander Darchiev",
-     "Sergei Lavrov",
-     "Dmitry Peskov"
+     "Harvey C. Jones",
+     "Colette Kress",
+     "Lisa Su",
+     "Tim Cook"
     ],
     "answer": 1,
-    "explain": "Alexander Darchiev, aged 66 (Euronews, 11 Nov)."
+    "explain": "Colette Kress, the CFO since 2013, is interim CEO and stays CFO (NVIDIA announcement)."
    },
    {
-    "q": "Which country was Darchiev ambassador to from 2014 to 2021?",
+    "q": "Who is Nvidia's first-ever board chair?",
     "options": [
-     "Canada",
-     "Japan",
-     "India",
-     "Germany"
+     "Harvey C. Jones",
+     "Colette Kress",
+     "Jensen Huang",
+     "Satya Nadella"
     ],
     "answer": 0,
-    "explain": "Canada (Euronews, 11 Nov)."
+    "explain": "Harvey C. Jones, a former Synopsys CEO (NVIDIA announcement)."
    },
    {
-    "q": "Roughly how many schools did Portugal close for Storm Charles?",
+    "q": "When does Nvidia report its third-quarter fiscal 2027 results?",
     "options": [
-     "800",
-     "8,000",
-     "80,000",
-     "80"
+     "Monday 16 November",
+     "Tuesday 17 November",
+     "Thursday 19 November",
+     "Friday 13 November"
     ],
     "answer": 1,
-    "explain": "About 8,000 (Euronews, 11 Nov)."
+    "explain": "Tuesday 17 November (NVIDIA announcement)."
    },
    {
-    "q": "What peak gusts were forecast for Storm Charles?",
+    "q": "Which two US envoys arrived in Moscow on 12 November to see Vladimir Putin?",
     "options": [
-     "60 km/h",
-     "100 km/h",
-     "140 km/h",
-     "220 km/h"
+     "Rubio and Vance",
+     "Witkoff and Kushner",
+     "Hegseth and Bessent",
+     "Rubio and Witkoff"
+    ],
+    "answer": 1,
+    "explain": "Steve Witkoff and Jared Kushner (Euronews, 12 Nov)."
+   },
+   {
+    "q": "Who won the Sao Paulo Grand Prix on Sunday 8 November?",
+    "options": [
+     "Max Verstappen",
+     "Kimi Antonelli",
+     "Lando Norris",
+     "George Russell"
     ],
     "answer": 2,
-    "explain": "Up to 140 km/h (Euronews, 11 Nov)."
+    "explain": "Lando Norris, from pole (Silverstone report)."
    },
    {
-    "q": "Where did Macron lead the 11 November ceremony?",
+    "q": "Which team clinched the 2026 constructors' title in Brazil?",
     "options": [
-     "Arc de Triomphe",
-     "Versailles",
-     "Verdun",
-     "Notre-Dame"
+     "Ferrari",
+     "Red Bull",
+     "McLaren",
+     "Mercedes"
+    ],
+    "answer": 3,
+    "explain": "Mercedes, with Russell fourth and Antonelli fifth (Silverstone report); they have 652 points (Crash.net)."
+   },
+   {
+    "q": "How many points does champion Kimi Antonelli have after Brazil?",
+    "options": [
+     "390",
+     "279",
+     "262",
+     "246"
     ],
     "answer": 0,
-    "explain": "At the Arc de Triomphe (Euronews, 11 Nov)."
+    "explain": "390, against Verstappen's 279 (Crash.net)."
    },
    {
-    "q": "Which anniversary of the armistice was marked?",
+    "q": "Which Premier League side beat Manchester City 3–1 on 8 November, City's third straight league defeat?",
     "options": [
-     "100th",
-     "108th",
-     "75th",
-     "90th"
+     "Aston Villa",
+     "Nottingham Forest",
+     "Leeds United",
+     "Hull City"
     ],
     "answer": 1,
-    "explain": "The 108th (Euronews, 11 Nov)."
+    "explain": "Nottingham Forest; Liam Delap scored twice (Outlook India)."
    },
    {
-    "q": "Where did Jean-Luc Mélenchon mark the day?",
+    "q": "How far clear of Manchester City did Arsenal go after beating Hull City 1–0?",
     "options": [
-     "Gentioux-Pigerolles",
-     "Marseille",
-     "Lille",
-     "Orange"
+     "Two points",
+     "Three points",
+     "Six points",
+     "Ten points"
     ],
-    "answer": 0,
-    "explain": "At the 'Cursed be war' memorial in Gentioux-Pigerolles, Creuse (Euronews, 11 Nov)."
+    "answer": 2,
+    "explain": "Six points, thanks to Martin Ødegaard's 72nd-minute goal (Outlook India)."
    },
    {
-    "q": "How much did the German firm's contract with Elon Musk's company reportedly total?",
+    "q": "Roughly how many Outlook complaints did Downdetector log in the US during Thursday's Microsoft outage?",
     "options": [
-     "€6 million",
-     "€60 million",
-     "€600 million",
-     "€6 billion"
+     "13,000",
+     "46,000",
+     "130,000",
+     "3,000"
     ],
-    "answer": 1,
-    "explain": "€60 million, for satellite solar cells (Euronews, 11 Nov)."
-   },
-   {
-    "q": "How much did German ministries spend on office décor?",
-    "options": [
-     "€5.8 million",
-     "€58 million",
-     "€580,000",
-     "€58,000"
-    ],
-    "answer": 0,
-    "explain": "€5.8 million, drawing criticism (Euronews, 11 Nov)."
-   },
-   {
-    "q": "Which Caribbean nation's highest court overturned a gay sex ban?",
-    "options": [
-     "Jamaica",
-     "Trinidad and Tobago",
-     "Barbados",
-     "Bahamas"
-    ],
-    "answer": 1,
-    "explain": "Trinidad and Tobago (Euronews, 11 Nov)."
+    "answer": 2,
+    "explain": "More than 130,000 by about 1:30 pm Eastern (Euronews, 12 Nov)."
    }
   ]
  }
