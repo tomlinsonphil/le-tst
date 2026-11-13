@@ -3837,9 +3837,8 @@
       }
      ],
      "f": [
-      "Top 14 after 6 rounds: Toulouse 24, Pau 22, Bordeaux-Bègles 19 (no games since Sun 11 Oct)",
-      "Premiership Round 4: Fri 23 – Sun 25 Oct; URC Round 4: Fri 23 – Sat 24 Oct (Leinster v Munster)",
-      "Nations Championship: second window 6, 13, 21 Nov; finals 27–29 Nov at Twickenham"
+      "Round 5: France v South Africa tonight; round 6 on Sat 21 Nov",
+      "Finals at Twickenham, 27 to 29 Nov"
      ]
     },
     {
@@ -3883,7 +3882,7 @@
     {
      "id": "rugby",
      "title": "Rugby union",
-     "intro": "Top 14, the URC and the Premiership.",
+     "intro": "International rugby only: Nations Championship standings and fixtures.",
      "panels": [
       {
        "id": "nations-table",
