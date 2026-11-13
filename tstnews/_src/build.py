@@ -170,7 +170,7 @@ def panel_html(p, prev_data):
 
 
 def masthead(data, prefix, current, archive_date, dates):
-    secs = [('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money'), ('Sport', 'sport')]
+    secs = [('Fixtures', 't-fix'), ('Headlines', 'headlines'), ('World', 'world'), ('France', 'france'), ('Toronto', 'toronto'), ('UK', 'uk'), ('Tech', 'tech'), ('Following', 'following'), ('Economics', 'money'), ('Sport', 'sport')]
     
     pages = [('Today' if not archive_date else 'Latest', f'{prefix}/', 'home')] + [(n, f'{prefix}/#{i}', 'sec-' + i) for n, i in secs] + [('Quiz', f'{prefix}/quiz/', 'quiz'), ('Archive', f'{BASE}/archive/', 'archive')]
     sportpages = [('Sport', f'{prefix}/#sport', 'sport-home')] + [(sp['title'], f'{prefix}/{sp["id"]}/', sp['id']) for sp in data.get('sports', [])]
@@ -206,8 +206,32 @@ def current_path(current):
     return '' if current in ('home', 'archive') else f'{current}/'
 
 
+def today_html(data):
+    t = data.get('today')
+    if not t:
+        return ''
+    h = [f'<section class="sec today" id="today"><h2>{esc(t["title"])}</h2><p class="intro">{esc(t["intro"])}</p><p class="stamp">{esc(t.get("stamp", ""))}</p>']
+    h.append('<div class="tgrid">')
+    for blk in t['blocks']:
+        h.append(f'<section class="tblock" id="{esc(blk["id"])}"><h3>{esc(blk["title"])}</h3><ul>')
+        for it in blk['items']:
+            ttl = f'<a href="{esc(it["url"])}">{esc(it["t"])}</a>' if it.get('url') else esc(it['t'])
+            meta = ' · '.join(x for x in (it.get('when'), it.get('src')) if x)
+            h.append(f'<li><b>{ttl}</b><p>{esc(it["b"])}</p>' + (f'<span>{esc(meta)}</span>' if meta else '') + '</li>')
+        h.append('</ul></section>')
+    h.append('</div>')
+    h.append('<section class="tblock fix" id="t-fix"><h3>Must-watch fixtures: the next ten days</h3>')
+    for day in t['fixtures']:
+        h.append(f'<h4>{esc(day["day"])}</h4><ul class="fx">' + ''.join(
+            f'<li><i>{esc(r[0])}</i><span>{esc(r[1])}</span><em>{esc(r[2])}</em></li>' for r in day['rows']) + '</ul>')
+    h.append(f'<p class="stamp">{esc(t.get("fixnote", ""))}</p></section>')
+    h.append('<h2 class="bg">Background and ongoing</h2></section>')
+    return ''.join(h)
+
+
 def home_page(data, prefix, archive_date, dates, prev_data):
     h = [HEAD.format(ver=CSSVER, title='TST News', base=BASE), masthead(data, prefix, 'home', archive_date, dates)]
+    h.append(today_html(data))
     h.append(f'<p class="note">{esc(data.get("note", ""))}</p>')
     for sec in data['sections']:
         h.append(f'<section class="sec" id="{esc(sec["id"])}"><h2>{esc(sec["title"])}</h2>' + (f'<p class="intro">{esc(sec["intro"])}</p>' if sec.get("intro") else ''))

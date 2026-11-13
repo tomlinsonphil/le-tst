@@ -101,3 +101,7 @@ Top row (sticky): Today, Headlines, World, France, Toronto, UK, Tech, Following,
 ## Link synopses (toggle)
 
 Any link in a card's `links` or any Headlines feed item may carry an optional `syn` (1 to 2 sentences, max about 45 words, neutral, written only from the page actually read). build.py shows a small "Synopsis ▾" toggle after the link that reveals it. No `syn` means no toggle. Never write a synopsis for a page you could not read; skipping is fine. Synopses are written fresh for each day's new links; older links keep theirs.
+
+## Today block (fresh news only)
+
+`content.json` key `today` drives the top of the Today page: `{title, intro, stamp, blocks[], fixtures[], fixnote}`. Phil wants it to be a review of fresh headlines and breaking news only (last day or two): `blocks[]` are World, Local (Toronto, France, UK) and Sport results, each with `items[{t, b, when, src, url}]`; `fixtures[]` is the next ten days of top-level sport as `{day, rows[[sport, event, time]]}` so no important fixture is missed (rugby autumn internationals, England and other football internationals, Premier League return, ATP Finals, F1, Leafs, European club football and anything else top level). Show UK or local time plus Toronto (ET). Rewrite it completely every day; nothing ongoing belongs there (that stays in the sections below, under "Background and ongoing"). Say plainly when only a headline was read, and list what could not be verified. Rendered by `today_html()` in build.py.

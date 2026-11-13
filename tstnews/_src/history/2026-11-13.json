@@ -1,7 +1,7 @@
 {
  "date": "2026-11-13",
  "label": "Friday 13 November 2026",
- "note": "Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
+ "note": "Fri 13 Nov 2026 refresh. The Today block at the top is a fresh-news briefing; the sections below it are ongoing background. Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
  "sport_note": "Fri 13 Nov 2026: only Formula 1 (Crash.net standings after Brazil) and the Premier League weekend of 7-8 Nov (Outlook India) were re-read. Score sites such as footballwebpages, ATP and WTA were refused, so other sport panels keep their own 'as of' dates.",
  "sections": [
   {
@@ -6223,5 +6223,296 @@
     "explain": "More than 130,000 by about 1:30 pm Eastern (Euronews, 12 Nov)."
    }
   ]
+ },
+ "today": {
+  "title": "Today: what's new",
+  "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
+  "stamp": "Compiled Fri 13 Nov 2026, early morning in Toronto. Headlines were read from Euronews and Global News; where only a headline was read, the line says so.",
+  "blocks": [
+   {
+    "id": "t-world",
+    "title": "World: breaking",
+    "items": [
+     {
+      "t": "Witkoff and Kushner in Moscow, Europe pushes for a seat at the table",
+      "b": "US envoys arrived in Moscow on Thursday seeking Putin's blessing to bring Europe into the Ukraine talks. Russia played down talks with Europe, and Europe replied that its security architecture is for Europeans to decide. Headlines only.",
+      "when": "12–13 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks"
+     },
+     {
+      "t": "Nvidia CEO Jensen Huang resigns",
+      "b": "Huang quit as president, CEO and board member effective immediately; CFO Colette Kress is interim CEO and Harvey C. Jones is the first board chair. Nvidia reports quarterly results Tuesday 17 November. Shares tumbled (size of fall not verified).",
+      "when": "12 Nov",
+      "src": "Euronews / NVIDIA",
+      "url": "https://www.euronews.com/2026/11/12/nvidia-shares-tumble-as-jensen-huang-steps-down-as-ceo"
+     },
+     {
+      "t": "Microsoft outage hits Outlook, Teams and Copilot",
+      "b": "More than 130,000 Outlook complaints were logged in the US by about 1:30 pm Eastern on Thursday; Microsoft blamed 'higher than normal load' and said Teams was resolved in North America.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands"
+     },
+     {
+      "t": "One dead in gym shooting near the White House",
+      "b": "One person was killed and four injured in a gym shooting in Washington DC, and the gunman barricaded himself in a building, according to the headline. Details beyond that were not read.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc"
+     },
+     {
+      "t": "Zelenskyy: Starlink restrictions are back in Ukraine",
+      "b": "The Ukrainian president says Starlink is again facing restrictions, hampering Russian drone interception. Headline only.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti"
+     },
+     {
+      "t": "Van Hollen to challenge Schumer for Senate Democratic leader",
+      "b": "Maryland senator Chris Van Hollen will run against Chuck Schumer for Senate majority leader, Euronews reports. Headline only.",
+      "when": "13 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
+     },
+     {
+      "t": "Mercedes-Benz halts new investment in German plants",
+      "b": "The carmaker has stopped new investment in its German plants and is considering closures, per the headline.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures"
+     }
+    ]
+   },
+   {
+    "id": "t-local",
+    "title": "Local: Toronto, France, UK",
+    "items": [
+     {
+      "t": "Toronto: genetic genealogy identifies man found dead in 1992",
+      "b": "Toronto police used genetic genealogy to name a man found dead in 1992. Headline only.",
+      "when": "11 Nov",
+      "src": "Global News",
+      "url": "https://globalnews.ca/news/12146122/genetic-genealogy-project-31-toronto-police-man-identified/"
+     },
+     {
+      "t": "Toronto: possible measles exposure at Pearson and a Durham ER",
+      "b": "Toronto Pearson airport and a Durham region emergency room are among possible measles exposure sites. Headline only; check public health for dates.",
+      "when": "8 Nov",
+      "src": "Global News",
+      "url": "https://globalnews.ca/news/12141827/measles-exposure-toronto-pearson-durham-region/"
+     },
+     {
+      "t": "Toronto: Maple Leafs lose 6–3 to Colorado",
+      "b": "The Leafs' slide continued on Tuesday 10 November. They host Edmonton on Saturday (see fixtures below).",
+      "when": "10 Nov",
+      "src": "Daily Faceoff schedule page",
+      "url": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/schedule/2026-11-10"
+     },
+     {
+      "t": "France: bomb threats hit schools in Italy and France",
+      "b": "A second day of school bomb threats in Italy, and threats in France too, according to the headline.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/italy-hit-by-second-day-of-school-bomb-threats-as-meloni-summons-opposition"
+     },
+     {
+      "t": "France: two guards collapse beside Macron at a welcoming ceremony",
+      "b": "Two guards collapsed next to the president during an official welcome ceremony. Headline only.",
+      "when": "12 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/12/two-guards-collapse-beside-macron-during-official-welcoming-ceremony"
+     },
+     {
+      "t": "France: pupils step up protests",
+      "b": "French school pupils escalated protests after government concessions fell flat, Euronews reported on 10 November.",
+      "when": "10 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/10/french-pupils-step-up-protests-as-government-concessions-fall-flat"
+     },
+     {
+      "t": "UK: five EU countries demand Britain pays for electricity market access",
+      "b": "Five EU states want the UK to pay to stay in the bloc's electricity market, per the headline.",
+      "when": "10 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/10/five-eu-countries-demand-uk-pays-for-electricity-market-access"
+     },
+     {
+      "t": "Gaps: Sablet, Vaison-la-Romaine, Orange, Avignon, London, Windsor, Bournemouth, Finchampstead",
+      "b": "No fresh local story could be verified for these today (the L'Écho du Mardi feed was refused).",
+      "when": "13 Nov",
+      "src": "",
+      "url": ""
+     }
+    ]
+   },
+   {
+    "id": "t-sport",
+    "title": "Sport: fresh results",
+    "items": [
+     {
+      "t": "Premier League: Arsenal six clear as City lose a third in a row",
+      "b": "Arsenal 1–0 Hull (Ødegaard 72'), Forest 3–1 Man City, Leeds 1–0 Spurs, Newcastle 1–1 Fulham, on 8 November. The league is now on the international break until Saturday 21 November.",
+      "when": "8 Nov",
+      "src": "Outlook India",
+      "url": "https://www.outlookindia.com/sports/football/premier-league-2026-27-nottingham-forest-vs-manchester-city-arsenal-v-hull-city-report"
+     },
+     {
+      "t": "F1: Norris wins in Sao Paulo, Mercedes take the constructors' title",
+      "b": "Antonelli is already champion with 390 points; Verstappen is second on 279. Las Vegas is next.",
+      "when": "8 Nov",
+      "src": "Silverstone / Crash.net",
+      "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
+     },
+     {
+      "t": "NHL: Leafs lose to Montreal 4–2 and Colorado 6–3",
+      "b": "Toronto were 8-8-2 after the Montreal loss on 7 November; the Colorado defeat followed on 10 November. The Thursday 12 November game at Minnesota was not verified.",
+      "when": "7–10 Nov",
+      "src": "NHL.com / Daily Faceoff",
+      "url": "https://nhl.com/news/montreal-canadiens-toronto-maple-leafs-game-recap-november-7-2026"
+     },
+     {
+      "t": "Not verified today",
+      "b": "England v Croatia (Thu 12 Nov), the ATP Finals draw, Ligue 1, Championship, cricket, basketball and baseball results.",
+      "when": "",
+      "src": "",
+      "url": ""
+     }
+    ]
+   }
+  ],
+  "fixtures": [
+   {
+    "day": "Fri 13 Nov",
+    "rows": [
+     [
+      "Rugby",
+      "France v South Africa, Stade de France, Paris",
+      "8:10 pm UK / 3:10 pm ET"
+     ]
+    ]
+   },
+   {
+    "day": "Sat 14 Nov",
+    "rows": [
+     [
+      "Rugby",
+      "Italy v Argentina, Genoa",
+      "11:40 am UK / 6:40 am ET"
+     ],
+     [
+      "Rugby",
+      "Wales v New Zealand, Cardiff",
+      "2:10 pm UK / 9:10 am ET"
+     ],
+     [
+      "Rugby",
+      "England v Japan, Twickenham",
+      "4:40 pm UK / 11:40 am ET"
+     ],
+     [
+      "Rugby",
+      "Ireland v Fiji, Dublin",
+      "8:10 pm UK / 3:10 pm ET"
+     ],
+     [
+      "NHL",
+      "Maple Leafs v Edmonton Oilers",
+      "7:00 pm ET"
+     ]
+    ]
+   },
+   {
+    "day": "Sun 15 Nov",
+    "rows": [
+     [
+      "Football",
+      "Spain v England, Madrid (Nations League)",
+      "7:45 pm UK / 2:45 pm ET"
+     ],
+     [
+      "Rugby",
+      "Scotland v Australia, Murrayfield",
+      "3:10 pm UK / 10:10 am ET"
+     ],
+     [
+      "Tennis",
+      "ATP Finals, Turin: round-robin begins (to Fri 20 Nov)",
+      "Singles from 2 pm and 8:30 pm local"
+     ]
+    ]
+   },
+   {
+    "day": "Tue 17 Nov",
+    "rows": [
+     [
+      "Markets",
+      "Nvidia third-quarter results (first since Huang's exit)",
+      "1:20 pm PT / 4:20 pm ET"
+     ]
+    ]
+   },
+   {
+    "day": "Thu 19 to Sat 21 Nov",
+    "rows": [
+     [
+      "F1",
+      "Las Vegas GP: first practice Thu 19 Nov 4:30 pm PT; qualifying Fri 20 Nov 8 pm PT (11 pm ET)",
+      "See times"
+     ],
+     [
+      "F1",
+      "Las Vegas Grand Prix race, Sat 21 Nov",
+      "8:00 pm PT / 11:00 pm ET (4 am UK Sun)"
+     ]
+    ]
+   },
+   {
+    "day": "Sat 21 Nov",
+    "rows": [
+     [
+      "Football",
+      "Premier League returns after the international break",
+      "Fixtures not yet read"
+     ],
+     [
+      "Tennis",
+      "ATP Finals semi-finals (final Sun 22 Nov, singles 6 pm local)",
+      "From 2:30 pm local"
+     ],
+     [
+      "Rugby",
+      "England v New Zealand, Twickenham",
+      "2:10 pm UK / 9:10 am ET"
+     ],
+     [
+      "Rugby",
+      "Scotland v Japan, Murrayfield",
+      "2:10 pm UK / 9:10 am ET"
+     ],
+     [
+      "Rugby",
+      "Ireland v South Africa, Dublin",
+      "4:40 pm UK / 11:40 am ET"
+     ],
+     [
+      "Rugby",
+      "Italy v Fiji, Udine",
+      "4:40 pm UK / 11:40 am ET"
+     ],
+     [
+      "Rugby",
+      "France v Argentina, Paris",
+      "8:10 pm UK / 3:10 pm ET"
+     ],
+     [
+      "Rugby",
+      "Wales v Australia, Cardiff",
+      "8:10 pm UK / 3:10 pm ET"
+     ]
+    ]
+   }
+  ],
+  "fixnote": "Sources: autumn-internationals.co.uk (rugby, UK/Ireland times), Premier League (break 9 to 17 Nov), Sports Mole (England), ATP Tour (Finals 15 to 22 Nov), formula1.com (Las Vegas, local time), Daily Faceoff (Leafs). ET conversions assume UK on GMT and Toronto on EST. Not verified: Champions League and Europa League dates, Ligue 1, tennis WTA, cricket, basketball, baseball and Premier League kick-off times for 21 Nov."
  }
 }
