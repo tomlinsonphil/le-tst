@@ -3812,45 +3812,28 @@
   {
    "id": "rugby",
    "title": "Rugby",
-   "summary": "No club rugby this week: Toulouse lead the Top 14 after six rounds; Premiership and URC resume 23 Oct; Nations Championship returns 6 Nov.",
-   "intro": "Rugby union: Top 14, Premiership, the URC and the Nations Championship.",
+   "summary": "International rugby only: Nations Championship November window (France v South Africa tonight; rounds on 14, 15 and 21 Nov); finals at Twickenham 27–29 Nov.",
+   "intro": "International rugby union only: the Nations Championship and other Tests. Club rugby (Top 14, Premiership, URC) is not covered.",
    "cards": [
     {
-     "t": "Rugby union",
-     "tag": "Club break · Nations Championship ahead",
+     "t": "Rugby union: Nations Championship, November window",
+     "tag": "Round 5 starts tonight · finals 27–29 Nov",
      "w": [
-      "It is a quiet midweek for rugby union: no Top 14, Premiership or URC matches were found on 13 or 14 October. Toulouse sit top of the Top 14 after six rounds, on 24 points after the 45–34 shoot-out with Bayonne, two clear of Pau, with Bordeaux-Bègles third on 19. At the bottom, Vannes are still looking for a first win. The date of round 7 was not found.",
-      "In England, Round 3 produced a 71–48 Northampton win over Bath, the sort of score you usually see at a basketball game. The Premiership now pauses until Round 4 on Friday 23 October. The United Rugby Championship returns the same weekend, with Leinster v Munster at 6pm on Saturday 24 October the pick of Round 4.",
-      "The big date is Friday 6 November, when the Nations Championship returns for its second window (6, 13 and 21 November), with the finals at Twickenham on 27–29 November. After the July window, South Africa and New Zealand lead the Rest of the World pool on 15 points and France top the European pool on 12."
+      "The Nations Championship is back in full cry. France host South Africa at the Stade de France tonight (Friday 13 November, 8:10 pm UK, 3:10 pm ET), kicking off Round 5; Saturday brings Italy v Argentina, Wales v New Zealand, England v Japan at Twickenham and Ireland v Fiji in Dublin, with Scotland v Australia on Sunday.",
+      "Round 6 follows on Saturday 21 November: England v New Zealand, Scotland v Japan, Ireland v South Africa, Italy v Fiji, France v Argentina and Wales v Australia. The finals are at Twickenham on 27 to 29 November.",
+      "The standings below are from the end of the July window, so they are out of date: results from the 6 to 8 November round were not read."
      ],
      "n": [
       "Two teams of 15 play two 40-minute halves. You can run with the ball or kick it, but you can only pass it sideways or backwards. A try, where a player grounds the ball over the opponents' line, scores 5 points. A conversion kick adds 2, and a penalty kick or drop goal scores 3.",
       "The game is built on set pieces. A scrum restarts play after minor infringements, with the forwards pushing against each other. A lineout restarts play after the ball goes out of play, with a jumper lifted to catch the throw.",
-      "Club rugby runs on league tables: the Top 14 in France, the Premiership in England and the United Rugby Championship (teams from Ireland, Scotland, Wales, Italy and South Africa). A win earns 4 points, and bonus points reward scoring four or more tries or losing narrowly.",
-      "The Nations Championship is new in 2026. Twelve national teams sit in two pools, a European one and a Rest of the World one. Each team plays every team in the other pool once, across a July window and a November window, and the top sides meet in finals at Twickenham."
+      "The Nations Championship is new in 2026. Twelve national teams sit in two pools, a European one (England, France, Ireland, Italy, Scotland, Wales) and a Rest of the World one (Argentina, Australia, Fiji, Japan, New Zealand, South Africa). Each team plays every team in the other pool once, across a July window and a November window, and the top sides meet in finals at Twickenham.",
+      "A win earns 4 points, and bonus points reward scoring four or more tries or losing narrowly."
      ],
-     "s": "As of 14 Oct 2026 (panels not re-checked 15 Oct) · itsrugby.fr, Sky Sports, rugbyworld.com, SA Rugby magazine, Wikipedia · not re-checked 21 Oct",
+     "s": "As of 13 Nov 2026 · fixtures from autumn-internationals.co.uk (UK/Ireland times); July standings from Wikipedia",
      "links": [
-      {
-       "text": "itsrugby.fr: Top 14 results and table after round 6",
-       "url": "https://itsrugby.fr/top-14-6e-journee-2026-2027-resultats-classement/"
-      },
-      {
-       "text": "Sky Sports: Gallagher Premiership results",
-       "url": "https://www.skysports.com/rugby-union/competitions/gallagher-prem/results"
-      },
       {
        "text": "Wikipedia: 2026 Nations Championship",
        "url": "https://en.wikipedia.org/wiki/2026_Nations_Championship"
-      },
-      {
-       "text": "The Scotsman: how the Nations Championship works",
-       "url": "https://www.scotsman.com/sport/rugby-union/how-the-nations-championship-works-format-dates-finals-weekend-explained-2026-8776805",
-       "syn": "The 2026 Nations Championship features 12 teams in Northern and Southern Hemisphere pools, each playing six matches. The top side in each pool meets in a one-off finals weekend at Twickenham in late November, with no relegation in the first two editions."
-      },
-      {
-       "text": "Rugby World: URC fixtures",
-       "url": "https://www.rugbyworld.com/rugby-fixtures/united-rugby-championship-fixtures"
       }
      ],
      "f": [
@@ -3903,308 +3886,9 @@
      "intro": "Top 14, the URC and the Premiership.",
      "panels": [
       {
-       "id": "top14",
-       "title": "Top 14 results (round 6)",
-       "asof": "Sat 10 – Sun 11 Oct 2026 (latest round; no Top 14 games since) · not re-checked 21 Oct",
-       "source": "itsrugby.fr, Sky Sports",
-       "items": [
-        "Toulouse 45–34 Bayonne (Sun 11 Oct)",
-        "Stade Français 30–22 Montpellier (Sat 10 Oct)",
-        "Lyon 16–28 La Rochelle (Sat 10 Oct)",
-        "Pau 35–26 Castres (Sat 10 Oct)",
-        "Perpignan 21–12 Vannes (Sat 10 Oct)",
-        "Toulon 29–15 Racing 92 (Sat 10 Oct)",
-        "Clermont 22–23 Bordeaux-Bègles (Sat 10 Oct)"
-       ],
-       "note": "Round 6 was the latest round played; the date of round 7 was not found.",
-       "links": [
-        {
-         "text": "itsrugby.fr: Top 14 round 6",
-         "url": "https://itsrugby.fr/top-14-6e-journee-2026-2027-resultats-classement/"
-        },
-        {
-         "text": "Sky Sports: Top 14 results",
-         "url": "https://www.skysports.com/rugbyunion/competitions/top-14/results"
-        }
-       ]
-      },
-      {
-       "id": "top14-table",
-       "title": "Top 14 table (after round 6)",
-       "asof": "Sun 11 Oct 2026, after round 6 (unchanged, no games since) · not re-checked 21 Oct",
-       "source": "itsrugby.fr",
-       "cols": [
-        "Pos",
-        "Team",
-        "P",
-        "W",
-        "L",
-        "Diff",
-        "Pts"
-       ],
-       "rows": [
-        [
-         1,
-         "Toulouse",
-         6,
-         5,
-         1,
-         "+73",
-         24
-        ],
-        [
-         2,
-         "Pau",
-         6,
-         5,
-         1,
-         "+58",
-         22
-        ],
-        [
-         3,
-         "Bordeaux-Bègles",
-         6,
-         4,
-         2,
-         "+64",
-         19
-        ],
-        [
-         4,
-         "La Rochelle",
-         6,
-         4,
-         2,
-         "+9",
-         18
-        ],
-        [
-         5,
-         "Bayonne",
-         6,
-         4,
-         2,
-         "−24",
-         17
-        ],
-        [
-         6,
-         "Stade Français",
-         6,
-         3,
-         3,
-         "−11",
-         14
-        ],
-        [
-         7,
-         "Montpellier",
-         6,
-         3,
-         3,
-         "+41",
-         14
-        ],
-        [
-         8,
-         "Lyon",
-         6,
-         3,
-         3,
-         "−9",
-         14
-        ],
-        [
-         9,
-         "Perpignan",
-         6,
-         3,
-         3,
-         "−33",
-         13
-        ],
-        [
-         10,
-         "Toulon",
-         6,
-         2,
-         4,
-         "0",
-         12
-        ],
-        [
-         11,
-         "Clermont",
-         6,
-         2,
-         4,
-         "−29",
-         11
-        ],
-        [
-         12,
-         "Racing 92",
-         6,
-         2,
-         4,
-         "−53",
-         10
-        ],
-        [
-         13,
-         "Castres",
-         6,
-         2,
-         4,
-         "−27",
-         9
-        ],
-        [
-         14,
-         "Vannes",
-         6,
-         0,
-         6,
-         "−59",
-         1
-        ]
-       ],
-       "links": [
-        {
-         "text": "itsrugby.fr: Top 14 table",
-         "url": "https://itsrugby.fr/top-14-6e-journee-2026-2027-resultats-classement/"
-        }
-       ]
-      },
-      {
-       "id": "prem-res",
-       "title": "Gallagher Premiership results (round 3)",
-       "asof": "Fri 9 – Sun 11 Oct 2026 (latest round; no games since) · not re-checked 21 Oct",
-       "source": "Sky Sports",
-       "items": [
-        "Leicester 38–31 Gloucester (Fri 9 Oct)",
-        "Northampton 71–48 Bath (Sat 10 Oct)",
-        "Saracens 30–7 Bristol Bears (Sat 10 Oct)",
-        "Exeter 34–28 Newcastle Red Bulls (Sun 11 Oct)",
-        "Sale Sharks 28–24 Harlequins (Sun 11 Oct)"
-       ],
-       "note": "The Premiership table after round 3 was not verified (the page checked still showed the table after round 2).",
-       "links": [
-        {
-         "text": "Sky Sports: Gallagher Premiership results",
-         "url": "https://www.skysports.com/rugby-union/competitions/gallagher-prem/results"
-        }
-       ]
-      },
-      {
-       "id": "urc",
-       "title": "United Rugby Championship table (after 3 rounds)",
-       "asof": "4 Oct 2026, after 3 rounds (unchanged; the next round is 23–24 Oct) · not re-checked 21 Oct",
-       "source": "Wikipedia",
-       "cols": [
-        "Pos",
-        "Team",
-        "Pts"
-       ],
-       "rows": [
-        [
-         1,
-         "Edinburgh",
-         14
-        ],
-        [
-         2,
-         "Glasgow Warriors",
-         13
-        ],
-        [
-         3,
-         "Bulls",
-         11
-        ],
-        [
-         4,
-         "Stormers",
-         11
-        ],
-        [
-         5,
-         "Sharks",
-         10
-        ],
-        [
-         6,
-         "Cardiff",
-         9
-        ],
-        [
-         7,
-         "Lions",
-         9
-        ],
-        [
-         8,
-         "Dragons",
-         9
-        ],
-        [
-         9,
-         "Munster",
-         9
-        ],
-        [
-         10,
-         "Leinster",
-         8
-        ],
-        [
-         11,
-         "Ulster",
-         8
-        ],
-        [
-         12,
-         "Scarlets",
-         7
-        ],
-        [
-         13,
-         "Ospreys",
-         6
-        ],
-        [
-         14,
-         "Connacht",
-         5
-        ],
-        [
-         15,
-         "Benetton",
-         5
-        ],
-        [
-         16,
-         "Zebre",
-         1
-        ]
-       ],
-       "note": "Round 4 is on 23–24 October: Fri 23 Cardiff v Sharks, Connacht v Zebre Parma, Edinburgh v Lions; Sat 24 Bulls v Ulster, Benetton v Glasgow Warriors, Stormers v Scarlets, Leinster v Munster, Ospreys v Dragons (kick-offs 11:45 to 19:45 UK/Ireland time, per rugbyworld.com).",
-       "links": [
-        {
-         "text": "Wikipedia: 2026–27 United Rugby Championship",
-         "url": "https://en.wikipedia.org/wiki/2026%E2%80%9327_United_Rugby_Championship"
-        },
-        {
-         "text": "Rugby World: URC fixtures",
-         "url": "https://www.rugbyworld.com/rugby-fixtures/united-rugby-championship-fixtures"
-        }
-       ]
-      },
-      {
        "id": "nations-table",
        "title": "Nations Championship standings (after the July window)",
-       "asof": "18 Jul 2026, end of the July window; the November window starts 6 Nov · not re-checked 21 Oct",
+       "asof": "18 Jul 2026, end of the July window; NOT updated for the 6 to 8 Nov round (results not read)",
        "source": "Wikipedia",
        "cols": [
         "Conference",
@@ -4334,33 +4018,22 @@
        ]
       },
       {
-       "id": "prem-fix",
-       "title": "Upcoming: Premiership and Nations Championship",
-       "asof": "14 Oct 2026 (Premiership dates from TNT Sports/Scotsman, not re-verified; URC and Nations dates from rugbyworld.com and SA Rugby magazine) · not re-checked 21 Oct",
-       "source": "TNT Sports, Scotsman, Wikipedia",
+       "id": "nations-fix",
+       "title": "Upcoming: Nations Championship fixtures",
+       "asof": "13 Nov 2026 · autumn-internationals.co.uk (UK/Ireland times); earlier-round dates from rugbyworld.com and SA Rugby magazine",
+       "source": "autumn-internationals.co.uk",
        "items": [
-        "Fri 23 Oct: Gloucester v Bath · Newcastle v Sale (Premiership round 4)",
-        "Sat 24 Oct: Leicester v Northampton · Bristol v Exeter",
-        "Sun 25 Oct: Harlequins v Saracens",
-        "Fri 23 Oct: Cardiff v Sharks · Connacht v Zebre Parma · Edinburgh v Lions (URC round 4)",
-        "Sat 24 Oct: Bulls v Ulster · Benetton v Glasgow Warriors · Stormers v Scarlets · Leinster v Munster · Ospreys v Dragons",
-        "Fri 6 Nov: Ireland v Argentina (Dublin)",
-        "Sat 7 Nov: Italy v South Africa · Scotland v New Zealand · Wales v Japan · France v Fiji (Lyon)",
-        "Sun 8 Nov: England v Australia (Twickenham)",
-        "Fri 13 Nov: France v South Africa (Stade de France)",
-        "Sat 14 Nov: Italy v Argentina · Wales v New Zealand · England v Japan · Ireland v Fiji",
-        "Sun 15 Nov: Scotland v Australia",
-        "Nations Championship November window: 6, 13 and 21 Nov; finals 27–29 Nov"
+        "Fri 13 Nov: France v South Africa (Stade de France, 8:10 pm UK)",
+        "Sat 14 Nov: Italy v Argentina (Genoa, 11:40 am) · Wales v New Zealand (Cardiff, 2:10 pm) · England v Japan (Twickenham, 4:40 pm) · Ireland v Fiji (Dublin, 8:10 pm)",
+        "Sun 15 Nov: Scotland v Australia (Murrayfield, 3:10 pm)",
+        "Sat 21 Nov: England v New Zealand · Scotland v Japan (both 2:10 pm) · Ireland v South Africa · Italy v Fiji (both 4:40 pm) · France v Argentina · Wales v Australia (both 8:10 pm)",
+        "Sat 27 to Sun 29 Nov: finals at Twickenham"
        ],
-       "note": "Dates are as published and may change; Nations kick-off times were listed in South African time so only the dates are shown. There is no Premiership weekend on 16–18 October.",
+       "note": "Times are UK/Ireland; subtract 5 hours for Toronto. Dates may change.",
        "links": [
         {
-         "text": "SA Rugby magazine: 2026 Nations Championship fixtures",
-         "url": "https://www.sarugbymag.co.za/2026-nations-championship-fixtures/"
-        },
-        {
-         "text": "Rugby World: URC fixtures",
-         "url": "https://www.rugbyworld.com/rugby-fixtures/united-rugby-championship-fixtures"
+         "text": "Autumn Internationals 2026 fixtures",
+         "url": "https://www.autumn-internationals.co.uk/2026"
         }
        ]
       }
@@ -6387,7 +6060,7 @@
     "rows": [
      [
       "Rugby",
-      "France v South Africa, Stade de France, Paris",
+      "Nations Championship: France v South Africa, Stade de France, Paris",
       "8:10 pm UK / 3:10 pm ET"
      ]
     ]
@@ -6397,27 +6070,27 @@
     "rows": [
      [
       "Rugby",
-      "Italy v Argentina, Genoa",
+      "Nations Championship: Italy v Argentina, Genoa",
       "11:40 am UK / 6:40 am ET"
      ],
      [
       "Rugby",
-      "Wales v New Zealand, Cardiff",
+      "Nations Championship: Wales v New Zealand, Cardiff",
       "2:10 pm UK / 9:10 am ET"
      ],
      [
       "Rugby",
-      "England v Japan, Twickenham",
+      "Nations Championship: England v Japan, Twickenham",
       "4:40 pm UK / 11:40 am ET"
      ],
      [
       "Rugby",
-      "Ireland v Fiji, Dublin",
+      "Nations Championship: Ireland v Fiji, Dublin",
       "8:10 pm UK / 3:10 pm ET"
      ],
      [
       "NHL",
-      "Maple Leafs v Edmonton Oilers",
+      "NHL regular season: Maple Leafs v Edmonton Oilers",
       "7:00 pm ET"
      ]
     ]
@@ -6427,17 +6100,17 @@
     "rows": [
      [
       "Football",
-      "Spain v England, Madrid (Nations League)",
+      "UEFA Nations League: Spain v England, Madrid",
       "7:45 pm UK / 2:45 pm ET"
      ],
      [
       "Rugby",
-      "Scotland v Australia, Murrayfield",
+      "Nations Championship: Scotland v Australia, Murrayfield",
       "3:10 pm UK / 10:10 am ET"
      ],
      [
       "Tennis",
-      "ATP Finals, Turin: round-robin begins (to Fri 20 Nov)",
+      "Nitto ATP Finals, Turin: round-robin begins (to Fri 20 Nov)",
       "Singles from 2 pm and 8:30 pm local"
      ]
     ]
@@ -6447,7 +6120,7 @@
     "rows": [
      [
       "Markets",
-      "Nvidia third-quarter results (first since Huang's exit)",
+      "Nvidia Q3 fiscal 2027 earnings (first since Huang's exit)",
       "1:20 pm PT / 4:20 pm ET"
      ]
     ]
@@ -6457,12 +6130,12 @@
     "rows": [
      [
       "F1",
-      "Las Vegas GP: first practice Thu 19 Nov 4:30 pm PT; qualifying Fri 20 Nov 8 pm PT (11 pm ET)",
+      "Formula 1 Las Vegas Grand Prix: first practice Thu 19 Nov 4:30 pm PT; qualifying Fri 20 Nov 8 pm PT (11 pm ET)",
       "See times"
      ],
      [
       "F1",
-      "Las Vegas Grand Prix race, Sat 21 Nov",
+      "Formula 1 Las Vegas Grand Prix: race, Sat 21 Nov",
       "8:00 pm PT / 11:00 pm ET (4 am UK Sun)"
      ]
     ]
@@ -6477,42 +6150,42 @@
      ],
      [
       "Tennis",
-      "ATP Finals semi-finals (final Sun 22 Nov, singles 6 pm local)",
+      "Nitto ATP Finals, Turin: semi-finals (final Sun 22 Nov, singles 6 pm local)",
       "From 2:30 pm local"
      ],
      [
       "Rugby",
-      "England v New Zealand, Twickenham",
+      "Nations Championship: England v New Zealand, Twickenham",
       "2:10 pm UK / 9:10 am ET"
      ],
      [
       "Rugby",
-      "Scotland v Japan, Murrayfield",
+      "Nations Championship: Scotland v Japan, Murrayfield",
       "2:10 pm UK / 9:10 am ET"
      ],
      [
       "Rugby",
-      "Ireland v South Africa, Dublin",
+      "Nations Championship: Ireland v South Africa, Dublin",
       "4:40 pm UK / 11:40 am ET"
      ],
      [
       "Rugby",
-      "Italy v Fiji, Udine",
+      "Nations Championship: Italy v Fiji, Udine",
       "4:40 pm UK / 11:40 am ET"
      ],
      [
       "Rugby",
-      "France v Argentina, Paris",
+      "Nations Championship: France v Argentina, Paris",
       "8:10 pm UK / 3:10 pm ET"
      ],
      [
       "Rugby",
-      "Wales v Australia, Cardiff",
+      "Nations Championship: Wales v Australia, Cardiff",
       "8:10 pm UK / 3:10 pm ET"
      ]
     ]
    }
   ],
-  "fixnote": "Sources: autumn-internationals.co.uk (rugby, UK/Ireland times), Premier League (break 9 to 17 Nov), Sports Mole (England), ATP Tour (Finals 15 to 22 Nov), formula1.com (Las Vegas, local time), Daily Faceoff (Leafs). ET conversions assume UK on GMT and Toronto on EST. Not verified: Champions League and Europa League dates, Ligue 1, tennis WTA, cricket, basketball, baseball and Premier League kick-off times for 21 Nov."
+  "fixnote": "Sources: autumn-internationals.co.uk (rugby, UK/Ireland times), Premier League (break 9 to 17 Nov), Sports Mole (England), ATP Tour (Finals 15 to 22 Nov), formula1.com (Las Vegas, local time), Daily Faceoff (Leafs). ET conversions assume UK on GMT and Toronto on EST. Not verified: Champions League and Europa League dates, Ligue 1, tennis WTA, cricket, basketball, baseball and Premier League kick-off times for 21 Nov. Competition names: Nations Championship (rugby, per autumn-internationals.co.uk), UEFA Nations League (Sports Mole)."
  }
 }
