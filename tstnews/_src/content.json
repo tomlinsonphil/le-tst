@@ -1,15 +1,15 @@
 {
- "date": "2026-11-13",
- "label": "Friday 13 November 2026",
- "note": "Fri 13 Nov 2026 refresh. The Today block at the top is a fresh-news briefing; the sections below it are ongoing background. Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
- "sport_note": "Fri 13 Nov 2026: only Formula 1 (Crash.net standings after Brazil) and the Premier League weekend of 7-8 Nov (Outlook India) were re-read. Score sites such as footballwebpages, ATP and WTA were refused, so other sport panels keep their own 'as of' dates.",
+ "date": "2026-11-15",
+ "label": "Sunday 15 November 2026",
+ "note": "Sun 15 Nov 2026 (Toronto early morning). LIMITED RUN: every feed and score URL given for this run was refused (permission could not be granted unattended), and web search returned nothing dated 14 or 15 Nov. Only the Euronews archive page for 11 Nov could be read. So the news cards, Today block, tables, results and fixtures below are NOT refreshed and keep the 'as of' dates they already carry; treat anything dated before 14 Nov as possibly out of date. Weekend results of 14-15 Nov are not verified (gap). Fri 13 Nov 2026 refresh. The Today block at the top is a fresh-news briefing; the sections below it are ongoing background. Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
+ "sport_note": "Sun 15 Nov 2026: no sport panel could be re-read (footballwebpages, ATP, WTA, NHL and others were refused or returned nothing current). All sport panels keep their own 'as of' dates; results from 14-15 Nov are not verified (gap).",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Feed URLs were refused again on 13 Nov. Euronews shows five stories read from its home page today; Global News Toronto shows a list read today; the other outlets keep earlier lists with their own dates.",
+   "intro": "Feed URLs were refused again on 15 Nov. Lists below are the last ones read (11-13 Nov) with their own dates; nothing from 14-15 Nov is verified.",
    "items": [],
    "feeds": [
     {
@@ -5781,125 +5781,125 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Friday 13 November 2026",
-  "intro": "Ten questions drawn from the stories read on 12 and 13 November.",
+  "title": "TST News quiz · Sunday 15 November 2026",
+  "intro": "Ten questions from headlines read on Euronews on 11 and 12 November (no fresher news could be read this run).",
   "questions": [
    {
-    "q": "Who has become interim CEO of Nvidia after Jensen Huang resigned on 12 November?",
+    "q": "Which French resort did Euronews report as the world's best ski resort on 11 November?",
     "options": [
-     "Harvey C. Jones",
-     "Colette Kress",
-     "Lisa Su",
-     "Tim Cook"
+     "Chamonix",
+     "Val Thorens",
+     "Courchevel",
+     "Méribel"
     ],
     "answer": 1,
-    "explain": "Colette Kress, the CFO since 2013, is interim CEO and stays CFO (NVIDIA announcement)."
+    "explain": "Val Thorens took the title ahead of Deer Valley and Kitzbühel (Euronews, 11 Nov)."
    },
    {
-    "q": "Who is Nvidia's first-ever board chair?",
+    "q": "Why did Portugal close all schools and non-essential services on 11 November?",
     "options": [
-     "Harvey C. Jones",
-     "Colette Kress",
-     "Jensen Huang",
-     "Satya Nadella"
+     "Storm Charles",
+     "A general strike",
+     "A cyberattack",
+     "A heatwave"
     ],
     "answer": 0,
-    "explain": "Harvey C. Jones, a former Synopsys CEO (NVIDIA announcement)."
+    "explain": "Euronews, 11 Nov: Portugal closed schools and non-essential services over Storm Charles."
    },
    {
-    "q": "When does Nvidia report its third-quarter fiscal 2027 results?",
+    "q": "Which country's highest court overturned a ban on gay sex on 11 November?",
     "options": [
-     "Monday 16 November",
-     "Tuesday 17 November",
-     "Thursday 19 November",
-     "Friday 13 November"
-    ],
-    "answer": 1,
-    "explain": "Tuesday 17 November (NVIDIA announcement)."
-   },
-   {
-    "q": "Which two US envoys arrived in Moscow on 12 November to see Vladimir Putin?",
-    "options": [
-     "Rubio and Vance",
-     "Witkoff and Kushner",
-     "Hegseth and Bessent",
-     "Rubio and Witkoff"
-    ],
-    "answer": 1,
-    "explain": "Steve Witkoff and Jared Kushner (Euronews, 12 Nov)."
-   },
-   {
-    "q": "Who won the Sao Paulo Grand Prix on Sunday 8 November?",
-    "options": [
-     "Max Verstappen",
-     "Kimi Antonelli",
-     "Lando Norris",
-     "George Russell"
+     "Jamaica",
+     "Barbados",
+     "Trinidad and Tobago",
+     "Guyana"
     ],
     "answer": 2,
-    "explain": "Lando Norris, from pole (Silverstone report)."
+    "explain": "Euronews, 11 Nov headline: Trinidad and Tobago's highest court overturned the ban."
    },
    {
-    "q": "Which team clinched the 2026 constructors' title in Brazil?",
+    "q": "How many cases had Congo's Ebola outbreak reached, according to the 11 November Euronews headline?",
     "options": [
-     "Ferrari",
-     "Red Bull",
-     "McLaren",
-     "Mercedes"
+     "1,100",
+     "5,000",
+     "11,000",
+     "110,000"
     ],
-    "answer": 3,
-    "explain": "Mercedes, with Russell fourth and Antonelli fifth (Silverstone report); they have 652 points (Crash.net)."
+    "answer": 2,
+    "explain": "Euronews called it the deadliest Ebola outbreak in Congo's history, at 11,000 cases."
    },
    {
-    "q": "How many points does champion Kimi Antonelli have after Brazil?",
+    "q": "Which country approved Tesla's assisted-driving cars ahead of an EU vote?",
     "options": [
-     "390",
-     "279",
-     "262",
-     "246"
+     "Finland",
+     "Norway",
+     "Spain",
+     "Poland"
     ],
     "answer": 0,
-    "explain": "390, against Verstappen's 279 (Crash.net)."
+    "explain": "Euronews, 11 Nov: Finland approved them ahead of the EU vote."
    },
    {
-    "q": "Which Premier League side beat Manchester City 3–1 on 8 November, City's third straight league defeat?",
+    "q": "Which Russian newspaper shut its Moscow office, per Euronews on 11 November?",
     "options": [
-     "Aston Villa",
-     "Nottingham Forest",
-     "Leeds United",
-     "Hull City"
+     "Kommersant",
+     "Izvestia",
+     "Novaya Gazeta",
+     "Pravda"
+    ],
+    "answer": 2,
+    "explain": "Euronews called Novaya Gazeta Russia's last openly critical newspaper."
+   },
+   {
+    "q": "Where is the COP31 climate summit being held, according to Euronews' 11 November coverage?",
+    "options": [
+     "Turkey",
+     "Brazil",
+     "Australia",
+     "Egypt"
+    ],
+    "answer": 0,
+    "explain": "A Euronews video that day showed an Ottoman marching band welcoming world leaders to COP31 in Turkey."
+   },
+   {
+    "q": "The Abu Dhabi peace talks on Ukraine ended on 11 November with agreement on what?",
+    "options": [
+     "A ceasefire",
+     "A prisoner exchange",
+     "A new border",
+     "Sanctions relief"
     ],
     "answer": 1,
-    "explain": "Nottingham Forest; Liam Delap scored twice (Outlook India)."
+    "explain": "Euronews: talks ended with a prisoner exchange agreement as US envoys prepared to meet Putin."
    },
    {
-    "q": "How far clear of Manchester City did Arsenal go after beating Hull City 1–0?",
+    "q": "Which actor, star of 'Mike Hammer' and 'Prison Break', died aged 85 (Euronews, 11 Nov)?",
     "options": [
-     "Two points",
-     "Three points",
-     "Six points",
-     "Ten points"
+     "Stacy Keach",
+     "Wayne Knight",
+     "Robert Knepper",
+     "Dominic Purcell"
     ],
-    "answer": 2,
-    "explain": "Six points, thanks to Martin Ødegaard's 72nd-minute goal (Outlook India)."
+    "answer": 0,
+    "explain": "Euronews, 11 Nov headline."
    },
    {
-    "q": "Roughly how many Outlook complaints did Downdetector log in the US during Thursday's Microsoft outage?",
+    "q": "What did Euronews say Jensen Huang's Nvidia role change was on 12 November (in content already on this site)?",
     "options": [
-     "13,000",
-     "46,000",
-     "130,000",
-     "3,000"
+     "He resigned as CEO",
+     "He became chair",
+     "He sold the company",
+     "He took leave"
     ],
-    "answer": 2,
-    "explain": "More than 130,000 by about 1:30 pm Eastern (Euronews, 12 Nov)."
+    "answer": 0,
+    "explain": "Huang resigned as CEO; CFO Colette Kress is interim CEO (Euronews, 12 Nov)."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Compiled Fri 13 Nov 2026, early morning in Toronto. Headlines were read from Euronews and Global News; where only a headline was read, the line says so.",
+  "stamp": "Sun 15 Nov 2026, Toronto early morning. NOT REFRESHED: the feeds and score sites could not be read this run, so this block is the 13 Nov briefing and may be out of date. Nothing from 14-15 Nov is verified (gap).",
   "blocks": [
    {
     "id": "t-world",
