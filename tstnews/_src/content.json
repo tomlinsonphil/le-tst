@@ -1,15 +1,15 @@
 {
- "date": "2026-11-15",
- "label": "Sunday 15 November 2026",
- "note": "Sun 15 Nov 2026 (Toronto early morning). LIMITED RUN: every feed and score URL given for this run was refused (permission could not be granted unattended), and web search returned nothing dated 14 or 15 Nov. Only the Euronews archive page for 11 Nov could be read. So the news cards, Today block, tables, results and fixtures below are NOT refreshed and keep the 'as of' dates they already carry; treat anything dated before 14 Nov as possibly out of date. Weekend results of 14-15 Nov are not verified (gap). Fri 13 Nov 2026 refresh. The Today block at the top is a fresh-news briefing; the sections below it are ongoing background. Refresh of Fri 13 Nov 2026 (Toronto early morning). A limited run: the feed URLs were refused again, but the Euronews home page, one Global News Toronto page, the NVIDIA press release, and match or race reports from Outlook India, Silverstone and Crash.net could be read. CP24, Al Jazeera and L'Écho du Mardi keep their last lists with honest dates. Anything not re-read today keeps its own 'as of' date.",
- "sport_note": "Sun 15 Nov 2026: no sport panel could be re-read (footballwebpages, ATP, WTA, NHL and others were refused or returned nothing current). All sport panels keep their own 'as of' dates; results from 14-15 Nov are not verified (gap).",
+ "date": "2026-11-17",
+ "label": "Tuesday 17 November 2026",
+ "note": "Tue 17 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs listed for this run were refused again (permission cannot be granted unattended; one retry failed). What could be read via search results: the Euronews 11 Nov archive page, Al Jazeera's 17 Nov Ukraine story, a EUnews round-up of 16 Nov, and two Maple Leafs recaps from nhl.com (12 and 14 Nov). Everything else (other news cards, tables, results, fixtures) is NOT refreshed and keeps its own 'as of' date; treat anything dated before 14 Nov as possibly out of date. Premier League, rugby and other weekend results of 14-16 Nov are not verified (gap).",
+ "sport_note": "Tue 17 Nov 2026: footballwebpages, ATP, WTA and other score pages were refused or unreadable. Only the Maple Leafs record was refreshed (nhl.com recaps). All other sport panels keep their own 'as of' dates; weekend results are not verified (gap).",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Feed URLs were refused again on 15 Nov. Lists below are the last ones read (11-13 Nov) with their own dates; nothing from 14-15 Nov is verified.",
+   "intro": "Feed URLs were refused again on 17 Nov. Euronews below is from its 11 Nov archive page (the latest list that could be read); other outlets keep their last lists with their own dates. Nothing from 14-17 Nov is verified here except where a card says so.",
    "items": [],
    "feeds": [
     {
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Nvidia shares tumble as Jensen Huang steps down as CEO",
-       "url": "https://www.euronews.com/2026/11/12/nvidia-shares-tumble-as-jensen-huang-steps-down-as-ceo",
-       "when": "12 Nov"
+       "t": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
+       "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
+       "when": "11 Nov"
       },
       {
-       "t": "Witkoff and Kushner arrive in Moscow",
-       "url": "https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-",
-       "when": "12 Nov"
+       "t": "Portugal closes all schools and non-essential services over Storm Charles",
+       "url": "https://www.euronews.com/2026/11/11/portugal-closes-all-schools-and-non-essential-services-over-storm-charles",
+       "when": "11 Nov"
       },
       {
-       "t": "Ukraine envoy row hijacks EU leaders' first AI summit",
-       "url": "https://www.euronews.com/2026/11/13/ukraine-envoy-row-hijacks-eu-leaders-first-ai-summit",
-       "when": "13 Nov"
+       "t": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
+       "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
+       "when": "11 Nov"
       },
       {
-       "t": "Microsoft racing to fix global outage affecting Outlook, Teams and Copilot",
-       "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands",
-       "when": "12 Nov"
+       "t": "Trump's defamation lawsuit against the BBC over Panorama edit can proceed, judge rules",
+       "url": "https://www.euronews.com/2026/11/11/trumps-defamation-lawsuit-against-the-bbc-over-panorama-edit-can-proceed-judge-rules",
+       "when": "11 Nov"
       },
       {
-       "t": "Two guards collapse beside Macron during official welcoming ceremony",
-       "url": "https://www.euronews.com/2026/11/12/two-guards-collapse-beside-macron-during-official-welcoming-ceremony",
-       "when": "12 Nov"
+       "t": "Deadliest Ebola outbreak in Congo's history reaches 11,000 cases",
+       "url": "https://www.euronews.com/2026/11/11/deadliest-ebola-outbreak-in-congos-history-reaches-11000-cases",
+       "when": "11 Nov"
       }
      ]
     },
@@ -180,38 +180,39 @@
    "id": "world",
    "items": [
     {
-     "t": "Witkoff and Kushner in Moscow as Europe pushes for a seat at Ukraine talks",
-     "tag": "World · 12–13 Nov",
+     "t": "Ukraine: new talks with the US and Europe as drone war escalates",
+     "tag": "World · 16–17 Nov",
      "gap": false,
      "w": [
-      "US envoys Steve Witkoff and Jared Kushner arrived in Moscow on Thursday 12 November to seek Vladimir Putin's blessing for bringing Europe into the Ukraine peace talks, according to Euronews headlines. By Friday the headline was that the envoys had met Putin while Europe pushed to join.",
-      "Moscow is playing it cool. Euronews's headline says Russia played down peace talks with Europe even after Witkoff raised hopes of a breakthrough, and a second says Europe has told Russia its security architecture is for Europeans to decide.",
-      "Only headlines were read, so what Putin said and what, if anything, was agreed is not verified."
+      "Ukraine sat down online on 17 November with US envoys Steve Witkoff and Jared Kushner and representatives of France, Germany, Britain, Italy and Poland. President Zelenskyy called the talks \"not easy\", but the group agreed to meet in Berlin with the Coalition of the Willing, and Kushner reported progress toward a deal (Al Jazeera).",
+      "Moscow is not budging on the guest list: it says it has not agreed to widen the talks to Europe and has set no date for the next round. Meanwhile the war is intensifying. Russian defence data showed the biggest overnight Ukrainian drone attack on Russia since 2022, with nearly 200 drones intercepted near Moscow, the Crimea Bridge was hit again, and Zelenskyy warned of major Russian strikes expected on Tuesday.",
+      "Last week's Abu Dhabi round (10–11 Nov) produced agreement in principle on a prisoner exchange of more than 1,000 people but no territorial breakthrough, according to EUnews. Washington reportedly floated Ukraine leaving its remaining Donbas areas in exchange for NATO membership; Washington has not confirmed that and Zelenskyy rejects giving up territory."
      ],
      "f": [
-      "Witkoff and Kushner arrive in Moscow (Euronews, 12 Nov)",
-      "Russia plays down peace talks with Europe (Euronews, 12 Nov)",
-      "Europe: security architecture is for us to decide (Euronews, 12 Nov)",
-      "US envoys meet Putin as Europe pushes to join Ukraine talks (Euronews, 13 Nov)"
+      "Online talks Ukraine, US, France, Germany, UK, Italy, Poland (Al Jazeera, 17 Nov)",
+      "Next meeting: Berlin, with the Coalition of the Willing (Al Jazeera, 17 Nov)",
+      "Abu Dhabi talks 10–11 Nov: prisoner exchange of over 1,000 in principle (EUnews, 16 Nov)",
+      "Europe's team: Britain, France, Germany, Italy, Poland plus EU institutions (EUnews, 16 Nov)"
      ],
      "n": [
-      "Russia invaded Ukraine in 2022 and the war is still going. Washington has been trying to broker a deal, with Steve Witkoff and Jared Kushner as President Trump's envoys.",
-      "Europe pays much of the bill for Ukraine's defence and worries about being handed a settlement it had no part in negotiating, which is why it wants its own seat at the table.",
-      "Talks like these often produce statements of 'progress' long before any ceasefire; the useful signal is who is in the room."
+      "Russia invaded Ukraine in 2022 and the war is still going. Washington is trying to broker a deal, with Steve Witkoff and Jared Kushner as President Trump's envoys.",
+      "Europe funds much of Ukraine's defence and does not want a settlement negotiated over its head, so it has built its own negotiating team. Russia argues the talks should cover Europe's wider security architecture.",
+      "The Coalition of the Willing is a group of mainly European countries discussing security guarantees for Ukraine after any ceasefire.",
+      "As winter nears, power plants and bridges have become targets on both sides, which is why strikes and talks are happening at the same time."
      ],
-     "s": "Euronews home page, read 13 Nov 2026 (headlines only; article bodies not opened)",
+     "s": "Al Jazeera 17 Nov 2026 and EUnews 16 Nov 2026 (articles read)",
      "links": [
       {
-       "text": "Euronews: Witkoff and Kushner arrive in Moscow",
-       "url": "https://www.euronews.com/2026/11/12/witkoff-and-kushner-arrive-in-moscow-seeking-putins-blessing-to-bring-europe-into-ukraine-"
+       "text": "Al Jazeera: Ukraine holds peace talks with US, Europe as conflict escalates",
+       "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
       },
       {
-       "text": "Euronews: Russia plays down peace talks with Europe",
-       "url": "https://www.euronews.com/2026/11/12/russia-plays-down-peace-talks-with-europe-after-witkoff-raises-hopes-of-breakthrough"
+       "text": "EUnews: Weekend round-up, war in Ukraine",
+       "url": "https://www.eunews.it/en/2026/11/16/weekend-round-up-war-ukraine-brief-europe-3/"
       },
       {
-       "text": "Euronews: US envoys meet Putin as Europe pushes to join Ukraine talks",
-       "url": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks"
+       "text": "PBS: EU accuses Russia of stalling talks to target power plants",
+       "url": "https://www.pbs.org/newshour/world/eu-accuses-russia-of-stalling-ukraine-peace-talks-to-target-power-plants-as-winter-nears"
       }
      ]
     },
@@ -5166,18 +5167,18 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "7 Nov 2026 (Global News)",
-       "source": "globalnews.ca",
+       "asof": "14 Nov 2026 (nhl.com Maple Leafs recaps)",
+       "source": "nhl.com/mapleleafs",
        "items": [
-        "8-8-2 after the 7 Nov loss to Montreal (Global News); 8-7-2 after the 3 Nov loss to Utah (CP24)"
+        "8-12-2 (18 points) after the 14 Nov game v Edmonton, per the nhl.com recap header; 4-9-1 at home. Final score not stated in the text read."
        ],
-       "note": "An overtime loss earns 1 point."
+       "note": "An overtime loss earns 1 point. Home record 'falls to 4-9-1' implies a loss on 14 Nov (score not verified)."
       },
       {
        "id": "tml-res",
-       "title": "Recent games (games between 26 Oct and 3 Nov not verified)",
-       "asof": "7 Nov 2026 (Global News, CP24); earlier rows 26 Oct and before",
-       "source": "surprisesports.com",
+       "title": "Recent games (8, 10 Nov scores not verified)",
+       "asof": "14 Nov 2026 (nhl.com recaps); earlier rows 7 Nov and before",
+       "source": "nhl.com/mapleleafs, globalnews.ca",
        "cols": [
         "Date",
         "Opponent",
@@ -5185,6 +5186,30 @@
         "Result"
        ],
        "rows": [
+        [
+         "14 Nov",
+         "Edmonton Oilers",
+         "not verified",
+         "Loss implied (record 8-12-2)"
+        ],
+        [
+         "12 Nov",
+         "Minnesota Wild",
+         "Leafs 2+ goals, Wild 4+ (Boldy hat trick; Matthews 12th goal)",
+         "L"
+        ],
+        [
+         "10 Nov",
+         "Colorado Avalanche",
+         "not verified",
+         "not verified"
+        ],
+        [
+         "8 Nov",
+         "New Jersey Devils",
+         "not verified",
+         "not verified"
+        ],
         [
          "7 Nov",
          "Montreal Canadiens",
@@ -5202,30 +5227,6 @@
          "Calgary Flames",
          "2–5",
          "L"
-        ],
-        [
-         "24 Oct",
-         "@ Edmonton Oilers",
-         "7–2",
-         "W"
-        ],
-        [
-         "20 Oct",
-         "@ Columbus Blue Jackets",
-         "6–2",
-         "W"
-        ],
-        [
-         "19 Oct",
-         "v San Jose Sharks",
-         "3–1",
-         "W"
-        ],
-        [
-         "17 Oct",
-         "v New York Islanders",
-         "1–4",
-         "L"
         ]
        ],
        "links": [
@@ -5238,7 +5239,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "7 Nov 2026 (Global News)",
+       "asof": "17 Nov 2026 · next game not verified",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
@@ -5246,8 +5247,8 @@
        ],
        "rows": [
         [
-         "Sun 8 Nov",
-         "New Jersey Devils (home; result not verified)"
+         "Next game not verified",
+         "Schedule page could not be read"
         ]
        ]
       },
@@ -5781,11 +5782,88 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Sunday 15 November 2026",
-  "intro": "Ten questions from headlines read on Euronews on 11 and 12 November (no fresher news could be read this run).",
+  "title": "TST News quiz · Tuesday 17 November 2026",
+  "intro": "Ten questions from the stories actually read on 11-17 November (Al Jazeera, EUnews, Euronews, nhl.com).",
   "questions": [
    {
-    "q": "Which French resort did Euronews report as the world's best ski resort on 11 November?",
+    "q": "Which group did Ukraine agree to meet in Berlin after its 17 November talks?",
+    "options": [
+     "The G7",
+     "The Coalition of the Willing",
+     "The UN Security Council",
+     "The Arctic Council"
+    ],
+    "answer": 1,
+    "explain": "Al Jazeera, 17 Nov."
+   },
+   {
+    "q": "Which US envoys took part in the 17 November talks with Ukraine?",
+    "options": [
+     "Rubio and Vance",
+     "Witkoff and Kushner",
+     "Hegseth and Bessent",
+     "Kellogg and Waltz"
+    ],
+    "answer": 1,
+    "explain": "Steve Witkoff and Jared Kushner (Al Jazeera)."
+   },
+   {
+    "q": "What did the Abu Dhabi talks of 10-11 November agree in principle?",
+    "options": [
+     "A ceasefire",
+     "A prisoner exchange of over 1,000 people",
+     "A border map",
+     "Elections in Ukraine"
+    ],
+    "answer": 1,
+    "explain": "EUnews, 16 Nov; no territorial breakthrough."
+   },
+   {
+    "q": "Which five European countries are in Europe's Ukraine negotiating team?",
+    "options": [
+     "Britain, France, Germany, Italy, Poland",
+     "Britain, France, Spain, Sweden, Poland",
+     "Germany, Italy, Spain, Portugal, Poland",
+     "France, Belgium, Netherlands, Italy, Poland"
+    ],
+    "answer": 0,
+    "explain": "EUnews, 16 Nov (plus EU institutions)."
+   },
+   {
+    "q": "What did Russian data show about the overnight Ukrainian drone attack reported on 17 Nov?",
+    "options": [
+     "Smallest since 2022",
+     "Biggest since 2022",
+     "First ever",
+     "Only against Crimea"
+    ],
+    "answer": 1,
+    "explain": "Al Jazeera, 17 Nov."
+   },
+   {
+    "q": "Which storm closed all schools in Portugal on 11 November?",
+    "options": [
+     "Storm Charles",
+     "Storm Diana",
+     "Storm Bert",
+     "Storm Eunice"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 11 Nov."
+   },
+   {
+    "q": "What Congo outbreak figure did Euronews report on 11 Nov?",
+    "options": [
+     "1,100 Ebola cases",
+     "11,000 Ebola cases",
+     "110 cholera cases",
+     "11 million measles cases"
+    ],
+    "answer": 1,
+    "explain": "Deadliest Ebola outbreak in Congo's history reaches 11,000 cases."
+   },
+   {
+    "q": "Which French resort was named the world's best ski resort (Euronews, 11 Nov)?",
     "options": [
      "Chamonix",
      "Val Thorens",
@@ -5793,166 +5871,61 @@
      "Méribel"
     ],
     "answer": 1,
-    "explain": "Val Thorens took the title ahead of Deer Valley and Kitzbühel (Euronews, 11 Nov)."
+    "explain": "Ahead of Deer Valley and Kitzbühel."
    },
    {
-    "q": "Why did Portugal close all schools and non-essential services on 11 November?",
+    "q": "Who scored a hat trick for Minnesota against the Maple Leafs on 12 November?",
     "options": [
-     "Storm Charles",
-     "A general strike",
-     "A cyberattack",
-     "A heatwave"
+     "Boldy",
+     "Kaprizov",
+     "Matthews",
+     "Stolarz"
     ],
     "answer": 0,
-    "explain": "Euronews, 11 Nov: Portugal closed schools and non-essential services over Storm Charles."
+    "explain": "nhl.com recap; Stolarz made 21 saves."
    },
    {
-    "q": "Which country's highest court overturned a ban on gay sex on 11 November?",
+    "q": "What was the Maple Leafs' record after the 14 November game v Edmonton?",
     "options": [
-     "Jamaica",
-     "Barbados",
-     "Trinidad and Tobago",
-     "Guyana"
-    ],
-    "answer": 2,
-    "explain": "Euronews, 11 Nov headline: Trinidad and Tobago's highest court overturned the ban."
-   },
-   {
-    "q": "How many cases had Congo's Ebola outbreak reached, according to the 11 November Euronews headline?",
-    "options": [
-     "1,100",
-     "5,000",
-     "11,000",
-     "110,000"
-    ],
-    "answer": 2,
-    "explain": "Euronews called it the deadliest Ebola outbreak in Congo's history, at 11,000 cases."
-   },
-   {
-    "q": "Which country approved Tesla's assisted-driving cars ahead of an EU vote?",
-    "options": [
-     "Finland",
-     "Norway",
-     "Spain",
-     "Poland"
+     "8-12-2",
+     "12-8-2",
+     "10-10-2",
+     "4-9-1"
     ],
     "answer": 0,
-    "explain": "Euronews, 11 Nov: Finland approved them ahead of the EU vote."
-   },
-   {
-    "q": "Which Russian newspaper shut its Moscow office, per Euronews on 11 November?",
-    "options": [
-     "Kommersant",
-     "Izvestia",
-     "Novaya Gazeta",
-     "Pravda"
-    ],
-    "answer": 2,
-    "explain": "Euronews called Novaya Gazeta Russia's last openly critical newspaper."
-   },
-   {
-    "q": "Where is the COP31 climate summit being held, according to Euronews' 11 November coverage?",
-    "options": [
-     "Turkey",
-     "Brazil",
-     "Australia",
-     "Egypt"
-    ],
-    "answer": 0,
-    "explain": "A Euronews video that day showed an Ottoman marching band welcoming world leaders to COP31 in Turkey."
-   },
-   {
-    "q": "The Abu Dhabi peace talks on Ukraine ended on 11 November with agreement on what?",
-    "options": [
-     "A ceasefire",
-     "A prisoner exchange",
-     "A new border",
-     "Sanctions relief"
-    ],
-    "answer": 1,
-    "explain": "Euronews: talks ended with a prisoner exchange agreement as US envoys prepared to meet Putin."
-   },
-   {
-    "q": "Which actor, star of 'Mike Hammer' and 'Prison Break', died aged 85 (Euronews, 11 Nov)?",
-    "options": [
-     "Stacy Keach",
-     "Wayne Knight",
-     "Robert Knepper",
-     "Dominic Purcell"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 11 Nov headline."
-   },
-   {
-    "q": "What did Euronews say Jensen Huang's Nvidia role change was on 12 November (in content already on this site)?",
-    "options": [
-     "He resigned as CEO",
-     "He became chair",
-     "He sold the company",
-     "He took leave"
-    ],
-    "answer": 0,
-    "explain": "Huang resigned as CEO; CFO Colette Kress is interim CEO (Euronews, 12 Nov)."
+    "explain": "nhl.com recap header (4-9-1 is the home record)."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Sun 15 Nov 2026, Toronto early morning. NOT REFRESHED: the feeds and score sites could not be read this run, so this block is the 13 Nov briefing and may be out of date. Nothing from 14-15 Nov is verified (gap).",
+  "stamp": "Tue 17 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites could not be read; the items below come from articles that could be read (Al Jazeera 17 Nov, EUnews 16 Nov, nhl.com recaps 12 and 14 Nov). Weekend sport results (14-16 Nov) are not verified (gap).",
   "blocks": [
    {
     "id": "t-world",
     "title": "World: breaking",
     "items": [
      {
-      "t": "Witkoff and Kushner in Moscow, Europe pushes for a seat at the table",
-      "b": "US envoys arrived in Moscow on Thursday seeking Putin's blessing to bring Europe into the Ukraine talks. Russia played down talks with Europe, and Europe replied that its security architecture is for Europeans to decide. Headlines only.",
-      "when": "12–13 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/13/europe-today-us-envoys-meet-putin-as-europe-pushes-to-join-ukraine-talks"
+      "t": "Ukraine holds talks with US and Europe as drone war escalates",
+      "b": "Online talks on 17 Nov with US envoys and five European states; next meeting planned in Berlin. Kyiv hit a Russian bridge and refineries in the biggest overnight drone attack on Russia since 2022, and Zelenskyy warns of major Russian strikes on Tuesday. Moscow says it has not agreed to include Europe.",
+      "when": "17 Nov",
+      "src": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
      },
      {
-      "t": "Nvidia CEO Jensen Huang resigns",
-      "b": "Huang quit as president, CEO and board member effective immediately; CFO Colette Kress is interim CEO and Harvey C. Jones is the first board chair. Nvidia reports quarterly results Tuesday 17 November. Shares tumbled (size of fall not verified).",
-      "when": "12 Nov",
-      "src": "Euronews / NVIDIA",
-      "url": "https://www.euronews.com/2026/11/12/nvidia-shares-tumble-as-jensen-huang-steps-down-as-ceo"
+      "t": "Europe names a negotiating team for Ukraine talks",
+      "b": "Leaders meeting in Dublin backed a team of Britain, France, Germany, Italy and Poland plus EU institutions. EU foreign ministers meet Monday, defence ministers Tuesday.",
+      "when": "16 Nov",
+      "src": "EUnews",
+      "url": "https://www.eunews.it/en/2026/11/16/weekend-round-up-war-ukraine-brief-europe-3/"
      },
      {
-      "t": "Microsoft outage hits Outlook, Teams and Copilot",
-      "b": "More than 130,000 Outlook complaints were logged in the US by about 1:30 pm Eastern on Thursday; Microsoft blamed 'higher than normal load' and said Teams was resolved in North America.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/microsoft-outage-hits-outlook-teams-and-copilot-disrupting-thousands"
-     },
-     {
-      "t": "One dead in gym shooting near the White House",
-      "b": "One person was killed and four injured in a gym shooting in Washington DC, and the gunman barricaded himself in a building, according to the headline. Details beyond that were not read.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/gunman-kills-one-and-barricades-himself-in-building-after-gym-shooting-in-washington-dc"
-     },
-     {
-      "t": "Zelenskyy: Starlink restrictions are back in Ukraine",
-      "b": "The Ukrainian president says Starlink is again facing restrictions, hampering Russian drone interception. Headline only.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/zelenskyy-starlink-again-facing-restrictions-in-ukraine-hampering-russian-drone-intercepti"
-     },
-     {
-      "t": "Van Hollen to challenge Schumer for Senate Democratic leader",
-      "b": "Maryland senator Chris Van Hollen will run against Chuck Schumer for Senate majority leader, Euronews reports. Headline only.",
-      "when": "13 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/13/us-senator-chris-van-hollen-to-challenge-chuck-schumer-for-senate-majority-leader"
-     },
-     {
-      "t": "Mercedes-Benz halts new investment in German plants",
-      "b": "The carmaker has stopped new investment in its German plants and is considering closures, per the headline.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/mercedes-benz-halts-new-investment-in-german-plants-considers-closures"
+      "t": "Kremlin aide denies Russia agreed to include Europe in talks",
+      "b": "Headline only (not opened): the Kremlin disputes the US account that Europeans will join the next round.",
+      "when": "16 Nov",
+      "src": "US News",
+      "url": "https://www.usnews.com/news/world/articles/2026-11-16/kremlin-aide-denies-russia-agreed-to-include-europe-in-ukraine-peace-talks"
      }
     ]
    },
@@ -5961,159 +5934,34 @@
     "title": "Local: Toronto, France, UK",
     "items": [
      {
-      "t": "Toronto: genetic genealogy identifies man found dead in 1992",
-      "b": "Toronto police used genetic genealogy to name a man found dead in 1992. Headline only.",
-      "when": "11 Nov",
-      "src": "Global News",
-      "url": "https://globalnews.ca/news/12146122/genetic-genealogy-project-31-toronto-police-man-identified/"
-     },
-     {
-      "t": "Toronto: possible measles exposure at Pearson and a Durham ER",
-      "b": "Toronto Pearson airport and a Durham region emergency room are among possible measles exposure sites. Headline only; check public health for dates.",
-      "when": "8 Nov",
-      "src": "Global News",
-      "url": "https://globalnews.ca/news/12141827/measles-exposure-toronto-pearson-durham-region/"
-     },
-     {
-      "t": "Toronto: Maple Leafs lose 6–3 to Colorado",
-      "b": "The Leafs' slide continued on Tuesday 10 November. They host Edmonton on Saturday (see fixtures below).",
-      "when": "10 Nov",
-      "src": "Daily Faceoff schedule page",
-      "url": "https://www.dailyfaceoff.com/teams/toronto-maple-leafs/schedule/2026-11-10"
-     },
-     {
-      "t": "France: bomb threats hit schools in Italy and France",
-      "b": "A second day of school bomb threats in Italy, and threats in France too, according to the headline.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/italy-hit-by-second-day-of-school-bomb-threats-as-meloni-summons-opposition"
-     },
-     {
-      "t": "France: two guards collapse beside Macron at a welcoming ceremony",
-      "b": "Two guards collapsed next to the president during an official welcome ceremony. Headline only.",
-      "when": "12 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/12/two-guards-collapse-beside-macron-during-official-welcoming-ceremony"
-     },
-     {
-      "t": "France: pupils step up protests",
-      "b": "French school pupils escalated protests after government concessions fell flat, Euronews reported on 10 November.",
-      "when": "10 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/10/french-pupils-step-up-protests-as-government-concessions-fall-flat"
-     },
-     {
-      "t": "UK: five EU countries demand Britain pays for electricity market access",
-      "b": "Five EU states want the UK to pay to stay in the bloc's electricity market, per the headline.",
-      "when": "10 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/10/five-eu-countries-demand-uk-pays-for-electricity-market-access"
-     },
-     {
-      "t": "Gaps: Sablet, Vaison-la-Romaine, Orange, Avignon, London, Windsor, Bournemouth, Finchampstead",
-      "b": "No fresh local story could be verified for these today (the L'Écho du Mardi feed was refused).",
-      "when": "13 Nov",
-      "src": "",
-      "url": ""
+      "t": "Local news for 14-17 Nov not verified",
+      "b": "No Toronto, France or UK local story dated within the last few days could be read this run (CP24, Global News and L'Écho du Mardi feeds were refused). Earlier local cards remain below with their own dates.",
+      "when": "gap",
+      "src": "-"
      }
     ]
    },
    {
     "id": "t-sport",
-    "title": "Sport: fresh results",
+    "title": "Sport: results",
     "items": [
      {
-      "t": "Premier League: Arsenal six clear as City lose a third in a row",
-      "b": "Arsenal 1–0 Hull (Ødegaard 72'), Forest 3–1 Man City, Leeds 1–0 Spurs, Newcastle 1–1 Fulham, on 8 November. The league is now on the international break until Saturday 21 November.",
-      "when": "8 Nov",
-      "src": "Outlook India",
-      "url": "https://www.outlookindia.com/sports/football/premier-league-2026-27-nottingham-forest-vs-manchester-city-arsenal-v-hull-city-report"
+      "t": "Maple Leafs fall to 8-12-2",
+      "b": "Toronto lost to Minnesota on 12 Nov (Boldy hat trick; Matthews scored his 12th) and dropped to 8-12-2 (18 points) after the 14 Nov game v Edmonton, per nhl.com recap headers. Scores of the Edmonton game not verified.",
+      "when": "12-14 Nov",
+      "src": "NHL.com",
+      "url": "https://www.nhl.com/mapleleafs/news/recap-leafs-vs-oilers-nov-14-2026"
      },
      {
-      "t": "F1: Norris wins in Sao Paulo, Mercedes take the constructors' title",
-      "b": "Antonelli is already champion with 390 points; Verstappen is second on 279. Las Vegas is next.",
-      "when": "8 Nov",
-      "src": "Silverstone / Crash.net",
-      "url": "https://www.silverstone.co.uk/news/f1-2026-sao-paulo-grand-prix-results-norris-dominates-tricky-conditions-interlagos"
-     },
-     {
-      "t": "NHL: Leafs lose to Montreal 4–2 and Colorado 6–3",
-      "b": "Toronto were 8-8-2 after the Montreal loss on 7 November; the Colorado defeat followed on 10 November. The Thursday 12 November game at Minnesota was not verified.",
-      "when": "7–10 Nov",
-      "src": "NHL.com / Daily Faceoff",
-      "url": "https://nhl.com/news/montreal-canadiens-toronto-maple-leafs-game-recap-november-7-2026"
-     },
-     {
-      "t": "Not verified today",
-      "b": "England v Croatia (Thu 12 Nov), the ATP Finals draw, Ligue 1, Championship, cricket, basketball and baseball results.",
-      "when": "",
-      "src": "",
-      "url": ""
+      "t": "Weekend football, rugby, ATP Finals results",
+      "b": "Not verified this run: score pages were refused.",
+      "when": "gap",
+      "src": "-"
      }
     ]
    }
   ],
   "fixtures": [
-   {
-    "day": "Fri 13 Nov",
-    "rows": [
-     [
-      "Rugby",
-      "Nations Championship: France v South Africa, Stade de France, Paris",
-      "8:10 pm UK / 3:10 pm ET"
-     ]
-    ]
-   },
-   {
-    "day": "Sat 14 Nov",
-    "rows": [
-     [
-      "Rugby",
-      "Nations Championship: Italy v Argentina, Genoa",
-      "11:40 am UK / 6:40 am ET"
-     ],
-     [
-      "Rugby",
-      "Nations Championship: Wales v New Zealand, Cardiff",
-      "2:10 pm UK / 9:10 am ET"
-     ],
-     [
-      "Rugby",
-      "Nations Championship: England v Japan, Twickenham",
-      "4:40 pm UK / 11:40 am ET"
-     ],
-     [
-      "Rugby",
-      "Nations Championship: Ireland v Fiji, Dublin",
-      "8:10 pm UK / 3:10 pm ET"
-     ],
-     [
-      "NHL",
-      "NHL regular season: Maple Leafs v Edmonton Oilers",
-      "7:00 pm ET"
-     ]
-    ]
-   },
-   {
-    "day": "Sun 15 Nov",
-    "rows": [
-     [
-      "Football",
-      "UEFA Nations League: Spain v England, Madrid",
-      "7:45 pm UK / 2:45 pm ET"
-     ],
-     [
-      "Rugby",
-      "Nations Championship: Scotland v Australia, Murrayfield",
-      "3:10 pm UK / 10:10 am ET"
-     ],
-     [
-      "Tennis",
-      "Nitto ATP Finals, Turin: round-robin begins (to Fri 20 Nov)",
-      "Singles from 2 pm and 8:30 pm local"
-     ]
-    ]
-   },
    {
     "day": "Tue 17 Nov",
     "rows": [
@@ -6185,6 +6033,6 @@
     ]
    }
   ],
-  "fixnote": "Sources: autumn-internationals.co.uk (rugby, UK/Ireland times), Premier League (break 9 to 17 Nov), Sports Mole (England), ATP Tour (Finals 15 to 22 Nov), formula1.com (Las Vegas, local time), Daily Faceoff (Leafs). ET conversions assume UK on GMT and Toronto on EST. Not verified: Champions League and Europa League dates, Ligue 1, tennis WTA, cricket, basketball, baseball and Premier League kick-off times for 21 Nov. Competition names: Nations Championship (rugby, per autumn-internationals.co.uk), UEFA Nations League (Sports Mole)."
+  "fixnote": "Fixture list carried over from the 13-15 Nov briefing and not re-checked; times and any changes after 13 Nov are not verified. Nvidia's earnings (Tue 17 Nov, 4:20 pm ET) result was not available at run time."
  }
 }
