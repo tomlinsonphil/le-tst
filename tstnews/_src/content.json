@@ -1,8 +1,8 @@
 {
- "date": "2026-11-17",
- "label": "Tuesday 17 November 2026",
- "note": "Tue 17 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs listed for this run were refused again (permission cannot be granted unattended; one retry failed). What could be read via search results: the Euronews 11 Nov archive page, Al Jazeera's 17 Nov Ukraine story, a EUnews round-up of 16 Nov, and two Maple Leafs recaps from nhl.com (12 and 14 Nov). Everything else (other news cards, tables, results, fixtures) is NOT refreshed and keeps its own 'as of' date; treat anything dated before 14 Nov as possibly out of date. Premier League, rugby and other weekend results of 14-16 Nov are not verified (gap).",
- "sport_note": "Tue 17 Nov 2026: footballwebpages, ATP, WTA and other score pages were refused or unreadable. Only the Maple Leafs record was refreshed (nhl.com recaps). All other sport panels keep their own 'as of' dates; weekend results are not verified (gap).",
+ "date": "2026-11-18",
+ "label": "Wednesday 18 November 2026",
+ "note": "Wed 18 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs listed (Euronews RSS, Al Jazeera sitemap, Global News, CP24, footballwebpages, ATP/WTA etc.) were refused again; permission cannot be granted unattended. Refreshed from readable pages only: Euronews 13 Nov archive page, CP24 report of the Leafs-Oilers game (15 Nov), nhl.com recap. Everything else keeps its own 'as of' date; treat anything dated before 14 Nov as possibly out of date. Premier League, rugby and other weekend results (14-17 Nov) are NOT verified (gap).",
+ "sport_note": "Wed 18 Nov 2026: score pages (footballwebpages, ATP, WTA, F1) were refused or unreadable. Only the Maple Leafs result was refreshed (CP24, nhl.com). All other sport panels keep their own 'as of' dates; weekend results are not verified (gap).",
  "sections": [
   {
    "id": "headlines",
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Abu Dhabi peace talks end with prisoner exchange agreement as US envoys prepare to meet Putin",
-       "url": "https://www.euronews.com/2026/11/11/abu-dhabi-peace-talks-end-with-prisoner-exchange-agreement-as-us-envoys-prepare-to-meet-pu",
-       "when": "11 Nov"
+       "t": "EU leaders bring Italy and Poland into Ukraine peace talks team as Kallas fights for spot",
+       "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
+       "when": "13 Nov"
       },
       {
-       "t": "Portugal closes all schools and non-essential services over Storm Charles",
-       "url": "https://www.euronews.com/2026/11/11/portugal-closes-all-schools-and-non-essential-services-over-storm-charles",
-       "when": "11 Nov"
+       "t": "France and Germany near deal on De Cos for ECB top job as EU confirms two candidates",
+       "url": "https://www.euronews.com/2026/11/13/france-and-germany-near-deal-on-de-cos-for-ecb-top-job-as-eu-confirms-two-candidates",
+       "when": "13 Nov"
       },
       {
-       "t": "France's 11 November ceremonies: Macron, Le Pen, Mélenchon between memory and pacifism",
-       "url": "https://www.euronews.com/2026/11/11/frances-11-november-ceremonies-macron-le-pen-melenchon-between-memory-and-pacifism",
-       "when": "11 Nov"
+       "t": "Iran MPs debate possible shift in nuclear doctrine and exit from NPT",
+       "url": "https://www.euronews.com/2026/11/13/iran-mps-debate-possible-shift-in-nuclear-doctrine-and-exit-from-npt",
+       "when": "13 Nov"
       },
       {
-       "t": "Trump's defamation lawsuit against the BBC over Panorama edit can proceed, judge rules",
-       "url": "https://www.euronews.com/2026/11/11/trumps-defamation-lawsuit-against-the-bbc-over-panorama-edit-can-proceed-judge-rules",
-       "when": "11 Nov"
+       "t": "All passengers rescued after tanker collides with cruise ship in New Orleans",
+       "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
+       "when": "13 Nov"
       },
       {
-       "t": "Deadliest Ebola outbreak in Congo's history reaches 11,000 cases",
-       "url": "https://www.euronews.com/2026/11/11/deadliest-ebola-outbreak-in-congos-history-reaches-11000-cases",
-       "when": "11 Nov"
+       "t": "Russia sends major business delegation to Kabul for business talks with the Taliban",
+       "url": "https://www.euronews.com/2026/11/13/russia-sends-major-business-delegation-to-kabul-for-business-talks-with-the-taliban",
+       "when": "13 Nov"
       }
      ]
     },
@@ -5128,31 +5128,26 @@
    "cards": [
     {
      "t": "Maple Leafs",
-     "tag": "Lost 2–4 to Montreal (7 Nov)",
+     "tag": "Lost 0–1 to Edmonton (14 Nov)",
      "w": [
-      "The Leafs are sliding. Montreal beat Toronto 4–2 on Saturday 7 November behind two goals from Alex Newhook, plus Chris Kreider and Zachary Bolduc; William Nylander and Gavin McKenna scored for Toronto (Global News).",
-      "It followed a 3–2 home loss to Utah on 3 November, when Nick Schmaltz scored the winner on a power play with 6:48 left and Jack Roslovic scored both Toronto goals (CP24). The record now stands at 8-8-2.",
-      "Next up: the New Jersey Devils at home on Sunday 8 November (result not verified)."
+      "Edmonton's Evan Bouchard scored the only goal, in the second period on a Connor McDavid pass, and the Oilers beat Toronto 1–0 at home on Saturday 14 November. It was the Leafs' sixth straight regulation defeat and sixth straight home loss (CP24).",
+      "The record now reads 8-12-2 (18 points), with just 4-9-1 at home. Toronto's next game is a visit to the Chicago Blackhawks on Tuesday 17 November (result not verified)."
      ],
      "f": [
-      "Record: 8 wins, 8 losses, 2 overtime losses (after 7 Nov)",
-      "Last verified results: 2–4 v Montreal (7 Nov), 2–3 v Utah (3 Nov)",
-      "Next: v New Jersey, 8 Nov (not verified)"
+      "Record: 8-12-2, 18 points (after 14 Nov)",
+      "Last verified result: 0–1 v Edmonton (14 Nov)",
+      "Next: at Chicago, Tue 17 Nov (result not verified)"
      ],
      "n": [
       "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "As of 10 Nov 2026 · Global News (7 Nov), CP24 (3 Nov)",
+     "s": "As of 15 Nov 2026 · CP24, nhl.com",
      "links": [
       {
-       "text": "Global News: Newhook, Fowler lead Canadiens over Maple Leafs",
-       "url": "https://globalnews.ca/news/12141495/newhook-fowler-lead-canadiens-over-maple-leafs/"
-      },
-      {
-       "text": "CP24: Schmaltz scores winner, Utah Mammoth down Maple Leafs 3–2",
-       "url": "https://www.cp24.com/news/sports/2026/11/04/schmaltz-scores-winner-utah-mammoth-down-toronto-maple-leafs-3-2/"
+       "text": "CP24: Levi, McDavid help Oilers hand Maple Leafs sixth straight home loss",
+       "url": "https://www.cp24.com/news/sports/2026/11/15/levi-mcdavid-help-oilers-hand-maple-leafs-sixth-straight-home-loss/"
       }
      ]
     }
@@ -5167,17 +5162,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "14 Nov 2026 (nhl.com Maple Leafs recaps)",
+       "asof": "15 Nov 2026 (CP24, nhl.com)",
        "source": "nhl.com/mapleleafs",
        "items": [
-        "8-12-2 (18 points) after the 14 Nov game v Edmonton, per the nhl.com recap header; 4-9-1 at home. Final score not stated in the text read."
+        "8-12-2 (18 points) after the 14 Nov loss to Edmonton; 4-9-1 at home; six straight regulation losses."
        ],
-       "note": "An overtime loss earns 1 point. Home record 'falls to 4-9-1' implies a loss on 14 Nov (score not verified)."
+       "note": "Chicago game of 17 Nov not verified."
       },
       {
        "id": "tml-res",
        "title": "Recent games (8, 10 Nov scores not verified)",
-       "asof": "14 Nov 2026 (nhl.com recaps); earlier rows 7 Nov and before",
+       "asof": "15 Nov 2026 (CP24); earlier rows from nhl.com and Global News",
        "source": "nhl.com/mapleleafs, globalnews.ca",
        "cols": [
         "Date",
@@ -5189,8 +5184,8 @@
         [
          "14 Nov",
          "Edmonton Oilers",
-         "not verified",
-         "Loss implied (record 8-12-2)"
+         "0–1",
+         "L"
         ],
         [
          "12 Nov",
@@ -5239,7 +5234,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "17 Nov 2026 · next game not verified",
+       "asof": "18 Nov 2026 · only the Chicago game (Tue 17 Nov) is known",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
@@ -5247,7 +5242,11 @@
        ],
        "rows": [
         [
-         "Next game not verified",
+         "Tue 17 Nov (result not verified)",
+         "at Chicago Blackhawks"
+        ],
+        [
+         "Later games not verified",
          "Schedule page could not be read"
         ]
        ]
@@ -5782,125 +5781,125 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Tuesday 17 November 2026",
-  "intro": "Ten questions from the stories actually read on 11-17 November (Al Jazeera, EUnews, Euronews, nhl.com).",
+  "title": "TST News quiz · Wednesday 18 November 2026",
+  "intro": "Questions from stories actually read on 13-17 November (Euronews, CP24, Al Jazeera, EUnews).",
   "questions": [
    {
-    "q": "Which group did Ukraine agree to meet in Berlin after its 17 November talks?",
+    "q": "Who scored the only goal in Edmonton's 1–0 win over the Maple Leafs on 14 Nov?",
     "options": [
-     "The G7",
-     "The Coalition of the Willing",
-     "The UN Security Council",
-     "The Arctic Council"
+     "Connor McDavid",
+     "Evan Bouchard",
+     "Leon Draisaitl",
+     "Auston Matthews"
     ],
     "answer": 1,
-    "explain": "Al Jazeera, 17 Nov."
+    "explain": "CP24, 15 Nov: Bouchard, on a McDavid pass."
    },
    {
-    "q": "Which US envoys took part in the 17 November talks with Ukraine?",
+    "q": "What is the Maple Leafs' record after that game?",
     "options": [
-     "Rubio and Vance",
-     "Witkoff and Kushner",
-     "Hegseth and Bessent",
-     "Kellogg and Waltz"
-    ],
-    "answer": 1,
-    "explain": "Steve Witkoff and Jared Kushner (Al Jazeera)."
-   },
-   {
-    "q": "What did the Abu Dhabi talks of 10-11 November agree in principle?",
-    "options": [
-     "A ceasefire",
-     "A prisoner exchange of over 1,000 people",
-     "A border map",
-     "Elections in Ukraine"
-    ],
-    "answer": 1,
-    "explain": "EUnews, 16 Nov; no territorial breakthrough."
-   },
-   {
-    "q": "Which five European countries are in Europe's Ukraine negotiating team?",
-    "options": [
-     "Britain, France, Germany, Italy, Poland",
-     "Britain, France, Spain, Sweden, Poland",
-     "Germany, Italy, Spain, Portugal, Poland",
-     "France, Belgium, Netherlands, Italy, Poland"
-    ],
-    "answer": 0,
-    "explain": "EUnews, 16 Nov (plus EU institutions)."
-   },
-   {
-    "q": "What did Russian data show about the overnight Ukrainian drone attack reported on 17 Nov?",
-    "options": [
-     "Smallest since 2022",
-     "Biggest since 2022",
-     "First ever",
-     "Only against Crimea"
-    ],
-    "answer": 1,
-    "explain": "Al Jazeera, 17 Nov."
-   },
-   {
-    "q": "Which storm closed all schools in Portugal on 11 November?",
-    "options": [
-     "Storm Charles",
-     "Storm Diana",
-     "Storm Bert",
-     "Storm Eunice"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 11 Nov."
-   },
-   {
-    "q": "What Congo outbreak figure did Euronews report on 11 Nov?",
-    "options": [
-     "1,100 Ebola cases",
-     "11,000 Ebola cases",
-     "110 cholera cases",
-     "11 million measles cases"
-    ],
-    "answer": 1,
-    "explain": "Deadliest Ebola outbreak in Congo's history reaches 11,000 cases."
-   },
-   {
-    "q": "Which French resort was named the world's best ski resort (Euronews, 11 Nov)?",
-    "options": [
-     "Chamonix",
-     "Val Thorens",
-     "Courchevel",
-     "Méribel"
-    ],
-    "answer": 1,
-    "explain": "Ahead of Deer Valley and Kitzbühel."
-   },
-   {
-    "q": "Who scored a hat trick for Minnesota against the Maple Leafs on 12 November?",
-    "options": [
-     "Boldy",
-     "Kaprizov",
-     "Matthews",
-     "Stolarz"
-    ],
-    "answer": 0,
-    "explain": "nhl.com recap; Stolarz made 21 saves."
-   },
-   {
-    "q": "What was the Maple Leafs' record after the 14 November game v Edmonton?",
-    "options": [
-     "8-12-2",
-     "12-8-2",
+     "8-8-2",
      "10-10-2",
-     "4-9-1"
+     "8-12-2",
+     "12-8-2"
+    ],
+    "answer": 2,
+    "explain": "CP24 / nhl.com."
+   },
+   {
+    "q": "How many straight home losses have the Leafs now suffered?",
+    "options": [
+     "Two",
+     "Four",
+     "Six",
+     "Eight"
+    ],
+    "answer": 2,
+    "explain": "CP24, 15 Nov."
+   },
+   {
+    "q": "Which team do the Leafs visit on Tuesday 17 Nov?",
+    "options": [
+     "Chicago Blackhawks",
+     "Boston Bruins",
+     "Utah Mammoth",
+     "Calgary Flames"
     ],
     "answer": 0,
-    "explain": "nhl.com recap header (4-9-1 is the home record)."
+    "explain": "CP24, 15 Nov."
+   },
+   {
+    "q": "Which two countries were added to Europe's Ukraine peace-talks team, per Euronews on 13 Nov?",
+    "options": [
+     "Spain and Portugal",
+     "Italy and Poland",
+     "Sweden and Norway",
+     "Greece and Austria"
+    ],
+    "answer": 1,
+    "explain": "Euronews, 13 Nov."
+   },
+   {
+    "q": "Which EU official 'fights for a spot' in that team, per the Euronews headline?",
+    "options": [
+     "Ursula von der Leyen",
+     "Kaja Kallas",
+     "Roberta Metsola",
+     "Josep Borrell"
+    ],
+    "answer": 1,
+    "explain": "Euronews, 13 Nov."
+   },
+   {
+    "q": "France and Germany are near a deal on whom for the ECB top job, per Euronews?",
+    "options": [
+     "De Cos",
+     "Knot",
+     "Nagel",
+     "Villeroy"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 13 Nov headline."
+   },
+   {
+    "q": "What collided with a cruise ship in New Orleans on 13 Nov?",
+    "options": [
+     "A bridge",
+     "A tanker",
+     "A ferry",
+     "A submarine"
+    ],
+    "answer": 1,
+    "explain": "Euronews, 13 Nov: all passengers rescued."
+   },
+   {
+    "q": "Whose parliament members debated exiting the NPT, per Euronews on 13 Nov?",
+    "options": [
+     "Iran",
+     "Turkey",
+     "Egypt",
+     "Syria"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 13 Nov."
+   },
+   {
+    "q": "Which group met Ukraine online on 17 Nov, with a Berlin meeting planned next?",
+    "options": [
+     "US envoys and five European states",
+     "The G20",
+     "NATO defence ministers only",
+     "The African Union"
+    ],
+    "answer": 0,
+    "explain": "Al Jazeera, 17 Nov."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Tue 17 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites could not be read; the items below come from articles that could be read (Al Jazeera 17 Nov, EUnews 16 Nov, nhl.com recaps 12 and 14 Nov). Weekend sport results (14-16 Nov) are not verified (gap).",
+  "stamp": "Wed 18 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites could not be read. Items come from pages that could be read (Euronews 13 Nov, CP24 15 Nov, Al Jazeera 17 Nov via last run). Results of 15-17 Nov other than the Leafs-Oilers game are not verified (gap).",
   "blocks": [
    {
     "id": "t-world",
@@ -5921,11 +5920,18 @@
       "url": "https://www.eunews.it/en/2026/11/16/weekend-round-up-war-ukraine-brief-europe-3/"
      },
      {
-      "t": "Kremlin aide denies Russia agreed to include Europe in talks",
-      "b": "Headline only (not opened): the Kremlin disputes the US account that Europeans will join the next round.",
-      "when": "16 Nov",
-      "src": "US News",
-      "url": "https://www.usnews.com/news/world/articles/2026-11-16/kremlin-aide-denies-russia-agreed-to-include-europe-in-ukraine-peace-talks"
+      "t": "EU leaders bring Italy and Poland into Ukraine peace-talks team",
+      "b": "Headline only: Euronews reports Italy and Poland joining Europe's negotiating team as Kallas fights for a place.",
+      "when": "13 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
+     },
+     {
+      "t": "France and Germany near deal on De Cos for ECB top job",
+      "b": "Headline only: Euronews reports the EU has confirmed two candidates for the ECB's top job.",
+      "when": "13 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/13/france-and-germany-near-deal-on-de-cos-for-ecb-top-job-as-eu-confirms-two-candidates"
      }
     ]
    },
@@ -5946,11 +5952,11 @@
     "title": "Sport: results",
     "items": [
      {
-      "t": "Maple Leafs fall to 8-12-2",
-      "b": "Toronto lost to Minnesota on 12 Nov (Boldy hat trick; Matthews scored his 12th) and dropped to 8-12-2 (18 points) after the 14 Nov game v Edmonton, per nhl.com recap headers. Scores of the Edmonton game not verified.",
-      "when": "12-14 Nov",
-      "src": "NHL.com",
-      "url": "https://www.nhl.com/mapleleafs/news/recap-leafs-vs-oilers-nov-14-2026"
+      "t": "Oilers shut out Maple Leafs 1–0",
+      "b": "Evan Bouchard's second-period goal, set up by Connor McDavid, gave Edmonton the win in Toronto on 14 Nov. It was the Leafs' sixth straight home loss; they are 8-12-2 and visit Chicago on Tuesday 17 Nov (result not verified).",
+      "when": "14 Nov",
+      "src": "CP24",
+      "url": "https://www.cp24.com/news/sports/2026/11/15/levi-mcdavid-help-oilers-hand-maple-leafs-sixth-straight-home-loss/"
      },
      {
       "t": "Weekend football, rugby, ATP Finals results",
