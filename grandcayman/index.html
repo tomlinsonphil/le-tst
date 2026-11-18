@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Grand Cayman, December 2026</title>
+<meta name="description" content="Family trip page for Grand Cayman, 6 to 13 December 2026.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#F0F8F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#08202B" media="(prefers-color-scheme: dark)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#F0F8F7; --paper:#FFFFFF; --ink:#0B2B3B; --soft:#41606E; --line:rgba(11,43,59,.16);
+  --shallow:#CFEFEB; --lagoon:#4DBDBD; --deep:#0B6F77; --hibiscus:#C92C57; --sun:#FFC64A;
+  --display:"Bricolage Grotesque","Avenir Next",system-ui,sans-serif;
+  --body:"Figtree","Avenir Next",system-ui,-apple-system,"Segoe UI",sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --bg:#08202B; --paper:#0F2E3B; --ink:#E7F4F2; --soft:#A5C2C6; --line:rgba(231,244,242,.2);
+    --shallow:#123F4A; --lagoon:#1F7077; --deep:#6FD3D3; --hibiscus:#FF7B9C;
+  }
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+.wrap{max-width:44rem;margin:0 auto;padding:0 1.25rem}
+h1,h2,h3{font-family:var(--display);margin:0;line-height:1.1}
+h1{font-size:clamp(3.6rem,17vw,7.5rem);font-weight:800;letter-spacing:-.035em;line-height:.9}
+h2{font-size:clamp(1.7rem,5.5vw,2.3rem);font-weight:700;letter-spacing:-.02em;margin-bottom:.5rem}
+h3{font-size:1.2rem;font-weight:700;letter-spacing:-.01em}
+p{margin:.5rem 0}
+section{padding:3.25rem 0 0}
+a{color:var(--deep)}
+:focus-visible{outline:3px solid var(--ink);outline-offset:3px;border-radius:4px}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.soft{color:var(--soft)}
+
+/* hero */
+.hero{padding:2.75rem 0 0}
+.dates{font:600 1.3rem/1.3 var(--display);margin:1.1rem 0 .15rem}
+.where{color:var(--soft);margin:0}
+.countdown{font:700 1.5rem/1.2 var(--display);color:var(--deep);margin:1.6rem 0 1rem}
+
+/* the shoreline strip */
+.shore{list-style:none;margin:0;padding:14px 0 0;display:grid;grid-template-columns:repeat(8,1fr);position:relative;border-radius:18px;overflow:hidden;background:linear-gradient(90deg,var(--shallow),var(--lagoon))}
+.shore::before{content:"";position:absolute;inset:0 0 auto 0;height:14px;background:var(--bg);
+  -webkit-mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 14'%3E%3Cpath d='M0 0H40V6C33 12 27 12 20 6C13 0 7 0 0 6Z'/%3E%3C/svg%3E");
+  mask-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 14'%3E%3Cpath d='M0 0H40V6C33 12 27 12 20 6C13 0 7 0 0 6Z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat:repeat-x;mask-repeat:repeat-x;-webkit-mask-size:40px 14px;mask-size:40px 14px}
+.shore a{display:block;position:relative;text-align:center;padding:.55rem 0 .75rem;color:var(--ink);text-decoration:none}
+.shore li+li a{border-left:1px solid var(--line)}
+.shore a:hover{background:rgba(255,255,255,.25)}
+.shore .dow{display:block;font-size:.72rem;font-weight:600}
+.shore .dom{display:block;font:700 1.35rem/1.15 var(--display)}
+.shore .today a{box-shadow:inset 0 -5px 0 var(--sun)}
+.dot{position:absolute;top:.3rem;right:.3rem;width:.55rem;height:.55rem;border-radius:50%;background:var(--hibiscus)}
+.legend{font-size:.95rem;color:var(--soft);margin:.8rem 0 0}
+.legend .dot{position:static;display:inline-block;vertical-align:baseline;margin-right:.3rem}
+
+/* flights */
+.flight{background:var(--paper);border-left:6px solid var(--lagoon);padding:1.1rem 1.25rem 1.3rem;margin-top:1.25rem;border-radius:4px 14px 14px 4px}
+.flight.back{border-left-color:var(--ink)}
+.route{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:.9rem;margin:.9rem 0 .6rem}
+.route strong{display:block;font:700 2rem/1 var(--display)}
+.route .stop span{color:var(--soft);font-size:.9rem}
+.route .stop:last-child{text-align:right}
+.route .line{border-top:2px dashed var(--line);height:0}
+.times{display:grid;grid-template-columns:auto 1fr;gap:.2rem 1rem;margin:.75rem 0 0;font-size:.97rem}
+.times dt{color:var(--soft)}
+.times dd{margin:0;font-weight:600}
+.seats{margin:.6rem 0 0;font-size:.97rem}
+
+/* days */
+.days{list-style:none;margin:1rem 0 0;padding:0}
+.day{display:grid;grid-template-columns:4rem 1fr;gap:1rem;padding:1.1rem 0;border-top:1px solid var(--line);scroll-margin-top:1rem}
+.when .dow{display:block;font-size:.85rem;color:var(--soft)}
+.when .dom{display:inline-block;font:800 2rem/1 var(--display)}
+.day.today .when .dom{box-shadow:0 5px 0 var(--sun)}
+.what ul{margin:.4rem 0 0;padding-left:1.1rem}
+.what li{margin:.2rem 0}
+.what p{margin:.3rem 0 0;color:var(--soft)}
+.day.bday .what{border-left:4px solid var(--hibiscus);padding-left:.9rem}
+.day.bday h3{color:var(--hibiscus)}
+
+/* checklists */
+.group{margin-top:1.75rem}
+.group h3{display:flex;justify-content:space-between;align-items:baseline;gap:1rem}
+.count{font:500 .9rem var(--body);color:var(--soft)}
+.checks{list-style:none;margin:.5rem 0 0;padding:0}
+.checks li{border-bottom:1px solid var(--line)}
+.checks label{display:flex;gap:.75rem;align-items:flex-start;padding:.65rem 0;cursor:pointer}
+.checks input{flex:none;width:1.3rem;height:1.3rem;margin:.15rem 0 0;accent-color:var(--deep)}
+.checks small{display:block;color:var(--soft);font-size:.9rem;line-height:1.45;margin-top:.1rem}
+.checks input:checked + span{color:var(--soft);text-decoration:line-through;text-decoration-color:var(--line)}
+.checks.keep input:checked + span{color:var(--ink);text-decoration:none}
+.checks.keep input:checked + span strong{color:var(--deep)}
+.quiet{font:600 .95rem var(--body);background:none;border:1px solid var(--line);color:var(--ink);padding:.55rem 1rem;border-radius:999px;cursor:pointer;margin-top:1.5rem}
+.quiet:hover{background:var(--paper)}
+
+/* facts and footer */
+.facts{display:grid;grid-template-columns:5.5rem 1fr;gap:.6rem 1rem;margin:1rem 0 0}
+.facts dt{font-weight:600}
+.facts dd{margin:0}
+footer{padding:3rem 0 4rem;color:var(--soft);font-size:.9rem}
+@media (max-width:380px){
+  .route strong{font-size:1.65rem}
+  .facts{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+<main class="wrap">
+
+<header class="hero">
+  <h1>Grand<br>Cayman</h1>
+  <p class="dates">Sunday 6 to Sunday 13 December 2026</p>
+  <p class="where">Seven Mile Beach, the four of us</p>
+  <p class="countdown" id="countdown">6 to 13 December</p>
+
+  <nav aria-label="Trip days">
+    <ol class="shore" id="shore">
+      <li><a href="#day-1" title="Fly out"><span class="dow">Sun</span><span class="dom">6</span></a></li>
+      <li><a href="#day-2"><span class="dow">Mon</span><span class="dom">7</span></a></li>
+      <li><a href="#day-3"><span class="dow">Tue</span><span class="dom">8</span></a></li>
+      <li><a href="#day-4" title="Danielle's birthday"><span class="dow">Wed</span><span class="dom">9</span><i class="dot" aria-hidden="true"></i><span class="sr">Danielle's birthday</span></a></li>
+      <li><a href="#day-5"><span class="dow">Thu</span><span class="dom">10</span></a></li>
+      <li><a href="#day-6"><span class="dow">Fri</span><span class="dom">11</span></a></li>
+      <li><a href="#day-7"><span class="dow">Sat</span><span class="dom">12</span></a></li>
+      <li><a href="#day-8" title="Fly home"><span class="dow">Sun</span><span class="dom">13</span></a></li>
+    </ol>
+  </nav>
+  <p class="legend">We fly out on the 6th and home on the 13th. <i class="dot" aria-hidden="true"></i>The 9th is Danielle's birthday.</p>
+</header>
+
+<section id="flights">
+  <h2>Flights</h2>
+  <p>Air Canada Rouge, Economy Basic. Each of us gets one small personal item under the seat (16 x 33 x 43 cm), no overhead bag, and one free checked bag up to 23 kg.</p>
+
+  <article class="flight">
+    <h3>Sunday 6 December, AC1830</h3>
+    <div class="route">
+      <div class="stop"><strong>07:50</strong><span>Toronto YYZ</span></div>
+      <div class="line" aria-hidden="true"></div>
+      <div class="stop"><strong>12:10</strong><span>Grand Cayman GCM</span></div>
+    </div>
+    <p class="seats">Seats 37A Lottie, 37B Danielle, 37C Millie, 37D Phil</p>
+    <dl class="times">
+      <dt>Bag drop opens</dt><dd>04:50</dd>
+      <dt>Bag drop closes</dt><dd>06:50</dd>
+      <dt>At the gate by</dt><dd>07:05</dd>
+    </dl>
+  </article>
+
+  <article class="flight back">
+    <h3>Sunday 13 December, AC1831</h3>
+    <div class="route">
+      <div class="stop"><strong>13:10</strong><span>Grand Cayman GCM</span></div>
+      <div class="line" aria-hidden="true"></div>
+      <div class="stop"><strong>17:15</strong><span>Toronto YYZ, Terminal 1</span></div>
+    </div>
+    <p class="seats">Seats 38A Lottie, 38B Danielle, 38C Millie, 38D Phil</p>
+    <dl class="times">
+      <dt>Leave the rental</dt><dd>about 09:30</dd>
+      <dt>Bag drop opens</dt><dd>10:10</dd>
+      <dt>Bag drop closes</dt><dd>12:10</dd>
+      <dt>At the gate by</dt><dd>12:25</dd>
+    </dl>
+  </article>
+  <p class="soft">Bag drop and gate times come from Air Canada's international deadlines. Cayman's airport may be stricter, so aim to be there well before they close.</p>
+</section>
+
+<section id="place">
+  <h2>Where we're staying</h2>
+  <p>Grand 32 at Island Pines, on Seven Mile Beach, with a pool.</p>
+  <dl class="times">
+    <dt>Check-in</dt><dd>from 4:00 pm, Sunday 6 December</dd>
+    <dt>Check-out</dt><dd>by 11:00 am, Sunday 13 December</dd>
+    <dt>Guests</dt><dd>4</dd>
+  </dl>
+  <p class="soft">We land at 12:10, so expect to reach the door around 3:00 pm, an hour early. Lunch or the beach first.</p>
+</section>
+
+<section id="days">
+  <h2>Day by day</h2>
+  <ol class="days">
+    <li class="day" id="day-1">
+      <div class="when"><span class="dow">Sun</span><span class="dom">6</span></div>
+      <div class="what">
+        <h3>Fly out</h3>
+        <ul>
+          <li>Be at Pearson by about 4:50 am. Bag drop opens three hours ahead.</li>
+          <li>07:50 AC1830 leaves Toronto, 12:10 lands in Grand Cayman.</li>
+          <li>Immigration, bags, then on to Seven Mile Beach.</li>
+          <li>Rental check-in is from 4:00 pm.</li>
+          <li>Grocery shop for the week.</li>
+        </ul>
+      </div>
+    </li>
+    <li class="day" id="day-2"><div class="when"><span class="dow">Mon</span><span class="dom">7</span></div><div class="what"><h3>Open day</h3><p>Nothing planned yet. A beach and pool day after the early start.</p></div></li>
+    <li class="day" id="day-3"><div class="when"><span class="dow">Tue</span><span class="dom">8</span></div><div class="what"><h3>Open day</h3><p>Nothing planned yet.</p></div></li>
+    <li class="day bday" id="day-4">
+      <div class="when"><span class="dow">Wed</span><span class="dom">9</span></div>
+      <div class="what"><h3>Danielle's birthday</h3><p>Dinner still to book. See the checklist below.</p></div>
+    </li>
+    <li class="day" id="day-5"><div class="when"><span class="dow">Thu</span><span class="dom">10</span></div><div class="what"><h3>Open day</h3><p>Nothing planned yet.</p></div></li>
+    <li class="day" id="day-6"><div class="when"><span class="dow">Fri</span><span class="dom">11</span></div><div class="what"><h3>Open day</h3><p>Nothing planned yet.</p></div></li>
+    <li class="day" id="day-7">
+      <div class="when"><span class="dow">Sat</span><span class="dom">12</span></div>
+      <div class="what"><h3>Last full day</h3><p>Pack tonight. Personal items first, then the checked bags, each under 23 kg.</p></div>
+    </li>
+    <li class="day" id="day-8">
+      <div class="when"><span class="dow">Sun</span><span class="dom">13</span></div>
+      <div class="what">
+        <h3>Fly home</h3>
+        <ul>
+          <li>Leave the rental by about 9:30 am. Check-out is 11:00 am.</li>
+          <li>Bag drop 10:10 to 12:10, at the gate by 12:25.</li>
+          <li>13:10 AC1831 leaves Grand Cayman, 17:15 lands at Toronto Pearson, Terminal 1.</li>
+        </ul>
+      </div>
+    </li>
+  </ol>
+</section>
+
+<section id="ideas">
+  <h2>Ideas for the open days</h2>
+  <p class="soft">Nothing here is booked. Tick what looks good.</p>
+  <div id="ideas-lists"></div>
+</section>
+
+<section id="before">
+  <h2>Before we go</h2>
+  <div id="before-lists"></div>
+</section>
+
+<section id="pack">
+  <h2>Packing</h2>
+  <p class="soft">Valuables, electronics, medication and passports stay in the cabin, not in checked bags.</p>
+  <div id="pack-lists"></div>
+  <button class="quiet" id="reset" type="button">Untick everything</button>
+</section>
+
+<section id="facts">
+  <h2>Handy to know</h2>
+  <dl class="facts">
+    <dt>Time</dt><dd>Same as Toronto in December. Cayman doesn't change its clocks.</dd>
+    <dt>Money</dt><dd>Cayman dollars, fixed at CI$1 to US$1.20. US dollars are accepted almost everywhere.</dd>
+    <dt>Power</dt><dd>Same 120 V plugs and sockets as Canada.</dd>
+    <dt>Roads</dt><dd>Traffic keeps to the left.</dd>
+    <dt>Sun</dt><dd>Strong even in December. Reapply after swims.</dd>
+    <dt>Phones</dt><dd>Check the roaming plan before landing, or use Wi-Fi at the rental.</dd>
+  </dl>
+</section>
+
+<footer>
+  <p>Details checked on 18 November 2026. Confirm flight times with Air Canada before travelling. Booking references and passport details are deliberately not on this page.</p>
+</footer>
+
+</main>
+
+<script>
+(function () {
+  var KEY = 'grand-cayman-dec-2026';
+  var store = {};
+  try { store = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) { store = {}; }
+  function save() { try { localStorage.setItem(KEY, JSON.stringify(store)); } catch (e) {} }
+
+  var ideas = [
+    { title: 'Things to see and do', items: [
+      { id: 'i1', t: 'Stingray City and Starfish Point', n: 'Usually a boat tour to the shallow sandbars in the North Sound.' },
+      { id: 'i2', t: 'Snorkelling at Cemetery Reef', n: 'A reef you can swim to from the beach at the north end of Seven Mile Beach.' },
+      { id: 'i3', t: 'Camana Bay', n: 'Waterfront town centre with shops, restaurants and an observation tower.' },
+      { id: 'i4', t: 'Cayman Turtle Centre', n: 'Turtles and wildlife in West Bay.' },
+      { id: 'i5', t: 'Rum Point', n: 'A relaxed beach on the North Side with a beach bar.' }
+    ]}
+  ];
+
+  var before = [
+    { title: 'To do', items: [
+      { id: 'b1', t: 'Fill in the host\'s online check-in form', n: 'They need it before they send the check-in instructions.' },
+      { id: 'b2', t: 'Ask the host about early check-in', n: 'We land at 12:10 and check-in is from 4:00 pm.' },
+      { id: 'b3', t: 'Ask the host what\'s in the kitchen', n: 'Cooking oil, salt, pepper and the basics.' },
+      { id: 'b4', t: 'Sort travel medical insurance for all four', n: 'Ontario health cover pays very little for care abroad.' },
+      { id: 'b5', t: 'Check Cayman\'s current entry requirements', n: 'Including any online arrival form and passport validity.' },
+      { id: 'b6', t: 'Book a table for Danielle\'s birthday on Wednesday 9 December', n: 'December is busy, so book early.' },
+      { id: 'b7', t: 'Check in online with Air Canada', n: 'Opens roughly 24 hours before each flight.' },
+      { id: 'b8', t: 'Download the Vrbo app', n: 'Booking details stay available offline.' },
+      { id: 'b9', t: 'Check phone roaming plans' }
+    ]}
+  ];
+
+  var pack = [
+    { title: 'Documents and money', items: [
+      { id: 'p1', t: 'Passports for all four' },
+      { id: 'p2', t: 'Flight and rental details saved offline' },
+      { id: 'p3', t: 'Credit and debit cards' },
+      { id: 'p4', t: 'A little US cash for tips and small buys' }
+    ]},
+    { title: 'Personal items', items: [
+      { id: 'p5', t: 'Phones, chargers and a power bank', n: 'Power banks must travel in the cabin.' },
+      { id: 'p6', t: 'iPads, headphones and cables' },
+      { id: 'p7', t: 'Laptop, only if really needed' },
+      { id: 'p8', t: 'Medication and kids\' essentials' },
+      { id: 'p9', t: 'Snacks and empty water bottles' },
+      { id: 'p10', t: 'A swimsuit and spare top each', n: 'In case a checked bag is late.' }
+    ]},
+    { title: 'Beach and water', items: [
+      { id: 'p11', t: 'Reef-friendly sunscreen' },
+      { id: 'p12', t: 'Hats and sunglasses' },
+      { id: 'p13', t: 'Rash vests for the girls' },
+      { id: 'p14', t: 'Snorkel masks', n: 'Our own fit the girls better than hired ones.' },
+      { id: 'p15', t: 'Water shoes, optional', n: 'Only for rocky entry points. Seven Mile Beach is soft sand.' },
+      { id: 'p16', t: 'Beach towels', n: 'Check whether the rental provides them.' },
+      { id: 'p17', t: 'Waterproof phone pouch' }
+    ]},
+    { title: 'Clothes', items: [
+      { id: 'p18', t: 'Two swimsuits each' },
+      { id: 'p19', t: 'Shorts and tops for hot days' },
+      { id: 'p20', t: 'A light layer for breezy evenings' },
+      { id: 'p21', t: 'A nicer outfit for the birthday dinner' },
+      { id: 'p22', t: 'Sandals or flip-flops' }
+    ]},
+    { title: 'Kitchen and extras', items: [
+      { id: 'p23', t: 'Salt and pepper', n: 'Dry seasonings are fine in a checked bag.' },
+      { id: 'p24', t: 'Cooking oil, if the host says there is none', n: 'It\'s a liquid, so it goes in a checked bag, sealed in a zip bag.' },
+      { id: 'p25', t: 'Coffee and favourite snacks', n: 'Groceries on the island cost more than at home.' },
+      { id: 'p26', t: 'Zip bags for wet swimsuits' }
+    ]},
+    { title: 'Bags', items: [
+      { id: 'p27', t: 'Each checked bag under 23 kg', n: 'A second bag each way costs CA$60.' },
+      { id: 'p28', t: 'Personal items no bigger than 16 x 33 x 43 cm' }
+    ]}
+  ];
+
+  function updateCount(group) {
+    var boxes = group.querySelectorAll('input[type=checkbox]');
+    var done = 0;
+    for (var i = 0; i < boxes.length; i++) { if (boxes[i].checked) done++; }
+    group.querySelector('.count').textContent = done + ' of ' + boxes.length;
+  }
+
+  function build(containerId, groups, keep) {
+    var host = document.getElementById(containerId);
+    groups.forEach(function (g) {
+      var wrap = document.createElement('div');
+      wrap.className = 'group';
+      var h = document.createElement('h3');
+      var title = document.createElement('span');
+      title.textContent = g.title;
+      var count = document.createElement('span');
+      count.className = 'count';
+      h.appendChild(title);
+      h.appendChild(count);
+      wrap.appendChild(h);
+      var ul = document.createElement('ul');
+      ul.className = 'checks' + (keep ? ' keep' : '');
+      g.items.forEach(function (it) {
+        var li = document.createElement('li');
+        var label = document.createElement('label');
+        var input = document.createElement('input');
+        input.type = 'checkbox';
+        input.setAttribute('data-id', it.id);
+        input.checked = !!store[it.id];
+        input.addEventListener('change', function () {
+          if (input.checked) { store[it.id] = 1; } else { delete store[it.id]; }
+          save();
+          updateCount(wrap);
+        });
+        var span = document.createElement('span');
+        if (keep) {
+          var strong = document.createElement('strong');
+          strong.textContent = it.t;
+          span.appendChild(strong);
+        } else {
+          span.appendChild(document.createTextNode(it.t));
+        }
+        if (it.n) {
+          var small = document.createElement('small');
+          small.textContent = it.n;
+          span.appendChild(small);
+        }
+        label.appendChild(input);
+        label.appendChild(span);
+        li.appendChild(label);
+        ul.appendChild(li);
+      });
+      wrap.appendChild(ul);
+      host.appendChild(wrap);
+      updateCount(wrap);
+    });
+  }
+
+  build('ideas-lists', ideas, true);
+  build('before-lists', before, false);
+  build('pack-lists', pack, false);
+
+  document.getElementById('reset').addEventListener('click', function () {
+    if (!window.confirm('Untick every box on this page?')) { return; }
+    store = {};
+    save();
+    var boxes = document.querySelectorAll('.checks input[type=checkbox]');
+    for (var i = 0; i < boxes.length; i++) { boxes[i].checked = false; }
+    var groups = document.querySelectorAll('.group');
+    for (var j = 0; j < groups.length; j++) { updateCount(groups[j]); }
+  });
+
+  /* countdown and today marker (uses the device's local date) */
+  var DAY = 86400000;
+  var start = new Date(2026, 11, 6);
+  var now = new Date();
+  var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+  var diff = Math.round((start - today) / DAY);
+  var el = document.getElementById('countdown');
+  var msg;
+  if (diff > 1) { msg = diff + ' days to go'; }
+  else if (diff === 1) { msg = 'We fly tomorrow'; }
+  else if (diff === 0) { msg = 'Flight day. Bag drop opens at 4:50 am.'; }
+  else if (diff >= -7) {
+    var dayNo = 1 - diff;
+    msg = 'Day ' + dayNo + ' of 8';
+    if (dayNo === 4) { msg += '. Happy birthday, Danielle!'; }
+    var cells = document.querySelectorAll('#shore li');
+    var row = document.getElementById('day-' + dayNo);
+    if (cells[dayNo - 1]) { cells[dayNo - 1].className = 'today'; cells[dayNo - 1].querySelector('a').setAttribute('aria-current', 'date'); }
+    if (row) { row.className += ' today'; }
+  } else { msg = 'Home again'; }
+  el.textContent = msg;
+})();
+</script>
+</body>
+</html>
