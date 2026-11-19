@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Danielle's citizenship timeline</title>
+<style>
+:root{
+  --bg:#faf8f4;--card:#ffffff;--ink:#1f2933;--muted:#667085;--line:#e4dfd5;
+  --pre:#c9a24b;--post:#2f6f6a;--trip:#c8553d;--future:#8a6fb0;--accent:#2f6f6a;--soft:#eef4f3;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#14181c;--card:#1d2328;--ink:#e9edf0;--muted:#9aa5ae;--line:#2c353c;
+  --pre:#d9b660;--post:#5fb3ab;--trip:#e0775f;--future:#a98fd0;--accent:#5fb3ab;--soft:#1f2c2c;}
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:980px;margin:0 auto;padding:28px 16px 64px}
+h1{font-size:1.7rem;margin:0 0 4px}
+h2{font-size:1.15rem;margin:34px 0 10px}
+.sub{color:var(--muted);margin:0 0 22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+.grid{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(165px,1fr))}
+.stat b{display:block;font-size:1.9rem;line-height:1.1;color:var(--accent)}
+.stat span{color:var(--muted);font-size:.9rem}
+.bar{height:26px;border-radius:13px;background:var(--line);overflow:hidden;display:flex}
+.bar i{display:block;height:100%}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;margin:10px 0 0;font-size:.88rem;color:var(--muted)}
+.legend em{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:6px;vertical-align:-1px;font-style:normal}
+table{width:100%;border-collapse:collapse;font-size:.95rem}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:600;color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.04em}
+td.n,th.n{text-align:right;font-variant-numeric:tabular-nums}
+.scroll{overflow-x:auto}
+svg text{font-family:inherit;fill:var(--muted);font-size:11px}
+svg .strong{fill:var(--ink);font-size:12px}
+.note{color:var(--muted);font-size:.88rem}
+.hl{background:var(--soft);border-radius:10px;padding:12px 14px;margin:10px 0}
+ul{padding-left:1.1rem;margin:6px 0}
+li{margin:4px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>Danielle's path to Canadian citizenship</h1>
+<p class="sub">Every day in Canada since 14 August 2023, and when she can first apply. Prepared 18 Nov 2026.</p>
+
+<div class="grid" id="stats"></div>
+
+<h2>Progress towards 1,095 days</h2>
+<div class="card">
+  <div class="bar" id="progress"></div>
+  <div class="legend">
+    <span><em style="background:var(--pre)"></em>Before PR (half-days)</span>
+    <span><em style="background:var(--post)"></em>Days in Canada since PR</span>
+    <span><em style="background:var(--line)"></em>Still to go</span>
+  </div>
+  <p class="note" id="progressNote"></p>
+</div>
+
+<h2>Timeline: 14 Aug 2023 to Sep 2027</h2>
+<div class="card scroll">
+  <svg id="timeline" viewBox="0 0 940 300" width="100%" style="min-width:680px" role="img" aria-label="Timeline of trips outside Canada"></svg>
+  <div class="legend">
+    <span><em style="background:var(--pre)"></em>Before PR, all in Canada</span>
+    <span><em style="background:var(--post)"></em>PR period</span>
+    <span><em style="background:var(--trip)"></em>Trip outside Canada</span>
+    <span><em style="background:var(--future)"></em>Planned trip</span>
+  </div>
+</div>
+
+<h2>Trips outside Canada since PR (4 Sep 2024)</h2>
+<div class="card scroll">
+  <table id="trips">
+    <thead><tr><th>Trip</th><th>Left</th><th>Back</th><th class="n">Full days away</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="note">Full days away exclude the departure and arrival days. Pre-PR: no absences at all.</p>
+</div>
+
+<h2>When can she apply?</h2>
+<div class="card scroll">
+  <table id="scen">
+    <thead><tr><th>Scenario</th><th>Days away</th><th>Earliest application</th><th>If departure/arrival days also count as away</th></tr></thead>
+    <tbody></tbody>
+  </table>
+  <p class="note">Calculated as 4 Sep 2024 + 902 PR days + days away. The 902 comes from 1,095 minus a pre-PR credit of 193 (387 days in Canada, halved).</p>
+</div>
+
+<h2>What this means for September 2027</h2>
+<div class="card">
+  <div class="hl"><strong>Citizenship by Sept 2027 isn't possible.</strong> She can first <em>apply</em> in about July 2027, and processing took about 12 months in April 2026, so citizenship would come around mid-2028.</div>
+  <p><strong>Moving in Sept 2027 is still possible if we move while her application is pending.</strong> What we understand of the rules (to be confirmed with IRCC or an immigration lawyer):</p>
+  <ul>
+    <li>Days in Canada only have to be met in the 5 years <em>before</em> she applies. She can leave Canada after applying.</li>
+    <li>She must stay a permanent resident, keep a Canadian address (Toronto lease runs to Jan 2030), and answer IRCC mail promptly.</li>
+    <li>She has to attend the test, interview and oath. Some are offered online, otherwise she would fly back at short notice.</li>
+    <li>Keep Canadian ties and records of the move, in case IRCC asks about residence.</li>
+  </ul>
+  <p><strong>Ways to protect the date</strong></p>
+  <ul>
+    <li>Danielle stays in Canada after the April wedding trip, except for the wedding itself.</li>
+    <li>Phil and the girls can do the France school visit without her: only her days count.</li>
+    <li>Pre-register the girls with the Sablet mairie by email, and visit the school in July/August 2027 after she has applied.</li>
+    <li>Millie starts in CM2 in Sept 2027 (Oct as a fallback). Lottie starts maternelle.</li>
+  </ul>
+</div>
+
+<p class="note" style="margin-top:28px">This is a planning estimate, not legal advice. Dates come from calendar and email records and may be off by a day. Check the final figure with IRCC's online residence calculator before applying.</p>
+</main>
+
+<script>
+const D=(y,m,d)=>new Date(Date.UTC(y,m-1,d));
+const days=(a,b)=>Math.round((b-a)/864e5);
+const fmt=d=>d.toLocaleDateString('en-GB',{day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
+const arrival=D(2023,8,14), pr=D(2024,9,4), today=D(2026,11,18), target=1095;
+const preDays=days(arrival,pr), credit=Math.floor(preDays/2), need=target-credit;
+
+const trips=[
+ {n:'England (Christmas holiday)',a:D(2024,12,1),b:D(2024,12,13)},
+ {n:'Cancún',a:D(2025,3,19),b:D(2025,3,26)},
+ {n:'UK (family reunion)',a:D(2025,5,23),b:D(2025,5,30)},
+ {n:'France (Le Fournas)',a:D(2025,8,9),b:D(2025,8,22)},
+ {n:'UK (Christmas)',a:D(2025,12,18),b:D(2026,1,5)},
+ {n:'France (Sablet)',a:D(2026,5,25),b:D(2026,6,4)},
+ {n:'France and UK (summer)',a:D(2026,7,11),b:D(2026,9,7)},
+];
+const future=[
+ {n:'Grand Cayman',a:D(2026,12,6),b:D(2026,12,13)},
+ {n:'UK wedding (est. 7 days)',a:D(2027,4,10),b:D(2027,4,18),away:7},
+ {n:'France visit (extra 7 days)',a:D(2027,4,18),b:D(2027,4,26),away:7,optional:true},
+];
+const away=t=>t.away??(days(t.a,t.b)-1);
+const awayInc=t=>t.away!=null?t.away+2:days(t.a,t.b)+1;
+const pastAway=trips.reduce((s,t)=>s+away(t),0);
+const elapsed=days(pr,today);
+const prDaysSoFar=elapsed-pastAway;
+const totalSoFar=credit+prDaysSoFar;
+const remaining=target-totalSoFar;
+
+// stats
+const stats=[
+ [preDays+' days','in Canada before PR, none abroad'],
+ [credit+' days','half-day credit (cap is 365)'],
+ [prDaysSoFar+' days','in Canada as a PR so far'],
+ [totalSoFar+' / '+target,'days counted towards citizenship'],
+ [remaining+' days','still to go (if no more trips)'],
+];
+document.getElementById('stats').innerHTML=stats.map(s=>'<div class="card stat"><b>'+s[0]+'</b><span>'+s[1]+'</span></div>').join('');
+
+// progress
+const pct=x=>(x/target*100).toFixed(2)+'%';
+document.getElementById('progress').innerHTML=
+ '<i style="width:'+pct(credit)+';background:var(--pre)"></i><i style="width:'+pct(prDaysSoFar)+';background:var(--post)"></i>';
+document.getElementById('progressNote').textContent=
+ totalSoFar+' of '+target+' days done ('+Math.round(totalSoFar/target*100)+'%). With no more trips she would reach 1,095 on '+fmt(new Date(today.getTime()+remaining*864e5))+'.';
+
+// trips table
+document.querySelector('#trips tbody').innerHTML=trips.map(t=>'<tr><td>'+t.n+'</td><td>'+fmt(t.a)+'</td><td>'+fmt(t.b)+'</td><td class="n">'+away(t)+'</td></tr>').join('')+
+ '<tr><td><strong>Total</strong></td><td></td><td></td><td class="n"><strong>'+pastAway+'</strong></td></tr>';
+
+// scenarios
+const add=n=>new Date(pr.getTime()+(need+n)*864e5);
+const scen=[
+ ['Past trips only',0],
+ ['+ Grand Cayman, 6 to 13 Dec 2026',away(future[0])],
+ ['+ Cayman and UK wedding trip',away(future[0])+away(future[1])],
+ ['+ Cayman, wedding and France visit',away(future[0])+away(future[1])+away(future[2])],
+];
+const pastInc=trips.reduce((s,t)=>s+awayInc(t),0);
+const incAdd=[0,awayInc(future[0]),awayInc(future[0])+awayInc(future[1]),awayInc(future[0])+awayInc(future[1])+awayInc(future[2])];
+document.querySelector('#scen tbody').innerHTML=scen.map((s,i)=>
+ '<tr><td>'+s[0]+'</td><td class="n">'+(pastAway+s[1])+'</td><td><strong>'+fmt(add(pastAway+s[1]))+'</strong></td><td>'+fmt(add(pastInc+incAdd[i]))+'</td></tr>').join('');
+
+// timeline
+const svg=document.getElementById('timeline');
+const start=D(2023,8,1), end=D(2027,9,30), W=940, L=20, R=920;
+const x=d=>L+(d-start)/(end-start)*(R-L);
+let s='';
+// year ticks
+for(let y=2023;y<=2027;y++){
+  for(const m of [1,7]){ const d=D(y,m,1); if(d<start||d>end) continue;
+    s+='<line x1="'+x(d)+'" x2="'+x(d)+'" y1="40" y2="210" stroke="var(--line)"/>';
+    s+='<text x="'+(x(d)+3)+'" y="226">'+(m==1?y:'Jul')+'</text>'; }
+}
+// period bands
+s+='<rect x="'+x(arrival)+'" y="110" width="'+(x(pr)-x(arrival))+'" height="34" rx="6" fill="var(--pre)"/>';
+s+='<text class="strong" x="'+(x(arrival)+8)+'" y="131" style="fill:#fff">Before PR: 387 days in Canada</text>';
+s+='<rect x="'+x(pr)+'" y="110" width="'+(x(end)-x(pr))+'" height="34" rx="6" fill="var(--post)" opacity=".85"/>';
+s+='<text class="strong" x="'+(x(pr)+8)+'" y="252">PR from 4 Sep 2024</text>';
+// trips
+trips.forEach((t,i)=>{
+  const w=Math.max(4,x(t.b)-x(t.a));
+  s+='<rect x="'+x(t.a)+'" y="96" width="'+w+'" height="62" rx="3" fill="var(--trip)"/>';
+});
+future.filter(t=>!t.optional).forEach(t=>{
+  const w=Math.max(4,x(t.b)-x(t.a));
+  s+='<rect x="'+x(t.a)+'" y="96" width="'+w+'" height="62" rx="3" fill="var(--future)"/>';
+});
+// labels for trips (alternating heights)
+const labels=[['Dec 24',trips[0]],['Mar 25',trips[1]],['May 25',trips[2]],['Aug 25',trips[3]],['Dec 25',trips[4]],['May 26',trips[5]],['Summer 26',trips[6]],['Cayman',future[0]],['Wedding',future[1]]];
+labels.forEach(([l,t],i)=>{
+  const cx=x(t.a)+(x(t.b)-x(t.a))/2, up=i%2==0, y=up?84-(i%4==0?14:0):176+(i%4==1?14:0);
+  s+='<line x1="'+cx+'" x2="'+cx+'" y1="'+(up?y+4:158)+'" y2="'+(up?96:y-10)+'" stroke="var(--muted)" stroke-width=".6"/>';
+  s+='<text x="'+cx+'" y="'+y+'" text-anchor="middle">'+l+'</text>';
+});
+// eligibility window
+const e1=add(pastAway+scen[1][1]), e2=add(pastAway+scen[3][1]);
+s+='<rect x="'+x(e1)+'" y="40" width="'+(x(e2)-x(e1))+'" height="170" fill="var(--accent)" opacity=".16"/>';
+s+='<line x1="'+x(e1)+'" x2="'+x(e1)+'" y1="28" y2="210" stroke="var(--accent)" stroke-width="2"/>';
+s+='<text class="strong" x="'+(x(e1)-6)+'" y="22" text-anchor="end">Can apply from about '+fmt(e1).replace(/ 20\d\d/,'')+' 2027</text>';
+// Sept 2027 move
+const mv=D(2027,9,1);
+s+='<line x1="'+x(mv)+'" x2="'+x(mv)+'" y1="40" y2="210" stroke="var(--ink)" stroke-dasharray="4 3"/>';
+s+='<text class="strong" x="'+(x(mv)-4)+'" y="252" text-anchor="end">Sept 2027: school starts in France</text>';
+s+='<text x="'+x(arrival)+'" y="252">Arrived 14 Aug 2023</text>';
+// today
+s+='<line x1="'+x(today)+'" x2="'+x(today)+'" y1="40" y2="210" stroke="var(--ink)" stroke-width="1.5"/>';
+s+='<text class="strong" x="'+(x(today)+4)+'" y="66">Today</text>';
+svg.innerHTML=s;
+</script>
+</body>
+</html>
