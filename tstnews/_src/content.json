@@ -1,15 +1,15 @@
 {
- "date": "2026-11-18",
- "label": "Wednesday 18 November 2026",
- "note": "Wed 18 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs listed (Euronews RSS, Al Jazeera sitemap, Global News, CP24, footballwebpages, ATP/WTA etc.) were refused again; permission cannot be granted unattended. Refreshed from readable pages only: Euronews 13 Nov archive page, CP24 report of the Leafs-Oilers game (15 Nov), nhl.com recap. Everything else keeps its own 'as of' date; treat anything dated before 14 Nov as possibly out of date. Premier League, rugby and other weekend results (14-17 Nov) are NOT verified (gap).",
- "sport_note": "Wed 18 Nov 2026: score pages (footballwebpages, ATP, WTA, F1) were refused or unreadable. Only the Maple Leafs result was refreshed (CP24, nhl.com). All other sport panels keep their own 'as of' dates; weekend results are not verified (gap).",
+ "date": "2026-11-20",
+ "label": "Friday 20 November 2026",
+ "note": "Fri 20 Nov 2026 (Toronto early morning). LIMITED RUN: every feed and score URL given (Euronews RSS, Al Jazeera sitemap, Global News, CP24, L'Écho du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) was refused by the reader, and no one can approve the prompt unattended. Refreshed only from pages found through search and readable: ATP Tour (Finals, 19 Nov), nhl.com (Leafs at Chicago, 17 Nov) and Al Jazeera (13 Nov). Every other card and table keeps its own 'as of' date; treat anything dated before 17 Nov as possibly out of date. Premier League, Championship, Ligue 1, rugby, F1, rankings and central-bank figures were NOT re-verified (gap).",
+ "sport_note": "Fri 20 Nov 2026: score pages (footballwebpages, Eurosport, ATP/WTA rankings, F1, surprisesports) were refused. Refreshed from ATP Tour (Nitto ATP Finals, Thu 19 Nov) and nhl.com (Leafs, 17 Nov) only. All other sport panels keep their own 'as of' dates (gap).",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "Feed URLs were refused again on 17 Nov. Euronews below is from its 11 Nov archive page (the latest list that could be read); other outlets keep their last lists with their own dates. Nothing from 14-17 Nov is verified here except where a card says so.",
+   "intro": "Feed URLs were refused again on 20 Nov, so no new headlines could be read. Lists below are the last ones read, each with its own date. Nothing from 18-20 Nov is verified here.",
    "items": [],
    "feeds": [
     {
@@ -4227,7 +4227,8 @@
      "gap": false,
      "w": [
       "The season finale has its eight. The ATP Tour lists the singles qualifiers for the Nitto ATP Finals as Alexander Zverev, Carlos Alcaraz, Ben Shelton, Daniil Medvedev, Flavio Cobolli, Arthur Fils, Frances Tiafoe and Rafael Jodar.",
-      "The event runs 15–22 November in Turin, in two groups (John McEnroe and Ivan Lendl), and the draw is on Thursday 12 November at about 12:45 pm CET."
+      "The event runs 15–22 November in Turin, in two groups (John McEnroe and Ivan Lendl), and the draw is on Thursday 12 November at about 12:45 pm CET.",
+      "Update, Thursday 19 Nov in Turin: Alexander Zverev beat Arthur Fils 6-4 7-6(6) and Ben Shelton beat Rafael Jodar 7-6(8) 7-5, sending Shelton into his first Finals semi-final. The tournament runs 15-22 Nov at the Inalpi Arena. Group tables were not on the page read."
      ],
      "n": [
       "The ATP Finals is the year-end tournament for the eight best men's singles players of the season, played indoors rather than as a knockout from the start.",
@@ -4239,6 +4240,10 @@
       {
        "text": "ATP Tour: Nitto ATP Finals 2026 field is set",
        "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-field-is-set"
+      },
+      {
+       "text": "ATP Tour: Nitto ATP Finals results",
+       "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
       }
      ]
     },
@@ -5162,17 +5167,17 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "15 Nov 2026 (CP24, nhl.com)",
+       "asof": "18 Nov 2026 (nhl.com recap header)",
        "source": "nhl.com/mapleleafs",
        "items": [
-        "8-12-2 (18 points) after the 14 Nov loss to Edmonton; 4-9-1 at home; six straight regulation losses."
+        "8-13-2 (18 points) per the nhl.com recap header after the 17 Nov loss at Chicago; 4-4-1 on the road."
        ],
-       "note": "Chicago game of 17 Nov not verified."
+       "note": "Home record and streak from earlier not re-checked."
       },
       {
        "id": "tml-res",
        "title": "Recent games (8, 10 Nov scores not verified)",
-       "asof": "15 Nov 2026 (CP24); earlier rows from nhl.com and Global News",
+       "asof": "18 Nov 2026 (nhl.com); earlier rows from CP24, nhl.com and Global News",
        "source": "nhl.com/mapleleafs, globalnews.ca",
        "cols": [
         "Date",
@@ -5181,6 +5186,12 @@
         "Result"
        ],
        "rows": [
+        [
+         "17 Nov",
+         "at Chicago Blackhawks",
+         "Leafs lost; final score not stated on page read (Cowan, Blueger, Tavares scored)",
+         "L"
+        ],
         [
          "14 Nov",
          "Edmonton Oilers",
@@ -5234,7 +5245,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "18 Nov 2026 · only the Chicago game (Tue 17 Nov) is known",
+       "asof": "20 Nov 2026 · no schedule page could be read",
        "source": "surprisesports.com",
        "cols": [
         "Date and time",
@@ -5242,11 +5253,7 @@
        ],
        "rows": [
         [
-         "Tue 17 Nov (result not verified)",
-         "at Chicago Blackhawks"
-        ],
-        [
-         "Later games not verified",
+         "Next games not verified",
          "Schedule page could not be read"
         ]
        ]
@@ -5781,157 +5788,136 @@
   }
  ],
  "quiz": {
-  "title": "TST News quiz · Wednesday 18 November 2026",
-  "intro": "Questions from stories actually read on 13-17 November (Euronews, CP24, Al Jazeera, EUnews).",
+  "title": "Daily quiz: Friday 20 November 2026",
+  "intro": "Ten questions on stories verified in today's run.",
   "questions": [
    {
-    "q": "Who scored the only goal in Edmonton's 1–0 win over the Maple Leafs on 14 Nov?",
+    "q": "Who did Alexander Zverev beat at the ATP Finals on Thursday 19 Nov?",
     "options": [
-     "Connor McDavid",
-     "Evan Bouchard",
-     "Leon Draisaitl",
-     "Auston Matthews"
+     "Ben Shelton",
+     "Arthur Fils",
+     "Rafael Jodar",
+     "Carlos Alcaraz"
     ],
     "answer": 1,
-    "explain": "CP24, 15 Nov: Bouchard, on a McDavid pass."
+    "explain": "ATP Tour, 19 Nov: 6-4 7-6(6)."
    },
    {
-    "q": "What is the Maple Leafs' record after that game?",
+    "q": "Which city hosts the Nitto ATP Finals?",
     "options": [
-     "8-8-2",
-     "10-10-2",
-     "8-12-2",
-     "12-8-2"
+     "London",
+     "Turin",
+     "Paris",
+     "Melbourne"
     ],
-    "answer": 2,
-    "explain": "CP24 / nhl.com."
+    "answer": 1,
+    "explain": "ATP Tour: Inalpi Arena, Turin, 15-22 Nov."
    },
    {
-    "q": "How many straight home losses have the Leafs now suffered?",
+    "q": "Who reached his first ATP Finals semi-final by beating Rafael Jodar?",
     "options": [
-     "Two",
-     "Four",
-     "Six",
-     "Eight"
+     "Ben Shelton",
+     "Alexander Zverev",
+     "Arthur Fils",
+     "Taylor Fritz"
     ],
-    "answer": 2,
-    "explain": "CP24, 15 Nov."
+    "answer": 0,
+    "explain": "7-6(8) 7-5, ATP Tour 19 Nov."
    },
    {
-    "q": "Which team do the Leafs visit on Tuesday 17 Nov?",
+    "q": "Which French pair reached the ATP Finals doubles semi-finals?",
+    "options": [
+     "Mahut/Herbert",
+     "Arribage/Olivetti",
+     "Roger-Vasselin/Gasquet",
+     "Humbert/Monfils"
+    ],
+    "answer": 1,
+    "explain": "They beat Heliovaara and Patten, ATP Tour."
+   },
+   {
+    "q": "Which team beat the Maple Leafs on 17 Nov?",
     "options": [
      "Chicago Blackhawks",
-     "Boston Bruins",
-     "Utah Mammoth",
-     "Calgary Flames"
+     "Edmonton Oilers",
+     "Minnesota Wild",
+     "Utah Mammoth"
     ],
     "answer": 0,
-    "explain": "CP24, 15 Nov."
+    "explain": "nhl.com recap, 17 Nov."
    },
    {
-    "q": "Which two countries were added to Europe's Ukraine peace-talks team, per Euronews on 13 Nov?",
+    "q": "Who scored for Toronto in the first period in Chicago?",
     "options": [
-     "Spain and Portugal",
-     "Italy and Poland",
-     "Sweden and Norway",
-     "Greece and Austria"
+     "Easton Cowan",
+     "John Tavares",
+     "Teddy Blueger",
+     "Auston Matthews"
+    ],
+    "answer": 0,
+    "explain": "nhl.com: Cowan, 3:22 of the first."
+   },
+   {
+    "q": "What was the Leafs' record in the nhl.com recap header?",
+    "options": [
+     "8-13-2",
+     "10-9-3",
+     "5-15-1",
+     "12-8-2"
+    ],
+    "answer": 0,
+    "explain": "18 points, nhl.com 18 Nov."
+   },
+   {
+    "q": "Where were the Russia-Ukraine talks of 10-11 Nov held?",
+    "options": [
+     "Geneva",
+     "Abu Dhabi",
+     "Istanbul",
+     "Berlin"
     ],
     "answer": 1,
-    "explain": "Euronews, 13 Nov."
+    "explain": "Al Jazeera, 13 Nov."
    },
    {
-    "q": "Which EU official 'fights for a spot' in that team, per the Euronews headline?",
+    "q": "What prisoner exchange size did the sides agree at those talks (each side, at least)?",
     "options": [
-     "Ursula von der Leyen",
-     "Kaja Kallas",
-     "Roberta Metsola",
-     "Josep Borrell"
+     "100",
+     "500",
+     "1,000",
+     "5,000"
     ],
-    "answer": 1,
-    "explain": "Euronews, 13 Nov."
+    "answer": 2,
+    "explain": "Al Jazeera, 13 Nov."
    },
    {
-    "q": "France and Germany are near a deal on whom for the ECB top job, per Euronews?",
+    "q": "Ukraine said Russia lost over how many killed or seriously wounded in the first 10 days of November?",
     "options": [
-     "De Cos",
-     "Knot",
-     "Nagel",
-     "Villeroy"
+     "6,000",
+     "16,000",
+     "26,000",
+     "46,000"
     ],
-    "answer": 0,
-    "explain": "Euronews, 13 Nov headline."
-   },
-   {
-    "q": "What collided with a cruise ship in New Orleans on 13 Nov?",
-    "options": [
-     "A bridge",
-     "A tanker",
-     "A ferry",
-     "A submarine"
-    ],
-    "answer": 1,
-    "explain": "Euronews, 13 Nov: all passengers rescued."
-   },
-   {
-    "q": "Whose parliament members debated exiting the NPT, per Euronews on 13 Nov?",
-    "options": [
-     "Iran",
-     "Turkey",
-     "Egypt",
-     "Syria"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 13 Nov."
-   },
-   {
-    "q": "Which group met Ukraine online on 17 Nov, with a Berlin meeting planned next?",
-    "options": [
-     "US envoys and five European states",
-     "The G20",
-     "NATO defence ministers only",
-     "The African Union"
-    ],
-    "answer": 0,
-    "explain": "Al Jazeera, 17 Nov."
+    "answer": 2,
+    "explain": "Ukrainian military claim, Al Jazeera 13 Nov (a claim, not independently verified)."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Wed 18 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites could not be read. Items come from pages that could be read (Euronews 13 Nov, CP24 15 Nov, Al Jazeera 17 Nov via last run). Results of 15-17 Nov other than the Leafs-Oilers game are not verified (gap).",
+  "stamp": "Fri 20 Nov 2026, Toronto early morning. PARTIAL: all feeds and score sites were refused. Items come from ATP Tour (19 Nov), nhl.com (18 Nov) and Al Jazeera (13 Nov). World, local and weekend football/rugby news for 18-20 Nov are not verified (gap).",
   "blocks": [
    {
     "id": "t-world",
     "title": "World: breaking",
     "items": [
      {
-      "t": "Ukraine holds talks with US and Europe as drone war escalates",
-      "b": "Online talks on 17 Nov with US envoys and five European states; next meeting planned in Berlin. Kyiv hit a Russian bridge and refineries in the biggest overnight drone attack on Russia since 2022, and Zelenskyy warns of major Russian strikes on Tuesday. Moscow says it has not agreed to include Europe.",
-      "when": "17 Nov",
+      "t": "Ukraine and Russia: Abu Dhabi talks end with little agreement",
+      "b": "Al Jazeera reports that talks on 10-11 Nov produced no deal on territory or NATO, though both sides agreed a new prisoner exchange of at least 1,000 people each. Ukraine says Russia lost more than 26,000 killed or seriously wounded in the first ten days of November. This is a 13 Nov report: later developments are not verified.",
+      "when": "13 Nov",
       "src": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates"
-     },
-     {
-      "t": "Europe names a negotiating team for Ukraine talks",
-      "b": "Leaders meeting in Dublin backed a team of Britain, France, Germany, Italy and Poland plus EU institutions. EU foreign ministers meet Monday, defence ministers Tuesday.",
-      "when": "16 Nov",
-      "src": "EUnews",
-      "url": "https://www.eunews.it/en/2026/11/16/weekend-round-up-war-ukraine-brief-europe-3/"
-     },
-     {
-      "t": "EU leaders bring Italy and Poland into Ukraine peace-talks team",
-      "b": "Headline only: Euronews reports Italy and Poland joining Europe's negotiating team as Kallas fights for a place.",
-      "when": "13 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot"
-     },
-     {
-      "t": "France and Germany near deal on De Cos for ECB top job",
-      "b": "Headline only: Euronews reports the EU has confirmed two candidates for the ECB's top job.",
-      "when": "13 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/13/france-and-germany-near-deal-on-de-cos-for-ecb-top-job-as-eu-confirms-two-candidates"
+      "url": "https://www.aljazeera.com/amp/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
      }
     ]
    },
@@ -5940,8 +5926,8 @@
     "title": "Local: Toronto, France, UK",
     "items": [
      {
-      "t": "Local news for 14-17 Nov not verified",
-      "b": "No Toronto, France or UK local story dated within the last few days could be read this run (CP24, Global News and L'Écho du Mardi feeds were refused). Earlier local cards remain below with their own dates.",
+      "t": "Local news for 18-20 Nov not verified",
+      "b": "CP24, Global News and L'Écho du Mardi feeds were refused and no dated local story could be read. Earlier local cards below keep their own dates.",
       "when": "gap",
       "src": "-"
      }
@@ -5952,14 +5938,21 @@
     "title": "Sport: results",
     "items": [
      {
-      "t": "Oilers shut out Maple Leafs 1–0",
-      "b": "Evan Bouchard's second-period goal, set up by Connor McDavid, gave Edmonton the win in Toronto on 14 Nov. It was the Leafs' sixth straight home loss; they are 8-12-2 and visit Chicago on Tuesday 17 Nov (result not verified).",
-      "when": "14 Nov",
-      "src": "CP24",
-      "url": "https://www.cp24.com/news/sports/2026/11/15/levi-mcdavid-help-oilers-hand-maple-leafs-sixth-straight-home-loss/"
+      "t": "Zverev and Shelton win at the ATP Finals",
+      "b": "In Turin on Thursday 19 Nov, top seed Alexander Zverev beat Arthur Fils 6-4 7-6(6), and Ben Shelton beat Rafael Jodar 7-6(8) 7-5 to reach his first ATP Finals semi-final. In doubles, Theo Arribage and Albano Olivetti of France beat top seeds Harri Heliovaara and Henry Patten to reach the semis.",
+      "when": "19 Nov",
+      "src": "ATP Tour",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
      },
      {
-      "t": "Weekend football, rugby, ATP Finals results",
+      "t": "Maple Leafs lose in Chicago",
+      "b": "Toronto lost to the Blackhawks on 17 Nov despite goals from Easton Cowan, Teddy Blueger and John Tavares. The recap header lists the Leafs at 8-13-2 (18 points). Final score not stated on the page read.",
+      "when": "17 Nov",
+      "src": "nhl.com",
+      "url": "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026"
+     },
+     {
+      "t": "Weekend football, rugby, F1 results",
       "b": "Not verified this run: score pages were refused.",
       "when": "gap",
       "src": "-"
@@ -5968,16 +5961,6 @@
    }
   ],
   "fixtures": [
-   {
-    "day": "Tue 17 Nov",
-    "rows": [
-     [
-      "Markets",
-      "Nvidia Q3 fiscal 2027 earnings (first since Huang's exit)",
-      "1:20 pm PT / 4:20 pm ET"
-     ]
-    ]
-   },
    {
     "day": "Thu 19 to Sat 21 Nov",
     "rows": [
@@ -6039,6 +6022,6 @@
     ]
    }
   ],
-  "fixnote": "Fixture list carried over from the 13-15 Nov briefing and not re-checked; times and any changes after 13 Nov are not verified. Nvidia's earnings (Tue 17 Nov, 4:20 pm ET) result was not available at run time."
+  "fixnote": "Fixture list carried over from the earlier briefing and NOT re-checked on 20 Nov; times and any changes are not verified. ATP Finals run 15-22 Nov in Turin (ATP Tour)."
  }
 }
