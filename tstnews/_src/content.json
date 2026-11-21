@@ -1,8 +1,8 @@
 {
- "date": "2026-11-20",
- "label": "Friday 20 November 2026",
- "note": "Fri 20 Nov 2026 (Toronto early morning). LIMITED RUN: every feed and score URL given (Euronews RSS, Al Jazeera sitemap, Global News, CP24, L'Écho du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) was refused by the reader, and no one can approve the prompt unattended. Refreshed only from pages found through search and readable: ATP Tour (Finals, 19 Nov), nhl.com (Leafs at Chicago, 17 Nov) and Al Jazeera (13 Nov). Every other card and table keeps its own 'as of' date; treat anything dated before 17 Nov as possibly out of date. Premier League, Championship, Ligue 1, rugby, F1, rankings and central-bank figures were NOT re-verified (gap).",
- "sport_note": "Fri 20 Nov 2026: score pages (footballwebpages, Eurosport, ATP/WTA rankings, F1, surprisesports) were refused. Refreshed from ATP Tour (Nitto ATP Finals, Thu 19 Nov) and nhl.com (Leafs, 17 Nov) only. All other sport panels keep their own 'as of' dates (gap).",
+ "date": "2026-11-21",
+ "label": "Saturday 21 November 2026",
+ "note": "Sat 21 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs given (Euronews RSS, Al Jazeera sitemap, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were refused by the fetch tool (permission not answered in an unattended run, or a client error). Only the Euronews daily archive page for 18 Nov could be read. Everything else keeps its own 'as of' date and is not re-verified.",
+ "sport_note": "Sat 21 Nov 2026: score pages (footballwebpages, Eurosport, ATP/WTA rankings, F1, surprisesports) were refused again. No sport panel was refreshed; each keeps its own 'as of' date (gap). Weekend football, rugby, ATP Finals semi-finals and Las Vegas F1 results are not verified.",
  "sections": [
   {
    "id": "headlines",
@@ -17,29 +17,29 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "EU leaders bring Italy and Poland into Ukraine peace talks team as Kallas fights for spot",
-       "url": "https://www.euronews.com/2026/11/13/eu-leaders-bring-italy-and-poland-into-ukraine-peace-talks-team-as-kallas-fights-for-spot",
-       "when": "13 Nov"
+       "t": "Europe Tonight: EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+       "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet",
+       "when": "18 Nov (Euronews archive page; the RSS feed was refused)"
       },
       {
-       "t": "France and Germany near deal on De Cos for ECB top job as EU confirms two candidates",
-       "url": "https://www.euronews.com/2026/11/13/france-and-germany-near-deal-on-de-cos-for-ecb-top-job-as-eu-confirms-two-candidates",
-       "when": "13 Nov"
+       "t": "Former Macron ally Philippe unveils conservative agenda as French centre and right loses ground",
+       "url": "https://www.euronews.com/2026/11/18/former-macron-ally-philippe-unveils-conservative-agenda-as-french-centre-and-right-loses-g",
+       "when": "18 Nov (Euronews archive page; the RSS feed was refused)"
       },
       {
-       "t": "Iran MPs debate possible shift in nuclear doctrine and exit from NPT",
-       "url": "https://www.euronews.com/2026/11/13/iran-mps-debate-possible-shift-in-nuclear-doctrine-and-exit-from-npt",
-       "when": "13 Nov"
+       "t": "Waymo pulls driverless taxis off US highways after California ban",
+       "url": "https://www.euronews.com/2026/11/18/waymo-pulls-driverless-taxis-off-us-highways-after-california-ban",
+       "when": "18 Nov (Euronews archive page; the RSS feed was refused)"
       },
       {
-       "t": "All passengers rescued after tanker collides with cruise ship in New Orleans",
-       "url": "https://www.euronews.com/2026/11/13/tanker-collides-with-new-orleans-river-cruise-carrying-129-passengers-rescue-operation-und",
-       "when": "13 Nov"
+       "t": "Israeli military launches new operation on central Gaza despite ceasefire",
+       "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire",
+       "when": "18 Nov (Euronews archive page; the RSS feed was refused)"
       },
       {
-       "t": "Russia sends major business delegation to Kabul for business talks with the Taliban",
-       "url": "https://www.euronews.com/2026/11/13/russia-sends-major-business-delegation-to-kabul-for-business-talks-with-the-taliban",
-       "when": "13 Nov"
+       "t": "Canada and China expand tariff relief on pork, seafood and metals amid US trade tensions",
+       "url": "https://www.euronews.com/2026/11/18/canada-and-china-expand-tariff-relief-on-pork-seafood-and-metals-amid-us-trade-tensions",
+       "when": "18 Nov (Euronews archive page; the RSS feed was refused)"
       }
      ]
     },
@@ -179,6 +179,36 @@
   {
    "id": "world",
    "items": [
+    {
+     "t": "Trump, Xi and Putin meet in China as the EU proposes a €45bn Ukraine loan",
+     "tag": "World · 18 Nov · headlines only",
+     "gap": false,
+     "w": [
+      "Three of the world's most powerful leaders were in the same place on 18 November. Euronews reported that Donald Trump and Vladimir Putin shook hands, their first encounter since 2025, ahead of a high-stakes trilateral summit in China, with Xi Jinping as host.",
+      "On the same day Brussels moved on money. Euronews's Europe Tonight programme reported that the EU proposed a €45bn loan for Ukraine, set against the backdrop of the Trump-Xi-Putin meeting.",
+      "Only headlines and the list page were read, so the summit's outcome and the loan's terms are not verified here."
+     ],
+     "f": [
+      "Trump and Putin handshake, first meeting since 2025 (Euronews video headline, 18 Nov)",
+      "Proposed EU loan for Ukraine: €45bn (Euronews Europe Tonight headline, 18 Nov)"
+     ],
+     "n": [
+      "Russia invaded Ukraine in 2022 and the war continues. Peace efforts are running on several tracks, including talks involving US envoys and European governments (see the Ukraine card below).",
+      "China is not a party to the war but is a major trading partner of Russia, which is why a summit among Washington, Beijing and Moscow draws such attention.",
+      "The EU has been a leading source of financial help for Ukraine. A new loan proposal is a step that member states and the European Parliament would still have to approve."
+     ],
+     "s": "Euronews, 18 Nov 2026 (archive list page read; headlines only)",
+     "links": [
+      {
+       "text": "Euronews: Trump and Putin shake hands in first encounter since 2025 (video)",
+       "url": "https://www.euronews.com/video/2026/11/18/trump-and-putin-shake-hands-in-first-encounter-since-2025"
+      },
+      {
+       "text": "Euronews: Europe Tonight, EU proposes €45bn Ukraine loan as Trump, Xi and Putin meet",
+       "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+      }
+     ]
+    },
     {
      "t": "Ukraine: new talks with the US and Europe as drone war escalates",
      "tag": "World · 16–17 Nov",
@@ -5788,136 +5818,150 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Friday 20 November 2026",
-  "intro": "Ten questions on stories verified in today's run.",
+  "title": "Daily quiz: Saturday 21 November 2026",
+  "intro": "Ten questions on stories read in this run (Euronews 18 Nov headlines and earlier verified cards).",
   "questions": [
    {
-    "q": "Who did Alexander Zverev beat at the ATP Finals on Thursday 19 Nov?",
+    "q": "How big is the Ukraine loan the EU proposed, per Euronews on 18 Nov?",
     "options": [
-     "Ben Shelton",
-     "Arthur Fils",
-     "Rafael Jodar",
-     "Carlos Alcaraz"
+     "€15bn",
+     "€25bn",
+     "€45bn",
+     "€90bn"
+    ],
+    "answer": 2,
+    "explain": "Euronews Europe Tonight headline, 18 Nov."
+   },
+   {
+    "q": "Which country hosted the Trump, Xi and Putin summit?",
+    "options": [
+     "Kazakhstan",
+     "China",
+     "United Arab Emirates",
+     "Turkey"
     ],
     "answer": 1,
-    "explain": "ATP Tour, 19 Nov: 6-4 7-6(6)."
+    "explain": "Euronews headline: trilateral summit in China."
    },
    {
-    "q": "Which city hosts the Nitto ATP Finals?",
+    "q": "Which two countries expanded tariff relief on pork, seafood and metals?",
     "options": [
-     "London",
-     "Turin",
-     "Paris",
-     "Melbourne"
+     "Canada and China",
+     "France and Brazil",
+     "UK and India",
+     "Mexico and Japan"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 18 Nov."
+   },
+   {
+    "q": "Which company pulled driverless taxis off US highways after a California ban?",
+    "options": [
+     "Tesla",
+     "Waymo",
+     "Zoox",
+     "Uber"
     ],
     "answer": 1,
-    "explain": "ATP Tour: Inalpi Arena, Turin, 15-22 Nov."
+    "explain": "Euronews, 18 Nov."
    },
    {
-    "q": "Who reached his first ATP Finals semi-final by beating Rafael Jodar?",
+    "q": "Iraq began pumping oil to Turkey again after how many years, to bypass Hormuz disruption?",
     "options": [
-     "Ben Shelton",
-     "Alexander Zverev",
-     "Arthur Fils",
-     "Taylor Fritz"
+     "3",
+     "7",
+     "12",
+     "30"
+    ],
+    "answer": 2,
+    "explain": "Euronews, 18 Nov."
+   },
+   {
+    "q": "Opening a small business takes 18 times as long in which country as in France, per a study?",
+    "options": [
+     "Italy",
+     "Spain",
+     "Germany",
+     "Poland"
+    ],
+    "answer": 2,
+    "explain": "Euronews, 18 Nov."
+   },
+   {
+    "q": "Which storms brought record rain and winds to Portugal and Madeira?",
+    "options": [
+     "Bruna and Charles",
+     "Ana and Bruno",
+     "Claudia and Dennis",
+     "Elin and Fien"
     ],
     "answer": 0,
-    "explain": "7-6(8) 7-5, ATP Tour 19 Nov."
+    "explain": "Euronews, 18 Nov."
    },
    {
-    "q": "Which French pair reached the ATP Finals doubles semi-finals?",
+    "q": "Which former Macron ally unveiled a conservative agenda?",
     "options": [
-     "Mahut/Herbert",
-     "Arribage/Olivetti",
-     "Roger-Vasselin/Gasquet",
-     "Humbert/Monfils"
+     "Edouard Philippe",
+     "Gabriel Attal",
+     "Michel Barnier",
+     "Bruno Retailleau"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 18 Nov."
+   },
+   {
+    "q": "Who was Hakeem Jeffries reported to be moving closer to becoming?",
+    "options": [
+     "US Senate leader",
+     "First Black US House speaker",
+     "Governor of New York",
+     "US Vice President"
     ],
     "answer": 1,
-    "explain": "They beat Heliovaara and Patten, ATP Tour."
+    "explain": "Euronews, 18 Nov."
    },
    {
-    "q": "Which team beat the Maple Leafs on 17 Nov?",
+    "q": "After the Blackhawks loss on 17 Nov, the Maple Leafs' record was listed as:",
     "options": [
-     "Chicago Blackhawks",
-     "Edmonton Oilers",
-     "Minnesota Wild",
-     "Utah Mammoth"
-    ],
-    "answer": 0,
-    "explain": "nhl.com recap, 17 Nov."
-   },
-   {
-    "q": "Who scored for Toronto in the first period in Chicago?",
-    "options": [
-     "Easton Cowan",
-     "John Tavares",
-     "Teddy Blueger",
-     "Auston Matthews"
-    ],
-    "answer": 0,
-    "explain": "nhl.com: Cowan, 3:22 of the first."
-   },
-   {
-    "q": "What was the Leafs' record in the nhl.com recap header?",
-    "options": [
+     "13-8-2",
      "8-13-2",
-     "10-9-3",
-     "5-15-1",
-     "12-8-2"
-    ],
-    "answer": 0,
-    "explain": "18 points, nhl.com 18 Nov."
-   },
-   {
-    "q": "Where were the Russia-Ukraine talks of 10-11 Nov held?",
-    "options": [
-     "Geneva",
-     "Abu Dhabi",
-     "Istanbul",
-     "Berlin"
+     "10-10-3",
+     "5-15-2"
     ],
     "answer": 1,
-    "explain": "Al Jazeera, 13 Nov."
-   },
-   {
-    "q": "What prisoner exchange size did the sides agree at those talks (each side, at least)?",
-    "options": [
-     "100",
-     "500",
-     "1,000",
-     "5,000"
-    ],
-    "answer": 2,
-    "explain": "Al Jazeera, 13 Nov."
-   },
-   {
-    "q": "Ukraine said Russia lost over how many killed or seriously wounded in the first 10 days of November?",
-    "options": [
-     "6,000",
-     "16,000",
-     "26,000",
-     "46,000"
-    ],
-    "answer": 2,
-    "explain": "Ukrainian military claim, Al Jazeera 13 Nov (a claim, not independently verified)."
+    "explain": "nhl.com recap header, 18 Nov: 8-13-2, 18 points."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Fri 20 Nov 2026, Toronto early morning. PARTIAL: all feeds and score sites were refused. Items come from ATP Tour (19 Nov), nhl.com (18 Nov) and Al Jazeera (13 Nov). World, local and weekend football/rugby news for 18-20 Nov are not verified (gap).",
+  "stamp": "Sat 21 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites were refused again. Fresh items below are from the Euronews 18 Nov archive page and the latest verified sport (ATP Tour 19 Nov, nhl.com 17-18 Nov). Nothing dated 19-21 Nov was verified.",
   "blocks": [
    {
     "id": "t-world",
     "title": "World: breaking",
     "items": [
      {
-      "t": "Ukraine and Russia: Abu Dhabi talks end with little agreement",
-      "b": "Al Jazeera reports that talks on 10-11 Nov produced no deal on territory or NATO, though both sides agreed a new prisoner exchange of at least 1,000 people each. Ukraine says Russia lost more than 26,000 killed or seriously wounded in the first ten days of November. This is a 13 Nov report: later developments are not verified.",
-      "when": "13 Nov",
-      "src": "Al Jazeera",
-      "url": "https://www.aljazeera.com/amp/news/2026/11/13/russias-demands-come-from-different-reality-as-war-efforts-stagnates"
+      "t": "Trump and Putin shake hands ahead of trilateral summit in China",
+      "b": "Euronews video headline: the first encounter between the two since 2025, ahead of a summit that also involves Xi Jinping. Outcome not verified.",
+      "when": "18 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/video/2026/11/18/trump-and-putin-shake-hands-in-first-encounter-since-2025"
+     },
+     {
+      "t": "EU proposes €45bn Ukraine loan",
+      "b": "Euronews's Europe Tonight reports the proposal on the day the Trump-Xi-Putin meeting began. Headline only; terms not verified.",
+      "when": "18 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+     },
+     {
+      "t": "Israel launches new operation on central Gaza despite ceasefire",
+      "b": "Euronews headline, 18 Nov. Detail not read.",
+      "when": "18 Nov",
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire"
      }
     ]
    },
@@ -5926,10 +5970,11 @@
     "title": "Local: Toronto, France, UK",
     "items": [
      {
-      "t": "Local news for 18-20 Nov not verified",
-      "b": "CP24, Global News and L'Écho du Mardi feeds were refused and no dated local story could be read. Earlier local cards below keep their own dates.",
+      "t": "Local news for 19-21 Nov not verified",
+      "b": "CP24, Global News and L'Echo du Mardi feeds were refused. One France headline on 18 Nov (Euronews): former Macron ally Edouard Philippe unveiled a conservative agenda as the French centre and right loses ground; Euronews also reported Canada and China expanding tariff relief on pork, seafood and metals.",
       "when": "gap",
-      "src": "-"
+      "src": "Euronews",
+      "url": "https://www.euronews.com/2026/11/18/former-macron-ally-philippe-unveils-conservative-agenda-as-french-centre-and-right-loses-g"
      }
     ]
    },
@@ -5953,7 +5998,7 @@
      },
      {
       "t": "Weekend football, rugby, F1 results",
-      "b": "Not verified this run: score pages were refused.",
+      "b": "Weekend football, rugby, ATP Finals semi-finals and Las Vegas F1 results are not verified: score pages were refused.",
       "when": "gap",
       "src": "-"
      }
@@ -5962,16 +6007,11 @@
   ],
   "fixtures": [
    {
-    "day": "Thu 19 to Sat 21 Nov",
+    "day": "Sat 21 Nov (as listed on 20 Nov; not re-checked)",
     "rows": [
      [
       "F1",
-      "Formula 1 Las Vegas Grand Prix: first practice Thu 19 Nov 4:30 pm PT; qualifying Fri 20 Nov 8 pm PT (11 pm ET)",
-      "See times"
-     ],
-     [
-      "F1",
-      "Formula 1 Las Vegas Grand Prix: race, Sat 21 Nov",
+      "Las Vegas Grand Prix race",
       "8:00 pm PT / 11:00 pm ET (4 am UK Sun)"
      ]
     ]
