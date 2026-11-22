@@ -1,6 +1,6 @@
 {
- "date": "2026-11-21",
- "label": "Saturday 21 November 2026",
+ "date": "2026-11-22",
+ "label": "Sunday 22 November 2026",
  "note": "Sat 21 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs given (Euronews RSS, Al Jazeera sitemap, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were refused by the fetch tool (permission not answered in an unattended run, or a client error). Only the Euronews daily archive page for 18 Nov could be read. Everything else keeps its own 'as of' date and is not re-verified.",
  "sport_note": "Sat 21 Nov 2026: score pages (footballwebpages, Eurosport, ATP/WTA rankings, F1, surprisesports) were refused again. No sport panel was refreshed; each keeps its own 'as of' date (gap). Weekend football, rugby, ATP Finals semi-finals and Las Vegas F1 results are not verified.",
  "sections": [
@@ -4253,19 +4253,20 @@
     },
     {
      "t": "Tennis: ATP Finals field is set",
-     "tag": "Turin · 15–22 Nov",
+     "tag": "Turin · 15–22 Nov · final Sun 22 Nov",
      "gap": false,
      "w": [
       "The season finale has its eight. The ATP Tour lists the singles qualifiers for the Nitto ATP Finals as Alexander Zverev, Carlos Alcaraz, Ben Shelton, Daniil Medvedev, Flavio Cobolli, Arthur Fils, Frances Tiafoe and Rafael Jodar.",
       "The event runs 15–22 November in Turin, in two groups (John McEnroe and Ivan Lendl), and the draw is on Thursday 12 November at about 12:45 pm CET.",
-      "Update, Thursday 19 Nov in Turin: Alexander Zverev beat Arthur Fils 6-4 7-6(6) and Ben Shelton beat Rafael Jodar 7-6(8) 7-5, sending Shelton into his first Finals semi-final. The tournament runs 15-22 Nov at the Inalpi Arena. Group tables were not on the page read."
+      "Update, Thursday 19 Nov in Turin: Alexander Zverev beat Arthur Fils 6-4 7-6(6) and Ben Shelton beat Rafael Jodar 7-6(8) 7-5, sending Shelton into his first Finals semi-final. The tournament runs 15-22 Nov at the Inalpi Arena. Group tables were not on the page read.",
+      "Update, Saturday 21 Nov: Alexander Zverev beat Daniil Medvedev 7-6(0) 6-4 and Carlos Alcaraz beat Ben Shelton 3-6 6-3 7-6(1) in the semi-finals, so Zverev and Alcaraz contest the singles final. Doubles final: Arevalo/Pavic v Arribage/Olivetti."
      ],
      "n": [
       "The ATP Finals is the year-end tournament for the eight best men's singles players of the season, played indoors rather than as a knockout from the start.",
       "The eight are split into two groups of four; everyone plays the other three in their group, and the top two from each group go through to the semi-finals.",
       "Qualifying is based on ranking points won over the season."
      ],
-     "s": "As of 10 Nov 2026 · ATP Tour",
+     "s": "As of Sat 21 Nov 2026 · ATP Tour results page",
      "links": [
       {
        "text": "ATP Tour: Nitto ATP Finals 2026 field is set",
@@ -5818,11 +5819,99 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Saturday 21 November 2026",
-  "intro": "Ten questions on stories read in this run (Euronews 18 Nov headlines and earlier verified cards).",
+  "title": "Daily quiz: Sunday 22 November 2026",
+  "intro": "Ten questions on stories verified in this run (ATP Tour 21 Nov, nhl.com 17 Nov, Euronews 18 Nov).",
   "questions": [
    {
-    "q": "How big is the Ukraine loan the EU proposed, per Euronews on 18 Nov?",
+    "q": "Who reached the Nitto ATP Finals singles final by beating Daniil Medvedev?",
+    "options": [
+     "Carlos Alcaraz",
+     "Alexander Zverev",
+     "Ben Shelton",
+     "Frances Tiafoe"
+    ],
+    "answer": 1,
+    "explain": "Zverev won 7-6(0) 6-4 on 21 Nov (ATP Tour)."
+   },
+   {
+    "q": "Who did Carlos Alcaraz beat in the ATP Finals semi-final?",
+    "options": [
+     "Ben Shelton",
+     "Arthur Fils",
+     "Flavio Cobolli",
+     "Rafael Jodar"
+    ],
+    "answer": 0,
+    "explain": "3-6 6-3 7-6(1), 21 Nov."
+   },
+   {
+    "q": "In which city is the Nitto ATP Finals played?",
+    "options": [
+     "Paris",
+     "London",
+     "Turin",
+     "Madrid"
+    ],
+    "answer": 2,
+    "explain": "Turin, 15-22 Nov, Inalpi Arena."
+   },
+   {
+    "q": "Who won the Rolex Paris Masters on 8 Nov?",
+    "options": [
+     "Ben Shelton",
+     "Casper Ruud",
+     "Alexander Zverev",
+     "Carlos Alcaraz"
+    ],
+    "answer": 3,
+    "explain": "Alcaraz beat Shelton 7-6(5) 7-5."
+   },
+   {
+    "q": "Which pair reached the doubles final by beating Harrison/Skupski?",
+    "options": [
+     "Arevalo/Pavic",
+     "Krawietz/Puetz",
+     "Arribage/Olivetti",
+     "Heliovaara/Patten"
+    ],
+    "answer": 0,
+    "explain": "7-6(10) 6-7(7) 10-7."
+   },
+   {
+    "q": "Which French pair meet Arevalo/Pavic in the doubles final?",
+    "options": [
+     "Arribage/Olivetti",
+     "Heliovaara/Patten",
+     "Harrison/Skupski",
+     "Krawietz/Puetz"
+    ],
+    "answer": 0,
+    "explain": "Arribage/Olivetti beat Krawietz/Puetz."
+   },
+   {
+    "q": "What was the Maple Leafs' record in the nhl.com recap header after the 17 Nov game in Chicago?",
+    "options": [
+     "13-8-2",
+     "8-13-2",
+     "10-10-3",
+     "6-13-2"
+    ],
+    "answer": 1,
+    "explain": "The Leafs were 8-13-2, 18 points."
+   },
+   {
+    "q": "Which Leaf scored in Chicago on 17 Nov?",
+    "options": [
+     "Auston Matthews",
+     "John Tavares",
+     "Mitch Marner",
+     "William Nylander"
+    ],
+    "answer": 1,
+    "explain": "Cowan, Blueger and Tavares scored."
+   },
+   {
+    "q": "How big a Ukraine loan did the EU propose, per Euronews on 18 Nov?",
     "options": [
      "€15bn",
      "€25bn",
@@ -5830,113 +5919,25 @@
      "€90bn"
     ],
     "answer": 2,
-    "explain": "Euronews Europe Tonight headline, 18 Nov."
+    "explain": "Euronews Europe Tonight headline."
    },
    {
     "q": "Which country hosted the Trump, Xi and Putin summit?",
     "options": [
      "Kazakhstan",
      "China",
-     "United Arab Emirates",
-     "Turkey"
+     "Turkey",
+     "UAE"
     ],
     "answer": 1,
-    "explain": "Euronews headline: trilateral summit in China."
-   },
-   {
-    "q": "Which two countries expanded tariff relief on pork, seafood and metals?",
-    "options": [
-     "Canada and China",
-     "France and Brazil",
-     "UK and India",
-     "Mexico and Japan"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Which company pulled driverless taxis off US highways after a California ban?",
-    "options": [
-     "Tesla",
-     "Waymo",
-     "Zoox",
-     "Uber"
-    ],
-    "answer": 1,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Iraq began pumping oil to Turkey again after how many years, to bypass Hormuz disruption?",
-    "options": [
-     "3",
-     "7",
-     "12",
-     "30"
-    ],
-    "answer": 2,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Opening a small business takes 18 times as long in which country as in France, per a study?",
-    "options": [
-     "Italy",
-     "Spain",
-     "Germany",
-     "Poland"
-    ],
-    "answer": 2,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Which storms brought record rain and winds to Portugal and Madeira?",
-    "options": [
-     "Bruna and Charles",
-     "Ana and Bruno",
-     "Claudia and Dennis",
-     "Elin and Fien"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Which former Macron ally unveiled a conservative agenda?",
-    "options": [
-     "Edouard Philippe",
-     "Gabriel Attal",
-     "Michel Barnier",
-     "Bruno Retailleau"
-    ],
-    "answer": 0,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "Who was Hakeem Jeffries reported to be moving closer to becoming?",
-    "options": [
-     "US Senate leader",
-     "First Black US House speaker",
-     "Governor of New York",
-     "US Vice President"
-    ],
-    "answer": 1,
-    "explain": "Euronews, 18 Nov."
-   },
-   {
-    "q": "After the Blackhawks loss on 17 Nov, the Maple Leafs' record was listed as:",
-    "options": [
-     "13-8-2",
-     "8-13-2",
-     "10-10-3",
-     "5-15-2"
-    ],
-    "answer": 1,
-    "explain": "nhl.com recap header, 18 Nov: 8-13-2, 18 points."
+    "explain": "Euronews headline, 18 Nov."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Sat 21 Nov 2026, Toronto early morning. PARTIAL: feeds and score sites were refused again. Fresh items below are from the Euronews 18 Nov archive page and the latest verified sport (ATP Tour 19 Nov, nhl.com 17-18 Nov). Nothing dated 19-21 Nov was verified.",
+  "stamp": "Sun 22 Nov 2026, Toronto early morning. PARTIAL: feed and score-site fetches (Euronews, CP24, Al Jazeera, Global News, footballwebpages, atptour rankings, banks) were refused again. Only the ATP Tour Finals results page (dated 21 Nov) and the nhl.com Leafs recap (17 Nov) were readable. Everything else is carried from earlier days and marked as such.",
   "blocks": [
    {
     "id": "t-world",
@@ -5983,22 +5984,22 @@
     "title": "Sport: results",
     "items": [
      {
-      "t": "Zverev and Shelton win at the ATP Finals",
-      "b": "In Turin on Thursday 19 Nov, top seed Alexander Zverev beat Arthur Fils 6-4 7-6(6), and Ben Shelton beat Rafael Jodar 7-6(8) 7-5 to reach his first ATP Finals semi-final. In doubles, Theo Arribage and Albano Olivetti of France beat top seeds Harri Heliovaara and Henry Patten to reach the semis.",
-      "when": "19 Nov",
+      "t": "Zverev and Alcaraz reach the ATP Finals final",
+      "b": "In Turin on Saturday 21 Nov, top seed Alexander Zverev beat Daniil Medvedev 7-6(0) 6-4, and Carlos Alcaraz edged Ben Shelton 3-6 6-3 7-6(1) in a three-set semi-final. They meet in the singles final. In doubles, Arevalo/Pavic beat Harrison/Skupski and Arribage/Olivetti beat Krawietz/Puetz, both in deciding tie-breaks, and meet in the doubles final.",
+      "when": "21 Nov",
       "src": "ATP Tour",
       "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
      },
      {
       "t": "Maple Leafs lose in Chicago",
-      "b": "Toronto lost to the Blackhawks on 17 Nov despite goals from Easton Cowan, Teddy Blueger and John Tavares. The recap header lists the Leafs at 8-13-2 (18 points). Final score not stated on the page read.",
+      "b": "Toronto lost to the Blackhawks on 17 Nov despite goals from Easton Cowan, Teddy Blueger and John Tavares. The recap header lists the Leafs at 8-13-2 (18 points). Final score not stated on the page read. Later games not verified.",
       "when": "17 Nov",
       "src": "nhl.com",
       "url": "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026"
      },
      {
       "t": "Weekend football, rugby, F1 results",
-      "b": "Weekend football, rugby, ATP Finals semi-finals and Las Vegas F1 results are not verified: score pages were refused.",
+      "b": "Premier League, rugby Nations Championship and Las Vegas F1 results from 21 Nov are not verified: score pages were refused or returned errors.",
       "when": "gap",
       "src": "-"
      }
@@ -6062,6 +6063,6 @@
     ]
    }
   ],
-  "fixnote": "Fixture list carried over from the earlier briefing and NOT re-checked on 20 Nov; times and any changes are not verified. ATP Finals run 15-22 Nov in Turin (ATP Tour)."
+  "fixnote": "Fixture list carried over from earlier briefings and NOT re-checked; times and changes are not verified. ATP Finals singles and doubles finals are Sun 22 Nov in Turin (ATP Tour page, 21 Nov)."
  }
 }
