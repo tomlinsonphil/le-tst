@@ -1,8 +1,8 @@
 {
- "date": "2026-11-22",
- "label": "Sunday 22 November 2026",
- "note": "Sat 21 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs given (Euronews RSS, Al Jazeera sitemap, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were refused by the fetch tool (permission not answered in an unattended run, or a client error). Only the Euronews daily archive page for 18 Nov could be read. Everything else keeps its own 'as of' date and is not re-verified.",
- "sport_note": "Sat 21 Nov 2026: score pages (footballwebpages, Eurosport, ATP/WTA rankings, F1, surprisesports) were refused again. No sport panel was refreshed; each keeps its own 'as of' date (gap). Weekend football, rugby, ATP Finals semi-finals and Las Vegas F1 results are not verified.",
+ "date": "2026-11-23",
+ "label": "Monday 23 November 2026",
+ "note": "Mon 23 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs (Euronews, Al Jazeera, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were again refused by the fetch tool (permission prompt unanswered in an unattended run). Only the ATP Tour ATP Finals results page was readable. Everything else keeps its own 'as of' date and is not re-verified.",
+ "sport_note": "Mon 23 Nov 2026: score pages (footballwebpages, Eurosport, rankings, F1, surprisesports) were refused. Only the ATP Finals final (ATP Tour) was verified. Weekend football, rugby and Las Vegas F1 results are not verified; every other panel keeps its own 'as of' date (gap).",
  "sections": [
   {
    "id": "headlines",
@@ -4224,7 +4224,7 @@
   {
    "id": "tennis",
    "title": "Tennis",
-   "summary": "Alcaraz beats Shelton 7–6(5), 7–5 to win the Paris Masters (Sun 8 Nov).",
+   "summary": "Alcaraz beats Zverev 6–2, 7–6(7) to win his first ATP Finals title in Turin (Sun 22 Nov).",
    "intro": "Rankings and the current tournaments in Shanghai (ATP) and Wuhan (WTA). Updated Thursday 15 October 2026.",
    "cards": [
     {
@@ -4252,21 +4252,23 @@
      ]
     },
     {
-     "t": "Tennis: ATP Finals field is set",
-     "tag": "Turin · 15–22 Nov · final Sun 22 Nov",
+     "t": "Tennis: Alcaraz wins the ATP Finals",
+     "tag": "Turin · final Sun 22 Nov",
      "gap": false,
      "w": [
+      "Carlos Alcaraz is the Nitto ATP Finals champion. The second seed from Spain beat top seed Alexander Zverev of Germany 6-2, 7-6(7) in Sunday's final in Turin, taking his first title at the season finale, according to the ATP Tour.",
       "The season finale has its eight. The ATP Tour lists the singles qualifiers for the Nitto ATP Finals as Alexander Zverev, Carlos Alcaraz, Ben Shelton, Daniil Medvedev, Flavio Cobolli, Arthur Fils, Frances Tiafoe and Rafael Jodar.",
       "The event runs 15–22 November in Turin, in two groups (John McEnroe and Ivan Lendl), and the draw is on Thursday 12 November at about 12:45 pm CET.",
       "Update, Thursday 19 Nov in Turin: Alexander Zverev beat Arthur Fils 6-4 7-6(6) and Ben Shelton beat Rafael Jodar 7-6(8) 7-5, sending Shelton into his first Finals semi-final. The tournament runs 15-22 Nov at the Inalpi Arena. Group tables were not on the page read.",
-      "Update, Saturday 21 Nov: Alexander Zverev beat Daniil Medvedev 7-6(0) 6-4 and Carlos Alcaraz beat Ben Shelton 3-6 6-3 7-6(1) in the semi-finals, so Zverev and Alcaraz contest the singles final. Doubles final: Arevalo/Pavic v Arribage/Olivetti."
+      "Update, Saturday 21 Nov: Alexander Zverev beat Daniil Medvedev 7-6(0) 6-4 and Carlos Alcaraz beat Ben Shelton 3-6 6-3 7-6(1) in the semi-finals, so Zverev and Alcaraz contest the singles final. Doubles final: Arevalo/Pavic v Arribage/Olivetti.",
+      "Doubles final, Sun 22 Nov: sixth seeds Theo Arribage and Albano Olivetti of France beat fourth seeds Marcelo Arevalo and Mate Pavic 3-6, 7-6(2), 10-6 on their event debut."
      ],
      "n": [
       "The ATP Finals is the year-end tournament for the eight best men's singles players of the season, played indoors rather than as a knockout from the start.",
       "The eight are split into two groups of four; everyone plays the other three in their group, and the top two from each group go through to the semi-finals.",
       "Qualifying is based on ranking points won over the season."
      ],
-     "s": "As of Sat 21 Nov 2026 · ATP Tour results page",
+     "s": "As of Mon 23 Nov 2026 · ATP Tour results page (finals only)",
      "links": [
       {
        "text": "ATP Tour: Nitto ATP Finals 2026 field is set",
@@ -4276,6 +4278,10 @@
        "text": "ATP Tour: Nitto ATP Finals results",
        "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
       }
+     ],
+     "f": [
+      "Singles final (Sun 22 Nov): Alcaraz d. Zverev 6-2, 7-6(7)",
+      "Doubles final: Arribage/Olivetti d. Arevalo/Pavic 3-6, 7-6(2), 10-6"
      ]
     },
     {
@@ -5819,125 +5825,70 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Sunday 22 November 2026",
-  "intro": "Ten questions on stories verified in this run (ATP Tour 21 Nov, nhl.com 17 Nov, Euronews 18 Nov).",
+  "title": "Daily quiz: Monday 23 November 2026",
+  "intro": "Questions on the stories verified in this run (ATP Tour, 22 Nov).",
   "questions": [
    {
-    "q": "Who reached the Nitto ATP Finals singles final by beating Daniil Medvedev?",
+    "q": "Who won the 2026 Nitto ATP Finals singles title?",
     "options": [
-     "Carlos Alcaraz",
      "Alexander Zverev",
+     "Carlos Alcaraz",
      "Ben Shelton",
-     "Frances Tiafoe"
+     "Daniil Medvedev"
     ],
     "answer": 1,
-    "explain": "Zverev won 7-6(0) 6-4 on 21 Nov (ATP Tour)."
+    "explain": "Alcaraz beat Zverev 6-2, 7-6(7) on 22 Nov (ATP Tour)."
    },
    {
-    "q": "Who did Carlos Alcaraz beat in the ATP Finals semi-final?",
+    "q": "Who did Alcaraz beat in the final?",
     "options": [
      "Ben Shelton",
-     "Arthur Fils",
-     "Flavio Cobolli",
-     "Rafael Jodar"
+     "Jannik Sinner",
+     "Alexander Zverev",
+     "Flavio Cobolli"
     ],
-    "answer": 0,
-    "explain": "3-6 6-3 7-6(1), 21 Nov."
+    "answer": 2,
+    "explain": "Zverev, the top seed (ATP Tour)."
    },
    {
-    "q": "In which city is the Nitto ATP Finals played?",
+    "q": "Which city hosted the 2026 ATP Finals?",
     "options": [
-     "Paris",
      "London",
      "Turin",
-     "Madrid"
+     "Paris",
+     "Milan"
     ],
-    "answer": 2,
-    "explain": "Turin, 15-22 Nov, Inalpi Arena."
+    "answer": 1,
+    "explain": "Inalpi Arena, Turin, 15-22 Nov."
    },
    {
-    "q": "Who won the Rolex Paris Masters on 8 Nov?",
+    "q": "Which French pair won the doubles title?",
     "options": [
-     "Ben Shelton",
-     "Casper Ruud",
-     "Alexander Zverev",
-     "Carlos Alcaraz"
-    ],
-    "answer": 3,
-    "explain": "Alcaraz beat Shelton 7-6(5) 7-5."
-   },
-   {
-    "q": "Which pair reached the doubles final by beating Harrison/Skupski?",
-    "options": [
+     "Arribage/Olivetti",
      "Arevalo/Pavic",
-     "Krawietz/Puetz",
-     "Arribage/Olivetti",
-     "Heliovaara/Patten"
+     "Herbert/Mahut",
+     "Gasquet/Monfils"
     ],
     "answer": 0,
-    "explain": "7-6(10) 6-7(7) 10-7."
+    "explain": "Arribage/Olivetti won 3-6, 7-6(2), 10-6."
    },
    {
-    "q": "Which French pair meet Arevalo/Pavic in the doubles final?",
+    "q": "What was the deciding set score type in the doubles final?",
     "options": [
-     "Arribage/Olivetti",
-     "Heliovaara/Patten",
-     "Harrison/Skupski",
-     "Krawietz/Puetz"
-    ],
-    "answer": 0,
-    "explain": "Arribage/Olivetti beat Krawietz/Puetz."
-   },
-   {
-    "q": "What was the Maple Leafs' record in the nhl.com recap header after the 17 Nov game in Chicago?",
-    "options": [
-     "13-8-2",
-     "8-13-2",
-     "10-10-3",
-     "6-13-2"
+     "A tie-break to 7",
+     "A match tie-break to 10",
+     "A full third set",
+     "A walkover"
     ],
     "answer": 1,
-    "explain": "The Leafs were 8-13-2, 18 points."
-   },
-   {
-    "q": "Which Leaf scored in Chicago on 17 Nov?",
-    "options": [
-     "Auston Matthews",
-     "John Tavares",
-     "Mitch Marner",
-     "William Nylander"
-    ],
-    "answer": 1,
-    "explain": "Cowan, Blueger and Tavares scored."
-   },
-   {
-    "q": "How big a Ukraine loan did the EU propose, per Euronews on 18 Nov?",
-    "options": [
-     "€15bn",
-     "€25bn",
-     "€45bn",
-     "€90bn"
-    ],
-    "answer": 2,
-    "explain": "Euronews Europe Tonight headline."
-   },
-   {
-    "q": "Which country hosted the Trump, Xi and Putin summit?",
-    "options": [
-     "Kazakhstan",
-     "China",
-     "Turkey",
-     "UAE"
-    ],
-    "answer": 1,
-    "explain": "Euronews headline, 18 Nov."
+    "explain": "The third set was a 10-6 match tie-break."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Sun 22 Nov 2026, Toronto early morning. PARTIAL: feed and score-site fetches (Euronews, CP24, Al Jazeera, Global News, footballwebpages, atptour rankings, banks) were refused again. Only the ATP Tour Finals results page (dated 21 Nov) and the nhl.com Leafs recap (17 Nov) were readable. Everything else is carried from earlier days and marked as such.",
+  "stamp": "Mon 23 Nov 2026, Toronto early morning. PARTIAL: feed and score-site fetches (Euronews, CP24, Al Jazeera, Global News, footballwebpages, rankings, banks) were refused again. Only the ATP Tour ATP Finals results page (finals, 22 Nov) was readable. Everything else is carried from earlier days and marked as such.",
   "blocks": [
    {
     "id": "t-world",
@@ -5983,6 +5934,13 @@
     "id": "t-sport",
     "title": "Sport: results",
     "items": [
+     {
+      "t": "Alcaraz beats Zverev to win the ATP Finals",
+      "b": "In Turin on Sunday 22 Nov, Carlos Alcaraz beat Alexander Zverev 6-2, 7-6(7) for his first ATP Finals title. In the doubles final, Arribage/Olivetti of France beat Arevalo/Pavic 3-6, 7-6(2), 10-6.",
+      "when": "22 Nov",
+      "src": "ATP Tour",
+      "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
+     },
      {
       "t": "Zverev and Alcaraz reach the ATP Finals final",
       "b": "In Turin on Saturday 21 Nov, top seed Alexander Zverev beat Daniil Medvedev 7-6(0) 6-4, and Carlos Alcaraz edged Ben Shelton 3-6 6-3 7-6(1) in a three-set semi-final. They meet in the singles final. In doubles, Arevalo/Pavic beat Harrison/Skupski and Arribage/Olivetti beat Krawietz/Puetz, both in deciding tie-breaks, and meet in the doubles final.",
