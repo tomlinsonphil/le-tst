@@ -1,6 +1,6 @@
 {
- "date": "2026-11-23",
- "label": "Monday 23 November 2026",
+ "date": "2026-11-24",
+ "label": "Tuesday 24 November 2026",
  "note": "Mon 23 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs (Euronews, Al Jazeera, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were again refused by the fetch tool (permission prompt unanswered in an unattended run). Only the ATP Tour ATP Finals results page was readable. Everything else keeps its own 'as of' date and is not re-verified.",
  "sport_note": "Mon 23 Nov 2026: score pages (footballwebpages, Eurosport, rankings, F1, surprisesports) were refused. Only the ATP Finals final (ATP Tour) was verified. Weekend football, rugby and Las Vegas F1 results are not verified; every other panel keeps its own 'as of' date (gap).",
  "sections": [
@@ -5825,11 +5825,11 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Monday 23 November 2026",
-  "intro": "Questions on the stories verified in this run (ATP Tour, 22 Nov).",
+  "title": "Daily quiz: Tuesday 24 November 2026",
+  "intro": "Questions on stories verified in earlier runs and still in the pages below (today's feeds could not be read).",
   "questions": [
    {
-    "q": "Who won the 2026 Nitto ATP Finals singles title?",
+    "q": "Who won the 2026 ATP Finals singles title in Turin?",
     "options": [
      "Alexander Zverev",
      "Carlos Alcaraz",
@@ -5840,15 +5840,92 @@
     "explain": "Alcaraz beat Zverev 6-2, 7-6(7) on 22 Nov (ATP Tour)."
    },
    {
-    "q": "Who did Alcaraz beat in the final?",
+    "q": "What was the Maple Leafs' record after their 17 Nov loss in Chicago?",
     "options": [
-     "Ben Shelton",
-     "Jannik Sinner",
-     "Alexander Zverev",
-     "Flavio Cobolli"
+     "8-13-2",
+     "12-8-2",
+     "5-15-3",
+     "10-10-3"
+    ],
+    "answer": 0,
+    "explain": "8-13-2, 18 points (nhl.com recap header, 18 Nov)."
+   },
+   {
+    "q": "What is the Bank of England's Bank Rate after its 5 Nov decision?",
+    "options": [
+     "3.75%",
+     "4.00%",
+     "4.50%",
+     "3.50%"
+    ],
+    "answer": 1,
+    "explain": "Raised 25 bp from 3.75% to 4.00%, 8-1 vote (MoneyWeek, 5 Nov)."
+   },
+   {
+    "q": "What did the Bank of Canada do on 28 Oct?",
+    "options": [
+     "Cut its rate",
+     "Held",
+     "Raised 25 basis points",
+     "Paused QT"
     ],
     "answer": 2,
-    "explain": "Zverev, the top seed (ATP Tour)."
+    "explain": "First hike since July 2023, to 2.50%."
+   },
+   {
+    "q": "How many schools did Portugal shut ahead of Storm Charles?",
+    "options": [
+     "About 800",
+     "About 3,000",
+     "About 8,000",
+     "About 20,000"
+    ],
+    "answer": 2,
+    "explain": "Roughly 8,000 schools (Euronews, 11 Nov)."
+   },
+   {
+    "q": "Which two leaders shook hands in China on 18 Nov, their first encounter since 2025?",
+    "options": [
+     "Trump and Putin",
+     "Macron and Xi",
+     "Putin and Modi",
+     "Trump and Zelenskyy"
+    ],
+    "answer": 0,
+    "explain": "Euronews, 18 Nov, ahead of a summit hosted with Xi Jinping."
+   },
+   {
+    "q": "How much was the EU's proposed Ukraine loan reported on 18 Nov?",
+    "options": [
+     "€15bn",
+     "€25bn",
+     "€45bn",
+     "€90bn"
+    ],
+    "answer": 2,
+    "explain": "€45bn (Euronews Europe Tonight, 18 Nov)."
+   },
+   {
+    "q": "Whose last 11 November as president did France mark in 2026?",
+    "options": [
+     "Macron",
+     "Sarkozy",
+     "Hollande",
+     "Chirac"
+    ],
+    "answer": 0,
+    "explain": "Macron led the Arc de Triomphe ceremony (Euronews, 11 Nov)."
+   },
+   {
+    "q": "Which Leafs player scored in the third period at Chicago on 17 Nov?",
+    "options": [
+     "John Tavares",
+     "Auston Matthews",
+     "Mitch Marner",
+     "William Nylander"
+    ],
+    "answer": 0,
+    "explain": "Tavares pulled the Leafs within a goal (nhl.com)."
    },
    {
     "q": "Which city hosted the 2026 ATP Finals?",
@@ -5859,36 +5936,14 @@
      "Milan"
     ],
     "answer": 1,
-    "explain": "Inalpi Arena, Turin, 15-22 Nov."
-   },
-   {
-    "q": "Which French pair won the doubles title?",
-    "options": [
-     "Arribage/Olivetti",
-     "Arevalo/Pavic",
-     "Herbert/Mahut",
-     "Gasquet/Monfils"
-    ],
-    "answer": 0,
-    "explain": "Arribage/Olivetti won 3-6, 7-6(2), 10-6."
-   },
-   {
-    "q": "What was the deciding set score type in the doubles final?",
-    "options": [
-     "A tie-break to 7",
-     "A match tie-break to 10",
-     "A full third set",
-     "A walkover"
-    ],
-    "answer": 1,
-    "explain": "The third set was a 10-6 match tie-break."
+    "explain": "Inalpi Arena, Turin."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Mon 23 Nov 2026, Toronto early morning. PARTIAL: feed and score-site fetches (Euronews, CP24, Al Jazeera, Global News, footballwebpages, rankings, banks) were refused again. Only the ATP Tour ATP Finals results page (finals, 22 Nov) was readable. Everything else is carried from earlier days and marked as such.",
+  "stamp": "Tue 24 Nov 2026, Toronto early morning. PARTIAL: every feed and score-site fetch (Euronews, CP24, Al Jazeera, Global News, L'Écho du Mardi, footballwebpages, Eurosport, ATP, WTA, DirecTV F1, Surprise Sports, central banks, Spaceflight Now, NASA, Provence Guide) was refused again (permission request unanswered), and WebSearch returned only titles. No new facts could be verified, so figures below are carried from earlier days and labelled with their dates.",
   "blocks": [
    {
     "id": "t-world",
@@ -5937,7 +5992,7 @@
      {
       "t": "Alcaraz beats Zverev to win the ATP Finals",
       "b": "In Turin on Sunday 22 Nov, Carlos Alcaraz beat Alexander Zverev 6-2, 7-6(7) for his first ATP Finals title. In the doubles final, Arribage/Olivetti of France beat Arevalo/Pavic 3-6, 7-6(2), 10-6.",
-      "when": "22 Nov",
+      "when": "22 Nov (carried)",
       "src": "ATP Tour",
       "url": "https://www.atptour.com/en/news/nitto-atp-finals-2026-results"
      },
@@ -5956,10 +6011,11 @@
       "url": "https://www.nhl.com/mapleleafs/news/recap-leafs-blackhawks-nov-17-2026"
      },
      {
-      "t": "Weekend football, rugby, F1 results",
-      "b": "Premier League, rugby Nations Championship and Las Vegas F1 results from 21 Nov are not verified: score pages were refused or returned errors.",
+      "t": "Tuesday's scores not verified",
+      "b": "Weekend Premier League, rugby and F1 results, and this week's Maple Leafs games, could not be read today. The Leafs were 8-13-2 after the 17 Nov loss at Chicago (nhl.com recap, 18 Nov).",
       "when": "gap",
-      "src": "-"
+      "src": "—",
+      "url": ""
      }
     ]
    }
@@ -6021,6 +6077,6 @@
     ]
    }
   ],
-  "fixnote": "Fixture list carried over from earlier briefings and NOT re-checked; times and changes are not verified. ATP Finals singles and doubles finals are Sun 22 Nov in Turin (ATP Tour page, 21 Nov)."
+  "fixnote": "Fixture list carried over from earlier briefings and NOT re-checked; times and changes are not verified."
  }
 }
