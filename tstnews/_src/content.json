@@ -1,8 +1,8 @@
 {
- "date": "2026-11-24",
- "label": "Tuesday 24 November 2026",
- "note": "Mon 23 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs (Euronews, Al Jazeera, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA rankings, DirecTV F1, surprisesports, central banks, SpaceflightNow, NASA, Provence Guide) were again refused by the fetch tool (permission prompt unanswered in an unattended run). Only the ATP Tour ATP Finals results page was readable. Everything else keeps its own 'as of' date and is not re-verified.",
- "sport_note": "Mon 23 Nov 2026: score pages (footballwebpages, Eurosport, rankings, F1, surprisesports) were refused. Only the ATP Finals final (ATP Tour) was verified. Weekend football, rugby and Las Vegas F1 results are not verified; every other panel keeps its own 'as of' date (gap).",
+ "date": "2026-11-25",
+ "label": "Wednesday 25 November 2026",
+ "note": "Wed 25 Nov 2026 (Toronto early morning). LIMITED RUN: the feed and score URLs (Euronews, Al Jazeera, Global News, CP24, L'Echo du Mardi, footballwebpages, Eurosport, ATP/WTA, DirecTV F1, Surprise Sports, central banks, SpaceflightNow, NASA) were refused again (permission request unanswered in an unattended run), and WebSearch returned only titles with undated or old results. Nothing new could be verified; every item keeps its own 'as of' date.",
+ "sport_note": "Wed 25 Nov 2026: score pages (footballwebpages, Eurosport, rankings, F1, surprisesports) were refused or errored. Weekend football, rugby and other results since 22 Nov are not verified (gap); every panel keeps its own 'as of' date.",
  "sections": [
   {
    "id": "headlines",
@@ -5825,8 +5825,8 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Tuesday 24 November 2026",
-  "intro": "Questions on stories verified in earlier runs and still in the pages below (today's feeds could not be read).",
+  "title": "Daily quiz: Wednesday 25 November 2026",
+  "intro": "Questions on stories verified in earlier runs and still in the pages (today's feeds could not be read).",
   "questions": [
    {
     "q": "Who won the 2026 ATP Finals singles title in Turin?",
@@ -5840,15 +5840,26 @@
     "explain": "Alcaraz beat Zverev 6-2, 7-6(7) on 22 Nov (ATP Tour)."
    },
    {
-    "q": "What was the Maple Leafs' record after their 17 Nov loss in Chicago?",
+    "q": "Which politician won a second term as Toronto mayor in October?",
     "options": [
-     "8-13-2",
-     "12-8-2",
-     "5-15-3",
-     "10-10-3"
+     "Olivia Chow",
+     "Brad Bradford",
+     "John Tory",
+     "Doug Ford"
     ],
     "answer": 0,
-    "explain": "8-13-2, 18 points (nhl.com recap header, 18 Nov)."
+    "explain": "Chow took about 54.2% to Bradford's 41.1% (CP24, unofficial)."
+   },
+   {
+    "q": "What share of Albertans voted to remain in Canada, per CTV's projection on 20 Oct?",
+    "options": [
+     "56.4%",
+     "66.4%",
+     "76.4%",
+     "86.4%"
+    ],
+    "answer": 2,
+    "explain": "76.4% to 23.6% (CTV News via CP24)."
    },
    {
     "q": "What is the Bank of England's Bank Rate after its 5 Nov decision?",
@@ -5859,7 +5870,7 @@
      "3.50%"
     ],
     "answer": 1,
-    "explain": "Raised 25 bp from 3.75% to 4.00%, 8-1 vote (MoneyWeek, 5 Nov)."
+    "explain": "Raised 25 bp from 3.75% to 4.00%, 8-1 vote (MoneyWeek)."
    },
    {
     "q": "What did the Bank of Canada do on 28 Oct?",
@@ -5867,32 +5878,32 @@
      "Cut its rate",
      "Held",
      "Raised 25 basis points",
-     "Paused QT"
+     "Raised 50 basis points"
     ],
     "answer": 2,
     "explain": "First hike since July 2023, to 2.50%."
    },
    {
-    "q": "How many schools did Portugal shut ahead of Storm Charles?",
+    "q": "Which company's founder-CEO Jensen Huang resigned on 12 Nov?",
     "options": [
-     "About 800",
-     "About 3,000",
-     "About 8,000",
-     "About 20,000"
-    ],
-    "answer": 2,
-    "explain": "Roughly 8,000 schools (Euronews, 11 Nov)."
-   },
-   {
-    "q": "Which two leaders shook hands in China on 18 Nov, their first encounter since 2025?",
-    "options": [
-     "Trump and Putin",
-     "Macron and Xi",
-     "Putin and Modi",
-     "Trump and Zelenskyy"
+     "Nvidia",
+     "Intel",
+     "AMD",
+     "Tesla"
     ],
     "answer": 0,
-    "explain": "Euronews, 18 Nov, ahead of a summit hosted with Xi Jinping."
+    "explain": "Nvidia announced it; CFO Colette Kress steps in."
+   },
+   {
+    "q": "By what margin did France's National Assembly reject the revenue section of the 2027 budget on 4 Nov?",
+    "options": [
+     "458 to none",
+     "300 to 250",
+     "400 to 100",
+     "290 to 288"
+    ],
+    "answer": 0,
+    "explain": "458 votes to none, two abstentions (Brussels Signal)."
    },
    {
     "q": "How much was the EU's proposed Ukraine loan reported on 18 Nov?",
@@ -5906,44 +5917,33 @@
     "explain": "€45bn (Euronews Europe Tonight, 18 Nov)."
    },
    {
-    "q": "Whose last 11 November as president did France mark in 2026?",
+    "q": "Roughly how many people had Ebola killed in DR Congo by 31 Oct?",
     "options": [
-     "Macron",
-     "Sarkozy",
-     "Hollande",
-     "Chirac"
+     "Over 500",
+     "Over 1,500",
+     "Over 5,000",
+     "Over 50,000"
     ],
-    "answer": 0,
-    "explain": "Macron led the Arc de Triomphe ceremony (Euronews, 11 Nov)."
+    "answer": 2,
+    "explain": "More than 5,000 deaths, 10,000+ infections (Al Jazeera, 31 Oct)."
    },
    {
-    "q": "Which Leafs player scored in the third period at Chicago on 17 Nov?",
+    "q": "What sentence was handed to Russell Brand on 9 Nov?",
     "options": [
-     "John Tavares",
-     "Auston Matthews",
-     "Mitch Marner",
-     "William Nylander"
-    ],
-    "answer": 0,
-    "explain": "Tavares pulled the Leafs within a goal (nhl.com)."
-   },
-   {
-    "q": "Which city hosted the 2026 ATP Finals?",
-    "options": [
-     "London",
-     "Turin",
-     "Paris",
-     "Milan"
+     "5 years",
+     "10 years and six months",
+     "15 years",
+     "Life"
     ],
     "answer": 1,
-    "explain": "Inalpi Arena, Turin."
+    "explain": "Euronews headline, 9 Nov."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Tue 24 Nov 2026, Toronto early morning. PARTIAL: every feed and score-site fetch (Euronews, CP24, Al Jazeera, Global News, L'Écho du Mardi, footballwebpages, Eurosport, ATP, WTA, DirecTV F1, Surprise Sports, central banks, Spaceflight Now, NASA, Provence Guide) was refused again (permission request unanswered), and WebSearch returned only titles. No new facts could be verified, so figures below are carried from earlier days and labelled with their dates.",
+  "stamp": "Wed 25 Nov 2026, Toronto early morning. PARTIAL: every feed and score-site fetch was refused again and search returned only titles, so no fresh facts could be verified. Items below are carried from earlier days and labelled with their dates; treat them as not current.",
   "blocks": [
    {
     "id": "t-world",
