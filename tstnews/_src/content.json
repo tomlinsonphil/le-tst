@@ -1,15 +1,15 @@
 {
- "date": "2026-11-26",
- "label": "Thursday 26 November 2026",
- "note": "Thu 26 Nov 2026 (Toronto morning). The direct feed and score-site fetches were refused (permission requests unanswered in an unattended run), so today's refresh used web search and opened only pages that appeared in results or on pages read. Cards that were not re-checked keep their own 'as of' date.",
- "sport_note": "Thu 26 Nov 2026: football, rugby, cricket, F1, squash, Toronto teams and the Davis Cup were refreshed from pages found by search. ATP/WTA rankings, the Championship and Ligue 1 tables, and some other panels are not current; each panel shows its own 'as of' date.",
+ "date": "2026-11-27",
+ "label": "Friday 27 November 2026",
+ "note": "Fri 27 Nov 2026 (Toronto early morning). The direct feed, score-site, rankings and central-bank fetches were refused (a permission prompt went unanswered in this unattended run), so today's refresh used web search and only the pages that could then be opened. Cards that were not re-checked keep their own 'as of' date.",
+ "sport_note": "Fri 27 Nov 2026: Europa League, Davis Cup, Ligue 1 table, ATP and WTA top 10, rugby, squash, F1 schedule and Toronto teams were refreshed. The Championship table could not be brought up to date, and some other panels are older; each shows its own 'as of' date.",
  "sections": [
   {
    "id": "headlines",
    "title": "Headlines",
    "short": "Headlines",
    "kind": "feeds",
-   "intro": "The RSS and sitemap feeds could not be fetched today, so these lists come from pages that could be opened (Euronews Just In, Al Jazeera News, Global News Live and L'Écho du Mardi's news page) or, for CP24, from the newest stories found by search. Each line shows its own date.",
+   "intro": "The direct RSS and sitemap feeds were refused again today, so these lists come from pages that could be opened (a Euronews article's linked stories, Al Jazeera's home page, CP24's Toronto page and L'Écho du Mardi's home page). Global News could not be re-read, so its last list is kept. Each line shows its own date; they are a selection, not a complete latest-news feed.",
    "items": [],
    "feeds": [
     {
@@ -17,31 +17,30 @@
      "url": "https://www.euronews.com/",
      "items": [
       {
-       "t": "Greece now borrows more cheaply than Italy and France",
-       "url": "https://www.euronews.com/2026/11/26/greece-now-borrows-more-cheaply-than-italy-and-france",
-       "when": "26 Nov, 06:43 (Euronews Just In)"
+       "t": "The art of no deal: An EU summit of spectacular dysfunction",
+       "url": "https://www.euronews.com/2026/11/27/the-art-of-no-deal-an-eu-summit-of-spectacular-dysfunction",
+       "when": "27 Nov",
+       "syn": "The EU's special budget summit ended after midnight with no deal. Leaders will try again on 17 December, and the Ukraine loan question was pushed back too."
       },
       {
-       "t": "EU budget and Ukraine aid headed for collision at turbulent summit",
-       "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit",
-       "when": "26 Nov, 06:30",
-       "syn": "EU leaders meet in Brussels over the next seven-year budget and Ukraine support. The Commission proposes a €45bn Ukraine loan; several governments oppose parts of the plan and Germany has threatened a veto."
+       "t": "EU summit ends in disarray as leaders cling to red lines and push back",
+       "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+       "when": "27 Nov (headline only)"
       },
       {
-       "t": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
-       "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
-       "when": "26 Nov, 06:14 (Euronews Just In)"
+       "t": "Pablo Hernández de Cos, Spain's consensus technocrat to head ECB",
+       "url": "https://www.euronews.com/2026/11/27/pablo-hernandez-de-cos-spains-consensus-technocrat-to-head-ecb",
+       "when": "27 Nov (headline only)"
       },
       {
-       "t": "Global markets rebound as tech shares recover and tariff fears ease",
-       "url": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower",
-       "when": "26 Nov, 05:25",
-       "syn": "Asian shares recovered on Thursday after a heavy tech sell-off. The report also covers proposed US tariffs on 14 economies and US inflation at a three-year high."
+       "t": "UK-EU food deal carries exit penalty, legal text shows",
+       "url": "https://www.euronews.com/2026/11/26/uk-eu-food-deal-carries-exit-penalty-legal-text-shows",
+       "when": "26 Nov (headline only)"
       },
       {
-       "t": "French judo legend and Olympic medalist Teddy Riner says Ukraine is not France's war",
-       "url": "https://www.euronews.com/2026/11/25/french-judo-legend-and-olympic-medalist-teddy-riner-says-ukraine-is-not-frances-war",
-       "when": "25 Nov (Euronews Just In)"
+       "t": "Jordan Bardella denies fresh wave of antisemitism allegations",
+       "url": "https://www.euronews.com/2026/11/26/jordan-bardella-denies-fresh-wave-of-antisemitism-allegations",
+       "when": "26 Nov (headline only)"
       }
      ]
     },
@@ -49,6 +48,17 @@
      "name": "CP24 · Toronto and Canada",
      "url": "https://www.cp24.com/",
      "items": [
+      {
+       "t": "Unthinkable loss: Toronto musician shot and killed during Casa Loma home invasion",
+       "url": "https://www.cp24.com/local/toronto/2026/11/26/unthinkable-loss-toronto-musician-shot-and-killed-during-casa-loma-home-invasion/",
+       "when": "26 Nov (updated)",
+       "syn": "Police say Michael Eckert, 39, was shot early on 25 November at a home on Poplar Plains Road. No arrests had been made."
+      },
+      {
+       "t": "Shopping this Black Friday? One expert says to beware of 'tariff gouging'",
+       "url": "https://www.cp24.com/local/toronto/2026/11/26/shopping-this-black-friday-one-expert-says-to-beware-of-tariff-gouging/",
+       "when": "26 Nov (headline only)"
+      },
       {
        "t": "Chow shakes up city hall leadership, taps former Liberal MP for housing",
        "url": "https://www.cp24.com/politics/toronto-city-hall/2026/11/19/chow-turns-down-police-board-seat-sticks-with-deputy-mayor-roster/",
@@ -68,31 +78,32 @@
      "url": "https://www.aljazeera.com/news/",
      "items": [
       {
-       "t": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh",
+       "t": "Iran war live: Iran's Araghchi calls deadly Kuwait attack 'suspicious'",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious",
+       "when": "27 Nov",
+       "syn": "Iran's foreign minister called the deadly Kuwait incident suspicious and offered cooperation. Kuwait says two Italians were killed by falling debris as it tried to intercept Iranian drones."
+      },
+      {
+       "t": "Trump downplays Russia, China support for Iran during talks with US troops",
+       "url": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops",
+       "when": "27 Nov",
+       "syn": "In Thanksgiving remarks to service members, President Trump played down Russian and Chinese help to Iran and said the US was giving Tehran every chance to make a deal."
+      },
+      {
+       "t": "EU leaders struggle to agree on long-term budget, more money for Ukraine",
+       "url": "https://www.aljazeera.com/economy/2026/11/26/eu-leaders-struggle-to-agree-on-long-term-budget-more-money-for-ukraine",
+       "when": "26 Nov (headline only)"
+      },
+      {
+       "t": "Trump calls GDP data released before midterms 'fake', demands investigation",
+       "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation",
        "when": "26 Nov",
-       "syn": "Al Jazeera reports an explosion in Sanaa after air strikes near its airport, and the Saudi-led coalition says it intercepted two Houthi ballistic missiles aimed at Riyadh."
+       "syn": "Trump accused the Commerce Department, without giving evidence, of issuing wrong growth figures before the midterms. Third-quarter growth was revised up to 4.3% annualised."
       },
       {
-       "t": "UK warns companies of potential Russian sabotage threat",
-       "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat",
-       "when": "25 Nov",
-       "syn": "Britain's defence ministry and security officials warned firms supporting Ukraine's military that they could be targets. Russia's London embassy denied any plans to attack the UK."
-      },
-      {
-       "t": "Israeli strike kills Hamas official, his wife and children",
-       "url": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children",
-       "when": "25 Nov"
-      },
-      {
-       "t": "Rescuers search for dozens trapped in flooded Indonesia gold mine",
-       "url": "https://www.aljazeera.com/news/2026/11/25/rescuers-search-for-dozens-trapped-in-flooded-indonesia-gold-mine",
-       "when": "25 Nov"
-      },
-      {
-       "t": "After weeks of protests, Bangladesh garment workers win 36% pay rise",
-       "url": "https://www.aljazeera.com/news/2026/11/25/bangladesh-garment-workers-win-36-pay-rise-after-weeks-of-protest",
-       "when": "25 Nov"
+       "t": "Guinea-Bissau presidential election delayed by two years",
+       "url": "https://www.aljazeera.com/news/2026/11/26/guinea-bissau-presidential-election-delayed-by-two-years",
+       "when": "26 Nov (headline only)"
       }
      ]
     },
@@ -132,30 +143,32 @@
      "url": "https://www.echodumardi.com/",
      "items": [
       {
-       "t": "Olivier de Mazières est le nouveau préfet de Vaucluse",
-       "url": "https://www.echodumardi.com/actualite/olivier-de-mazieres-est-le-nouveau-prefet-de-vaucluse/",
-       "when": "25 Nov",
-       "syn": "Le Conseil des ministres a nommé Olivier de Mazières préfet de Vaucluse le 25 novembre. Il succède à Thierry Suquet."
+       "t": "Vaison : plus de 1 000€ récoltés à l'occasion d'Octobre Rose",
+       "url": "https://www.echodumardi.com/actualite/vaison-plus-de-1-000e-recoltes-a-loccasion-doctobre-rose/",
+       "when": "26 Nov",
+       "syn": "La ville de Vaison-la-Romaine a réuni plus de 1 000 € pour la Ligue contre le cancer de Vaucluse à l'occasion d'Octobre Rose."
       },
       {
-       "t": "Plus de 6000€ levés sur Twitch pour la SPA vauclusienne",
-       "url": "https://www.echodumardi.com/actualite/plus-de-6000e-leves-sur-twitch-pour-la-spa-vauclusienne/",
-       "when": "25 Nov (date from page summary)"
+       "t": "Hôtel des ventes d'Avignon, les voitures de collection passent sous le marteau",
+       "url": "https://www.echodumardi.com/actualite/hotel-des-ventes-davignon-les-voitures-de-collection-passent-sous-le-marteau/",
+       "when": "26 Nov (headline only)"
       },
       {
-       "t": "À vos papilles ! C'est reparti pour les Rencontres Gourmandes de Vaudieu",
-       "url": "https://www.echodumardi.com/actualite/a-vos-papilles-cest-reparti-pour-les-rencontres-gourmandes-de-vaudieu/",
-       "when": "25 Nov (date from page summary)"
+       "t": "Éco-Défis : 64 commerces passent au vert dans le Grand Avignon",
+       "url": "https://www.echodumardi.com/actualite/eco-defis-64-commerces-passent-au-vert-dans-le-grand-avignon/",
+       "when": "26 Nov",
+       "syn": "Le programme Éco-Défis distingue 64 professionnels dans sept communes du Grand Avignon pour leurs actions environnementales."
       },
       {
-       "t": "Préfecture de Vaucluse : 6 communes reconnues en catastrophe naturelle et de nouvelles pluies sous surveillance",
-       "url": "https://www.echodumardi.com/actualite/prefecture-de-vaucluse-6-communes-reconnues-en-catastrophe-naturelle-et-de-nouvelles-pluies-sous-surveillance/",
-       "when": "24 Nov (date from page summary)"
+       "t": "À Avignon, le bien-vieillir se prépare à la Scala Provence",
+       "url": "https://www.echodumardi.com/actualite/a-avignon-le-bien-vieillir-se-prepare-a-la-scala-provence/",
+       "when": "26 Nov",
+       "syn": "Une matinée consacrée au bien-vieillir se tient le mardi 1er décembre à La Scala Provence, avec des dépistages et des conseils."
       },
       {
-       "t": "Les gendarmes font la chasse aux rodéos sauvages dans le massif d'Uchaux",
-       "url": "https://www.echodumardi.com/actualite/les-gendarmes-font-la-chasse-aux-rodeos-sauvages-dans-le-massif-duchaux/",
-       "when": "24 Nov (date from page summary)"
+       "t": "À Vaison-la-Romaine, une ville, 20 siècles et Adrien pour guide",
+       "url": "https://www.echodumardi.com/culture-loisirs/a-vaison-la-romaine-une-ville-20-siecles-et-adrien-pour-guide/",
+       "when": "25 Nov (headline only)"
       }
      ]
     }
@@ -165,13 +178,13 @@
    "id": "world",
    "items": [
     {
-     "t": "EU summit: a seven-year budget and Ukraine's 2027 money collide",
-     "tag": "World · 26 Nov",
+     "t": "EU summit collapses without a budget deal",
+     "tag": "World · 27 Nov",
      "gap": false,
      "w": [
-      "Europe's leaders walked into Brussels on Thursday with two fights rolled into one: how to spend the EU's money from 2028 to 2034, and how to keep Ukraine solvent next year. Euronews expects talks that could run into Friday, preparing the ground for a final deal in December.",
-      "European Council President António Costa has offered a compromise that trims €204bn from the Commission's original proposal. Austria, Belgium, Denmark, Finland, the Netherlands, Sweden and Germany want deeper cuts to farm and regional spending; 17 'Friends of Cohesion' say the cuts already go too far, and France calls the plan highly disappointing.",
-      "On Ukraine, the Commission proposes a €45bn loan backed by joint borrowing against a gap of about €70bn. Slovakia, the Czech Republic, Hungary and Bulgaria do not want to join, and German Chancellor Friedrich Merz has threatened to veto the budget unless all 27 agree on support for Kyiv."
+      "Europe's leaders gave up shortly after midnight. Their special summit on the 2028–2034 budget ended with no deal, and plans to carry on talking on Friday were dropped, Euronews reports. They will try again on 17 December.",
+      "The compromise on the table was €1.78 trillion, €204bn less than the European Commission proposed. Seven 'frugal' states boycotted the small-group talks format, Italy's Giorgia Meloni called a deal 'light years away', and France's Emmanuel Macron threatened to halt talks after 31 December.",
+      "Ukraine's money waits too. The Copenhagen Post (Ritzau) reports that 24 of 27 states backed the proposed €45bn loan. Hungary, Slovakia and the Czech Republic still refuse to take part, and Bulgaria would join only the non-military part, according to European Council President António Costa."
      ],
      "n": [
       "The European Union is a club of 27 countries that pool some money and make many rules together. Its leaders meet as the European Council to settle the biggest political questions.",
@@ -179,47 +192,73 @@
       "'Frugal' countries tend to pay in more than they get back and want a smaller budget. 'Cohesion' countries rely more on regional funds and defend them.",
       "Ukraine has been fighting Russia's full-scale invasion since 2022 and depends on outside money to pay its bills. A joint loan means the EU borrows as a group."
      ],
-     "s": "Euronews, 26 Nov 2026 (two articles read, written before the summit ended; outcome not known)",
-     "f": [
-      "Proposed Ukraine loan: €45bn; estimated 2027 gap about €70bn",
-      "Costa compromise: €204bn below the Commission's proposal",
-      "Summit outcome: not yet known"
-     ],
+     "s": "Euronews and The Copenhagen Post, 27 Nov 2026 (both read)",
      "links": [
       {
-       "text": "Euronews: EU budget and Ukraine aid headed for collision",
-       "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit"
+       "text": "Euronews: The art of no deal",
+       "url": "https://www.euronews.com/2026/11/27/the-art-of-no-deal-an-eu-summit-of-spectacular-dysfunction",
+       "syn": "A newsletter account of the summit that ended without a budget deal, with leaders due to try again on 17 December."
       },
       {
-       "text": "Euronews: Europe's €2 trillion punch-up",
-       "url": "https://www.euronews.com/2026/11/26/europes-2-trillion-punch-up-welcome-to-the-brussels-fight-club"
+       "text": "Copenhagen Post: EU divided over Ukraine loan",
+       "url": "https://cphpost.dk/2026-11-27/global/eu-remains-divided-over-new-e45-billion-loan-to-ukraine/",
+       "syn": "Reports that 24 of 27 states backed the Commission's €45bn Ukraine loan proposal, with the issue returning in December."
+      }
+     ],
+     "f": [
+      "No deal on the 2028–2034 budget; next attempt 17 December",
+      "Compromise: €1.78 trillion",
+      "Proposed Ukraine loan: €45bn, backed by 24 of 27 states"
+     ]
+    },
+    {
+     "t": "Two Italians killed in Kuwait as Iran denies drone attack",
+     "tag": "Iran war · 26–27 Nov",
+     "gap": false,
+     "w": [
+      "A war that has rattled the Gulf has now killed two Italian workers. Two technicians from Rheinmetall Italia died after debris fell on an air-defence surveillance station in Kuwait while Iranian drones were being intercepted, according to Kuwaiti and Italian accounts reported by Al Jazeera. A Kuwaiti and a Pakistani worker were also reported wounded.",
+      "Iran denies it. A military spokesperson said there had been no offensive operations, and Foreign Minister Abbas Araghchi called the incident 'suspicious' and offered to cooperate. President Trump, speaking to US troops for Thanksgiving, said Washington was giving Tehran every chance to make a deal.",
+      "Oil is the thing to watch: AFP reporting carried by Al Jazeera says OPEC ministers meet on Sunday to weigh production targets for 2027."
+     ],
+     "n": [
+      "The Iran war is a conflict in which the United States has been fighting Iran, with effects spreading across the Gulf. This page has followed strikes, attacks on shipping and diplomacy over recent weeks.",
+      "Kuwait is a small, oil-rich country at the head of the Gulf, close to both Iran and Iraq. It works closely with Western militaries.",
+      "Air defences try to shoot down incoming drones and missiles. Even a successful interception can scatter falling debris that injures people on the ground.",
+      "Accounts from the two sides conflict, and the claim about who was responsible has not been independently verified here."
+     ],
+     "s": "Al Jazeera, 26–27 Nov 2026 (read)",
+     "links": [
+      {
+       "text": "Al Jazeera: two Italians killed in Kuwait",
+       "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait",
+       "syn": "Kuwait says debris killed two Italian technicians while it was intercepting Iranian drones. Iran denies carrying out an attack."
+      },
+      {
+       "text": "Al Jazeera: live updates, 27 November",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/27/iran-war-live-irans-araghchi-calls-deadly-kuwait-attack-suspicious"
       }
      ]
     },
     {
-     "t": "Iran war: missiles over Riyadh, a tanker blast near Dubai and oil up",
-     "tag": "World · 25–26 Nov",
+     "t": "Zelenskyy warns of a big new strike on Ukraine's power grid",
+     "tag": "Ukraine war · 26 Nov",
      "gap": false,
      "w": [
-      "The Gulf had another dangerous day. Al Jazeera's live coverage on Thursday reports an explosion in Yemen's capital Sanaa after air strikes near its airport, while the Saudi-led coalition said it shot down two ballistic missiles that the Houthis fired towards Riyadh.",
-      "At sea, the British maritime agency UKMTO relayed a tanker captain's report of a blast from an unknown projectile about 50 nautical miles west of Dubai, with no injuries or damage reported. A Reuters report carried by Khaleej Times says Brent crude rose 3.5% on Wednesday after the Houthis said they had attacked Saudi Arabia's Ras Tanura refinery and Riyadh's financial district, and ships were reportedly hit by Iranian mines in the Strait of Hormuz.",
-      "Several of these accounts are claims by the parties involved and have not been independently confirmed here."
+      "With winter closing in, President Volodymyr Zelenskyy warned on Thursday that Russia is preparing another major strike on energy, transport and other essential services, citing Ukrainian intelligence, the Associated Press reports.",
+      "Overnight Russia had launched ballistic missiles and 113 drones, and crews were restoring power in six regions. Russia said it intercepted 343 Ukrainian drones. US envoy Jared Kushner said Vladimir Putin has agreed not to use nuclear weapons, but that talks are deadlocked over Ukrainian territory. Battlefield claims have not been independently verified."
      ],
      "n": [
-      "This card follows the war involving the United States, Israel and Iran that began in late February 2026. The cards further down show how it developed.",
-      "The Strait of Hormuz is the narrow sea passage out of the Gulf. A large share of the world's oil and gas passes through it, so attacks there can move prices everywhere.",
-      "The Houthis are an armed movement that controls Sanaa and much of northern Yemen. Saudi Arabia leads a coalition that has fought them for years.",
-      "Brent is the main international benchmark for the price of crude oil. When it rises, fuel and many other costs tend to follow."
+      "Russia launched a full-scale invasion of Ukraine in February 2022, and the war is still being fought.",
+      "Both sides use drones, which are small unmanned aircraft, to hit targets far behind the front line. Attacks on power stations and grid equipment matter most in winter, when people need heating.",
+      "Ukraine relies on its allies for money and weapons, especially air-defence systems that can shoot down missiles. That is why the EU loan argument in the budget story matters to Kyiv.",
+      "Talks to end the war have repeatedly stuck on territory: which side would control land that Russia has occupied or claims."
      ],
-     "s": "Al Jazeera live blog, 26 Nov (summary lines read); Khaleej Times/Reuters, 26 Nov",
+     "s": "PBS NewsHour (AP), 26 Nov 2026 (read)",
      "links": [
       {
-       "text": "Al Jazeera: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-       "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
-      },
-      {
-       "text": "Khaleej Times: live updates, 26 November",
-       "url": "https://www.khaleejtimes.com/world/mena/us-israel-iran-saudi-arabia-yemen-war-live-updates-november-26-2026"
+       "text": "PBS/AP: Zelenskyy warns of grid attack",
+       "url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid",
+       "syn": "Zelenskyy said Russia is preparing another major strike on Ukraine's energy and critical services, while a US envoy described talks as deadlocked over territory."
       }
      ]
     },
@@ -1163,27 +1202,29 @@
      ]
     },
     {
-     "t": "Toronto overnight: home invasion death, LCBO police blitz",
-     "tag": "Toronto · 25 Nov · headlines only",
+     "t": "Casa Loma shooting: a musician's death shakes the city",
+     "tag": "Toronto · 25–26 Nov",
      "gap": false,
      "w": [
-      "Three headlines led Global News's Toronto page. A local musician, identified in a Global News video headline as Michael Eckert, died after a shooting in a midtown home invasion.",
-      "Separately, the LCBO is deploying police to more than 40 stores in an anti-theft push, and Premier Ford called advertising from the gambling market he opened 'out of control'. The articles themselves could not be opened, so no further detail is given."
+      "Michael Eckert, a 39-year-old pedal steel guitarist, was shot and killed at about 2:30am on Wednesday after suspects forced their way into a home on Poplar Plains Road, police say. He was the homeowner's son; three others inside were not hurt. No arrests had been made when CP24's report was updated on Thursday, and police said nothing suggested the family was specifically targeted.",
+      "The numbers explain the alarm: it was Toronto's 37th homicide of 2026 and the 111th home invasion reported to police this year, up 29% on the same period last year. CTV reports that Premier Doug Ford said he has a gun and would use it, and that Mayor Olivia Chow said the recent violent invasions left her angry and fearful; only the headline and summary of that article were read."
      ],
      "n": [
-      "The LCBO is the government-owned chain that sells much of Ontario's wine and spirits.",
-      "Ontario opened a regulated online gambling market to private companies in 2022, which brought a wave of betting advertising.",
-      "A home invasion is a break-in while people are inside. Early police information often changes, so it is wise to wait for confirmed details."
+      "A home invasion is a break-in while people are inside. Early police information often changes, and anyone later charged is presumed innocent unless convicted.",
+      "Casa Loma is a landmark castle-style mansion in midtown Toronto, and the name is also used for the neighbourhood around it.",
+      "A pedal steel guitar is a flat, stand-mounted guitar played with a metal bar and foot pedals, common in country music. CP24 says Eckert had recently played with the James Barker Band and with Jim Cuddy and Greg Keelor of Blue Rodeo.",
+      "In Canada, firearm ownership is licensed and tightly regulated, and the law on using force in self-defence depends on whether the response was reasonable. A politician's remarks do not change the law."
      ],
-     "s": "Global News Toronto live page, read 26 Nov (headlines only)",
+     "s": "CP24/CTV News, 25–26 Nov (read); CTV Ford report (headline and summary only)",
      "links": [
       {
-       "text": "Global News: Toronto live page",
-       "url": "https://globalnews.ca/live/toronto/"
+       "text": "CP24: musician killed in home invasion",
+       "url": "https://www.cp24.com/local/toronto/2026/11/26/unthinkable-loss-toronto-musician-shot-and-killed-during-casa-loma-home-invasion/",
+       "syn": "Police say Michael Eckert, 39, was shot early on 25 November. No arrests had been made."
       },
       {
-       "text": "Global News: LCBO anti-theft blitz",
-       "url": "https://globalnews.ca/news/12165470/lcbo-operation-secure-stores-retail-theft/"
+       "text": "CTV News: Ford comments after the shooting",
+       "url": "https://www.ctvnews.ca/toronto/article/in-a-heartbeat-doug-ford-says-he-has-a-gun-and-would-use-it-in-wake-of-deadly-toronto-home-invasion/"
       }
      ]
     },
@@ -1381,32 +1422,33 @@
      ]
     },
     {
-     "t": "Leafs, Jays and Raptors",
-     "tag": "Leafs end long slide · 20–24 Nov",
+     "t": "Leafs, Raptors and Jays",
+     "tag": "Both teams play today · 27 Nov",
      "w": [
-      "Relief on Long Island: the Maple Leafs came from 2–0 down to beat the Islanders 4–2 on Monday 23 November, rookie Gavin McKenna scoring the winner. It ended a nine-game winless run and was their first victory since 31 October. They are 9-14-3 and visit Boston on Friday.",
-      "The Raptors beat Detroit 105–102 on 20 November to stop a six-game losing streak, then lost 116–111 at home to Milwaukee on the 23rd; they are 6-11. Brooklyn visit on Friday.",
-      "The Blue Jays made off-season news on 24 November, agreeing a five-year, US$80m deal with Japanese pitcher Kaima Taira (MLB.com)."
+      "A big Friday for Scotiabank Arena's tenants. The Maple Leafs, fresh from beating the Islanders 4–2 to end a nine-game winless run, are in Boston at 1pm Toronto time according to ESPN's preview text. The Raptors, 6-11, host Brooklyn (4-13) at 7:30pm (CBS Sports).",
+      "The Leafs are 9-14-3 and the Bruins 15-8-1. In the off-season, the Blue Jays' latest verified move remains the five-year, US$80m deal with pitcher Kaima Taira, reported on 24 November."
      ],
      "n": [
       "Toronto has four major professional teams: the Maple Leafs (NHL ice hockey), Raptors (NBA basketball), Blue Jays (MLB baseball) and Argonauts (CFL Canadian football). Toronto FC plays in Major League Soccer.",
-      "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre."
+      "Leafs and Raptors share Scotiabank Arena, and the Jays play at Rogers Centre.",
+      "A record such as 9-14-3 in hockey means wins, losses and overtime losses; basketball's 6-11 is simply wins and losses. Both seasons run into spring, so there is plenty of time for form to change."
      ],
-     "s": "NHL.com, Yahoo Sports, ESPN and MLB.com, 20–25 Nov",
+     "s": "ESPN preview and CBS Sports, read 27 Nov; MLB.com, 24 Nov",
      "links": [
       {
-       "text": "NHL.com: Leafs snap nine-game slide",
-       "url": "https://www.nhl.com/news/toronto-maple-leafs-gain-confidence-by-snapping-nine-game-slide"
+       "text": "ESPN: Maple Leafs at Bruins preview",
+       "url": "https://africa.espn.com/nhl/preview/_/gameId/401892795"
       },
       {
-       "text": "ESPN: Bucks 116–111 Raptors",
-       "url": "https://www.espn.com/nba/recap?gameId=401910039"
+       "text": "CBS Sports: Raptors",
+       "url": "https://www.cbssports.com/nba/teams/tor/toronto-raptors/"
       },
       {
-       "text": "MLB.com: Blue Jays' priorities after Taira deal",
+       "text": "MLB.com: Blue Jays after the Taira deal",
        "url": "https://www.mlb.com/news/blue-jays-offseason-priorities-after-kaima-taira-deal"
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "Second Harvest trucks: $60K donation to start repairs",
@@ -1535,23 +1577,29 @@
      ]
     },
     {
-     "t": "London this week: Eurostar strike cancellations and e-bike calls",
-     "tag": "London · 25 Nov",
+     "t": "London: Tube drivers' strike disrupts Friday morning",
+     "tag": "London · 27 Nov",
      "gap": false,
      "w": [
-      "A surprise staff strike led to Eurostar cancellations, according to IanVisits' London round-up for 25 November.",
-      "The same round-up notes calls to cap dockless e-bikes, City Hall defending a London housing target 300,000 homes below the government's ambition, a visit by HMS Tyne, 10,000 extra weekday seats on Chiltern trains from December, and London reaching a 2030 cycling target four years early. These are short digest items; the original stories were not opened."
+      "Londoners woke to a thinner Tube. RMT drivers walked out from noon on Thursday to 11:59am today, and Transport for London expected no Circle, Piccadilly or Waterloo & City line trains until the strike ended, with normal service by about 6pm, Time Out reports. Buses, the Overground, DLR and Elizabeth line were expected to run, but busier.",
+      "This is the first of eight 24-hour walkouts planned over three months. The row is about a proposed four-day week for drivers: London Underground calls it a choice, while the RMT says it would worsen conditions. The next listed strike starts on 17 December, though dates can be called off."
      ],
      "n": [
-      "Eurostar runs high-speed trains from London St Pancras through the Channel Tunnel to Paris, Brussels and beyond.",
-      "City Hall means the Mayor of London's administration, which sets a plan for housing and transport across the capital.",
-      "Dockless e-bikes are hired by phone app and can be left on the street rather than at a fixed stand, which is why some people want limits."
+      "The Tube is London's underground railway, run by Transport for London (TfL). It is made up of named lines, each shown in its own colour on the map.",
+      "The RMT is a trade union representing many transport workers. ASLEF is a separate train drivers' union, and Time Out says it backs the voluntary scheme.",
+      "A strike is when union members stop work to press their case in a dispute. Employers often run a reduced service, so it pays to check the line you need before travelling.",
+      "The Elizabeth line and London Overground look like Tube services but are staffed separately, which is why they can keep running."
      ],
-     "s": "IanVisits, 25 Nov (digest read)",
+     "s": "Time Out London, 26–27 Nov (read)",
      "links": [
       {
-       "text": "IanVisits: The London Buzz, 25 November",
-       "url": "https://www.ianvisits.co.uk/articles/the-london-buzz-25th-nov-2026-94391/"
+       "text": "Time Out: getting around during today's strike",
+       "url": "https://www.timeout.com/london/news/november-2026-tube-strikes-how-to-travel-today-112626"
+      },
+      {
+       "text": "Time Out: full list of strike dates",
+       "url": "https://www.timeout.com/london/news/tube-and-train-strikes-christmas-winter-2026-2027-full-list-of-dates-and-lines-110626",
+       "syn": "Lists the planned 24-hour Tube walkouts into February 2027 and explains the dispute over a four-day week."
       }
      ]
     },
@@ -1617,7 +1665,7 @@
       "The castle sits above the town, and the Thames runs past Eton College on the opposite bank. Nearby are the Great Park and Savill Garden. The Royal Windsor Horse Show and Ascot Racecourse draw crowds in the summer.",
       "The Royal Borough of Windsor and Maidenhead is the local council area, so its website is the place to check for roadworks, events and local decisions."
      ],
-     "s": "Background only · no Windsor (UK) news found dated October 2026 · not re-verified on 16 Oct · no newer local news verified on 26 Nov",
+     "s": "Background only · no Windsor (UK) news found dated October 2026 · not re-verified on 16 Oct · no newer local news verified on 26 Nov · checked 27 Nov: only undated local headlines found",
      "links": [
       {
        "text": "Windsor: what's on (town guide)",
@@ -1634,32 +1682,28 @@
      ]
     },
     {
-     "t": "Bournemouth",
-     "tag": "Local news · 25–26 Nov",
+     "t": "Bournemouth: ten-man Cherries make it ten wins in a row",
+     "tag": "AFC Bournemouth · 26 Nov",
      "w": [
-      "Drivers in the harbour area get notice: Poole's Twin Sails Bridge closes to all traffic from 7.30am on Monday 30 November until the morning of Saturday 5 December, though Poole Bridge stays open, the Bournemouth Post reports.",
-      "The paper also reports that the Canford Resource Park incinerator has been approved on appeal, that BCP Council has red routes proposed on 38 roads (survey to 22 December), and that event-day parking permits linked to AFC Bournemouth are proposed for 112 Poole roads (consultation to 11 December). Bob Dylan played the BIC's Windsor Hall on Wednesday night.",
-      "Tonight the Cherries are away to Celta Vigo in the Europa League (5.45pm UK, 12.45pm Toronto). They sit fifth in the Premier League after beating Nottingham Forest 2–0 on Saturday."
+      "Down a goal and then down a man in Vigo, Bournemouth still won. Iago Aspas put Celta ahead and Bafode Diakité was sent off, but Amine Adli headed level just after half-time and substitute Rayan scored the winner late on. RTÉ calls it a tenth straight victory in all competitions under Marco Rose. Next up is Fulham away on Sunday (2.05pm UK, 9.05am Toronto).",
+      "On local roads, the Bournemouth Post's listing read on Thursday said Poole's Twin Sails Bridge closes from 7.30am on Monday 30 November until the morning of Saturday 5 December, with Poole Bridge staying open."
      ],
      "n": [
       "Bournemouth is a seaside town on England's south coast in Dorset, famous for about seven miles of sandy beach, a Victorian pier and cliffs cut by wooded gorges called chines. It grew as a Victorian resort and now supports tourism, finance and a large student population.",
       "AFC Bournemouth are nicknamed the Cherries and play at the Vitality Stadium. The club climbed from the lower leagues and reached the Premier League in 2015, an unusually small club in a very rich league.",
       "Bournemouth, Christchurch and Poole share one council, known as BCP Council, which explains why Poole stories appear here. The football club, AFC Bournemouth, is nicknamed the Cherries."
      ],
-     "s": "Bournemouth Post (listing read 26 Nov); bobdylan.com; UEFA and Sport News Africa for the fixture",
+     "s": "RTÉ, 26 Nov (read); Twenty Clubs fixtures; Bournemouth Post listing read 26 Nov",
      "link": "football/#premier-league",
      "links": [
       {
+       "text": "RTÉ: ten-man Bournemouth win in Vigo",
+       "url": "https://www.rte.ie/sport/soccer/2026/1126/1600830-ten-man-bournemouth-snatch-victory-at-celta-vigo/",
+       "syn": "Bournemouth came from behind with ten players to beat Celta Vigo 2–1 in the Europa League."
+      },
+      {
        "text": "Bournemouth Post: local news",
        "url": "https://bournemouthpost.co.uk/news/"
-      },
-      {
-       "text": "Bob Dylan official site: Bournemouth, 25 November",
-       "url": "https://www.bobdylan.com/date/2026-11-25-bournemouth-england-bic-windsor-hall/"
-      },
-      {
-       "text": "UEFA: Europa League fixtures by team",
-       "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-and-results-by-team/"
       }
      ],
      "gap": false
@@ -1669,10 +1713,14 @@
      "tag": "No current news verified",
      "gap": true,
      "w": [
-      "Nothing current from Finchampstead today. The latest local stories found, from Wokingham Today, date from 2021 to 2025, so they are not passed off as news.",
-      "The most useful background is the Western Gateway road scheme, where a mini roundabout at the Finchampstead Road and Molly Millars Lane junction was being replaced by a full-size one. It was due to run until March 2026, so check the council for the junction's current state."
+      "No Finchampstead news from the last few days could be verified. The parish council's news page lists a December 2026 newsletter dated 19 November and a notice about the Wokingham Borough Local Plan 2045 consultation dated 11 November; only the titles were read.",
+      "Both are worth a look if you follow housing and village matters, but they are background, not breaking news."
      ],
      "links": [
+      {
+       "text": "Finchampstead Parish Council: news",
+       "url": "https://www.finchampstead-pc.gov.uk/news"
+      },
       {
        "text": "Wokingham Today: details confirmed for roundabout roadworks (March 2025)",
        "url": "https://wokingham.today/details-confirmed-for-roundabout-roadworks"
@@ -1680,10 +1728,6 @@
       {
        "text": "Wokingham Today: Finchampstead residents push back against 270 homes (Dec 2021)",
        "url": "https://wokingham.today/finchampstead-residents-push-back-against-270-homes-for-rooks-nest-farm"
-      },
-      {
-       "text": "Wikipedia: Finchampstead",
-       "url": "https://en.wikipedia.org/wiki/Finchampstead"
       }
      ],
      "n": [
@@ -1691,7 +1735,7 @@
       "Its hilltop church, St James, is largely Norman and sits within an older earthwork. A Roman road known as the Devil's Highway crosses the parish. The Ridges, a heathland and woodland area, and Wellingtonia Avenue, a line of giant redwoods planted in the 1860s, are local landmarks.",
       "Local decisions are shared between Finchampstead Parish Council, which handles small local matters such as the neighbourhood plan, and Wokingham Borough Council, which handles planning applications, roads and schools. Housing proposals and traffic are the most common local stories, which is why many Wokingham Today articles about the village concern new homes and roadworks."
      ],
-     "s": "Background only · local stories found were dated 2021 to 2025 · not re-verified on 16 Oct · no newer local news verified on 26 Nov"
+     "s": "Finchampstead Parish Council news list, read 27 Nov (items dated 11 and 19 Nov)"
     }
    ],
    "short": "UK",
@@ -1918,14 +1962,14 @@
      "t": "Sablet",
      "tag": "No current news verified",
      "w": [
-      "Nothing new for Sablet could be verified today. The last items on file are from mid-October and have passed, so they are no longer shown as upcoming."
+      "Nothing new for Sablet could be verified today. The first page of Provence Guide's events agenda showed no Sablet listing, and later pages were not read."
      ],
      "n": [
       "Sablet is a hilltop village in the Vaucluse, in the Provence-Alpes-Côte d'Azur region, below the jagged limestone ridge of the Dentelles de Montmirail. It is part of the Côtes du Rhône Villages appellation and is one of the villages allowed to put its own name on the label.",
       "An appellation is a legally protected wine region. Rules fix which grapes may be grown and how, which is what makes a village name a guarantee of style. Reds here are mostly blends of Grenache, Syrah and Mourvèdre.",
       "The village is known for its stone lanes, its winegrowers' cellars and a market. Vaison-la-Romaine is a short drive to the north."
      ],
-     "s": "Checked 26 Nov 2026 · no current local item verified",
+     "s": "Checked 27 Nov 2026 · no current local item verified",
      "links": [
       {
        "text": "Provence Guide: Vignobles en Scène, balade immersive à Sablet",
@@ -1938,61 +1982,59 @@
      "t": "Vaison-la-Romaine",
      "tag": "Christmas lights · Sun 29 Nov",
      "w": [
-      "Vaison-la-Romaine switches on for the season this Sunday, 29 November. The launch of the town-centre Christmas lights starts at 6pm on Place Montfort and opens the 'Féeries de Noël'.",
-      "Provence Guide lists a fairy-themed parade with dance and fire objects, plus mulled wine or hot chocolate. Entry is free."
+      "Vaison-la-Romaine lights up this Sunday at 6pm on Place Montfort, with a fire-and-dance parade and hot wine or hot chocolate, according to Provence Guide. Entry is free.",
+      "The town also has good news to count: L'Écho du Mardi reports that its October breast-cancer awareness drive raised more than €1,000 for the Ligue contre le cancer de Vaucluse."
      ],
      "n": [
       "Vaison-la-Romaine is a small town on the river Ouvèze with two historic halves. The lower town holds some of the largest Roman excavations in France, at the Puymin and La Villasse quarters, with houses, mosaics, a theatre and a museum. Across the river, the medieval upper town (Haute-Ville) climbs to a ruined castle.",
       "The two sides are joined by a single-arched Roman bridge. In September 1992 a catastrophic flood killed dozens of people and wrecked much of the lower town, but the Roman bridge held.",
       "The town hosts a summer festival, Choralies, every third year, and weekly markets. It is a good base for walking in the Dentelles."
      ],
-     "s": "Provence Guide event page, read 26 Nov",
+     "s": "Provence Guide and L'Écho du Mardi (26 Nov), read 27 Nov",
      "links": [
       {
-       "text": "Provence Guide: Lancement des illuminations de Noël",
+       "text": "Provence Guide: Christmas lights launch",
        "url": "https://www.provenceguide.com/fetes-et-manifestations/vaison-la-romaine/lancement-des-illuminations-de-noel/provence-5973218-1.html"
       },
       {
-       "text": "Provence Guide",
-       "url": "https://www.provenceguide.com/"
+       "text": "L'Écho du Mardi: Octobre Rose total",
+       "url": "https://www.echodumardi.com/actualite/vaison-plus-de-1-000e-recoltes-a-loccasion-doctobre-rose/",
+       "syn": "Vaison-la-Romaine a réuni plus de 1 000 € pour la Ligue contre le cancer de Vaucluse."
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "Orange",
-     "tag": "No current news verified",
+     "tag": "Christmas lights · tonight",
      "w": [
-      "Nothing new for Orange could be verified today. The last items on file are from mid-October and have passed, so they are no longer shown as upcoming."
+      "Orange switches on tonight. Provence Guide lists the illuminations launch from 6.30pm on Friday 27 November in front of the town hall on Place Clémenceau.",
+      "It is free, with four cafés offering mulled wine and chestnuts until 8pm."
      ],
      "n": [
       "Orange is a town in the Vaucluse with two of the best-preserved Roman monuments in Europe, both on the UNESCO World Heritage list. The Roman theatre has an intact stage wall about 37 metres high, which is rare because most ancient theatres lost theirs. It still hosts opera and concerts, notably the Chorégies d'Orange festival each summer.",
       "The Arc de Triomphe of Orange stands on the old road to Lyon. It is a triple-arched monument from the early Roman Empire, carved with scenes of battles and spoils.",
       "The town's name is older than the fruit. It comes from the Roman Arausio. The Principality of Orange later passed to the House of Nassau, which is how the Dutch royal family got the name \"Orange\"."
      ],
-     "s": "Checked 26 Nov 2026 · no current local item verified",
+     "s": "Provence Guide event page, read 27 Nov",
      "links": [
       {
-       "text": "Provence Guide: tombola d'Octobre Rose, Orange les Vignes",
-       "url": "https://www.provenceguide.com/fetes-et-manifestations/orange/la-tombola-d-octobre-rose-a-orange-les-vignes/provence-8011214-1.html"
-      },
-      {
-       "text": "Provence Guide: La Semaine Bleue (5-8 Oct, ended)",
-       "url": "https://www.provenceguide.com/fetes-et-manifestations/orange/la-semaine-bleue/provence-7063674-1.html"
+       "text": "Provence Guide: Orange lights launch",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/orange/lancement-des-illuminations/provence-7169452-1.html"
       },
       {
        "text": "Wikipedia: Orange, Vaucluse",
        "url": "https://en.wikipedia.org/wiki/Orange,_Vaucluse"
       }
      ],
-     "gap": true
+     "gap": false
     },
     {
      "t": "Avignon",
-     "tag": "New prefect for Vaucluse · 25 Nov",
+     "tag": "Lights on Saturday · 28 Nov",
      "w": [
-      "The Vaucluse has a new top state official. The cabinet confirmed on Wednesday 25 November that Olivier de Mazières is the department's new prefect, succeeding Thierry Suquet, who L'Écho du Mardi says is expected to retire. De Mazières was previously, among other posts, police prefect of the Bouches-du-Rhône from 2017 to 2020.",
-      "L'Écho du Mardi's headlines this week also report six Vaucluse communes recognised as disaster zones with more rain being watched (headline only; the communes were not read), and more than €6,000 raised on Twitch for the county's SPA animal shelter.",
-      "Earlier background: rioters attacked the prefecture on 17 October (see the linked report)."
+      "Avignon's festive season starts on Saturday. The official switch-on is at 6pm on Cours Jean Jaurès, with Mayor Olivier Galzi, music and stilt walkers; Provence Guide lists it as free.",
+      "On Tuesday 1 December, La Scala Provence hosts a morning on healthy ageing from 8.30am, with checks such as vision and blood pressure (L'Écho du Mardi). Earlier this week, Olivier de Mazières was named the new prefect of the Vaucluse."
      ],
      "n": [
       "Avignon sits on the Rhône and was the seat of the Catholic popes from 1309 to 1377, when the papacy moved from Rome. The huge Gothic Palais des Papes is the legacy, and the old city's ramparts are largely intact. Both are UNESCO listed.",
@@ -2000,19 +2042,19 @@
       "Each July the city hosts the Festival d'Avignon, one of the biggest theatre festivals in the world, with a huge fringe called the Off.",
       "A prefect (préfet) represents the national government in a département. The job includes public order, civil protection in floods and fires, and checking that local decisions follow the law."
      ],
-     "s": "Élysée and L'Écho du Mardi, 24–25 Nov; riot background from 20 Oct",
+     "s": "Provence Guide and L'Écho du Mardi (26 Nov), read 27 Nov; prefect appointment 25 Nov",
      "links": [
       {
-       "text": "L'Écho du Mardi: Olivier de Mazières, nouveau préfet",
+       "text": "Provence Guide: Avignon lights launch",
+       "url": "https://www.provenceguide.com/fetes-et-manifestations/avignon/inauguration-des-illuminations/provence-8050054-1.html"
+      },
+      {
+       "text": "L'Écho du Mardi: healthy-ageing morning",
+       "url": "https://www.echodumardi.com/actualite/a-avignon-le-bien-vieillir-se-prepare-a-la-scala-provence/"
+      },
+      {
+       "text": "L'Écho du Mardi: new prefect",
        "url": "https://www.echodumardi.com/actualite/olivier-de-mazieres-est-le-nouveau-prefet-de-vaucluse/"
-      },
-      {
-       "text": "L'Écho du Mardi: attack on the prefecture (20 October)",
-       "url": "https://www.echodumardi.com/actualite/a-avignon-la-prefecture-prise-pour-cible/"
-      },
-      {
-       "text": "Wikipedia: Avignon",
-       "url": "https://en.wikipedia.org/wiki/Avignon"
       }
      ],
      "gap": false
@@ -2151,11 +2193,10 @@
     },
     {
      "t": "Tesla",
-     "tag": "Italy approves driver assistance · 25 Nov",
+     "tag": "EU vote slips to December · 25–26 Nov",
      "w": [
-      "Italy has become the twelfth European country to approve Tesla's supervised driving system, sold in Europe as Tesla Assisted Driving, Tesla Oracle reported on 25 November. The site says approval was dated 20 November and that an EU-wide vote is due in December; a CNBC headline on 25 November says EU discussion of approval was postponed (headline only), so the timetable is uncertain.",
-      "In Texas, Tesla widened its Robotaxi booking area in Dallas, added cars and cut fares ahead of Thanksgiving, according to TeslaNorth. No new standard fare was published.",
-      "Background from 21 October: third-quarter revenue was US$28.05bn, while GAAP net income fell 43% to US$787m."
+      "Europe's verdict on Tesla's supervised self-driving system will have to wait. A Drive Tesla Canada headline on 25 November says the EU-wide approval meeting has been postponed to 15 December. Only the headline was read.",
+      "The site's other recent headlines say Tesla's European registrations rose 77% in October and that the company has widened its Dallas Robotaxi area. Closer to home, it reports that Tesla has opened a Supercharger in Brossard, Quebec. These are headline-level reports. Earlier this week Tesla Oracle said Italy had approved the system."
      ],
      "n": [
       "A quarterly earnings report is where a listed company states its revenue (sales) and profit for the last three months, and executives answer analysts' questions. A share price can move sharply on how the numbers compare with expectations.",
@@ -2163,17 +2204,18 @@
       "Cybercab is Tesla's planned driverless taxi, Optimus its humanoid robot and Robotaxi its ride-hailing service. Much of Tesla's valuation rests on those bets paying off, which is why heavy spending on them weighs on profit.",
       "'Supervised' driver assistance can steer, brake and change lanes, but the person in the seat must watch the road and stays responsible. A robotaxi service is different: passengers book a ride in a car run by the company."
      ],
-     "s": "Tesla Oracle and TeslaNorth, 25 Nov (read); Q3 figures from 21 Oct reporting",
+     "s": "Drive Tesla Canada headline list, 23–26 Nov (headlines only), read 27 Nov",
      "links": [
       {
-       "text": "Tesla Oracle: Italy approves FSD",
-       "url": "https://www.teslaoracle.com/2026/11/25/italy-becomes-the-12th-european-country-to-approve-fsd-tesla-assisted-driving-watch-the-first-impressions/"
+       "text": "Drive Tesla Canada: latest headlines",
+       "url": "https://driveteslacanada.ca/"
       },
       {
-       "text": "TeslaNorth: Robotaxi expands in Dallas",
-       "url": "https://teslanorth.com/2026/11/25/tesla-robotaxi-dallas-expansion-lower-fares/"
+       "text": "Tesla Oracle: Italy approval (25 Nov)",
+       "url": "https://www.teslaoracle.com/2026/11/25/italy-becomes-the-12th-european-country-to-approve-fsd-tesla-assisted-driving-watch-the-first-impressions/"
       }
-     ]
+     ],
+     "gap": false
     }
    ],
    "short": "Tech",
@@ -2198,10 +2240,10 @@
    "items": [
     {
      "t": "Elon Musk",
-     "tag": "'Not MAGA' · 18–19 Nov",
+     "tag": "SpaceX share gift · headline 25 Nov",
      "w": [
-      "Musk is stepping back from the brand he spent heavily to support. At the New York Times DealBook Summit on 18 November he said he is 'not MAGA' and feels 'pretty foolish' about his spending, the Associated Press reported.",
-      "AP says he put more than US$400m behind Trump-aligned Republicans in the midterms, including about US$200m for Texas Senate nominee Ken Paxton, who lost. President Trump told NBC News that Musk is a friend, while stressing that MAGA means something very specific."
+      "Musk's latest headline is a giveaway. Drive Tesla Canada reported on 25 November that SpaceX will donate shares to millions of American children, with Musk matching. Only the headline was read, so the terms are not verified.",
+      "The week before, he told a New York Times summit he is 'not MAGA' and felt 'pretty foolish' about his political spending, the Associated Press reported."
      ],
      "n": [
       "Elon Musk runs or owns several companies: Tesla (cars and energy), SpaceX (rockets and the Starlink satellite internet service), X (the social network, previously Twitter) and xAI.",
@@ -2209,13 +2251,18 @@
       "xAI was founded to build AI systems and released the Grok chatbot. It is now part of SpaceX, which has publicly traded shares, so the company reports quarterly results like any listed firm. Its latest model, Grok 4.5, launched in July.",
       "MAGA, short for 'Make America Great Again', is Donald Trump's slogan and the name for his political movement. Midterms are the US elections held halfway through a president's term."
      ],
-     "s": "AP via KBTX, 19 Nov (read)",
+     "s": "Drive Tesla Canada headline, 25 Nov; AP via KBTX, 19 Nov",
      "links": [
+      {
+       "text": "Drive Tesla Canada: headline list",
+       "url": "https://driveteslacanada.ca/"
+      },
       {
        "text": "KBTX/AP: Musk backs away from Trump's brand",
        "url": "https://www.kbtx.com/2026/11/19/im-not-sure-what-maga-means-elon-musk-backs-away-trumps-brand-after-gops-midterm-defeats/"
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "Marques Brownlee (MKBHD)",
@@ -2227,7 +2274,7 @@
       "Marques Brownlee goes by MKBHD and runs one of the biggest technology review channels on YouTube, with around 21 million subscribers. He is known for clean, calm video and straight verdicts on phones, laptops, cars and gadgets.",
       "If you are new to his reviews, watch for the ones that cover the \"daily driver\" experience, where he lives with a product for weeks. He also hosts podcasts and interviews executives."
      ],
-     "s": "Latest found: 1 Aug 2026 review. Nothing newer verified on 15 Oct. · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "Latest found: 1 Aug 2026 review. Nothing newer verified on 15 Oct. · not re-checked 21 Oct · not re-checked 26 Nov · nothing new verified 27 Nov",
      "links": [
       {
        "text": "SamMobile fans: MKBHD Galaxy Z Fold 8 review",
@@ -2252,7 +2299,7 @@
       "The Joe Rogan Experience is a long-form interview podcast, often running two to three hours, covering comedy, science, health, politics and fighting. Rogan is also a stand-up comedian and a UFC commentator.",
       "It is one of the most-listened-to podcasts in the world, so the guests he books and the claims they make often get picked up by news outlets."
      ],
-     "s": "Background only. Checked 15 Oct 2026. · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "Background only. Checked 15 Oct 2026. · not re-checked 21 Oct · not re-checked 26 Nov · nothing new verified 27 Nov",
      "links": [
       {
        "text": "Joe Rogan Experience on YouTube",
@@ -2262,26 +2309,25 @@
     },
     {
      "t": "Jimmy Carr",
-     "tag": "Toronto tomorrow",
+     "tag": "Out of the Top Gear running · 25 Nov",
      "w": [
-      "Jimmy Carr plays Toronto tomorrow. His 'Laughs Funny' Canadian tour reaches Scotiabank Arena on Friday 16 October at 8:00 pm, one stop in a run that continues to 22 November.",
-      "Tickets and details are on the listings below."
+      "Jimmy Carr will not be taking the wheel of the Top Gear revival. He has pulled out despite talks reaching an advanced stage, according to a News Minimalist summary of a Metro report on 25 November.",
+      "Scheduling clashes and other work are the reported reasons. The summary says the BBC show had been planned to return in 2027, and producers need a replacement. This rests on one chain of reporting."
      ],
      "n": [
       "Jimmy Carr is a British stand-up comedian known for rapid-fire one-liners and a deadpan delivery, often with very dark humour. His shows are for adults.",
-      "He is also a familiar face on British TV, hosting 8 Out of 10 Cats Does Countdown and appearing on panel shows. His stand-up specials are on streaming services."
+      "He is also a familiar face on British TV, hosting 8 Out of 10 Cats Does Countdown and appearing on panel shows. His stand-up specials are on streaming services.",
+      "Top Gear is a long-running BBC motoring show, first launched in 1977. It was shelved four years ago after presenter Freddie Flintoff was injured in a crash during filming."
      ],
-     "s": "As of 15 Oct 2026. Source: Todo Canada listing. · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "News Minimalist summary of Metro, 25 Nov (read)",
      "links": [
       {
-       "text": "Todo Canada: Jimmy Carr, Laughs Funny, Toronto",
-       "url": "https://www.todocanada.ca/city/toronto/event/jimmy-carr-laughs-funny-5/"
-      },
-      {
-       "text": "Event listing: Toronto, 16 Oct 2026",
-       "url": "https://www.eventworld.com/jimmy-carr-laughs-funny-toronto-tickets-10-16-2026/event/462773"
+       "text": "News Minimalist: Carr pulls out of Top Gear",
+       "url": "https://www.newsminimalist.com/articles/jimmy-carr-pulls-out-of-top-gear-reboot-after-advanced-talks-e1b66ff1",
+       "syn": "An aggregator summary of a Metro report that Jimmy Carr has withdrawn from hosting the Top Gear revival."
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "Jeremy Clarkson",
@@ -2296,7 +2342,7 @@
       "Clarkson's Farm follows him trying to run Diddly Squat Farm, in Oxfordshire, and mostly failing in entertaining ways. It has turned a car presenter into an unlikely voice on British farming, with its weather, regulations and thin margins.",
       "The Grand Tour is the motoring show he made after leaving Top Gear. Its original trio of presenters has now been replaced, which is why the new line-up is in the news."
      ],
-     "s": "As of 15 Oct 2026. Not verified today. Sources: UPI (April 2026), Autocar (undated). · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "As of 15 Oct 2026. Not verified today. Sources: UPI (April 2026), Autocar (undated). · not re-checked 21 Oct · not re-checked 26 Nov · nothing new verified 27 Nov",
      "links": [
       {
        "text": "UPI: Season 5 of Clarkson's Farm to premiere on Prime Video June 3",
@@ -2319,7 +2365,7 @@
       "Ross Edgley is a British endurance athlete. In 2018 he became the first person to swim around Great Britain, which took 157 days and about 1,800 miles. He is also known for dragging a heavy log or tyre across long distances as training, and for his strength work.",
       "His channel and books describe how he builds a body that can handle extreme volume. Swimming in cold water for hours is hard because the body loses heat and the salt damages skin."
      ],
-     "s": "As of 15 Oct 2026. Source: 220 Triathlon. Swim dates are from 2025; no new event found. · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "As of 15 Oct 2026. Source: 220 Triathlon. Swim dates are from 2025; no new event found. · not re-checked 21 Oct · not re-checked 26 Nov · nothing new verified 27 Nov",
      "links": [
       {
        "text": "220 Triathlon: Ross Edgley completes Iceland swim",
@@ -2344,7 +2390,7 @@
       "Brian Cox is a British particle physicist and a professor at the University of Manchester, and he is best known as the presenter of popular science programmes. He explains very large ideas, such as how the universe began and how stars work, in plain language.",
       "Emergence is a live show rather than a TV series: he walks an audience through how complex things, from galaxies to living cells and minds, can arise from simple rules. No physics is needed to enjoy it."
      ],
-     "s": "As of 15 Oct 2026. Source: Ents24 listings; Newsletter.co.uk announcement (Sept 2025). · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "As of 15 Oct 2026. Source: Ents24 listings; Newsletter.co.uk announcement (Sept 2025). · not re-checked 21 Oct · not re-checked 26 Nov · nothing new verified 27 Nov",
      "links": [
       {
        "text": "Ents24: Emergence, Sheffield, 15 Oct",
@@ -2363,66 +2409,77 @@
     },
     {
      "t": "SpaceX",
-     "tag": "Falcon 9 military launch · 24 Nov",
+     "tag": "Falcon 9 for the Space Force · 23–24 Nov",
      "w": [
-      "A Falcon 9 carried the US Space Force's USSF-266 mission into orbit at 16:08 UTC on Tuesday 24 November, part of a busy day that also saw a Russian cargo ship and a European Ariane 6 lift off, Orbital Radar reports.",
-      "A further Space Force mission, USSF-380, is listed for 29 November; the briefing read did not confirm its rocket. A Bloomberg headline about government approval for space data centres was not read (paywalled outlet) and is not relied on here."
+      "SpaceX has been busy on military and intelligence work. Spaceflight Now lists a launch of a classified Space Force payload in its 23 November coverage, following an intelligence-satellite launch for the National Reconnaissance Office on 21 November.",
+      "Orbital Radar reported a Falcon 9 carrying the USSF-266 mission on 24 November. Spaceflight Now's forward schedule could not be loaded, so no upcoming launch is confirmed today."
      ],
      "n": [
       "SpaceX builds and launches rockets for NASA, the military and companies. Its Falcon 9 rockets reuse their boosters, which has made launches far cheaper and far more frequent.",
       "Starship is its giant next-generation rocket, designed to be fully reusable and to carry people and cargo to the Moon and Mars. Each test flight teaches the engineers what to fix next, which is why SpaceX launches early and often.",
       "Starlink is the satellite internet network, with thousands of satellites in low orbit. 'V3' is the next, larger generation of those satellites."
      ],
-     "s": "Orbital Radar briefing, 25 Nov (read)",
+     "s": "Spaceflight Now mission list, read 27 Nov; Orbital Radar, 25 Nov",
      "links": [
       {
-       "text": "Orbital Radar: Space Force launch caps busy day",
+       "text": "Spaceflight Now: 23 November coverage",
+       "url": "https://spaceflightnow.com/2026/11/23/live-coverage-spacex-to-launch-classified-payload-for-the-u-s-space-force-3/"
+      },
+      {
+       "text": "Orbital Radar: Space Force launch",
        "url": "https://orbitalradar.com/blog/orbital-briefing-2026-11-25"
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "NASA",
-     "tag": "Moon, Mars and station news · 23–25 Nov",
+     "tag": "Thanksgiving delivery · 26 Nov",
      "w": [
-      "NASA's news page this week runs from dinner plans to deep space. On 25 November it highlighted crop candidates for future Moon and Mars menus and posted on the Europa Clipper probe's Earth flyby.",
-      "On the 24th it said the mission design for SR-1 Freedom, a nuclear electric propulsion mission, is locked with a 2028 launch target, and reported Dragonfly instruments arriving at the Applied Physics Laboratory in Maryland. A Progress cargo ship launched to the station from Baikonur the same day."
+      "The International Space Station got a Thanksgiving delivery. NASA says the Progress 97 cargo ship, launched on 24 November, docked at 7:08am EST on Thursday.",
+      "NASA's latest list also covers crop candidates for future space menus and the Europa Clipper probe's pass by Earth on its way to Jupiter's icy moon Europa."
      ],
      "n": [
       "NASA is the US space agency. It runs the International Space Station, sends robotic probes across the solar system and operates telescopes such as James Webb.",
       "Artemis is its programme to return people to the Moon. Artemis II was the first crewed flight around the Moon in that programme, so the data it brought back is the first fresh look from people near the Moon in decades.",
       "A fast radio burst is a flash of radio waves from deep space lasting a fraction of a second. Brown dwarfs are objects too big to be planets and too small to be true stars."
      ],
-     "s": "NASA recently-published page, read 26 Nov",
+     "s": "NASA recently-published page and station blog list, read 27 Nov",
      "links": [
       {
-       "text": "NASA: all recently published news",
+       "text": "NASA: Progress docks on Thanksgiving",
+       "url": "https://www.nasa.gov/blogs/spacestation/2026/11/26/progress-cargo-craft-docks-to-station-on-thanksgiving-day/"
+      },
+      {
+       "text": "NASA: all recent news",
        "url": "https://www.nasa.gov/news/recently-published/"
       }
-     ]
+     ],
+     "gap": false
     },
     {
      "t": "Rotten Tomatoes: what's worth watching",
-     "tag": "New releases · 20–25 Nov",
+     "tag": "This week · 25 Nov – 2 Dec",
      "gap": false,
      "w": [
-      "The strongest scores among new cinema releases on Rotten Tomatoes' certified-fresh list: Club Kid (98%, opened 25 November), Josephine (97%, 20 November), Minotaur (96%, 20 November), All of a Sudden (90%, 25 November) and I Play Rocky (90%, 20 November).",
-      "For television, the site's newest 'fresh' list is ordered by latest episode and showed no scores in what was read, so no TV picks are ranked today. Scores move as more reviews arrive, and release dates are US listings."
+      "The best-scoring new arrivals on Rotten Tomatoes' theatre list: Club Kid (98%, opened 25 November), In Waves (92%, due today) and All of a Sudden (90%, 25 November). Where the page showed two percentages, it did not label them; the figure given first is used here. Scores move as reviews arrive.",
+      "For the sofa, the site's weekly picks include Blade Runner 2099 on Prime Video and season two of The Hunting Wives on Netflix. These are editors' picks, and no scores for them were read. In cinemas it also highlights Disney's Hexed (68% on the theatre list)."
      ],
      "n": [
       "Rotten Tomatoes collects reviews from professional critics and turns them into a percentage called the Tomatometer. A film marked 'Certified Fresh' is both well reviewed and reviewed by plenty of critics.",
       "A high score does not mean 'popular'. Small films often score 100% from a handful of reviews, so check how many critics there are before you trust a number.",
       "'Certified Fresh' is the site's extra badge for titles that keep a high score across enough reviews. It measures how many critics liked something, not how much they loved it."
      ],
-     "s": "Rotten Tomatoes certified-fresh in-theaters list, read 26 Nov",
+     "s": "Rotten Tomatoes theatre list and weekly picks (25 Nov), read 27 Nov",
      "links": [
       {
-       "text": "Rotten Tomatoes: new certified-fresh films in theaters",
-       "url": "https://www.rottentomatoes.com/browse/movies_in_theaters/critics:certified_fresh~sort:newest"
+       "text": "Rotten Tomatoes: what to watch this week",
+       "url": "https://editorial.rottentomatoes.com/article/what-to-watch-this-week/",
+       "syn": "Editors' picks for 26 November to 2 December, including new films, streaming series and holiday television."
       },
       {
-       "text": "Rotten Tomatoes: new TV",
-       "url": "https://www.rottentomatoes.com/browse/tv_series_browse/critics:fresh~sort:newest"
+       "text": "Rotten Tomatoes: new films in theatres",
+       "url": "https://www.rottentomatoes.com/browse/movies_in_theaters/sort:newest"
       }
      ]
     }
@@ -2447,17 +2504,17 @@
    "items": [
     {
      "t": "Canada: Macklem leaves the door open to a December rise",
-     "tag": "BoC 2.5% · next decision 9 Dec",
+     "tag": "BoC 2.5% · GDP due Mon 30 Nov",
      "w": [
-      "Bank of Canada Governor Tiff Macklem did not promise a December rate rise, but he did not rule one out. Speaking at the Economic Club of Canada in Toronto on Tuesday 24 November, he left the question open ahead of the next decision on 9 December (9:45am ET). The policy rate is 2.5% after October's quarter-point increase; another would make it 2.75% (CTC News).",
-      "A secondary site, RetireSmarter, puts October inflation at 3.1%, unchanged from September, with the Bank's preferred core gauges between 1.8% and 2.5%; Statistics Canada's own release was not opened. CTC reports unemployment near 6.5%.",
-      "For an ETF investor, higher or rising rate expectations tend to push existing bond prices down while lifting savings and new-mortgage rates. This is general information, not advice."
+      "Circle Monday. Statistics Canada publishes third-quarter GDP at 8:30am ET on 30 November, a key reading before the Bank of Canada's 9 December decision.",
+      "Governor Tiff Macklem left a December rise open on 24 November, with the policy rate at 2.5% after October's increase (CTC News). In the Bank's survey of about 25 market participants, taken from 23 September to 1 October and published on 9 November, the median expected 2.50% in December 2026 and 2.75% by late 2027. It was taken before October's rise, so views may have moved.",
+      "For an ETF investor, higher rate expectations tend to push existing bond prices down while lifting savings and new-mortgage rates. This is general information, not advice."
      ],
      "f": [
-      "Policy rate: 2.5% (raised 25 bp on 28 Oct 2026); Bank Rate 2.75%; deposit rate 2.45%",
-      "CPI: about 3% since April, seen near 3.5% by year-end; 2.2% excluding gasoline (Sept)",
-      "Bank forecast: GDP about 1% in 2026, 2% in 2027–28; CPI near 3% in 2027, 2% by mid-2028",
-      "Not re-verified: 5-year GoC yield 3.59% (6 Oct), TSX 35,502.65 (2 Oct)"
+      "Policy rate: 2.5% (raised 25 bp on 28 Oct 2026)",
+      "Next decision: 9 December",
+      "Q3 GDP: due Mon 30 November, 8:30am ET",
+      "Survey median inflation: 3.0% at end-2026, 2.0% at end-2027"
      ],
      "n": [
       "The Bank of Canada sets its overnight policy rate, the rate that banks charge each other, and uses it to steer inflation toward 2%. Commercial banks set their prime rate from it, which drives variable mortgages and lines of credit.",
@@ -2465,70 +2522,79 @@
       "The S&P/TSX Composite is the main Canadian share index. It is heavy in banks, energy and mining, so it rises and falls with commodity prices and financial-sector earnings, and is less weighted to technology than US indexes.",
       "The Canadian dollar also matters. When oil rises it often strengthens, which changes the value of any US or international assets you hold."
      ],
-     "s": "CTC News, 25 Nov; RetireSmarter (updated 16 Nov; secondary source). General information, not advice.",
+     "s": "Statistics Canada release schedule and Bank of Canada survey (read 27 Nov); CTC News, 25 Nov. General information, not advice.",
      "links": [
       {
-       "text": "CTC News: Bank of Canada signals another hike may be needed",
-       "url": "https://ctcnews.ca/2026/11/25/bank-of-canada-december-rate-hike-outlook-2026/"
+       "text": "Statistics Canada: release schedule",
+       "url": "https://www150.statcan.gc.ca/n1/dai-quo/cal2-eng.htm"
       },
       {
-       "text": "RetireSmarter: Canada inflation, October 2026",
-       "url": "https://www.retiresmarter.ca/guides/canada-inflation-rate/"
+       "text": "Bank of Canada: Market Participants Survey",
+       "url": "https://www.bankofcanada.ca/2026/11/market-participants-survey-third-quarter-of-2026/",
+       "syn": "The median respondent expected a 2.50% policy rate in December 2026 and 3.0% headline inflation at the end of 2026."
+      },
+      {
+       "text": "CTC News: BoC rate signal",
+       "url": "https://ctcnews.ca/2026/11/25/bank-of-canada-december-rate-hike-outlook-2026/"
       }
      ]
     },
     {
-     "t": "United States: new tariff proposals and a December rate decision",
-     "tag": "Tariffs · inflation · 26 Nov",
+     "t": "United States: growth revised up, and a row over the numbers",
+     "tag": "GDP · 25–26 Nov",
      "w": [
-      "Washington has opened a new trade front. Euronews reports proposed US tariffs of up to 20% on 14 economies, including the EU, India, Japan and South Korea, subject to a public comment period; China faces a 20% rate that the US trade representative says fits within current talks. Beijing warned against trade wars.",
-      "The same report says US inflation hit a three-year high last month, raising expectations of a Federal Reserve hike in December, while third-quarter growth was revised up. Wall Street ended Wednesday only slightly lower and Asia bounced on Thursday. The Fed's range was 3.75–4.00% at its 28 October meeting; the next meeting is 8–9 December.",
-      "For long-term index-fund holders, days like these show how concentrated some markets have become in AI-linked technology shares. General information, not advice."
+      "The US economy just got a bigger number, and the President does not trust it. The Bureau of Economic Analysis on Wednesday revised third-quarter annualised growth to 4.3% from a first estimate of 3.4%. Donald Trump alleged, without evidence, that the figures released before the 3 November midterms were deliberately wrong and demanded an investigation (Al Jazeera). The agency says estimates are routinely revised.",
+      "Markets are also weighing proposed tariffs of up to 20% on 14 economies and the chance of a December rate rise, Euronews reported on Thursday. The Federal Reserve meets on 8–9 December; its range was 3.75–4.00% at the October meeting.",
+      "For long-term index investors, trust in official data matters because markets price shares and bonds off it. General information, not advice."
      ],
      "n": [
       "The Federal Reserve is the US central bank. Its policy committee sets a target range for the federal funds rate, and that rate anchors borrowing costs worldwide because the US dollar is the world's main reserve currency.",
       "When the Fed raises rates, newly issued bonds pay more, so existing bonds with lower rates fall in price. High rates also make future profits worth less today, which hurts fast-growing technology shares most.",
       "Because the S&P 500 and Nasdaq are such large parts of global equity funds, a change in US policy can move your ETF even if you hold no US-specific fund.",
-      "A tariff is a tax on imported goods, paid when they enter the country. It can protect local producers, but it often raises prices for buyers and can invite retaliation."
+      "A tariff is a tax on imported goods, paid when they enter the country. It can protect local producers, but it often raises prices for buyers and can invite retaliation.",
+      "GDP, or gross domestic product, measures everything an economy produces. The first estimate uses incomplete data and is later revised. 'Annualised' means the quarter's pace expressed as if it lasted a full year."
      ],
-     "s": "Euronews, 26 Nov (read); Fed range from 28 Oct reporting. General information, not advice.",
+     "s": "Al Jazeera, 26 Nov (read); Euronews, 26 Nov; Fed range from 28 Oct reporting. General information, not advice.",
      "links": [
       {
-       "text": "Euronews: markets rebound as tariff fears ease",
+       "text": "Al Jazeera: Trump disputes GDP figures",
+       "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation",
+       "syn": "Trump demanded an investigation after growth was revised up; he offered no evidence of manipulation, and the statistics agency says revisions are routine."
+      },
+      {
+       "text": "Euronews: markets and tariffs (26 Nov)",
        "url": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower"
       }
      ]
     },
     {
      "t": "United Kingdom and France",
-     "tag": "BoE hiked 5 Nov; ECB 29 Oct (not verified)",
+     "tag": "New ECB chief named · BoE at 4% (5 Nov)",
      "w": [
-      "The Bank of England has raised Bank Rate to 4% from 3.75%, its first hike in about three years, on 5 November. The vote was 8–1 for a quarter-point rise, with one member wanting half a point (MoneyWeek). UK inflation was 3.5% in the year to September, up from 3.1% in August, and the Bank forecasts it will climb to 5% by mid-2027, mainly on energy costs.",
-      "Governor Andrew Bailey said the increase should not be seen as the first in an inevitable long sequence of hikes. Moneyfacts estimates the rise adds about £37 a month to a £250,000 tracker mortgage over 25 years; fixed-rate borrowers feel it only when their deals end, as many lenders had priced it in.",
-      "France follows the ECB, which raised its deposit rate to 2.50% on 10 September. Its 29 October decision could not be verified in this run. France's 10-year yield was 4.85% on 13 October (older figure), with a 2027 budget and presidential election ahead.",
-      "New this week: France is bringing forward a 1.6% minimum-wage rise to 1 December (see the France section). A Euronews headline on 26 November says Greece now borrows more cheaply than Italy and France (headline only). Bank of England and ECB figures above were not re-checked today."
+      "Europe's central bank has a new boss in waiting: Spain's Pablo Hernández de Cos has been confirmed as the next European Central Bank president, Euronews reported today. The ECB sets interest rates for France and the rest of the euro area.",
+      "Older figures: the Bank of England raised Bank Rate to 4% from 3.75% on 5 November in an 8–1 vote (MoneyWeek), with UK inflation at 3.5% in September. The ECB's deposit rate was 2.50% after its September decision; its later decision was not verified. None of these rates was re-checked today because the central-bank pages were refused.",
+      "France is also bringing forward a 1.6% minimum-wage rise to 1 December. General information, not advice."
      ],
      "n": [
       "Both countries have high debt and slow growth. In a high-debt country, rising interest rates make the interest bill larger every year, which leaves less for services or tax cuts.",
       "France does not set its own rates. As a euro member it follows the European Central Bank, so it cannot cut rates to help itself and must instead cut spending or raise taxes.",
       "The UK has its own currency, so the pound can fall when investors worry. That raises import prices and inflation, another reason the Bank of England is cautious."
      ],
-     "s": "As of 6 Nov 2026. Sources: MoneyWeek (BoE, 5 Nov); ECB and French yield figures are older and not re-checked. · rates not re-checked 26 Nov",
+     "s": "Euronews, 27 Nov (ECB appointment); MoneyWeek, 5 Nov (BoE) · rates not re-checked 27 Nov. General information, not advice.",
      "links": [
       {
-       "text": "MoneyWeek: Bank of England raises interest rates (live)",
-       "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
+       "text": "Euronews: EU summit newsletter, including the ECB appointment",
+       "url": "https://www.euronews.com/2026/11/27/the-art-of-no-deal-an-eu-summit-of-spectacular-dysfunction"
       },
       {
-       "text": "Bank of England: Bank Rate",
-       "url": "https://www.bankofengland.co.uk/monetary-policy/the-interest-rate-bank-rate"
+       "text": "MoneyWeek: Bank of England decision",
+       "url": "https://moneyweek.com/economy/news/live/uk-interest-rates-november-bank-of-england"
       }
      ],
      "f": [
-      "Bank Rate: 3.75% (6-3 hold, 17 Sep); next 5 Nov",
-      "ECB deposit rate: 2.50%; next 29 Oct",
-      "Euro-area inflation: 3.8% (Sept flash)",
-      "France 10-year yield: 4.85% (13 Oct)"
+      "Bank Rate: 4% (5 Nov; not re-checked)",
+      "ECB deposit rate: 2.50% (September; later decision not verified)",
+      "Next ECB president: Pablo Hernández de Cos"
      ]
     },
     {
@@ -2543,7 +2609,7 @@
       "China is the world's largest manufacturer and a major buyer of oil, iron ore and copper. When its growth slows, commodity prices and Canadian resource shares often weaken.",
       "Chinese shares are in most global and emerging-market ETFs but at a modest weight. They are subject to political risk, since regulators can change rules suddenly."
      ],
-     "s": "As of 15 Oct 2026. Sources: Trading Economics (20 Sep), Finance Calendar (release date). · not re-checked 21 Oct · not re-checked 26 Nov",
+     "s": "As of 15 Oct 2026. Sources: Trading Economics (20 Sep), Finance Calendar (release date). · not re-checked 21 Oct · not re-checked 26 Nov · China figures not re-checked 27 Nov",
      "links": [
       {
        "text": "Trading Economics: China keeps LPR at record lows for 16th month",
@@ -2654,39 +2720,39 @@
    "Canada",
    "2.50% (raised 28 Oct)",
    "3.1% (Oct, secondary source)",
-   "Macklem left a December rise open (24 Nov). Next decision 9 Dec."
+   "Q3 GDP due 30 Nov; next BoC decision 9 Dec. Rate and inflation not re-checked at source 27 Nov."
   ],
   [
    "United States",
    "3.75–4.00% (28 Oct; not re-checked)",
    "At a three-year high last month (figure not read)",
-   "Euronews (26 Nov): December hike expectations up; new tariff proposals. Next meeting 8–9 Dec."
+   "Q3 GDP revised to 4.3% annualised from 3.4% (25 Nov, Al Jazeera). Next meeting 8–9 Dec. Rate not re-checked."
   ],
   [
    "United Kingdom",
    "4.00% (raised 25 bp from 3.75% on 5 Nov, 8–1 vote)",
    "3.5% (Sept; BoE sees ~5% by mid-2027)",
-   "From 5 Nov (MoneyWeek); not re-checked 26 Nov."
+   "Rate from 5 Nov (MoneyWeek); not re-checked 27 Nov."
   ],
   [
    "France / euro area",
    "ECB deposit 2.50% (September; later decisions not verified)",
    "3.8% euro area (Sept flash; old)",
-   "France minimum wage up 1.6% from 1 Dec (Élysée, 25 Nov)."
+   "Hernández de Cos confirmed as next ECB president (Euronews, 27 Nov). Rates not re-checked."
   ],
   [
    "China",
    "1-yr LPR 3.0%, 5-yr 3.5% (not re-checked since Oct)",
    "—",
-   "Faces a proposed 20% US tariff rate (Euronews, 26 Nov)."
+   "Figures not re-checked."
   ]
  ],
  "sports": [
   {
    "id": "football",
    "title": "Football",
-   "summary": "Arsenal lead the Premier League by six points; Liverpool thrash Man United 4–0; Bournemouth are at Celta Vigo in the Europa League tonight.",
-   "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Thursday 26 November 2026.",
+   "summary": "Ten-man Bournemouth win in Vigo for a tenth straight victory; the Premier League returns tonight with Forest v Chelsea.",
+   "intro": "Premier League, Championship, Ligue 1, Europe and the cups. Updated Friday 27 November 2026.",
    "cards": [
     {
      "t": "Premier League: Arsenal six clear as Liverpool rout United",
@@ -2694,7 +2760,8 @@
      "gap": false,
      "w": [
       "Liverpool put four past Manchester United without reply on Sunday, a result that leaves United 19th. At the top, Arsenal were held 2–2 at Newcastle yet still lead by six points, because Manchester City could only draw 1–1 with Fulham and Brighton lost 2–0 at Hull.",
-      "Brentford thrashed Everton 4–0 on Monday and Leeds won 4–1 at Chelsea. Bournemouth beat Nottingham Forest 2–0 to climb to fifth. Next up, the weekend ends with Arsenal v Manchester City on Sunday."
+      "Brentford thrashed Everton 4–0 on Monday and Leeds won 4–1 at Chelsea. Bournemouth beat Nottingham Forest 2–0 to climb to fifth. Next up, the weekend ends with Arsenal v Manchester City on Sunday.",
+      "The league returns tonight: Nottingham Forest host Chelsea at 8pm UK (3pm Toronto). Sunday brings Everton v Liverpool at noon and, the big one, Arsenal v Manchester City at 4.30pm UK (11.30am Toronto)."
      ],
      "n": [
       "The Premier League is the top division of English football. Its 20 clubs each play one another twice, home and away, for 38 matches.",
@@ -2711,6 +2778,10 @@
       {
        "text": "Dave.sport: Premier League table",
        "url": "https://dave.sport/football/premier-league-table/"
+      },
+      {
+       "text": "Twenty Clubs: Matchweek 12 fixtures",
+       "url": "https://twentyclubs.com/matchweek/12"
       }
      ]
     },
@@ -2740,27 +2811,28 @@
      ]
     },
     {
-     "t": "Europa League tonight: Bournemouth go to Vigo unbeaten",
-     "tag": "Matchday 5 · Thu 26 Nov",
+     "t": "Europa League: ten-man Bournemouth stun Celta; Milan roar back",
+     "tag": "Matchday 5 · 26 Nov",
      "gap": false,
      "w": [
-      "Bournemouth's first European campaign has been flawless so far: four wins from four, 12 points and second place going into tonight's trip to Celta Vigo, which kicks off at 5.45pm UK (12.45pm Toronto).",
-      "Crystal Palace host Real Sociedad and Sunderland host Jagiellonia at 8pm UK, while Celtic play Torreense in the Algarve at the same time. Marseille, Lyon, Milan, Juventus and Benfica are also in action."
+      "Bournemouth's European adventure has a new highlight. Behind to an Iago Aspas goal and reduced to ten men, they won 2–1 in Vigo through Amine Adli and substitute Rayan, and RTÉ says a December win over Viktoria Plzen would almost certainly send them straight to the last 16.",
+      "Crystal Palace beat Real Sociedad 2–1, Celtic snatched a 2–1 win at Torreense, and Sunderland drew 1–1 with Jagiellonia. Milan came from two down to win 4–2 at Olympiacos, while Viktoria Plzen thrashed Benfica 4–0."
      ],
      "n": [
       "The Europa League is the second tier of European club football, below the Champions League.",
       "Like the Champions League it begins with a single league table. A high finish brings a direct place in the knockout rounds.",
       "For Bournemouth, a club from a seaside town, playing in Europe at all is new."
      ],
-     "s": "UEFA (updated 25 Nov) and Sport News Africa (23 Nov), read",
+     "s": "RTÉ and 101 Great Goals, 26 Nov (read)",
      "links": [
       {
-       "text": "UEFA: Europa League fixtures and results by team",
-       "url": "https://www.uefa.com/uefaeuropaleague/news/02a8-2177782493b9-69ba3288701d-1000--europa-league-league-phase-fixtures-and-results-by-team/"
+       "text": "RTÉ: Bournemouth win in Vigo",
+       "url": "https://www.rte.ie/sport/soccer/2026/1126/1600830-ten-man-bournemouth-snatch-victory-at-celta-vigo/"
       },
       {
-       "text": "Sport News Africa: kick-off times, 26 November",
-       "url": "https://sportnewsafrica.com/en/news/europa-league-fixtures-midweek-schedule-and-kick-off-times-26-november-2026/"
+       "text": "101 Great Goals: Europa League round-up",
+       "url": "https://www.101greatgoals.com/football/europa-league/europa-league-round-up-celtic-snatch-late-win-at-torreense-as-ac-milan-complete-stunning-comeback/",
+       "syn": "All of Thursday's Europa League results, with detail on Celtic's late winner and Milan's comeback."
       }
      ]
     },
@@ -2905,7 +2977,7 @@
       {
        "id": "pl-table",
        "title": "Premier League table",
-       "asof": "After matchday 11; page stamped 26 Nov, 03:51",
+       "asof": "After matchday 11; page stamped 26 Nov, 03:51 · no league matches since; page not re-read 27 Nov",
        "source": "dave.sport",
        "cols": [
         "Pos",
@@ -3139,7 +3211,7 @@
       {
        "id": "pl-results",
        "title": "Latest results (matchday 11, 21–23 Nov; then partial 7–8 Nov)",
-       "asof": "21–23 Nov (Sport News Africa, updated 26 Nov). The 7–8 Nov list is partial.",
+       "asof": "21–23 Nov (Sport News Africa, read 26 Nov); no Premier League matches since. The 7–8 Nov list is partial.",
        "source": "sportnewsafrica.com; earlier lines as previously sourced",
        "items": [
         "Manchester City 1–1 Fulham (Sat 21 Nov)",
@@ -3174,8 +3246,8 @@
       {
        "id": "pl-fixtures",
        "title": "Upcoming fixtures",
-       "asof": "Matchweek 12, UK times (Dave.sport, updated 25 Nov)",
-       "source": "dave.sport",
+       "asof": "Matchweek 12, UK times (Twenty Clubs, read 27 Nov)",
+       "source": "twentyclubs.com",
        "items": [
         "Fri 27 Nov, 20:00: Nottingham Forest v Chelsea",
         "Sat 28 Nov, 15:00: Manchester United v Brentford · Leeds v Coventry",
@@ -3187,8 +3259,8 @@
        "note": "Subtract 5 hours for Toronto.",
        "links": [
         {
-         "text": "Dave.sport: Premier League fixtures",
-         "url": "https://dave.sport/football/premier-league-fixtures/"
+         "text": "Twenty Clubs: Matchweek 12",
+         "url": "https://twentyclubs.com/matchweek/12"
         }
        ]
       }
@@ -3203,7 +3275,7 @@
       {
        "id": "ch-table",
        "title": "Championship table",
-       "asof": "Sat 17 Oct 2026 · STALE: no newer table could be read on 26 Nov",
+       "asof": "Sat 17 Oct 2026 · STALE: no newer table could be read on 27 Nov",
        "source": "footballwebpages.co.uk",
        "cols": [
         "Pos",
@@ -3470,7 +3542,7 @@
       {
        "id": "ch-res",
        "title": "Championship results (latest: Sat 17 Oct)",
-       "asof": "Sat 17 Oct 2026 · STALE: no newer table could be read on 26 Nov",
+       "asof": "Sat 17 Oct 2026 · STALE: no newer table could be read on 27 Nov",
        "source": "footballwebpages.co.uk",
        "highlights": true,
        "items": [
@@ -3513,197 +3585,140 @@
       {
        "id": "l1-table",
        "title": "Ligue 1 table",
-       "asof": "after matchday 7 (16–18 Oct 2026) · STALE: no current table could be read on 26 Nov",
-       "source": "eurosport.fr",
+       "asof": "after matchday 11 (article dated 22 Nov 2026, read 27 Nov)",
+       "source": "ski-nordique.net",
        "cols": [
         "Pos",
         "Team",
         "P",
-        "W",
-        "D",
-        "L",
         "GD",
         "Pts"
        ],
        "rows": [
         [
          1,
-         "Lyon",
-         7,
-         4,
-         2,
-         1,
-         "+8",
-         14
+         "PSG",
+         11,
+         "+13",
+         26
         ],
         [
          2,
-         "PSG",
-         7,
-         4,
-         2,
-         1,
-         "+5",
-         14
+         "Paris FC",
+         11,
+         "+11",
+         23
         ],
         [
          3,
-         "Paris FC",
-         7,
-         4,
-         2,
-         1,
-         "+5",
-         14
+         "Lille",
+         11,
+         "+6",
+         21
         ],
         [
          4,
-         "Lille",
-         7,
-         4,
-         2,
-         1,
-         "+5",
-         14
+         "Lyon",
+         11,
+         "+7",
+         20
         ],
         [
          5,
-         "Monaco",
-         7,
-         4,
-         2,
-         1,
-         "+4",
-         14
+         "Marseille",
+         11,
+         "+7",
+         18
         ],
         [
          6,
-         "Rennes",
-         7,
-         4,
-         1,
-         2,
-         "+1",
-         13
+         "Brest",
+         11,
+         "+7",
+         18
         ],
         [
          7,
-         "Lorient",
-         7,
-         3,
-         2,
-         2,
-         "+1",
-         11
+         "Nice",
+         11,
+         "+2",
+         17
         ],
         [
          8,
-         "Lens",
-         7,
-         3,
-         1,
-         3,
-         "+3",
-         10
+         "Monaco",
+         11,
+         "+2",
+         17
         ],
         [
          9,
-         "Marseille",
-         7,
-         3,
-         0,
-         4,
-         "+4",
-         9
+         "Rennes",
+         11,
+         "0",
+         17
         ],
         [
          10,
-         "Brest",
-         7,
-         2,
-         3,
-         2,
-         "+3",
-         9
+         "Lorient",
+         11,
+         "+1",
+         16
         ],
         [
          11,
-         "Toulouse",
-         7,
-         2,
-         3,
-         2,
-         "+1",
-         9
+         "Lens",
+         11,
+         "+2",
+         14
         ],
         [
          12,
-         "Auxerre",
-         7,
-         3,
-         0,
-         4,
-         "-6",
-         9
+         "Toulouse",
+         11,
+         "+1",
+         14
         ],
         [
          13,
-         "Nice",
-         7,
-         2,
-         2,
-         3,
-         "-3",
-         8
+         "Le Mans",
+         11,
+         "-6",
+         11
         ],
         [
          14,
-         "Strasbourg",
-         7,
-         2,
-         1,
-         4,
-         "-3",
-         7
+         "Troyes",
+         11,
+         "-8",
+         11
         ],
         [
          15,
-         "Angers",
-         7,
-         2,
-         1,
-         4,
-         "-6",
-         7
+         "Auxerre",
+         11,
+         "-11",
+         11
         ],
         [
          16,
-         "Le Mans",
-         7,
-         1,
-         3,
-         3,
+         "Strasbourg",
+         11,
          "-5",
-         6
+         10
         ],
         [
          17,
-         "Troyes",
-         7,
-         1,
-         1,
-         5,
-         "-11",
-         4
+         "Angers",
+         11,
+         "-14",
+         8
         ],
         [
          18,
          "Le Havre",
-         7,
-         0,
-         2,
-         5,
-         "-6",
+         11,
+         "-15",
          2
         ]
        ],
@@ -3711,42 +3726,39 @@
        "key": 1,
        "links": [
         {
-         "text": "Al Jazeera: PSG 5-1 Le Havre",
-         "url": "https://www.aljazeera.com/sports/2026/10/31/achraf-hakimi-hattrick-ligue-1-psg-le-havre-football"
-        },
-        {
-         "text": "Eurosport France: Ligue 1 standings",
-         "url": "https://www.eurosport.fr/football/ligue-1/standing.shtml"
+         "text": "Sports Infos: Ligue 1 matchday 11 table and results",
+         "url": "https://www.ski-nordique.net/ligue-1-20262027-classement-j11-le-psg-gagne-a-nice-mais-perd-doue-lyon-simpose-a-lille.6751885-581149.html",
+         "syn": "Table and results after matchday 11: PSG lead on 26 points, three ahead of Paris FC."
         }
        ],
-       "note": "Eurosport lists abbreviations; OL = Lyon, PFC = Paris FC, LEN = Lens, OM = Marseille. Five clubs are level on 14 points; the order of the first five follows the page. The rows below are the matchday 7 table and are out of date; PSG now lead on 20 points after nine games, two clear of Lille, with Rennes third on 16. A full updated table was not readable on this run (gap)."
+       "note": "Single-source table; wins, draws and losses were not given. The Move column compares with the last table saved here, which was after matchday 7.",
+       "gap": false
       },
       {
        "id": "l1-res",
-       "title": "Ligue 1 results and fixtures",
-       "asof": "21 Nov (psg.fr, one result); older lines from late October. Other November results not verified.",
-       "source": "psg.fr, livefootballtickets.com, ligue1.com",
+       "title": "Ligue 1 results: matchday 11 (20–22 Nov)",
+       "asof": "20–22 Nov (article dated 22 Nov, read 27 Nov)",
+       "source": "ski-nordique.net",
        "highlights": true,
        "items": [
-        "OGC Nice 2–3 Paris Saint-Germain (Sat 21 Nov)",
-        "Le Havre 1–5 Paris Saint-Germain (Fri 30 Oct)",
-        "Nice 5–2 Rennes (round of 30 Oct–1 Nov)",
-        "Lille beat Lens (Giroud's late winner; score not stated)",
-        "Strasbourg 1–3 Paris Saint-Germain (Sat 17 Oct)",
-        "Paris Saint-Germain 3–1 Le Mans (Sat 10 Oct)",
-        "Lens 2–1 Lyon (9–11 Oct round)",
-        "Lille 1–0 Le Havre (9–11 Oct round)",
-        "Monaco 2–2 Toulouse (9–11 Oct round)",
-        "Rennes 4–1 Auxerre (9–11 Oct round)",
-        "Troyes 0–2 Marseille (9–11 Oct round)"
+        "Troyes 3–1 Le Havre (Fri 20 Nov)",
+        "Nice 2–3 Paris Saint-Germain (Sat 21 Nov)",
+        "Lille 0–1 Lyon (Sat 21 Nov)",
+        "Monaco 1–1 Auxerre (Sat 21 Nov)",
+        "Strasbourg 0–1 Brest (Sat 21 Nov)",
+        "Lens 1–1 Toulouse (Sat 21 Nov)",
+        "Paris FC 4–0 Angers (Sun 22 Nov)",
+        "Lorient 1–1 Rennes (Sun 22 Nov)",
+        "Marseille 2–3 Le Mans (Sun 22 Nov)"
        ],
-       "note": "Older results are kept for reference. No upcoming Ligue 1 fixtures were verified today.",
+       "note": "The next round of Ligue 1 fixtures was not verified.",
        "links": [
         {
-         "text": "PSG: matchday 11 results",
-         "url": "https://www.psg.fr/content/resultats-de-la-11e-journee-de-ligue-1-2026-2027-ogc-nice-paris-saint-germain"
+         "text": "Sports Infos: matchday 11",
+         "url": "https://www.ski-nordique.net/ligue-1-20262027-classement-j11-le-psg-gagne-a-nice-mais-perd-doue-lyon-simpose-a-lille.6751885-581149.html"
         }
-       ]
+       ],
+       "gap": false
       }
      ]
     },
@@ -3850,14 +3862,28 @@
       },
       {
        "id": "uel",
-       "title": "Europa League: matchday 5 tonight, then matchday 4 results",
-       "asof": "Fixtures from UEFA (25 Nov), UK times; matchday 4 results from 5 Nov",
-       "source": "UEFA.com",
+       "title": "Europa League: matchday 5 results (26 Nov), then matchday 4",
+       "asof": "Matchday 5: 101 Great Goals, 26 Nov; matchday 4 results from 5 Nov",
+       "source": "101greatgoals.com, UEFA.com",
        "items": [
-        "Thu 26 Nov 17:45: Celta Vigo v AFC Bournemouth",
-        "17:45: Beşiktaş v Hapoel Beer Sheva · Dinamo Zagreb v Leverkusen · Marseille v Levski Sofia · Olympiacos v AC Milan · Plzeň v Benfica · Salzburg v Ararat-Armenia · Union SG v Lech Poznań",
-        "20:00: Crystal Palace v Real Sociedad · Sunderland v Jagiellonia · Torreense v Celtic · Juventus v Omonia · Lyon v Lillestrøm",
-        "20:00: Hoffenheim v Sturm Graz · Ferencváros v Celje · NEC v Rennes · OFI v Anderlecht · Sparta Prague v AZ",
+        "Beşiktaş 2–1 Hapoel Be'er Sheva",
+        "Red Bull Salzburg 2–0 Ararat-Armenia",
+        "Viktoria Plzeň 4–0 Benfica",
+        "GNK Dinamo Zagreb 0–2 Bayer Leverkusen",
+        "Olympiacos 2–4 AC Milan",
+        "Olympique Marseille 1–0 Levski Sofia",
+        "Union Saint-Gilloise 2–2 Lech Poznań",
+        "Celta Vigo 1–2 AFC Bournemouth",
+        "Sparta Prague 2–4 AZ Alkmaar",
+        "Crystal Palace 2–1 Real Sociedad",
+        "Ferencváros 0–0 Celje",
+        "Juventus 4–1 Omonia Nicosia",
+        "NEC Nijmegen 3–1 Rennes",
+        "OFI Crete 1–3 Anderlecht",
+        "Olympique Lyonnais 0–0 Lillestrøm",
+        "Torreense 1–2 Celtic",
+        "Sunderland 1–1 Jagiellonia Białystok",
+        "Hoffenheim 3–1 Sturm Graz",
         "AC Milan 0–2 Ferencváros",
         "Sparta Prague 1–3 AFC Bournemouth",
         "Crystal Palace 1–1 Hoffenheim",
@@ -3877,8 +3903,12 @@
         "Benfica 3–1 Lech Poznań",
         "Sunderland 0–2 GNK Dinamo Zagreb"
        ],
-       "note": "Tonight's games had not been played when this was built. Subtract 5 hours for Toronto.",
+       "note": "The first 18 lines are matchday 5 (26 Nov); the rest are matchday 4 (5 Nov). Matchday 6 is on 10 December.",
        "links": [
+        {
+         "text": "101 Great Goals: matchday 5 round-up",
+         "url": "https://www.101greatgoals.com/football/europa-league/europa-league-round-up-celtic-snatch-late-win-at-torreense-as-ac-milan-complete-stunning-comeback/"
+        },
         {
          "text": "UEFA.com: Europa League matchday 4 round-up",
          "url": "https://www.uefa.com/uefaeuropaleague/news/02ab-22004d716327-dd7c42bc0d91-1000--europa-league-matchday-4-round-up-ferencvaros-triumphant-/"
@@ -3916,17 +3946,16 @@
   {
    "id": "rugby",
    "title": "Rugby",
-   "summary": "England thrash New Zealand 37–12 and Ireland edge South Africa; France meet the Springboks in Sunday's Twickenham final.",
+   "summary": "Twickenham's finals weekend starts today with Italy v Fiji and Ireland v Australia; France meet South Africa for the title on Sunday.",
    "intro": "International rugby union only: the Nations Championship and other Tests. Club rugby (Top 14, Premiership, URC) is not covered.",
    "cards": [
     {
-     "t": "England rout the All Blacks; France to face South Africa in the final",
-     "tag": "Nations Championship · 21 Nov",
+     "t": "Finals weekend: Ireland open the Twickenham party against Australia",
+     "tag": "Nations Championship · 27–29 Nov",
      "gap": false,
      "w": [
-      "Twickenham roared on Saturday as England beat New Zealand 37–12, leading 19–0 at half-time. The two meet again this weekend. In Dublin, Ireland edged South Africa 20–17, and France ran past Argentina 45–17 to finish top of the northern table with 26 points, one ahead of England.",
-      "Australia won 29–26 in Cardiff, Fiji came back to beat Italy 21–16, and Scotland ran in 11 tries against Japan (RTÉ gives 67–5; Sky gives 65–7).",
-      "Finals weekend at Twickenham runs Friday to Sunday, with France v South Africa for the title on Sunday at 4.40pm UK (11.40am Toronto)."
+      "Twickenham's three-day showdown starts today. Italy meet Fiji at 4.40pm UK, then Ireland face Australia at 8.10pm (3.10pm Toronto) for fifth place. Tadhg Beirne captains an Irish side missing the banned Dan Sheehan, and Balls.ie reports plenty of tickets unsold.",
+      "Saturday has Wales v Japan and England's rematch with New Zealand, a week after England's 37–12 win. On Sunday, Scotland play Argentina before France and South Africa contest the final at 4.40pm UK (11.40am Toronto)."
      ],
      "n": [
       "Rugby union is played 15-a-side. A try, grounding the ball over the opponents' line, is worth five points, with two more for a successful conversion kick.",
@@ -3934,15 +3963,20 @@
       "On the final weekend, teams that finished in the same position in each half play each other: first against first for the title, second against second, and so on.",
       "The All Blacks are New Zealand; the Springboks are South Africa."
      ],
-     "s": "RTÉ and Sky Sports, 21 Nov; Fresh Calendars (times), read",
+     "s": "RTÉ (21 Nov) and Balls.ie (26 Nov), read 27 Nov",
      "links": [
+      {
+       "text": "Balls.ie: Ireland v Australia team news",
+       "url": "https://www.balls.ie/rugby/ireland-australia-nations-championship-london-668202",
+       "syn": "Team line-ups, kick-off time and TV details for Ireland against Australia at Twickenham."
+      },
+      {
+       "text": "RTÉ: finals weekend line-up",
+       "url": "https://www.rte.ie/sport/rugby/2026/1121/1600163-ireland-and-australia-to-battle-for-fifth-next-friday/"
+      },
       {
        "text": "RTÉ: England thrash All Blacks",
        "url": "https://www.rte.ie/sport/rugby/2026/1121/1600104-nations-championship-wrap-england-thrash-all-blacks/"
-      },
-      {
-       "text": "Sky Sports: finals weekend fixtures",
-       "url": "https://www.skysports.com/rugby-union/news/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia"
       }
      ]
     },
@@ -4072,8 +4106,8 @@
       {
        "id": "nations-fix",
        "title": "Finals weekend, Twickenham (UK time / Toronto)",
-       "asof": "Sky Sports, 21 Nov; ET from Fresh Calendars",
-       "source": "skysports.com",
+       "asof": "RTÉ and Sky Sports (21 Nov); ET converted from UK time",
+       "source": "rte.ie, skysports.com",
        "items": [
         "Fri 27 Nov, 4:40pm / 11:40am: Italy v Fiji",
         "Fri 27 Nov, 8:10pm / 3:10pm: Ireland v Australia",
@@ -4082,8 +4116,12 @@
         "Sun 29 Nov, 1:10pm / 8:10am: Scotland v Argentina",
         "Sun 29 Nov, 4:40pm / 11:40am: FINAL France v South Africa"
        ],
-       "note": "Both sources agree on all six.",
+       "note": "All six pairings match across sources.",
        "links": [
+        {
+         "text": "RTÉ: finals weekend",
+         "url": "https://www.rte.ie/sport/rugby/2026/1121/1600163-ireland-and-australia-to-battle-for-fifth-next-friday/"
+        },
         {
          "text": "Sky Sports: finals weekend fixtures",
          "url": "https://www.skysports.com/rugby-union/news/13615041/nations-championship-fixtures-france-to-play-south-africa-in-final-as-england-face-new-zealand-rematch-plus-ireland-vs-australia"
@@ -4103,16 +4141,16 @@
   {
    "id": "cricket",
    "title": "Cricket",
-   "summary": "Donald and Salt blast England to an eight-wicket win in Australia; the T20 series is level 1–1.",
+   "summary": "Third T20 in Brisbane: Overton had five wickets and Australia were 93 for 7 at the last snapshot read; the result is not yet verified.",
    "intro": "Test, one-day and T20 cricket around the world.",
    "cards": [
     {
-     "t": "Cricket: Donald and Salt blitz Australia to level the series",
-     "tag": "T20 International · 24 Nov",
+     "t": "Cricket: Overton rips through Australia in Brisbane",
+     "tag": "3rd T20I · 27 Nov · result not verified",
      "gap": false,
      "w": [
-      "England made a target of 185 look tiny on the Gold Coast. Aneurin Donald smashed 85 from 32 balls and Phil Salt 58 from 30 in an opening stand of 151 from just 61 deliveries, and England won by eight wickets with 41 balls to spare.",
-      "Australia had made 184 for 8, recovering from 84 for 5, with Nikhil Chaudhary scoring 45. The five-match Twenty20 series stands at 1–1; England had already won the one-day series 2–1. The third match is in Brisbane on Friday."
+      "Jamie Overton had a night to remember at the Gabba. At the last snapshot read, he had taken 5 wickets for 12 runs in his four overs and Australia were 93 for 7 after 13.2 overs, with England having chosen to bowl. The match was still in progress, so no result is given here.",
+      "Tom Banton is captaining England for this game. The series was level at 1–1 after England's eight-wicket romp on the Gold Coast, where Aneurin Donald hit 85 from 32 balls."
      ],
      "n": [
       "Cricket is a bat-and-ball game between two teams of 11. The batting side scores runs; the bowling side tries to get batters out, which is called taking wickets.",
@@ -4120,15 +4158,15 @@
       "'Won by eight wickets' means the side batting second passed the target having lost only two batters.",
       "England and Australia are cricket's oldest rivals."
      ],
-     "s": "Sky Sports, 24 Nov (read); ODI series result from Wikipedia's tour page",
+     "s": "ESPN live snapshot, 27 Nov; Sky Sports, 24 Nov",
      "links": [
+      {
+       "text": "ESPN: Australia v England, 3rd T20I",
+       "url": "https://www.espn.com/cricket/series/24273/game/1528708/australia-vs-england-3rd-t20i-24273"
+      },
       {
        "text": "Sky Sports: England thrash Australia in second T20I",
        "url": "https://www.skysports.com/cricket/news/13615904/england-thrash-australia-in-second-t20i-as-big-aneurin-donald-and-phil-salt-partnership-sparks-eight-wicket-win"
-      },
-      {
-       "text": "Wikipedia: England tour of Australia 2026–27",
-       "url": "https://en.wikipedia.org/wiki/English_cricket_team_in_Australia_in_2026%E2%80%9327"
       }
      ]
     },
@@ -4196,11 +4234,11 @@
       {
        "id": "cr-fix",
        "title": "Upcoming",
-       "asof": "Wikipedia International cricket 2026–27, read 26 Nov",
+       "asof": "Wikipedia schedule read 26 Nov; 3rd T20I status from ESPN 27 Nov",
        "source": "Wikipedia",
        "items": [
         "23–27 Nov: South Africa v Bangladesh, 2nd Test, Centurion (in progress; score not read)",
-        "Fri 27 Nov: Australia v England, 3rd T20I, Brisbane",
+        "Fri 27 Nov: Australia v England, 3rd T20I, Brisbane (in progress when read; result not verified)",
         "From 27 Nov: New Zealand v India, 2nd Test, Christchurch",
         "Sun 29 Nov: Australia v England, 4th T20I, Sydney",
         "Wed 2 Dec: Australia v England, 5th T20I, Canberra",
@@ -4226,35 +4264,33 @@
   {
    "id": "tennis",
    "title": "Tennis",
-   "summary": "Davis Cup in Bologna: Canada are out, beaten 2–0 by Czechia; Britain face Germany today.",
-   "intro": "World rankings, the Davis Cup finals and recent tournaments. Updated Thursday 26 November 2026.",
+   "summary": "Britain beat Germany to set up a Davis Cup semi-final with Spain; Zverev and Rybakina finish the year on top of the lists read.",
+   "intro": "World rankings, the Davis Cup finals and recent tournaments. Updated Friday 27 November 2026.",
    "cards": [
     {
-     "t": "Davis Cup: Canada's Bologna return ends at the first hurdle",
-     "tag": "Davis Cup Final 8 · 24–26 Nov",
+     "t": "Davis Cup: Britain win the decider to reach the semi-finals",
+     "tag": "Davis Cup Final 8 · 26 Nov",
      "gap": false,
      "w": [
-      "Czechia needed only the two singles to send Canada home on Tuesday. Tomas Machac beat Liam Draxl 6–2, 3–6, 6–2, then Jiri Lehecka edged Felix Auger-Aliassime 7–6(4), 6–2. Canada arrived without the injured Denis Shapovalov and Gabriel Diallo.",
-      "Great Britain meet Germany today from 9am UK (4am Toronto). The order of play pairs Cameron Norrie with Jan-Lennard Struff and Arthur Fery with Alexander Zverev, followed by doubles. No result was available when this was built."
+      "It came down to the doubles, and Henry Patten and Neal Skupski delivered, beating Kevin Krawietz and Tim Pütz 6–2, 7–6(6) to send Great Britain past Germany 2–1. Cameron Norrie had beaten Jan-Lennard Struff before Alexander Zverev levelled against Arthur Fery.",
+      "Next are Spain, who beat Austria 2–0 without picking Carlos Alcaraz for singles; Rafael Jódar came back from a set down. Britain's semi-final is on Saturday. Italy and Czechia meet in the other. Canada went out to Czechia on Tuesday."
      ],
      "n": [
       "The Davis Cup is men's tennis's international team competition, with players representing their countries.",
       "At the Final 8 each tie is decided over three matches: two singles and one doubles. The first country to win two goes through.",
       "Eight nations play a straight knockout in Bologna from 24 to 29 November. Canada won the competition once before."
      ],
-     "s": "Wikipedia and Tennis Canada (24 Nov result); LTA preview, 26 Nov",
+     "s": "Reuters via Cyprus Mail and ESPN, 26 Nov (read)",
      "links": [
       {
-       "text": "Wikipedia: 2026 Davis Cup Finals",
-       "url": "https://en.wikipedia.org/wiki/2026_Davis_Cup_Finals"
+       "text": "Cyprus Mail/Reuters: Britain beat Germany",
+       "url": "https://cyprus-mail.com/2026/11/26/patten-skupski-send-britain-past-germany-into-davis-cup-semi-finals",
+       "syn": "Patten and Skupski won the deciding doubles as Great Britain beat Germany 2–1 in Bologna."
       },
       {
-       "text": "LTA: Great Britain v Germany",
-       "url": "https://www.lta.org.uk/fan-zone/davis-cup/news/final-8-great-britain-vs-germany-results-updates"
-      },
-      {
-       "text": "Tennis Canada: Davis Cup Final 8",
-       "url": "https://www.tenniscanada.com/news/pro-tennis/2026/2026-davis-cup-final-8-bologna-canada"
+       "text": "ESPN: Spain beat Austria",
+       "url": "https://www.espn.com/tennis/story/_/id/50606263/spain-beats-austria-set-davis-cup-semifinal-vs-britain",
+       "syn": "Spain won both singles against Austria to set up a semi-final with Britain."
       }
      ]
     },
@@ -4401,8 +4437,8 @@
       {
        "id": "atp",
        "title": "ATP top 10",
-       "asof": "ranking dated 19 Oct 2026 (atptour.com, read 20 Oct) · STALE: the rankings pages could not be read on 26 Nov",
-       "source": "atptour.com",
+       "asof": "year-end rankings dated 23 Nov 2026 (Tennis World, read 27 Nov)",
+       "source": "tennisworlditalia.com",
        "cols": [
         "Rank",
         "Player",
@@ -4411,70 +4447,72 @@
        "rows": [
         [
          1,
-         "Jannik Sinner",
-         "10,950"
+         "Alexander Zverev",
+         "10,350"
         ],
         [
          2,
-         "Alexander Zverev",
-         "10,070"
+         "Jannik Sinner",
+         "7,950"
         ],
         [
          3,
          "Carlos Alcaraz",
-         "5,610"
+         "7,600"
         ],
         [
          4,
          "Ben Shelton",
-         "4,720"
+         "5,570"
         ],
         [
          5,
          "Daniil Medvedev",
-         "3,660"
+         "4,220"
         ],
         [
          6,
-         "Flavio Cobolli",
-         "3,640"
+         "Arthur Fils",
+         "3,825"
         ],
         [
          7,
-         "Felix Auger-Aliassime",
-         "3,590"
+         "Flavio Cobolli",
+         "3,680"
         ],
         [
          8,
-         "Alex de Minaur",
-         "3,430"
+         "Frances Tiafoe",
+         "3,590"
         ],
         [
          9,
-         "Frances Tiafoe",
-         "3,380"
+         "Taylor Fritz",
+         "3,300"
         ],
         [
          10,
-         "Arthur Fils",
-         "3,325"
+         "Rafael Jodar",
+         "3,234"
         ]
        ],
        "movement": true,
        "key": 1,
        "links": [
         {
-         "text": "ATP Tour: singles rankings",
-         "url": "https://www.atptour.com/en/rankings/singles"
+         "text": "Tennis World: ATP rankings, 23 November",
+         "url": "https://www.tennisworlditalia.com/en/tennis/news/Ranking_Atp_Wta/108649/atp-rankings-november-23-2026-zverev-finishes-above-10000-points-as-alcaraz-closes-in-on-sinner/",
+         "syn": "Zverev finishes on 10,350 points, ahead of Sinner and Alcaraz."
         }
        ],
-       "note": "Updated after the Shanghai Masters; Novak Djokovic is no longer in the top 10 on this page."
+       "note": "A secondary source; atptour.com could not be read. The Move column compares with the last table saved here, dated 19 October.",
+       "gap": false
       },
       {
        "id": "wta",
        "title": "WTA top 10",
-       "asof": "wtatennis.com page re-read 19 Oct (no date shown; identical to 11 Oct figures); post-Wuhan update not confirmed · not re-checked 21 Oct (page refused) · STALE: the rankings pages could not be read on 26 Nov",
-       "source": "wtatennis.com",
+       "asof": "points as of 16 Nov 2026 (Tennishead via Yahoo); order matches the WTA year-end article (19 Nov, updated 25 Nov), read 27 Nov",
+       "source": "sports.yahoo.com, wtatennis.com",
        "cols": [
         "Rank",
         "Player",
@@ -4484,47 +4522,47 @@
         [
          1,
          "Elena Rybakina",
-         "9,696"
+         "8,099"
         ],
         [
          2,
-         "Aryna Sabalenka",
-         "7,550"
+         "Mirra Andreeva",
+         "7,806"
         ],
         [
          3,
-         "Mirra Andreeva",
-         "6,371"
+         "Aryna Sabalenka",
+         "6,685"
         ],
         [
          4,
-         "Jessica Pegula",
-         "6,225"
+         "Coco Gauff",
+         "6,163"
         ],
         [
          5,
-         "Coco Gauff",
-         "5,974"
+         "Jessica Pegula",
+         "6,160"
         ],
         [
          6,
          "Elina Svitolina",
-         "5,024"
+         "5,921"
         ],
         [
          7,
-         "Karolina Muchova",
-         "4,773"
+         "Linda Noskova",
+         "4,743"
         ],
         [
          8,
-         "Linda Noskova",
-         "4,679"
+         "Karolina Muchova",
+         "4,665"
         ],
         [
          9,
          "Iga Swiatek",
-         "3,999"
+         "4,188"
         ],
         [
          10,
@@ -4534,13 +4572,19 @@
        ],
        "movement": true,
        "key": 1,
-       "note": "Rybakina and Sabalenka were reported at Nos 1 and 2 in early October. Exact points are from the WTA page as read on 11 Oct and could not be refreshed today.",
+       "note": "Rybakina finishes year-end No. 1 for the first time. The Move column compares with the last table saved here, from October.",
        "links": [
         {
-         "text": "WTA: singles rankings",
-         "url": "https://www.wtatennis.com/rankings/singles"
+         "text": "WTA: 2026 year-end rankings wrap",
+         "url": "https://www.wtatennis.com/news/4610892/the-2026-year-end-rankings-wrap-milestones-movers-records-and-more",
+         "syn": "Elena Rybakina ends a season as world No. 1 for the first time; Mirra Andreeva is second."
+        },
+        {
+         "text": "Yahoo: WTA top 10 with points",
+         "url": "https://sports.yahoo.com/articles/wta-top-10-looks-end-130000469.html"
         }
-       ]
+       ],
+       "gap": false
       },
       {
        "id": "shanghai",
@@ -4599,16 +4643,16 @@
   {
    "id": "squash",
    "title": "Squash",
-   "summary": "New rankings on 23 Nov keep Asal and Orfi on top; quarter-finals under way in Islamabad.",
+   "summary": "Semi-final day in Islamabad, with home hope Asim Khan facing Yee Xian Siow; Asal and Orfi top the rankings.",
    "intro": "The PSA Tour and the world rankings.",
    "cards": [
     {
-     "t": "Squash: Hossam topples the top seed in Islamabad; Asal and Orfi still No. 1",
-     "tag": "PSA Tour · 23–26 Nov",
+     "t": "Squash: home hope Asim Khan reaches the Islamabad semi-finals",
+     "tag": "PSA Tour · 27 Nov",
      "gap": false,
      "w": [
-      "The upset of the week in Islamabad came on Wednesday, when Hazem Hossam stunned top seed Noor Zaman 3–2 at the CAS International. Hossam's run then ended in a five-game quarter-final against Yee Xian Siow, who is listed to play Asim Khan in Friday's semi-final; the final is on Saturday.",
-      "The world rankings dated 23 November are led by Mostafa Asal among the men and Amina Orfi among the women."
+      "Pakistan's Asim Khan has given the Islamabad crowd someone to shout for. The fourth seed beat Malaysia's Syafiq Kamal 3–1 in 52 minutes and meets sixth seed Yee Xian Siow in today's semi-final. Marwan Assal faces Joachim Chuah in the other, with the final on Saturday.",
+      "In the world rankings dated 23 November, Mostafa Asal leads the men and Amina Orfi the women."
      ],
      "n": [
       "Squash is played in an enclosed court, with players taking turns to hit a small rubber ball against the front wall.",
@@ -4616,15 +4660,16 @@
       "The PSA is the body that runs the professional tour. Tournaments come in tiers; the Islamabad event is in the Copper tier, with US$40,000 in prize money.",
       "A 'seed' is a player's ranking position within a tournament draw."
      ],
-     "s": "PSA Squash Tour event page (read 26 Nov; scores taken from game-by-game tables) and Squash Info rankings of 23 Nov",
+     "s": "24News, 26 Nov, and PSA event page, read 27 Nov",
      "links": [
       {
-       "text": "PSA: CAS International Squash Championships",
-       "url": "https://www.psasquashtour.com/tournament/cas-international-squash-championships-2026/"
+       "text": "24News: Asim Khan reaches semi-finals",
+       "url": "https://www.24newshd.tv/26-Nov-2026/pakistan-s-asim-khan-reaches-semi-finals-chief-air-staff-international-squash-championship",
+       "syn": "Asim Khan beat Syafiq Kamal 11-8, 9-11, 11-8, 11-6 to reach the last four."
       },
       {
-       "text": "Squash Info: rankings",
-       "url": "https://www.squashinfo.com/rankings"
+       "text": "PSA: CAS International",
+       "url": "https://www.psasquashtour.com/tournament/cas-international-squash-championships-2026/"
       }
      ]
     }
@@ -4808,7 +4853,7 @@
       {
        "id": "sq-fix",
        "title": "Upcoming",
-       "asof": "PSA event page, read 26 Nov",
+       "asof": "PSA event page, read 27 Nov (CAS) and 26 Nov (others)",
        "source": "PSA Squash Tour",
        "items": [
         "Fri 27 Nov: CAS International semi-finals, Islamabad (Siow v Asim Khan listed)",
@@ -4853,7 +4898,7 @@
       "The Asian Games is a multi-sport event held every four years where the best Asian nations compete. Winning gold in hockey earns an automatic place at the next Olympics, which is why India's wins matter beyond the medals.",
       "The World Cup is held every four years, and the Pro League is a long home-and-away league played between the top national teams."
      ],
-     "s": "FIH Pro League page, read 26 Nov",
+     "s": "FIH Pro League page, read 26 Nov · searched again 27 Nov; nothing newer verified",
      "links": [
       {
        "text": "FIH: Pro League",
@@ -4962,7 +5007,7 @@
       "The regular season is 162 games, so single results matter less than in football and the best teams still lose about 60 games.",
       "In the off-season, players whose contracts have ended can sign with any club as free agents. Teams can also trade players with each other."
      ],
-     "s": "MLB.com, 24 and 25 Nov (read)",
+     "s": "MLB.com, 24 and 25 Nov (read) · no newer move verified 27 Nov",
      "links": [
       {
        "text": "MLB.com: priorities after the Taira deal",
@@ -5026,32 +5071,33 @@
   {
    "id": "basketball",
    "title": "Basketball",
-   "summary": "Raptors are 6-11 after a 116–111 home loss to Milwaukee; Brooklyn visit on Friday.",
+   "summary": "Raptors (6-11) host Brooklyn tonight at 7.30pm ET.",
    "intro": "Raptors and the NBA.",
    "cards": [
     {
-     "t": "Raptors: one win, then another home setback",
-     "tag": "20–23 Nov",
+     "t": "Raptors look to bounce back against Brooklyn",
+     "tag": "Tonight · 27 Nov",
      "w": [
-      "Scottie Barnes scored 29 as Toronto won 105–102 in Detroit on 20 November in the NBA Cup, snapping a six-game losing streak. The relief was brief: Milwaukee won 116–111 at Scotiabank Arena on Monday despite 31 points from Barnes, with Tyler Herro scoring 32.",
-      "At 6-11, and without the injured Kawhi Leonard, the Raptors host Brooklyn on Friday and Denver on Sunday."
+      "The Raptors get a chance to steady themselves tonight, hosting Brooklyn at Scotiabank Arena at 7.30pm ET. Toronto are 6-11, tenth in the East on CBS Sports' page; the Nets are 4-13.",
+      "Monday ended in a 116–111 home loss to Milwaukee despite 31 points from Scottie Barnes. Denver visit on Sunday."
      ],
      "n": [
       "The NBA has 30 teams and an 82-game regular season. Each team has five players on court. A shot scores 2 points, or 3 from beyond the arc, and a free throw scores 1.",
       "The top six teams in each conference make the playoffs outright, and seeds 7 to 10 play a \"play-in\" tournament for the last two places. The playoffs are four rounds, each a best-of-seven.",
       "There is a salary cap and a draft, which keeps spending closer than in most sports."
      ],
-     "s": "ESPN game pages, 20 and 23 Nov; schedule dates from Wikipedia",
+     "s": "CBS Sports, read 27 Nov; ESPN, 23 Nov",
      "links": [
       {
-       "text": "ESPN: Raptors 105–102 Pistons",
-       "url": "https://africa.espn.com/nba/game?gameId=401909308"
+       "text": "CBS Sports: Raptors",
+       "url": "https://www.cbssports.com/nba/teams/tor/toronto-raptors/"
       },
       {
        "text": "ESPN: Bucks 116–111 Raptors",
        "url": "https://www.espn.com/nba/recap?gameId=401910039"
       }
-     ]
+     ],
+     "gap": false
     }
    ],
    "groups": [
@@ -5063,8 +5109,8 @@
       {
        "id": "rap",
        "title": "Raptors: recent results and next games",
-       "asof": "23 Nov results; next games from the season schedule (times not read)",
-       "source": "ESPN, Wikipedia",
+       "asof": "record and next games from CBS Sports, read 27 Nov (times ET)",
+       "source": "cbssports.com, ESPN",
        "cols": [
         "Date",
         "Game",
@@ -5082,18 +5128,23 @@
          "L 111–116"
         ],
         [
-         "27 Nov",
+         "27 Nov, 7:30pm",
          "v Brooklyn Nets",
          "Upcoming"
         ],
         [
-         "29 Nov",
+         "29 Nov, 6pm",
          "v Denver Nuggets",
          "Upcoming"
         ],
         [
-         "1 Dec",
+         "1 Dec, 8:30pm",
          "at Houston Rockets",
+         "Upcoming"
+        ],
+        [
+         "3 Dec, 8pm",
+         "at San Antonio Spurs",
          "Upcoming"
         ]
        ],
@@ -5126,32 +5177,33 @@
   {
    "id": "ice-hockey",
    "title": "Ice hockey",
-   "summary": "Leafs beat the Islanders 4–2 to end a nine-game winless run; at Boston on Friday.",
+   "summary": "Leafs (9-14-3) play an afternoon game at Boston today, then visit Pittsburgh on Saturday.",
    "intro": "Maple Leafs and the NHL.",
    "cards": [
     {
-     "t": "Maple Leafs snap nine-game slide on McKenna winner",
-     "tag": "W 4–2 at Islanders · 23 Nov",
+     "t": "Maple Leafs head to Boston looking for two in a row",
+     "tag": "Today · 27 Nov",
      "w": [
-      "At last. Down 2–0 on Long Island, the Leafs scored four in a row and beat the Islanders 4–2 on Monday, with Gavin McKenna's third-period goal the winner and Anthony Stolarz stopping 20 of 22 shots. It was their first win since 31 October.",
-      "The run had included a 4–3 shootout loss to Los Angeles after leading 3–0, and a 4–3 defeat to Columbus after leading 3–1. At 9-14-3, Toronto now visit Boston on Friday and Pittsburgh on Saturday."
+      "One win has broken the spell; now the Leafs want a second. They face the Bruins at TD Garden today, at 1pm Toronto time according to ESPN's preview text (its header shows 6:00 PM with no time zone). Toronto are 9-14-3 and 1-8-1 over their last ten, against Boston's 15-8-1.",
+      "ESPN lists a long Toronto injury report, including Max Domi. Monday's 4–2 win on Long Island, sealed by Gavin McKenna's goal, ended a nine-game winless run."
      ],
      "n": [
       "The NHL has 32 teams and an 82-game season. Six skaters and a goalie play at a time, over three 20-minute periods. Substitutions happen on the fly, so lines of players rotate every minute or so.",
       "A record is written wins–losses–overtime losses. A win is 2 points. A regulation loss is 0. A loss in overtime or a shootout earns 1 point, which is why the third number matters.",
       "Sixteen teams make the Stanley Cup playoffs, four rounds of best-of-seven. The Leafs are one of the Original Six teams and play in the Atlantic Division. The general manager builds the roster and the coach runs the games."
      ],
-     "s": "NHL.com and Yahoo Sports, 23–26 Nov",
+     "s": "ESPN preview, 26 Nov (read 27 Nov); NHL.com, 23 Nov",
      "links": [
+      {
+       "text": "ESPN: Leafs at Bruins preview",
+       "url": "https://africa.espn.com/nhl/preview/_/gameId/401892795"
+      },
       {
        "text": "NHL.com: Leafs end nine-game slide",
        "url": "https://www.nhl.com/news/toronto-maple-leafs-gain-confidence-by-snapping-nine-game-slide"
-      },
-      {
-       "text": "Yahoo: Leafs 4, Islanders 2 box score",
-       "url": "https://sports.yahoo.com/nhl/toronto-maple-leafs-new-york-islanders-2026112312/"
       }
-     ]
+     ],
+     "gap": false
     }
    ],
    "groups": [
@@ -5164,8 +5216,8 @@
       {
        "id": "tml-record",
        "title": "Maple Leafs record",
-       "asof": "After 23 Nov (Yahoo Sports team-game listings)",
-       "source": "sports.yahoo.com",
+       "asof": "9-14-3 on ESPN preview dated 26 Nov (read 27 Nov)",
+       "source": "espn.com, sports.yahoo.com",
        "items": [
         "9-14-3"
        ]
@@ -5263,7 +5315,7 @@
       {
        "id": "tml-fix",
        "title": "Upcoming games",
-       "asof": "Dates from Yahoo Sports schedule; start times not read",
+       "asof": "Dates from Yahoo Sports schedule (26 Nov); only the Boston start time was read",
        "source": "sports.yahoo.com",
        "cols": [
         "Date and time",
@@ -5271,7 +5323,7 @@
        ],
        "rows": [
         [
-         "Fri 27 Nov",
+         "Fri 27 Nov, 1pm ET (ESPN preview text)",
          "at Boston Bruins"
         ],
         [
@@ -5313,16 +5365,16 @@
   {
    "id": "f1",
    "title": "F1",
-   "summary": "Verstappen wins in Las Vegas from Norris and Piastri; Qatar GP is this weekend.",
+   "summary": "Qatar GP weekend begins today; the race is on Sunday at 4pm UK (11am Toronto).",
    "intro": "Drivers and constructors, as of the Las Vegas Grand Prix. One race follows Qatar.",
    "cards": [
     {
-     "t": "Formula 1: Verstappen wins a wild one in Las Vegas",
-     "tag": "Las Vegas GP · 21 Nov",
+     "t": "Formula 1: Qatar opens its weekend under the lights",
+     "tag": "Qatar GP · 27–29 Nov",
      "gap": false,
      "w": [
-      "Max Verstappen turned pole position into a third Las Vegas victory, holding off Lando Norris by 0.639 seconds with Oscar Piastri third, after a race in which the lead changed hands again and again. Champion Kimi Antonelli faded late to fourth, and George Russell dropped to ninth after a lock-up.",
-      "Verstappen now has 304 points to Antonelli's 402, with Lewis Hamilton third on 267. Mercedes already hold the constructors' crown. The paddock moves straight to Qatar, where the race starts on Sunday at 4pm UK (11am Toronto)."
+      "Cars take to Lusail today, with first practice at 1.30pm UK (8.30am Toronto) and second at 5pm (noon). Qualifying is Saturday at 6pm UK and the race Sunday at 4pm. No session results were available when this was built.",
+      "Kimi Antonelli is already champion on 402 points. Max Verstappen, fresh from winning in Las Vegas, is second on 304 and Lewis Hamilton third on 267. Sky calls this the penultimate round."
      ],
      "n": [
       "Formula 1 is the top level of single-seater motor racing. Teams, called constructors, each run two cars.",
@@ -5330,15 +5382,20 @@
       "Pole position is first place on the starting grid, earned in qualifying. A lock-up is when a wheel stops turning under heavy braking.",
       "With Antonelli already champion, much of the interest now is in the fight for the places behind him."
      ],
-     "s": "Formula1.com race report (22 Nov); standings from Crash.net and RacingNews365, which match",
+     "s": "Sky Sports (22 Nov) and Formula1.com schedule, read 27 Nov; standings after Las Vegas",
      "links": [
       {
-       "text": "Formula1.com: Verstappen wins in Las Vegas",
-       "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
+       "text": "Sky Sports: Qatar GP schedule",
+       "url": "https://www.skysports.com/f1/news/13613188/qatar-gp-2026-dates-schedule-weather-uk-start-time-and-how-to-watch-or-stream-f1-race-at-lusail-international-circuit-live-on-sky-sports",
+       "syn": "Weekend session times in UK time. No sprint is listed."
       },
       {
-       "text": "Crash.net: standings after Las Vegas",
-       "url": "https://www.crash.net/f1/results/1110733/1/new-f1-championship-standings-after-las-vegas-grand-prix"
+       "text": "Formula1.com: Qatar GP",
+       "url": "https://www.formula1.com/en/racing/2026/qatar"
+      },
+      {
+       "text": "Formula1.com: Las Vegas race report",
+       "url": "https://www.formula1.com/en/latest/article/verstappen-wins-exhilarating-las-vegas-grand-prix-from-norris-and-piastri.2eeBWqekZdir9mdDVK9YVX"
       }
      ]
     },
@@ -5854,8 +5911,8 @@
       {
        "id": "f1-qatar",
        "title": "Qatar Grand Prix weekend (UK time / Toronto)",
-       "asof": "Sky Sports, ESPN and Grande Prêmio, read 26 Nov",
-       "source": "skysports.com, espn.com, grandepremio.com",
+       "asof": "Sky Sports and Formula1.com, read 27 Nov",
+       "source": "skysports.com, formula1.com",
        "items": [
         "Fri 27 Nov: Practice 1, 1:30pm / 8:30am · Practice 2, 5pm / 12pm",
         "Sat 28 Nov: Practice 3, 2:30pm / 9:30am · Qualifying, 6pm / 1pm",
@@ -5931,157 +5988,157 @@
   }
  ],
  "quiz": {
-  "title": "Daily quiz: Wednesday 25 November 2026",
-  "intro": "Questions on stories verified in earlier runs and still in the pages (today's feeds could not be read).",
+  "title": "Daily quiz: Friday 27 November 2026",
+  "intro": "Ten questions on today's pages.",
   "questions": [
    {
-    "q": "How big is the loan for Ukraine that the European Commission has proposed, at issue at the 26 November EU summit?",
+    "q": "When will EU leaders try again to agree their long-term budget?",
     "options": [
-     "€4.5bn",
-     "€45bn",
-     "€70bn",
-     "€204bn"
+     "3 December",
+     "17 December",
+     "31 December",
+     "15 January"
     ],
     "answer": 1,
-    "explain": "€45bn, against an estimated gap of about €70bn (Euronews)."
+    "explain": "The summit ended with no deal; they try again on 17 December (Euronews)."
    },
    {
-    "q": "Who was reinstated as Nvidia's chief executive on 23 November?",
+    "q": "How many of the 27 EU states backed the proposed €45bn Ukraine loan?",
     "options": [
-     "Colette Kress",
-     "Harvey C. Jones",
-     "Jensen Huang",
-     "Elon Musk"
+     "19",
+     "22",
+     "24",
+     "27"
     ],
     "answer": 2,
-    "explain": "The board voted unanimously to bring back Jensen Huang."
+    "explain": "24 of 27, according to the Copenhagen Post (Ritzau)."
    },
    {
-    "q": "What will France's minimum wage be, gross per month, from 1 December?",
+    "q": "In which country were two Italian technicians killed by falling debris?",
     "options": [
-     "€1,501.94",
-     "€1,867.02",
-     "€1,897.35",
-     "€2,000.00"
-    ],
-    "answer": 2,
-    "explain": "€1,897.35 gross, a 1.6% rise (Élysée)."
-   },
-   {
-    "q": "When is the Bank of Canada's next rate decision?",
-    "options": [
-     "2 December",
-     "9 December",
-     "16 December",
-     "13 January"
+     "Qatar",
+     "Kuwait",
+     "Oman",
+     "Bahrain"
     ],
     "answer": 1,
-    "explain": "9 December. The policy rate is 2.5% (CTC News)."
+    "explain": "Kuwait. Iran denies carrying out an attack."
    },
    {
-    "q": "What was the score when Liverpool played Manchester United on 22 November?",
+    "q": "What was US third-quarter annualised growth revised to?",
     "options": [
-     "2–0",
-     "3–1",
-     "4–0",
-     "1–1"
+     "2.1%",
+     "3.4%",
+     "4.3%",
+     "5.0%"
     ],
     "answer": 2,
-    "explain": "Liverpool won 4–0."
+    "explain": "4.3%, up from a first estimate of 3.4%."
    },
    {
-    "q": "Which team will Bournemouth face away in the Europa League on 26 November?",
+    "q": "When does Statistics Canada release third-quarter GDP?",
     "options": [
-     "Real Sociedad",
-     "Celta Vigo",
-     "AC Milan",
-     "Sparta Prague"
+     "Friday 27 November",
+     "Monday 30 November",
+     "Wednesday 9 December",
+     "Tuesday 1 December"
     ],
     "answer": 1,
-    "explain": "Celta Vigo, kick-off 5.45pm UK."
+    "explain": "Monday 30 November at 8:30am ET."
    },
    {
-    "q": "Who will France play in the Nations Championship final at Twickenham?",
+    "q": "Who scored Bournemouth's winner in Vigo?",
     "options": [
-     "England",
-     "New Zealand",
-     "Ireland",
-     "South Africa"
-    ],
-    "answer": 3,
-    "explain": "France meet South Africa on Sunday 29 November."
-   },
-   {
-    "q": "Who won the Las Vegas Grand Prix?",
-    "options": [
-     "Lando Norris",
-     "Kimi Antonelli",
-     "Max Verstappen",
-     "Oscar Piastri"
+     "Amine Adli",
+     "Iago Aspas",
+     "Rayan",
+     "Bafode Diakité"
     ],
     "answer": 2,
-    "explain": "Verstappen, from Norris and Piastri."
+    "explain": "Substitute Rayan; Adli had equalised."
    },
    {
-    "q": "Which country knocked Canada out of the Davis Cup Final 8?",
+    "q": "Who will Great Britain face in the Davis Cup semi-final?",
     "options": [
      "Italy",
      "Czechia",
-     "Germany",
+     "Austria",
      "Spain"
     ],
-    "answer": 1,
-    "explain": "Czechia won the quarter-final 2–0."
+    "answer": 3,
+    "explain": "Spain, who beat Austria 2–0."
    },
    {
-    "q": "Who scored the winning goal as the Maple Leafs ended their nine-game winless run?",
+    "q": "Who leads the year-end ATP list dated 23 November?",
     "options": [
-     "Auston Matthews",
-     "William Nylander",
-     "Gavin McKenna",
-     "John Tavares"
+     "Jannik Sinner",
+     "Carlos Alcaraz",
+     "Alexander Zverev",
+     "Ben Shelton"
     ],
     "answer": 2,
-    "explain": "Gavin McKenna scored the winner in the 4–2 win over the Islanders."
+    "explain": "Zverev, on 10,350 points."
+   },
+   {
+    "q": "What are London's striking Tube drivers in dispute over?",
+    "options": [
+     "A proposed four-day week",
+     "Ticket prices",
+     "The Elizabeth line",
+     "Station closures"
+    ],
+    "answer": 0,
+    "explain": "A proposed four-day working week for drivers."
+   },
+   {
+    "q": "Which town holds its Christmas lights launch tonight, Friday 27 November?",
+    "options": [
+     "Avignon",
+     "Vaison-la-Romaine",
+     "Orange",
+     "Sablet"
+    ],
+    "answer": 2,
+    "explain": "Orange. Avignon follows on Saturday and Vaison on Sunday."
    }
   ]
  },
  "today": {
   "title": "Today: what's new",
   "intro": "Only fresh news from the last day or two, and the sport you must not miss. Everything ongoing, with primers and background, is further down the page.",
-  "stamp": "Thu 26 Nov 2026, Toronto morning. Built from search results and the pages they led to; the direct feeds were refused. Not verified: ATP/WTA rankings, Championship and Ligue 1 tables, today's Davis Cup and Europa League results, Leafs and Raptors start times, new news for Windsor, Finchampstead, Sablet and Orange.",
+  "stamp": "Fri 27 Nov 2026, Toronto early morning. Built from search results and the pages they led to; the direct feeds were refused. Not verified: the Brisbane T20 result, Qatar practice, a current Championship table, and new local news for Windsor, Finchampstead and Sablet.",
   "blocks": [
    {
     "id": "t-world",
     "title": "World: breaking",
     "items": [
      {
-      "t": "EU leaders clash over budget and Ukraine money",
-      "b": "The Brussels summit weighs a 2028–2034 budget and a proposed €45bn Ukraine loan; Germany has threatened a veto. Outcome not yet known.",
-      "when": "26 Nov",
+      "t": "EU budget summit ends with no deal",
+      "b": "Leaders will try again on 17 December; the €45bn Ukraine loan question also waits.",
+      "when": "27 Nov",
       "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/26/eu-budget-and-ukraine-aid-headed-for-collision-at-turbulent-summit"
+      "url": "https://www.euronews.com/2026/11/27/the-art-of-no-deal-an-eu-summit-of-spectacular-dysfunction"
      },
      {
-      "t": "Missiles intercepted over Riyadh, explosion in Sanaa",
-      "b": "The Saudi-led coalition says it shot down two Houthi ballistic missiles; a tanker captain reported a blast west of Dubai.",
+      "t": "Two Italians killed in Kuwait; Iran denies attack",
+      "b": "Kuwait says debris fell as it intercepted Iranian drones; Tehran calls the accusation false.",
+      "when": "26–27 Nov",
+      "src": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/11/26/two-italians-killed-after-iranian-drones-strike-facility-says-kuwait"
+     },
+     {
+      "t": "Zelenskyy: major strike on power grid coming",
+      "b": "He cites Ukrainian intelligence; a US envoy says talks are deadlocked over territory.",
+      "when": "26 Nov",
+      "src": "PBS/AP",
+      "url": "https://www.pbs.org/newshour/world/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid"
+     },
+     {
+      "t": "Trump calls upgraded GDP data 'fake'",
+      "b": "Q3 growth was revised to 4.3% annualised; he gave no evidence.",
       "when": "26 Nov",
       "src": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/liveblog/2026/11/26/iran-war-live-explosion-rocks-sanaa-missiles-intercepted-over-riyadh"
-     },
-     {
-      "t": "Tech shares rebound as new US tariffs loom",
-      "b": "Asia recovered after a heavy sell-off; Washington has proposed tariffs of up to 20% on 14 economies.",
-      "when": "26 Nov",
-      "src": "Euronews",
-      "url": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower"
-     },
-     {
-      "t": "Jensen Huang is back running Nvidia",
-      "b": "The board reinstated him on Monday, 11 days after he resigned; investigations continue.",
-      "when": "23 Nov",
-      "src": "NVIDIA",
-      "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director"
+      "url": "https://www.aljazeera.com/economy/2026/11/26/trump-calls-gdp-data-released-before-midterms-fake-demands-investigation"
      }
     ]
    },
@@ -6090,39 +6147,25 @@
     "title": "Local: Toronto, France, UK",
     "items": [
      {
-      "t": "Toronto: police at 40-plus LCBO stores; musician killed",
-      "b": "Headlines only: an anti-theft blitz, and a death after a midtown home-invasion shooting.",
-      "when": "25 Nov",
-      "src": "Global News",
-      "url": "https://globalnews.ca/live/toronto/"
+      "t": "Toronto: musician killed in home invasion",
+      "b": "No arrests reported; police count a 29% rise in home invasions reported this year.",
+      "when": "25–26 Nov",
+      "src": "CP24",
+      "url": "https://www.cp24.com/local/toronto/2026/11/26/unthinkable-loss-toronto-musician-shot-and-killed-during-casa-loma-home-invasion/"
      },
      {
-      "t": "France: minimum wage up 1.6% on 1 December",
-      "b": "The SMIC rises to €1,897.35 gross a month.",
-      "when": "25 Nov",
-      "src": "Élysée",
-      "url": "https://www.elysee.fr/emmanuel-macron/2026/11/25/compte-rendu-du-conseil-des-ministres-du-25-novembre-2026"
+      "t": "London: Tube strike runs to late morning",
+      "b": "Circle, Piccadilly and Waterloo & City trains were expected to be off until 11:59am; normal service about 6pm.",
+      "when": "27 Nov",
+      "src": "Time Out",
+      "url": "https://www.timeout.com/london/news/november-2026-tube-strikes-how-to-travel-today-112626"
      },
      {
-      "t": "Vaucluse gets a new prefect",
-      "b": "Olivier de Mazières succeeds Thierry Suquet.",
-      "when": "25 Nov",
-      "src": "L'Écho du Mardi",
-      "url": "https://www.echodumardi.com/actualite/olivier-de-mazieres-est-le-nouveau-prefet-de-vaucluse/"
-     },
-     {
-      "t": "UK warns firms of Russian sabotage threat",
-      "b": "Companies supporting Ukraine could be targets, officials say; Russia denies it.",
-      "when": "25 Nov",
-      "src": "Al Jazeera",
-      "url": "https://www.aljazeera.com/news/2026/11/25/uk-warns-companies-of-potential-russian-sabotage-threat"
-     },
-     {
-      "t": "Poole: Twin Sails Bridge to close next week",
-      "b": "Closed 30 November to the morning of 5 December; Poole Bridge stays open.",
-      "when": "26 Nov",
-      "src": "Bournemouth Post",
-      "url": "https://bournemouthpost.co.uk/news/"
+      "t": "Orange lights up tonight",
+      "b": "Free launch from 6.30pm at the town hall; Avignon follows Saturday and Vaison on Sunday.",
+      "when": "27 Nov",
+      "src": "Provence Guide",
+      "url": "https://www.provenceguide.com/fetes-et-manifestations/orange/lancement-des-illuminations/provence-7169452-1.html"
      }
     ]
    },
@@ -6131,96 +6174,64 @@
     "title": "Sport: results",
     "items": [
      {
-      "t": "Champions League: Liverpool win 3–0, City and United draw",
-      "b": "Liverpool won at Club Brugge; City drew 2–2 with Napoli, United 2–2 at Sporting, Arsenal 1–1 with Dortmund; Villa lost at Galatasaray.",
-      "when": "24–25 Nov",
-      "src": "Dave.sport and Sky Sports",
-      "url": "https://www.skysports.com/champions-league-scores-fixtures"
+      "t": "Bournemouth win 2–1 in Vigo with ten men",
+      "b": "Palace beat Real Sociedad 2–1, Celtic won 2–1 at Torreense and Sunderland drew 1–1.",
+      "when": "26 Nov",
+      "src": "RTÉ, 101 Great Goals",
+      "url": "https://www.101greatgoals.com/football/europa-league/europa-league-round-up-celtic-snatch-late-win-at-torreense-as-ac-milan-complete-stunning-comeback/"
      },
      {
-      "t": "England win T20 in Australia with 41 balls to spare",
-      "b": "Donald hit 85 from 32 balls; the series is 1–1.",
-      "when": "24 Nov",
-      "src": "Sky Sports",
-      "url": "https://www.skysports.com/cricket/news/13615904/england-thrash-australia-in-second-t20i-as-big-aneurin-donald-and-phil-salt-partnership-sparks-eight-wicket-win"
+      "t": "Britain into Davis Cup semi-finals",
+      "b": "They beat Germany 2–1 and meet Spain on Saturday.",
+      "when": "26 Nov",
+      "src": "Reuters via Cyprus Mail",
+      "url": "https://cyprus-mail.com/2026/11/26/patten-skupski-send-britain-past-germany-into-davis-cup-semi-finals"
      },
      {
-      "t": "Canada out of the Davis Cup",
-      "b": "Czechia won both singles to take the quarter-final 2–0.",
-      "when": "24 Nov",
-      "src": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/2026_Davis_Cup_Finals"
+      "t": "Cricket: Overton takes five in Brisbane",
+      "b": "Australia 93 for 7 after 13.2 overs when read; result not verified.",
+      "when": "27 Nov",
+      "src": "ESPN",
+      "url": "https://www.espn.com/cricket/series/24273/game/1528708/australia-vs-england-3rd-t20i-24273"
      },
      {
-      "t": "Leafs end their slide; Raptors lose to Bucks",
-      "b": "Toronto beat the Islanders 4–2; the Raptors fell 116–111 at home.",
-      "when": "23 Nov",
-      "src": "NHL.com, ESPN",
-      "url": "https://www.nhl.com/news/toronto-maple-leafs-gain-confidence-by-snapping-nine-game-slide"
-     },
-     {
-      "t": "Weekend recap: England and Verstappen",
-      "b": "England beat New Zealand 37–12; Verstappen won in Las Vegas; Liverpool beat United 4–0.",
-      "when": "21–22 Nov",
-      "src": "RTÉ, Formula1.com",
-      "url": "https://www.rte.ie/sport/rugby/2026/1121/1600104-nations-championship-wrap-england-thrash-all-blacks/"
+      "t": "Squash: Asim Khan into Islamabad semi-finals",
+      "b": "He beat Syafiq Kamal 3–1.",
+      "when": "26 Nov",
+      "src": "24News",
+      "url": "https://www.24newshd.tv/26-Nov-2026/pakistan-s-asim-khan-reaches-semi-finals-chief-air-staff-international-squash-championship"
      }
     ]
    }
   ],
   "fixtures": [
    {
-    "day": "Thu 26 Nov",
-    "rows": [
-     [
-      "Tennis",
-      "Davis Cup Final 8: Great Britain v Germany, Bologna",
-      "9:00am UK / 4:00am ET"
-     ],
-     [
-      "Football",
-      "Europa League: Celta Vigo v Bournemouth",
-      "5:45pm UK / 12:45pm ET"
-     ],
-     [
-      "Football",
-      "Europa League: Crystal Palace v Real Sociedad; Sunderland v Jagiellonia",
-      "8:00pm UK / 3:00pm ET"
-     ]
-    ]
-   },
-   {
     "day": "Fri 27 Nov",
     "rows": [
      [
       "F1",
       "Qatar GP practice",
-      "1:30pm and 5pm UK / 8:30am and 12pm ET"
-     ],
-     [
-      "Rugby",
-      "Italy v Fiji; Ireland v Australia (Twickenham)",
-      "4:40pm and 8:10pm UK / 11:40am and 3:10pm ET"
-     ],
-     [
-      "Cricket",
-      "Australia v England, 3rd T20I, Brisbane",
-      "Time not read"
-     ],
-     [
-      "Football",
-      "Nottingham Forest v Chelsea",
-      "8:00pm UK / 3:00pm ET"
+      "1.30pm and 5pm UK / 8.30am and 12pm ET"
      ],
      [
       "Ice hockey",
       "Leafs at Boston",
-      "Time not read"
+      "1pm ET (ESPN preview text)"
+     ],
+     [
+      "Rugby",
+      "Italy v Fiji; Ireland v Australia (Twickenham)",
+      "4.40pm and 8.10pm UK / 11.40am and 3.10pm ET"
+     ],
+     [
+      "Football",
+      "Nottingham Forest v Chelsea",
+      "8pm UK / 3pm ET"
      ],
      [
       "Basketball",
       "Raptors v Brooklyn",
-      "Time not read"
+      "7.30pm ET"
      ]
     ]
    },
@@ -6229,28 +6240,33 @@
     "rows": [
      [
       "Rugby",
-      "England v New Zealand, Twickenham",
-      "4:40pm UK / 11:40am ET"
+      "Wales v Japan; England v New Zealand",
+      "1.10pm and 4.40pm UK / 8.10am and 11.40am ET"
      ],
      [
-      "Rugby",
-      "Wales v Japan, Twickenham",
-      "1:10pm UK / 8:10am ET"
+      "Football",
+      "Man United v Brentford; Leeds v Coventry; Ipswich v Villa",
+      "3pm, 3pm, 5.30pm UK / 10am, 10am, 12.30pm ET"
      ],
      [
       "F1",
       "Qatar GP qualifying",
-      "6:00pm UK / 1:00pm ET"
+      "6pm UK / 1pm ET"
      ],
      [
-      "Football",
-      "Manchester United v Brentford; Leeds v Coventry; Ipswich v Villa",
-      "3pm, 3pm, 5:30pm UK"
+      "Tennis",
+      "Davis Cup semi-final: Great Britain v Spain",
+      "Time not read"
      ],
      [
       "Ice hockey",
       "Leafs at Pittsburgh",
       "Time not read"
+     ],
+     [
+      "Squash",
+      "CAS International final, Islamabad",
+      "Time zone not stated"
      ]
     ]
    },
@@ -6258,19 +6274,29 @@
     "day": "Sun 29 Nov",
     "rows": [
      [
-      "Rugby",
-      "Nations Championship final: France v South Africa",
-      "4:40pm UK / 11:40am ET"
+      "Football",
+      "Everton v Liverpool",
+      "12pm UK / 7am ET"
+     ],
+     [
+      "Football",
+      "Fulham v Bournemouth; Brighton v Newcastle; Palace v Hull; Sunderland v Spurs",
+      "2.05pm UK / 9.05am ET"
+     ],
+     [
+      "Football",
+      "Arsenal v Manchester City",
+      "4.30pm UK / 11.30am ET"
      ],
      [
       "F1",
       "Qatar Grand Prix",
-      "4:00pm UK / 11:00am ET"
+      "4pm UK / 11am ET"
      ],
      [
-      "Football",
-      "Everton v Liverpool; Fulham v Bournemouth; Arsenal v Manchester City",
-      "12pm, 2:05pm, 4:30pm UK / 7am, 9:05am, 11:30am ET"
+      "Rugby",
+      "Scotland v Argentina; final France v South Africa",
+      "1.10pm and 4.40pm UK / 8.10am and 11.40am ET"
      ],
      [
       "Tennis",
@@ -6285,17 +6311,22 @@
      [
       "Basketball",
       "Raptors v Denver",
-      "Time not read"
+      "6pm ET"
      ]
     ]
    },
    {
-    "day": "30 Nov – 5 Dec",
+    "day": "30 Nov – 6 Dec",
     "rows": [
      [
       "Ice hockey",
       "Leafs v Philadelphia (30 Nov) and v Florida (3 Dec)",
       "Times not read"
+     ],
+     [
+      "Basketball",
+      "Raptors at Houston (1 Dec) and San Antonio (3 Dec)",
+      "8.30pm and 8pm ET"
      ],
      [
       "Cricket",
@@ -6305,6 +6336,6 @@
     ]
    }
   ],
-  "fixnote": "Midweek and next-weekend European football after 29 Nov, England football internationals, and any other events in the window were not checked. Times can change."
+  "fixnote": "Midweek and next-weekend football after 29 Nov, other internationals and any F1 round after Qatar were not checked. Times can change."
  }
 }
