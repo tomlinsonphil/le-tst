@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Quiz · TST News</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,500..800&family=Source+Sans+3:wght@400;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="icon" type="image/svg+xml" href="/tstnews/favicon.svg">
+<link rel="stylesheet" href="/tstnews/style.css?v=b579fa0b">
+</head>
+<body>
+<div class="wrap">
+<header class="mast"><div><p class="dl">Saturday 28 November 2026 · archive</p><h1><a href="/tstnews/">TST News</a></h1></div><button class="theme" id="themeBtn" type="button">Theme: auto</button></header><nav class="pages top" aria-label="Sections"><a href="/tstnews/archive/2026-11-28/">Latest</a><a href="/tstnews/archive/2026-11-28/#t-fix">Fixtures</a><a href="/tstnews/archive/2026-11-28/#headlines">Headlines</a><a href="/tstnews/archive/2026-11-28/#world">World</a><a href="/tstnews/archive/2026-11-28/#france">France</a><a href="/tstnews/archive/2026-11-28/#toronto">Toronto</a><a href="/tstnews/archive/2026-11-28/#uk">UK</a><a href="/tstnews/archive/2026-11-28/#tech">Tech</a><a href="/tstnews/archive/2026-11-28/#following">Following</a><a href="/tstnews/archive/2026-11-28/#money">Economics</a><a href="/tstnews/archive/2026-11-28/#sport">Sport</a><a href="/tstnews/archive/2026-11-28/quiz/" aria-current="page">Quiz</a><a href="/tstnews/archive/">Archive</a></nav><nav class="pages" aria-label="Sport"><a href="/tstnews/archive/2026-11-28/#sport">Sport</a><a href="/tstnews/archive/2026-11-28/football/">Football</a><a href="/tstnews/archive/2026-11-28/rugby/">Rugby</a><a href="/tstnews/archive/2026-11-28/cricket/">Cricket</a><a href="/tstnews/archive/2026-11-28/tennis/">Tennis</a><a href="/tstnews/archive/2026-11-28/squash/">Squash</a><a href="/tstnews/archive/2026-11-28/field-hockey/">Field hockey</a><a href="/tstnews/archive/2026-11-28/baseball/">Baseball</a><a href="/tstnews/archive/2026-11-28/basketball/">Basketball</a><a href="/tstnews/archive/2026-11-28/ice-hockey/">Ice hockey</a><a href="/tstnews/archive/2026-11-28/f1/">F1</a></nav><div class="daynav"><a href="/tstnews/archive/2026-10-11/quiz/">← 2026-10-11</a> <a href="/tstnews/archive/">All dates</a></div><section class="sec"><h2>Daily quiz: Saturday 28 November 2026: Saturday 28 November 2026</h2><p class="intro">Ten questions on today&#x27;s pages.</p><div id="quiz" class="quiz"></div><noscript><p>The quiz needs JavaScript.</p></noscript></section><script type="application/json" id="qdata">[{"q": "What is the name of the cargo ship the US says it disabled in the Gulf of Oman?", "options": ["Pacific Archer", "Pacific Ranger", "Ocean Archer", "Gulf Pioneer"], "answer": 0, "explain": "The Palau-flagged Pacific Archer, according to the US military."}, {"q": "Which country votes in a general election on Sunday 29 November?", "options": ["Italy", "Portugal", "Spain", "Poland"], "answer": 2, "explain": "Spain; Saturday is its official day of reflection."}, {"q": "When did EU leaders say they would try again to agree their long-term budget?", "options": ["3 December", "17 December", "31 December", "15 January"], "answer": 1, "explain": "They aim to try again at a summit on 17 December."}, {"q": "What has Ontario asked Ottawa to change?", "options": ["The Criminal Code on defending your home", "The federal sales tax", "The Bank of Canada's mandate", "The voting age"], "answer": 0, "explain": "It wants residents not to have to retreat from their home before defending themselves."}, {"q": "Which London district is home to the newly opened London Museum site?", "options": ["Greenwich", "Smithfield", "Battersea", "Camden"], "answer": 1, "explain": "The restored General Market at Smithfield."}, {"q": "When is Statistics Canada due to release third-quarter GDP?", "options": ["Monday 30 November", "Tuesday 1 December", "Friday 4 December", "Wednesday 9 December"], "answer": 0, "explain": "Monday 30 November at 8:30am ET, before the 9 December rate decision."}, {"q": "Who scored twice for Nottingham Forest in the 3–2 win over Chelsea?", "options": ["Igor Jesus", "Emmanuel Emegha", "Morgan Gibbs-White", "Rayan"], "answer": 2, "explain": "Gibbs-White scored a penalty and then a second goal."}, {"q": "What were Jamie Overton's bowling figures in Brisbane?", "options": ["3 for 16", "5 for 12", "5 for 99", "7 for 31"], "answer": 1, "explain": "A career-best 5 for 12."}, {"q": "Which Maple Leafs defenceman scored twice in Boston?", "options": ["Morgan Rielly", "Chris Tanev", "Colton Sissons", "Anthony Stolarz"], "answer": 0, "explain": "Rielly scored his first two goals of the season in the 3–1 win."}, {"q": "Who was fastest in both Friday practice sessions for the Qatar Grand Prix?", "options": ["George Russell", "Lando Norris", "Kimi Antonelli", "Charles Leclerc"], "answer": 2, "explain": "Antonelli, with Russell second in second practice."}]</script><script>
+(function(){
+var Q=JSON.parse(document.getElementById('qdata').textContent),box=document.getElementById('quiz'),qs,i,score,locked;
+function shuf(a){a=a.slice();for(var k=a.length-1;k>0;k--){var j=Math.floor(Math.random()*(k+1)),t=a[k];a[k]=a[j];a[j]=t}return a}
+function el(t,c,x){var e=document.createElement(t);if(c)e.className=c;if(x!==undefined)e.textContent=x;return e}
+function start(){qs=shuf(Q).map(function(q){var o=q.options.map(function(t,n){return{t:t,ok:n===q.answer}});return{q:q.q,o:shuf(o),e:q.explain}});i=0;score=0;show()}
+function show(){box.textContent='';locked=false;
+ if(i>=qs.length){var r=el('div','qres');r.appendChild(el('p','qscore',score+' / '+qs.length));
+  var m=score===qs.length?'Perfect score.':score>=qs.length*0.7?'Well read.':score>=qs.length*0.4?'Not bad. Read the cards again.':"Time to read today's stories.";
+  r.appendChild(el('p','',m));var b=el('button','qbtn','Start again for the next player');b.onclick=start;r.appendChild(b);box.appendChild(r);return}
+ var q=qs[i];box.appendChild(el('p','qmeta','Question '+(i+1)+' of '+qs.length+' · Score '+score));
+ box.appendChild(el('h3','qq',q.q));var list=el('div','qopts'),fb=el('p','qfb');
+ q.o.forEach(function(op){var b=el('button','qopt',op.t);b.onclick=function(){if(locked)return;locked=true;
+  if(op.ok){score++;b.classList.add('good');fb.textContent='Correct. '+q.e}else{b.classList.add('bad');fb.textContent='Not quite. '+q.e;
+   Array.prototype.forEach.call(list.children,function(x,n){if(q.o[n].ok)x.classList.add('good')})}
+  var nx=el('button','qbtn',i+1>=qs.length?'See my score':'Next question');nx.onclick=function(){i++;show()};box.appendChild(nx)};list.appendChild(b)});
+ box.appendChild(list);box.appendChild(fb)}
+start()})();
+</script><footer>
+  <p><b>Where to check the facts.</b> Figures come from news reports and official pages gathered on the date shown. Confirm anything you act on at the source. Economics content is general information, not financial advice.</p>
+</footer>
+</div>
+<script>
+(function(){var b=document.getElementById('themeBtn'),m=['auto','light','dark'],i=0,r=document.documentElement;
+b.addEventListener('click',function(){i=(i+1)%3;if(m[i]==='auto')r.removeAttribute('data-theme');else r.setAttribute('data-theme',m[i]);b.textContent='Theme: '+m[i];});})();
+</script>
+</body>
+</html>
